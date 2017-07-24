@@ -1,0 +1,3564 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PolSourceInfoEnumAgricultureBuilding" xml:space="preserve">
+    <value>Bâtiments</value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureBuildingInit" xml:space="preserve">
+    <value>Bld</value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureBuildingReport" xml:space="preserve">
+    <value>Bâtiments, </value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureBuildingText" xml:space="preserve">
+    <value>Bâtiments, </value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureCrop" xml:space="preserve">
+    <value>Récolte</value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureCropInit" xml:space="preserve">
+    <value>Cr</value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureCropReport" xml:space="preserve">
+    <value>  Cette terre est utilisée principalement pour la récolte qui est</value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureCropText" xml:space="preserve">
+    <value>Récolte, </value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureFarm" xml:space="preserve">
+    <value>Ferme</value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureFarmInit" xml:space="preserve">
+    <value>Fa</value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureFarmReport" xml:space="preserve">
+    <value>  À ce site, il existe une ferme exploitée,</value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureFarmText" xml:space="preserve">
+    <value>Ferme, </value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureFeedlot" xml:space="preserve">
+    <value>Enclos</value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureFeedlotInit" xml:space="preserve">
+    <value>Fl</value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureFeedlotReport" xml:space="preserve">
+    <value>  Cette terre est utilisée principalement comme enclos</value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureFeedlotText" xml:space="preserve">
+    <value>Enclos, </value>
+  </data>
+  <data name="PolSourceInfoEnumAgriculturePasture" xml:space="preserve">
+    <value>Pâturage</value>
+  </data>
+  <data name="PolSourceInfoEnumAgriculturePastureInit" xml:space="preserve">
+    <value>Pa</value>
+  </data>
+  <data name="PolSourceInfoEnumAgriculturePastureReport" xml:space="preserve">
+    <value>  Cette terre est utilisée principalement comme pâturage</value>
+  </data>
+  <data name="PolSourceInfoEnumAgriculturePastureText" xml:space="preserve">
+    <value>Pâturage, </value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureStart" xml:space="preserve">
+    <value>Agriculture</value>
+  </data>
+  <data name="PolSourceInfoEnumAgricultureStartDesc" xml:space="preserve">
+    <value>Type dans un paysage agronome</value>
+  </data>
+  <data name="PolSourceInfoEnumAnimalNumberPresentStart" xml:space="preserve">
+    <value>Nombre présent</value>
+  </data>
+  <data name="PolSourceInfoEnumAnimalNumberPresentStartDesc" xml:space="preserve">
+    <value>Nombre maximal d'animaux présents</value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureCages" xml:space="preserve">
+    <value>Cages</value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureCagesInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumAquacultureCagesReport" xml:space="preserve">
+    <value> des cages et la superficie du champ d'exploitation est</value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureCagesText" xml:space="preserve">
+    <value>Cages,</value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureFloatingBags" xml:space="preserve">
+    <value>Sacs flottantes</value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureFloatingBagsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumAquacultureFloatingBagsReport" xml:space="preserve">
+    <value> des sacs flottantes et la superficie du champ d'exploitation est</value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureFloatingBagsText" xml:space="preserve">
+    <value>Sacs flottantes,</value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureLarge" xml:space="preserve">
+    <value>Grand </value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureLargeInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumAquacultureLargeReport" xml:space="preserve">
+    <value> grand.</value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureLargeText" xml:space="preserve">
+    <value>grand,</value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureSmall" xml:space="preserve">
+    <value>Petit</value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureSmallInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumAquacultureSmallReport" xml:space="preserve">
+    <value> petit.</value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureSmallText" xml:space="preserve">
+    <value>petit,</value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureSubmergedLines" xml:space="preserve">
+    <value>Lignes submergées </value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureSubmergedLinesInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumAquacultureSubmergedLinesReport" xml:space="preserve">
+    <value> des lignes submergées et la superficie du champ d'exploitation est</value>
+  </data>
+  <data name="PolSourceInfoEnumAquacultureSubmergedLinesText" xml:space="preserve">
+    <value>Lignes submergées, </value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSizeLarge" xml:space="preserve">
+    <value>Grand</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSizeLargeInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumAreaSizeLargeReport" xml:space="preserve">
+    <value>  L'empreinte est relativement importante et</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSizeLargeText" xml:space="preserve">
+    <value>Grand,</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSizeSmall" xml:space="preserve">
+    <value>Petit</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSizeSmallInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumAreaSizeSmallReport" xml:space="preserve">
+    <value>  L'empreinte est relativement minime et</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSizeSmallText" xml:space="preserve">
+    <value>Petit, </value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSizeStart" xml:space="preserve">
+    <value>Taille de l'endroit</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSizeStartDesc" xml:space="preserve">
+    <value>Estimation de la taille relative</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeHigh" xml:space="preserve">
+    <value>Raide</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeHighInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeHighReport" xml:space="preserve">
+    <value> sur une pente raide</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeLow" xml:space="preserve">
+    <value>Faible</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeLowInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeLowReport" xml:space="preserve">
+    <value> sur une pente faible</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeMedium" xml:space="preserve">
+    <value>Modérée</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeMediumInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeMediumReport" xml:space="preserve">
+    <value> sur une pente modérée</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeStart" xml:space="preserve">
+    <value>Pente de l'endroit</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeStartDesc" xml:space="preserve">
+    <value>Pente à partir de la source jusqu'à la côte maritime (m)</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetween25and50" xml:space="preserve">
+    <value> 25 à 50 bateaux</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetween25and50Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetween25and50Report" xml:space="preserve">
+    <value> 25 à 50 bateaux.</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetween25and50Text" xml:space="preserve">
+    <value> 25 à 50 bateaux.</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetween50and100" xml:space="preserve">
+    <value> 50 à 100 bateaux</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetween50and100Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetween50and100Report" xml:space="preserve">
+    <value> 50 à 100 bateaux.</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetween50and100Text" xml:space="preserve">
+    <value> 50 à 100 bateaux.</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetween5and25" xml:space="preserve">
+    <value> 5 à 25 bateaux</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetween5and25Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetween5and25Report" xml:space="preserve">
+    <value> 5 à 25 bateaux.</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetween5and25Text" xml:space="preserve">
+    <value> 5 à 25 bateaux.</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetweenMoreThan100" xml:space="preserve">
+    <value> 100 bateaux et plus</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetweenMoreThan100Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetweenMoreThan100Report" xml:space="preserve">
+    <value> 100 bateaux et plus. </value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountBetweenMoreThan100Text" xml:space="preserve">
+    <value> 100 bateaux et plus. </value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountEquals1" xml:space="preserve">
+    <value> 1 bateau</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountEquals1Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBoatCountEquals1Report" xml:space="preserve">
+    <value> 1 bateau.</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountEquals1Text" xml:space="preserve">
+    <value> 1 bateau.</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountLessThan5" xml:space="preserve">
+    <value> 2 à 5 bateaux</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountLessThan5Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBoatCountLessThan5Report" xml:space="preserve">
+    <value> 2 à 5 bateaux.</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatCountLessThan5Text" xml:space="preserve">
+    <value> 2 à 5 bateaux.</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatStart" xml:space="preserve">
+    <value>Bateau</value>
+  </data>
+  <data name="PolSourceInfoEnumBoatStartDesc" xml:space="preserve">
+    <value>Nombre de navires présents ou nombre maximal</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAgricultureStart" xml:space="preserve">
+    <value>Type d'édifices</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAgricultureStartDesc" xml:space="preserve">
+    <value>Types d'édifices qui sont dans un paysage agronome</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllCommerical" xml:space="preserve">
+    <value>Commercial-affaires</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllCommericalInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllCommericalReport" xml:space="preserve">
+    <value> des édifices commerciaux, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllCommericalText" xml:space="preserve">
+    <value>Commercial-affaires, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllCottage" xml:space="preserve">
+    <value>Chalet</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllCottageInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllCottageReport" xml:space="preserve">
+    <value> des chalets, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllCottageText" xml:space="preserve">
+    <value>Chalet, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllHotelMotel" xml:space="preserve">
+    <value>Hôtel ou motel</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllHotelMotelInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllHotelMotelReport" xml:space="preserve">
+    <value> des hôtels ou motels, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllHotelMotelText" xml:space="preserve">
+    <value>Hôtel ou motel, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllResidential" xml:space="preserve">
+    <value>Résidentiel</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllResidentialInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllResidentialReport" xml:space="preserve">
+    <value> des résidences, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllResidentialText" xml:space="preserve">
+    <value>Résidentiel, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllStart" xml:space="preserve">
+    <value>Bâtiments</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllStartDesc" xml:space="preserve">
+    <value>Type principal d'édifice</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllTrailer" xml:space="preserve">
+    <value>Caravane</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllTrailerInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllTrailerReport" xml:space="preserve">
+    <value> des caravanes, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllTrailerText" xml:space="preserve">
+    <value>Caravane, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllWarehouse" xml:space="preserve">
+    <value>Entrepôt</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllWarehouseInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllWarehouseReport" xml:space="preserve">
+    <value> des entrepôts, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingAllWarehouseText" xml:space="preserve">
+    <value>Entrepôt, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingBarnFarm" xml:space="preserve">
+    <value>Grange</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingBarnFarmInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingBarnFarmReport" xml:space="preserve">
+    <value>  Il y a des granges sur le terrain, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingBarnFarmText" xml:space="preserve">
+    <value>Grange,</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingCommericalFarm" xml:space="preserve">
+    <value>Commercial-affaires, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingCommericalFarmInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingCommericalFarmReport" xml:space="preserve">
+    <value>  Il y a des édifices commerciaux sur le terrain, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingCommericalFarmText" xml:space="preserve">
+    <value>Commercial-affaires, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishCommercial" xml:space="preserve">
+    <value>Commercial</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishCommercialInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishCommercialReport" xml:space="preserve">
+    <value> édifices commerciaux, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishCommercialText" xml:space="preserve">
+    <value>Commercial, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishHatchery" xml:space="preserve">
+    <value>Incubateur</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishHatcheryInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishHatcheryReport" xml:space="preserve">
+    <value> incubateurs avec réservoirs, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishHatcheryText" xml:space="preserve">
+    <value>Incubateur,</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishStart" xml:space="preserve">
+    <value>Bâtiments pour la pêche</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishStartDesc" xml:space="preserve">
+    <value>Type d'édifice ou de structure</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishTanks" xml:space="preserve">
+    <value>Réservoirs</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishTanksInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishTanksReport" xml:space="preserve">
+    <value> réservoirs, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishTanksText" xml:space="preserve">
+    <value>Réservoirs, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishWarehouse" xml:space="preserve">
+    <value>Entrepôt</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishWarehouseInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishWarehouseReport" xml:space="preserve">
+    <value> entrepôts, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingFishWarehouseText" xml:space="preserve">
+    <value>Entrepôt, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedCommerical" xml:space="preserve">
+    <value>Commercial</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedCommericalInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedCommericalReport" xml:space="preserve">
+    <value> et pour utilisation commerciale, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedCommericalText" xml:space="preserve">
+    <value>Commercial</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedFactory" xml:space="preserve">
+    <value>Usine</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedFactoryInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedFactoryReport" xml:space="preserve">
+    <value> des usines, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedFactoryText" xml:space="preserve">
+    <value>Usine, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedRecreational" xml:space="preserve">
+    <value>Récréatif</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedRecreationalInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedRecreationalReport" xml:space="preserve">
+    <value> à des fins récréatives, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedRecreationalText" xml:space="preserve">
+    <value>Récréatif,</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedResidential" xml:space="preserve">
+    <value>Résidentiel</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedResidentialInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedResidentialReport" xml:space="preserve">
+    <value> des résidences, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedResidentialText" xml:space="preserve">
+    <value>Résidentiel,</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedStart" xml:space="preserve">
+    <value>Édifice forestier</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedStartDesc" xml:space="preserve">
+    <value>Types d'édifices qui sont dans un paysage forestier</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedTrailer" xml:space="preserve">
+    <value>Caravane</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedTrailerInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedTrailerReport" xml:space="preserve">
+    <value> des caravanes, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedTrailerText" xml:space="preserve">
+    <value>Caravane, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedWarehouse" xml:space="preserve">
+    <value>Entrepôt</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedWarehouseInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedWarehouseReport" xml:space="preserve">
+    <value> des entrepôts, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingForestedWarehouseText" xml:space="preserve">
+    <value>Entrepôt, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingIndustryCommerical" xml:space="preserve">
+    <value>Commercial</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingIndustryCommericalInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingIndustryCommericalReport" xml:space="preserve">
+    <value> et des édifices commerciaux, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingIndustryCommericalText" xml:space="preserve">
+    <value>Commercial-affaires, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingIndustryFactory" xml:space="preserve">
+    <value>Usine</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingIndustryFactoryInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingIndustryFactoryReport" xml:space="preserve">
+    <value> et des usines, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingIndustryFactoryText" xml:space="preserve">
+    <value>Usine, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingindustryWarehouse" xml:space="preserve">
+    <value>Entrepôt</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingindustryWarehouseInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingindustryWarehouseReport" xml:space="preserve">
+    <value> et des entrepôts, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingindustryWarehouseText" xml:space="preserve">
+    <value>Entrepôt, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingRecreational" xml:space="preserve">
+    <value>Récréatif</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingRecreationalInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingRecreationalReport" xml:space="preserve">
+    <value>  Il y a des bâtiments à des fins récréatifs sur le terrain, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingRecreationalText" xml:space="preserve">
+    <value>Récréatif,</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingResidentialFarm" xml:space="preserve">
+    <value>Résidentiel</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingResidentialFarmInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingResidentialFarmReport" xml:space="preserve">
+    <value>  Il y a des résidences sur le terrain, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingResidentialFarmText" xml:space="preserve">
+    <value>Résidentiel, </value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingTypeStart" xml:space="preserve">
+    <value>Type d'édifices</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingTypeStartDesc" xml:space="preserve">
+    <value>Type principal d'édifice</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingWarehouseFarm" xml:space="preserve">
+    <value>Entrepôt</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingWarehouseFarmInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumBuildingWarehouseFarmReport" xml:space="preserve">
+    <value>  Il y a des entrepôts sur le terrain, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumBuildingWarehouseFarmText" xml:space="preserve">
+    <value>Entrepôt, </value>
+  </data>
+  <data name="PolSourceInfoEnumCampgroundFacilitiesStart" xml:space="preserve">
+    <value>Taille du terrain de camping</value>
+  </data>
+  <data name="PolSourceInfoEnumCampgroundFacilitiesStartDesc" xml:space="preserve">
+    <value>Terrains de camping - Les plus grands possèdent une station d'élimination des eaux usées</value>
+  </data>
+  <data name="PolSourceInfoEnumCampgroundNoDumpStn" xml:space="preserve">
+    <value>Aucune station d’élimination des eaux usées</value>
+  </data>
+  <data name="PolSourceInfoEnumCampgroundNoDumpStnInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumCampgroundNoDumpStnReport" xml:space="preserve">
+    <value> aucune station d’élimination des eaux usées.  Elle assure la gestion des déchets à l'aide d'</value>
+  </data>
+  <data name="PolSourceInfoEnumCampgroundNoDumpStnText" xml:space="preserve">
+    <value>Aucune station d’élimination des eaux usées,</value>
+  </data>
+  <data name="PolSourceInfoEnumCampgroundwithDumpStn" xml:space="preserve">
+    <value>Station d’élimination des eaux usées</value>
+  </data>
+  <data name="PolSourceInfoEnumCampgroundwithDumpStnInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumCampgroundwithDumpStnReport" xml:space="preserve">
+    <value> une station d’élimination des eaux usées.  Elle assure la gestion des déchets à l'aide d'</value>
+  </data>
+  <data name="PolSourceInfoEnumCampgroundwithDumpStnText" xml:space="preserve">
+    <value>Station d’élimination des eaux usées,</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberbBetween10and25" xml:space="preserve">
+    <value>10 à 25</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberbBetween10and25Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumCountNumberbBetween10and25Report" xml:space="preserve">
+    <value> 10 à 25 unités.</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberbBetween10and25Text" xml:space="preserve">
+    <value> 10 à 25 unités,</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberbBetween25and40" xml:space="preserve">
+    <value>25 à 40</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberbBetween25and40Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumCountNumberbBetween25and40Report" xml:space="preserve">
+    <value> 25 à 40 unités.</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberbBetween25and40Text" xml:space="preserve">
+    <value> 25 à 40 unités,</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberbBetween5and10" xml:space="preserve">
+    <value>5 à 10</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberbBetween5and10Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumCountNumberbBetween5and10Report" xml:space="preserve">
+    <value> 5 à 10 unités.</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberbBetween5and10Text" xml:space="preserve">
+    <value> 5 à 10 unités,</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberBetween1and5" xml:space="preserve">
+    <value>1 à 5</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberBetween1and5Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumCountNumberBetween1and5Report" xml:space="preserve">
+    <value> 1 à 5 unités.</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberBetween1and5Text" xml:space="preserve">
+    <value> 1 à 5 unités,</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberEqualTo1" xml:space="preserve">
+    <value>  1</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberEqualTo1Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumCountNumberEqualTo1Report" xml:space="preserve">
+    <value> 1 unité.</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberEqualTo1Text" xml:space="preserve">
+    <value>1 unité,</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberGreaterThan40" xml:space="preserve">
+    <value>40 et plus.</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberGreaterThan40Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumCountNumberGreaterThan40Report" xml:space="preserve">
+    <value> 40 et plus.</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberGreaterThan40Text" xml:space="preserve">
+    <value> 40 et plus.</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberStart" xml:space="preserve">
+    <value>Nombre d'unités</value>
+  </data>
+  <data name="PolSourceInfoEnumCountNumberStartDesc" xml:space="preserve">
+    <value>Nombre d'unités</value>
+  </data>
+  <data name="PolSourceInfoEnumCropFood" xml:space="preserve">
+    <value>Nourriture</value>
+  </data>
+  <data name="PolSourceInfoEnumCropFoodInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumCropFoodReport" xml:space="preserve">
+    <value> pour la nourriture.</value>
+  </data>
+  <data name="PolSourceInfoEnumCropFoodText" xml:space="preserve">
+    <value>Nourriture, </value>
+  </data>
+  <data name="PolSourceInfoEnumCropHay" xml:space="preserve">
+    <value>Foin</value>
+  </data>
+  <data name="PolSourceInfoEnumCropHayInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumCropHayReport" xml:space="preserve">
+    <value> pour le foin.</value>
+  </data>
+  <data name="PolSourceInfoEnumCropHayText" xml:space="preserve">
+    <value>Foin, </value>
+  </data>
+  <data name="PolSourceInfoEnumCropPeatMoss" xml:space="preserve">
+    <value>Tourbe</value>
+  </data>
+  <data name="PolSourceInfoEnumCropPeatMossInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumCropPeatMossReport" xml:space="preserve">
+    <value> pour la tourbe.</value>
+  </data>
+  <data name="PolSourceInfoEnumCropPeatMossText" xml:space="preserve">
+    <value>Tourbe,</value>
+  </data>
+  <data name="PolSourceInfoEnumCropStart" xml:space="preserve">
+    <value>Récolte</value>
+  </data>
+  <data name="PolSourceInfoEnumCropStartDesc" xml:space="preserve">
+    <value>La récolte principale qu'on retrouve dans le milieu</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersBetween100and200cm" xml:space="preserve">
+    <value>100 à 200 (cm)</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersBetween100and200cmInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersBetween100and200cmReport" xml:space="preserve">
+    <value> 100 à 200 (cm) et le débit est</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersBetween100and200cmText" xml:space="preserve">
+    <value>100 à 200 (cm),</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersBetween30and100cm" xml:space="preserve">
+    <value> 30 à 100 (cm)</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersBetween30and100cmInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersBetween30and100cmReport" xml:space="preserve">
+    <value> 30 à 100 (cm) et le débit est</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersBetween30and100cmText" xml:space="preserve">
+    <value>30 à 100 (cm),</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30" xml:space="preserve">
+    <value>  moins de 30 (cm)</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30Report" xml:space="preserve">
+    <value> moins de 30 (cm) et le débit est</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30Text" xml:space="preserve">
+    <value>moins de 30 (cm),</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersMoreThan200cm" xml:space="preserve">
+    <value>200 et plus (cm)</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersMoreThan200cmInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersMoreThan200cmReport" xml:space="preserve">
+    <value> 200 et plus (cm) et le débit est</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersMoreThan200cmText" xml:space="preserve">
+    <value>200 et plus (cm),</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersStart" xml:space="preserve">
+    <value>Diamètre du tuyau ou aqueduc en centimètres </value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersStartDesc" xml:space="preserve">
+    <value>Le diamètre approximatif en centimètres</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersBetween100And250" xml:space="preserve">
+    <value>   100 à 250</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersBetween100And250Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersBetween100And250Report" xml:space="preserve">
+    <value> entre 100 et 250 m de la côte</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersBetween250And500" xml:space="preserve">
+    <value>  250 à 500</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersBetween250And500Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersBetween250And500Report" xml:space="preserve">
+    <value> entre 250 et 500 m de la côte</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersBetween500And1000" xml:space="preserve">
+    <value> 500 à 1000</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersBetween500And1000Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersBetween500And1000Report" xml:space="preserve">
+    <value> entre 500 et 1000 m de la côte</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersLessThan100" xml:space="preserve">
+    <value>      Moins de 100</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersLessThan100Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersLessThan100Report" xml:space="preserve">
+    <value> à moins de 100 m de la côte</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersMoreThan1000" xml:space="preserve">
+    <value>1000 et plus</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersMoreThan1000Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersMoreThan1000Report" xml:space="preserve">
+    <value> à plus de 1 km de la côte</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersOnShore" xml:space="preserve">
+    <value>          Sur la côte</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersOnShoreInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersOnShoreReport" xml:space="preserve">
+    <value> sur une côte</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersStart" xml:space="preserve">
+    <value>Distance de la côte (mètres)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceFromShoreInMetersStartDesc" xml:space="preserve">
+    <value>Distance approximative vers la côte maritime (m)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersBetween100And250" xml:space="preserve">
+    <value>    100 à 250</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersBetween100And250Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersBetween100And250Report" xml:space="preserve">
+    <value> entre 100 et 250 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersBetween250And500" xml:space="preserve">
+    <value>   250 à 500</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersBetween250And500Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersBetween250And500Report" xml:space="preserve">
+    <value> entre 250 et 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersBetween500And1000" xml:space="preserve">
+    <value>  500 à 1000</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersBetween500And1000Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersBetween500And1000Report" xml:space="preserve">
+    <value> entre 500 et 1000 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersLessThan100" xml:space="preserve">
+    <value>      moins de 100</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersLessThan100Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersLessThan100Report" xml:space="preserve">
+    <value> à moins de 100 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersMoreThan1000" xml:space="preserve">
+    <value>1000 et plus</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersMoreThan1000Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersMoreThan1000Report" xml:space="preserve">
+    <value> à plus de 1 km de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersStart" xml:space="preserve">
+    <value>Distance sur l'eau</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceOnWaterMetersStartDesc" xml:space="preserve">
+    <value>Distance approximative de la côte maritime (m)</value>
+  </data>
+  <data name="PolSourceInfoEnumDitchAlongRoad" xml:space="preserve">
+    <value>Le long d'un chemin</value>
+  </data>
+  <data name="PolSourceInfoEnumDitchAlongRoadInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDitchAlongRoadReport" xml:space="preserve">
+    <value>  Le fossé s'étend le long de la route et</value>
+  </data>
+  <data name="PolSourceInfoEnumDitchAlongRoadText" xml:space="preserve">
+    <value>Le long d'un chemin,</value>
+  </data>
+  <data name="PolSourceInfoEnumDitchBetweenAcrossProperties" xml:space="preserve">
+    <value>Par le biais de terrains</value>
+  </data>
+  <data name="PolSourceInfoEnumDitchBetweenAcrossPropertiesInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDitchBetweenAcrossPropertiesReport" xml:space="preserve">
+    <value>  Le fossé s'étand le long de l'ensemble des terrains et</value>
+  </data>
+  <data name="PolSourceInfoEnumDitchBetweenAcrossPropertiesText" xml:space="preserve">
+    <value>Par le biais de terrains,</value>
+  </data>
+  <data name="PolSourceInfoEnumDitchStart" xml:space="preserve">
+    <value>Fossé</value>
+  </data>
+  <data name="PolSourceInfoEnumDitchStartDesc" xml:space="preserve">
+    <value>L'emplacement du fossé par rapport au paysage</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainageBareSoilSurfaces" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainageBareSoilSurfacesInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDrainageBareSoilSurfacesReport" xml:space="preserve">
+    <value> par l'entremise des sols.</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainageBareSoilSurfacesText" xml:space="preserve">
+    <value>Sol,</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainageDirect" xml:space="preserve">
+    <value>Débit direct</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainageDirectInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDrainageDirectReport" xml:space="preserve">
+    <value> directement de la source.</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainageDirectText" xml:space="preserve">
+    <value>Débit direct,</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainagePavedSurfaces" xml:space="preserve">
+    <value>Surface d'asphalte</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainagePavedSurfacesInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDrainagePavedSurfacesReport" xml:space="preserve">
+    <value> par le biais de surfaces d'asphalte.</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainagePavedSurfacesText" xml:space="preserve">
+    <value>Surface d'asphalte,</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainageStart" xml:space="preserve">
+    <value>Drainage</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainageStartDesc" xml:space="preserve">
+    <value>Type de surface par laquelle le débit s'infiltre</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainageVegetatedSurfaces" xml:space="preserve">
+    <value>Surface recouverte de végétation</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainageVegetatedSurfacesInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDrainageVegetatedSurfacesReport" xml:space="preserve">
+    <value> par le biais de surfaces recouvertes de végétation.</value>
+  </data>
+  <data name="PolSourceInfoEnumDrainageVegetatedSurfacesText" xml:space="preserve">
+    <value>Surface de végétation,</value>
+  </data>
+  <data name="PolSourceInfoEnumFarmCommerical" xml:space="preserve">
+    <value>Commercial</value>
+  </data>
+  <data name="PolSourceInfoEnumFarmCommericalInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFarmCommericalReport" xml:space="preserve">
+    <value> au niveau commercial.</value>
+  </data>
+  <data name="PolSourceInfoEnumFarmCommericalText" xml:space="preserve">
+    <value>Commercial, </value>
+  </data>
+  <data name="PolSourceInfoEnumFarmHobby" xml:space="preserve">
+    <value>Divertissement</value>
+  </data>
+  <data name="PolSourceInfoEnumFarmHobbyInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFarmHobbyReport" xml:space="preserve">
+    <value> mais non-commerciale.</value>
+  </data>
+  <data name="PolSourceInfoEnumFarmHobbyText" xml:space="preserve">
+    <value>Non-commercial,</value>
+  </data>
+  <data name="PolSourceInfoEnumFarmStart" xml:space="preserve">
+    <value>Ferme</value>
+  </data>
+  <data name="PolSourceInfoEnumFarmStartDesc" xml:space="preserve">
+    <value>Une ferme de loisir pour le passe-temps</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceAbsent" xml:space="preserve">
+    <value>Nul</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceAbsentInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceAbsentReport" xml:space="preserve">
+    <value>  Il n'y a aucun problème à ce site.</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceAbsentText" xml:space="preserve">
+    <value>Nul, </value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceDrainagewater" xml:space="preserve">
+    <value>Écoulement d'eau</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceDrainagewaterInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceDrainagewaterReport" xml:space="preserve">
+    <value>  La préoccupation majeure est l'écoulement d'eau qui provient d'</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceDrainagewaterText" xml:space="preserve">
+    <value>Écoulement d'eau,</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceLivestock" xml:space="preserve">
+    <value>Bétail</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceLivestockInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceLivestockReport" xml:space="preserve">
+    <value>  À ce site, on retrouve des</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceLivestockText" xml:space="preserve">
+    <value>Bétail, </value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourcePeople" xml:space="preserve">
+    <value>Personnes</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourcePeopleInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFecalSourcePeopleReport" xml:space="preserve">
+    <value>  Le flux des eaux usées se décharge vers</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourcePeopleText" xml:space="preserve">
+    <value>Personnes, </value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceStart" xml:space="preserve">
+    <value>Source fécale</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceStartDesc" xml:space="preserve">
+    <value>Source principale qui crée les coliformes fécaux</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceWildlife" xml:space="preserve">
+    <value>Faune</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceWildlifeInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceWildlifeReport" xml:space="preserve">
+    <value>  La préoccupation primaire est la faune, composée de</value>
+  </data>
+  <data name="PolSourceInfoEnumFecalSourceWildlifeText" xml:space="preserve">
+    <value>Faune, </value>
+  </data>
+  <data name="PolSourceInfoEnumFeedlotActive" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="PolSourceInfoEnumFeedlotActiveInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFeedlotActiveReport" xml:space="preserve">
+    <value> qui est actif.</value>
+  </data>
+  <data name="PolSourceInfoEnumFeedlotActiveText" xml:space="preserve">
+    <value>Actif, </value>
+  </data>
+  <data name="PolSourceInfoEnumFeedlotNotActive" xml:space="preserve">
+    <value>Inactif</value>
+  </data>
+  <data name="PolSourceInfoEnumFeedlotNotActiveInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFeedlotNotActiveReport" xml:space="preserve">
+    <value> et celui-ci est présentement inactif.</value>
+  </data>
+  <data name="PolSourceInfoEnumFeedlotNotActiveText" xml:space="preserve">
+    <value>Inactif, </value>
+  </data>
+  <data name="PolSourceInfoEnumFeedlotStart" xml:space="preserve">
+    <value>Enclos</value>
+  </data>
+  <data name="PolSourceInfoEnumFeedlotStartDesc" xml:space="preserve">
+    <value>Est-ce que l'enclos est actif ou inactif</value>
+  </data>
+  <data name="PolSourceInfoEnumFishProcessingFinfish" xml:space="preserve">
+    <value>Poissons</value>
+  </data>
+  <data name="PolSourceInfoEnumFishProcessingFinfishInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFishProcessingFinfishReport" xml:space="preserve">
+    <value> des poissons, dans</value>
+  </data>
+  <data name="PolSourceInfoEnumFishProcessingFinfishText" xml:space="preserve">
+    <value>Poissons,</value>
+  </data>
+  <data name="PolSourceInfoEnumFishProcessingFishMeal" xml:space="preserve">
+    <value>Nourriture à base de poisson</value>
+  </data>
+  <data name="PolSourceInfoEnumFishProcessingFishMealInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFishProcessingFishMealReport" xml:space="preserve">
+    <value> de la nourriture à base de poisson, dans</value>
+  </data>
+  <data name="PolSourceInfoEnumFishProcessingFishMealText" xml:space="preserve">
+    <value>Nourriture à base de poisson,</value>
+  </data>
+  <data name="PolSourceInfoEnumFishProcessingShellfish" xml:space="preserve">
+    <value>Mollusques</value>
+  </data>
+  <data name="PolSourceInfoEnumFishProcessingShellfishInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFishProcessingShellfishReport" xml:space="preserve">
+    <value> des mollusques, dans</value>
+  </data>
+  <data name="PolSourceInfoEnumFishProcessingShellfishText" xml:space="preserve">
+    <value>Mollusques,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelHigh" xml:space="preserve">
+    <value>Élevé</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelHighInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelHighReport" xml:space="preserve">
+    <value> élevé.</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelHighText" xml:space="preserve">
+    <value>Élevé, </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelLow" xml:space="preserve">
+    <value>  Faible</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelLowInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelLowReport" xml:space="preserve">
+    <value> faible.</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelLowText" xml:space="preserve">
+    <value>Faible,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelMedium" xml:space="preserve">
+    <value> Modéré</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelMediumInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelMediumReport" xml:space="preserve">
+    <value> modéré.</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelMediumText" xml:space="preserve">
+    <value>Modéré, </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelStart" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowLevelStartDesc" xml:space="preserve">
+    <value>Un niveau élevé est considéré comme étant une inondation</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedBuilding" xml:space="preserve">
+    <value>Bâtiment</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedBuildingInit" xml:space="preserve">
+    <value>Bld</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedBuildingReport" xml:space="preserve">
+    <value> avec des édifices utilisés pour le</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedBuildingText" xml:space="preserve">
+    <value>Bâtiment, </value>
+  </data>
+  <data name="PolSourceInfoEnumForestedClearcut" xml:space="preserve">
+    <value>Coupe à blanc</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedClearcutInit" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedClearcutReport" xml:space="preserve">
+    <value> qui a écopé une coupe à blanc.</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedClearcutText" xml:space="preserve">
+    <value>Coupe à blanc, </value>
+  </data>
+  <data name="PolSourceInfoEnumForestedLoggingActivity" xml:space="preserve">
+    <value>Activités d'exploitation forestière</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedLoggingActivityInit" xml:space="preserve">
+    <value>Hr</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedLoggingActivityReport" xml:space="preserve">
+    <value> qui est en cours d'une activité d'exploitation forestière.</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedLoggingActivityText" xml:space="preserve">
+    <value>Activités d'exploitation forestière, </value>
+  </data>
+  <data name="PolSourceInfoEnumForestedRegrowth" xml:space="preserve">
+    <value>Reboisement</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedRegrowthInit" xml:space="preserve">
+    <value>Rg</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedRegrowthReport" xml:space="preserve">
+    <value> qui est dans un état de reboisement.</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedRegrowthText" xml:space="preserve">
+    <value>Reboisement, </value>
+  </data>
+  <data name="PolSourceInfoEnumForestedStart" xml:space="preserve">
+    <value>Foresterie</value>
+  </data>
+  <data name="PolSourceInfoEnumForestedStartDesc" xml:space="preserve">
+    <value>Type dans un paysage boisé</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryAirport" xml:space="preserve">
+    <value>Aéroport</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryAirportInit" xml:space="preserve">
+    <value>Ap</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryAirportReport" xml:space="preserve">
+    <value>  La préoccupation primaire est un aéroport</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryAirportText" xml:space="preserve">
+    <value>Aéroport, </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryCommercial" xml:space="preserve">
+    <value>Commerces</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryCommercialInit" xml:space="preserve">
+    <value>Bld</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryCommercialReport" xml:space="preserve">
+    <value>  La zone est commerciale</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryCommercialText" xml:space="preserve">
+    <value>Commerces, </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryFisheriesRelated" xml:space="preserve">
+    <value>Pêches</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryFisheriesRelatedInit" xml:space="preserve">
+    <value>Fis</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryFisheriesRelatedReport" xml:space="preserve">
+    <value>  La préoccupation primaire est la pêche de</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryFisheriesRelatedText" xml:space="preserve">
+    <value>Pêches, </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryLandfill" xml:space="preserve">
+    <value>Centre d'enfouissement</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryLandfillInit" xml:space="preserve">
+    <value>Lf</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryLandfillReport" xml:space="preserve">
+    <value>  La préoccupation primaire est un centre d'enfouissement</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryLandfillText" xml:space="preserve">
+    <value>Centre d'enfouissement, </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryStart" xml:space="preserve">
+    <value>Industrie</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryStartDesc" xml:space="preserve">
+    <value>Type dans un encadrement industriel</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryStorageTank" xml:space="preserve">
+    <value>Réservoir</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryStorageTankInit" xml:space="preserve">
+    <value>Ta</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryStorageTankReport" xml:space="preserve">
+    <value>  La préoccupation primaire est un réservoir utilisé pour</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryStorageTankText" xml:space="preserve">
+    <value>Réservoir, </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryWaste" xml:space="preserve">
+    <value>Traitement des eaux usées</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryWasteInit" xml:space="preserve">
+    <value>TP</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryWasteReport" xml:space="preserve">
+    <value>  La préoccupation primaire est le traitement des eaux usées par</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustryWasteText" xml:space="preserve">
+    <value>Traitement des eaux usées,</value>
+  </data>
+  <data name="PolSourceInfoEnumLandBased" xml:space="preserve">
+    <value>Terrestre</value>
+  </data>
+  <data name="PolSourceInfoEnumLandBasedInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumLandBasedReport" xml:space="preserve">
+    <value>Cette source se retrouve</value>
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeIndustrial" xml:space="preserve">
+    <value>Mise en décharge industrielle</value>
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeIndustrialInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeIndustrialReport" xml:space="preserve">
+    <value> utilisé pour les déchets industriels.</value>
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeIndustrialText" xml:space="preserve">
+    <value>Mise en décharge industrielle,</value>
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeResidental" xml:space="preserve">
+    <value>Mise en décharge résidentielle</value>
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeResidentalInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeResidentalReport" xml:space="preserve">
+    <value> utilisé pour les déchets résidentiels.</value>
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeResidentalText" xml:space="preserve">
+    <value>Mise en décharge résidentielle,</value>
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeStart" xml:space="preserve">
+    <value>Type de mise en décharge</value>
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeStartDesc" xml:space="preserve">
+    <value>Type de mise en décharge ou de dépotoir</value>
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeWoodwaste" xml:space="preserve">
+    <value>Mise en décharge de déchets ligneux</value>
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeWoodwasteInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeWoodwasteReport" xml:space="preserve">
+    <value> utilisé pour les déchets ligneux.</value>
+  </data>
+  <data name="PolSourceInfoEnumLandfillTypeWoodwasteText" xml:space="preserve">
+    <value>Décharge de déchets ligneux,</value>
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueAbsent1" xml:space="preserve">
+    <value>Aucun problème identifié</value>
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueAbsent1Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueAbsent1Report" xml:space="preserve">
+    <value> aucun problème n'a été identifié lors des inspections.</value>
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueAbsent1Text" xml:space="preserve">
+    <value>Aucun problème identifié,</value>
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueRunoff" xml:space="preserve">
+    <value>Ruisellement</value>
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueRunoffInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueRunoffReport" xml:space="preserve">
+    <value> la préoccupation majeure est le ruisellement à travers</value>
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueRunoffText" xml:space="preserve">
+    <value>Ruisellement,</value>
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueSourceManurePile" xml:space="preserve">
+    <value>Tas de fumier</value>
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueSourceManurePileInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueSourceManurePileReport" xml:space="preserve">
+    <value> la préoccupation majeure est un tas de fumier qui</value>
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueSourceManurePileText" xml:space="preserve">
+    <value>Tas de fumier,</value>
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueSourceStart" xml:space="preserve">
+    <value>Préoccupation majeure</value>
+  </data>
+  <data name="PolSourceInfoEnumMajorIssueSourceStartDesc" xml:space="preserve">
+    <value>La préoccupation majeure qui fut observée à cette source</value>
+  </data>
+  <data name="PolSourceInfoEnumManurePileLarge" xml:space="preserve">
+    <value>Grand </value>
+  </data>
+  <data name="PolSourceInfoEnumManurePileLargeInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumManurePileLargeReport" xml:space="preserve">
+    <value> est relativement grand; de plus,</value>
+  </data>
+  <data name="PolSourceInfoEnumManurePileLargeText" xml:space="preserve">
+    <value>Grand,</value>
+  </data>
+  <data name="PolSourceInfoEnumManurePileSizeStart" xml:space="preserve">
+    <value>Grandeur du tas de fumier</value>
+  </data>
+  <data name="PolSourceInfoEnumManurePileSizeStartDesc" xml:space="preserve">
+    <value>Grandeur approximative du tas de fumier</value>
+  </data>
+  <data name="PolSourceInfoEnumManurePileSmall" xml:space="preserve">
+    <value>Petit</value>
+  </data>
+  <data name="PolSourceInfoEnumManurePileSmallInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumManurePileSmallReport" xml:space="preserve">
+    <value> est relativement petit; de plus,</value>
+  </data>
+  <data name="PolSourceInfoEnumManurePileSmallText" xml:space="preserve">
+    <value>Petit,</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineBuildings" xml:space="preserve">
+    <value>Bâtiment</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineBuildingsInit" xml:space="preserve">
+    <value>Bld</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineBuildingsReport" xml:space="preserve">
+    <value>  La préoccupation primaire est des bâtiments qui sont utilisés pour</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineBuildingsText" xml:space="preserve">
+    <value>Bâtiment, </value>
+  </data>
+  <data name="PolSourceInfoEnumMarineSeaWall" xml:space="preserve">
+    <value>Mur marin</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineSeaWallInit" xml:space="preserve">
+    <value>Wal</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineSeaWallReport" xml:space="preserve">
+    <value>  L'attrribut principal est un mur marin avec un</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineSeaWallText" xml:space="preserve">
+    <value>Mur marin,</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineStart" xml:space="preserve">
+    <value>Installations marines</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineStartDesc" xml:space="preserve">
+    <value>Type dans un milieu marin, qui est attaché au territoire</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineWharf" xml:space="preserve">
+    <value>Quai</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineWharfInit" xml:space="preserve">
+    <value>WV</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineWharfReport" xml:space="preserve">
+    <value>  L'attrribut principal est un quai qui est utilisé pour</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineWharfText" xml:space="preserve">
+    <value>Quai, </value>
+  </data>
+  <data name="PolSourceInfoEnumMuncipialSystemConnected" xml:space="preserve">
+    <value>Infrastructure des eaux pluviales</value>
+  </data>
+  <data name="PolSourceInfoEnumMuncipialSystemConnectedInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumMuncipialSystemConnectedReport" xml:space="preserve">
+    <value> est une composante de l'infrastructure.</value>
+  </data>
+  <data name="PolSourceInfoEnumMuncipialSystemConnectedText" xml:space="preserve">
+    <value>Infrastructure des eaux pluviales,</value>
+  </data>
+  <data name="PolSourceInfoEnumMunicipalSystemNotConnected" xml:space="preserve">
+    <value>Collecteur des eaux pluviales</value>
+  </data>
+  <data name="PolSourceInfoEnumMunicipalSystemNotConnectedInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumMunicipalSystemNotConnectedReport" xml:space="preserve">
+    <value> n'est pas connecté à l'infrastructure et traverse le</value>
+  </data>
+  <data name="PolSourceInfoEnumMunicipalSystemNotConnectedText" xml:space="preserve">
+    <value>Collecteur des eaux pluviales,</value>
+  </data>
+  <data name="PolSourceInfoEnumMunicipalSystemStart" xml:space="preserve">
+    <value>Eaux pluviales</value>
+  </data>
+  <data name="PolSourceInfoEnumMunicipalSystemStartDesc" xml:space="preserve">
+    <value>Est-ce que cette source d'eaux pluviales est attachée au système municipal?</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentBetween10and25" xml:space="preserve">
+    <value>10 à 25 </value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentBetween10and25Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentBetween10and25Report" xml:space="preserve">
+    <value> 10 à 25 animaux.  Une voie pour les eaux usées est</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentBetween10and25Text" xml:space="preserve">
+    <value>10 à 25 animaux, </value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentBetween25and100" xml:space="preserve">
+    <value> 25 à 100 </value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentBetween25and100Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentBetween25and100Report" xml:space="preserve">
+    <value> 25 à 100 animaux.  Une voie pour les eaux usées est</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentBetween25and100Text" xml:space="preserve">
+    <value>25 à 100 animaux,</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentBetween5and10" xml:space="preserve">
+    <value>5 à 10</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentBetween5and10Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentBetween5and10Report" xml:space="preserve">
+    <value> 5 à 10 animaux.  Une voie pour les déchets est</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentBetween5and10Text" xml:space="preserve">
+    <value>5 à 10 animaux, </value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentGreaterThan100" xml:space="preserve">
+    <value>   100 et plus</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentGreaterThan100Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentGreaterThan100Report" xml:space="preserve">
+    <value> 100 animaux et plus.  Une voie pour les eaux usées est</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentGreaterThan100Text" xml:space="preserve">
+    <value>100 animaux et plus, </value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentLessThan5" xml:space="preserve">
+    <value> moins de 5</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentLessThan5Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentLessThan5Report" xml:space="preserve">
+    <value> moins de 5 animaux.  Une voie pour les déchets est</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentLessThan5Text" xml:space="preserve">
+    <value>moins de 5 animaux, </value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentBetween10and25" xml:space="preserve">
+    <value>10 à 25</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentBetween10and25Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentBetween10and25Report" xml:space="preserve">
+    <value> 10 à 25.  Les déchets sont gérés à l'aide de</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentBetween10and25Text" xml:space="preserve">
+    <value>10 à 25, </value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentBetween5and10" xml:space="preserve">
+    <value>5 à 10</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentBetween5and10Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentBetween5and10Report" xml:space="preserve">
+    <value> 5 à 10.  Les déchets sont gérés à l'aide de</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentBetween5and10Text" xml:space="preserve">
+    <value>5 à 10, </value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentGreaterThan25" xml:space="preserve">
+    <value>25 et plus</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentGreaterThan25Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentGreaterThan25Report" xml:space="preserve">
+    <value> 25 et plus.  Les déchets sont gérés à l'aide de</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentGreaterThan25Text" xml:space="preserve">
+    <value>25 et plus,</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentLessThan5" xml:space="preserve">
+    <value> moins de 5</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentLessThan5Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentLessThan5Report" xml:space="preserve">
+    <value> moins de 5.  Les déchets sont gérés à l'aide de</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentLessThan5Text" xml:space="preserve">
+    <value>moins de 5, </value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentStart" xml:space="preserve">
+    <value>Nombre présent</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberPresentStartDesc" xml:space="preserve">
+    <value>Nombre maximal d'unités présentes ou quatre personnes par domicile</value>
+  </data>
+  <data name="PolSourceInfoEnumOilDumpingFacilityAbsent" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="PolSourceInfoEnumOilDumpingFacilityAbsentInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOilDumpingFacilityAbsentReport" xml:space="preserve">
+    <value>  Des installations pour vider le pétrole sont absentes et</value>
+  </data>
+  <data name="PolSourceInfoEnumOilDumpingFacilityAbsentText" xml:space="preserve">
+    <value>Absent,</value>
+  </data>
+  <data name="PolSourceInfoEnumOilDumpingFacilityPresent" xml:space="preserve">
+    <value>Présent</value>
+  </data>
+  <data name="PolSourceInfoEnumOilDumpingFacilityPresentInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOilDumpingFacilityPresentReport" xml:space="preserve">
+    <value>  Des installations pour vider le pétrole sont présentes et</value>
+  </data>
+  <data name="PolSourceInfoEnumOilDumpingFacilityPresentText" xml:space="preserve">
+    <value>Présent,</value>
+  </data>
+  <data name="PolSourceInfoEnumOilDumpingFacilityStart" xml:space="preserve">
+    <value>Installations pour vider l'huile</value>
+  </data>
+  <data name="PolSourceInfoEnumOilDumpingFacilityStartDesc" xml:space="preserve">
+    <value>Y a-t-il une installation pour vider l'huile à l'entée ou sur le quai?</value>
+  </data>
+  <data name="PolSourceInfoEnumOuthouseCementHoldingTank" xml:space="preserve">
+    <value>Réservoir en béton</value>
+  </data>
+  <data name="PolSourceInfoEnumOuthouseCementHoldingTankInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOuthouseCementHoldingTankReport" xml:space="preserve">
+    <value> un réservoir de béton et le flux se fait</value>
+  </data>
+  <data name="PolSourceInfoEnumOuthouseCementHoldingTankText" xml:space="preserve">
+    <value>Réservoir en béton,</value>
+  </data>
+  <data name="PolSourceInfoEnumOuthouseSittingOnGround" xml:space="preserve">
+    <value>Sur le sol</value>
+  </data>
+  <data name="PolSourceInfoEnumOuthouseSittingOnGroundInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOuthouseSittingOnGroundReport" xml:space="preserve">
+    <value> le sol.  L'écoulement se fait</value>
+  </data>
+  <data name="PolSourceInfoEnumOuthouseSittingOnGroundText" xml:space="preserve">
+    <value>Sur le sol,</value>
+  </data>
+  <data name="PolSourceInfoEnumOuthouseStart" xml:space="preserve">
+    <value>Fosse des latrines</value>
+  </data>
+  <data name="PolSourceInfoEnumOuthouseStartDesc" xml:space="preserve">
+    <value>La fondation de la fosse des latrines</value>
+  </data>
+  <data name="PolSourceInfoEnumPastureActive" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="PolSourceInfoEnumPastureActiveInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumPastureActiveReport" xml:space="preserve">
+    <value> qui est présentement actif.</value>
+  </data>
+  <data name="PolSourceInfoEnumPastureActiveText" xml:space="preserve">
+    <value>Actif, </value>
+  </data>
+  <data name="PolSourceInfoEnumPastureFallow" xml:space="preserve">
+    <value>Jachère</value>
+  </data>
+  <data name="PolSourceInfoEnumPastureFallowInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumPastureFallowReport" xml:space="preserve">
+    <value> qui est présentement jachère.</value>
+  </data>
+  <data name="PolSourceInfoEnumPastureFallowText" xml:space="preserve">
+    <value>Jachère, </value>
+  </data>
+  <data name="PolSourceInfoEnumPastureStart" xml:space="preserve">
+    <value>Pâturage</value>
+  </data>
+  <data name="PolSourceInfoEnumPastureStartDesc" xml:space="preserve">
+    <value>Est-ce que le pâturage est actif ou inactif</value>
+  </data>
+  <data name="PolSourceInfoEnumPointSourceManureStart" xml:space="preserve">
+    <value>Source ponctuelle du fumier</value>
+  </data>
+  <data name="PolSourceInfoEnumPointSourceManureStartDesc" xml:space="preserve">
+    <value>Voie principale pour le ruissellement du tas de fumier</value>
+  </data>
+  <data name="PolSourceInfoEnumPointSourceStart" xml:space="preserve">
+    <value>Source ponctuelle</value>
+  </data>
+  <data name="PolSourceInfoEnumPointSourceStartDesc" xml:space="preserve">
+    <value>La voie principale par laquelle la pollution se déplace</value>
+  </data>
+  <data name="PolSourceInfoEnumPointSourceWildlifeStart" xml:space="preserve">
+    <value>Source ponctuelle</value>
+  </data>
+  <data name="PolSourceInfoEnumPointSourceWildlifeStartDesc" xml:space="preserve">
+    <value>La voie principale par laquelle la pollution se déplace</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationCampground" xml:space="preserve">
+    <value>Terrain de camping</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationCampgroundInit" xml:space="preserve">
+    <value>Cg</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationCampgroundReport" xml:space="preserve">
+    <value> d'un terrain de camping qui possède</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationCampgroundText" xml:space="preserve">
+    <value>Terrain de camping, </value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationCommunityCentre" xml:space="preserve">
+    <value>Centre communautaire</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationCommunityCentreInit" xml:space="preserve">
+    <value>Bld</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationCommunityCentreReport" xml:space="preserve">
+    <value> d'un centre communautaire avec un total de</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationCommunityCentreText" xml:space="preserve">
+    <value>Centre communautaire,</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationDayUseArea" xml:space="preserve">
+    <value>Aire d'utilisation journalière</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationDayUseAreaInit" xml:space="preserve">
+    <value>Du</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationDayUseAreaReport" xml:space="preserve">
+    <value> d'une aire d'utilisation journalière</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationDayUseAreaText" xml:space="preserve">
+    <value>Aire d'utilisation journalière</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationGolfCourse" xml:space="preserve">
+    <value>Terrain de golf</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationGolfCourseInit" xml:space="preserve">
+    <value>GC</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationGolfCourseReport" xml:space="preserve">
+    <value> d'un terrain de golf.</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationGolfCourseText" xml:space="preserve">
+    <value>Terrain de golf,</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationRecreationaltArea" xml:space="preserve">
+    <value>Aire Activités récréatives or residental</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationRecreationaltAreaInit" xml:space="preserve">
+    <value>Bld</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationRecreationaltAreaReport" xml:space="preserve">
+    <value> d'une aire d'activités récréatives ou résidentiel.  À cet endroit, on retrouve</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationRecreationaltAreaText" xml:space="preserve">
+    <value>Aire activités récréatives or RESIDENTAL</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationStart" xml:space="preserve">
+    <value>Activités récréatives</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationStartDesc" xml:space="preserve">
+    <value>Types d'installations récréatives</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationSwimmingArea" xml:space="preserve">
+    <value>Zone de baignade</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationSwimmingAreaInit" xml:space="preserve">
+    <value>Sa</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationSwimmingAreaReport" xml:space="preserve">
+    <value> d'une zone de baignade.</value>
+  </data>
+  <data name="PolSourceInfoEnumRecreationSwimmingAreaText" xml:space="preserve">
+    <value>Zone de baignade, </value>
+  </data>
+  <data name="PolSourceInfoEnumRiskAStart" xml:space="preserve">
+    <value>Le risque de pollution</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskAStartDesc" xml:space="preserve">
+    <value>Quel est le niveau de risque de pollution de cette source?</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskBStart" xml:space="preserve">
+    <value>Le risque de pollution</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskBStartDesc" xml:space="preserve">
+    <value>Quel est le niveau de risque de pollution de cette source?</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskCStart" xml:space="preserve">
+    <value>Le risque de pollution</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskCStartDesc" xml:space="preserve">
+    <value>Quel est le niveau de risque de pollution de cette source?</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskHigh" xml:space="preserve">
+    <value>Élevé</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskHighInit" xml:space="preserve">
+    <value>R1</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskHighP" xml:space="preserve">
+    <value>Élevé</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskHighPInit" xml:space="preserve">
+    <value>R1</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskHighPReport" xml:space="preserve">
+    <value> le risque de pollution est classifié comme étant 'élevé' par rapport à la gestion des étendues d'eaux adjointes.</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskHighPText" xml:space="preserve">
+    <value>Élevé</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskHighReport" xml:space="preserve">
+    <value> le risque de pollution est classifié comme étant 'élevé' par rapport à la gestion des étendues d'eaux adjointes.</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskHighText" xml:space="preserve">
+    <value>Élevé</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskLow" xml:space="preserve">
+    <value>Faible </value>
+  </data>
+  <data name="PolSourceInfoEnumRiskLowInit" xml:space="preserve">
+    <value>R3</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskLowReport" xml:space="preserve">
+    <value> le risque de pollution est classifié comme étant 'faible' par rapport à la gestion des étendues d'eaux adjointes.</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskLowText" xml:space="preserve">
+    <value>Faible </value>
+  </data>
+  <data name="PolSourceInfoEnumRiskModerate" xml:space="preserve">
+    <value>Moyen</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskModerateInit" xml:space="preserve">
+    <value>R2</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskModerateReport" xml:space="preserve">
+    <value> le risque de pollution est classifié comme étant 'moyen' par rapport à la gestion des étendues d'eaux adjointes.</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskModerateText" xml:space="preserve">
+    <value>Moyen</value>
+  </data>
+  <data name="PolSourceInfoEnumSeaportCommercial" xml:space="preserve">
+    <value>Bateaux commerciaux</value>
+  </data>
+  <data name="PolSourceInfoEnumSeaportCommercialInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumSeaportCommercialReport" xml:space="preserve">
+    <value> services de bateaux commerciaux au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumSeaportCommercialText" xml:space="preserve">
+    <value>Nombre de bateaux commerciaux</value>
+  </data>
+  <data name="PolSourceInfoEnumSeaportRecreational" xml:space="preserve">
+    <value>Bateaux de plaisance </value>
+  </data>
+  <data name="PolSourceInfoEnumSeaportRecreationalInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumSeaportRecreationalReport" xml:space="preserve">
+    <value> services pour bateaux de plaisance au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumSeaportRecreationalText" xml:space="preserve">
+    <value>Nombre de bateaux de plaisance </value>
+  </data>
+  <data name="PolSourceInfoEnumSeeMunicipalityInfrastructureStart" xml:space="preserve">
+    <value>Infrastructure</value>
+  </data>
+  <data name="PolSourceInfoEnumSeeMunicipalityInfrastructureStartDesc" xml:space="preserve">
+    <value>Entrez en tant qu'infrastructure sous la rubrique de la municipalité</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticNoStructure" xml:space="preserve">
+    <value>Aucune structure</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticNoStructureInit" xml:space="preserve">
+    <value>XX</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticNoStructureReport" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PolSourceInfoEnumSepticNoStructureText" xml:space="preserve">
+    <value>Aucune structure,</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticSystemDrainageField" xml:space="preserve">
+    <value>Aire de drainage</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticSystemDrainageFieldInit" xml:space="preserve">
+    <value>ST</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticSystemDrainageFieldReport" xml:space="preserve">
+    <value> une aire de drainage qui déverse</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticSystemDrainageFieldText" xml:space="preserve">
+    <value>Aire de drainage,</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticSystemFullRention" xml:space="preserve">
+    <value>Rétention complète</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticSystemFullRentionInit" xml:space="preserve">
+    <value>XX</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticSystemFullRentionReport" xml:space="preserve">
+    <value> un système de rétention complète.</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticSystemFullRentionText" xml:space="preserve">
+    <value>Rétention complète,</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticSystemLagoon" xml:space="preserve">
+    <value>Lagune</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticSystemLagoonInit" xml:space="preserve">
+    <value>SS</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticSystemLagoonReport" xml:space="preserve">
+    <value> un système municipal de lagune (voir l'infrastructure).</value>
+  </data>
+  <data name="PolSourceInfoEnumSepticSystemLagoonText" xml:space="preserve">
+    <value>Lagune,</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageCesspool" xml:space="preserve">
+    <value>Fosse / Réservoir</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageCesspoolInit" xml:space="preserve">
+    <value>CP</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageCesspoolReport" xml:space="preserve">
+    <value> une fosse ou un réservoir.</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageCesspoolText" xml:space="preserve">
+    <value>Fosse / Réservoir, </value>
+  </data>
+  <data name="PolSourceInfoEnumSewageDirectDischarge" xml:space="preserve">
+    <value>Décharge directe</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageDirectDischargeInit" xml:space="preserve">
+    <value>NP</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageDirectDischargeReport" xml:space="preserve">
+    <value> une décharge directe à travers</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageDirectDischargeText" xml:space="preserve">
+    <value>Décharge directe,</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageDumpingStationAbsent" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageDumpingStationAbsentInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumSewageDumpingStationAbsentReport" xml:space="preserve">
+    <value> des installations d'élimination des eaux usées sont absentes.</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageDumpingStationAbsentText" xml:space="preserve">
+    <value>Absent,</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageDumpingStationPresent" xml:space="preserve">
+    <value>Présent</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageDumpingStationPresentInit" xml:space="preserve">
+    <value>DS</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageDumpingStationPresentReport" xml:space="preserve">
+    <value> des installations d'élimination des eaux usées sont présentes.</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageDumpingStationPresentText" xml:space="preserve">
+    <value>Présent,</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageDumpingStationStart" xml:space="preserve">
+    <value>Station d’élimination des eaux usées</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageDumpingStationStartDesc" xml:space="preserve">
+    <value>Y a-t-il une station d’élimination des eaux usées pour les bateaux?</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageMunicipalSystem" xml:space="preserve">
+    <value>Système municipal</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageMunicipalSystemInit" xml:space="preserve">
+    <value>SS</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageMunicipalSystemReport" xml:space="preserve">
+    <value> un système municipal (voir l'infrastructure).</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageMunicipalSystemText" xml:space="preserve">
+    <value>Système municipal, </value>
+  </data>
+  <data name="PolSourceInfoEnumSewagePrivyOuthouse" xml:space="preserve">
+    <value>Fosse des latrines</value>
+  </data>
+  <data name="PolSourceInfoEnumSewagePrivyOuthouseInit" xml:space="preserve">
+    <value>OH</value>
+  </data>
+  <data name="PolSourceInfoEnumSewagePrivyOuthouseReport" xml:space="preserve">
+    <value> une fosse des latrines, construit sur</value>
+  </data>
+  <data name="PolSourceInfoEnumSewagePrivyOuthouseText" xml:space="preserve">
+    <value>Fosse des latrines,</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageStart" xml:space="preserve">
+    <value>Égoûts</value>
+  </data>
+  <data name="PolSourceInfoEnumSewageStartDesc" xml:space="preserve">
+    <value>Type de système d'épuration des eaux usées</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineBuildings" xml:space="preserve">
+    <value>Édifices</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineBuildingsInit" xml:space="preserve">
+    <value>Bld</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineBuildingsReport" xml:space="preserve">
+    <value>  Le cas principal est</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineBuildingsText" xml:space="preserve">
+    <value>Édifices</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineDayuse" xml:space="preserve">
+    <value>Intra-jour</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineDayuseInit" xml:space="preserve">
+    <value>DU</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineDayuseReport" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineDayuseText" xml:space="preserve">
+    <value>Intra-jour</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineIssueStart" xml:space="preserve">
+    <value>Éléments sur le rivage</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineIssueStartDesc" xml:space="preserve">
+    <value>Quel est la préoccupation majeure sur le rivage </value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineLandFill" xml:space="preserve">
+    <value>Site d'enfouissement</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineLandFillInit" xml:space="preserve">
+    <value>LF</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineLandFillReport" xml:space="preserve">
+    <value>  La préoccupation majeure est un</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineLandFillText" xml:space="preserve">
+    <value>Site d'enfouissement</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRocky" xml:space="preserve">
+    <value>Littoral rocheux</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRockyInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumShorelineRockyReport" xml:space="preserve">
+    <value> qui est composé d'un affleurement de roche ou de gros rochers.</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRockyText" xml:space="preserve">
+    <value>Littoral rocheux</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineSandy" xml:space="preserve">
+    <value>Littoral de sable</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineSandyInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumShorelineSandyReport" xml:space="preserve">
+    <value> qui est composé de roches/cailloux sableux ou cassés.</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineSandyText" xml:space="preserve">
+    <value>Littoral de sable</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineSlipway" xml:space="preserve">
+    <value>Mise à l'eau</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineSlipwayInit" xml:space="preserve">
+    <value>SW</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineSlipwayReport" xml:space="preserve">
+    <value>  Il existe à ce site une mise à l'eau d'embarcations, faite de</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineSlipwayText" xml:space="preserve">
+    <value>Mise à l'eau</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineStart" xml:space="preserve">
+    <value>Type de substrat</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineStartDesc" xml:space="preserve">
+    <value>Quel est le substrat?</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineWildlife" xml:space="preserve">
+    <value>Faune</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineWildlifeInit" xml:space="preserve">
+    <value>WL</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineWildlifeReport" xml:space="preserve">
+    <value>  Les préoccupations principales sont les</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineWildlifeText" xml:space="preserve">
+    <value>Faune</value>
+  </data>
+  <data name="PolSourceInfoEnumSlipwayPaved" xml:space="preserve">
+    <value>Mise à l'eau pavé</value>
+  </data>
+  <data name="PolSourceInfoEnumSlipwayPavedInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumSlipwayPavedReport" xml:space="preserve">
+    <value> pavé ou béton.</value>
+  </data>
+  <data name="PolSourceInfoEnumSlipwayPavedText" xml:space="preserve">
+    <value>Surface pavée</value>
+  </data>
+  <data name="PolSourceInfoEnumSlipwayRocks" xml:space="preserve">
+    <value>Mise à l'eau, surface naturelle</value>
+  </data>
+  <data name="PolSourceInfoEnumSlipwayRocksInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumSlipwayRocksReport" xml:space="preserve">
+    <value> matériel naturel.</value>
+  </data>
+  <data name="PolSourceInfoEnumSlipwayRocksText" xml:space="preserve">
+    <value>Surface naturelle</value>
+  </data>
+  <data name="PolSourceInfoEnumSlipwayStart" xml:space="preserve">
+    <value>Genre de mise à l'eau</value>
+  </data>
+  <data name="PolSourceInfoEnumSlipwayStartDesc" xml:space="preserve">
+    <value>Surface de la mise à l'eau</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceDirectInputToMarine" xml:space="preserve">
+    <value>Directement vers un cours d'eau</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceDirectInputToMarineInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumSourceDirectInputToMarineReport" xml:space="preserve">
+    <value> vers un cours d'eau.</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceDirectInputToMarineText" xml:space="preserve">
+    <value>Directement vers un cours d'eau,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceManureDitch" xml:space="preserve">
+    <value>Fossé</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceManureDitchInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumSourceManureDitchReport" xml:space="preserve">
+    <value> la préoccupation principale est un fossé.</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceManureDitchText" xml:space="preserve">
+    <value>Fossé,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceManureLandDrainage" xml:space="preserve">
+    <value>Écoulement</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceManureLandDrainageInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumSourceManureLandDrainageReport" xml:space="preserve">
+    <value> la préoccupation principale est un flux qui s'écoule</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceManureLandDrainageText" xml:space="preserve">
+    <value>Écoulement,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceSandBar" xml:space="preserve">
+    <value>Banc de sable</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceSandBarInit" xml:space="preserve">
+    <value>BA</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceSandBarReport" xml:space="preserve">
+    <value>  Ce banc de sable est accessible à marrée basse et</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceSandBarText" xml:space="preserve">
+    <value>Banc de sable,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeDirectInputToMarine" xml:space="preserve">
+    <value>Directement vers un cours d'eau</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeDirectInputToMarineInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeDirectInputToMarineReport" xml:space="preserve">
+    <value> un cours d'eau.</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeDirectInputToMarineText" xml:space="preserve">
+    <value>Directement vers un cours d'eau,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandAgriculture" xml:space="preserve">
+    <value>Agricole</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandAgricultureInit" xml:space="preserve">
+    <value>AG</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandAgricultureReport" xml:space="preserve">
+    <value> au sein d'une zone d'activité agricole.</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandAgricultureText" xml:space="preserve">
+    <value>Agricole, </value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandCulvert" xml:space="preserve">
+    <value>Aqueduc</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandCulvertInit" xml:space="preserve">
+    <value>CU</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandCulvertReport" xml:space="preserve">
+    <value> un aqueduc avec un diamètre de</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandCulvertText" xml:space="preserve">
+    <value>Aqueduc,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandDitch" xml:space="preserve">
+    <value>Fossé</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandDitchInit" xml:space="preserve">
+    <value>DD</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandDitchReport" xml:space="preserve">
+    <value> un fossé.</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandDitchText" xml:space="preserve">
+    <value>Fossé,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandDrainage" xml:space="preserve">
+    <value>Débit</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandDrainageInit" xml:space="preserve">
+    <value>NS</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandDrainageReport" xml:space="preserve">
+    <value> débit de surface avec un flux</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandDrainageText" xml:space="preserve">
+    <value>Débit,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandForested" xml:space="preserve">
+    <value>Forestier</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandForestedInit" xml:space="preserve">
+    <value>SI</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandForestedReport" xml:space="preserve">
+    <value> au sein d'un paysage boisé</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandForestedText" xml:space="preserve">
+    <value>Forestier, </value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandIndustry" xml:space="preserve">
+    <value>Industriel</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandIndustryInit" xml:space="preserve">
+    <value>IN</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandIndustryReport" xml:space="preserve">
+    <value> au sein d'une zone d'activité industrielle.</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandIndustryText" xml:space="preserve">
+    <value>Industriel, </value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandMarine" xml:space="preserve">
+    <value>Activités maritimes</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandMarineInit" xml:space="preserve">
+    <value>MA</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandMarineReport" xml:space="preserve">
+    <value> au sein d'une zone d'activité maritime.</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandMarineText" xml:space="preserve">
+    <value>Activités maritimes, </value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandPipe" xml:space="preserve">
+    <value>Tuyau</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandPipeInit" xml:space="preserve">
+    <value>PI</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandPipeReport" xml:space="preserve">
+    <value> un tuyau avec un diamètre de</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandPipeText" xml:space="preserve">
+    <value>Tuyau,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandRecreation" xml:space="preserve">
+    <value>Récréatives</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandRecreationInit" xml:space="preserve">
+    <value>RE</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandRecreationReport" xml:space="preserve">
+    <value> au sein d'une zone récréative et</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandRecreationText" xml:space="preserve">
+    <value>Récréatives, </value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandStart" xml:space="preserve">
+    <value>Type de milieu</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandStartDesc" xml:space="preserve">
+    <value>Utilisation primaire au niveau de cette source</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandUrban" xml:space="preserve">
+    <value>Urbain</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandUrbanInit" xml:space="preserve">
+    <value>UR</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandUrbanReport" xml:space="preserve">
+    <value> au sein d'une zone urbaine.</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandUrbanText" xml:space="preserve">
+    <value>Urbain, </value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandWaterCourse" xml:space="preserve">
+    <value>Cours d'eau</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandWaterCourseInit" xml:space="preserve">
+    <value>WC</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandWaterCourseReport" xml:space="preserve">
+    <value> un cours d'eau avec une largeur de</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeLandWaterCourseText" xml:space="preserve">
+    <value>Cours d'eau,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeMarine" xml:space="preserve">
+    <value>Structure marine</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeMarineInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeMarineReport" xml:space="preserve">
+    <value> à proximité d'une structure marine.</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeMarineText" xml:space="preserve">
+    <value>Structure marine,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeShore" xml:space="preserve">
+    <value>Sur la côte</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeShoreInit" xml:space="preserve">
+    <value>SH</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeShoreline" xml:space="preserve">
+    <value>Rivage</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeShorelineInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeShorelineReport" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeShorelineText" xml:space="preserve">
+    <value>Rivage,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeShoreReport" xml:space="preserve">
+    <value> sur une côte</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeShoreStart" xml:space="preserve">
+    <value>Rivage</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeShoreStartDesc" xml:space="preserve">
+    <value>Rivage</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeShoreText" xml:space="preserve">
+    <value>Sur la côte</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterAnchorageMooringSite" xml:space="preserve">
+    <value>Site de mouillage ou de amarrage</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterAnchorageMooringSiteInit" xml:space="preserve">
+    <value>MO</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterAnchorageMooringSiteReport" xml:space="preserve">
+    <value>  À ce site de mouillage ou de amarrage, on retrouve </value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterAnchorageMooringSiteText" xml:space="preserve">
+    <value>Site de mouillage ou de amarrage, </value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterAquacultureSite" xml:space="preserve">
+    <value>Site de l'aquaculture</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterAquacultureSiteInit" xml:space="preserve">
+    <value>AQ</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterAquacultureSiteReport" xml:space="preserve">
+    <value>  À ce site d'aquaculture, on retrouve</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterAquacultureSiteText" xml:space="preserve">
+    <value>Site de l'aquaculture,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterDisposalAtSea" xml:space="preserve">
+    <value>Décharge en haute mer</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterDisposalAtSeaInit" xml:space="preserve">
+    <value>DR</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterDisposalAtSeaReport" xml:space="preserve">
+    <value>  Cet endroit est classifié comme 'Décharge en haute mer',</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterDisposalAtSeaText" xml:space="preserve">
+    <value>Décharge en haute mer,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterMarinePark" xml:space="preserve">
+    <value>Parc marin</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterMarineParkInit" xml:space="preserve">
+    <value>PA</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterMarineParkReport" xml:space="preserve">
+    <value>  À ce parc marin, on retrouve</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterMarineParkText" xml:space="preserve">
+    <value>Parc marin,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterSeaport" xml:space="preserve">
+    <value>Port de mer</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterSeaportInit" xml:space="preserve">
+    <value>PO</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterSeaportReport" xml:space="preserve">
+    <value>  À ce port de mer, on retrouve</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterSeaportText" xml:space="preserve">
+    <value>Port de mer,</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterStart" xml:space="preserve">
+    <value>Source définie</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceTypeWaterStartDesc" xml:space="preserve">
+    <value>Type d'utilisation qui se produit en haute mer</value>
+  </data>
+  <data name="PolSourceInfoEnumStart" xml:space="preserve">
+    <value>Source et type de pollution</value>
+  </data>
+  <data name="PolSourceInfoEnumStartDesc" xml:space="preserve">
+    <value>La source est-elle raccordée à la terre ou ancrée dans l'eau</value>
+  </data>
+  <data name="PolSourceInfoEnumStatusDefinite" xml:space="preserve">
+    <value>Définitif,</value>
+  </data>
+  <data name="PolSourceInfoEnumStatusDefiniteInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumStatusDefiniteReport" xml:space="preserve">
+    <value>  Selon cette évaluation, la source de pollution est évaluée comme étant 'définitive' et</value>
+  </data>
+  <data name="PolSourceInfoEnumStatusDefiniteText" xml:space="preserve">
+    <value>Définitif,</value>
+  </data>
+  <data name="PolSourceInfoEnumStatusNonPollutionSource" xml:space="preserve">
+    <value>Non Active</value>
+  </data>
+  <data name="PolSourceInfoEnumStatusNonPollutionSourceInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumStatusNonPollutionSourceReport" xml:space="preserve">
+    <value>  Selon cette évaluation, la source est évaluée comme étant 'non-polluante' et alors</value>
+  </data>
+  <data name="PolSourceInfoEnumStatusNonPollutionSourceText" xml:space="preserve">
+    <value>Non Active</value>
+  </data>
+  <data name="PolSourceInfoEnumStatusPotential" xml:space="preserve">
+    <value>Potentiel,</value>
+  </data>
+  <data name="PolSourceInfoEnumStatusPotentialInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumStatusPotentialReport" xml:space="preserve">
+    <value>  Selon cette évalutation, la source de pollution est évaluée comme étant 'potentielle' et</value>
+  </data>
+  <data name="PolSourceInfoEnumStatusPotentialText" xml:space="preserve">
+    <value>Potentiel,</value>
+  </data>
+  <data name="PolSourceInfoEnumStatusStart" xml:space="preserve">
+    <value>Évaluation de la source de pollution</value>
+  </data>
+  <data name="PolSourceInfoEnumStatusStartDesc" xml:space="preserve">
+    <value>Évaluation de la source de pollution</value>
+  </data>
+  <data name="PolSourceInfoEnumStorageTankChemicals" xml:space="preserve">
+    <value>Produits chimiques</value>
+  </data>
+  <data name="PolSourceInfoEnumStorageTankChemicalsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumStorageTankChemicalsReport" xml:space="preserve">
+    <value> produits chimiques, dans un réservoir qui est</value>
+  </data>
+  <data name="PolSourceInfoEnumStorageTankChemicalsText" xml:space="preserve">
+    <value>Réservoir à produits chimiques, </value>
+  </data>
+  <data name="PolSourceInfoEnumStorageTankFuel" xml:space="preserve">
+    <value>Carburant</value>
+  </data>
+  <data name="PolSourceInfoEnumStorageTankFuelInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumStorageTankFuelReport" xml:space="preserve">
+    <value> carburant, dans un réservoir qui est relativement</value>
+  </data>
+  <data name="PolSourceInfoEnumStorageTankFuelText" xml:space="preserve">
+    <value>Réservoir à carburant, </value>
+  </data>
+  <data name="PolSourceInfoEnumStorageTankPropane" xml:space="preserve">
+    <value>Propane</value>
+  </data>
+  <data name="PolSourceInfoEnumStorageTankPropaneInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumStorageTankPropaneReport" xml:space="preserve">
+    <value> propane, dans un réservoir qui est relativement</value>
+  </data>
+  <data name="PolSourceInfoEnumStorageTankPropaneText" xml:space="preserve">
+    <value>Réservoir à propane, </value>
+  </data>
+  <data name="PolSourceInfoEnumStorageTankStart" xml:space="preserve">
+    <value>Réservoir de stockage</value>
+  </data>
+  <data name="PolSourceInfoEnumStorageTankStartDesc" xml:space="preserve">
+    <value>Le contenu du réservoir</value>
+  </data>
+  <data name="PolSourceInfoEnumTankSizeLarge" xml:space="preserve">
+    <value>Grand</value>
+  </data>
+  <data name="PolSourceInfoEnumTankSizeLargeInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTankSizeLargeReport" xml:space="preserve">
+    <value> grand.  Par contre, un déversement s'écoulerait </value>
+  </data>
+  <data name="PolSourceInfoEnumTankSizeLargeText" xml:space="preserve">
+    <value>Grand réservoir,</value>
+  </data>
+  <data name="PolSourceInfoEnumTankSizeSmall" xml:space="preserve">
+    <value>Petit</value>
+  </data>
+  <data name="PolSourceInfoEnumTankSizeSmallInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTankSizeSmallReport" xml:space="preserve">
+    <value> petit.  Par contre, un déversement s'écoulerait </value>
+  </data>
+  <data name="PolSourceInfoEnumTankSizeSmallText" xml:space="preserve">
+    <value>Petit réservoir,</value>
+  </data>
+  <data name="PolSourceInfoEnumTankSizeStart" xml:space="preserve">
+    <value>Taille du réservoir</value>
+  </data>
+  <data name="PolSourceInfoEnumTankSizeStartDesc" xml:space="preserve">
+    <value>Dimensions du réservoir</value>
+  </data>
+  <data name="PolSourceInfoEnumTransportationCommerical" xml:space="preserve">
+    <value>Navire</value>
+  </data>
+  <data name="PolSourceInfoEnumTransportationCommericalInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTransportationCommericalReport" xml:space="preserve">
+    <value> des navires au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumTransportationCommericalText" xml:space="preserve">
+    <value>Navire, </value>
+  </data>
+  <data name="PolSourceInfoEnumTransportationFerry" xml:space="preserve">
+    <value>Traversier</value>
+  </data>
+  <data name="PolSourceInfoEnumTransportationFerryInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTransportationFerryReport" xml:space="preserve">
+    <value> des traversiers au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumTransportationFerryText" xml:space="preserve">
+    <value>Traversier, </value>
+  </data>
+  <data name="PolSourceInfoEnumTypeOfFishStart" xml:space="preserve">
+    <value>Type de poisson</value>
+  </data>
+  <data name="PolSourceInfoEnumTypeOfFishStartDesc" xml:space="preserve">
+    <value>Les opérations ou commerces majeurs reliés à la pêche</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualDomesticBirds" xml:space="preserve">
+    <value>Oiseaux domestiques</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualDomesticBirdsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualDomesticBirdsReport" xml:space="preserve">
+    <value> oiseaux domestiques au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualDomesticBirdsText" xml:space="preserve">
+    <value>Oiseaux domestiques, </value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualDomesticMixture" xml:space="preserve">
+    <value>Domestique mixte</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualDomesticMixtureInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualDomesticMixtureReport" xml:space="preserve">
+    <value> animaux domestiques mixtes au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualDomesticMixtureText" xml:space="preserve">
+    <value>Domestique mixte,</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualFurFarms" xml:space="preserve">
+    <value>Commerce de la fourrure</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualFurFarmsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualFurFarmsReport" xml:space="preserve">
+    <value> animaux de fourrure au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualFurFarmsText" xml:space="preserve">
+    <value>Commerce de la fourrure, </value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualLargeBirds" xml:space="preserve">
+    <value>Grands oiseaux</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualLargeBirdsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualLargeBirdsReport" xml:space="preserve">
+    <value> grands oiseaux au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualLargeBirdsText" xml:space="preserve">
+    <value>Grands oiseaux,</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualLargeDomestic" xml:space="preserve">
+    <value>Grands, domestiques</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualLargeDomesticInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualLargeDomesticReport" xml:space="preserve">
+    <value> grands animaux domestiques au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualLargeDomesticText" xml:space="preserve">
+    <value>Grands, domestiques,</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualLargeWildAnimals" xml:space="preserve">
+    <value>Grands animaux sauvages</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualLargeWildAnimalsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualLargeWildAnimalsReport" xml:space="preserve">
+    <value> grands animaux au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualLargeWildAnimalsText" xml:space="preserve">
+    <value>Grands animaux sauvages,</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualMediumBirds" xml:space="preserve">
+    <value>Moyens oiseaux</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualMediumBirdsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualMediumBirdsReport" xml:space="preserve">
+    <value> moyens oiseaux au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualMediumBirdsText" xml:space="preserve">
+    <value>Moyens oiseaux,</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualSmallBirds" xml:space="preserve">
+    <value>Petits oiseaux</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualSmallBirdsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualSmallBirdsReport" xml:space="preserve">
+    <value> petits oiseaux au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualSmallBirdsText" xml:space="preserve">
+    <value>Petits oiseaux,</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualSmallDomestic" xml:space="preserve">
+    <value>Petits, domestiques</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualSmallDomesticInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualSmallDomesticReport" xml:space="preserve">
+    <value> petits animaux domestiques au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualSmallDomesticText" xml:space="preserve">
+    <value>Petits, domestiques,</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualSmallWildAnimals" xml:space="preserve">
+    <value>Petits animaux sauvages</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualSmallWildAnimalsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualSmallWildAnimalsReport" xml:space="preserve">
+    <value> petits animaux au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesEqualSmallWildAnimalsText" xml:space="preserve">
+    <value>Petits animaux sauvages,</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesOfLivestockStart" xml:space="preserve">
+    <value>Type de bétail</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesOfLivestockStartDesc" xml:space="preserve">
+    <value>Types principaux d'animaux domestiques ou d'élevage et d'oiseaux</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesOfWildlifeStart" xml:space="preserve">
+    <value>Type d'animal</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesOfWildlifeStartDesc" xml:space="preserve">
+    <value>Type principal de faune présente</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanDumpStation" xml:space="preserve">
+    <value>Station d’élimination des eaux usées</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanDumpStationInit" xml:space="preserve">
+    <value>DS</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanDumpStationReport" xml:space="preserve">
+    <value>  La station d’élimination des eaux usées est reliée à</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanDumpStationText" xml:space="preserve">
+    <value>Station d’élimination des eaux usées,</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanStart" xml:space="preserve">
+    <value>Urbain</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanStartDesc" xml:space="preserve">
+    <value>Composants du réseau d'égouts d'une municipalité</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanStormWater" xml:space="preserve">
+    <value>Eaux pluviales</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanStormWaterInit" xml:space="preserve">
+    <value>SS</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanStormWaterReport" xml:space="preserve">
+    <value>  Ce système des eaux pluviales</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanStormWaterText" xml:space="preserve">
+    <value>Eaux pluviales,</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanSurfaceRunoff" xml:space="preserve">
+    <value>Ruisellement de surface</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanSurfaceRunoffInit" xml:space="preserve">
+    <value>NP</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanSurfaceRunoffReport" xml:space="preserve">
+    <value>  Le ruisellement de surface se fait par,</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanSurfaceRunoffText" xml:space="preserve">
+    <value>Ruisellement de surface,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAquacultureSiteActive" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAquacultureSiteActiveInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterAquacultureSiteActiveReport" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAquacultureSiteActiveText" xml:space="preserve">
+    <value>Actif,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAquacultureSiteFallow" xml:space="preserve">
+    <value>Inutilisé</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAquacultureSiteFallowInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterAquacultureSiteFallowReport" xml:space="preserve">
+    <value> inutilisé.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAquacultureSiteFallowText" xml:space="preserve">
+    <value>Inutilisé,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAquacultureStart" xml:space="preserve">
+    <value>Site de l'aquaculture</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAquacultureStartDesc" xml:space="preserve">
+    <value>Niveau actuel d'activité sur le site de l'aquaculture</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAquacultureTypeStart" xml:space="preserve">
+    <value>Type d'aquaculture  </value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAquacultureTypeStartDesc" xml:space="preserve">
+    <value>Type d'aquaculture  </value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAreaSizeLarge" xml:space="preserve">
+    <value>Grand</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAreaSizeLargeInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterAreaSizeLargeReport" xml:space="preserve">
+    <value> grand.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAreaSizeLargeText" xml:space="preserve">
+    <value>grand,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAreaSizeSmall" xml:space="preserve">
+    <value>Petit</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAreaSizeSmallInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterAreaSizeSmallReport" xml:space="preserve">
+    <value> petit.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAreaSizeSmallText" xml:space="preserve">
+    <value>petit,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAreaSizeStart" xml:space="preserve">
+    <value>Superficie</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterAreaSizeStartDesc" xml:space="preserve">
+    <value>La superficie de la zone</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterBased" xml:space="preserve">
+    <value>Marine</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterBasedInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterBasedReport" xml:space="preserve">
+    <value>Cette source se retrouve sur l'eau</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberBetween10and25" xml:space="preserve">
+    <value> 10 à 25.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberBetween10and25Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberBetween10and25Report" xml:space="preserve">
+    <value> 10 à 25</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberBetween10and25Text" xml:space="preserve">
+    <value>10 à 25</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberBetween5and10" xml:space="preserve">
+    <value> 5 à 10.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberBetween5and10Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberBetween5and10Report" xml:space="preserve">
+    <value> 5 à 10</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberBetween5and10Text" xml:space="preserve">
+    <value>5 à 10</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberGreaterThan25" xml:space="preserve">
+    <value> 25 et plus.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberGreaterThan25Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberGreaterThan25Report" xml:space="preserve">
+    <value> 25 et plus</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberGreaterThan25Text" xml:space="preserve">
+    <value>25 et plus</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberLessThan5" xml:space="preserve">
+    <value> moins que 5.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberLessThan5Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberLessThan5Report" xml:space="preserve">
+    <value> moins que 5</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberLessThan5Text" xml:space="preserve">
+    <value>moins que 5</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberStart" xml:space="preserve">
+    <value>Nombre d'unités</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterCountNumberStartDesc" xml:space="preserve">
+    <value>Nombre d'unités</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterDisposalAtSeaStart" xml:space="preserve">
+    <value>Décharge en haute mer</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterDisposalAtSeaStartDesc" xml:space="preserve">
+    <value>L'usage courant à ce site de décharge</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterDumpSiteActive" xml:space="preserve">
+    <value>Site de décharge actif</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterDumpSiteActiveInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterDumpSiteActiveReport" xml:space="preserve">
+    <value> le site est actif et la superficie du champ d'exploitation est</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterDumpSiteActiveText" xml:space="preserve">
+    <value>Site de décharge actif,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterDumpSiteNotActive" xml:space="preserve">
+    <value>Site de décharge inactif</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterDumpSiteNotActiveInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterDumpSiteNotActiveReport" xml:space="preserve">
+    <value> le site est inactif</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterDumpSiteNotActiveText" xml:space="preserve">
+    <value>Site de décharge inactif,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourceAbsent" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourceAbsentInit" xml:space="preserve">
+    <value>NS</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourceAbsentReport" xml:space="preserve">
+    <value> aucune source de contamination n'a été identifiée.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourceAbsentText" xml:space="preserve">
+    <value>Absent,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourcePeople" xml:space="preserve">
+    <value>Humain</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourcePeopleInit" xml:space="preserve">
+    <value>XX</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourcePeopleReport" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourcePeopleText" xml:space="preserve">
+    <value>Humain,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourceStart" xml:space="preserve">
+    <value>Source de coliformes fécaux</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourceStartDesc" xml:space="preserve">
+    <value>Principale source </value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourceWildlife" xml:space="preserve">
+    <value>Faune</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourceWildlifeInit" xml:space="preserve">
+    <value>WL</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourceWildlifeReport" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PolSourceInfoEnumWaterFecalSourceWildlifeText" xml:space="preserve">
+    <value>Faune,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentBetween10and25" xml:space="preserve">
+    <value>10 à 25.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentBetween10and25Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentBetween10and25Report" xml:space="preserve">
+    <value> 10 à 25</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentBetween10and25Text" xml:space="preserve">
+    <value>10 à 25</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentBetween5and10" xml:space="preserve">
+    <value>5 à 10.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentBetween5and10Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentBetween5and10Report" xml:space="preserve">
+    <value> 5 à 10</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentBetween5and10Text" xml:space="preserve">
+    <value>5 à 10</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentGreaterThan25" xml:space="preserve">
+    <value>25 et plus.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentGreaterThan25Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentGreaterThan25Report" xml:space="preserve">
+    <value> 25 et plus</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentGreaterThan25Text" xml:space="preserve">
+    <value>25 et plus</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentLessThan5" xml:space="preserve">
+    <value>moins que 5.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentLessThan5Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentLessThan5Report" xml:space="preserve">
+    <value> moins que 5</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentLessThan5Text" xml:space="preserve">
+    <value>moins que 5</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentStart" xml:space="preserve">
+    <value>Nombre présents.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterNumberPresentStartDesc" xml:space="preserve">
+    <value>Nombre maximum présents</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterSeaportStart" xml:space="preserve">
+    <value>Port de mer</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterSeaportStartDesc" xml:space="preserve">
+    <value>Description, port de mer</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterSepticSystemFullRention" xml:space="preserve">
+    <value>Accumulation totale</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterSepticSystemFullRentionInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterSepticSystemFullRentionReport" xml:space="preserve">
+    <value> et les déchets sont gérés par le biais d'une accumulation totale</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterSepticSystemFullRentionText" xml:space="preserve">
+    <value>Accumulation totale</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterSewageDirectDischarge" xml:space="preserve">
+    <value>Décharge directe</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterSewageDirectDischargeInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterSewageDirectDischargeReport" xml:space="preserve">
+    <value> et les déchets sont gérés par le biais d'une décharge directe</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterSewageDirectDischargeText" xml:space="preserve">
+    <value>Décharge directe</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterSewageStart" xml:space="preserve">
+    <value>Eaux usées</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterSewageStartDesc" xml:space="preserve">
+    <value>Type de système de traitement des eaux usées</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterSizeStart" xml:space="preserve">
+    <value>Grandeure</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterSizeStartDesc" xml:space="preserve">
+    <value>Grandeure des opérations industrielles</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureBarge" xml:space="preserve">
+    <value>Barque</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureBargeInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureBargeReport" xml:space="preserve">
+    <value> déservit des barques au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureBargeText" xml:space="preserve">
+    <value>Barque,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureCommercial" xml:space="preserve">
+    <value>Commercial</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureCommercialInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureCommercialReport" xml:space="preserve">
+    <value> déservit des édifices commerciaux au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureCommercialText" xml:space="preserve">
+    <value>Commercial,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureNotActive" xml:space="preserve">
+    <value>  Inactif</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureNotActiveInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureNotActiveReport" xml:space="preserve">
+    <value> est inactif.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureNotActiveText" xml:space="preserve">
+    <value>Inactif,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureResidental" xml:space="preserve">
+    <value>Résidentiel</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureResidentalInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureResidentalReport" xml:space="preserve">
+    <value> déservit des résidences au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureResidentalText" xml:space="preserve">
+    <value>Résidentiel,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureSiteStart" xml:space="preserve">
+    <value>Structure</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureSiteStartDesc" xml:space="preserve">
+    <value>Description de la structure amarrée</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureVessel" xml:space="preserve">
+    <value>Embarcation</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureVesselInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureVesselReport" xml:space="preserve">
+    <value> déservit des embarcations au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterStructureVesselText" xml:space="preserve">
+    <value>Embarcation,</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeBrachish" xml:space="preserve">
+    <value>Brackish</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeBrachishInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeBrachishReport" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeBrachishText" xml:space="preserve">
+    <value>Brackish</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeFresh" xml:space="preserve">
+    <value>Fresh</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeFreshInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeFreshReport" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeFreshText" xml:space="preserve">
+    <value>Fresh</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeSalt" xml:space="preserve">
+    <value>Salt</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeSaltInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeSaltReport" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeSaltText" xml:space="preserve">
+    <value>Salt</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualLargeBirds" xml:space="preserve">
+    <value>Grands oiseaux</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualLargeBirdsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualLargeBirdsReport" xml:space="preserve">
+    <value>  L'inquiétude principale provient des grands oiseaux.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualLargeBirdsText" xml:space="preserve">
+    <value>Grands oiseaux</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualLargeMammals" xml:space="preserve">
+    <value>Grands animaux marins</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualLargeMammalsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualLargeMammalsReport" xml:space="preserve">
+    <value>  L'inquiétude principale provient des grands animaux marins.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualLargeMammalsText" xml:space="preserve">
+    <value>Grands animaux marins</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualMediumBirds" xml:space="preserve">
+    <value>Oiseaux de taille moyenne</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualMediumBirdsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualMediumBirdsReport" xml:space="preserve">
+    <value>  L'inquiétude principale provient des oiseaux de taille moyenne.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualMediumBirdsText" xml:space="preserve">
+    <value>Oiseaux de taille moyenne</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualSmallBirds" xml:space="preserve">
+    <value>Petits oiseaux</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualSmallBirdsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualSmallBirdsReport" xml:space="preserve">
+    <value>  L'inquiétude principale provient des petits oiseaux.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualSmallBirdsText" xml:space="preserve">
+    <value>Petits oiseaux</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualSmallMammals" xml:space="preserve">
+    <value>Petits animaux marins</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualSmallMammalsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualSmallMammalsReport" xml:space="preserve">
+    <value>  L'inquiétude principale provient des petits animaux marins.</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesEqualSmallMammalsText" xml:space="preserve">
+    <value>Petits animaux marins</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesOfMarineLifeStart" xml:space="preserve">
+    <value>Type de faune</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypesOfMarineLifeStartDesc" xml:space="preserve">
+    <value>Type principal d'animaux marins présents</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeStart" xml:space="preserve">
+    <value>percentage of salt</value>
+  </data>
+  <data name="PolSourceInfoEnumWaterTypeStartDesc" xml:space="preserve">
+    <value>Percentage of salt</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfAbandoned" xml:space="preserve">
+    <value>Abandonné</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfAbandonedInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWharfAbandonedReport" xml:space="preserve">
+    <value> qui fut abandonné.</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfAbandonedText" xml:space="preserve">
+    <value>Abandonné, </value>
+  </data>
+  <data name="PolSourceInfoEnumWharfCommercialTransportation" xml:space="preserve">
+    <value>Transport commercial</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfCommercialTransportationInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWharfCommercialTransportationReport" xml:space="preserve">
+    <value> le transport commercial, à des fins de</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfCommercialTransportationText" xml:space="preserve">
+    <value>Transport commercial, </value>
+  </data>
+  <data name="PolSourceInfoEnumWharfFishing" xml:space="preserve">
+    <value>Pêche</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfFishingInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWharfFishingReport" xml:space="preserve">
+    <value> des bateaux de pêche, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfFishingText" xml:space="preserve">
+    <value>Pêche, </value>
+  </data>
+  <data name="PolSourceInfoEnumWharfMarina" xml:space="preserve">
+    <value>Marina</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfMarinaInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWharfMarinaReport" xml:space="preserve">
+    <value> qui fait partie d'une marina pour des bateaux, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfMarinaText" xml:space="preserve">
+    <value>Marina, </value>
+  </data>
+  <data name="PolSourceInfoEnumWharfPrivate" xml:space="preserve">
+    <value>Privé</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfPrivateInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWharfPrivateReport" xml:space="preserve">
+    <value> des bateaux de particuliers, au nombre de</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfPrivateText" xml:space="preserve">
+    <value>Privé, </value>
+  </data>
+  <data name="PolSourceInfoEnumWharfStart" xml:space="preserve">
+    <value>Quai</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfStartDesc" xml:space="preserve">
+    <value>Utilité primaire du quai</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfTransportationStart" xml:space="preserve">
+    <value>Type de bateau</value>
+  </data>
+  <data name="PolSourceInfoEnumWharfTransportationStartDesc" xml:space="preserve">
+    <value>Type de bateau (traversier ou porte-conteneurs)</value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersBetween1And5" xml:space="preserve">
+    <value>1 à 5</value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersBetween1And5Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersBetween1And5Report" xml:space="preserve">
+    <value> de 1 à 5 mètres et le débit est</value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersBetween1And5Text" xml:space="preserve">
+    <value>1 à 5,</value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersBetween5And25" xml:space="preserve">
+    <value>5 à 25</value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersBetween5And25Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersBetween5And25Report" xml:space="preserve">
+    <value> de 5 à 25 mètres et le débit est </value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersBetween5And25Text" xml:space="preserve">
+    <value>5 à 25,</value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersLessThan1" xml:space="preserve">
+    <value>moins que 1</value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersLessThan1Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersLessThan1Report" xml:space="preserve">
+    <value> inférieur à 1 mètre et le débit est</value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersLessThan1Text" xml:space="preserve">
+    <value>moins que 1,</value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersMoreThan25" xml:space="preserve">
+    <value>25 et plus</value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersMoreThan25Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersMoreThan25Report" xml:space="preserve">
+    <value> 25 mètres et plus, dont le débit est</value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersMoreThan25Text" xml:space="preserve">
+    <value>25 et plus,</value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersStart" xml:space="preserve">
+    <value>Largeur (mètres)</value>
+  </data>
+  <data name="PolSourceInfoEnumWidthInMetersStartDesc" xml:space="preserve">
+    <value>Largeur approximative en mètres</value>
+  </data>
+  <data name="PolSourceInfoEnumWildlifeBirds" xml:space="preserve">
+    <value>Oiseaux</value>
+  </data>
+  <data name="PolSourceInfoEnumWildlifeBirdsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWildlifeBirdsReport" xml:space="preserve">
+    <value> oiseaux,</value>
+  </data>
+  <data name="PolSourceInfoEnumWildlifeBirdsText" xml:space="preserve">
+    <value>Oiseaux, </value>
+  </data>
+  <data name="PolSourceInfoEnumWildlifeLandMammals" xml:space="preserve">
+    <value>Mammifères terrestres</value>
+  </data>
+  <data name="PolSourceInfoEnumWildlifeLandMammalsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWildlifeLandMammalsReport" xml:space="preserve">
+    <value> mammifères terrestres,</value>
+  </data>
+  <data name="PolSourceInfoEnumWildlifeLandMammalsText" xml:space="preserve">
+    <value>Mammifères terrestres, </value>
+  </data>
+  <data name="PolSourceInfoEnumWildlifeMarineMammals" xml:space="preserve">
+    <value>Mammifères marins</value>
+  </data>
+  <data name="PolSourceInfoEnumWildlifeMarineMammalsInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumWildlifeMarineMammalsReport" xml:space="preserve">
+    <value> mammifères marins,</value>
+  </data>
+  <data name="PolSourceInfoEnumWildlifeMarineMammalsText" xml:space="preserve">
+    <value>Mammifères marins, </value>
+  </data>
+  <data name="PolSourceInfoEnumWildlifeStart" xml:space="preserve">
+    <value>Faune</value>
+  </data>
+  <data name="PolSourceInfoEnumWildlifeStartDesc" xml:space="preserve">
+    <value>La faune présente en majorité</value>
+  </data>
+</root>
