@@ -124,6 +124,53 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
+        public void BaseEnumService_GetEnumText_AnalysisCalculationTypeEnum_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+        
+                string retStr = baseEnumService.GetEnumText_AnalysisCalculationTypeEnum(null);
+                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+        
+                for (int i = 0, count = Enum.GetNames(typeof(AnalysisCalculationTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.GetEnumText_AnalysisCalculationTypeEnum((AnalysisCalculationTypeEnum)i);
+        
+                    switch ((AnalysisCalculationTypeEnum)i)
+                    {
+                        case AnalysisCalculationTypeEnum.Error:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                        case AnalysisCalculationTypeEnum.AllAllAll:
+                            Assert.AreEqual(BaseEnumServiceRes.AnalysisCalculationTypeEnumAllAllAll, retStr);
+                            break;
+                        case AnalysisCalculationTypeEnum.WetAllAll:
+                            Assert.AreEqual(BaseEnumServiceRes.AnalysisCalculationTypeEnumWetAllAll, retStr);
+                            break;
+                        case AnalysisCalculationTypeEnum.DryAllAll:
+                            Assert.AreEqual(BaseEnumServiceRes.AnalysisCalculationTypeEnumDryAllAll, retStr);
+                            break;
+                        case AnalysisCalculationTypeEnum.WetWetAll:
+                            Assert.AreEqual(BaseEnumServiceRes.AnalysisCalculationTypeEnumWetWetAll, retStr);
+                            break;
+                        case AnalysisCalculationTypeEnum.DryDryAll:
+                            Assert.AreEqual(BaseEnumServiceRes.AnalysisCalculationTypeEnumDryDryAll, retStr);
+                            break;
+                        case AnalysisCalculationTypeEnum.WetDryAll:
+                            Assert.AreEqual(BaseEnumServiceRes.AnalysisCalculationTypeEnumWetDryAll, retStr);
+                            break;
+                        case AnalysisCalculationTypeEnum.DryWetAll:
+                            Assert.AreEqual(BaseEnumServiceRes.AnalysisCalculationTypeEnumDryWetAll, retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
         public void BaseEnumService_GetEnumText_AnalyzeMethodEnum_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -3678,6 +3725,39 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         default:
                             Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AlarmSystemType), retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_AnalysisCalculationTypeOK_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+
+                string retStr = baseEnumService.AnalysisCalculationTypeOK(null);
+                Assert.AreEqual("", retStr);
+
+                for (int i = 0, count = Enum.GetNames(typeof(AnalysisCalculationTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.AnalysisCalculationTypeOK((AnalysisCalculationTypeEnum)i);
+
+                    switch ((AnalysisCalculationTypeEnum)i)
+                    {
+                        case AnalysisCalculationTypeEnum.Error:
+                        case AnalysisCalculationTypeEnum.AllAllAll:
+                        case AnalysisCalculationTypeEnum.WetAllAll:
+                        case AnalysisCalculationTypeEnum.DryAllAll:
+                        case AnalysisCalculationTypeEnum.WetWetAll:
+                        case AnalysisCalculationTypeEnum.DryDryAll:
+                        case AnalysisCalculationTypeEnum.WetDryAll:
+                        case AnalysisCalculationTypeEnum.DryWetAll:
+                            Assert.AreEqual("", retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AnalysisCalculationType), retStr);
                             break;
                     }
                 }

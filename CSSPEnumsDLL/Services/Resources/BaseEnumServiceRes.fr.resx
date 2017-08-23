@@ -1924,4 +1924,28 @@
   <data name="TVTypeEnumRainExceedance" xml:space="preserve">
     <value>Excédance de pluie</value>
   </data>
+  <data name="AnalysisCalculationType" xml:space="preserve">
+    <value>AnalysisCalculationType (fr)</value>
+  </data>
+  <data name="AnalysisCalculationTypeEnumAllAllAll" xml:space="preserve">
+    <value>All - All - All (fr)</value>
+  </data>
+  <data name="AnalysisCalculationTypeEnumDryAllAll" xml:space="preserve">
+    <value>Dry - All - All (fr)</value>
+  </data>
+  <data name="AnalysisCalculationTypeEnumDryDryAll" xml:space="preserve">
+    <value>Dry - Dry - All (fr)</value>
+  </data>
+  <data name="AnalysisCalculationTypeEnumDryWetAll" xml:space="preserve">
+    <value>Dry - Wet - All (fr)</value>
+  </data>
+  <data name="AnalysisCalculationTypeEnumWetAllAll" xml:space="preserve">
+    <value>Wet - All - All (fr)</value>
+  </data>
+  <data name="AnalysisCalculationTypeEnumWetDryAll" xml:space="preserve">
+    <value>Wet - Dry - All (fr)</value>
+  </data>
+  <data name="AnalysisCalculationTypeEnumWetWetAll" xml:space="preserve">
+    <value>Wet - Wet - All (fr)</value>
+  </data>
 </root>

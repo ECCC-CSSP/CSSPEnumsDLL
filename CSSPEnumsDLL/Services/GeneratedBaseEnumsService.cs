@@ -73,6 +73,33 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.Empty;
             }
         }
+        public string GetEnumText_AnalysisCalculationTypeEnum(AnalysisCalculationTypeEnum? analysisCalculationTypeE)
+        {
+            if (analysisCalculationTypeE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (analysisCalculationTypeE)
+            {
+                case AnalysisCalculationTypeEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case AnalysisCalculationTypeEnum.AllAllAll:
+                    return BaseEnumServiceRes.AnalysisCalculationTypeEnumAllAllAll;
+                case AnalysisCalculationTypeEnum.WetAllAll:
+                    return BaseEnumServiceRes.AnalysisCalculationTypeEnumWetAllAll;
+                case AnalysisCalculationTypeEnum.DryAllAll:
+                    return BaseEnumServiceRes.AnalysisCalculationTypeEnumDryAllAll;
+                case AnalysisCalculationTypeEnum.WetWetAll:
+                    return BaseEnumServiceRes.AnalysisCalculationTypeEnumWetWetAll;
+                case AnalysisCalculationTypeEnum.DryDryAll:
+                    return BaseEnumServiceRes.AnalysisCalculationTypeEnumDryDryAll;
+                case AnalysisCalculationTypeEnum.WetDryAll:
+                    return BaseEnumServiceRes.AnalysisCalculationTypeEnumWetDryAll;
+                case AnalysisCalculationTypeEnum.DryWetAll:
+                    return BaseEnumServiceRes.AnalysisCalculationTypeEnumDryWetAll;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
         public string GetEnumText_AnalyzeMethodEnum(AnalyzeMethodEnum? analyzeMethodE)
         {
             if (analyzeMethodE == null)
@@ -2174,6 +2201,21 @@ namespace CSSPEnumsDLL.Services
 
             return AlarmSystemTypeEnumTextOrderedList;
         }
+        public List<AnalysisCalculationTypeEnumTextOrdered> GetAnalysisCalculationTypeEnumTextOrderedList()
+        {
+            List<AnalysisCalculationTypeEnumTextOrdered> AnalysisCalculationTypeEnumTextOrderedList = new List<AnalysisCalculationTypeEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(AnalysisCalculationTypeEnum)).Count(); i < count; i++)
+            {
+                AnalysisCalculationTypeEnumTextOrderedList.Add(new AnalysisCalculationTypeEnumTextOrdered() { AnalysisCalculationType = (AnalysisCalculationTypeEnum)i, AnalysisCalculationTypeText = GetEnumText_AnalysisCalculationTypeEnum((AnalysisCalculationTypeEnum)i) });
+            }
+
+            AnalysisCalculationTypeEnumTextOrderedList = (from c in AnalysisCalculationTypeEnumTextOrderedList
+                                              orderby c.AnalysisCalculationTypeText
+                                              select c).ToList();
+
+            return AnalysisCalculationTypeEnumTextOrderedList;
+        }
         public List<AnalyzeMethodEnumTextOrdered> GetAnalyzeMethodEnumTextOrderedList()
         {
             List<AnalyzeMethodEnumTextOrdered> AnalyzeMethodEnumTextOrderedList = new List<AnalyzeMethodEnumTextOrdered>();
@@ -3125,6 +3167,26 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AlarmSystemType);
+            }
+        }
+        public string AnalysisCalculationTypeOK(AnalysisCalculationTypeEnum? analysisCalculationType)
+        {
+            if (analysisCalculationType == null)
+                return "";
+
+            switch ((AnalysisCalculationTypeEnum)analysisCalculationType)
+            {
+                case AnalysisCalculationTypeEnum.Error:
+                case AnalysisCalculationTypeEnum.AllAllAll:
+                case AnalysisCalculationTypeEnum.WetAllAll:
+                case AnalysisCalculationTypeEnum.DryAllAll:
+                case AnalysisCalculationTypeEnum.WetWetAll:
+                case AnalysisCalculationTypeEnum.DryDryAll:
+                case AnalysisCalculationTypeEnum.WetDryAll:
+                case AnalysisCalculationTypeEnum.DryWetAll:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AnalysisCalculationType);
             }
         }
         public string AnalyzeMethodOK(AnalyzeMethodEnum? analyzeMethod)

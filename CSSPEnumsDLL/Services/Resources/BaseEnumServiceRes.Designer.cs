@@ -19,7 +19,7 @@ namespace CSSPEnumsDLL.Services.Resources {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class BaseEnumServiceRes {
@@ -210,6 +210,78 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string AlarmSystemTypeSCADA {
             get {
                 return ResourceManager.GetString("AlarmSystemTypeSCADA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to AnalysisCalculationType.
+        /// </summary>
+        public static string AnalysisCalculationType {
+            get {
+                return ResourceManager.GetString("AnalysisCalculationType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All - All - All.
+        /// </summary>
+        public static string AnalysisCalculationTypeEnumAllAllAll {
+            get {
+                return ResourceManager.GetString("AnalysisCalculationTypeEnumAllAllAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dry - All - All.
+        /// </summary>
+        public static string AnalysisCalculationTypeEnumDryAllAll {
+            get {
+                return ResourceManager.GetString("AnalysisCalculationTypeEnumDryAllAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dry - Dry - All.
+        /// </summary>
+        public static string AnalysisCalculationTypeEnumDryDryAll {
+            get {
+                return ResourceManager.GetString("AnalysisCalculationTypeEnumDryDryAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dry - Wet - All.
+        /// </summary>
+        public static string AnalysisCalculationTypeEnumDryWetAll {
+            get {
+                return ResourceManager.GetString("AnalysisCalculationTypeEnumDryWetAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wet - All - All.
+        /// </summary>
+        public static string AnalysisCalculationTypeEnumWetAllAll {
+            get {
+                return ResourceManager.GetString("AnalysisCalculationTypeEnumWetAllAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wet - Dry - All.
+        /// </summary>
+        public static string AnalysisCalculationTypeEnumWetDryAll {
+            get {
+                return ResourceManager.GetString("AnalysisCalculationTypeEnumWetDryAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wet - Wet - All.
+        /// </summary>
+        public static string AnalysisCalculationTypeEnumWetWetAll {
+            get {
+                return ResourceManager.GetString("AnalysisCalculationTypeEnumWetWetAll", resourceCulture);
             }
         }
         

@@ -29,6 +29,17 @@ namespace CSSPEnumsDLL.Enums
         SCADAAndLight = 4,
         PagerAndLight = 5,
     }
+    public enum AnalysisCalculationTypeEnum
+    {
+        Error = 0,
+        AllAllAll = 1,
+        WetAllAll = 2,
+        DryAllAll = 3,
+        WetWetAll = 4,
+        DryDryAll = 5,
+        WetDryAll = 6,
+        DryWetAll = 7,
+    }
     public enum AnalyzeMethodEnum
     {
         Error = 0,

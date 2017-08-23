@@ -43,6 +43,15 @@ namespace CSSPEnumsDLL.Enums
         public AlarmSystemTypeEnum AlarmSystemType { get; set; }
         public string AlarmSystemTypeText { get; set; }
     }
+    public class AnalysisCalculationTypeEnumTextOrdered
+    {
+        public AnalysisCalculationTypeEnumTextOrdered()
+        {
+        }
+
+        public AnalysisCalculationTypeEnum AnalysisCalculationType { get; set; }
+        public string AnalysisCalculationTypeText { get; set; }
+    }
     public class AnalyzeMethodEnumTextOrdered
     {
         public AnalyzeMethodEnumTextOrdered()
