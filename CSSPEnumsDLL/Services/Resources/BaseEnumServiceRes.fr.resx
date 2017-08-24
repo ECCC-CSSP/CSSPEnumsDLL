@@ -406,7 +406,7 @@
     <value>Subsecteur</value>
   </data>
   <data name="DailyOrHourlyData" xml:space="preserve">
-    <value>Donnée jounalière ou horaire</value>
+    <value>Donnée journalière ou horaire</value>
   </data>
   <data name="DailyOrHourlyDataEnumDaily" xml:space="preserve">
     <value>Journalière</value>
@@ -907,13 +907,13 @@
     <value>Type de noeud de l'arbre de rapport</value>
   </data>
   <data name="SameDayNextDay" xml:space="preserve">
-    <value>Même journée ou jounée suivante</value>
+    <value>Même journée ou journée suivante</value>
   </data>
   <data name="SameDayNextDayEnumNextDay" xml:space="preserve">
-    <value>Jounée suivante</value>
+    <value>Journée suivante</value>
   </data>
   <data name="SameDayNextDayEnumSameDay" xml:space="preserve">
-    <value>Même jounée</value>
+    <value>Même journée</value>
   </data>
   <data name="SampleMatrix" xml:space="preserve">
     <value>Milieu de l'écantillonnage</value>
@@ -1561,7 +1561,7 @@
     <value>Effacer</value>
   </data>
   <data name="SampleTypeEnumDailyDuplicate" xml:space="preserve">
-    <value>Duplicata jounalier</value>
+    <value>Duplicata journalier</value>
   </data>
   <data name="SampleTypeEnumInfrastructure" xml:space="preserve">
     <value>Infrastructure</value>
