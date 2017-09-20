@@ -100,6 +100,23 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.Empty;
             }
         }
+        public string GetEnumText_AnalysisReportExportCommandEnum(AnalysisReportExportCommandEnum? analysisReportExportCommandE)
+        {
+            if (analysisReportExportCommandE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (analysisReportExportCommandE)
+            {
+                case AnalysisReportExportCommandEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case AnalysisReportExportCommandEnum.Report:
+                    return BaseEnumServiceRes.AnalysisReportExportCommandEnumReport;
+                case AnalysisReportExportCommandEnum.Excel:
+                    return BaseEnumServiceRes.AnalysisReportExportCommandEnumExcel;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
         public string GetEnumText_AnalyzeMethodEnum(AnalyzeMethodEnum? analyzeMethodE)
         {
             if (analyzeMethodE == null)
@@ -180,6 +197,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumCreateWebTideDataWLAtFirstNode;
                 case AppTaskCommandEnum.ExportEmailDistributionLists:
                     return BaseEnumServiceRes.AppTaskCommandEnumExportEmailDistributionLists;
+                case AppTaskCommandEnum.ExportAnalysisToExcel:
+                    return BaseEnumServiceRes.AppTaskCommandEnumExportAnalysisToExcel;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -2216,6 +2235,21 @@ namespace CSSPEnumsDLL.Services
 
             return AnalysisCalculationTypeEnumTextOrderedList;
         }
+        public List<AnalysisReportExportCommandEnumTextOrdered> GetAnalysisReportExportCommandEnumTextOrderedList()
+        {
+            List<AnalysisReportExportCommandEnumTextOrdered> AnalysisReportExportCommandEnumTextOrderedList = new List<AnalysisReportExportCommandEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(AnalysisReportExportCommandEnum)).Count(); i < count; i++)
+            {
+                AnalysisReportExportCommandEnumTextOrderedList.Add(new AnalysisReportExportCommandEnumTextOrdered() { AnalysisReportExportCommand = (AnalysisReportExportCommandEnum)i, AnalysisReportExportCommandText = GetEnumText_AnalysisReportExportCommandEnum((AnalysisReportExportCommandEnum)i) });
+            }
+
+            AnalysisReportExportCommandEnumTextOrderedList = (from c in AnalysisReportExportCommandEnumTextOrderedList
+                                              orderby c.AnalysisReportExportCommandText
+                                              select c).ToList();
+
+            return AnalysisReportExportCommandEnumTextOrderedList;
+        }
         public List<AnalyzeMethodEnumTextOrdered> GetAnalyzeMethodEnumTextOrderedList()
         {
             List<AnalyzeMethodEnumTextOrdered> AnalyzeMethodEnumTextOrderedList = new List<AnalyzeMethodEnumTextOrdered>();
@@ -3189,6 +3223,21 @@ namespace CSSPEnumsDLL.Services
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AnalysisCalculationType);
             }
         }
+        public string AnalysisReportExportCommandOK(AnalysisReportExportCommandEnum? analysisReportExportCommand)
+        {
+            if (analysisReportExportCommand == null)
+                return "";
+
+            switch ((AnalysisReportExportCommandEnum)analysisReportExportCommand)
+            {
+                case AnalysisReportExportCommandEnum.Error:
+                case AnalysisReportExportCommandEnum.Report:
+                case AnalysisReportExportCommandEnum.Excel:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AnalysisReportExportCommand);
+            }
+        }
         public string AnalyzeMethodOK(AnalyzeMethodEnum? analyzeMethod)
         {
             if (analyzeMethod == null)
@@ -3239,6 +3288,7 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.GetClimateSitesDataForRunsOfYear:
                 case AppTaskCommandEnum.CreateWebTideDataWLAtFirstNode:
                 case AppTaskCommandEnum.ExportEmailDistributionLists:
+                case AppTaskCommandEnum.ExportAnalysisToExcel:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);

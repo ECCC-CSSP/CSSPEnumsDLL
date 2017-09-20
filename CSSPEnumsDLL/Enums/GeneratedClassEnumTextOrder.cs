@@ -52,6 +52,15 @@ namespace CSSPEnumsDLL.Enums
         public AnalysisCalculationTypeEnum AnalysisCalculationType { get; set; }
         public string AnalysisCalculationTypeText { get; set; }
     }
+    public class AnalysisReportExportCommandEnumTextOrdered
+    {
+        public AnalysisReportExportCommandEnumTextOrdered()
+        {
+        }
+
+        public AnalysisReportExportCommandEnum AnalysisReportExportCommand { get; set; }
+        public string AnalysisReportExportCommandText { get; set; }
+    }
     public class AnalyzeMethodEnumTextOrdered
     {
         public AnalyzeMethodEnumTextOrdered()

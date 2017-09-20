@@ -40,6 +40,12 @@ namespace CSSPEnumsDLL.Enums
         WetDryAll = 6,
         DryWetAll = 7,
     }
+    public enum AnalysisReportExportCommandEnum
+    {
+        Error = 0,
+        Report = 1,
+        Excel = 2,
+    }
     public enum AnalyzeMethodEnum
     {
         Error = 0,
@@ -76,6 +82,7 @@ namespace CSSPEnumsDLL.Enums
         GetClimateSitesDataForRunsOfYear = 15,
         CreateWebTideDataWLAtFirstNode = 16,
         ExportEmailDistributionLists = 17,
+        ExportAnalysisToExcel = 18,
     }
     public enum AppTaskStatusEnum
     {

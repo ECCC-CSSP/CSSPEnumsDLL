@@ -171,6 +171,38 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
+        public void BaseEnumService_GetEnumText_AnalysisReportExportCommandEnum_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+        
+                string retStr = baseEnumService.GetEnumText_AnalysisReportExportCommandEnum(null);
+                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+        
+                for (int i = 0, count = Enum.GetNames(typeof(AnalysisReportExportCommandEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.GetEnumText_AnalysisReportExportCommandEnum((AnalysisReportExportCommandEnum)i);
+        
+                    switch ((AnalysisReportExportCommandEnum)i)
+                    {
+                        case AnalysisReportExportCommandEnum.Error:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                        case AnalysisReportExportCommandEnum.Report:
+                            Assert.AreEqual(BaseEnumServiceRes.AnalysisReportExportCommandEnumReport, retStr);
+                            break;
+                        case AnalysisReportExportCommandEnum.Excel:
+                            Assert.AreEqual(BaseEnumServiceRes.AnalysisReportExportCommandEnumExcel, retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
         public void BaseEnumService_GetEnumText_AnalyzeMethodEnum_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -301,6 +333,9 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         case AppTaskCommandEnum.ExportEmailDistributionLists:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumExportEmailDistributionLists, retStr);
+                            break;
+                        case AppTaskCommandEnum.ExportAnalysisToExcel:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumExportAnalysisToExcel, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -3764,6 +3799,34 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
+        public void BaseEnumService_AnalysisReportExportCommandOK_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+
+                string retStr = baseEnumService.AnalysisReportExportCommandOK(null);
+                Assert.AreEqual("", retStr);
+
+                for (int i = 0, count = Enum.GetNames(typeof(AnalysisReportExportCommandEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.AnalysisReportExportCommandOK((AnalysisReportExportCommandEnum)i);
+
+                    switch ((AnalysisReportExportCommandEnum)i)
+                    {
+                        case AnalysisReportExportCommandEnum.Error:
+                        case AnalysisReportExportCommandEnum.Report:
+                        case AnalysisReportExportCommandEnum.Excel:
+                            Assert.AreEqual("", retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AnalysisReportExportCommand), retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
         public void BaseEnumService_AnalyzeMethodOK_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -3835,6 +3898,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.GetClimateSitesDataForRunsOfYear:
                         case AppTaskCommandEnum.CreateWebTideDataWLAtFirstNode:
                         case AppTaskCommandEnum.ExportEmailDistributionLists:
+                        case AppTaskCommandEnum.ExportAnalysisToExcel:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

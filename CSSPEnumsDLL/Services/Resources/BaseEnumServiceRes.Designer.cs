@@ -286,6 +286,33 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to AnalysisReportExportCommand.
+        /// </summary>
+        public static string AnalysisReportExportCommand {
+            get {
+                return ResourceManager.GetString("AnalysisReportExportCommand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Excel.
+        /// </summary>
+        public static string AnalysisReportExportCommandEnumExcel {
+            get {
+                return ResourceManager.GetString("AnalysisReportExportCommandEnumExcel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Report.
+        /// </summary>
+        public static string AnalysisReportExportCommandEnumReport {
+            get {
+                return ResourceManager.GetString("AnalysisReportExportCommandEnumReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to AnalyzeMethod.
         /// </summary>
         public static string AnalyzeMethod {
@@ -444,6 +471,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string AppTaskCommandEnumCreateWebTideDataWLAtFirstNode {
             get {
                 return ResourceManager.GetString("AppTaskCommandEnumCreateWebTideDataWLAtFirstNode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Export to Excel.
+        /// </summary>
+        public static string AppTaskCommandEnumExportAnalysisToExcel {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumExportAnalysisToExcel", resourceCulture);
             }
         }
         

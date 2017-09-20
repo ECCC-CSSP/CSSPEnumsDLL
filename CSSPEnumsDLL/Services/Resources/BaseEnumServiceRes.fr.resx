@@ -1948,4 +1948,16 @@
   <data name="AnalysisCalculationTypeEnumWetWetAll" xml:space="preserve">
     <value>Wet - Wet - All (fr)</value>
   </data>
+  <data name="AnalysisReportExportCommand" xml:space="preserve">
+    <value>AnalysisReportExportCommand</value>
+  </data>
+  <data name="AnalysisReportExportCommandEnumReport" xml:space="preserve">
+    <value>Report (fr)</value>
+  </data>
+  <data name="AnalysisReportExportCommandEnumExcel" xml:space="preserve">
+    <value>Excel (fr)</value>
+  </data>
+  <data name="AppTaskCommandEnumExportAnalysisToExcel" xml:space="preserve">
+    <value>Export to Excel (fr)</value>
+  </data>
 </root>
