@@ -520,6 +520,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.FilePurposeEnumTemplate;
                 case FilePurposeEnum.Map:
                     return BaseEnumServiceRes.FilePurposeEnumMap;
+                case FilePurposeEnum.Analysis:
+                    return BaseEnumServiceRes.FilePurposeEnumAnalysis;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3534,6 +3536,7 @@ namespace CSSPEnumsDLL.Services
                 case FilePurposeEnum.GeneratedFCForm:
                 case FilePurposeEnum.Template:
                 case FilePurposeEnum.Map:
+                case FilePurposeEnum.Analysis:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.FilePurpose);

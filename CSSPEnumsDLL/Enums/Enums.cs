@@ -255,6 +255,7 @@ namespace CSSPEnumsDLL.Enums
         GeneratedFCForm = 10,
         Template = 11,
         Map = 12,
+        Analysis = 13,
     }
     public enum FileStatusEnum
     {

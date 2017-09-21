@@ -1646,6 +1646,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Analysis.
+        /// </summary>
+        public static string FilePurposeEnumAnalysis {
+            get {
+                return ResourceManager.GetString("FilePurposeEnumAnalysis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Generated.
         /// </summary>
         public static string FilePurposeEnumGenerated {

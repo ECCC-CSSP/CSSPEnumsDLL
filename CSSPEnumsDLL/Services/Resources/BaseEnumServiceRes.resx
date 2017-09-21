@@ -2454,4 +2454,7 @@
   <data name="AppTaskCommandEnumExportAnalysisToExcel" xml:space="preserve">
     <value>Export to Excel</value>
   </data>
+  <data name="FilePurposeEnumAnalysis" xml:space="preserve">
+    <value>Analysis</value>
+  </data>
 </root>

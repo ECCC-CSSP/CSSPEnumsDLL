@@ -903,6 +903,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case FilePurposeEnum.Map:
                             Assert.AreEqual(BaseEnumServiceRes.FilePurposeEnumMap, retStr);
                             break;
+                        case FilePurposeEnum.Analysis:
+                            Assert.AreEqual(BaseEnumServiceRes.FilePurposeEnumAnalysis, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -4313,6 +4316,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case FilePurposeEnum.GeneratedFCForm:
                         case FilePurposeEnum.Template:
                         case FilePurposeEnum.Map:
+                        case FilePurposeEnum.Analysis:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
