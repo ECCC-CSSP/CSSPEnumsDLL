@@ -1259,6 +1259,87 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ExcelExportShowDataType.
+        /// </summary>
+        public static string ExcelExportShowDataType {
+            get {
+                return ResourceManager.GetString("ExcelExportShowDataType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fecal coliform.
+        /// </summary>
+        public static string ExcelExportShowDataTypeEnumFecalColiform {
+            get {
+                return ResourceManager.GetString("ExcelExportShowDataTypeEnumFecalColiform", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Geometric mean.
+        /// </summary>
+        public static string ExcelExportShowDataTypeEnumGemetricMean {
+            get {
+                return ResourceManager.GetString("ExcelExportShowDataTypeEnumGemetricMean", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Median.
+        /// </summary>
+        public static string ExcelExportShowDataTypeEnumMedian {
+            get {
+                return ResourceManager.GetString("ExcelExportShowDataTypeEnumMedian", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to P90.
+        /// </summary>
+        public static string ExcelExportShowDataTypeEnumP90 {
+            get {
+                return ResourceManager.GetString("ExcelExportShowDataTypeEnumP90", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to % of P90 &gt; 260.
+        /// </summary>
+        public static string ExcelExportShowDataTypeEnumPercOfP90Over260 {
+            get {
+                return ResourceManager.GetString("ExcelExportShowDataTypeEnumPercOfP90Over260", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to % of P90 &gt; 43.
+        /// </summary>
+        public static string ExcelExportShowDataTypeEnumPercOfP90Over43 {
+            get {
+                return ResourceManager.GetString("ExcelExportShowDataTypeEnumPercOfP90Over43", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Salinity.
+        /// </summary>
+        public static string ExcelExportShowDataTypeEnumSalinity {
+            get {
+                return ResourceManager.GetString("ExcelExportShowDataTypeEnumSalinity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Temperature.
+        /// </summary>
+        public static string ExcelExportShowDataTypeEnumTemperature {
+            get {
+                return ResourceManager.GetString("ExcelExportShowDataTypeEnumTemperature", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to FacilityType.
         /// </summary>
         public static string FacilityType {

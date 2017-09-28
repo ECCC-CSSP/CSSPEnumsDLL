@@ -1963,4 +1963,31 @@
   <data name="FilePurposeEnumAnalysis" xml:space="preserve">
     <value>Analyse</value>
   </data>
+  <data name="ExcelExportShowDataType" xml:space="preserve">
+    <value>ExcelExportShowDataType</value>
+  </data>
+  <data name="ExcelExportShowDataTypeEnumFecalColiform" xml:space="preserve">
+    <value>Coliform fécaux</value>
+  </data>
+  <data name="ExcelExportShowDataTypeEnumGemetricMean" xml:space="preserve">
+    <value>Moyenne géométrique</value>
+  </data>
+  <data name="ExcelExportShowDataTypeEnumMedian" xml:space="preserve">
+    <value>Médian</value>
+  </data>
+  <data name="ExcelExportShowDataTypeEnumP90" xml:space="preserve">
+    <value>P90</value>
+  </data>
+  <data name="ExcelExportShowDataTypeEnumPercOfP90Over260" xml:space="preserve">
+    <value>% de P90 &gt; 260</value>
+  </data>
+  <data name="ExcelExportShowDataTypeEnumPercOfP90Over43" xml:space="preserve">
+    <value>% de P90 &gt; 43</value>
+  </data>
+  <data name="ExcelExportShowDataTypeEnumSalinity" xml:space="preserve">
+    <value>Salinité</value>
+  </data>
+  <data name="ExcelExportShowDataTypeEnumTemperature" xml:space="preserve">
+    <value>Température</value>
+  </data>
 </root>

@@ -470,6 +470,35 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.Empty;
             }
         }
+        public string GetEnumText_ExcelExportShowDataTypeEnum(ExcelExportShowDataTypeEnum? excelExportShowDataTypeE)
+        {
+            if (excelExportShowDataTypeE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (excelExportShowDataTypeE)
+            {
+                case ExcelExportShowDataTypeEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case ExcelExportShowDataTypeEnum.FecalColiform:
+                    return BaseEnumServiceRes.ExcelExportShowDataTypeEnumFecalColiform;
+                case ExcelExportShowDataTypeEnum.Temperature:
+                    return BaseEnumServiceRes.ExcelExportShowDataTypeEnumTemperature;
+                case ExcelExportShowDataTypeEnum.Salinity:
+                    return BaseEnumServiceRes.ExcelExportShowDataTypeEnumSalinity;
+                case ExcelExportShowDataTypeEnum.P90:
+                    return BaseEnumServiceRes.ExcelExportShowDataTypeEnumP90;
+                case ExcelExportShowDataTypeEnum.GemetricMean:
+                    return BaseEnumServiceRes.ExcelExportShowDataTypeEnumGemetricMean;
+                case ExcelExportShowDataTypeEnum.Median:
+                    return BaseEnumServiceRes.ExcelExportShowDataTypeEnumMedian;
+                case ExcelExportShowDataTypeEnum.PercOfP90Over43:
+                    return BaseEnumServiceRes.ExcelExportShowDataTypeEnumPercOfP90Over43;
+                case ExcelExportShowDataTypeEnum.PercOfP90Over260:
+                    return BaseEnumServiceRes.ExcelExportShowDataTypeEnumPercOfP90Over260;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
         public string GetEnumText_FacilityTypeEnum(FacilityTypeEnum? facilityTypeE)
         {
             if (facilityTypeE == null)
@@ -2447,6 +2476,21 @@ namespace CSSPEnumsDLL.Services
 
             return EmailTypeEnumTextOrderedList;
         }
+        public List<ExcelExportShowDataTypeEnumTextOrdered> GetExcelExportShowDataTypeEnumTextOrderedList()
+        {
+            List<ExcelExportShowDataTypeEnumTextOrdered> ExcelExportShowDataTypeEnumTextOrderedList = new List<ExcelExportShowDataTypeEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(ExcelExportShowDataTypeEnum)).Count(); i < count; i++)
+            {
+                ExcelExportShowDataTypeEnumTextOrderedList.Add(new ExcelExportShowDataTypeEnumTextOrdered() { ExcelExportShowDataType = (ExcelExportShowDataTypeEnum)i, ExcelExportShowDataTypeText = GetEnumText_ExcelExportShowDataTypeEnum((ExcelExportShowDataTypeEnum)i) });
+            }
+
+            ExcelExportShowDataTypeEnumTextOrderedList = (from c in ExcelExportShowDataTypeEnumTextOrderedList
+                                              orderby c.ExcelExportShowDataTypeText
+                                              select c).ToList();
+
+            return ExcelExportShowDataTypeEnumTextOrderedList;
+        }
         public List<FacilityTypeEnumTextOrdered> GetFacilityTypeEnumTextOrderedList()
         {
             List<FacilityTypeEnumTextOrdered> FacilityTypeEnumTextOrderedList = new List<FacilityTypeEnumTextOrdered>();
@@ -3499,6 +3543,27 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.EmailType);
+            }
+        }
+        public string ExcelExportShowDataTypeOK(ExcelExportShowDataTypeEnum? excelExportShowDataType)
+        {
+            if (excelExportShowDataType == null)
+                return "";
+
+            switch ((ExcelExportShowDataTypeEnum)excelExportShowDataType)
+            {
+                case ExcelExportShowDataTypeEnum.Error:
+                case ExcelExportShowDataTypeEnum.FecalColiform:
+                case ExcelExportShowDataTypeEnum.Temperature:
+                case ExcelExportShowDataTypeEnum.Salinity:
+                case ExcelExportShowDataTypeEnum.P90:
+                case ExcelExportShowDataTypeEnum.GemetricMean:
+                case ExcelExportShowDataTypeEnum.Median:
+                case ExcelExportShowDataTypeEnum.PercOfP90Over43:
+                case ExcelExportShowDataTypeEnum.PercOfP90Over260:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ExcelExportShowDataType);
             }
         }
         public string FacilityTypeOK(FacilityTypeEnum? facilityType)

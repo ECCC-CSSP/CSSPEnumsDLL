@@ -178,6 +178,15 @@ namespace CSSPEnumsDLL.Enums
         public EmailTypeEnum EmailType { get; set; }
         public string EmailTypeText { get; set; }
     }
+    public class ExcelExportShowDataTypeEnumTextOrdered
+    {
+        public ExcelExportShowDataTypeEnumTextOrdered()
+        {
+        }
+
+        public ExcelExportShowDataTypeEnum ExcelExportShowDataType { get; set; }
+        public string ExcelExportShowDataTypeText { get; set; }
+    }
     public class FacilityTypeEnumTextOrdered
     {
         public FacilityTypeEnumTextOrdered()

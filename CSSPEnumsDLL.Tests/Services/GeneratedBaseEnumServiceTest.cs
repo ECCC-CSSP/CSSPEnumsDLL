@@ -817,6 +817,56 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
+        public void BaseEnumService_GetEnumText_ExcelExportShowDataTypeEnum_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+        
+                string retStr = baseEnumService.GetEnumText_ExcelExportShowDataTypeEnum(null);
+                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+        
+                for (int i = 0, count = Enum.GetNames(typeof(ExcelExportShowDataTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.GetEnumText_ExcelExportShowDataTypeEnum((ExcelExportShowDataTypeEnum)i);
+        
+                    switch ((ExcelExportShowDataTypeEnum)i)
+                    {
+                        case ExcelExportShowDataTypeEnum.Error:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                        case ExcelExportShowDataTypeEnum.FecalColiform:
+                            Assert.AreEqual(BaseEnumServiceRes.ExcelExportShowDataTypeEnumFecalColiform, retStr);
+                            break;
+                        case ExcelExportShowDataTypeEnum.Temperature:
+                            Assert.AreEqual(BaseEnumServiceRes.ExcelExportShowDataTypeEnumTemperature, retStr);
+                            break;
+                        case ExcelExportShowDataTypeEnum.Salinity:
+                            Assert.AreEqual(BaseEnumServiceRes.ExcelExportShowDataTypeEnumSalinity, retStr);
+                            break;
+                        case ExcelExportShowDataTypeEnum.P90:
+                            Assert.AreEqual(BaseEnumServiceRes.ExcelExportShowDataTypeEnumP90, retStr);
+                            break;
+                        case ExcelExportShowDataTypeEnum.GemetricMean:
+                            Assert.AreEqual(BaseEnumServiceRes.ExcelExportShowDataTypeEnumGemetricMean, retStr);
+                            break;
+                        case ExcelExportShowDataTypeEnum.Median:
+                            Assert.AreEqual(BaseEnumServiceRes.ExcelExportShowDataTypeEnumMedian, retStr);
+                            break;
+                        case ExcelExportShowDataTypeEnum.PercOfP90Over43:
+                            Assert.AreEqual(BaseEnumServiceRes.ExcelExportShowDataTypeEnumPercOfP90Over43, retStr);
+                            break;
+                        case ExcelExportShowDataTypeEnum.PercOfP90Over260:
+                            Assert.AreEqual(BaseEnumServiceRes.ExcelExportShowDataTypeEnumPercOfP90Over260, retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
         public void BaseEnumService_GetEnumText_FacilityTypeEnum_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -4254,6 +4304,40 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         default:
                             Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.EmailType), retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_ExcelExportShowDataTypeOK_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+
+                string retStr = baseEnumService.ExcelExportShowDataTypeOK(null);
+                Assert.AreEqual("", retStr);
+
+                for (int i = 0, count = Enum.GetNames(typeof(ExcelExportShowDataTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.ExcelExportShowDataTypeOK((ExcelExportShowDataTypeEnum)i);
+
+                    switch ((ExcelExportShowDataTypeEnum)i)
+                    {
+                        case ExcelExportShowDataTypeEnum.Error:
+                        case ExcelExportShowDataTypeEnum.FecalColiform:
+                        case ExcelExportShowDataTypeEnum.Temperature:
+                        case ExcelExportShowDataTypeEnum.Salinity:
+                        case ExcelExportShowDataTypeEnum.P90:
+                        case ExcelExportShowDataTypeEnum.GemetricMean:
+                        case ExcelExportShowDataTypeEnum.Median:
+                        case ExcelExportShowDataTypeEnum.PercOfP90Over43:
+                        case ExcelExportShowDataTypeEnum.PercOfP90Over260:
+                            Assert.AreEqual("", retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ExcelExportShowDataType), retStr);
                             break;
                     }
                 }

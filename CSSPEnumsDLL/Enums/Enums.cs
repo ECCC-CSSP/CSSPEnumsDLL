@@ -190,6 +190,18 @@ namespace CSSPEnumsDLL.Enums
         Personal2 = 3,
         Work2 = 4,
     }
+    public enum ExcelExportShowDataTypeEnum
+    {
+        Error = 0,
+        FecalColiform = 1,
+        Temperature = 2,
+        Salinity = 3,
+        P90 = 4,
+        GemetricMean = 5,
+        Median = 6,
+        PercOfP90Over43 = 7,
+        PercOfP90Over260 = 8,
+    }
     public enum FacilityTypeEnum
     {
         Error = 0,
@@ -389,7 +401,7 @@ namespace CSSPEnumsDLL.Enums
         Velocity = 2,
     }
     public enum MWQMSiteLatestClassificationEnum
-        {
+    {
         Error = 0,
         Approved = 1,
         ConditionallyApproved = 2,
