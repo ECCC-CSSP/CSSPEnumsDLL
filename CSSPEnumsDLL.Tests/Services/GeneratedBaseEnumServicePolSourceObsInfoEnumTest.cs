@@ -40,7 +40,7 @@ namespace CSSPEnumsDLL.Tests.Services
                     {
                         case PolSourceObsInfoEnum.Error:
                         {
-                            Assert.AreEqual(BaseEnumServiceRes.Error, retStr);
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                         }
                         break;
                         case PolSourceObsInfoEnum.Start:

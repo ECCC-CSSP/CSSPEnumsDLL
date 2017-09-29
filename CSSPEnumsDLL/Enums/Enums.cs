@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 namespace CSSPEnumsDLL.Enums
 {
     #region Enums
-    public enum AerationTypeEnum
-    {
-        Error = 0,
-        Diffuser = 1,
-        Surface = 2,
-    }
     public enum AddressTypeEnum
     {
         Error = 0,
         Mailing = 1,
         Shipping = 2,
         Civic = 3,
+    }
+    public enum AerationTypeEnum
+    {
+        Error = 0,
+        Diffuser = 1,
+        Surface = 2,
     }
     public enum AlarmSystemTypeEnum
     {
@@ -132,12 +132,6 @@ namespace CSSPEnumsDLL.Enums
         Combined30Separated70 = 9,
         Combined20Separated80 = 10,
         Combined10Separated90 = 11,
-    }
-    public enum SamplingPlanTypeEnum
-    {
-        Error = 0,
-        Subsector = 1,
-        Municipality = 2,
     }
     public enum ContactTitleEnum
     {
@@ -399,6 +393,15 @@ namespace CSSPEnumsDLL.Enums
         Error = 0,
         Level = 1,
         Velocity = 2,
+    }
+    public enum MikeScenarioSpecialResultKMLTypeEnum
+    {
+        Error = 0,
+        Mesh = 1,
+        StudyArea = 2,
+        BoundaryConditions = 3,
+        PollutionLimit = 4,
+        PollutionAnimation = 5,
     }
     public enum MWQMSiteLatestClassificationEnum
     {
@@ -683,6 +686,12 @@ namespace CSSPEnumsDLL.Enums
         Sanitary = 110,
         Study = 111,
     }
+    public enum SamplingPlanTypeEnum
+    {
+        Error = 0,
+        Subsector = 1,
+        Municipality = 2,
+    }
     public enum ScenarioStatusEnum
     {
         Error = 0,
@@ -763,15 +772,6 @@ namespace CSSPEnumsDLL.Enums
         P90Table = 6,
         PercentOver43Table = 7,
         PercentOver260Table = 8,
-    }
-    public enum MikeScenarioSpecialResultKMLTypeEnum
-    {
-        Error = 0,
-        Mesh = 1,
-        StudyArea = 2,
-        BoundaryConditions = 3,
-        PollutionLimit = 4,
-        PollutionAnimation = 5,
     }
     public enum StorageDataTypeEnum
     {
