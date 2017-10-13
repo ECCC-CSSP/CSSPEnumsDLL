@@ -539,10 +539,10 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.FilePurposeEnumImage;
                 case FilePurposeEnum.Picture:
                     return BaseEnumServiceRes.FilePurposeEnumPicture;
-                case FilePurposeEnum.Reported:
-                    return BaseEnumServiceRes.FilePurposeEnumReported;
-                case FilePurposeEnum.Generated:
-                    return BaseEnumServiceRes.FilePurposeEnumGenerated;
+                case FilePurposeEnum.ReportGenerated:
+                    return BaseEnumServiceRes.FilePurposeEnumReportGenerated;
+                case FilePurposeEnum.TemplateGenerated:
+                    return BaseEnumServiceRes.FilePurposeEnumTemplateGenerated;
                 case FilePurposeEnum.GeneratedFCForm:
                     return BaseEnumServiceRes.FilePurposeEnumGeneratedFCForm;
                 case FilePurposeEnum.Template:
@@ -1571,10 +1571,10 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.SearchTagEnumfi;
                 case SearchTagEnum.fp:
                     return BaseEnumServiceRes.SearchTagEnumfp;
-                case SearchTagEnum.fr:
-                    return BaseEnumServiceRes.SearchTagEnumfr;
-                case SearchTagEnum.fg:
-                    return BaseEnumServiceRes.SearchTagEnumfg;
+                case SearchTagEnum.frg:
+                    return BaseEnumServiceRes.SearchTagEnumfrg;
+                case SearchTagEnum.ftg:
+                    return BaseEnumServiceRes.SearchTagEnumftg;
                 case SearchTagEnum.fpdf:
                     return BaseEnumServiceRes.SearchTagEnumfpdf;
                 case SearchTagEnum.fdocx:
@@ -3596,8 +3596,8 @@ namespace CSSPEnumsDLL.Services
                 case FilePurposeEnum.Information:
                 case FilePurposeEnum.Image:
                 case FilePurposeEnum.Picture:
-                case FilePurposeEnum.Reported:
-                case FilePurposeEnum.Generated:
+                case FilePurposeEnum.ReportGenerated:
+                case FilePurposeEnum.TemplateGenerated:
                 case FilePurposeEnum.GeneratedFCForm:
                 case FilePurposeEnum.Template:
                 case FilePurposeEnum.Map:
@@ -4307,8 +4307,8 @@ namespace CSSPEnumsDLL.Services
                 case SearchTagEnum.t:
                 case SearchTagEnum.fi:
                 case SearchTagEnum.fp:
-                case SearchTagEnum.fr:
-                case SearchTagEnum.fg:
+                case SearchTagEnum.frg:
+                case SearchTagEnum.ftg:
                 case SearchTagEnum.fpdf:
                 case SearchTagEnum.fdocx:
                 case SearchTagEnum.fxlsx:

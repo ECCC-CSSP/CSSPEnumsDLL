@@ -938,11 +938,11 @@ namespace CSSPEnumsDLL.Tests.Services
                         case FilePurposeEnum.Picture:
                             Assert.AreEqual(BaseEnumServiceRes.FilePurposeEnumPicture, retStr);
                             break;
-                        case FilePurposeEnum.Reported:
-                            Assert.AreEqual(BaseEnumServiceRes.FilePurposeEnumReported, retStr);
+                        case FilePurposeEnum.ReportGenerated:
+                            Assert.AreEqual(BaseEnumServiceRes.FilePurposeEnumReportGenerated, retStr);
                             break;
-                        case FilePurposeEnum.Generated:
-                            Assert.AreEqual(BaseEnumServiceRes.FilePurposeEnumGenerated, retStr);
+                        case FilePurposeEnum.TemplateGenerated:
+                            Assert.AreEqual(BaseEnumServiceRes.FilePurposeEnumTemplateGenerated, retStr);
                             break;
                         case FilePurposeEnum.GeneratedFCForm:
                             Assert.AreEqual(BaseEnumServiceRes.FilePurposeEnumGeneratedFCForm, retStr);
@@ -2681,11 +2681,11 @@ namespace CSSPEnumsDLL.Tests.Services
                         case SearchTagEnum.fp:
                             Assert.AreEqual(BaseEnumServiceRes.SearchTagEnumfp, retStr);
                             break;
-                        case SearchTagEnum.fr:
-                            Assert.AreEqual(BaseEnumServiceRes.SearchTagEnumfr, retStr);
+                        case SearchTagEnum.frg:
+                            Assert.AreEqual(BaseEnumServiceRes.SearchTagEnumfrg, retStr);
                             break;
-                        case SearchTagEnum.fg:
-                            Assert.AreEqual(BaseEnumServiceRes.SearchTagEnumfg, retStr);
+                        case SearchTagEnum.ftg:
+                            Assert.AreEqual(BaseEnumServiceRes.SearchTagEnumftg, retStr);
                             break;
                         case SearchTagEnum.fpdf:
                             Assert.AreEqual(BaseEnumServiceRes.SearchTagEnumfpdf, retStr);
@@ -4395,8 +4395,8 @@ namespace CSSPEnumsDLL.Tests.Services
                         case FilePurposeEnum.Information:
                         case FilePurposeEnum.Image:
                         case FilePurposeEnum.Picture:
-                        case FilePurposeEnum.Reported:
-                        case FilePurposeEnum.Generated:
+                        case FilePurposeEnum.ReportGenerated:
+                        case FilePurposeEnum.TemplateGenerated:
                         case FilePurposeEnum.GeneratedFCForm:
                         case FilePurposeEnum.Template:
                         case FilePurposeEnum.Map:
@@ -5496,8 +5496,8 @@ namespace CSSPEnumsDLL.Tests.Services
                         case SearchTagEnum.t:
                         case SearchTagEnum.fi:
                         case SearchTagEnum.fp:
-                        case SearchTagEnum.fr:
-                        case SearchTagEnum.fg:
+                        case SearchTagEnum.frg:
+                        case SearchTagEnum.ftg:
                         case SearchTagEnum.fpdf:
                         case SearchTagEnum.fdocx:
                         case SearchTagEnum.fxlsx:

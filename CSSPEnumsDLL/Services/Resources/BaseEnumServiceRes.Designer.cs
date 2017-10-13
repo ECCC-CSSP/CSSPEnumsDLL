@@ -1736,15 +1736,6 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Generated.
-        /// </summary>
-        public static string FilePurposeEnumGenerated {
-            get {
-                return ResourceManager.GetString("FilePurposeEnumGenerated", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Generated FC Form.
         /// </summary>
         public static string FilePurposeEnumGeneratedFCForm {
@@ -1826,11 +1817,11 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Reported.
+        ///   Looks up a localized string similar to Reported generated.
         /// </summary>
-        public static string FilePurposeEnumReported {
+        public static string FilePurposeEnumReportGenerated {
             get {
-                return ResourceManager.GetString("FilePurposeEnumReported", resourceCulture);
+                return ResourceManager.GetString("FilePurposeEnumReportGenerated", resourceCulture);
             }
         }
         
@@ -1840,6 +1831,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string FilePurposeEnumTemplate {
             get {
                 return ResourceManager.GetString("FilePurposeEnumTemplate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Templated generated.
+        /// </summary>
+        public static string FilePurposeEnumTemplateGenerated {
+            get {
+                return ResourceManager.GetString("FilePurposeEnumTemplateGenerated", resourceCulture);
             }
         }
         
@@ -5093,15 +5093,6 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to fg.
-        /// </summary>
-        public static string SearchTagEnumfg {
-            get {
-                return ResourceManager.GetString("SearchTagEnumfg", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to fi.
         /// </summary>
         public static string SearchTagEnumfi {
@@ -5192,11 +5183,20 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to fr.
+        ///   Looks up a localized string similar to frg.
         /// </summary>
-        public static string SearchTagEnumfr {
+        public static string SearchTagEnumfrg {
             get {
-                return ResourceManager.GetString("SearchTagEnumfr", resourceCulture);
+                return ResourceManager.GetString("SearchTagEnumfrg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ftg.
+        /// </summary>
+        public static string SearchTagEnumftg {
+            get {
+                return ResourceManager.GetString("SearchTagEnumftg", resourceCulture);
             }
         }
         

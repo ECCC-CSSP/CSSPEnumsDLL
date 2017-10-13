@@ -591,8 +591,8 @@
   <data name="FilePurpose" xml:space="preserve">
     <value>FilePurpose</value>
   </data>
-  <data name="FilePurposeEnumGenerated" xml:space="preserve">
-    <value>Generated</value>
+  <data name="FilePurposeEnumTemplateGenerated" xml:space="preserve">
+    <value>Templated generated</value>
   </data>
   <data name="FilePurposeEnumGeneratedFCForm" xml:space="preserve">
     <value>Generated FC Form</value>
@@ -618,8 +618,8 @@
   <data name="FilePurposeEnumPicture" xml:space="preserve">
     <value>Picture</value>
   </data>
-  <data name="FilePurposeEnumReported" xml:space="preserve">
-    <value>Reported</value>
+  <data name="FilePurposeEnumReportGenerated" xml:space="preserve">
+    <value>Reported generated</value>
   </data>
   <data name="FileStatus" xml:space="preserve">
     <value>FileStatus</value>
@@ -1365,8 +1365,8 @@
   <data name="SearchTagEnumfdocx" xml:space="preserve">
     <value>fdocx</value>
   </data>
-  <data name="SearchTagEnumfg" xml:space="preserve">
-    <value>fg</value>
+  <data name="SearchTagEnumftg" xml:space="preserve">
+    <value>ftg</value>
   </data>
   <data name="SearchTagEnumfi" xml:space="preserve">
     <value>fi</value>
@@ -1398,8 +1398,8 @@
   <data name="SearchTagEnumfpdf" xml:space="preserve">
     <value>fpdf</value>
   </data>
-  <data name="SearchTagEnumfr" xml:space="preserve">
-    <value>fr</value>
+  <data name="SearchTagEnumfrg" xml:space="preserve">
+    <value>frg</value>
   </data>
   <data name="SearchTagEnumftxt" xml:space="preserve">
     <value>ftxt</value>

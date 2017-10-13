@@ -202,50 +202,6 @@ namespace CSSPEnumsDLL.Enums
         Lagoon = 1,
         Plant = 2,
     }
-    //public enum FileGeneratorEnum
-    //{
-    //    Error = 0,
-    //    Root = 1,
-    //    Country = 2,
-    //    Province = 3,
-    //    Area = 4,
-    //    Sector = 5,
-    //    Subsector = 6,
-    //    Municipality = 7,
-    //    Infrastructure = 8,
-    //    PolSourceSite = 9,
-    //    MWQMSite = 10,
-    //    SubsectorPollutionSourceInfo = 11,
-    //    SubsectorMWQMSiteSummary = 12,
-    //    SubsectorMWQMSiteSummaryLowPrecipitation = 13,
-    //    SubsectorMWQMSiteFaecalColiformDensities = 14,
-    //    SubsectorMWQMSiteSalinity = 15,
-    //    SubsectorMWQMSiteWaterTemperature = 16,
-    //    SubsectorFaecalColiformSummaryStat = 17,
-    //    SubsectorFaecalColiformDensities = 18,
-    //    SamplingPlan = 19,
-    //    TideSite = 20,
-    //    MIKEScenarioBoundaryConditions = 21,
-    //    MIKEScenarioConcentrationAnimation = 22,
-    //    MIKEScenarioConcentrationLimits = 23,
-    //    MIKEScenarioCurrentAnimation = 24,
-    //    MIKEScenarioCurrentMaximum = 25,
-    //    MIKEScenarioMesh = 26,
-    //    MIKEScenarioStudyArea = 27,
-    //    SubsectorPollutionSourceFieldSheet = 28,
-
-    //}
-    //public enum FileGeneratorTypeEnum
-    //{
-    //    Error = 0,
-    //    HTML = 1,
-    //    Excel = 2,
-    //    Word = 3,
-    //    KMZ = 4,
-    //    ExcelAndPDF = 5,
-    //    WordAndPDF = 6,
-    //    TXT = 7,
-    //}
     public enum FilePurposeEnum
     {
         Error = 0,
@@ -256,8 +212,8 @@ namespace CSSPEnumsDLL.Enums
         Information = 5,
         Image = 6,
         Picture = 7,
-        Reported = 8,
-        Generated = 9,
+        ReportGenerated = 8,
+        TemplateGenerated = 9,
         GeneratedFCForm = 10,
         Template = 11,
         Map = 12,
@@ -296,6 +252,14 @@ namespace CSSPEnumsDLL.Enums
         XYZ = 19,
         KML = 20,
         CSV = 21,
+    }
+    public enum ReportGeneratedTypeEnum
+    {
+        Error = 0,
+        RootBasic = 1,
+        RootStat = 2,
+        RootManager = 3,
+        CountryBasic = 4,
     }
     public enum InfrastructureTypeEnum
     {
@@ -713,8 +677,8 @@ namespace CSSPEnumsDLL.Enums
         t = 3,
         fi = 4,
         fp = 5,
-        fr = 6,
-        fg = 7,
+        frg = 6,
+        ftg = 7,
         fpdf = 8,
         fdocx = 9,
         fxlsx = 10,

@@ -588,8 +588,8 @@
   <data name="FilePurpose" xml:space="preserve">
     <value>But de la filière</value>
   </data>
-  <data name="FilePurposeEnumGenerated" xml:space="preserve">
-    <value>Générer</value>
+  <data name="FilePurposeEnumTemplateGenerated" xml:space="preserve">
+    <value>Générer à partir de modèle</value>
   </data>
   <data name="FilePurposeEnumGeneratedFCForm" xml:space="preserve">
     <value>Formulaire CF est générer</value>
@@ -615,8 +615,8 @@
   <data name="FilePurposeEnumPicture" xml:space="preserve">
     <value>Photo</value>
   </data>
-  <data name="FilePurposeEnumReported" xml:space="preserve">
-    <value>Raport</value>
+  <data name="FilePurposeEnumReportGenerated" xml:space="preserve">
+    <value>Rapport généré</value>
   </data>
   <data name="FileStatus" xml:space="preserve">
     <value>Statut de la fililère</value>
