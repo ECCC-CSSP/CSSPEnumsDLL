@@ -14,23 +14,6 @@ namespace CSSPEnumsDLL.Services
     {
 
         #region Functions Get Enum Text
-        public string GetEnumText_AerationTypeEnum(AerationTypeEnum? aerationTypeE)
-        {
-            if (aerationTypeE == null)
-                return BaseEnumServiceRes.Empty;
-
-            switch (aerationTypeE)
-            {
-                case AerationTypeEnum.Error:
-                    return BaseEnumServiceRes.Empty;
-                case AerationTypeEnum.Diffuser:
-                    return BaseEnumServiceRes.AerationTypeEnumDiffuser;
-                case AerationTypeEnum.Surface:
-                    return BaseEnumServiceRes.AerationTypeEnumSurface;
-                default:
-                    return BaseEnumServiceRes.Empty;
-            }
-        }
         public string GetEnumText_AddressTypeEnum(AddressTypeEnum? addressTypeE)
         {
             if (addressTypeE == null)
@@ -46,6 +29,23 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AddressTypeEnumShipping;
                 case AddressTypeEnum.Civic:
                     return BaseEnumServiceRes.AddressTypeEnumCivic;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
+        public string GetEnumText_AerationTypeEnum(AerationTypeEnum? aerationTypeE)
+        {
+            if (aerationTypeE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (aerationTypeE)
+            {
+                case AerationTypeEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case AerationTypeEnum.Diffuser:
+                    return BaseEnumServiceRes.AerationTypeEnumDiffuser;
+                case AerationTypeEnum.Surface:
+                    return BaseEnumServiceRes.AerationTypeEnumSurface;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -199,6 +199,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumExportEmailDistributionLists;
                 case AppTaskCommandEnum.ExportAnalysisToExcel:
                     return BaseEnumServiceRes.AppTaskCommandEnumExportAnalysisToExcel;
+                case AppTaskCommandEnum.CreateDocumentFromParameters:
+                    return BaseEnumServiceRes.AppTaskCommandEnumCreateDocumentFromParameters;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -317,23 +319,6 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.CollectionSystemTypeEnumCombined20Separated80;
                 case CollectionSystemTypeEnum.Combined10Separated90:
                     return BaseEnumServiceRes.CollectionSystemTypeEnumCombined10Separated90;
-                default:
-                    return BaseEnumServiceRes.Empty;
-            }
-        }
-        public string GetEnumText_SamplingPlanTypeEnum(SamplingPlanTypeEnum? samplingPlanTypeE)
-        {
-            if (samplingPlanTypeE == null)
-                return BaseEnumServiceRes.Empty;
-
-            switch (samplingPlanTypeE)
-            {
-                case SamplingPlanTypeEnum.Error:
-                    return BaseEnumServiceRes.Empty;
-                case SamplingPlanTypeEnum.Subsector:
-                    return BaseEnumServiceRes.SamplingPlanTypeEnumSubsector;
-                case SamplingPlanTypeEnum.Municipality:
-                    return BaseEnumServiceRes.SamplingPlanTypeEnumMunicipality;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -868,6 +853,29 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.MikeBoundaryConditionLevelOrVelocityEnumLevel;
                 case MikeBoundaryConditionLevelOrVelocityEnum.Velocity:
                     return BaseEnumServiceRes.MikeBoundaryConditionLevelOrVelocityEnumVelocity;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
+        public string GetEnumText_MikeScenarioSpecialResultKMLTypeEnum(MikeScenarioSpecialResultKMLTypeEnum? mikeScenarioSpecialResultKMLTypeE)
+        {
+            if (mikeScenarioSpecialResultKMLTypeE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (mikeScenarioSpecialResultKMLTypeE)
+            {
+                case MikeScenarioSpecialResultKMLTypeEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case MikeScenarioSpecialResultKMLTypeEnum.Mesh:
+                    return BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumMesh;
+                case MikeScenarioSpecialResultKMLTypeEnum.StudyArea:
+                    return BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumStudyArea;
+                case MikeScenarioSpecialResultKMLTypeEnum.BoundaryConditions:
+                    return BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumBoundaryConditions;
+                case MikeScenarioSpecialResultKMLTypeEnum.PollutionLimit:
+                    return BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumPollutionLimit;
+                case MikeScenarioSpecialResultKMLTypeEnum.PollutionAnimation:
+                    return BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumPollutionAnimation;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -1521,6 +1529,23 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.Empty;
             }
         }
+        public string GetEnumText_SamplingPlanTypeEnum(SamplingPlanTypeEnum? samplingPlanTypeE)
+        {
+            if (samplingPlanTypeE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (samplingPlanTypeE)
+            {
+                case SamplingPlanTypeEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case SamplingPlanTypeEnum.Subsector:
+                    return BaseEnumServiceRes.SamplingPlanTypeEnumSubsector;
+                case SamplingPlanTypeEnum.Municipality:
+                    return BaseEnumServiceRes.SamplingPlanTypeEnumMunicipality;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
         public string GetEnumText_ScenarioStatusEnum(ScenarioStatusEnum? scenarioStatusE)
         {
             if (scenarioStatusE == null)
@@ -1704,29 +1729,6 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.SpecialTableTypeEnumPercentOver43Table;
                 case SpecialTableTypeEnum.PercentOver260Table:
                     return BaseEnumServiceRes.SpecialTableTypeEnumPercentOver260Table;
-                default:
-                    return BaseEnumServiceRes.Empty;
-            }
-        }
-        public string GetEnumText_MikeScenarioSpecialResultKMLTypeEnum(MikeScenarioSpecialResultKMLTypeEnum? mikeScenarioSpecialResultKMLTypeE)
-        {
-            if (mikeScenarioSpecialResultKMLTypeE == null)
-                return BaseEnumServiceRes.Empty;
-
-            switch (mikeScenarioSpecialResultKMLTypeE)
-            {
-                case MikeScenarioSpecialResultKMLTypeEnum.Error:
-                    return BaseEnumServiceRes.Empty;
-                case MikeScenarioSpecialResultKMLTypeEnum.Mesh:
-                    return BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumMesh;
-                case MikeScenarioSpecialResultKMLTypeEnum.StudyArea:
-                    return BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumStudyArea;
-                case MikeScenarioSpecialResultKMLTypeEnum.BoundaryConditions:
-                    return BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumBoundaryConditions;
-                case MikeScenarioSpecialResultKMLTypeEnum.PollutionLimit:
-                    return BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumPollutionLimit;
-                case MikeScenarioSpecialResultKMLTypeEnum.PollutionAnimation:
-                    return BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumPollutionAnimation;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -2206,21 +2208,6 @@ namespace CSSPEnumsDLL.Services
         #endregion Functions Get Enum Text
 
         #region Function Get Enum Text Ordered
-        public List<AerationTypeEnumTextOrdered> GetAerationTypeEnumTextOrderedList()
-        {
-            List<AerationTypeEnumTextOrdered> AerationTypeEnumTextOrderedList = new List<AerationTypeEnumTextOrdered>();
-
-            for (int i = 1, count = Enum.GetNames(typeof(AerationTypeEnum)).Count(); i < count; i++)
-            {
-                AerationTypeEnumTextOrderedList.Add(new AerationTypeEnumTextOrdered() { AerationType = (AerationTypeEnum)i, AerationTypeText = GetEnumText_AerationTypeEnum((AerationTypeEnum)i) });
-            }
-
-            AerationTypeEnumTextOrderedList = (from c in AerationTypeEnumTextOrderedList
-                                              orderby c.AerationTypeText
-                                              select c).ToList();
-
-            return AerationTypeEnumTextOrderedList;
-        }
         public List<AddressTypeEnumTextOrdered> GetAddressTypeEnumTextOrderedList()
         {
             List<AddressTypeEnumTextOrdered> AddressTypeEnumTextOrderedList = new List<AddressTypeEnumTextOrdered>();
@@ -2235,6 +2222,21 @@ namespace CSSPEnumsDLL.Services
                                               select c).ToList();
 
             return AddressTypeEnumTextOrderedList;
+        }
+        public List<AerationTypeEnumTextOrdered> GetAerationTypeEnumTextOrderedList()
+        {
+            List<AerationTypeEnumTextOrdered> AerationTypeEnumTextOrderedList = new List<AerationTypeEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(AerationTypeEnum)).Count(); i < count; i++)
+            {
+                AerationTypeEnumTextOrderedList.Add(new AerationTypeEnumTextOrdered() { AerationType = (AerationTypeEnum)i, AerationTypeText = GetEnumText_AerationTypeEnum((AerationTypeEnum)i) });
+            }
+
+            AerationTypeEnumTextOrderedList = (from c in AerationTypeEnumTextOrderedList
+                                              orderby c.AerationTypeText
+                                              select c).ToList();
+
+            return AerationTypeEnumTextOrderedList;
         }
         public List<AlarmSystemTypeEnumTextOrdered> GetAlarmSystemTypeEnumTextOrderedList()
         {
@@ -2370,21 +2372,6 @@ namespace CSSPEnumsDLL.Services
                                               select c).ToList();
 
             return CollectionSystemTypeEnumTextOrderedList;
-        }
-        public List<SamplingPlanTypeEnumTextOrdered> GetSamplingPlanTypeEnumTextOrderedList()
-        {
-            List<SamplingPlanTypeEnumTextOrdered> SamplingPlanTypeEnumTextOrderedList = new List<SamplingPlanTypeEnumTextOrdered>();
-
-            for (int i = 1, count = Enum.GetNames(typeof(SamplingPlanTypeEnum)).Count(); i < count; i++)
-            {
-                SamplingPlanTypeEnumTextOrderedList.Add(new SamplingPlanTypeEnumTextOrdered() { SamplingPlanType = (SamplingPlanTypeEnum)i, SamplingPlanTypeText = GetEnumText_SamplingPlanTypeEnum((SamplingPlanTypeEnum)i) });
-            }
-
-            SamplingPlanTypeEnumTextOrderedList = (from c in SamplingPlanTypeEnumTextOrderedList
-                                              orderby c.SamplingPlanTypeText
-                                              select c).ToList();
-
-            return SamplingPlanTypeEnumTextOrderedList;
         }
         public List<ContactTitleEnumTextOrdered> GetContactTitleEnumTextOrderedList()
         {
@@ -2686,6 +2673,21 @@ namespace CSSPEnumsDLL.Services
 
             return MikeBoundaryConditionLevelOrVelocityEnumTextOrderedList;
         }
+        public List<MikeScenarioSpecialResultKMLTypeEnumTextOrdered> GetMikeScenarioSpecialResultKMLTypeEnumTextOrderedList()
+        {
+            List<MikeScenarioSpecialResultKMLTypeEnumTextOrdered> MikeScenarioSpecialResultKMLTypeEnumTextOrderedList = new List<MikeScenarioSpecialResultKMLTypeEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(MikeScenarioSpecialResultKMLTypeEnum)).Count(); i < count; i++)
+            {
+                MikeScenarioSpecialResultKMLTypeEnumTextOrderedList.Add(new MikeScenarioSpecialResultKMLTypeEnumTextOrdered() { MikeScenarioSpecialResultKMLType = (MikeScenarioSpecialResultKMLTypeEnum)i, MikeScenarioSpecialResultKMLTypeText = GetEnumText_MikeScenarioSpecialResultKMLTypeEnum((MikeScenarioSpecialResultKMLTypeEnum)i) });
+            }
+
+            MikeScenarioSpecialResultKMLTypeEnumTextOrderedList = (from c in MikeScenarioSpecialResultKMLTypeEnumTextOrderedList
+                                              orderby c.MikeScenarioSpecialResultKMLTypeText
+                                              select c).ToList();
+
+            return MikeScenarioSpecialResultKMLTypeEnumTextOrderedList;
+        }
         public List<MWQMSiteLatestClassificationEnumTextOrdered> GetMWQMSiteLatestClassificationEnumTextOrderedList()
         {
             List<MWQMSiteLatestClassificationEnumTextOrdered> MWQMSiteLatestClassificationEnumTextOrderedList = new List<MWQMSiteLatestClassificationEnumTextOrdered>();
@@ -2941,6 +2943,21 @@ namespace CSSPEnumsDLL.Services
 
             return SampleTypeEnumTextOrderedList;
         }
+        public List<SamplingPlanTypeEnumTextOrdered> GetSamplingPlanTypeEnumTextOrderedList()
+        {
+            List<SamplingPlanTypeEnumTextOrdered> SamplingPlanTypeEnumTextOrderedList = new List<SamplingPlanTypeEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(SamplingPlanTypeEnum)).Count(); i < count; i++)
+            {
+                SamplingPlanTypeEnumTextOrderedList.Add(new SamplingPlanTypeEnumTextOrdered() { SamplingPlanType = (SamplingPlanTypeEnum)i, SamplingPlanTypeText = GetEnumText_SamplingPlanTypeEnum((SamplingPlanTypeEnum)i) });
+            }
+
+            SamplingPlanTypeEnumTextOrderedList = (from c in SamplingPlanTypeEnumTextOrderedList
+                                              orderby c.SamplingPlanTypeText
+                                              select c).ToList();
+
+            return SamplingPlanTypeEnumTextOrderedList;
+        }
         public List<ScenarioStatusEnumTextOrdered> GetScenarioStatusEnumTextOrderedList()
         {
             List<ScenarioStatusEnumTextOrdered> ScenarioStatusEnumTextOrderedList = new List<ScenarioStatusEnumTextOrdered>();
@@ -3015,21 +3032,6 @@ namespace CSSPEnumsDLL.Services
                                               select c).ToList();
 
             return SpecialTableTypeEnumTextOrderedList;
-        }
-        public List<MikeScenarioSpecialResultKMLTypeEnumTextOrdered> GetMikeScenarioSpecialResultKMLTypeEnumTextOrderedList()
-        {
-            List<MikeScenarioSpecialResultKMLTypeEnumTextOrdered> MikeScenarioSpecialResultKMLTypeEnumTextOrderedList = new List<MikeScenarioSpecialResultKMLTypeEnumTextOrdered>();
-
-            for (int i = 1, count = Enum.GetNames(typeof(MikeScenarioSpecialResultKMLTypeEnum)).Count(); i < count; i++)
-            {
-                MikeScenarioSpecialResultKMLTypeEnumTextOrderedList.Add(new MikeScenarioSpecialResultKMLTypeEnumTextOrdered() { MikeScenarioSpecialResultKMLType = (MikeScenarioSpecialResultKMLTypeEnum)i, MikeScenarioSpecialResultKMLTypeText = GetEnumText_MikeScenarioSpecialResultKMLTypeEnum((MikeScenarioSpecialResultKMLTypeEnum)i) });
-            }
-
-            MikeScenarioSpecialResultKMLTypeEnumTextOrderedList = (from c in MikeScenarioSpecialResultKMLTypeEnumTextOrderedList
-                                              orderby c.MikeScenarioSpecialResultKMLTypeText
-                                              select c).ToList();
-
-            return MikeScenarioSpecialResultKMLTypeEnumTextOrderedList;
         }
         public List<StorageDataTypeEnumTextOrdered> GetStorageDataTypeEnumTextOrderedList()
         {
@@ -3200,21 +3202,6 @@ namespace CSSPEnumsDLL.Services
         #endregion Function Get Enum Text Ordered
 
         #region Enum CheckOK
-        public string AerationTypeOK(AerationTypeEnum? aerationType)
-        {
-            if (aerationType == null)
-                return "";
-
-            switch ((AerationTypeEnum)aerationType)
-            {
-                case AerationTypeEnum.Error:
-                case AerationTypeEnum.Diffuser:
-                case AerationTypeEnum.Surface:
-                    return "";
-                default:
-                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AerationType);
-            }
-        }
         public string AddressTypeOK(AddressTypeEnum? addressType)
         {
             if (addressType == null)
@@ -3229,6 +3216,21 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AddressType);
+            }
+        }
+        public string AerationTypeOK(AerationTypeEnum? aerationType)
+        {
+            if (aerationType == null)
+                return "";
+
+            switch ((AerationTypeEnum)aerationType)
+            {
+                case AerationTypeEnum.Error:
+                case AerationTypeEnum.Diffuser:
+                case AerationTypeEnum.Surface:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AerationType);
             }
         }
         public string AlarmSystemTypeOK(AlarmSystemTypeEnum? alarmSystemType)
@@ -3335,6 +3337,7 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.CreateWebTideDataWLAtFirstNode:
                 case AppTaskCommandEnum.ExportEmailDistributionLists:
                 case AppTaskCommandEnum.ExportAnalysisToExcel:
+                case AppTaskCommandEnum.CreateDocumentFromParameters:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);
@@ -3423,21 +3426,6 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.CollectionSystemType);
-            }
-        }
-        public string SamplingPlanTypeOK(SamplingPlanTypeEnum? samplingPlanType)
-        {
-            if (samplingPlanType == null)
-                return "";
-
-            switch ((SamplingPlanTypeEnum)samplingPlanType)
-            {
-                case SamplingPlanTypeEnum.Error:
-                case SamplingPlanTypeEnum.Subsector:
-                case SamplingPlanTypeEnum.Municipality:
-                    return "";
-                default:
-                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.SamplingPlanType);
             }
         }
         public string ContactTitleOK(ContactTitleEnum? contactTitle)
@@ -3835,6 +3823,24 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.MikeBoundaryConditionLevelOrVelocity);
+            }
+        }
+        public string MikeScenarioSpecialResultKMLTypeOK(MikeScenarioSpecialResultKMLTypeEnum? mikeScenarioSpecialResultKMLType)
+        {
+            if (mikeScenarioSpecialResultKMLType == null)
+                return "";
+
+            switch ((MikeScenarioSpecialResultKMLTypeEnum)mikeScenarioSpecialResultKMLType)
+            {
+                case MikeScenarioSpecialResultKMLTypeEnum.Error:
+                case MikeScenarioSpecialResultKMLTypeEnum.Mesh:
+                case MikeScenarioSpecialResultKMLTypeEnum.StudyArea:
+                case MikeScenarioSpecialResultKMLTypeEnum.BoundaryConditions:
+                case MikeScenarioSpecialResultKMLTypeEnum.PollutionLimit:
+                case MikeScenarioSpecialResultKMLTypeEnum.PollutionAnimation:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.MikeScenarioSpecialResultKMLType);
             }
         }
         public string MWQMSiteLatestClassificationOK(MWQMSiteLatestClassificationEnum? mWQMSiteLatestClassification)
@@ -4272,6 +4278,21 @@ namespace CSSPEnumsDLL.Services
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.SampleType);
             }
         }
+        public string SamplingPlanTypeOK(SamplingPlanTypeEnum? samplingPlanType)
+        {
+            if (samplingPlanType == null)
+                return "";
+
+            switch ((SamplingPlanTypeEnum)samplingPlanType)
+            {
+                case SamplingPlanTypeEnum.Error:
+                case SamplingPlanTypeEnum.Subsector:
+                case SamplingPlanTypeEnum.Municipality:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.SamplingPlanType);
+            }
+        }
         public string ScenarioStatusOK(ScenarioStatusEnum? scenarioStatus)
         {
             if (scenarioStatus == null)
@@ -4396,24 +4417,6 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.SpecialTableType);
-            }
-        }
-        public string MikeScenarioSpecialResultKMLTypeOK(MikeScenarioSpecialResultKMLTypeEnum? mikeScenarioSpecialResultKMLType)
-        {
-            if (mikeScenarioSpecialResultKMLType == null)
-                return "";
-
-            switch ((MikeScenarioSpecialResultKMLTypeEnum)mikeScenarioSpecialResultKMLType)
-            {
-                case MikeScenarioSpecialResultKMLTypeEnum.Error:
-                case MikeScenarioSpecialResultKMLTypeEnum.Mesh:
-                case MikeScenarioSpecialResultKMLTypeEnum.StudyArea:
-                case MikeScenarioSpecialResultKMLTypeEnum.BoundaryConditions:
-                case MikeScenarioSpecialResultKMLTypeEnum.PollutionLimit:
-                case MikeScenarioSpecialResultKMLTypeEnum.PollutionAnimation:
-                    return "";
-                default:
-                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.MikeScenarioSpecialResultKMLType);
             }
         }
         public string StorageDataTypeOK(StorageDataTypeEnum? storageDataType)

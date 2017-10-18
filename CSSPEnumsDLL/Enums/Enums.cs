@@ -83,6 +83,7 @@ namespace CSSPEnumsDLL.Enums
         CreateWebTideDataWLAtFirstNode = 16,
         ExportEmailDistributionLists = 17,
         ExportAnalysisToExcel = 18,
+        CreateDocumentFromParameters = 19,
     }
     public enum AppTaskStatusEnum
     {
@@ -252,14 +253,6 @@ namespace CSSPEnumsDLL.Enums
         XYZ = 19,
         KML = 20,
         CSV = 21,
-    }
-    public enum ReportGeneratedTypeEnum
-    {
-        Error = 0,
-        RootBasic = 1,
-        RootStat = 2,
-        RootManager = 3,
-        CountryBasic = 4,
     }
     public enum InfrastructureTypeEnum
     {

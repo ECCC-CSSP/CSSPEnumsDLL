@@ -16,15 +16,6 @@ namespace CSSPEnumsDLL.Enums
         public PolSourceObsInfoEnum PolSourceObsInfo { get; set; }
         public string PolSourceObsInfoText { get; set; }
     }
-    public class AerationTypeEnumTextOrdered
-    {
-        public AerationTypeEnumTextOrdered()
-        {
-        }
-
-        public AerationTypeEnum AerationType { get; set; }
-        public string AerationTypeText { get; set; }
-    }
     public class AddressTypeEnumTextOrdered
     {
         public AddressTypeEnumTextOrdered()
@@ -33,6 +24,15 @@ namespace CSSPEnumsDLL.Enums
 
         public AddressTypeEnum AddressType { get; set; }
         public string AddressTypeText { get; set; }
+    }
+    public class AerationTypeEnumTextOrdered
+    {
+        public AerationTypeEnumTextOrdered()
+        {
+        }
+
+        public AerationTypeEnum AerationType { get; set; }
+        public string AerationTypeText { get; set; }
     }
     public class AlarmSystemTypeEnumTextOrdered
     {
@@ -114,15 +114,6 @@ namespace CSSPEnumsDLL.Enums
 
         public CollectionSystemTypeEnum CollectionSystemType { get; set; }
         public string CollectionSystemTypeText { get; set; }
-    }
-    public class SamplingPlanTypeEnumTextOrdered
-    {
-        public SamplingPlanTypeEnumTextOrdered()
-        {
-        }
-
-        public SamplingPlanTypeEnum SamplingPlanType { get; set; }
-        public string SamplingPlanTypeText { get; set; }
     }
     public class ContactTitleEnumTextOrdered
     {
@@ -304,6 +295,15 @@ namespace CSSPEnumsDLL.Enums
         public MikeBoundaryConditionLevelOrVelocityEnum MikeBoundaryConditionLevelOrVelocity { get; set; }
         public string MikeBoundaryConditionLevelOrVelocityText { get; set; }
     }
+    public class MikeScenarioSpecialResultKMLTypeEnumTextOrdered
+    {
+        public MikeScenarioSpecialResultKMLTypeEnumTextOrdered()
+        {
+        }
+
+        public MikeScenarioSpecialResultKMLTypeEnum MikeScenarioSpecialResultKMLType { get; set; }
+        public string MikeScenarioSpecialResultKMLTypeText { get; set; }
+    }
     public class MWQMSiteLatestClassificationEnumTextOrdered
     {
         public MWQMSiteLatestClassificationEnumTextOrdered()
@@ -457,6 +457,15 @@ namespace CSSPEnumsDLL.Enums
         public SampleTypeEnum SampleType { get; set; }
         public string SampleTypeText { get; set; }
     }
+    public class SamplingPlanTypeEnumTextOrdered
+    {
+        public SamplingPlanTypeEnumTextOrdered()
+        {
+        }
+
+        public SamplingPlanTypeEnum SamplingPlanType { get; set; }
+        public string SamplingPlanTypeText { get; set; }
+    }
     public class ScenarioStatusEnumTextOrdered
     {
         public ScenarioStatusEnumTextOrdered()
@@ -501,15 +510,6 @@ namespace CSSPEnumsDLL.Enums
 
         public SpecialTableTypeEnum SpecialTableType { get; set; }
         public string SpecialTableTypeText { get; set; }
-    }
-    public class MikeScenarioSpecialResultKMLTypeEnumTextOrdered
-    {
-        public MikeScenarioSpecialResultKMLTypeEnumTextOrdered()
-        {
-        }
-
-        public MikeScenarioSpecialResultKMLTypeEnum MikeScenarioSpecialResultKMLType { get; set; }
-        public string MikeScenarioSpecialResultKMLTypeText { get; set; }
     }
     public class StorageDataTypeEnumTextOrdered
     {

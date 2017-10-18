@@ -439,6 +439,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Create document from parameters.
+        /// </summary>
+        public static string AppTaskCommandEnumCreateDocumentFromParameters {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumCreateDocumentFromParameters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Create file from template.
         /// </summary>
         public static string AppTaskCommandEnumCreateDocumentFromTemplate {

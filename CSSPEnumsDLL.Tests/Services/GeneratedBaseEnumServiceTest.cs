@@ -16,38 +16,6 @@ namespace CSSPEnumsDLL.Tests.Services
 
         #region Testing Methods GetEnumText public
         [TestMethod]
-        public void BaseEnumService_GetEnumText_AerationTypeEnum_Test()
-        {
-            foreach (CultureInfo culture in setupData.cultureListGood)
-            {
-                SetupTest(culture);
-        
-                string retStr = baseEnumService.GetEnumText_AerationTypeEnum(null);
-                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-        
-                for (int i = 0, count = Enum.GetNames(typeof(AerationTypeEnum)).Length; i < count; i++)
-                {
-                    retStr = baseEnumService.GetEnumText_AerationTypeEnum((AerationTypeEnum)i);
-        
-                    switch ((AerationTypeEnum)i)
-                    {
-                        case AerationTypeEnum.Error:
-                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-                            break;
-                        case AerationTypeEnum.Diffuser:
-                            Assert.AreEqual(BaseEnumServiceRes.AerationTypeEnumDiffuser, retStr);
-                            break;
-                        case AerationTypeEnum.Surface:
-                            Assert.AreEqual(BaseEnumServiceRes.AerationTypeEnumSurface, retStr);
-                            break;
-                        default:
-                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-                            break;
-                    }
-                }
-            }
-        }
-        [TestMethod]
         public void BaseEnumService_GetEnumText_AddressTypeEnum_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -74,6 +42,38 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         case AddressTypeEnum.Civic:
                             Assert.AreEqual(BaseEnumServiceRes.AddressTypeEnumCivic, retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_GetEnumText_AerationTypeEnum_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+        
+                string retStr = baseEnumService.GetEnumText_AerationTypeEnum(null);
+                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+        
+                for (int i = 0, count = Enum.GetNames(typeof(AerationTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.GetEnumText_AerationTypeEnum((AerationTypeEnum)i);
+        
+                    switch ((AerationTypeEnum)i)
+                    {
+                        case AerationTypeEnum.Error:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                        case AerationTypeEnum.Diffuser:
+                            Assert.AreEqual(BaseEnumServiceRes.AerationTypeEnumDiffuser, retStr);
+                            break;
+                        case AerationTypeEnum.Surface:
+                            Assert.AreEqual(BaseEnumServiceRes.AerationTypeEnumSurface, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -337,6 +337,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.ExportAnalysisToExcel:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumExportAnalysisToExcel, retStr);
                             break;
+                        case AppTaskCommandEnum.CreateDocumentFromParameters:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumCreateDocumentFromParameters, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -539,38 +542,6 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         case CollectionSystemTypeEnum.Combined10Separated90:
                             Assert.AreEqual(BaseEnumServiceRes.CollectionSystemTypeEnumCombined10Separated90, retStr);
-                            break;
-                        default:
-                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-                            break;
-                    }
-                }
-            }
-        }
-        [TestMethod]
-        public void BaseEnumService_GetEnumText_SamplingPlanTypeEnum_Test()
-        {
-            foreach (CultureInfo culture in setupData.cultureListGood)
-            {
-                SetupTest(culture);
-        
-                string retStr = baseEnumService.GetEnumText_SamplingPlanTypeEnum(null);
-                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-        
-                for (int i = 0, count = Enum.GetNames(typeof(SamplingPlanTypeEnum)).Length; i < count; i++)
-                {
-                    retStr = baseEnumService.GetEnumText_SamplingPlanTypeEnum((SamplingPlanTypeEnum)i);
-        
-                    switch ((SamplingPlanTypeEnum)i)
-                    {
-                        case SamplingPlanTypeEnum.Error:
-                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-                            break;
-                        case SamplingPlanTypeEnum.Subsector:
-                            Assert.AreEqual(BaseEnumServiceRes.SamplingPlanTypeEnumSubsector, retStr);
-                            break;
-                        case SamplingPlanTypeEnum.Municipality:
-                            Assert.AreEqual(BaseEnumServiceRes.SamplingPlanTypeEnumMunicipality, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -1502,6 +1473,47 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         case MikeBoundaryConditionLevelOrVelocityEnum.Velocity:
                             Assert.AreEqual(BaseEnumServiceRes.MikeBoundaryConditionLevelOrVelocityEnumVelocity, retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_GetEnumText_MikeScenarioSpecialResultKMLTypeEnum_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+        
+                string retStr = baseEnumService.GetEnumText_MikeScenarioSpecialResultKMLTypeEnum(null);
+                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+        
+                for (int i = 0, count = Enum.GetNames(typeof(MikeScenarioSpecialResultKMLTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.GetEnumText_MikeScenarioSpecialResultKMLTypeEnum((MikeScenarioSpecialResultKMLTypeEnum)i);
+        
+                    switch ((MikeScenarioSpecialResultKMLTypeEnum)i)
+                    {
+                        case MikeScenarioSpecialResultKMLTypeEnum.Error:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                        case MikeScenarioSpecialResultKMLTypeEnum.Mesh:
+                            Assert.AreEqual(BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumMesh, retStr);
+                            break;
+                        case MikeScenarioSpecialResultKMLTypeEnum.StudyArea:
+                            Assert.AreEqual(BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumStudyArea, retStr);
+                            break;
+                        case MikeScenarioSpecialResultKMLTypeEnum.BoundaryConditions:
+                            Assert.AreEqual(BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumBoundaryConditions, retStr);
+                            break;
+                        case MikeScenarioSpecialResultKMLTypeEnum.PollutionLimit:
+                            Assert.AreEqual(BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumPollutionLimit, retStr);
+                            break;
+                        case MikeScenarioSpecialResultKMLTypeEnum.PollutionAnimation:
+                            Assert.AreEqual(BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumPollutionAnimation, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -2595,6 +2607,38 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
+        public void BaseEnumService_GetEnumText_SamplingPlanTypeEnum_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+        
+                string retStr = baseEnumService.GetEnumText_SamplingPlanTypeEnum(null);
+                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+        
+                for (int i = 0, count = Enum.GetNames(typeof(SamplingPlanTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.GetEnumText_SamplingPlanTypeEnum((SamplingPlanTypeEnum)i);
+        
+                    switch ((SamplingPlanTypeEnum)i)
+                    {
+                        case SamplingPlanTypeEnum.Error:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                        case SamplingPlanTypeEnum.Subsector:
+                            Assert.AreEqual(BaseEnumServiceRes.SamplingPlanTypeEnumSubsector, retStr);
+                            break;
+                        case SamplingPlanTypeEnum.Municipality:
+                            Assert.AreEqual(BaseEnumServiceRes.SamplingPlanTypeEnumMunicipality, retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
         public void BaseEnumService_GetEnumText_ScenarioStatusEnum_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -2899,47 +2943,6 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         case SpecialTableTypeEnum.PercentOver260Table:
                             Assert.AreEqual(BaseEnumServiceRes.SpecialTableTypeEnumPercentOver260Table, retStr);
-                            break;
-                        default:
-                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-                            break;
-                    }
-                }
-            }
-        }
-        [TestMethod]
-        public void BaseEnumService_GetEnumText_MikeScenarioSpecialResultKMLTypeEnum_Test()
-        {
-            foreach (CultureInfo culture in setupData.cultureListGood)
-            {
-                SetupTest(culture);
-        
-                string retStr = baseEnumService.GetEnumText_MikeScenarioSpecialResultKMLTypeEnum(null);
-                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-        
-                for (int i = 0, count = Enum.GetNames(typeof(MikeScenarioSpecialResultKMLTypeEnum)).Length; i < count; i++)
-                {
-                    retStr = baseEnumService.GetEnumText_MikeScenarioSpecialResultKMLTypeEnum((MikeScenarioSpecialResultKMLTypeEnum)i);
-        
-                    switch ((MikeScenarioSpecialResultKMLTypeEnum)i)
-                    {
-                        case MikeScenarioSpecialResultKMLTypeEnum.Error:
-                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-                            break;
-                        case MikeScenarioSpecialResultKMLTypeEnum.Mesh:
-                            Assert.AreEqual(BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumMesh, retStr);
-                            break;
-                        case MikeScenarioSpecialResultKMLTypeEnum.StudyArea:
-                            Assert.AreEqual(BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumStudyArea, retStr);
-                            break;
-                        case MikeScenarioSpecialResultKMLTypeEnum.BoundaryConditions:
-                            Assert.AreEqual(BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumBoundaryConditions, retStr);
-                            break;
-                        case MikeScenarioSpecialResultKMLTypeEnum.PollutionLimit:
-                            Assert.AreEqual(BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumPollutionLimit, retStr);
-                            break;
-                        case MikeScenarioSpecialResultKMLTypeEnum.PollutionAnimation:
-                            Assert.AreEqual(BaseEnumServiceRes.MikeScenarioSpecialResultKMLTypeEnumPollutionAnimation, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -3731,34 +3734,6 @@ namespace CSSPEnumsDLL.Tests.Services
 
         #region Testing Methods Check OK public
         [TestMethod]
-        public void BaseEnumService_AerationTypeOK_Test()
-        {
-            foreach (CultureInfo culture in setupData.cultureListGood)
-            {
-                SetupTest(culture);
-
-                string retStr = baseEnumService.AerationTypeOK(null);
-                Assert.AreEqual("", retStr);
-
-                for (int i = 0, count = Enum.GetNames(typeof(AerationTypeEnum)).Length; i < count; i++)
-                {
-                    retStr = baseEnumService.AerationTypeOK((AerationTypeEnum)i);
-
-                    switch ((AerationTypeEnum)i)
-                    {
-                        case AerationTypeEnum.Error:
-                        case AerationTypeEnum.Diffuser:
-                        case AerationTypeEnum.Surface:
-                            Assert.AreEqual("", retStr);
-                            break;
-                        default:
-                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AerationType), retStr);
-                            break;
-                    }
-                }
-            }
-        }
-        [TestMethod]
         public void BaseEnumService_AddressTypeOK_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -3782,6 +3757,34 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         default:
                             Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AddressType), retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_AerationTypeOK_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+
+                string retStr = baseEnumService.AerationTypeOK(null);
+                Assert.AreEqual("", retStr);
+
+                for (int i = 0, count = Enum.GetNames(typeof(AerationTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.AerationTypeOK((AerationTypeEnum)i);
+
+                    switch ((AerationTypeEnum)i)
+                    {
+                        case AerationTypeEnum.Error:
+                        case AerationTypeEnum.Diffuser:
+                        case AerationTypeEnum.Surface:
+                            Assert.AreEqual("", retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AerationType), retStr);
                             break;
                     }
                 }
@@ -3952,6 +3955,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.CreateWebTideDataWLAtFirstNode:
                         case AppTaskCommandEnum.ExportEmailDistributionLists:
                         case AppTaskCommandEnum.ExportAnalysisToExcel:
+                        case AppTaskCommandEnum.CreateDocumentFromParameters:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
@@ -4093,34 +4097,6 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         default:
                             Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.CollectionSystemType), retStr);
-                            break;
-                    }
-                }
-            }
-        }
-        [TestMethod]
-        public void BaseEnumService_SamplingPlanTypeOK_Test()
-        {
-            foreach (CultureInfo culture in setupData.cultureListGood)
-            {
-                SetupTest(culture);
-
-                string retStr = baseEnumService.SamplingPlanTypeOK(null);
-                Assert.AreEqual("", retStr);
-
-                for (int i = 0, count = Enum.GetNames(typeof(SamplingPlanTypeEnum)).Length; i < count; i++)
-                {
-                    retStr = baseEnumService.SamplingPlanTypeOK((SamplingPlanTypeEnum)i);
-
-                    switch ((SamplingPlanTypeEnum)i)
-                    {
-                        case SamplingPlanTypeEnum.Error:
-                        case SamplingPlanTypeEnum.Subsector:
-                        case SamplingPlanTypeEnum.Municipality:
-                            Assert.AreEqual("", retStr);
-                            break;
-                        default:
-                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.SamplingPlanType), retStr);
                             break;
                     }
                 }
@@ -4784,6 +4760,37 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
+        public void BaseEnumService_MikeScenarioSpecialResultKMLTypeOK_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+
+                string retStr = baseEnumService.MikeScenarioSpecialResultKMLTypeOK(null);
+                Assert.AreEqual("", retStr);
+
+                for (int i = 0, count = Enum.GetNames(typeof(MikeScenarioSpecialResultKMLTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.MikeScenarioSpecialResultKMLTypeOK((MikeScenarioSpecialResultKMLTypeEnum)i);
+
+                    switch ((MikeScenarioSpecialResultKMLTypeEnum)i)
+                    {
+                        case MikeScenarioSpecialResultKMLTypeEnum.Error:
+                        case MikeScenarioSpecialResultKMLTypeEnum.Mesh:
+                        case MikeScenarioSpecialResultKMLTypeEnum.StudyArea:
+                        case MikeScenarioSpecialResultKMLTypeEnum.BoundaryConditions:
+                        case MikeScenarioSpecialResultKMLTypeEnum.PollutionLimit:
+                        case MikeScenarioSpecialResultKMLTypeEnum.PollutionAnimation:
+                            Assert.AreEqual("", retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.MikeScenarioSpecialResultKMLType), retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
         public void BaseEnumService_MWQMSiteLatestClassificationOK_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -5440,6 +5447,34 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
+        public void BaseEnumService_SamplingPlanTypeOK_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+
+                string retStr = baseEnumService.SamplingPlanTypeOK(null);
+                Assert.AreEqual("", retStr);
+
+                for (int i = 0, count = Enum.GetNames(typeof(SamplingPlanTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.SamplingPlanTypeOK((SamplingPlanTypeEnum)i);
+
+                    switch ((SamplingPlanTypeEnum)i)
+                    {
+                        case SamplingPlanTypeEnum.Error:
+                        case SamplingPlanTypeEnum.Subsector:
+                        case SamplingPlanTypeEnum.Municipality:
+                            Assert.AreEqual("", retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.SamplingPlanType), retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
         public void BaseEnumService_ScenarioStatusOK_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -5625,37 +5660,6 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         default:
                             Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.SpecialTableType), retStr);
-                            break;
-                    }
-                }
-            }
-        }
-        [TestMethod]
-        public void BaseEnumService_MikeScenarioSpecialResultKMLTypeOK_Test()
-        {
-            foreach (CultureInfo culture in setupData.cultureListGood)
-            {
-                SetupTest(culture);
-
-                string retStr = baseEnumService.MikeScenarioSpecialResultKMLTypeOK(null);
-                Assert.AreEqual("", retStr);
-
-                for (int i = 0, count = Enum.GetNames(typeof(MikeScenarioSpecialResultKMLTypeEnum)).Length; i < count; i++)
-                {
-                    retStr = baseEnumService.MikeScenarioSpecialResultKMLTypeOK((MikeScenarioSpecialResultKMLTypeEnum)i);
-
-                    switch ((MikeScenarioSpecialResultKMLTypeEnum)i)
-                    {
-                        case MikeScenarioSpecialResultKMLTypeEnum.Error:
-                        case MikeScenarioSpecialResultKMLTypeEnum.Mesh:
-                        case MikeScenarioSpecialResultKMLTypeEnum.StudyArea:
-                        case MikeScenarioSpecialResultKMLTypeEnum.BoundaryConditions:
-                        case MikeScenarioSpecialResultKMLTypeEnum.PollutionLimit:
-                        case MikeScenarioSpecialResultKMLTypeEnum.PollutionAnimation:
-                            Assert.AreEqual("", retStr);
-                            break;
-                        default:
-                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.MikeScenarioSpecialResultKMLType), retStr);
                             break;
                     }
                 }
