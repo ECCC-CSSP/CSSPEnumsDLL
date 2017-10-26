@@ -84,6 +84,8 @@ namespace CSSPEnumsDLL.Enums
         ExportEmailDistributionLists = 17,
         ExportAnalysisToExcel = 18,
         CreateDocumentFromParameters = 19,
+        CreateDocxPDF = 20,
+        CreateXlsxPDF = 21,
     }
     public enum AppTaskStatusEnum
     {

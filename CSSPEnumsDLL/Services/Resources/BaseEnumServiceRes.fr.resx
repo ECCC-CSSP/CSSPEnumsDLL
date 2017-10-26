@@ -1993,4 +1993,10 @@
   <data name="AppTaskCommandEnumCreateDocumentFromParameters" xml:space="preserve">
     <value>Créer document à partir de paramètres</value>
   </data>
+  <data name="AppTaskCommandEnumCreateDocxPDF" xml:space="preserve">
+    <value>Créer PDF à partir de document Word</value>
+  </data>
+  <data name="AppTaskCommandEnumCreateXlsxPDF" xml:space="preserve">
+    <value>Créer PDF à partir de document Excel</value>
+  </data>
 </root>

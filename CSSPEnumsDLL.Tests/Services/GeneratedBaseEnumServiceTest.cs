@@ -340,6 +340,12 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.CreateDocumentFromParameters:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumCreateDocumentFromParameters, retStr);
                             break;
+                        case AppTaskCommandEnum.CreateDocxPDF:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumCreateDocxPDF, retStr);
+                            break;
+                        case AppTaskCommandEnum.CreateXlsxPDF:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumCreateXlsxPDF, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -3956,6 +3962,8 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.ExportEmailDistributionLists:
                         case AppTaskCommandEnum.ExportAnalysisToExcel:
                         case AppTaskCommandEnum.CreateDocumentFromParameters:
+                        case AppTaskCommandEnum.CreateDocxPDF:
+                        case AppTaskCommandEnum.CreateXlsxPDF:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

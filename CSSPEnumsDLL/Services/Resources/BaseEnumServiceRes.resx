@@ -592,7 +592,7 @@
     <value>FilePurpose</value>
   </data>
   <data name="FilePurposeEnumTemplateGenerated" xml:space="preserve">
-    <value>Templated generated</value>
+    <value>Template generated</value>
   </data>
   <data name="FilePurposeEnumGeneratedFCForm" xml:space="preserve">
     <value>Generated FC Form</value>
@@ -619,7 +619,7 @@
     <value>Picture</value>
   </data>
   <data name="FilePurposeEnumReportGenerated" xml:space="preserve">
-    <value>Reported generated</value>
+    <value>Report generated</value>
   </data>
   <data name="FileStatus" xml:space="preserve">
     <value>FileStatus</value>
@@ -2486,5 +2486,11 @@
   </data>
   <data name="AppTaskCommandEnumCreateDocumentFromParameters" xml:space="preserve">
     <value>Create document from parameters</value>
+  </data>
+  <data name="AppTaskCommandEnumCreateDocxPDF" xml:space="preserve">
+    <value>Create PDF from Word document</value>
+  </data>
+  <data name="AppTaskCommandEnumCreateXlsxPDF" xml:space="preserve">
+    <value>Create PDF from Excel document</value>
   </data>
 </root>

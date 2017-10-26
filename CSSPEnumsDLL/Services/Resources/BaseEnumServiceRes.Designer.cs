@@ -457,6 +457,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Create PDF from Word document.
+        /// </summary>
+        public static string AppTaskCommandEnumCreateDocxPDF {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumCreateDocxPDF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Fecal Coliform Form.
         /// </summary>
         public static string AppTaskCommandEnumCreateFCForm {
@@ -480,6 +489,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string AppTaskCommandEnumCreateWebTideDataWLAtFirstNode {
             get {
                 return ResourceManager.GetString("AppTaskCommandEnumCreateWebTideDataWLAtFirstNode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Create PDF from Excel document.
+        /// </summary>
+        public static string AppTaskCommandEnumCreateXlsxPDF {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumCreateXlsxPDF", resourceCulture);
             }
         }
         
@@ -1826,7 +1844,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Reported generated.
+        ///   Looks up a localized string similar to Report generated.
         /// </summary>
         public static string FilePurposeEnumReportGenerated {
             get {
@@ -1844,7 +1862,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Templated generated.
+        ///   Looks up a localized string similar to Template generated.
         /// </summary>
         public static string FilePurposeEnumTemplateGenerated {
             get {

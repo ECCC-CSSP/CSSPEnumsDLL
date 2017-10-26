@@ -201,6 +201,10 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumExportAnalysisToExcel;
                 case AppTaskCommandEnum.CreateDocumentFromParameters:
                     return BaseEnumServiceRes.AppTaskCommandEnumCreateDocumentFromParameters;
+                case AppTaskCommandEnum.CreateDocxPDF:
+                    return BaseEnumServiceRes.AppTaskCommandEnumCreateDocxPDF;
+                case AppTaskCommandEnum.CreateXlsxPDF:
+                    return BaseEnumServiceRes.AppTaskCommandEnumCreateXlsxPDF;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3338,6 +3342,8 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.ExportEmailDistributionLists:
                 case AppTaskCommandEnum.ExportAnalysisToExcel:
                 case AppTaskCommandEnum.CreateDocumentFromParameters:
+                case AppTaskCommandEnum.CreateDocxPDF:
+                case AppTaskCommandEnum.CreateXlsxPDF:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);
