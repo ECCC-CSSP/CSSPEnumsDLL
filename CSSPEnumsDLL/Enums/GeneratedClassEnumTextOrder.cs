@@ -331,6 +331,15 @@ namespace CSSPEnumsDLL.Enums
         public PolSourceIssueRiskEnum PolSourceIssueRisk { get; set; }
         public string PolSourceIssueRiskText { get; set; }
     }
+    public class PositionEnumTextOrdered
+    {
+        public PositionEnumTextOrdered()
+        {
+        }
+
+        public PositionEnum Position { get; set; }
+        public string PositionText { get; set; }
+    }
     public class PreliminaryTreatmentTypeEnumTextOrdered
     {
         public PreliminaryTreatmentTypeEnumTextOrdered()

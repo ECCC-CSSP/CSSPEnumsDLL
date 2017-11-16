@@ -1643,6 +1643,44 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
+        public void BaseEnumService_GetEnumText_PositionEnum_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+        
+                string retStr = baseEnumService.GetEnumText_PositionEnum(null);
+                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+        
+                for (int i = 0, count = Enum.GetNames(typeof(PositionEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.GetEnumText_PositionEnum((PositionEnum)i);
+        
+                    switch ((PositionEnum)i)
+                    {
+                        case PositionEnum.Error:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                        case PositionEnum.LeftBottom:
+                            Assert.AreEqual(BaseEnumServiceRes.PositionEnumLeftBottom, retStr);
+                            break;
+                        case PositionEnum.RightBottom:
+                            Assert.AreEqual(BaseEnumServiceRes.PositionEnumRightBottom, retStr);
+                            break;
+                        case PositionEnum.LeftTop:
+                            Assert.AreEqual(BaseEnumServiceRes.PositionEnumLeftTop, retStr);
+                            break;
+                        case PositionEnum.RightTop:
+                            Assert.AreEqual(BaseEnumServiceRes.PositionEnumRightTop, retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
         public void BaseEnumService_GetEnumText_PreliminaryTreatmentTypeEnum_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -4883,6 +4921,36 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         default:
                             Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.PolSourceIssueRisk), retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_PositionOK_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+
+                string retStr = baseEnumService.PositionOK(null);
+                Assert.AreEqual("", retStr);
+
+                for (int i = 0, count = Enum.GetNames(typeof(PositionEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.PositionOK((PositionEnum)i);
+
+                    switch ((PositionEnum)i)
+                    {
+                        case PositionEnum.Error:
+                        case PositionEnum.LeftBottom:
+                        case PositionEnum.RightBottom:
+                        case PositionEnum.LeftTop:
+                        case PositionEnum.RightTop:
+                            Assert.AreEqual("", retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.Position), retStr);
                             break;
                     }
                 }

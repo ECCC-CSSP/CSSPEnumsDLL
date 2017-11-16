@@ -386,6 +386,14 @@ namespace CSSPEnumsDLL.Enums
         ModerateRisk = 2,
         HighRisk = 3,
     }
+    public enum PositionEnum
+    {
+        Error = 0,
+        LeftBottom = 1,
+        RightBottom = 2,
+        LeftTop = 3,
+        RightTop = 4,
+    }
     //public enum PolSourceObsInfoEnum is under file EnumsPolSourceInfo.cs
     public enum PreliminaryTreatmentTypeEnum
     {
@@ -923,7 +931,7 @@ namespace CSSPEnumsDLL.Enums
         MikeSourceIncluded = 73,
         MikeSourceNotIncluded = 74,
         RainExceedance = 75,
-        EmailDistributionList = 76
+        EmailDistributionList = 76,
     }
     public enum WebTideDataSetEnum
     {

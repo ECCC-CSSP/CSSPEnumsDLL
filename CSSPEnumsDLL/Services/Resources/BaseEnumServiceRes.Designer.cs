@@ -2960,6 +2960,51 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Position.
+        /// </summary>
+        public static string Position {
+            get {
+                return ResourceManager.GetString("Position", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Left bottom.
+        /// </summary>
+        public static string PositionEnumLeftBottom {
+            get {
+                return ResourceManager.GetString("PositionEnumLeftBottom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Left top.
+        /// </summary>
+        public static string PositionEnumLeftTop {
+            get {
+                return ResourceManager.GetString("PositionEnumLeftTop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Right bottom.
+        /// </summary>
+        public static string PositionEnumRightBottom {
+            get {
+                return ResourceManager.GetString("PositionEnumRightBottom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Right top.
+        /// </summary>
+        public static string PositionEnumRightTop {
+            get {
+                return ResourceManager.GetString("PositionEnumRightTop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to PreliminaryTreatmentType.
         /// </summary>
         public static string PreliminaryTreatmentType {
@@ -6565,6 +6610,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string TVTypeEnumInfrastructureInfo {
             get {
                 return ResourceManager.GetString("TVTypeEnumInfrastructureInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Label.
+        /// </summary>
+        public static string TVTypeEnumLabel {
+            get {
+                return ResourceManager.GetString("TVTypeEnumLabel", resourceCulture);
             }
         }
         

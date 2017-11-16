@@ -947,6 +947,27 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.Empty;
             }
         }
+        public string GetEnumText_PositionEnum(PositionEnum? positionE)
+        {
+            if (positionE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (positionE)
+            {
+                case PositionEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case PositionEnum.LeftBottom:
+                    return BaseEnumServiceRes.PositionEnumLeftBottom;
+                case PositionEnum.RightBottom:
+                    return BaseEnumServiceRes.PositionEnumRightBottom;
+                case PositionEnum.LeftTop:
+                    return BaseEnumServiceRes.PositionEnumLeftTop;
+                case PositionEnum.RightTop:
+                    return BaseEnumServiceRes.PositionEnumRightTop;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
         public string GetEnumText_PreliminaryTreatmentTypeEnum(PreliminaryTreatmentTypeEnum? preliminaryTreatmentTypeE)
         {
             if (preliminaryTreatmentTypeE == null)
@@ -2737,6 +2758,21 @@ namespace CSSPEnumsDLL.Services
 
             return PolSourceIssueRiskEnumTextOrderedList;
         }
+        public List<PositionEnumTextOrdered> GetPositionEnumTextOrderedList()
+        {
+            List<PositionEnumTextOrdered> PositionEnumTextOrderedList = new List<PositionEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(PositionEnum)).Count(); i < count; i++)
+            {
+                PositionEnumTextOrderedList.Add(new PositionEnumTextOrdered() { Position = (PositionEnum)i, PositionText = GetEnumText_PositionEnum((PositionEnum)i) });
+            }
+
+            PositionEnumTextOrderedList = (from c in PositionEnumTextOrderedList
+                                              orderby c.PositionText
+                                              select c).ToList();
+
+            return PositionEnumTextOrderedList;
+        }
         public List<PreliminaryTreatmentTypeEnumTextOrdered> GetPreliminaryTreatmentTypeEnumTextOrderedList()
         {
             List<PreliminaryTreatmentTypeEnumTextOrdered> PreliminaryTreatmentTypeEnumTextOrderedList = new List<PreliminaryTreatmentTypeEnumTextOrdered>();
@@ -3898,6 +3934,23 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.PolSourceIssueRisk);
+            }
+        }
+        public string PositionOK(PositionEnum? position)
+        {
+            if (position == null)
+                return "";
+
+            switch ((PositionEnum)position)
+            {
+                case PositionEnum.Error:
+                case PositionEnum.LeftBottom:
+                case PositionEnum.RightBottom:
+                case PositionEnum.LeftTop:
+                case PositionEnum.RightTop:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.Position);
             }
         }
         public string PreliminaryTreatmentTypeOK(PreliminaryTreatmentTypeEnum? preliminaryTreatmentType)

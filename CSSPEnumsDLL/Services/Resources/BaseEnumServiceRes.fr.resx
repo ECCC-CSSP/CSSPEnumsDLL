@@ -1999,4 +1999,22 @@
   <data name="AppTaskCommandEnumCreateXlsxPDF" xml:space="preserve">
     <value>Créer PDF à partir de document Excel</value>
   </data>
+  <data name="TVTypeEnumLabel" xml:space="preserve">
+    <value>Label (fr)</value>
+  </data>
+  <data name="PositionEnumLeftBottom" xml:space="preserve">
+    <value>Left bottom (fr)</value>
+  </data>
+  <data name="PositionEnumLeftTop" xml:space="preserve">
+    <value>Left top (fr)</value>
+  </data>
+  <data name="PositionEnumRightBottom" xml:space="preserve">
+    <value>Right bottom (fr)</value>
+  </data>
+  <data name="PositionEnumRightTop" xml:space="preserve">
+    <value>Right top (fr)</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
 </root>
