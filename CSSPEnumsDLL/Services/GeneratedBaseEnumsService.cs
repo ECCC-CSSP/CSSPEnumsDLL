@@ -488,6 +488,35 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.Empty;
             }
         }
+        public string GetEnumText_ReportGenerateObjectsKeywordEnum(ReportGenerateObjectsKeywordEnum? reportGenerateObjectsKeywordE)
+        {
+            if (reportGenerateObjectsKeywordE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (reportGenerateObjectsKeywordE)
+            {
+                case ReportGenerateObjectsKeywordEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FULL_REPORT_COVER_PAGE:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_FULL_REPORT_COVER_PAGE;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_ALL:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_ALL;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_WET:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_WET;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_DRY:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_DRY;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_MWQM_SITES:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_MWQM_SITES;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
         public string GetEnumText_FacilityTypeEnum(FacilityTypeEnum? facilityTypeE)
         {
             if (facilityTypeE == null)
@@ -2503,6 +2532,21 @@ namespace CSSPEnumsDLL.Services
 
             return ExcelExportShowDataTypeEnumTextOrderedList;
         }
+        public List<ReportGenerateObjectsKeywordEnumTextOrdered> GetReportGenerateObjectsKeywordEnumTextOrderedList()
+        {
+            List<ReportGenerateObjectsKeywordEnumTextOrdered> ReportGenerateObjectsKeywordEnumTextOrderedList = new List<ReportGenerateObjectsKeywordEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(ReportGenerateObjectsKeywordEnum)).Count(); i < count; i++)
+            {
+                ReportGenerateObjectsKeywordEnumTextOrderedList.Add(new ReportGenerateObjectsKeywordEnumTextOrdered() { ReportGenerateObjectsKeyword = (ReportGenerateObjectsKeywordEnum)i, ReportGenerateObjectsKeywordText = GetEnumText_ReportGenerateObjectsKeywordEnum((ReportGenerateObjectsKeywordEnum)i) });
+            }
+
+            ReportGenerateObjectsKeywordEnumTextOrderedList = (from c in ReportGenerateObjectsKeywordEnumTextOrderedList
+                                              orderby c.ReportGenerateObjectsKeywordText
+                                              select c).ToList();
+
+            return ReportGenerateObjectsKeywordEnumTextOrderedList;
+        }
         public List<FacilityTypeEnumTextOrdered> GetFacilityTypeEnumTextOrderedList()
         {
             List<FacilityTypeEnumTextOrdered> FacilityTypeEnumTextOrderedList = new List<FacilityTypeEnumTextOrdered>();
@@ -3594,6 +3638,27 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ExcelExportShowDataType);
+            }
+        }
+        public string ReportGenerateObjectsKeywordOK(ReportGenerateObjectsKeywordEnum? reportGenerateObjectsKeyword)
+        {
+            if (reportGenerateObjectsKeyword == null)
+                return "";
+
+            switch ((ReportGenerateObjectsKeywordEnum)reportGenerateObjectsKeyword)
+            {
+                case ReportGenerateObjectsKeywordEnum.Error:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FULL_REPORT_COVER_PAGE:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_ALL:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_WET:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_DRY:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_MWQM_SITES:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ReportGenerateObjectsKeyword);
             }
         }
         public string FacilityTypeOK(FacilityTypeEnum? facilityType)

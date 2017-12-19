@@ -199,6 +199,18 @@ namespace CSSPEnumsDLL.Enums
         PercOfP90Over43 = 7,
         PercOfP90Over260 = 8,
     }
+    public enum ReportGenerateObjectsKeywordEnum
+    {
+        Error = 0,
+        SUBSECTOR_FULL_REPORT_COVER_PAGE = 1,
+        SUBSECTOR_FC_SUMMARY_STAT_ALL = 2,
+        SUBSECTOR_FC_SUMMARY_STAT_WET = 3,
+        SUBSECTOR_FC_SUMMARY_STAT_DRY = 4,
+        SUBSECTOR_MAP_ACTIVE_MWQM_SITES = 5,
+        SUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES = 6,
+        SUBSECTOR_MWQM_SITES = 7,
+        SUBSECTOR_POLLUTION_SOURCE_SITES = 8,
+    }
     public enum FacilityTypeEnum
     {
         Error = 0,
