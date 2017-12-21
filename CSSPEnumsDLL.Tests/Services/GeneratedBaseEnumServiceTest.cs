@@ -844,56 +844,6 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
-        public void BaseEnumService_GetEnumText_ReportGenerateObjectsKeywordEnum_Test()
-        {
-            foreach (CultureInfo culture in setupData.cultureListGood)
-            {
-                SetupTest(culture);
-        
-                string retStr = baseEnumService.GetEnumText_ReportGenerateObjectsKeywordEnum(null);
-                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-        
-                for (int i = 0, count = Enum.GetNames(typeof(ReportGenerateObjectsKeywordEnum)).Length; i < count; i++)
-                {
-                    retStr = baseEnumService.GetEnumText_ReportGenerateObjectsKeywordEnum((ReportGenerateObjectsKeywordEnum)i);
-        
-                    switch ((ReportGenerateObjectsKeywordEnum)i)
-                    {
-                        case ReportGenerateObjectsKeywordEnum.Error:
-                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-                            break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FULL_REPORT_COVER_PAGE:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_FULL_REPORT_COVER_PAGE, retStr);
-                            break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_ALL:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_ALL, retStr);
-                            break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_WET:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_WET, retStr);
-                            break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_DRY:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_DRY, retStr);
-                            break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_MWQM_SITES:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_MWQM_SITES, retStr);
-                            break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES, retStr);
-                            break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES, retStr);
-                            break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES, retStr);
-                            break;
-                        default:
-                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-                            break;
-                    }
-                }
-            }
-        }
-        [TestMethod]
         public void BaseEnumService_GetEnumText_FacilityTypeEnum_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -4410,40 +4360,6 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         default:
                             Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ExcelExportShowDataType), retStr);
-                            break;
-                    }
-                }
-            }
-        }
-        [TestMethod]
-        public void BaseEnumService_ReportGenerateObjectsKeywordOK_Test()
-        {
-            foreach (CultureInfo culture in setupData.cultureListGood)
-            {
-                SetupTest(culture);
-
-                string retStr = baseEnumService.ReportGenerateObjectsKeywordOK(null);
-                Assert.AreEqual("", retStr);
-
-                for (int i = 0, count = Enum.GetNames(typeof(ReportGenerateObjectsKeywordEnum)).Length; i < count; i++)
-                {
-                    retStr = baseEnumService.ReportGenerateObjectsKeywordOK((ReportGenerateObjectsKeywordEnum)i);
-
-                    switch ((ReportGenerateObjectsKeywordEnum)i)
-                    {
-                        case ReportGenerateObjectsKeywordEnum.Error:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FULL_REPORT_COVER_PAGE:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_ALL:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_WET:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_DRY:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_MWQM_SITES:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES:
-                            Assert.AreEqual("", retStr);
-                            break;
-                        default:
-                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ReportGenerateObjectsKeyword), retStr);
                             break;
                     }
                 }

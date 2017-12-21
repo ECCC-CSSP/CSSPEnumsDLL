@@ -2511,31 +2511,4 @@
   <data name="Position" xml:space="preserve">
     <value>Position</value>
   </data>
-  <data name="ReportGenerateObjectsKeyword" xml:space="preserve">
-    <value>ReportGenerateObjectsKeyword</value>
-  </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_FULL_REPORT_COVER_PAGE" xml:space="preserve">
-    <value>SUBSECTOR_FULL_REPORT_COVER_PAGE</value>
-  </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_ALL" xml:space="preserve">
-    <value>SUBSECTOR_FC_SUMMARY_STAT_ALL</value>
-  </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_DRY" xml:space="preserve">
-    <value>SUBSECTOR_FC_SUMMARY_STAT_DRY</value>
-  </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_WET" xml:space="preserve">
-    <value>SUBSECTOR_FC_SUMMARY_STAT_WET</value>
-  </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_MWQM_SITES" xml:space="preserve">
-    <value>SUBSECTOR_MAP_ACTIVE_MWQM_SITES</value>
-  </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES" xml:space="preserve">
-    <value>SUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES</value>
-  </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES" xml:space="preserve">
-    <value>SUBSECTOR_MWQM_SITES</value>
-  </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES" xml:space="preserve">
-    <value>SUBSECTOR_POLLUTION_SOURCE_SITES</value>
-  </data>
 </root>

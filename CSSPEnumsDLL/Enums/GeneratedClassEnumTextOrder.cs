@@ -178,15 +178,6 @@ namespace CSSPEnumsDLL.Enums
         public ExcelExportShowDataTypeEnum ExcelExportShowDataType { get; set; }
         public string ExcelExportShowDataTypeText { get; set; }
     }
-    public class ReportGenerateObjectsKeywordEnumTextOrdered
-    {
-        public ReportGenerateObjectsKeywordEnumTextOrdered()
-        {
-        }
-
-        public ReportGenerateObjectsKeywordEnum ReportGenerateObjectsKeyword { get; set; }
-        public string ReportGenerateObjectsKeywordText { get; set; }
-    }
     public class FacilityTypeEnumTextOrdered
     {
         public FacilityTypeEnumTextOrdered()
