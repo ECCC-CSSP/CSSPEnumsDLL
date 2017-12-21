@@ -403,6 +403,15 @@ namespace CSSPEnumsDLL.Enums
         public ReportFormatingNumberEnum ReportFormatingNumber { get; set; }
         public string ReportFormatingNumberText { get; set; }
     }
+    public class ReportGenerateObjectsKeywordEnumTextOrdered
+    {
+        public ReportGenerateObjectsKeywordEnumTextOrdered()
+        {
+        }
+
+        public ReportGenerateObjectsKeywordEnum ReportGenerateObjectsKeyword { get; set; }
+        public string ReportGenerateObjectsKeywordText { get; set; }
+    }
     public class ReportSortingEnumTextOrdered
     {
         public ReportSortingEnumTextOrdered()
