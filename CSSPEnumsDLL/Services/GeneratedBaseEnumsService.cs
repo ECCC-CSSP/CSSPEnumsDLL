@@ -1252,8 +1252,8 @@ namespace CSSPEnumsDLL.Services
             {
                 case ReportGenerateObjectsKeywordEnum.Error:
                     return BaseEnumServiceRes.Empty;
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FULL_REPORT_COVER_PAGE:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_FULL_REPORT_COVER_PAGE;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_RE_EVALUATION_COVER_PAGE:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_RE_EVALUATION_COVER_PAGE;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_ALL:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_ALL;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_WET:
@@ -4188,7 +4188,7 @@ namespace CSSPEnumsDLL.Services
             switch ((ReportGenerateObjectsKeywordEnum)reportGenerateObjectsKeyword)
             {
                 case ReportGenerateObjectsKeywordEnum.Error:
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FULL_REPORT_COVER_PAGE:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_RE_EVALUATION_COVER_PAGE:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_ALL:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_WET:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_DRY:

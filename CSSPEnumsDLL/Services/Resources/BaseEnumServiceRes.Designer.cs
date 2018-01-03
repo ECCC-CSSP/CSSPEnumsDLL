@@ -3941,15 +3941,6 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to SUBSECTOR_FULL_REPORT_COVER_PAGE.
-        /// </summary>
-        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_FULL_REPORT_COVER_PAGE {
-            get {
-                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_FULL_REPORT_COVER_PAGE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to SUBSECTOR_MAP_ACTIVE_MWQM_SITES.
         /// </summary>
         public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_MWQM_SITES {
@@ -3982,6 +3973,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES {
             get {
                 return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SUBSECTOR_RE_EVALUATION_COVER_PAGE.
+        /// </summary>
+        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_RE_EVALUATION_COVER_PAGE {
+            get {
+                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_RE_EVALUATION_COVER_PAGE", resourceCulture);
             }
         }
         

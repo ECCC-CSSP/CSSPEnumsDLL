@@ -2520,8 +2520,8 @@
   <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_WET" xml:space="preserve">
     <value>SUBSECTOR_FC_SUMMARY_STAT_WET</value>
   </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_FULL_REPORT_COVER_PAGE" xml:space="preserve">
-    <value>SUBSECTOR_FULL_REPORT_COVER_PAGE</value>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_RE_EVALUATION_COVER_PAGE" xml:space="preserve">
+    <value>SUBSECTOR_RE_EVALUATION_COVER_PAGE</value>
   </data>
   <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_MWQM_SITES" xml:space="preserve">
     <value>SUBSECTOR_MAP_ACTIVE_MWQM_SITES</value>

@@ -518,7 +518,7 @@ namespace CSSPEnumsDLL.Enums
     public enum ReportGenerateObjectsKeywordEnum
     {
         Error = 0,
-        SUBSECTOR_FULL_REPORT_COVER_PAGE = 1,
+        SUBSECTOR_RE_EVALUATION_COVER_PAGE = 1,
         SUBSECTOR_FC_SUMMARY_STAT_ALL = 2,
         SUBSECTOR_FC_SUMMARY_STAT_WET = 3,
         SUBSECTOR_FC_SUMMARY_STAT_DRY = 4,
