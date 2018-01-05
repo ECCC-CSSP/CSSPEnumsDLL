@@ -2538,4 +2538,28 @@
   <data name="ReportGenerateObjectsKeyword" xml:space="preserve">
     <value>ReportGenerateObjectsKeyword</value>
   </data>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_DATA_AVAILABILITY" xml:space="preserve">
+    <value>SUBSECTOR_MWQM_SITES_DATA_AVAILABILITY</value>
+  </data>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_FC_TABLE" xml:space="preserve">
+    <value>SUBSECTOR_MWQM_SITES_FC_TABLE</value>
+  </data>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_INFORMATION" xml:space="preserve">
+    <value>SUBSECTOR_MWQM_SITES_INFORMATION</value>
+  </data>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR" xml:space="preserve">
+    <value>SUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR</value>
+  </data>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR" xml:space="preserve">
+    <value>SUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR</value>
+  </data>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR" xml:space="preserve">
+    <value>SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR</value>
+  </data>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_SALINITY_TABLE" xml:space="preserve">
+    <value>SUBSECTOR_MWQM_SITES_SALINITY_TABLE</value>
+  </data>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_TEMPERATURE_TABLE" xml:space="preserve">
+    <value>SUBSECTOR_MWQM_SITES_TEMPERATURE_TABLE</value>
+  </data>
 </root>
