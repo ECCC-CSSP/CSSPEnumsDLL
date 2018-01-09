@@ -3914,6 +3914,33 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to MUNICIPALITY_CONTACTS.
+        /// </summary>
+        public static string ReportGenerateObjectsKeywordEnumMUNICIPALITY_CONTACTS {
+            get {
+                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumMUNICIPALITY_CONTACTS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MUNICIPALITY_INFRASTRUCTURE_DETAIL.
+        /// </summary>
+        public static string ReportGenerateObjectsKeywordEnumMUNICIPALITY_INFRASTRUCTURE_DETAIL {
+            get {
+                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumMUNICIPALITY_INFRASTRUCTURE_DETAIL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MUNICIPALITY_MAP_INFRASTRUCTURE.
+        /// </summary>
+        public static string ReportGenerateObjectsKeywordEnumMUNICIPALITY_MAP_INFRASTRUCTURE {
+            get {
+                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumMUNICIPALITY_MAP_INFRASTRUCTURE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to SUBSECTOR_FC_SUMMARY_STAT_ALL.
         /// </summary>
         public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_ALL {
@@ -3955,6 +3982,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES {
             get {
                 return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SUBSECTOR_MUNICIPALITIES.
+        /// </summary>
+        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES {
+            get {
+                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES", resourceCulture);
             }
         }
         

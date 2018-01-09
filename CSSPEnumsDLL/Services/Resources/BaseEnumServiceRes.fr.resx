@@ -2068,4 +2068,16 @@
   <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_TEMPERATURE_TABLE" xml:space="preserve">
     <value>SUBSECTOR_MWQM_SITES_TEMPERATURE_TABLE</value>
   </data>
+  <data name="ReportGenerateObjectsKeywordEnumMUNICIPALITY_CONTACTS" xml:space="preserve">
+    <value>MUNICIPALITY_CONTACTS</value>
+  </data>
+  <data name="ReportGenerateObjectsKeywordEnumMUNICIPALITY_INFRASTRUCTURE_DETAIL" xml:space="preserve">
+    <value>MUNICIPALITY_INFRASTRUCTURE_DETAIL</value>
+  </data>
+  <data name="ReportGenerateObjectsKeywordEnumMUNICIPALITY_MAP_INFRASTRUCTURE" xml:space="preserve">
+    <value>MUNICIPALITY_MAP_INFRASTRUCTURE</value>
+  </data>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES" xml:space="preserve">
+    <value>SUBSECTOR_MUNICIPALITIES</value>
+  </data>
 </root>

@@ -2205,6 +2205,18 @@ namespace CSSPEnumsDLL.Tests.Services
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR, retStr);
                             break;
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITIES:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES, retStr);
+                            break;
+                        case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_MAP_INFRASTRUCTURE:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_MAP_INFRASTRUCTURE, retStr);
+                            break;
+                        case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_CONTACTS:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_CONTACTS, retStr);
+                            break;
+                        case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_INFRASTRUCTURE_DETAIL:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_INFRASTRUCTURE_DETAIL, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -5337,6 +5349,10 @@ namespace CSSPEnumsDLL.Tests.Services
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITIES:
+                        case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_MAP_INFRASTRUCTURE:
+                        case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_CONTACTS:
+                        case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_INFRASTRUCTURE_DETAIL:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

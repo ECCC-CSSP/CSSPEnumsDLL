@@ -1284,6 +1284,14 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITIES:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES;
+                case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_MAP_INFRASTRUCTURE:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_MAP_INFRASTRUCTURE;
+                case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_CONTACTS:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_CONTACTS;
+                case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_INFRASTRUCTURE_DETAIL:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_INFRASTRUCTURE_DETAIL;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -4220,6 +4228,10 @@ namespace CSSPEnumsDLL.Services
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITIES:
+                case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_MAP_INFRASTRUCTURE:
+                case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_CONTACTS:
+                case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_INFRASTRUCTURE_DETAIL:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ReportGenerateObjectsKeyword);
