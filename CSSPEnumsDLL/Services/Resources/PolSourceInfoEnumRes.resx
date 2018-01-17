@@ -199,7 +199,7 @@
     <value>                    Agricultural</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationAgriculturalHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationAgriculturalInit" xml:space="preserve">
     <value>agr</value>
@@ -217,7 +217,7 @@
     <value>      Barge</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationBargeHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationBargeInit" xml:space="preserve">
     <value>bar</value>
@@ -235,7 +235,7 @@
     <value>                        Cottage-Trailer</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationCottageLotHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationCottageLotInit" xml:space="preserve">
     <value>cot</value>
@@ -253,7 +253,7 @@
     <value>                 Farm</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationFarmHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationFarmInit" xml:space="preserve">
     <value>far</value>
@@ -271,7 +271,7 @@
     <value>Fish Plant</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationFishPlantHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationFishPlantInit" xml:space="preserve">
     <value>fp</value>
@@ -289,7 +289,7 @@
     <value>                       Forested</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationForestedHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationForestedInit" xml:space="preserve">
     <value>for</value>
@@ -307,7 +307,7 @@
     <value>   Island</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationIslandHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationIslandInit" xml:space="preserve">
     <value>is</value>
@@ -325,7 +325,7 @@
     <value>                             Recreational </value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationRecreationalAreaHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationRecreationalAreaInit" xml:space="preserve">
     <value>rec</value>
@@ -343,7 +343,7 @@
     <value>                                       Rural</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationRuralHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationRuralInit" xml:space="preserve">
     <value>rur</value>
@@ -361,7 +361,7 @@
     <value>             Shoreline</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationShorelineHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationShorelineInit" xml:space="preserve">
     <value>sho</value>
@@ -385,7 +385,7 @@
     <value>                                    Urban</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationUrbanHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationUrbanInit" xml:space="preserve">
     <value>urb</value>
@@ -403,7 +403,7 @@
     <value>       Stream </value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationWaterCourseHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationWaterCourseInit" xml:space="preserve">
     <value>wc</value>
@@ -421,7 +421,7 @@
     <value> Wetland</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationWetlandHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationWetlandInit" xml:space="preserve">
     <value>wet</value>
@@ -439,7 +439,7 @@
     <value>          Wharf</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationWharfHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationWharfInit" xml:space="preserve">
     <value>whf</value>
@@ -459,186 +459,6 @@
   <data name="PolSourceInfoEnumAnimalNumberPresentStartDesc" xml:space="preserve">
     <value>General population observed.</value>
   </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween101And250" xml:space="preserve">
-    <value>         101- 250</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween101And250Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween101And250Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween101And250Points" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween101And250Report" xml:space="preserve">
-    <value>between 100 and 250 meters across.  </value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween101And250Text" xml:space="preserve">
-    <value>101- 250</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween251And500" xml:space="preserve">
-    <value>       251 - 500</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween251And500Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween251And500Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween251And500Points" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween251And500Report" xml:space="preserve">
-    <value>between 250 and 500 meters across.  </value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween251And500Text" xml:space="preserve">
-    <value> 251 - 500</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween501And1000" xml:space="preserve">
-    <value>    501 - 1000</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween501And1000Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween501And1000Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween501And1000Points" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween501And1000Report" xml:space="preserve">
-    <value>between 500 and 1000 meters across.  </value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersBetween501And1000Text" xml:space="preserve">
-    <value>  501 - 1000</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals10" xml:space="preserve">
-    <value>                           10</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals100" xml:space="preserve">
-    <value>            100</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals100Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals100Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals100Points" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals100Report" xml:space="preserve">
-    <value>100 meters across.  </value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals100Text" xml:space="preserve">
-    <value>100</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals10Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals10Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals10Points" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals10Report" xml:space="preserve">
-    <value>ten meters across.  </value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals10Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals20" xml:space="preserve">
-    <value>                          20</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals20Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals20Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals20Points" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals20Report" xml:space="preserve">
-    <value>20 meters across.  </value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals20Text" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals40" xml:space="preserve">
-    <value>                        40</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals40Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals40Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals40Points" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals40Report" xml:space="preserve">
-    <value>40 meters across.  </value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals40Text" xml:space="preserve">
-    <value>40</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals60" xml:space="preserve">
-    <value>                      60</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals60Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals60Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals60Points" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals60Report" xml:space="preserve">
-    <value>60 meters across.  </value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals60Text" xml:space="preserve">
-    <value>60</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals80" xml:space="preserve">
-    <value>                 80</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals80Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals80Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals80Points" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals80Report" xml:space="preserve">
-    <value>80 meters across.  </value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersEquals80Text" xml:space="preserve">
-    <value>80</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersGreaterThan1000" xml:space="preserve">
-    <value>&gt; 1000</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersGreaterThan1000Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersGreaterThan1000Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersGreaterThan1000Points" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersGreaterThan1000Report" xml:space="preserve">
-    <value>greater than 1000 meters across.  </value>
-  </data>
-  <data name="PolSourceInfoEnumAreaSizeMetersGreaterThan1000Text" xml:space="preserve">
-    <value>&gt; 1000</value>
-  </data>
   <data name="PolSourceInfoEnumAreaSlopeHigh" xml:space="preserve">
     <value>High</value>
   </data>
@@ -652,7 +472,7 @@
     <value>3</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeHighReport" xml:space="preserve">
-    <value>The site has a high slope which would maximize flow rates.  </value>
+    <value>high slope which would maximize flow rates.  </value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeLow" xml:space="preserve">
     <value>    Low</value>
@@ -667,7 +487,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeLowReport" xml:space="preserve">
-    <value>The site has a low slope which would impede flow rates. </value>
+    <value>low slope which would impede flow rates.   </value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeMedium" xml:space="preserve">
     <value>  Medium</value>
@@ -682,7 +502,7 @@
     <value>2</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeMediumReport" xml:space="preserve">
-    <value>The site has a medium slope which is expected to enhance flow rates.</value>
+    <value>medium slope which is expected to enhance flow rates.  </value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeNA" xml:space="preserve">
     <value>N/A </value>
@@ -1036,7 +856,7 @@
     <value>Number of vessels present or maximum number that can use this structure.</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundFacilitiesStart" xml:space="preserve">
-    <value>Dump Station</value>
+    <value>Wastewater Dump Station</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundFacilitiesStartDesc" xml:space="preserve">
     <value>Dump station is a site where trailers can dispose of the wastewater holding tanks.  </value>
@@ -1045,7 +865,7 @@
     <value>No</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundNoDumpStnHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundNoDumpStnInit" xml:space="preserve">
     <value>nds</value>
@@ -1063,7 +883,7 @@
     <value>Yes</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundWithDumpStnHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundWithDumpStnInit" xml:space="preserve">
     <value>ds</value>
@@ -1078,7 +898,7 @@
     <value>Dump Station, </value>
   </data>
   <data name="PolSourceInfoEnumConfirmationOfHighStart" xml:space="preserve">
-    <value>Risk Confirmation Type</value>
+    <value>High Risk Confirmation</value>
   </data>
   <data name="PolSourceInfoEnumConfirmationOfHighStartDesc" xml:space="preserve">
     <value>How did you confirm this was a high risk?</value>
@@ -1250,273 +1070,6 @@
   </data>
   <data name="PolSourceInfoEnumDiameterNoInformationText" xml:space="preserve">
     <value>Information is not available.  </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters10" xml:space="preserve">
-    <value>                      10</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters100" xml:space="preserve">
-    <value>             100</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters1000" xml:space="preserve">
-    <value>      1000</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters1000Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters1000Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters1000Points" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters1000Report" xml:space="preserve">
-    <value>approximately 1000 meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters100Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters100Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters100Points" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters100Report" xml:space="preserve">
-    <value>approximately 100 meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters10Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters10Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters10Points" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters10Report" xml:space="preserve">
-    <value>approximately ten meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters10Text" xml:space="preserve">
-    <value>  </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters150" xml:space="preserve">
-    <value>            150</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters150Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters150Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters150Points" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters150Report" xml:space="preserve">
-    <value>approximately 150 meters to shore and   </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters20" xml:space="preserve">
-    <value>                     20</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters200" xml:space="preserve">
-    <value>           200</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters200Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters200Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters200Points" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters200Report" xml:space="preserve">
-    <value>approximately 200 meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters20Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters20Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters20Points" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters20Report" xml:space="preserve">
-    <value>approximately 20 meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters30" xml:space="preserve">
-    <value>                    30</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters300" xml:space="preserve">
-    <value>          300</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters300Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters300Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters300Points" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters300Report" xml:space="preserve">
-    <value>approximately 300 meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters30Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters30Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters30Points" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters30Report" xml:space="preserve">
-    <value>approximately 30 meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters40" xml:space="preserve">
-    <value>                40</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters400" xml:space="preserve">
-    <value>         400</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters400Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters400Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters400Points" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters400Report" xml:space="preserve">
-    <value>approximately 400 meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters40Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters40Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters40Points" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters40Report" xml:space="preserve">
-    <value>approximately 40 meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters5" xml:space="preserve">
-    <value>                         5 </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters50" xml:space="preserve">
-    <value>               50</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters50Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters50Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters50Points" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters50Report" xml:space="preserve">
-    <value>approximately 50 meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters5Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters5Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters5Points" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters5Report" xml:space="preserve">
-    <value>approximately five meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters600" xml:space="preserve">
-    <value>         600</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters600Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters600Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters600Points" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters600Report" xml:space="preserve">
-    <value>approximately 600 meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters75" xml:space="preserve">
-    <value>              75</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters75Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters75Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters75Points" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters75Report" xml:space="preserve">
-    <value>approximately 75 meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters75Text" xml:space="preserve">
-    <value>  </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters800" xml:space="preserve">
-    <value>        800</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters800Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters800Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters800Points" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMeters800Report" xml:space="preserve">
-    <value>approximately 800 meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMetersGreaterThan1000" xml:space="preserve">
-    <value>  &gt; 1000</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMetersGreaterThan1000Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMetersGreaterThan1000Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMetersGreaterThan1000Points" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMetersGreaterThan1000Report" xml:space="preserve">
-    <value>more than 1000 meters to shore and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMetersOnShore" xml:space="preserve">
-    <value>                              On shore</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMetersOnShoreHide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMetersOnShoreInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMetersOnShorePoints" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMetersOnShoreReport" xml:space="preserve">
-    <value>at the shoreline and </value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMetersStart" xml:space="preserve">
-    <value>PathWay Distance to Water (m)</value>
-  </data>
-  <data name="PolSourceInfoEnumDistanceFromShoreInMetersStartDesc" xml:space="preserve">
-    <value>The most direct pathway distance (m) to a body of surface water.  This could be stream, wetland, river?</value>
   </data>
   <data name="PolSourceInfoEnumDistanceOnMarineWaterMetersEqual10" xml:space="preserve">
     <value>                          10</value>
@@ -1792,7 +1345,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters1000Report" xml:space="preserve">
-    <value>saltwater is approximately 1000 meters.  </value>
+    <value>saltwater is approximately 1000 meters.  This distance creates a large time frame for bacterial die-off.  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters100Hide" xml:space="preserve">
     <value />
@@ -1804,7 +1357,7 @@
     <value>5</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters100Report" xml:space="preserve">
-    <value>saltwater is approximately 100 meters.  </value>
+    <value>saltwater is approximately 100 meters.  This distance creates a time frame for bacterial die-off.  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters10Hide" xml:space="preserve">
     <value />
@@ -1816,7 +1369,7 @@
     <value>9</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters10Report" xml:space="preserve">
-    <value>saltwater is approximately ten meters.  </value>
+    <value>saltwater is approximately ten meters.  This distance provides minimum time for bacterial die-off.  </value>
   </data>
   <data name="PolSourceInfoEnumDistancetoSaltWaterInMeters20" xml:space="preserve">
     <value>                       20</value>
@@ -1834,7 +1387,7 @@
     <value>4</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters200Report" xml:space="preserve">
-    <value>saltwater is approximately 200 meters.  </value>
+    <value>saltwater is approximately 200 meters.  This distance creates a time frame for bacterial die-off.  </value>
   </data>
   <data name="PolSourceInfoEnumDistancetoSaltWaterInMeters20Hide" xml:space="preserve">
     <value />
@@ -1846,7 +1399,7 @@
     <value>8</value>
   </data>
   <data name="PolSourceInfoEnumDistancetoSaltWaterInMeters20Report" xml:space="preserve">
-    <value>saltwater is approximately 20 meters.  </value>
+    <value>saltwater is approximately 20 meters.  This distance provides minimum time for bacterial die-off.  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters30" xml:space="preserve">
     <value>                      30</value>
@@ -1861,7 +1414,7 @@
     <value>7</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters30Report" xml:space="preserve">
-    <value>saltwater is approximately 30 meters.  </value>
+    <value>saltwater is approximately 30 meters.  This distance provides minimum time for bacteria die-off.  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters400" xml:space="preserve">
     <value>          400</value>
@@ -1876,7 +1429,7 @@
     <value>3</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters400Report" xml:space="preserve">
-    <value>saltwater is approximately 400 meters.  </value>
+    <value>saltwater is approximately 400 meters.  This distance creates a time frame for bacterial die-off.  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters5" xml:space="preserve">
     <value>                                5</value>
@@ -1894,7 +1447,7 @@
     <value>6</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters50Report" xml:space="preserve">
-    <value>saltwater is approximately 50 meters.  </value>
+    <value>saltwater is approximately 50 meters.  This distance provides minimum time for bacterial die-off.  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters5Hide" xml:space="preserve">
     <value />
@@ -1906,7 +1459,7 @@
     <value>10</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters5Report" xml:space="preserve">
-    <value>saltwater is approximately five meters.  </value>
+    <value>saltwater is approximately five meters.  This distance provides minimum time for bacterial die-off.  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters800" xml:space="preserve">
     <value>        800</value>
@@ -1921,7 +1474,7 @@
     <value>2</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMeters800Report" xml:space="preserve">
-    <value>saltwater is approximately 800 meters.  </value>
+    <value>saltwater is approximately 800 meters.  This distance creates a large time frame for bacterial die-off.  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMetersGreaterThan1000" xml:space="preserve">
     <value> &gt; 1000</value>
@@ -1936,13 +1489,280 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterInMetersGreaterThan1000Report" xml:space="preserve">
-    <value>saltwater is more than 1000 meters.  </value>
+    <value>saltwater is more than 1000 meters.  This distance creates a large time frame for bacterial die-off.  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterStart" xml:space="preserve">
     <value>Distance To Saltwater (m)</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterStartDesc" xml:space="preserve">
     <value>Approximate distance between the point that a Pathway enters a body of water to the point that the populant contacts saltwater (m).  Example would be a plume coming down a stream into marine water. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters10" xml:space="preserve">
+    <value>                      10</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters100" xml:space="preserve">
+    <value>             100</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters1000" xml:space="preserve">
+    <value>      1000</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters1000Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters1000Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters1000Points" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters1000Report" xml:space="preserve">
+    <value>approximately 1000 meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters100Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters100Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters100Points" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters100Report" xml:space="preserve">
+    <value>approximately 100 meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters10Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters10Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters10Points" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters10Report" xml:space="preserve">
+    <value>approximately ten meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters10Text" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters150" xml:space="preserve">
+    <value>            150</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters150Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters150Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters150Points" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters150Report" xml:space="preserve">
+    <value>approximately 150 meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters20" xml:space="preserve">
+    <value>                     20</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters200" xml:space="preserve">
+    <value>           200</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters200Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters200Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters200Points" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters200Report" xml:space="preserve">
+    <value>approximately 200 meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters20Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters20Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters20Points" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters20Report" xml:space="preserve">
+    <value>approximately 20 meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters30" xml:space="preserve">
+    <value>                    30</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters300" xml:space="preserve">
+    <value>          300</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters300Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters300Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters300Points" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters300Report" xml:space="preserve">
+    <value>approximately 300 meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters30Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters30Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters30Points" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters30Report" xml:space="preserve">
+    <value>approximately 30 meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters40" xml:space="preserve">
+    <value>                40</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters400" xml:space="preserve">
+    <value>         400</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters400Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters400Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters400Points" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters400Report" xml:space="preserve">
+    <value>approximately 400 meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters40Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters40Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters40Points" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters40Report" xml:space="preserve">
+    <value>approximately 40 meters to the water's edge and the land has a  </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters5" xml:space="preserve">
+    <value>                         5 </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters50" xml:space="preserve">
+    <value>               50</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters50Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters50Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters50Points" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters50Report" xml:space="preserve">
+    <value>approximately 50 meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters5Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters5Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters5Points" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters5Report" xml:space="preserve">
+    <value>approximately five meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters600" xml:space="preserve">
+    <value>         600</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters600Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters600Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters600Points" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters600Report" xml:space="preserve">
+    <value>approximately 600 meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters75" xml:space="preserve">
+    <value>              75</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters75Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters75Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters75Points" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters75Report" xml:space="preserve">
+    <value>approximately 75 meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters75Text" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters800" xml:space="preserve">
+    <value>        800</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters800Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters800Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters800Points" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMeters800Report" xml:space="preserve">
+    <value>approximately 800 meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMetersAtWaterEdge" xml:space="preserve">
+    <value>                              At water's edge</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMetersAtWaterEdgeHide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMetersAtWaterEdgeInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMetersAtWaterEdgePoints" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMetersAtWaterEdgeReport" xml:space="preserve">
+    <value>at the water's edge and </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMetersGreaterThan1000" xml:space="preserve">
+    <value>  &gt; 1000</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMetersGreaterThan1000Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMetersGreaterThan1000Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMetersGreaterThan1000Points" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMetersGreaterThan1000Report" xml:space="preserve">
+    <value>more than 1000 meters to the water's edge and the land has a </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMetersStart" xml:space="preserve">
+    <value>PathWay Distance to Water (m)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToWaterInMetersStartDesc" xml:space="preserve">
+    <value>The most direct pathway distance (m) to a body of surface water.  This could be stream, wetland, river?</value>
   </data>
   <data name="PolSourceInfoEnumDitchAcrossProperties" xml:space="preserve">
     <value>Across Properties</value>
@@ -2068,7 +1888,7 @@
     <value>Not Active</value>
   </data>
   <data name="PolSourceInfoEnumFeedlotNotActiveHide" xml:space="preserve">
-    <value>10503,10504,10505,10507</value>
+    <value>10503,10504,10505,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumFeedlotNotActiveInit" xml:space="preserve">
     <value>f</value>
@@ -2092,7 +1912,7 @@
     <value>Both</value>
   </data>
   <data name="PolSourceInfoEnumFieldLocationBothHide" xml:space="preserve">
-    <value>10501,10503,10504,10505,10506,10507</value>
+    <value>10501,10503,10504,10505,10506,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumFieldLocationBothInit" xml:space="preserve">
     <value>bth</value>
@@ -2110,7 +1930,7 @@
     <value>Other</value>
   </data>
   <data name="PolSourceInfoEnumFieldLocationOffFarmHide" xml:space="preserve">
-    <value>10501,10503,10504,10505,10506,10507</value>
+    <value>10501,10503,10504,10505,10506,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumFieldLocationOffFarmInit" xml:space="preserve">
     <value>other</value>
@@ -2128,7 +1948,7 @@
     <value>Farm</value>
   </data>
   <data name="PolSourceInfoEnumFieldLocationOnFarmHide" xml:space="preserve">
-    <value>10501,10503,10504,10505,10506,10507</value>
+    <value>10501,10503,10504,10505,10506,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumFieldLocationOnFarmInit" xml:space="preserve">
     <value>farm</value>
@@ -2584,7 +2404,7 @@
     <value>Finfish</value>
   </data>
   <data name="PolSourceInfoEnumFisheriesSourceFinfishHide" xml:space="preserve">
-    <value>10502,10505,10506,10507</value>
+    <value>10502,10505,10506,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumFisheriesSourceFinfishInit" xml:space="preserve">
     <value>ff</value>
@@ -2602,7 +2422,7 @@
     <value>                Lobster</value>
   </data>
   <data name="PolSourceInfoEnumFisheriesSourceLobsterHide" xml:space="preserve">
-    <value>10502,10505,10506,10507</value>
+    <value>10502,10505,10506,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumFisheriesSourceLobsterInit" xml:space="preserve">
     <value>lo</value>
@@ -2620,7 +2440,7 @@
     <value>                            Shellfish</value>
   </data>
   <data name="PolSourceInfoEnumFisheriesSourceShellfishHide" xml:space="preserve">
-    <value>10502,10505,10506,10507</value>
+    <value>10502,10505,10506,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumFisheriesSourceShellfishInit" xml:space="preserve">
     <value>sf</value>
@@ -2644,7 +2464,7 @@
     <value>     Fish Meal</value>
   </data>
   <data name="PolSourceInfoEnumFishOperationFishMealHide" xml:space="preserve">
-    <value>10502,10505,10506,10507</value>
+    <value>10502,10505,10506,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumFishOperationFishMealInit" xml:space="preserve">
     <value>fm</value>
@@ -2838,262 +2658,352 @@
   <data name="PolSourceInfoEnumFollowupStartDesc" xml:space="preserve">
     <value>Is a field trip required to collect more information on this site?</value>
   </data>
-  <data name="PolSourceInfoEnumGeneraHumanLocationFarm" xml:space="preserve">
-    <value>                 Farm</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneraHumanLocationFarmHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneraHumanLocationFarmInit" xml:space="preserve">
-    <value>far</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneraHumanLocationFarmPoints" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneraHumanLocationFarmReport" xml:space="preserve">
-    <value>on a farm.   </value>
-  </data>
-  <data name="PolSourceInfoEnumGeneraHumanLocationFarmText" xml:space="preserve">
-    <value>Farm</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationAgricultural" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationAgricultural" xml:space="preserve">
     <value>                    Agricultural</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationAgriculturalHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
+  <data name="PolSourceInfoEnumHumanLocationAgriculturalHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationAgriculturalInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationAgriculturalInit" xml:space="preserve">
     <value>agr</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationAgriculturalPoints" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationAgriculturalPoints" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationAgriculturalReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationAgriculturalReport" xml:space="preserve">
     <value>in an agricultural area.  </value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationAgriculturalText" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationAgriculturalText" xml:space="preserve">
     <value>Agricultural</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationBarge" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationAnchorageMooringSite" xml:space="preserve">
+    <value>Anchorage </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationAnchorageMooringSiteHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10505,10506,10507</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationAnchorageMooringSiteInit" xml:space="preserve">
+    <value>moo</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationAnchorageMooringSitePoints" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationAnchorageMooringSiteReport" xml:space="preserve">
+    <value>an anchorage or mooring site.   </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationAnchorageMooringSiteText" xml:space="preserve">
+    <value>Anchorage mooring</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationAquacultureSite" xml:space="preserve">
+    <value>Aquaculture</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationAquacultureSiteHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10505,10506,10507</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationAquacultureSiteInit" xml:space="preserve">
+    <value>aqu</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationAquacultureSitePoints" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationAquacultureSiteReport" xml:space="preserve">
+    <value>is </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationAquacultureSiteText" xml:space="preserve">
+    <value>Aquaculture</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationBarge" xml:space="preserve">
     <value>      Barge</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationBargeHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
+  <data name="PolSourceInfoEnumHumanLocationBargeHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationBargeInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationBargeInit" xml:space="preserve">
     <value>bar</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationBargePoints" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationBargePoints" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationBargeReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationBargeReport" xml:space="preserve">
     <value>on a barge.  </value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationBargeText" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationBargeText" xml:space="preserve">
     <value>Barge</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationCottageLot" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationCottageLot" xml:space="preserve">
     <value>                        Cottage-Trailer</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationCottageLotHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
+  <data name="PolSourceInfoEnumHumanLocationCottageLotHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationCottageLotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationCottageLotInit" xml:space="preserve">
     <value>cot</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationCottageLotPoints" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationCottageLotPoints" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationCottageLotReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationCottageLotReport" xml:space="preserve">
     <value>on a cottage or trailer lot.   </value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationCottageLotText" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationCottageLotText" xml:space="preserve">
     <value>Cottage-trailer Lot</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationFishPlant" xml:space="preserve">
-    <value>Fish Plant</value>
+  <data name="PolSourceInfoEnumHumanLocationDisposalAtSea" xml:space="preserve">
+    <value>Disposal at Sea</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationFishPlantHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
+  <data name="PolSourceInfoEnumHumanLocationDisposalAtSeaHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10505,10506,10507</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationFishPlantInit" xml:space="preserve">
-    <value>fp</value>
+  <data name="PolSourceInfoEnumHumanLocationDisposalAtSeaInit" xml:space="preserve">
+    <value>dis</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationFishPlantPoints" xml:space="preserve">
-    <value>1</value>
+  <data name="PolSourceInfoEnumHumanLocationDisposalAtSeaPoints" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationFishPlantReport" xml:space="preserve">
-    <value>at a fish plant.  </value>
+  <data name="PolSourceInfoEnumHumanLocationDisposalAtSeaReport" xml:space="preserve">
+    <value>a site identified for sediment disposal.  </value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationFishPlantText" xml:space="preserve">
-    <value>Fisheries</value>
+  <data name="PolSourceInfoEnumHumanLocationDisposalAtSeaText" xml:space="preserve">
+    <value>Disposal at sea</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationForested" xml:space="preserve">
-    <value>                       Forested</value>
+  <data name="PolSourceInfoEnumHumanLocationFarm" xml:space="preserve">
+    <value>                 Farm</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationForestedHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
+  <data name="PolSourceInfoEnumHumanLocationFarmHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationForestedInit" xml:space="preserve">
-    <value>for</value>
+  <data name="PolSourceInfoEnumHumanLocationFarmInit" xml:space="preserve">
+    <value>far</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationForestedPoints" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationForestedReport" xml:space="preserve">
-    <value>in a forested area.  </value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationForestedText" xml:space="preserve">
-    <value>Forested</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationIsland" xml:space="preserve">
-    <value>   Island</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationIslandHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationIslandInit" xml:space="preserve">
-    <value>is</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationIslandPoints" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationIslandReport" xml:space="preserve">
-    <value>on an Island. </value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationIslandText" xml:space="preserve">
-    <value>Island</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationRecreationalArea" xml:space="preserve">
-    <value>                             Recreational </value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationRecreationalAreaHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationRecreationalAreaInit" xml:space="preserve">
-    <value>rec</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationRecreationalAreaPoints" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationRecreationalAreaReport" xml:space="preserve">
-    <value>in a recreational area.  </value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationRecreationalAreaText" xml:space="preserve">
-    <value>Recreational Area</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationRural" xml:space="preserve">
-    <value>                                       Rural</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationRuralHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationRuralInit" xml:space="preserve">
-    <value>rur</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationRuralPoints" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationRuralReport" xml:space="preserve">
-    <value>in a rural community.  </value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationRuralText" xml:space="preserve">
-    <value>Rural Community</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationShoreline" xml:space="preserve">
-    <value>             Shoreline</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationShorelineHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationShorelineInit" xml:space="preserve">
-    <value>sho</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationShorelinePoints" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationShorelineReport" xml:space="preserve">
-    <value>along the shoreline.  </value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationShorelineText" xml:space="preserve">
-    <value>Shoreline</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationStart" xml:space="preserve">
-    <value>Source Location </value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationStartDesc" xml:space="preserve">
-    <value>Alllow you select the general location that the structure is located.</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationUrban" xml:space="preserve">
-    <value>                                    Urban</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationUrbanHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationUrbanInit" xml:space="preserve">
-    <value>urb</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationUrbanPoints" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationUrbanReport" xml:space="preserve">
-    <value>in an urban area.  </value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationUrbanText" xml:space="preserve">
-    <value>Urban</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWaterCourse" xml:space="preserve">
-    <value>       Stream </value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWaterCourseHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWaterCourseInit" xml:space="preserve">
-    <value>wc</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWaterCoursePoints" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWaterCourseReport" xml:space="preserve">
-    <value>on a watercourse.  </value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWaterCourseText" xml:space="preserve">
-    <value>Water Course </value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWetland" xml:space="preserve">
-    <value> Wetland</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWetlandHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWetlandInit" xml:space="preserve">
-    <value>wet</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWetlandPoints" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWetlandReport" xml:space="preserve">
-    <value>along a wetland.  </value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWetlandText" xml:space="preserve">
-    <value>Wetland</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWharf" xml:space="preserve">
-    <value>          Wharf</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWharfHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWharfInit" xml:space="preserve">
-    <value>whf</value>
-  </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWharfPoints" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationFarmPoints" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWharfReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationFarmReport" xml:space="preserve">
+    <value>on a farm.   </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationFarmText" xml:space="preserve">
+    <value>Farm</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationFishPlant" xml:space="preserve">
+    <value>Fish Plant</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationFishPlantHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationFishPlantInit" xml:space="preserve">
+    <value>fp</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationFishPlantPoints" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationFishPlantReport" xml:space="preserve">
+    <value>at a fish plant.  </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationFishPlantText" xml:space="preserve">
+    <value>Fisheries</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationForested" xml:space="preserve">
+    <value>                       Forested</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationForestedHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationForestedInit" xml:space="preserve">
+    <value>for</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationForestedPoints" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationForestedReport" xml:space="preserve">
+    <value>in a forested area.  </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationForestedText" xml:space="preserve">
+    <value>Forested</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationIsland" xml:space="preserve">
+    <value>   Island</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationIslandHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationIslandInit" xml:space="preserve">
+    <value>is</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationIslandPoints" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationIslandReport" xml:space="preserve">
+    <value>on an Island. </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationIslandText" xml:space="preserve">
+    <value>Island</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarina" xml:space="preserve">
+    <value>Marina</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarinaHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarinaInit" xml:space="preserve">
+    <value>mar</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarinaPoints" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarinaReport" xml:space="preserve">
+    <value>a marina.  </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarinaText" xml:space="preserve">
+    <value>Marina.</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarinePark" xml:space="preserve">
+    <value>Marine Park</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarineParkHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10505,10506,10507</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarineParkInit" xml:space="preserve">
+    <value>par</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarineParkPoints" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarineParkReport" xml:space="preserve">
+    <value>a marine park.  </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarineParkText" xml:space="preserve">
+    <value>Marine park</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationRecreationalArea" xml:space="preserve">
+    <value>                             Recreational </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationRecreationalAreaHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationRecreationalAreaInit" xml:space="preserve">
+    <value>rec</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationRecreationalAreaPoints" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationRecreationalAreaReport" xml:space="preserve">
+    <value>in a recreational area.  </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationRecreationalAreaText" xml:space="preserve">
+    <value>Recreational Area</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationRural" xml:space="preserve">
+    <value>                                       Rural</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationRuralHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationRuralInit" xml:space="preserve">
+    <value>rur</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationRuralPoints" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationRuralReport" xml:space="preserve">
+    <value>in a rural community.  </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationRuralText" xml:space="preserve">
+    <value>Rural Community</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationShoreline" xml:space="preserve">
+    <value>             Shoreline</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationShorelineHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationShorelineInit" xml:space="preserve">
+    <value>sho</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationShorelinePoints" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationShorelineReport" xml:space="preserve">
+    <value>along the shoreline.  </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationShorelineText" xml:space="preserve">
+    <value>Shoreline</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationStart" xml:space="preserve">
+    <value>Source Location </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationStartDesc" xml:space="preserve">
+    <value>Alllow you select the general location that the structure is located.</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationUrban" xml:space="preserve">
+    <value>                                    Urban</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationUrbanHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationUrbanInit" xml:space="preserve">
+    <value>urb</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationUrbanPoints" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationUrbanReport" xml:space="preserve">
+    <value>in an urban area.  </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationUrbanText" xml:space="preserve">
+    <value>Urban</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWaterCourse" xml:space="preserve">
+    <value>       Stream </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWaterCourseHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWaterCourseInit" xml:space="preserve">
+    <value>wc</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWaterCoursePoints" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWaterCourseReport" xml:space="preserve">
+    <value>on a watercourse.  </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWaterCourseText" xml:space="preserve">
+    <value>Water Course </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWetland" xml:space="preserve">
+    <value> Wetland</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWetlandHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWetlandInit" xml:space="preserve">
+    <value>wet</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWetlandPoints" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWetlandReport" xml:space="preserve">
+    <value>along a wetland.  </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWetlandText" xml:space="preserve">
+    <value>Wetland</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWharf" xml:space="preserve">
+    <value>          Wharf</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWharfHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWharfInit" xml:space="preserve">
+    <value>whf</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWharfPoints" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationWharfReport" xml:space="preserve">
     <value>on a wharf.  </value>
   </data>
-  <data name="PolSourceInfoEnumGeneralHumanLocationWharfText" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanLocationWharfText" xml:space="preserve">
     <value>Wharf</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionCountNumberBetween11and25" xml:space="preserve">
@@ -3336,11 +3246,29 @@
   <data name="PolSourceInfoEnumHumanPollutionCountNumberStartDesc" xml:space="preserve">
     <value>Select the number of structures before selecting the type of structure.</value>
   </data>
+  <data name="PolSourceInfoEnumHumanPollutionMultipleBarges" xml:space="preserve">
+    <value>Barges</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanPollutionMultipleBargesHide" xml:space="preserve">
+    <value>12701,12702,12703,12704,12705,12708,12709,12710,12711</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanPollutionMultipleBargesInit" xml:space="preserve">
+    <value>bar</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanPollutionMultipleBargesPoints" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanPollutionMultipleBargesReport" xml:space="preserve">
+    <value>barges at </value>
+  </data>
+  <data name="PolSourceInfoEnumHumanPollutionMultipleBargesText" xml:space="preserve">
+    <value>Boats or Barges</value>
+  </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleBarns" xml:space="preserve">
     <value>             Barns</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleBarnsHide" xml:space="preserve">
-    <value />
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleBarnsInit" xml:space="preserve">
     <value>bar</value>
@@ -3354,29 +3282,29 @@
   <data name="PolSourceInfoEnumHumanPollutionMultipleBarnsText" xml:space="preserve">
     <value>Barns, </value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsOrBarges" xml:space="preserve">
-    <value>Boats or Barges</value>
+  <data name="PolSourceInfoEnumHumanPollutionMultipleBoats" xml:space="preserve">
+    <value>Boats</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsOrBargesHide" xml:space="preserve">
-    <value />
+  <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsHide" xml:space="preserve">
+    <value>12701,12702,12703,12704,12705,12708,12709,12710,12711</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsOrBargesInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsInit" xml:space="preserve">
     <value>boa</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsOrBargesPoints" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsPoints" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsOrBargesReport" xml:space="preserve">
-    <value> </value>
+  <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsReport" xml:space="preserve">
+    <value>boats at </value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsOrBargesText" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsText" xml:space="preserve">
     <value>outhouse</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleChurches" xml:space="preserve">
     <value>                   Churches</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleChurchesHide" xml:space="preserve">
-    <value />
+    <value>12705,12707,12708,12712,12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleChurchesInit" xml:space="preserve">
     <value>chu</value>
@@ -3394,7 +3322,7 @@
     <value>         Commercial</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleCommericalsHide" xml:space="preserve">
-    <value />
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleCommericalsInit" xml:space="preserve">
     <value>com</value>
@@ -3412,7 +3340,7 @@
     <value>                             Cottages</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleCottagesHide" xml:space="preserve">
-    <value />
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleCottagesInit" xml:space="preserve">
     <value>cot</value>
@@ -3430,7 +3358,7 @@
     <value>                 Medical </value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleMedicalFacilitiesHide" xml:space="preserve">
-    <value />
+    <value>12705,12707,12708,12712,12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleMedicalFacilitiesInit" xml:space="preserve">
     <value>med</value>
@@ -3462,29 +3390,29 @@
   <data name="PolSourceInfoEnumHumanPollutionMultipleOuthousesText" xml:space="preserve">
     <value>Outhouse</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionMultiplePublic" xml:space="preserve">
-    <value>                        Public</value>
+  <data name="PolSourceInfoEnumHumanPollutionMultiplePublicBuildings" xml:space="preserve">
+    <value>                        Public Building</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionMultiplePublicHide" xml:space="preserve">
-    <value />
+  <data name="PolSourceInfoEnumHumanPollutionMultiplePublicBuildingsHide" xml:space="preserve">
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionMultiplePublicInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionMultiplePublicBuildingsInit" xml:space="preserve">
     <value>pub</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionMultiplePublicPoints" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionMultiplePublicBuildingsPoints" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionMultiplePublicReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionMultiplePublicBuildingsReport" xml:space="preserve">
     <value>recreational buildings located</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionMultiplePublicText" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionMultiplePublicBuildingsText" xml:space="preserve">
     <value>Recreational, </value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleResidences" xml:space="preserve">
     <value>                                 Residential </value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleResidencesHide" xml:space="preserve">
-    <value />
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleResidencesInit" xml:space="preserve">
     <value>res</value>
@@ -3502,7 +3430,7 @@
     <value>                      Schools</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleSchoolsHide" xml:space="preserve">
-    <value />
+    <value>12705,12707,12708,12712,12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleSchoolsInit" xml:space="preserve">
     <value>sch</value>
@@ -3526,7 +3454,7 @@
     <value>                           Trailers</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleTrailersHide" xml:space="preserve">
-    <value />
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleTrailersInit" xml:space="preserve">
     <value>tra</value>
@@ -3544,7 +3472,7 @@
     <value>       Warehouses</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleWarehousesHide" xml:space="preserve">
-    <value />
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleWarehousesInit" xml:space="preserve">
     <value>war</value>
@@ -3558,11 +3486,29 @@
   <data name="PolSourceInfoEnumHumanPollutionMultipleWarehousesText" xml:space="preserve">
     <value>Warehouses, </value>
   </data>
+  <data name="PolSourceInfoEnumHumanPollutionSingleBarge" xml:space="preserve">
+    <value>Barge</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanPollutionSingleBargeHide" xml:space="preserve">
+    <value>12701,12702,12703,12704,12705,12708,12709,12710,12711</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanPollutionSingleBargeInit" xml:space="preserve">
+    <value>boa</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanPollutionSingleBargePoints" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanPollutionSingleBargeReport" xml:space="preserve">
+    <value>barge at</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanPollutionSingleBargeText" xml:space="preserve">
+    <value>Boats or Barges</value>
+  </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleBarn" xml:space="preserve">
     <value>             Barn</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleBarnHide" xml:space="preserve">
-    <value />
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleBarnInit" xml:space="preserve">
     <value>bar</value>
@@ -3576,29 +3522,29 @@
   <data name="PolSourceInfoEnumHumanPollutionSingleBarnText" xml:space="preserve">
     <value>Barn, </value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionSingleBoatOrBarge" xml:space="preserve">
-    <value>Boats or Barges</value>
+  <data name="PolSourceInfoEnumHumanPollutionSingleBoat" xml:space="preserve">
+    <value>Boat</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionSingleBoatOrBargeHide" xml:space="preserve">
-    <value />
+  <data name="PolSourceInfoEnumHumanPollutionSingleBoatHide" xml:space="preserve">
+    <value>12701,12702,12703,12704,12705,12708,12709,12710,12711</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionSingleBoatOrBargeInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionSingleBoatInit" xml:space="preserve">
     <value>boa</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionSingleBoatOrBargePoints" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionSingleBoatPoints" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionSingleBoatOrBargeReport" xml:space="preserve">
-    <value> </value>
+  <data name="PolSourceInfoEnumHumanPollutionSingleBoatReport" xml:space="preserve">
+    <value>boat at </value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionSingleBoatOrBargeText" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionSingleBoatText" xml:space="preserve">
     <value>Boats or Barges</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleChurch" xml:space="preserve">
     <value>                   Church</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleChurchHide" xml:space="preserve">
-    <value />
+    <value>12705,12707,12708,12712,12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleChurchInit" xml:space="preserve">
     <value>chu</value>
@@ -3616,7 +3562,7 @@
     <value>         Commercial</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleCommericalHide" xml:space="preserve">
-    <value />
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleCommericalInit" xml:space="preserve">
     <value>com</value>
@@ -3634,7 +3580,7 @@
     <value>                             Cottage</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleCottageHide" xml:space="preserve">
-    <value />
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleCottageInit" xml:space="preserve">
     <value>cot</value>
@@ -3652,7 +3598,7 @@
     <value>                 Medical </value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleMedicalFacilityHide" xml:space="preserve">
-    <value />
+    <value>12705,12707,12708,12712,12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleMedicalFacilityInit" xml:space="preserve">
     <value>med</value>
@@ -3684,29 +3630,29 @@
   <data name="PolSourceInfoEnumHumanPollutionSingleOuthouseText" xml:space="preserve">
     <value>outhouse</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionSinglePublic" xml:space="preserve">
-    <value>                        Public</value>
+  <data name="PolSourceInfoEnumHumanPollutionSinglePublicBuildings" xml:space="preserve">
+    <value>                        Public Buildings</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionSinglePublicHide" xml:space="preserve">
-    <value />
+  <data name="PolSourceInfoEnumHumanPollutionSinglePublicBuildingsHide" xml:space="preserve">
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionSinglePublicInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionSinglePublicBuildingsInit" xml:space="preserve">
     <value>pub</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionSinglePublicPoints" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionSinglePublicBuildingsPoints" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionSinglePublicReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionSinglePublicBuildingsReport" xml:space="preserve">
     <value>public building located </value>
   </data>
-  <data name="PolSourceInfoEnumHumanPollutionSinglePublicText" xml:space="preserve">
+  <data name="PolSourceInfoEnumHumanPollutionSinglePublicBuildingsText" xml:space="preserve">
     <value>Recreational, </value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleResidential" xml:space="preserve">
     <value>                                 Residential </value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleResidentialHide" xml:space="preserve">
-    <value />
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleResidentialInit" xml:space="preserve">
     <value>res</value>
@@ -3724,7 +3670,7 @@
     <value>                      School</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleSchoolHide" xml:space="preserve">
-    <value />
+    <value>12705,12707,12708,12712,12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleSchoolInit" xml:space="preserve">
     <value>sch</value>
@@ -3748,7 +3694,7 @@
     <value>                           Trailer </value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleTrailerHide" xml:space="preserve">
-    <value />
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleTrailerInit" xml:space="preserve">
     <value>tra</value>
@@ -3766,7 +3712,7 @@
     <value>       Warehouse</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleWarehouseHide" xml:space="preserve">
-    <value />
+    <value>12713,12714,12715,12716,12717,12718</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleWarehouseInit" xml:space="preserve">
     <value>war</value>
@@ -3779,6 +3725,186 @@
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleWarehouseText" xml:space="preserve">
     <value>Warehouse, </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween101And250" xml:space="preserve">
+    <value>         101- 250</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween101And250Hide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween101And250Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween101And250Points" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween101And250Report" xml:space="preserve">
+    <value>between 100 and 250 meters across.  </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween101And250Text" xml:space="preserve">
+    <value>101- 250</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween251And500" xml:space="preserve">
+    <value>       251 - 500</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween251And500Hide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween251And500Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween251And500Points" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween251And500Report" xml:space="preserve">
+    <value>between 250 and 500 meters across.  </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween251And500Text" xml:space="preserve">
+    <value> 251 - 500</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween501And1000" xml:space="preserve">
+    <value>    501 - 1000</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween501And1000Hide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween501And1000Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween501And1000Points" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween501And1000Report" xml:space="preserve">
+    <value>between 500 and 1000 meters across.  </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween501And1000Text" xml:space="preserve">
+    <value>  501 - 1000</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals10" xml:space="preserve">
+    <value>                           10</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals100" xml:space="preserve">
+    <value>            100</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals100Hide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals100Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals100Points" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals100Report" xml:space="preserve">
+    <value>100 meters across.  </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals100Text" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals10Hide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals10Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals10Points" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals10Report" xml:space="preserve">
+    <value>ten meters across.  </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals10Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals20" xml:space="preserve">
+    <value>                          20</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals20Hide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals20Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals20Points" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals20Report" xml:space="preserve">
+    <value>20 meters across.  </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals20Text" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals40" xml:space="preserve">
+    <value>                        40</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals40Hide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals40Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals40Points" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals40Report" xml:space="preserve">
+    <value>40 meters across.  </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals40Text" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals60" xml:space="preserve">
+    <value>                      60</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals60Hide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals60Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals60Points" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals60Report" xml:space="preserve">
+    <value>60 meters across.  </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals60Text" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals80" xml:space="preserve">
+    <value>                 80</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals80Hide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals80Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals80Points" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals80Report" xml:space="preserve">
+    <value>80 meters across.  </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals80Text" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersGreaterThan1000" xml:space="preserve">
+    <value>&gt; 1000</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersGreaterThan1000Hide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersGreaterThan1000Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersGreaterThan1000Points" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersGreaterThan1000Report" xml:space="preserve">
+    <value>greater than 1000 meters across.  </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialAreaSizeMetersGreaterThan1000Text" xml:space="preserve">
+    <value>&gt; 1000</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeStart" xml:space="preserve">
     <value>Linear Distance (m)</value>
@@ -3808,7 +3934,7 @@
     <value>Airport</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentAirportHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10507</value>
+    <value>10508</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentAirportInit" xml:space="preserve">
     <value>ap</value>
@@ -3826,7 +3952,7 @@
     <value>Anchorage </value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentAnchorageMooringSiteHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10507</value>
+    <value>10501,10502,10503,10504,10505,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentAnchorageMooringSiteInit" xml:space="preserve">
     <value>moo</value>
@@ -3862,7 +3988,7 @@
     <value>Disposal at Sea</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentDisposalAtSeaHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10507</value>
+    <value>10501,10502,10503,10504,10505,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentDisposalAtSeaInit" xml:space="preserve">
     <value>dis</value>
@@ -3898,7 +4024,7 @@
     <value>Forestry</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentForestryHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10507</value>
+    <value>10502,10503,10504,10505,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentForestryInit" xml:space="preserve">
     <value>for</value>
@@ -3916,7 +4042,7 @@
     <value>Industrial </value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentIndustrialHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10507</value>
+    <value>10502,10503,10504,10505,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentIndustrialInit" xml:space="preserve">
     <value>iwt</value>
@@ -3947,6 +4073,24 @@
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentLandfillText" xml:space="preserve">
     <value>Landfill, </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialEffluentMarina" xml:space="preserve">
+    <value>Marina</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialEffluentMarinaHide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumIndustrialEffluentMarinaInit" xml:space="preserve">
+    <value>mar</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialEffluentMarinaPoints" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialEffluentMarinaReport" xml:space="preserve">
+    <value>is a marina at which there </value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialEffluentMarinaText" xml:space="preserve">
+    <value>Marina, </value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentMarinePark" xml:space="preserve">
     <value>Marine Park</value>
@@ -4351,7 +4495,7 @@
     <value>Runoff</value>
   </data>
   <data name="PolSourceInfoEnumMarineSourcesOfContaminantStart" xml:space="preserve">
-    <value>Marine Pollutant Source</value>
+    <value>Marine Effluent Source</value>
   </data>
   <data name="PolSourceInfoEnumMarineSourcesOfContaminantStartDesc" xml:space="preserve">
     <value>Main marine pollutant sources.</value>
@@ -4369,7 +4513,7 @@
     <value>10</value>
   </data>
   <data name="PolSourceInfoEnumMarWhfCountNumberBetween11and25Report" xml:space="preserve">
-    <value>are between 11 and 25 </value>
+    <value>are between 11 and 25 wharves </value>
   </data>
   <data name="PolSourceInfoEnumMarWhfCountNumberBetween11and25Text" xml:space="preserve">
     <value>11 - 25</value>
@@ -4387,7 +4531,7 @@
     <value>10</value>
   </data>
   <data name="PolSourceInfoEnumMarWhfCountNumberBetween26and40Report" xml:space="preserve">
-    <value>are between 26 to 40 </value>
+    <value>are between 26 to 40 wharves </value>
   </data>
   <data name="PolSourceInfoEnumMarWhfCountNumberBetween26and40Text" xml:space="preserve">
     <value>26 - 40</value>
@@ -4585,7 +4729,7 @@
     <value>10</value>
   </data>
   <data name="PolSourceInfoEnumMarWhfCountNumberGreaterThan40Report" xml:space="preserve">
-    <value>are more than 40 </value>
+    <value>are more than 40 wharves </value>
   </data>
   <data name="PolSourceInfoEnumMarWhfCountNumberGreaterThan40Text" xml:space="preserve">
     <value>&gt; 40</value>
@@ -4840,7 +4984,7 @@
     <value>Not Applicable</value>
   </data>
   <data name="PolSourceInfoEnumOilDumpingFacilityNotApplicableHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10507</value>
+    <value>10501,10502,10503,10504,10505,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumOilDumpingFacilityNotApplicableInit" xml:space="preserve">
     <value>na</value>
@@ -5022,6 +5166,12 @@
   <data name="PolSourceInfoEnumPathwayRouteFirstStartDesc" xml:space="preserve">
     <value>Which route best describes the PathWay as it flows to the saltwater?</value>
   </data>
+  <data name="PolSourceInfoEnumPathwayRouteMarineStart" xml:space="preserve">
+    <value>Marine Pathway</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwayRouteMarineStartDesc" xml:space="preserve">
+    <value>The main Pathways for pollutants to reach the marine environment.</value>
+  </data>
   <data name="PolSourceInfoEnumPathwayRouteSecondCulvertStart" xml:space="preserve">
     <value>Additional Culvert Route</value>
   </data>
@@ -5029,7 +5179,7 @@
     <value>Is there a second route involved once flowing through a culvert?</value>
   </data>
   <data name="PolSourceInfoEnumPathwayRouteSecondPipeStart" xml:space="preserve">
-    <value>Additional Pipe Route</value>
+    <value>Pipe Flow Route</value>
   </data>
   <data name="PolSourceInfoEnumPathwayRouteSecondPipeStartDesc" xml:space="preserve">
     <value>Is there a second route involved once flowing through a pipe?</value>
@@ -5232,12 +5382,6 @@
   <data name="PolSourceInfoEnumPathwaySourceMarinePipeText" xml:space="preserve">
     <value>Pipe to Water,</value>
   </data>
-  <data name="PolSourceInfoEnumPathwaySourceMarineStart" xml:space="preserve">
-    <value>Marine Pathway</value>
-  </data>
-  <data name="PolSourceInfoEnumPathwaySourceMarineStartDesc" xml:space="preserve">
-    <value>The main Pathways for pollutants to reach the marine environment.</value>
-  </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondCulvertDirectFlow" xml:space="preserve">
     <value>Direct Flow</value>
   </data>
@@ -5251,7 +5395,7 @@
     <value>3</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondCulvertDirectFlowReport" xml:space="preserve">
-    <value>flows directly into the saltwater.  However the distance  </value>
+    <value>flows directly into saltwater.  </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondCulvertDirectFlowText" xml:space="preserve">
     <value>Directly to water, </value>
@@ -5305,7 +5449,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondCulvertSubSurfaceDrainageReport" xml:space="preserve">
-    <value>flows onto the ground and soaks into the soil travelling as sub-surface flow.  The outlet can be found   </value>
+    <value>flows onto the ground and becomes sub-surface flow.  The discharge can be found   </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondCulvertSubSurfaceDrainageText" xml:space="preserve">
     <value>Drainage, </value>
@@ -5323,7 +5467,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondCulvertSurfaceDrainageReport" xml:space="preserve">
-    <value>flows onto the ground and travels a surface runoff.  </value>
+    <value>flows as surface runoff.  </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondCulvertSurfaceDrainageText" xml:space="preserve">
     <value>Drainage, </value>
@@ -5341,7 +5485,7 @@
     <value>3</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeDirectflowReport" xml:space="preserve">
-    <value>flow directly into the saltwater.  However the distance  </value>
+    <value>discharge goes directly into saltwater.  </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeDirectflowText" xml:space="preserve">
     <value>Directly to water, </value>
@@ -5359,7 +5503,7 @@
     <value>2</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeDitchReport" xml:space="preserve">
-    <value>pipe contents flows into a ditch </value>
+    <value>pipe discharges into a ditch </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeDitchText" xml:space="preserve">
     <value>Ditch, </value>
@@ -5377,7 +5521,7 @@
     <value>2</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeStreamReport" xml:space="preserve">
-    <value>pipe contents flows into a water course with a width of </value>
+    <value>pipe discharges into a water course with a width of </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeStreamText" xml:space="preserve">
     <value>Water course, </value>
@@ -5395,7 +5539,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeSubSurfaceDrainageReport" xml:space="preserve">
-    <value>pipe contents soaks into the soil and travels as sub-surface flow.  The outlet can be identified </value>
+    <value>pipe discharges into the ground becoming sub-surface flow.  The sub-surface discharge can be identified </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeSubSurfaceDrainageText" xml:space="preserve">
     <value>Drainage, </value>
@@ -5413,7 +5557,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeSurfaceDrainageReport" xml:space="preserve">
-    <value>pipe contents flows over the surface.  </value>
+    <value>pipe discharges over the ground.  </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeSurfaceDrainageText" xml:space="preserve">
     <value>Drainage, </value>
@@ -5824,7 +5968,7 @@
     <value>Day use area</value>
   </data>
   <data name="PolSourceInfoEnumRecreationDayUseAreaHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumRecreationDayUseAreaInit" xml:space="preserve">
     <value>du</value>
@@ -5842,7 +5986,7 @@
     <value>Golf Course</value>
   </data>
   <data name="PolSourceInfoEnumRecreationGolfCourseHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumRecreationGolfCourseInit" xml:space="preserve">
     <value>gc</value>
@@ -5866,7 +6010,7 @@
     <value>Swimming area</value>
   </data>
   <data name="PolSourceInfoEnumRecreationSwimmingAreaHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumRecreationSwimmingAreaInit" xml:space="preserve">
     <value>sa</value>
@@ -5898,6 +6042,9 @@
   <data name="PolSourceInfoEnumRishHighConfirmedWaterText" xml:space="preserve">
     <value>High, Water Sample</value>
   </data>
+  <data name="PolSourceInfoEnumRiskHigh" xml:space="preserve">
+    <value>High Risk</value>
+  </data>
   <data name="PolSourceInfoEnumRiskHighConfirmedVisual" xml:space="preserve">
     <value>Visual or Odor</value>
   </data>
@@ -5916,22 +6063,19 @@
   <data name="PolSourceInfoEnumRiskHighConfirmedVisualText" xml:space="preserve">
     <value>High, Visual Observation</value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighP" xml:space="preserve">
-    <value>High Risk</value>
-  </data>
-  <data name="PolSourceInfoEnumRiskHighPHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskHighHide" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumRiskHighPInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskHighInit" xml:space="preserve">
     <value>H</value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighPPoints" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskHighPoints" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighPReport" xml:space="preserve">
-    <value>Based on the above pathway assessment the risk to impact is 'High' and this was </value>
+  <data name="PolSourceInfoEnumRiskHighReport" xml:space="preserve">
+    <value>Based on the above Source-Pathway assessment there is a 'High Risk' for contamination to directly contaminant shellfish growing areas.  </value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighPText" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskHighText" xml:space="preserve">
     <value>High, </value>
   </data>
   <data name="PolSourceInfoEnumRiskLow" xml:space="preserve">
@@ -5947,7 +6091,7 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumRiskLowReport" xml:space="preserve">
-    <value>Based on the above pathway assessment the risk is 'low' to impact shellfish growing areas.  </value>
+    <value>Based on the above Source-Pathway assessment there is a 'Low Risk' for contamination of shellfish growing areas.  </value>
   </data>
   <data name="PolSourceInfoEnumRiskLowText" xml:space="preserve">
     <value>Low, </value>
@@ -5965,13 +6109,13 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumRiskModerateReport" xml:space="preserve">
-    <value>Based on the above pathway assessment the risk to impact is 'moderate'.  </value>
+    <value>Based on the above Source-Pathway assessment there is a 'Moderate Risk' for contamination of shellfish growing areas.  </value>
   </data>
   <data name="PolSourceInfoEnumRiskModerateText" xml:space="preserve">
     <value>Moderate, </value>
   </data>
   <data name="PolSourceInfoEnumRiskStart" xml:space="preserve">
-    <value>Risk To Pollute</value>
+    <value>Risk To Contaminate </value>
   </data>
   <data name="PolSourceInfoEnumRiskStartDesc" xml:space="preserve">
     <value>Risk level indicates the probability that this Source will pollute shellfish growing waters. </value>
@@ -5993,66 +6137,6 @@
   </data>
   <data name="PolSourceInfoEnumSepticNoInformationText" xml:space="preserve">
     <value>No Information</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationAbsent" xml:space="preserve">
-    <value>Absent</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationAbsentHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10507</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationAbsentInit" xml:space="preserve">
-    <value>a</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationAbsentPoints" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationAbsentReport" xml:space="preserve">
-    <value>there is not a wastewater pumping station.   </value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationAbsentText" xml:space="preserve">
-    <value>Absent, </value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationNotObserved" xml:space="preserve">
-    <value>Not Observed</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationNotObservedHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10507</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationNotObservedInit" xml:space="preserve">
-    <value>no</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationNotObservedPoints" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationNotObservedReport" xml:space="preserve">
-    <value>wastewater pumping station was not observed.  </value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationNotObservedText" xml:space="preserve">
-    <value>Not observed</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationPresent" xml:space="preserve">
-    <value>Present</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationPresentHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10507</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationPresentInit" xml:space="preserve">
-    <value>p</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationPresentPoints" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationPresentReport" xml:space="preserve">
-    <value>wastewater pumping station is present.  </value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationPresentText" xml:space="preserve">
-    <value>Present, </value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationStart" xml:space="preserve">
-    <value>Sewage Disposal Station</value>
-  </data>
-  <data name="PolSourceInfoEnumSewageDumpingStationStartDesc" xml:space="preserve">
-    <value>Is there a wasterwater disposal station for vessels?  This would be located at the edge of a wharf or landing.</value>
   </data>
   <data name="PolSourceInfoEnumSewageOffSiteSystem" xml:space="preserve">
     <value>    Offsite</value>
@@ -6163,13 +6247,13 @@
     <value>                  Septic-Leachate </value>
   </data>
   <data name="PolSourceInfoEnumSewageStart" xml:space="preserve">
-    <value>Pollutant Management</value>
+    <value>Source Management</value>
   </data>
   <data name="PolSourceInfoEnumSewageStartDesc" xml:space="preserve">
     <value>Identify the type of management used to treat the pollutant.  </value>
   </data>
   <data name="PolSourceInfoEnumSewageStorage" xml:space="preserve">
-    <value>Storage</value>
+    <value>Storage Tank</value>
   </data>
   <data name="PolSourceInfoEnumSewageStorageHide" xml:space="preserve">
     <value />
@@ -6235,7 +6319,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentReport" xml:space="preserve">
-    <value>there is no riparian zone along the water-edge.  The distance between the point of entry and </value>
+    <value>There is not a riparian zone along the water-edge so the flow rate and the sediment and pathogens being carried are not reduced.  The distance to reach </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfo" xml:space="preserve">
     <value>No Information</value>
@@ -6250,7 +6334,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoReport" xml:space="preserve">
-    <value>the status of a riparian zone along the water-edge is not known.  The distance between the point of entry and </value>
+    <value>The status of a riparian zone along the water-edge is not known.  The distance to reach </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresent" xml:space="preserve">
     <value>          Present</value>
@@ -6265,7 +6349,7 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentReport" xml:space="preserve">
-    <value>passes through a riparian zone along the water-edge.  The distance between the point of entry and </value>
+    <value>There is a riparian zone along the water-edge will will slow flow rates and capture sediment and pathogens.  The distance to reach </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparionZoneStart" xml:space="preserve">
     <value>Riparian Zone</value>
@@ -6277,7 +6361,7 @@
     <value>Seawall</value>
   </data>
   <data name="PolSourceInfoEnumShorelineSourceSeaWallHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507</value>
+    <value>10502,10503,10504,10505,10506,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumShorelineSourceSeaWallInit" xml:space="preserve">
     <value>sew</value>
@@ -6376,7 +6460,7 @@
     <value>What is the compostion of the slipway surface?</value>
   </data>
   <data name="PolSourceInfoEnumSourceAnimal" xml:space="preserve">
-    <value>     Animal </value>
+    <value>     Animal Waste</value>
   </data>
   <data name="PolSourceInfoEnumSourceAnimalHide" xml:space="preserve">
     <value />
@@ -6390,8 +6474,23 @@
   <data name="PolSourceInfoEnumSourceAnimalReport" xml:space="preserve">
     <value>Source:  At this site </value>
   </data>
+  <data name="PolSourceInfoEnumSourceEffluent" xml:space="preserve">
+    <value>Industrial Effluent</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceEffluentHide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumSourceEffluentInit" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceEffluentPoints" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PolSourceInfoEnumSourceEffluentReport" xml:space="preserve">
+    <value>Source:  This Source </value>
+  </data>
   <data name="PolSourceInfoEnumSourceHuman" xml:space="preserve">
-    <value>           Human</value>
+    <value>           Human Waste</value>
   </data>
   <data name="PolSourceInfoEnumSourceHumanHide" xml:space="preserve">
     <value />
@@ -6404,21 +6503,6 @@
   </data>
   <data name="PolSourceInfoEnumSourceHumanReport" xml:space="preserve">
     <value>Source:  At this site </value>
-  </data>
-  <data name="PolSourceInfoEnumSourceIndustrial" xml:space="preserve">
-    <value>Industrial </value>
-  </data>
-  <data name="PolSourceInfoEnumSourceIndustrialHide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumSourceIndustrialInit" xml:space="preserve">
-    <value>I</value>
-  </data>
-  <data name="PolSourceInfoEnumSourceIndustrialPoints" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="PolSourceInfoEnumSourceIndustrialReport" xml:space="preserve">
-    <value>Source:  This Source</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantEffluent" xml:space="preserve">
     <value>            Effluent </value>
@@ -6433,7 +6517,7 @@
     <value>2</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantEffluentReport" xml:space="preserve">
-    <value>Effluent that does not contain septic water flow </value>
+    <value>Effluent that does not contain septic water flows </value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantEffluentText" xml:space="preserve">
     <value>Non-Septic</value>
@@ -6455,6 +6539,42 @@
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantExcrementText" xml:space="preserve">
     <value>Animal Droppings</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantLandWashrooms" xml:space="preserve">
+    <value>                            Land Wastewater</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantLandWashroomsHide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantLandWashroomsInit" xml:space="preserve">
+    <value>wr</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantLandWashroomsPoints" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantLandWashroomsReport" xml:space="preserve">
+    <value>Wastewater from washrooms flow </value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantLandWashroomsText" xml:space="preserve">
+    <value>Washrooms</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantMarineWashrooms" xml:space="preserve">
+    <value>                            Marine Wastewater</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantMarineWashroomsHide" xml:space="preserve">
+    <value>11902,11903,11905,11906,11907,11908,11909,11910</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantMarineWashroomsInit" xml:space="preserve">
+    <value>wr</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantMarineWashroomsPoints" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantMarineWashroomsReport" xml:space="preserve">
+    <value>Wastewater from washrooms flow </value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantMarineWashroomsText" xml:space="preserve">
+    <value>Washrooms</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantProcessingWater" xml:space="preserve">
     <value>Fish Processing Water</value>
@@ -6511,10 +6631,10 @@
     <value>Runoff</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantStart" xml:space="preserve">
-    <value>Pollutant Source</value>
+    <value>Source Description</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantStartDesc" xml:space="preserve">
-    <value>Select the source of pollution that you have observed.  </value>
+    <value>Select the source description that best characterizes the effluent.  </value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantTankWater" xml:space="preserve">
     <value>Fish Tank Water</value>
@@ -6534,26 +6654,8 @@
   <data name="PolSourceInfoEnumSourcesOfContaminantTankWaterText" xml:space="preserve">
     <value>Processing Water</value>
   </data>
-  <data name="PolSourceInfoEnumSourcesOfContaminantWashrooms" xml:space="preserve">
-    <value>                             Washrooms</value>
-  </data>
-  <data name="PolSourceInfoEnumSourcesOfContaminantWashroomsHide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumSourcesOfContaminantWashroomsInit" xml:space="preserve">
-    <value>wr</value>
-  </data>
-  <data name="PolSourceInfoEnumSourcesOfContaminantWashroomsPoints" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="PolSourceInfoEnumSourcesOfContaminantWashroomsReport" xml:space="preserve">
-    <value>Wastewater from washrooms flow </value>
-  </data>
-  <data name="PolSourceInfoEnumSourcesOfContaminantWashroomsText" xml:space="preserve">
-    <value>Washrooms</value>
-  </data>
   <data name="PolSourceInfoEnumSourceStart" xml:space="preserve">
-    <value>Pollution Source</value>
+    <value>Effluent Source</value>
   </data>
   <data name="PolSourceInfoEnumSourceStartDesc" xml:space="preserve">
     <value>Select the Source of the contaminant. Fecal coliform comes from humans or animals.  The industrial selection allows you to describe non-sewage issues.</value>
@@ -6571,7 +6673,7 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumStatusDefiniteReport" xml:space="preserve">
-    <value>The Source status is 'Definite'.  </value>
+    <value>This Source is a siginificant contaminant contributor and has a Status level of  'Definite'.  </value>
   </data>
   <data name="PolSourceInfoEnumStatusDefiniteText" xml:space="preserve">
     <value>Definite, </value>
@@ -6589,7 +6691,7 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumStatusNonPollutionSourceReport" xml:space="preserve">
-    <value>The Source status is 'Non-Polluting'.  </value>
+    <value>This Source is a insignificant contaminant contributor and has a Status level of  'Non-Polluting''.  </value>
   </data>
   <data name="PolSourceInfoEnumStatusNonPollutionSourceText" xml:space="preserve">
     <value>Non pollution</value>
@@ -6607,13 +6709,13 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumStatusPotentialReport" xml:space="preserve">
-    <value>The Source status 'Potential'.  </value>
+    <value>This Source could provide an indirect contaminant contribution and has a Status level of  'Potential'.  </value>
   </data>
   <data name="PolSourceInfoEnumStatusPotentialText" xml:space="preserve">
     <value>Potential, </value>
   </data>
   <data name="PolSourceInfoEnumStatusStart" xml:space="preserve">
-    <value>Impact Status </value>
+    <value>Source Status </value>
   </data>
   <data name="PolSourceInfoEnumStatusStartDesc" xml:space="preserve">
     <value>Status of Source as a pollutant.  Is this source active and how likely is it to impact shellfish growing areas.</value>
@@ -6622,7 +6724,7 @@
     <value> 2000 </value>
   </data>
   <data name="PolSourceInfoEnumTankSize2000Hide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10507</value>
+    <value>10501,10502,10503,10504,10505,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumTankSize2000Init" xml:space="preserve">
     <value>b</value>
@@ -6643,7 +6745,7 @@
     <value>4000</value>
   </data>
   <data name="PolSourceInfoEnumTankSize4000Hide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10507</value>
+    <value>10501,10502,10503,10504,10505,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumTankSize4000Init" xml:space="preserve">
     <value>c</value>
@@ -6658,7 +6760,7 @@
     <value> 4000 litres</value>
   </data>
   <data name="PolSourceInfoEnumTankSize400Hide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10507</value>
+    <value>10501,10502,10503,10504,10505,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumTankSize400Init" xml:space="preserve">
     <value>a</value>
@@ -6676,7 +6778,7 @@
     <value>8000</value>
   </data>
   <data name="PolSourceInfoEnumTankSize8000Hide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10507</value>
+    <value>10501,10502,10503,10504,10505,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumTankSize8000Init" xml:space="preserve">
     <value>d</value>
@@ -7092,24 +7194,6 @@
   <data name="PolSourceInfoEnumTypesOfWildlifeUngulateText" xml:space="preserve">
     <value>Ungulate,</value>
   </data>
-  <data name="PolSourceInfoEnumUrbanDumpStation" xml:space="preserve">
-    <value>Dump Station</value>
-  </data>
-  <data name="PolSourceInfoEnumUrbanDumpStationHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10507</value>
-  </data>
-  <data name="PolSourceInfoEnumUrbanDumpStationInit" xml:space="preserve">
-    <value>ds</value>
-  </data>
-  <data name="PolSourceInfoEnumUrbanDumpStationPoints" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="PolSourceInfoEnumUrbanDumpStationReport" xml:space="preserve">
-    <value>wastewater dumping-station for recreational vehicles.    </value>
-  </data>
-  <data name="PolSourceInfoEnumUrbanDumpStationText" xml:space="preserve">
-    <value>Dump Station</value>
-  </data>
   <data name="PolSourceInfoEnumUrbanStart" xml:space="preserve">
     <value>Structures</value>
   </data>
@@ -7120,7 +7204,7 @@
     <value>Storm water</value>
   </data>
   <data name="PolSourceInfoEnumUrbanStormWaterHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10507</value>
+    <value>10502,10503,10504,10505,10507,10508</value>
   </data>
   <data name="PolSourceInfoEnumUrbanStormWaterInit" xml:space="preserve">
     <value>sw</value>
@@ -7133,6 +7217,24 @@
   </data>
   <data name="PolSourceInfoEnumUrbanStormWaterText" xml:space="preserve">
     <value>Storm water, </value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanWastewaterDumpStation" xml:space="preserve">
+    <value>Wastewater Dump Station</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanWastewaterDumpStationHide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanWastewaterDumpStationInit" xml:space="preserve">
+    <value>ds</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanWastewaterDumpStationPoints" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanWastewaterDumpStationReport" xml:space="preserve">
+    <value>wastewater dumping-station for recreational vehicles.    </value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanWastewaterDumpStationText" xml:space="preserve">
+    <value>Dump Station</value>
   </data>
   <data name="PolSourceInfoEnumVesselCountBetwee11and25" xml:space="preserve">
     <value>         11-25</value>
@@ -7391,6 +7493,66 @@
   </data>
   <data name="PolSourceInfoEnumVesselCountStartDesc" xml:space="preserve">
     <value>Number of vessels present or that could be at this wharf at any time?</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationAbsent" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationAbsentHide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationAbsentInit" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationAbsentPoints" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationAbsentReport" xml:space="preserve">
+    <value>there is not a wastewater pumping station.   </value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationAbsentText" xml:space="preserve">
+    <value>Absent, </value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationNotObserved" xml:space="preserve">
+    <value>Not Observed</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationNotObservedHide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationNotObservedInit" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationNotObservedPoints" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationNotObservedReport" xml:space="preserve">
+    <value>wastewater pumping station was not observed.  </value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationNotObservedText" xml:space="preserve">
+    <value>Not observed</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationPresent" xml:space="preserve">
+    <value>Present</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationPresentHide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10507,10508</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationPresentInit" xml:space="preserve">
+    <value>p</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationPresentPoints" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationPresentReport" xml:space="preserve">
+    <value>wastewater pumping station is present.  </value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationPresentText" xml:space="preserve">
+    <value>Present, </value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationStart" xml:space="preserve">
+    <value>Wastewater Disposal Station</value>
+  </data>
+  <data name="PolSourceInfoEnumWastewaterDumpingStationStartDesc" xml:space="preserve">
+    <value>Is there a wasterwater disposal station for vessels?  This would be located at the edge of a wharf or landing.</value>
   </data>
   <data name="PolSourceInfoEnumWatAquaCountNumberBetween11and25" xml:space="preserve">
     <value>   11 - 25</value>
@@ -8038,7 +8200,7 @@
     <value>Abandoned</value>
   </data>
   <data name="PolSourceInfoEnumWharfAbandonedHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506</value>
+    <value>10502,10503,10504,10505,10506,10508</value>
   </data>
   <data name="PolSourceInfoEnumWharfAbandonedInit" xml:space="preserve">
     <value>abd</value>
@@ -8087,24 +8249,6 @@
   </data>
   <data name="PolSourceInfoEnumWharfFishingText" xml:space="preserve">
     <value>Fishing, </value>
-  </data>
-  <data name="PolSourceInfoEnumWharfMarina" xml:space="preserve">
-    <value>Marina</value>
-  </data>
-  <data name="PolSourceInfoEnumWharfMarinaHide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumWharfMarinaInit" xml:space="preserve">
-    <value>mar</value>
-  </data>
-  <data name="PolSourceInfoEnumWharfMarinaPoints" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="PolSourceInfoEnumWharfMarinaReport" xml:space="preserve">
-    <value>used as a marina.  At this site there </value>
-  </data>
-  <data name="PolSourceInfoEnumWharfMarinaText" xml:space="preserve">
-    <value>Marina, </value>
   </data>
   <data name="PolSourceInfoEnumWharfPrivate" xml:space="preserve">
     <value>Private</value>
@@ -8281,7 +8425,7 @@
     <value>Main type of vessels using this wharf? Ships and ferrys are generally at larger dedicated wharf.</value>
   </data>
   <data name="PolSourceInfoEnumWharfTransportationStart" xml:space="preserve">
-    <value>VesselTypes</value>
+    <value>Vessel Types</value>
   </data>
   <data name="PolSourceInfoEnumWharfTransportationStartDesc" xml:space="preserve">
     <value>Main type of vessels using this wharf? Ships and ferrys are generally at larger dedicated wharf.</value>
