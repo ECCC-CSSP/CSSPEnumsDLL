@@ -67,10 +67,16 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumCountNumberStartDesc, retStrDesc);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationStart:
+                        case PolSourceObsInfoEnum.GeneralHumanLocationStart:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationStart, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationStartDesc, retStrDesc);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationStartDesc, retStrDesc);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.IndustrialAreaSizeStart:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialAreaSizeStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialAreaSizeStartDesc, retStrDesc);
                         }
                         break;
                         case PolSourceObsInfoEnum.OuthouseStart:
@@ -85,16 +91,22 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentStartDesc, retStrDesc);
                         }
                         break;
-                        case PolSourceObsInfoEnum.AreaSizeStart:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeStart, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeStartDesc, retStrDesc);
-                        }
-                        break;
                         case PolSourceObsInfoEnum.AgriculturalSourceStart:
                         {
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAgriculturalSourceStart, retStr);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAgriculturalSourceStartDesc, retStrDesc);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.MajorIssueSourceStart:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceStartDesc, retStrDesc);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.FieldLocationStart:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationStartDesc, retStrDesc);
                         }
                         break;
                         case PolSourceObsInfoEnum.PastureStart:
@@ -283,22 +295,22 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeStartDesc, retStrDesc);
                         }
                         break;
+                        case PolSourceObsInfoEnum.MarineLocationStart:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationStartDesc, retStrDesc);
+                        }
+                        break;
                         case PolSourceObsInfoEnum.WaterTypesOfMarineLifeStart:
                         {
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterTypesOfMarineLifeStart, retStr);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterTypesOfMarineLifeStartDesc, retStrDesc);
                         }
                         break;
-                        case PolSourceObsInfoEnum.MajorIssueSourceStart:
+                        case PolSourceObsInfoEnum.MarineSourcesOfContaminantStart:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceStart, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceStartDesc, retStrDesc);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.FieldLocationStart:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationStart, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationStartDesc, retStrDesc);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantStartDesc, retStrDesc);
                         }
                         break;
                         case PolSourceObsInfoEnum.SourcesOfContaminantStart:
@@ -325,22 +337,22 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathWayStartDesc, retStrDesc);
                         }
                         break;
-                        case PolSourceObsInfoEnum.PathwaySourceFirstStart:
+                        case PolSourceObsInfoEnum.PathwayRouteFirstStart:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstStart, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstStartDesc, retStrDesc);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwayRouteFirstStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwayRouteFirstStartDesc, retStrDesc);
                         }
                         break;
-                        case PolSourceObsInfoEnum.PathwaySourceSecondPipeStart:
+                        case PolSourceObsInfoEnum.PathwayRouteSecondPipeStart:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondPipeStart, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondPipeStartDesc, retStrDesc);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwayRouteSecondPipeStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwayRouteSecondPipeStartDesc, retStrDesc);
                         }
                         break;
-                        case PolSourceObsInfoEnum.PathwaySourceSecondCulvertStart:
+                        case PolSourceObsInfoEnum.PathwayRouteSecondCulvertStart:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondCulvertStart, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondCulvertStartDesc, retStrDesc);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwayRouteSecondCulvertStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwayRouteSecondCulvertStartDesc, retStrDesc);
                         }
                         break;
                         case PolSourceObsInfoEnum.WidthInMetersStart:
@@ -415,22 +427,28 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPipeFlowStartDesc, retStrDesc);
                         }
                         break;
-                        case PolSourceObsInfoEnum.PathwaySourceWaterStart:
+                        case PolSourceObsInfoEnum.PathwaySourceMarineStart:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceWaterStart, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceWaterStartDesc, retStrDesc);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceMarineStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceMarineStartDesc, retStrDesc);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersStart:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersStart:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersStart, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersStartDesc, retStrDesc);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersStartDesc, retStrDesc);
                         }
                         break;
                         case PolSourceObsInfoEnum.RiskStart:
                         {
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskStart, retStr);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskStartDesc, retStrDesc);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.ConfirmationOfHighStart:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumConfirmationOfHighStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumConfirmationOfHighStartDesc, retStrDesc);
                         }
                         break;
                         case PolSourceObsInfoEnum.FollowupStart:
@@ -716,123 +734,165 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumCountNumberGreaterThan40Text, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationRural:
+                        case PolSourceObsInfoEnum.GeneralHumanLocationRural:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationRural, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationRuralReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationRuralText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationRural, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationRuralReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationRuralText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationUrban:
+                        case PolSourceObsInfoEnum.GeneralHumanLocationUrban:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationUrban, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationUrbanReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationUrbanText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationUrban, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationUrbanReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationUrbanText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationForested:
+                        case PolSourceObsInfoEnum.GeneralHumanLocationForested:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationForested, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationForestedReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationForestedText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationForested, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationForestedReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationForestedText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationAgricultural:
+                        case PolSourceObsInfoEnum.GeneralHumanLocationAgricultural:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationAgricultural, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationAgriculturalReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationAgriculturalText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationAgricultural, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationAgriculturalReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationAgriculturalText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationFarm:
+                        case PolSourceObsInfoEnum.GeneraHumanLocationFarm:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationFarm, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationFarmReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationFarmText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneraHumanLocationFarm, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneraHumanLocationFarmReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneraHumanLocationFarmText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationShoreline:
+                        case PolSourceObsInfoEnum.GeneralHumanLocationShoreline:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationShoreline, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationShorelineReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationShorelineText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationShoreline, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationShorelineReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationShorelineText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationWharf:
+                        case PolSourceObsInfoEnum.GeneralHumanLocationWharf:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationWharf, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationWharfReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationWharfText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationWharf, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationWharfReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationWharfText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationBarge:
+                        case PolSourceObsInfoEnum.GeneralHumanLocationBarge:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationBarge, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationBargeReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationBargeText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationBarge, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationBargeReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationBargeText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationIsland:
+                        case PolSourceObsInfoEnum.GeneralHumanLocationIsland:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationIsland, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationIslandReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationIslandText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationIsland, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationIslandReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationIslandText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationRecreationalArea:
+                        case PolSourceObsInfoEnum.GeneralHumanLocationRecreationalArea:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationRecreationalArea, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationRecreationalAreaReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationRecreationalAreaText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationRecreationalArea, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationRecreationalAreaReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationRecreationalAreaText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationCottageLot:
+                        case PolSourceObsInfoEnum.GeneralHumanLocationCottageLot:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationCottageLot, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationCottageLotReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationCottageLotText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationCottageLot, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationCottageLotReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationCottageLotText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationWetland:
+                        case PolSourceObsInfoEnum.GeneralHumanLocationWetland:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationWetland, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationWetlandReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationWetlandText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationWetland, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationWetlandReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationWetlandText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationWaterCourse:
+                        case PolSourceObsInfoEnum.GeneralHumanLocationWaterCourse:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationWaterCourse, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationWaterCourseReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationWaterCourseText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationWaterCourse, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationWaterCourseReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralHumanLocationWaterCourseText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationSandBar:
+                        case PolSourceObsInfoEnum.AreaSizeMetersEquals10:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationSandBar, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationSandBarReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationSandBarText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals10, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals10Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals10Text, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationRock:
+                        case PolSourceObsInfoEnum.AreaSizeMetersEquals20:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationRock, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationRockReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationRockText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals20, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals20Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals20Text, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationAquacultureSite:
+                        case PolSourceObsInfoEnum.AreaSizeMetersEquals40:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationAquacultureSite, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationAquacultureSiteReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationAquacultureSiteText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals40, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals40Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals40Text, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.GeneralLocationOffShoreline:
+                        case PolSourceObsInfoEnum.AreaSizeMetersEquals60:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationOffShoreline, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationOffShorelineReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumGeneralLocationOffShorelineText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals60, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals60Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals60Text, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.AreaSizeMetersEquals80:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals80, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals80Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals80Text, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.AreaSizeMetersEquals100:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals100, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals100Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals100Text, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.AreaSizeMetersBetween101And250:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween101And250, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween101And250Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween101And250Text, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.AreaSizeMetersBetween251And500:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween251And500, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween251And500Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween251And500Text, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.AreaSizeMetersBetween501And1000:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween501And1000, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween501And1000Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween501And1000Text, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.AreaSizeMetersGreaterThan1000:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersGreaterThan1000, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersGreaterThan1000Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersGreaterThan1000Text, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.OuthouseConcreteTank:
@@ -947,76 +1007,6 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentMarineParkText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.AreaSizeMetersEquals10:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals10, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals10Report, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals10Text, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.AreaSizeMetersEquals20:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals20, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals20Report, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals20Text, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.AreaSizeMetersEquals40:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals40, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals40Report, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals40Text, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.AreaSizeMetersEquals60:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals60, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals60Report, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals60Text, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.AreaSizeMetersEquals80:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals80, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals80Report, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals80Text, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.AreaSizeMetersEquals100:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals100, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals100Report, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersEquals100Text, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.AreaSizeMetersBetween101And250:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween101And250, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween101And250Report, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween101And250Text, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.AreaSizeMetersBetween251And500:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween251And500, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween251And500Report, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween251And500Text, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.AreaSizeMetersBetween501And1000:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween501And1000, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween501And1000Report, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersBetween501And1000Text, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.AreaSizeMetersGreaterThan1000:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersGreaterThan1000, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersGreaterThan1000Report, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAreaSizeMetersGreaterThan1000Text, retStrText);
-                        }
-                        break;
                         case PolSourceObsInfoEnum.AgriculturalSourceCrop:
                         {
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAgriculturalSourceCrop, retStr);
@@ -1045,18 +1035,53 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAriculturalSourcePeatMossText, retStrText);
                         }
                         break;
+                        case PolSourceObsInfoEnum.PastureActiveWithManure:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPastureActiveWithManure, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPastureActiveWithManureReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPastureActiveWithManureText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.MajorIssueSourceManurePile:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceManurePile, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceManurePileReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceManurePileText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.MajorIssueSourceLiqSpread:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceLiqSpread, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceLiqSpreadReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceLiqSpreadText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.FieldLocationOnFarm:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationOnFarm, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationOnFarmReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationOnFarmText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.FieldLocationOffFarm:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationOffFarm, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationOffFarmReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationOffFarmText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.FieldLocationBoth:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationBoth, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationBothReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationBothText, retStrText);
+                        }
+                        break;
                         case PolSourceObsInfoEnum.PastureActive:
                         {
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPastureActive, retStr);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPastureActiveReport, retStrReport);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPastureActiveText, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.PastureActiveWithManurePIle:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPastureActiveWithManurePIle, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPastureActiveWithManurePIleReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPastureActiveWithManurePIleText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.PastureFallow:
@@ -2340,6 +2365,69 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeBargesText, retStrText);
                         }
                         break;
+                        case PolSourceObsInfoEnum.MarineLocationShoreline:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationShoreline, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationShorelineReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationShorelineText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.MarineLocationWharf:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationWharf, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationWharfReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationWharfText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.MarineLocationBarge:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationBarge, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationBargeReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationBargeText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.MarineLocationIsland:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationIsland, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationIslandReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationIslandText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.MarineLocationWetland:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationWetland, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationWetlandReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationWetlandText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.MarineLocationSandBar:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationSandBar, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationSandBarReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationSandBarText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.MarineLocationRockOutcrop:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationRockOutcrop, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationRockOutcropReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationRockOutcropText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.MarineLocationAquacultureSite:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationAquacultureSite, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationAquacultureSiteReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationAquacultureSiteText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.MarineLocationOffShoreline:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationOffShoreline, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationOffShorelineReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineLocationOffShorelineText, retStrText);
+                        }
+                        break;
                         case PolSourceObsInfoEnum.WaterTypesOfMarineLifeShorelineBirds:
                         {
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterTypesOfMarineLifeShorelineBirds, retStr);
@@ -2403,39 +2491,18 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterTypesOfMarineLifeSeaOtterText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.MajorIssueSourceManurePile:
+                        case PolSourceObsInfoEnum.MarineSourcesOfContaminantRunoff:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceManurePile, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceManurePileReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceManurePileText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantRunoff, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantRunoffReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantRunoffText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.MajorIssueSourceLiqSpread:
+                        case PolSourceObsInfoEnum.MarineSourcesOfContaminantExcrement:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceLiqSpread, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceLiqSpreadReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMajorIssueSourceLiqSpreadText, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.FieldLocationOnFarm:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationOnFarm, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationOnFarmReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationOnFarmText, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.FieldLocationOffFarm:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationOffFarm, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationOffFarmReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationOffFarmText, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.FieldLocationBoth:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationBoth, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationBothReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationBothText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantExcrement, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantExcrementReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantExcrementText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.SourcesOfContaminantRunoff:
@@ -2578,11 +2645,11 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwayLandText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.PathWayWater:
+                        case PolSourceObsInfoEnum.PathWayMarine:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathWayWater, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathWayWaterReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathWayWaterText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathWayMarine, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathWayMarineReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathWayMarineText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.PathwaySourceFirstCulvert:
@@ -3215,121 +3282,121 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPipeFlowLowText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.PathwaySourceWaterDirectToMarine:
+                        case PolSourceObsInfoEnum.PathwaySourceMarineDirect:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceWaterDirectToMarine, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceWaterDirectToMarineReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceWaterDirectToMarineText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceMarineDirect, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceMarineDirectReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceMarineDirectText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.PathwaySourceWaterPipe:
+                        case PolSourceObsInfoEnum.PathwaySourceMarinePipe:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceWaterPipe, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceWaterPipeReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceWaterPipeText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceMarinePipe, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceMarinePipeReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceMarinePipeText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.PathwaySourceWaterLandDisposal:
+                        case PolSourceObsInfoEnum.PathwaySourceMarineLandDisposal:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceWaterLandDisposal, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceWaterLandDisposalReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceWaterLandDisposalText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceMarineLandDisposal, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceMarineLandDisposalReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceMarineLandDisposalText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual5:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual5:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual5, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual5Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual5, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual5Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual10:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual10:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual10, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual10Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual10, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual10Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual20:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual20:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual20, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual20Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual20, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual20Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual30:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual30:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual30, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual30Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual30, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual30Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual40:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual40:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual40, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual40Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual40, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual40Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual50:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual50:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual50, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual50Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual50, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual50Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual75:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual75:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual75, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual75Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual75, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual75Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual100:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual100:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual100, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual100Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual100, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual100Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual150:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual150:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual150, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual150Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual150, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual150Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual200:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual200:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual200, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual200Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual200, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual200Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual300:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual300:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual300, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual300Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual300, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual300Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual400:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual400:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual400, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual400Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual400, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual400Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual600:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual600:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual600, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual600Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual600, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual600Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual800:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual800:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual800, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual800Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual800, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual800Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersEqual1000:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersEqual1000:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual1000, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersEqual1000Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual1000, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersEqual1000Report, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DistanceOnWaterMetersGreaterThan1000:
+                        case PolSourceObsInfoEnum.DistanceOnMarineWaterMetersGreaterThan1000:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersGreaterThan1000, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnWaterMetersGreaterThan1000Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersGreaterThan1000, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDistanceOnMarineWaterMetersGreaterThan1000Report, retStrReport);
                         }
                         break;
                         case PolSourceObsInfoEnum.RiskLow:
