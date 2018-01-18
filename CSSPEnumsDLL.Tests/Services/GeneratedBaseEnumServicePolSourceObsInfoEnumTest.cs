@@ -475,10 +475,16 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourceAnimalReport, retStrReport);
                         }
                         break;
-                        case PolSourceObsInfoEnum.SourceEffluent:
+                        case PolSourceObsInfoEnum.SourceEffluentLand:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourceEffluent, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourceEffluentReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourceEffluentLand, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourceEffluentLandReport, retStrReport);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.SourceEffluentWater:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourceEffluentWater, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourceEffluentWaterReport, retStrReport);
                         }
                         break;
                         case PolSourceObsInfoEnum.HumanPollutionSingleResidential:
@@ -824,11 +830,11 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumHumanLocationRecreationalAreaText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.HumanLocationCottageLot:
+                        case PolSourceObsInfoEnum.HumanLocationSeasonalCottageLot:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumHumanLocationCottageLot, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumHumanLocationCottageLotReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumHumanLocationCottageLotText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumHumanLocationSeasonalCottageLot, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumHumanLocationSeasonalCottageLotReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumHumanLocationSeasonalCottageLotText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.HumanLocationWetland:
@@ -985,11 +991,11 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentAgricultureFarmText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.IndustrialEffluentFisheries:
+                        case PolSourceObsInfoEnum.IndustrialEffluentFisheryLand:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentFisheries, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentFisheriesReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentFisheriesText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentFisheryLand, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentFisheryLandReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentFisheryLandText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.IndustrialEffluentShorelineStructures:
@@ -999,11 +1005,11 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentShorelineStructuresText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.IndustrialEffluentIndustrial:
+                        case PolSourceObsInfoEnum.IndustrialEffluentIndustrialTreatment:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentIndustrial, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentIndustrialReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentIndustrialText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentIndustrialTreatment, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentIndustrialTreatmentReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentIndustrialTreatmentText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.IndustrialEffluentStorageTank:
@@ -2672,11 +2678,11 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoffText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.SourcesOfContaminantRunoffFromManure:
+                        case PolSourceObsInfoEnum.SourcesOfContaminantRunoffFromField:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoffFromManure, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoffFromManureReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoffFromManureText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoffFromField, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoffFromFieldReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoffFromFieldText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.SourcesOfContaminantProcessingWater:
@@ -2707,11 +2713,11 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantEffluentText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.SourcesOfContaminantExcrement:
+                        case PolSourceObsInfoEnum.SourcesOfContaminantAnimalExcrement:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantExcrement, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantExcrementReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantExcrementText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantAnimalExcrement, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantAnimalExcrementReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantAnimalExcrementText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.SourcesOfContaminantMarineWashrooms:
@@ -2719,6 +2725,13 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantMarineWashrooms, retStr);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantMarineWashroomsReport, retStrReport);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantMarineWashroomsText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.SourcesOfContaminantLandMarine:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantLandMarine, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantLandMarineReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantLandMarineText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.SewageRunoff:
@@ -2784,11 +2797,18 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSepticNoInformationText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.SewageStorage:
+                        case PolSourceObsInfoEnum.SewageAnimalWasteStorage:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageStorage, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageStorageReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageStorageText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageAnimalWasteStorage, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageAnimalWasteStorageReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageAnimalWasteStorageText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.SewageAnimalExcrement:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageAnimalExcrement, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageAnimalExcrementReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageAnimalExcrementText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.StatusDefinite:
