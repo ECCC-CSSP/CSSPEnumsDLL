@@ -30,6 +30,7 @@ namespace CSSPEnumsDLL.Enums
         HumanPollutionSingleOuthouse = 12611,
         HumanPollutionSingleBoat = 12612,
         HumanPollutionSingleBarge = 12613,
+        HumanPollutionSinglehotelMotel = 12614,
 
         HumanPollutionMultipleStart = 21000,
         HumanPollutionMultipleResidences = 21001,
@@ -45,6 +46,7 @@ namespace CSSPEnumsDLL.Enums
         HumanPollutionMultipleOuthouses = 21011,
         HumanPollutionMultipleBoats = 21012,
         HumanPollutionMultipleBarges = 21013,
+        HumanPollutionMultipleHotelsMotels = 21014,
 
         HumanPollutionCountNumberStart = 16900,
         HumanPollutionCountNumberEqualTo1 = 16901,
@@ -93,6 +95,7 @@ namespace CSSPEnumsDLL.Enums
         IndustrialAreaSizeMetersBetween251And500 = 16808,
         IndustrialAreaSizeMetersBetween501And1000 = 16809,
         IndustrialAreaSizeMetersGreaterThan1000 = 16810,
+        IndustrialAreaSizeMetersInFoRequired = 16811,
 
         OuthouseStart = 14700,
         OuthouseConcreteTank = 14701,
@@ -315,6 +318,28 @@ namespace CSSPEnumsDLL.Enums
         AnimalLocationWaterCourse = 12813,
         AnimalLocationFishPlant = 12814,
 
+        AnimalBldgStart = 16000,
+        AnimalBldgEquals1 = 16001,
+        AnimalBldgEquals2 = 16002,
+        AnimalBldgEquals3 = 16003,
+        AnimalBldgEquals4 = 16004,
+        AnimalBldgEquals5 = 16005,
+        AnimalBldgEquals6 = 16006,
+        AnimalBldgEquals7 = 16007,
+        AnimalBldgEquals8 = 16008,
+        AnimalBldgEquals9 = 16009,
+        AnimalBldgEquals10 = 16010,
+
+        AnimalBldgSingleTypeStart = 16100,
+        AnimalBldgSingleWarehouse = 16101,
+        AnimalBldgSingleBarn = 16102,
+        AnimalBldgSingleBuildings = 16103,
+
+        AnimalBldgMultipleTypeStart = 16200,
+        AnimalBldgMultipleWarehouse = 16201,
+        AnimalBldgMultipleBarn = 16202,
+        AnimalBldgMultipleOtherBuildings = 16203,
+
         AnimalNumberPresentStart = 13900,
         NumberAnimalPresentapprox2 = 13901,
         NumberAnimalPresentapprox5 = 13902,
@@ -423,11 +448,12 @@ namespace CSSPEnumsDLL.Enums
         SourcesOfContaminantRunoffFromField = 10502,
         SourcesOfContaminantProcessingWater = 10503,
         SourcesOfContaminantTankWater = 10504,
-        SourcesOfContaminantLandWashrooms = 10505,
+        SourcesOfContaminantSewage = 10505,
         SourcesOfContaminantEffluent = 10506,
         SourcesOfContaminantAnimalExcrement = 10507,
         SourcesOfContaminantMarineWashrooms = 10508,
         SourcesOfContaminantLandMarine = 10509,
+        SourcesOfContaminantSpills = 10510,
 
         SewageStart = 11900,
         SewageRunoff = 11901,
@@ -459,7 +485,6 @@ namespace CSSPEnumsDLL.Enums
         PathwaySourceFirstSurfaceDrainage = 14305,
         PathwaySourceFirstSubSurfaceDrainage = 14306,
         PathwaySourceFirstDirectFlow = 14307,
-        PathwaySourceFirstLeakingOrSpillage = 14308,
 
         PathwayRouteSecondPipeStart = 13000,
         PathwaySourceSecondPipeStream = 13001,
@@ -508,6 +533,7 @@ namespace CSSPEnumsDLL.Enums
         DistanceToWaterInMeters800 = 10218,
         DistanceToWaterInMeters1000 = 10219,
         DistanceToWaterInMetersGreaterThan1000 = 10220,
+        DistanceToWaterInMetersInfoRequired = 10221,
 
         AreaSlopeStart = 10400,
         AreaSlopeLow = 10401,
@@ -532,6 +558,7 @@ namespace CSSPEnumsDLL.Enums
         DistanceToSaltWaterInMeters800 = 24009,
         DistanceToSaltWaterInMeters1000 = 24010,
         DistanceToSaltWaterInMetersGreaterThan1000 = 24011,
+        DistanceToSaltWaterInMetersInfoRequired = 24012,
 
         MunicipalityDataStart = 12000,
 
@@ -571,6 +598,7 @@ namespace CSSPEnumsDLL.Enums
         FlowLevelHigh = 14601,
         FlowLevelMedium = 14602,
         FlowLevelLow = 14603,
+        FlowLevelRainfll = 14604,
 
         PipeFlowStart = 13300,
         PipeFlowlHigh = 13301,
@@ -599,6 +627,7 @@ namespace CSSPEnumsDLL.Enums
         DistanceOnMarineWaterMetersEqual800 = 10314,
         DistanceOnMarineWaterMetersEqual1000 = 10315,
         DistanceOnMarineWaterMetersGreaterThan1000 = 10316,
+        DistanceOnMarineWaterInfoRequired = 10317,
 
         RiskStart = 91000,
         RiskLow = 91001,
@@ -611,6 +640,7 @@ namespace CSSPEnumsDLL.Enums
 
         FollowupStart = 92000,
         FollowupRequired = 92001,
-        FollowupNotRequired = 92002,
+        FollowupCompleted = 92002,
+        FollowupInfoRequired = 92003,
     }
 }
