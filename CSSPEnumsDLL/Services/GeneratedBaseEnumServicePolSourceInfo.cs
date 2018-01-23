@@ -341,6 +341,7 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.AnimalBldgEquals8:
                     case PolSourceObsInfoEnum.AnimalBldgEquals9:
                     case PolSourceObsInfoEnum.AnimalBldgEquals10:
+                    case PolSourceObsInfoEnum.AnimalBldgEqualsNotApplicable:
                     case PolSourceObsInfoEnum.AnimalBldgSingleWarehouse:
                     case PolSourceObsInfoEnum.AnimalBldgSingleBarn:
                     case PolSourceObsInfoEnum.AnimalBldgSingleBuildings:
@@ -359,6 +360,7 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.NumberAnimalPresentapprox5000:
                     case PolSourceObsInfoEnum.NumberAnimalPresentGreaterThan10000:
                     case PolSourceObsInfoEnum.NumberAnimalPresentGreaterThan20000:
+                    case PolSourceObsInfoEnum.NumberAnimalPresentUnknown:
                     case PolSourceObsInfoEnum.BoatCountEquals1:
                     case PolSourceObsInfoEnum.BoatCountEquals2:
                     case PolSourceObsInfoEnum.BoatCountEquals3:
@@ -913,6 +915,7 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.AnimalBldgEquals8:
                 case PolSourceObsInfoEnum.AnimalBldgEquals9:
                 case PolSourceObsInfoEnum.AnimalBldgEquals10:
+                case PolSourceObsInfoEnum.AnimalBldgEqualsNotApplicable:
                 case PolSourceObsInfoEnum.AnimalBldgSingleWarehouse:
                 case PolSourceObsInfoEnum.AnimalBldgSingleBarn:
                 case PolSourceObsInfoEnum.AnimalBldgSingleBuildings:
@@ -931,6 +934,7 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.NumberAnimalPresentapprox5000:
                 case PolSourceObsInfoEnum.NumberAnimalPresentGreaterThan10000:
                 case PolSourceObsInfoEnum.NumberAnimalPresentGreaterThan20000:
+                case PolSourceObsInfoEnum.NumberAnimalPresentUnknown:
                 case PolSourceObsInfoEnum.BoatCountEquals1:
                 case PolSourceObsInfoEnum.BoatCountEquals2:
                 case PolSourceObsInfoEnum.BoatCountEquals3:
@@ -1811,6 +1815,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgEquals9;
                 case PolSourceObsInfoEnum.AnimalBldgEquals10:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgEquals10;
+                case PolSourceObsInfoEnum.AnimalBldgEqualsNotApplicable:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgEqualsNotApplicable;
                 case PolSourceObsInfoEnum.AnimalBldgSingleWarehouse:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgSingleWarehouse;
                 case PolSourceObsInfoEnum.AnimalBldgSingleBarn:
@@ -1847,6 +1853,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumNumberAnimalPresentGreaterThan10000;
                 case PolSourceObsInfoEnum.NumberAnimalPresentGreaterThan20000:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumNumberAnimalPresentGreaterThan20000;
+                case PolSourceObsInfoEnum.NumberAnimalPresentUnknown:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumNumberAnimalPresentUnknown;
                 case PolSourceObsInfoEnum.BoatCountEquals1:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumBoatCountEquals1;
                 case PolSourceObsInfoEnum.BoatCountEquals2:
@@ -2464,6 +2472,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumHumanLocationDisposalAtSeaDesc;
                 case PolSourceObsInfoEnum.HumanLocationMarinePark:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumHumanLocationMarineParkDesc;
+                case PolSourceObsInfoEnum.IndustrialEffluentAgricultureFarm:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentAgricultureFarmDesc;
                 case PolSourceObsInfoEnum.IndustrialEffluentFisheryLand:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentFisheryLandDesc;
                 case PolSourceObsInfoEnum.IndustrialEffluentShorelineStructures:
@@ -2490,6 +2500,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWharfTransportationFerryDesc;
                 case PolSourceObsInfoEnum.WharfTransportationPleasureCraft:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWharfTransportationPleasureCraftDesc;
+                case PolSourceObsInfoEnum.NumberAnimalPresentUnknown:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumNumberAnimalPresentUnknownDesc;
                 case PolSourceObsInfoEnum.WastewaterDumpingStationAbsent:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWastewaterDumpingStationAbsentDesc;
                 case PolSourceObsInfoEnum.WastewaterDumpingStationNotObserved:
@@ -3055,6 +3067,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgEquals9Report;
                 case PolSourceObsInfoEnum.AnimalBldgEquals10:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgEquals10Report;
+                case PolSourceObsInfoEnum.AnimalBldgEqualsNotApplicable:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgEqualsNotApplicableReport;
                 case PolSourceObsInfoEnum.AnimalBldgSingleWarehouse:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgSingleWarehouseReport;
                 case PolSourceObsInfoEnum.AnimalBldgSingleBarn:
@@ -3091,6 +3105,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumNumberAnimalPresentGreaterThan10000Report;
                 case PolSourceObsInfoEnum.NumberAnimalPresentGreaterThan20000:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumNumberAnimalPresentGreaterThan20000Report;
+                case PolSourceObsInfoEnum.NumberAnimalPresentUnknown:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumNumberAnimalPresentUnknownReport;
                 case PolSourceObsInfoEnum.BoatCountEquals1:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumBoatCountEquals1Report;
                 case PolSourceObsInfoEnum.BoatCountEquals2:
@@ -4034,6 +4050,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgEquals9Text;
                 case PolSourceObsInfoEnum.AnimalBldgEquals10:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgEquals10Text;
+                case PolSourceObsInfoEnum.AnimalBldgEqualsNotApplicable:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgEqualsNotApplicableText;
                 case PolSourceObsInfoEnum.AnimalBldgSingleWarehouse:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgSingleWarehouseText;
                 case PolSourceObsInfoEnum.AnimalBldgSingleBarn:
@@ -4070,6 +4088,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumNumberAnimalPresentGreaterThan10000Text;
                 case PolSourceObsInfoEnum.NumberAnimalPresentGreaterThan20000:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumNumberAnimalPresentGreaterThan20000Text;
+                case PolSourceObsInfoEnum.NumberAnimalPresentUnknown:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumNumberAnimalPresentUnknownText;
                 case PolSourceObsInfoEnum.BoatCountEquals1:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumBoatCountEquals1Text;
                 case PolSourceObsInfoEnum.BoatCountEquals2:

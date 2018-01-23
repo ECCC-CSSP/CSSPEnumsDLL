@@ -375,6 +375,24 @@
   <data name="PolSourceInfoEnumAnimalBldgEquals9Text" xml:space="preserve">
     <value>           9</value>
   </data>
+  <data name="PolSourceInfoEnumAnimalBldgEqualsNotApplicable" xml:space="preserve">
+    <value>Not Applicable</value>
+  </data>
+  <data name="PolSourceInfoEnumAnimalBldgEqualsNotApplicableHide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumAnimalBldgEqualsNotApplicableInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumAnimalBldgEqualsNotApplicablePoints" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PolSourceInfoEnumAnimalBldgEqualsNotApplicableReport" xml:space="preserve">
+    <value>NA</value>
+  </data>
+  <data name="PolSourceInfoEnumAnimalBldgEqualsNotApplicableText" xml:space="preserve">
+    <value>NA</value>
+  </data>
   <data name="PolSourceInfoEnumAnimalBldgMultipleBarn" xml:space="preserve">
     <value>Grange</value>
   </data>
@@ -496,10 +514,10 @@
     <value>Entrepôt, </value>
   </data>
   <data name="PolSourceInfoEnumAnimalBldgStart" xml:space="preserve">
-    <value>Bateau</value>
+    <value>structure</value>
   </data>
   <data name="PolSourceInfoEnumAnimalBldgStartDesc" xml:space="preserve">
-    <value>Nombre de navires présents ou nombre maximal</value>
+    <value>Number of Structures to Hold Animals</value>
   </data>
   <data name="PolSourceInfoEnumAnimalLocationAgricultural" xml:space="preserve">
     <value>Agricultural</value>
@@ -1183,7 +1201,7 @@
     <value>Aucune station d’élimination des eaux usées</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundNoDumpStnHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10508,10509,10510</value>
+    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundNoDumpStnInit" xml:space="preserve">
     <value>nds</value>
@@ -1201,7 +1219,7 @@
     <value>Station d’élimination des eaux usées</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundWithDumpStnHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10508,10509,10510</value>
+    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundWithDumpStnInit" xml:space="preserve">
     <value>ds</value>
@@ -2701,7 +2719,7 @@
     <value>Incubateurs</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleHatcheriesHide" xml:space="preserve">
-    <value>21701,21703,21705</value>
+    <value>21701,21702,21703,21705</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleHatcheriesInit" xml:space="preserve">
     <value>ha</value>
@@ -2737,7 +2755,7 @@
     <value>Étangs</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultiplePoundsHide" xml:space="preserve">
-    <value>21700,21703,21705</value>
+    <value>21701,21703,21704,21705</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultiplePoundsInit" xml:space="preserve">
     <value>pd</value>
@@ -2755,7 +2773,7 @@
     <value>Incubateur</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleProcessingPlantsHide" xml:space="preserve">
-    <value />
+    <value>21702,21704</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleProcessingPlantsInit" xml:space="preserve">
     <value>ha</value>
@@ -2797,7 +2815,7 @@
     <value>Incubateur</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleHatcheryHide" xml:space="preserve">
-    <value>21701,21703,21705</value>
+    <value>21701,21702,21703,21705</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleHatcheryInit" xml:space="preserve">
     <value>ha</value>
@@ -2833,7 +2851,7 @@
     <value>Étangs</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSinglePoundHide" xml:space="preserve">
-    <value>21700,21703,21705</value>
+    <value>21701,21703,21704,21705</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSinglePoundInit" xml:space="preserve">
     <value>pd</value>
@@ -2851,7 +2869,7 @@
     <value>Incubateur</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleProcessingPlantHide" xml:space="preserve">
-    <value />
+    <value>21702,21704</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleProcessingPlantInit" xml:space="preserve">
     <value>pp</value>
@@ -2893,7 +2911,7 @@
     <value>Poissons</value>
   </data>
   <data name="PolSourceInfoEnumFisheriesSourceFinfishHide" xml:space="preserve">
-    <value>10502,10505,10506,10507,10508,10510</value>
+    <value>10501,10502,10505,10506,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumFisheriesSourceFinfishInit" xml:space="preserve">
     <value>ff</value>
@@ -2911,7 +2929,7 @@
     <value>Homard</value>
   </data>
   <data name="PolSourceInfoEnumFisheriesSourceLobsterHide" xml:space="preserve">
-    <value>10502,10505,10506,10507,10508,10510</value>
+    <value>10501,10502,10505,10506,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumFisheriesSourceLobsterInit" xml:space="preserve">
     <value>lo</value>
@@ -2929,7 +2947,7 @@
     <value>Mollusques</value>
   </data>
   <data name="PolSourceInfoEnumFisheriesSourceShellfishHide" xml:space="preserve">
-    <value>10502,10505,10506,10507,10508,10510</value>
+    <value>10501,10502,10505,10506,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumFisheriesSourceShellfishInit" xml:space="preserve">
     <value>sf</value>
@@ -4291,7 +4309,7 @@
     <value>         101- 250</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween101And250Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10503,10504,10505,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween101And250Init" xml:space="preserve">
     <value>101- 250</value>
@@ -4309,7 +4327,7 @@
     <value>       251 - 500</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween251And500Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10503,10504,10505,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween251And500Init" xml:space="preserve">
     <value>251 - 500</value>
@@ -4327,7 +4345,7 @@
     <value>    501 - 1000</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween501And1000Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10503,10504,10505,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersBetween501And1000Init" xml:space="preserve">
     <value>501 - 1000</value>
@@ -4348,7 +4366,7 @@
     <value>            100</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals100Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10503,10504,10505,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals100Init" xml:space="preserve">
     <value>100</value>
@@ -4363,7 +4381,7 @@
     <value>      moins de 100</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals10Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10503,10504,10505,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals10Init" xml:space="preserve">
     <value>10</value>
@@ -4381,7 +4399,7 @@
     <value>                          20</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals20Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10503,10504,10505,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals20Init" xml:space="preserve">
     <value>20</value>
@@ -4399,7 +4417,7 @@
     <value>                        40</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals40Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10503,10504,10505,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals40Init" xml:space="preserve">
     <value>40</value>
@@ -4417,7 +4435,7 @@
     <value>                      60</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals60Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10503,10504,10505,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals60Init" xml:space="preserve">
     <value>60</value>
@@ -4435,7 +4453,7 @@
     <value>                 80</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals80Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10503,10504,10505,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersEquals80Init" xml:space="preserve">
     <value>80</value>
@@ -4453,7 +4471,7 @@
     <value>&gt; 1000</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersGreaterThan1000Hide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10503,10504,10505,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersGreaterThan1000Init" xml:space="preserve">
     <value>&gt; 1000</value>
@@ -4471,7 +4489,7 @@
     <value>&gt; 1000</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersInFoRequiredHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10503,10504,10505,10507,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeMetersInFoRequiredInit" xml:space="preserve">
     <value>&gt; 1000</value>
@@ -5539,6 +5557,24 @@
     <value> jusqu'à 5.  Les déchets</value>
   </data>
   <data name="PolSourceInfoEnumNumberAnimalPresentGreaterThan20000Text" xml:space="preserve">
+    <value>&gt;20000</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentUnknown" xml:space="preserve">
+    <value> &gt; 20000</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentUnknownHide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentUnknownInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentUnknownPoints" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentUnknownReport" xml:space="preserve">
+    <value> jusqu'à 5.  Les déchets</value>
+  </data>
+  <data name="PolSourceInfoEnumNumberAnimalPresentUnknownText" xml:space="preserve">
     <value>&gt;20000</value>
   </data>
   <data name="PolSourceInfoEnumOilDumpingFacilityAbsent" xml:space="preserve">
@@ -7009,7 +7045,7 @@
     <value>Mise à l'eau, surface d'asphalte</value>
   </data>
   <data name="PolSourceInfoEnumSlipwayPavedHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10509,10510</value>
+    <value>10502,10503,10504,10505,10506,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumSlipwayPavedInit" xml:space="preserve">
     <value>pd</value>
@@ -7027,7 +7063,7 @@
     <value>Mise à l'eau, surface naturelle</value>
   </data>
   <data name="PolSourceInfoEnumSlipwayRocksHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10509,10510</value>
+    <value>10502,10503,10504,10505,10506,10508,10509,10510</value>
   </data>
   <data name="PolSourceInfoEnumSlipwayRocksInit" xml:space="preserve">
     <value>nt</value>
@@ -7231,7 +7267,7 @@
     <value>Tas de fumier,</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantRunoffHide" xml:space="preserve">
-    <value>11903,11907,11908,11910,11911</value>
+    <value>11903,11904,11905,11907,11908,11910,11911</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantRunoffInit" xml:space="preserve">
     <value>ro</value>
@@ -7375,7 +7411,7 @@
     <value>2000 litres</value>
   </data>
   <data name="PolSourceInfoEnumTankSize2000Hide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10501,10502,10503,10504,10505,10506,10507,10508,10509</value>
   </data>
   <data name="PolSourceInfoEnumTankSize2000Init" xml:space="preserve">
     <value>b</value>
@@ -7396,7 +7432,7 @@
     <value>4000 litres</value>
   </data>
   <data name="PolSourceInfoEnumTankSize4000Hide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10501,10502,10503,10504,10505,10506,10507,10508,10509</value>
   </data>
   <data name="PolSourceInfoEnumTankSize4000Init" xml:space="preserve">
     <value>c</value>
@@ -7411,7 +7447,7 @@
     <value>1000 gallons</value>
   </data>
   <data name="PolSourceInfoEnumTankSize400Hide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10501,10502,10503,10504,10505,10506,10507,10508,10509</value>
   </data>
   <data name="PolSourceInfoEnumTankSize400Init" xml:space="preserve">
     <value>a</value>
@@ -7429,7 +7465,7 @@
     <value>8000 litres</value>
   </data>
   <data name="PolSourceInfoEnumTankSize8000Hide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10505,10506,10507,10508,10509,10510</value>
+    <value>10501,10502,10503,10504,10505,10506,10507,10508,10509</value>
   </data>
   <data name="PolSourceInfoEnumTankSize8000Init" xml:space="preserve">
     <value>d</value>

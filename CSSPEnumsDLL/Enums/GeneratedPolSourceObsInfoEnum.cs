@@ -159,7 +159,7 @@ namespace CSSPEnumsDLL.Enums
         FishBuildingTypeSingleHatchery = 19502,
         FishBuildingTypeSinglePond = 19503,
         FishBuildingTypeSingleTank = 19504,
-        FishBuildingTypeSinglePound = 19506,
+        FishBuildingTypeSinglePound = 19505,
 
         FishBuildingTypeMultipleStart = 12900,
         FishBuildingTypeMultipleProcessingPlants = 12901,
@@ -185,8 +185,8 @@ namespace CSSPEnumsDLL.Enums
 
         ShorelineSourceStart = 11400,
         ShorelineSourceWharf = 11401,
-        ShorelineSourceSeaWall = 11403,
-        ShorelineSourceSlipway = 11404,
+        ShorelineSourceSeaWall = 11402,
+        ShorelineSourceSlipway = 11403,
 
         SlipwayStart = 18000,
         SlipwayPaved = 18001,
@@ -329,6 +329,7 @@ namespace CSSPEnumsDLL.Enums
         AnimalBldgEquals8 = 16008,
         AnimalBldgEquals9 = 16009,
         AnimalBldgEquals10 = 16010,
+        AnimalBldgEqualsNotApplicable = 16011,
 
         AnimalBldgSingleTypeStart = 16100,
         AnimalBldgSingleWarehouse = 16101,
@@ -353,6 +354,7 @@ namespace CSSPEnumsDLL.Enums
         NumberAnimalPresentapprox5000 = 13910,
         NumberAnimalPresentGreaterThan10000 = 13911,
         NumberAnimalPresentGreaterThan20000 = 13912,
+        NumberAnimalPresentUnknown = 13913,
 
         BoatStart = 14000,
         BoatCountEquals1 = 14001,
