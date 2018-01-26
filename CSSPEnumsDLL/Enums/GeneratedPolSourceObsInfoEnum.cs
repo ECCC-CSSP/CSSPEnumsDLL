@@ -117,6 +117,8 @@ namespace CSSPEnumsDLL.Enums
         IndustrialEffluentDisposalAtSea = 11213,
         IndustrialEffluentMarinePark = 11214,
         IndustrialEffluentMarina = 11215,
+        IndustrialEffluentRural = 11216,
+        IndustrialEffluentShoreline = 11217,
 
         AgriculturalSourceStart = 10600,
         AgriculturalSourceCrop = 10601,
@@ -160,6 +162,7 @@ namespace CSSPEnumsDLL.Enums
         FishBuildingTypeSinglePond = 19503,
         FishBuildingTypeSingleTank = 19504,
         FishBuildingTypeSinglePound = 19505,
+        FishBuildingTypeSingleAbandoned = 19506,
 
         FishBuildingTypeMultipleStart = 12900,
         FishBuildingTypeMultipleProcessingPlants = 12901,
@@ -167,6 +170,7 @@ namespace CSSPEnumsDLL.Enums
         FishBuildingTypeMultiplePonds = 12903,
         FishBuildingTypeMultipleTanks = 12904,
         FishBuildingTypeMultiplePounds = 12905,
+        FishBuildingTypeMultipleAbandoned = 12906,
 
         FISCountNumberStart = 17400,
         FISCountNumberEqualTo1 = 17401,
@@ -478,6 +482,7 @@ namespace CSSPEnumsDLL.Enums
         PathWayStart = 25000,
         PathwayLand = 25001,
         PathWayMarine = 25002,
+        PathWayInActive = 25003,
 
         PathwayRouteFirstStart = 14300,
         PathwaySourceFirstCulvert = 14301,
@@ -518,7 +523,7 @@ namespace CSSPEnumsDLL.Enums
         WidthInMetersGreaterThan40 = 14813,
 
         DistanceToWaterInMetersStart = 10200,
-        DistanceToWaterInMetersAtWaterEdge = 10201,
+        DistanceToWaterInMeters0 = 10201,
         DistanceToWaterInMeters5 = 10202,
         DistanceToWaterInMeters10 = 10203,
         DistanceToWaterInMeters20 = 10204,
@@ -547,6 +552,14 @@ namespace CSSPEnumsDLL.Enums
         ShorelineRiparianZonePresent = 23001,
         ShorelineRiparianZoneAbsent = 23002,
         ShorelineRiparianZoneNoInfo = 23003,
+
+        FlowThroughStructureStart = 16400,
+        FlowThroughStructureCulvert = 16401,
+        FlowThroughStructurePipe = 16402,
+        FlowThroughStructureBridge = 16403,
+        FlowThroughStructureBerm = 16404,
+        FlowThroughStructureWetland = 16405,
+        StructureInRoadNoStructure = 16406,
 
         DistanceToSaltWaterStart = 24000,
         DistanceToSaltWaterInMeters5 = 24001,
@@ -597,15 +610,20 @@ namespace CSSPEnumsDLL.Enums
         DrainageBareSoilSurfaces = 15003,
 
         FlowLevelStart = 14600,
-        FlowLevelHigh = 14601,
-        FlowLevelMedium = 14602,
-        FlowLevelLow = 14603,
-        FlowLevelRainfll = 14604,
+        FlowLevelHi = 14601,
+        FlowLevelMed = 14602,
+        FlowLevelLo = 14603,
+        FlowLevelRain = 14604,
+        FlowLevelHighWaterCourse = 14605,
+        FlowLevelMediumWaterCourse = 14606,
+        FlowLevelLowWaterCourse = 14607,
+        FlowLevelRainfallWaterCourse = 14608,
 
         PipeFlowStart = 13300,
         PipeFlowlHigh = 13301,
         PipeFlowMedium = 13302,
         PipeFlowLow = 13303,
+        PipeFlowNA = 13304,
 
         PathwayRouteMarineStart = 20200,
         PathwaySourceMarineDirect = 20201,
