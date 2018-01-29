@@ -1249,7 +1249,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween101and200cmPoints" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween101and200cmReport" xml:space="preserve">
     <value>  Le diamètre est moins de 30 cm, et</value>
@@ -1267,7 +1267,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween201and300cmPoints" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween201and300cmReport" xml:space="preserve">
     <value>  Le diamètre est moins de 30 cm, et</value>
@@ -1285,7 +1285,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween301and400cmPoints" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween301and400cmReport" xml:space="preserve">
     <value>  Le diamètre est moins de 30 cm, et</value>
@@ -1303,7 +1303,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween31and50cmPoints" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween31and50cmReport" xml:space="preserve">
     <value>  Le diamètre est moins de 30 cm, et</value>
@@ -1321,7 +1321,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween401and500cmPoints" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween401and500cmReport" xml:space="preserve">
     <value>  Le diamètre est moins de 30 cm, et</value>
@@ -1339,13 +1339,49 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween51and100cmPoints" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween51and100cmReport" xml:space="preserve">
     <value>  Le diamètre est moins de 30 cm, et</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween51and100cmText" xml:space="preserve">
     <value>  Le diamètre est moins de 30 cm, et</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual15" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual15Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual15Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual15Points" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual15Report" xml:space="preserve">
+    <value>  Le diamètre est approximately 15 cm, et</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual15Text" xml:space="preserve">
+    <value> de 15 (cm),</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual30" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual30Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual30Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual30Points" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual30Report" xml:space="preserve">
+    <value>  Le diamètre est approximately 30 cm, et</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual30Text" xml:space="preserve">
+    <value>de 30 (cm),</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersGreaterThan500cm" xml:space="preserve">
     <value> &gt; 500</value>
@@ -1357,31 +1393,13 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersGreaterThan500cmPoints" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersGreaterThan500cmReport" xml:space="preserve">
     <value>  Le diamètre est moins de 30 cm, et</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersGreaterThan500cmText" xml:space="preserve">
     <value>  Le diamètre est moins de 30 cm, et</value>
-  </data>
-  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30" xml:space="preserve">
-    <value>            &lt; 30</value>
-  </data>
-  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30Points" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30Report" xml:space="preserve">
-    <value>  Le diamètre est moins de 30 cm, et</value>
-  </data>
-  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30Text" xml:space="preserve">
-    <value>moins de 30 (cm),</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersStart" xml:space="preserve">
     <value>Diamètre du tuyau ou d'un conduit d'eau en centimètres </value>

@@ -3605,11 +3605,18 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPipeCountNumberEqualTo10Text, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DiameterInCentimetersLessThan30:
+                        case PolSourceObsInfoEnum.DiameterInCentimetersEqual15:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersLessThan30, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersLessThan30Report, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersLessThan30Text, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersEqual15, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersEqual15Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersEqual15Text, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.DiameterInCentimetersEqual30:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersEqual30, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersEqual30Report, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersEqual30Text, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.DiameterInCentimetersBetween31and50cm:

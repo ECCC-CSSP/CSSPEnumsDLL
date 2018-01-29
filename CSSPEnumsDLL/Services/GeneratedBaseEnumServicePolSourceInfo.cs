@@ -545,7 +545,8 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.PipeCountNumberEqualTo8:
                     case PolSourceObsInfoEnum.PipeCountNumberEqualTo9:
                     case PolSourceObsInfoEnum.PipeCountNumberEqualTo10:
-                    case PolSourceObsInfoEnum.DiameterInCentimetersLessThan30:
+                    case PolSourceObsInfoEnum.DiameterInCentimetersEqual15:
+                    case PolSourceObsInfoEnum.DiameterInCentimetersEqual30:
                     case PolSourceObsInfoEnum.DiameterInCentimetersBetween31and50cm:
                     case PolSourceObsInfoEnum.DiameterInCentimetersBetween51and100cm:
                     case PolSourceObsInfoEnum.DiameterInCentimetersBetween101and200cm:
@@ -1136,7 +1137,8 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.PipeCountNumberEqualTo8:
                 case PolSourceObsInfoEnum.PipeCountNumberEqualTo9:
                 case PolSourceObsInfoEnum.PipeCountNumberEqualTo10:
-                case PolSourceObsInfoEnum.DiameterInCentimetersLessThan30:
+                case PolSourceObsInfoEnum.DiameterInCentimetersEqual15:
+                case PolSourceObsInfoEnum.DiameterInCentimetersEqual30:
                 case PolSourceObsInfoEnum.DiameterInCentimetersBetween31and50cm:
                 case PolSourceObsInfoEnum.DiameterInCentimetersBetween51and100cm:
                 case PolSourceObsInfoEnum.DiameterInCentimetersBetween101and200cm:
@@ -2257,8 +2259,10 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPipeCountNumberEqualTo9;
                 case PolSourceObsInfoEnum.PipeCountNumberEqualTo10:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPipeCountNumberEqualTo10;
-                case PolSourceObsInfoEnum.DiameterInCentimetersLessThan30:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersLessThan30;
+                case PolSourceObsInfoEnum.DiameterInCentimetersEqual15:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersEqual15;
+                case PolSourceObsInfoEnum.DiameterInCentimetersEqual30:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersEqual30;
                 case PolSourceObsInfoEnum.DiameterInCentimetersBetween31and50cm:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersBetween31and50cm;
                 case PolSourceObsInfoEnum.DiameterInCentimetersBetween51and100cm:
@@ -3557,8 +3561,10 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPipeCountNumberEqualTo9Report;
                 case PolSourceObsInfoEnum.PipeCountNumberEqualTo10:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPipeCountNumberEqualTo10Report;
-                case PolSourceObsInfoEnum.DiameterInCentimetersLessThan30:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersLessThan30Report;
+                case PolSourceObsInfoEnum.DiameterInCentimetersEqual15:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersEqual15Report;
+                case PolSourceObsInfoEnum.DiameterInCentimetersEqual30:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersEqual30Report;
                 case PolSourceObsInfoEnum.DiameterInCentimetersBetween31and50cm:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersBetween31and50cmReport;
                 case PolSourceObsInfoEnum.DiameterInCentimetersBetween51and100cm:
@@ -4506,8 +4512,10 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPipeCountNumberEqualTo9Text;
                 case PolSourceObsInfoEnum.PipeCountNumberEqualTo10:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPipeCountNumberEqualTo10Text;
-                case PolSourceObsInfoEnum.DiameterInCentimetersLessThan30:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersLessThan30Text;
+                case PolSourceObsInfoEnum.DiameterInCentimetersEqual15:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersEqual15Text;
+                case PolSourceObsInfoEnum.DiameterInCentimetersEqual30:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersEqual30Text;
                 case PolSourceObsInfoEnum.DiameterInCentimetersBetween31and50cm:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersBetween31and50cmText;
                 case PolSourceObsInfoEnum.DiameterInCentimetersBetween51and100cm:

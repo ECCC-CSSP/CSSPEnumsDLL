@@ -832,13 +832,13 @@
     <value>medium slope which is expected to enhance flow rates.  </value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeNA" xml:space="preserve">
-    <value>N/A </value>
+    <value>No Data</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeNAHide" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumAreaSlopeNAInit" xml:space="preserve">
-    <value>NA</value>
+    <value>ND</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeNAPoints" xml:space="preserve">
     <value>0</value>
@@ -1240,7 +1240,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween101and200cmPoints" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween101and200cmReport" xml:space="preserve">
     <value>The diameter is 101 - 200 cm and </value>
@@ -1258,7 +1258,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween201and300cmPoints" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween201and300cmReport" xml:space="preserve">
     <value>The diameter is 201 - 300 cm and </value>
@@ -1276,7 +1276,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween301and400cmPoints" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween301and400cmReport" xml:space="preserve">
     <value>The diameter is 301 - 400 cm and </value>
@@ -1294,7 +1294,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween31and50cmPoints" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween31and50cmReport" xml:space="preserve">
     <value>The diameter is 31 - 50 cm and </value>
@@ -1312,7 +1312,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween401and500cmPoints" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween401and500cmReport" xml:space="preserve">
     <value>The diameter is 401 - 500 cm and </value>
@@ -1330,13 +1330,49 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween51and100cmPoints" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween51and100cmReport" xml:space="preserve">
     <value>The diameter is 51 - 100 cm and </value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween51and100cmText" xml:space="preserve">
     <value>51 - 100. </value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual15" xml:space="preserve">
+    <value>                                      15</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual15Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual15Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual15Points" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual15Report" xml:space="preserve">
+    <value>The diameter is approximately 15 cm, and </value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual15Text" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual30" xml:space="preserve">
+    <value>                        30</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual30Hide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual30Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual30Points" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual30Report" xml:space="preserve">
+    <value>The diameter is approximately 30 cm, and </value>
+  </data>
+  <data name="PolSourceInfoEnumDiameterInCentimetersEqual30Text" xml:space="preserve">
+    <value>30</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersGreaterThan500cm" xml:space="preserve">
     <value> &gt; 500</value>
@@ -1348,31 +1384,13 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersGreaterThan500cmPoints" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersGreaterThan500cmReport" xml:space="preserve">
     <value>The diameter is greater than 500 cm and </value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersGreaterThan500cmText" xml:space="preserve">
     <value>Greater than 500 cm.</value>
-  </data>
-  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30" xml:space="preserve">
-    <value>            &lt; 30</value>
-  </data>
-  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30Hide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30Points" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30Report" xml:space="preserve">
-    <value>The diameter is less than 30 cm, and </value>
-  </data>
-  <data name="PolSourceInfoEnumDiameterInCentimetersLessThan30Text" xml:space="preserve">
-    <value>Less than 30 cm. </value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersStart" xml:space="preserve">
     <value>Diameter of Pipes (cm)</value>
@@ -1393,7 +1411,7 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumDiameterNoInformationReport" xml:space="preserve">
-    <value>Information on this structure is not available.  </value>
+    <value>Information on this structure is not available.  It is expected that </value>
   </data>
   <data name="PolSourceInfoEnumDiameterNoInformationText" xml:space="preserve">
     <value>Information is not available.  </value>
@@ -3007,7 +3025,7 @@
     <value>3</value>
   </data>
   <data name="PolSourceInfoEnumFlowLevelHiReport" xml:space="preserve">
-    <value>there is a high discharge.  The flow path lenght is </value>
+    <value>there is a high discharge.  The flow path length is </value>
   </data>
   <data name="PolSourceInfoEnumFlowLevelHiText" xml:space="preserve">
     <value>High, </value>
@@ -4087,7 +4105,7 @@
     <value>3</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleResidencesReport" xml:space="preserve">
-    <value>residental buildings located </value>
+    <value>residential buildings located </value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleResidencesText" xml:space="preserve">
     <value>Residental, </value>
@@ -4864,7 +4882,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentRuralReport" xml:space="preserve">
-    <value>in a rural community.  </value>
+    <value>is in a rural community.  </value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentRuralText" xml:space="preserve">
     <value>Rural Community</value>
@@ -4882,7 +4900,7 @@
     <value>2</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentShorelineReport" xml:space="preserve">
-    <value>along the shoreline.  </value>
+    <value>is along the shoreline.  </value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentShorelineStructures" xml:space="preserve">
     <value>Shoreline Structures</value>
@@ -5344,7 +5362,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumMarWhfCountNumberEqualTo1Report" xml:space="preserve">
-    <value>a wharf </value>
+    <value>is a wharf </value>
   </data>
   <data name="PolSourceInfoEnumMarWhfCountNumberEqualTo1Text" xml:space="preserve">
     <value>1</value>
@@ -5779,7 +5797,7 @@
     <value>Absent, </value>
   </data>
   <data name="PolSourceInfoEnumOilDumpingFacilityNotApplicable" xml:space="preserve">
-    <value>                  NA</value>
+    <value>Not Applicable</value>
   </data>
   <data name="PolSourceInfoEnumOilDumpingFacilityNotApplicableHide" xml:space="preserve">
     <value>10501,10502,10503,10504,10505,10507,10508,10509,10510</value>
@@ -6607,7 +6625,7 @@
     <value>Medium, </value>
   </data>
   <data name="PolSourceInfoEnumPipeFlowNA" xml:space="preserve">
-    <value>N/A </value>
+    <value>No Data</value>
   </data>
   <data name="PolSourceInfoEnumPipeFlowNAHide" xml:space="preserve">
     <value />
@@ -6619,7 +6637,7 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumPipeFlowNAReport" xml:space="preserve">
-    <value>the </value>
+    <value>The </value>
   </data>
   <data name="PolSourceInfoEnumPipeFlowStart" xml:space="preserve">
     <value>Discharge Rate</value>
@@ -6886,7 +6904,7 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumRiskHighReport" xml:space="preserve">
-    <value>Based on the above Source-Pathway assessment there is a 'High Risk' for contamination to directly contaminant shellfish growing areas.  </value>
+    <value>Based on the above Source-Pathway assessment there is a 'High Risk' for direct contamination of shellfish growing areas.  </value>
   </data>
   <data name="PolSourceInfoEnumRiskHighText" xml:space="preserve">
     <value>High, </value>
@@ -7174,13 +7192,13 @@
     <value>There is no riparian zone along the water-edge so the discharge plus associated sediment and pathogens concentrations are not reduced.   </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfo" xml:space="preserve">
-    <value>No Information</value>
+    <value>No Data</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoHide" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoInit" xml:space="preserve">
-    <value>na</value>
+    <value>nd</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoPoints" xml:space="preserve">
     <value>0</value>
@@ -7333,7 +7351,7 @@
     <value>Animal Source:  At this site </value>
   </data>
   <data name="PolSourceInfoEnumSourceEffluentLand" xml:space="preserve">
-    <value>Industrial Effluent Land</value>
+    <value>Effluent on Land</value>
   </data>
   <data name="PolSourceInfoEnumSourceEffluentLandDesc" xml:space="preserve">
     <value>non sewage issues on land and shorelines</value>
@@ -7348,10 +7366,10 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumSourceEffluentLandReport" xml:space="preserve">
-    <value>Land based industrail Source:  This site </value>
+    <value>Land based effluent Source:  This site </value>
   </data>
   <data name="PolSourceInfoEnumSourceEffluentWater" xml:space="preserve">
-    <value>Industrial Effluent Water</value>
+    <value>Effluent on Water</value>
   </data>
   <data name="PolSourceInfoEnumSourceEffluentWaterDesc" xml:space="preserve">
     <value>non sewage issues in marine enviornment</value>
@@ -7366,7 +7384,7 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumSourceEffluentWaterReport" xml:space="preserve">
-    <value>Water based industrial Source:  This site </value>
+    <value>Water based effluent Source:  This site </value>
   </data>
   <data name="PolSourceInfoEnumSourceHuman" xml:space="preserve">
     <value>           Human </value>
@@ -7495,7 +7513,7 @@
     <value>                                Channelled Runoff </value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantRunoffDesc" xml:space="preserve">
-    <value>Runoff in a stream or watercourse</value>
+    <value>Could be natural channel; stream or pipe and culvert</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantRunoffFromField" xml:space="preserve">
     <value>             Surface Runoff</value>
@@ -7528,7 +7546,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantRunoffReport" xml:space="preserve">
-    <value>The issue is runoff in a watercourse or ditch that could include animal feces and flows </value>
+    <value>The issue is water that could include animal feces and is channelled </value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantRunoffText" xml:space="preserve">
     <value>Runoff</value>
@@ -9199,7 +9217,7 @@
     <value>5</value>
   </data>
   <data name="PolSourceInfoEnumWharfAbandonedReport" xml:space="preserve">
-    <value>which appear abandoned.  </value>
+    <value>which appears abandoned.  </value>
   </data>
   <data name="PolSourceInfoEnumWharfAbandonedText" xml:space="preserve">
     <value>Abandoned, </value>
