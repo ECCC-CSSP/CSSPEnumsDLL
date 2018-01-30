@@ -5782,7 +5782,7 @@
     <value>5</value>
   </data>
   <data name="PolSourceInfoEnumNumberAnimalPresentGreaterThan10000" xml:space="preserve">
-    <value>  &gt; 10000</value>
+    <value>       &gt; 10000</value>
   </data>
   <data name="PolSourceInfoEnumNumberAnimalPresentGreaterThan10000Hide" xml:space="preserve">
     <value />
@@ -5800,7 +5800,7 @@
     <value>&gt;10000</value>
   </data>
   <data name="PolSourceInfoEnumNumberAnimalPresentGreaterThan20000" xml:space="preserve">
-    <value> &gt; 20000</value>
+    <value>   &gt; 20000</value>
   </data>
   <data name="PolSourceInfoEnumNumberAnimalPresentGreaterThan20000Hide" xml:space="preserve">
     <value />
@@ -5818,7 +5818,7 @@
     <value>&gt;20000</value>
   </data>
   <data name="PolSourceInfoEnumNumberAnimalPresentUnknown" xml:space="preserve">
-    <value> &gt; 20000</value>
+    <value>Unknown</value>
   </data>
   <data name="PolSourceInfoEnumNumberAnimalPresentUnknownHide" xml:space="preserve">
     <value />

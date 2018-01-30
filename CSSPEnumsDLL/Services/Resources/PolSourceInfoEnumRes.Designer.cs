@@ -2257,7 +2257,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to General slope of land from Source to nearest body of water.  This could be a stream or river or marine shoreline..
+        ///   Looks up a localized string similar to General slope of land from Source to nearest body of water.  This could be a stream or river or tidal water shoreline..
         /// </summary>
         public static string PolSourceInfoEnumAreaSlopeStartDesc {
             get {
@@ -5326,7 +5326,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Distance To Saltwater (m).
+        ///   Looks up a localized string similar to Distance To Tidal water (m).
         /// </summary>
         public static string PolSourceInfoEnumDistanceToSaltWaterStart {
             get {
@@ -5335,7 +5335,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Approximate distance between a point of reference (point that a Pathway enters a body of water or flows through a structure) to the point that the populant contacts saltwater (m).  Example would be a plume coming down a stream into marine water or from a .
+        ///   Looks up a localized string similar to Approximate distance between a point of reference (point that a Pathway enters a body of water or flows through a structure) to the point that the populant contacts tidal water (m).  Example would be a plume coming down a stream into marine water or from .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToSaltWaterStartDesc {
             get {
@@ -5380,7 +5380,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to less than a meter before reaching the water.  .
+        ///   Looks up a localized string similar to less than a meter before reaching non-tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters0Report {
             get {
@@ -5443,7 +5443,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 1000 meters to the water&apos;s edge.  The land has a  .
+        ///   Looks up a localized string similar to approximately 1000 meters to the non-tidal water&apos;s edge.  The land has a  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters1000Report {
             get {
@@ -5479,7 +5479,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 100 meters to the water&apos;s edge.  The land has a .
+        ///   Looks up a localized string similar to approximately 100 meters to the non-tidal water&apos;s edge.  The land has a .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters100Report {
             get {
@@ -5515,7 +5515,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately ten meters to the water&apos;s edge.  The land has a  .
+        ///   Looks up a localized string similar to approximately ten meters to the non-tidal water&apos;s edge.  The land has a  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters10Report {
             get {
@@ -5569,7 +5569,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 150 meters to the water&apos;s edge.  The land has a .
+        ///   Looks up a localized string similar to approximately 150 meters to the non-tidal water&apos;s edge.  The land has a .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters150Report {
             get {
@@ -5623,7 +5623,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 200 meters to the water&apos;s edge.  The land has a.
+        ///   Looks up a localized string similar to approximately 200 meters to the non-tidal water&apos;s edge.  The land has a.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters200Report {
             get {
@@ -5659,7 +5659,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 20 meters to the water&apos;s edge.  The land has a  .
+        ///   Looks up a localized string similar to approximately 20 meters to the non-tidal water&apos;s edge.  The land has a  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters20Report {
             get {
@@ -5713,7 +5713,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 300 meters to the water&apos;s edge.  The land has a .
+        ///   Looks up a localized string similar to approximately 300 meters to the non-tidal water&apos;s edge.  The land has a .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters300Report {
             get {
@@ -5749,7 +5749,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 30 meters to the water&apos;s edge.  The land has a .
+        ///   Looks up a localized string similar to approximately 30 meters to the non-tidal water&apos;s edge.  The land has a .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters30Report {
             get {
@@ -5803,7 +5803,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 400 meters to the water&apos;s edge.  The land has a .
+        ///   Looks up a localized string similar to approximately 400 meters to the non-tidal water&apos;s edge.  The land has a .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters400Report {
             get {
@@ -5839,7 +5839,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 40 meters to the water&apos;s edge.  The land has a  .
+        ///   Looks up a localized string similar to approximately 40 meters to the non-tidal water&apos;s edge.  The land has a  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters40Report {
             get {
@@ -5893,7 +5893,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 50 meters to the water&apos;s edge.  The land has a  .
+        ///   Looks up a localized string similar to approximately 50 meters to the non-tidal water&apos;s edge.  The land has a  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters50Report {
             get {
@@ -5929,7 +5929,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately five meters to the water&apos;s edge.  The land has a .
+        ///   Looks up a localized string similar to approximately five meters to the non-tidal water&apos;s edge.  The land has a .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters5Report {
             get {
@@ -5974,7 +5974,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 600 meters to the water&apos;s edge.  The land has a .
+        ///   Looks up a localized string similar to approximately 600 meters to the non-tidal water&apos;s edge.  The land has a .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters600Report {
             get {
@@ -6019,7 +6019,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 75 meters to the water&apos;s edge.  The land has a  .
+        ///   Looks up a localized string similar to approximately 75 meters to the non-tidal water&apos;s edge.  The land has a  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters75Report {
             get {
@@ -6073,7 +6073,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 800 meters to the water&apos;s edge.  The land has a .
+        ///   Looks up a localized string similar to approximately 800 meters to the non-tidal water&apos;s edge.  The land has a .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters800Report {
             get {
@@ -6118,7 +6118,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to more than 1000 meters to the water&apos;s edge.  The land has a .
+        ///   Looks up a localized string similar to more than 1000 meters to the non-tidal water&apos;s edge.  The land has a .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMetersGreaterThan1000Report {
             get {
@@ -6181,7 +6181,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to PathWay Distance to Water (m).
+        ///   Looks up a localized string similar to PathWay Distance to Non-tidal Water (m).
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMetersStart {
             get {
@@ -6190,7 +6190,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The most direct pathway distance (m) to a body of surface water.  This could be stream, wetland, river?.
+        ///   Looks up a localized string similar to The most direct pathway distance (m) to a body of non-tidal water.  This could be stream, wetland, river?.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMetersStartDesc {
             get {
@@ -9223,7 +9223,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The pathway is held behind a berm before reaching saltwater which is .
+        ///   Looks up a localized string similar to The pathway is held behind a berm before reaching tidal water which is .
         /// </summary>
         public static string PolSourceInfoEnumFlowThroughStructureBermReport {
             get {
@@ -9277,7 +9277,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The pathway passes under a bridge before reaching saltwater which is .
+        ///   Looks up a localized string similar to The pathway passes under a bridge before reaching tidal water which is .
         /// </summary>
         public static string PolSourceInfoEnumFlowThroughStructureBridgeReport {
             get {
@@ -9331,7 +9331,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The pathway flows through a culvert before reaching saltwater which is .
+        ///   Looks up a localized string similar to The pathway flows through a culvert before reaching tidal water which is .
         /// </summary>
         public static string PolSourceInfoEnumFlowThroughStructureCulvertReport {
             get {
@@ -9385,7 +9385,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The pathway passes through a pipe before reaching saltwater which is .
+        ///   Looks up a localized string similar to The pathway passes through a pipe before reaching tidal water which is .
         /// </summary>
         public static string PolSourceInfoEnumFlowThroughStructurePipeReport {
             get {
@@ -9457,7 +9457,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The pathway passes into a wetland before reaching saltwater which is .
+        ///   Looks up a localized string similar to The pathway passes into a wetland before reaching tidal water which is .
         /// </summary>
         public static string PolSourceInfoEnumFlowThroughStructureWetlandReport {
             get {
@@ -16873,7 +16873,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to   &apos;  &gt; 10000.
+        ///   Looks up a localized string similar to        &gt; 10000.
         /// </summary>
         public static string PolSourceInfoEnumNumberAnimalPresentGreaterThan10000 {
             get {
@@ -16927,7 +16927,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to  &apos; &gt; 20000.
+        ///   Looks up a localized string similar to    &gt; 20000.
         /// </summary>
         public static string PolSourceInfoEnumNumberAnimalPresentGreaterThan20000 {
             get {
@@ -17530,7 +17530,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to In-Active Source.
+        ///   Looks up a localized string similar to No Pathway.
         /// </summary>
         public static string PolSourceInfoEnumPathWayInActive {
             get {
@@ -17566,7 +17566,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pathway:  This Source is inactive and there is no information on the pathway.   .
+        ///   Looks up a localized string similar to Pathway:  This Source is inactive or there is no pathway identified.   .
         /// </summary>
         public static string PolSourceInfoEnumPathWayInActiveReport {
             get {
@@ -17692,7 +17692,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to PathWay To Marine Waters.
+        ///   Looks up a localized string similar to PathWay To Tidal Waters.
         /// </summary>
         public static string PolSourceInfoEnumPathwayRouteFirstStart {
             get {
@@ -17701,7 +17701,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Which route best describes the PathWay as it flows to the marinewater?.
+        ///   Looks up a localized string similar to Which route best describes the PathWay as it flows to tideal water?.
         /// </summary>
         public static string PolSourceInfoEnumPathwayRouteFirstStartDesc {
             get {
@@ -17854,7 +17854,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to directly into the marine waters.  .
+        ///   Looks up a localized string similar to directly into the tidal waters.  .
         /// </summary>
         public static string PolSourceInfoEnumPathwaySourceFirstDirectFlowReport {
             get {
@@ -18070,7 +18070,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to sub-surface flow.  The flow path lenght is .
+        ///   Looks up a localized string similar to sub-surface flow.  The flow path length is .
         /// </summary>
         public static string PolSourceInfoEnumPathwaySourceFirstSubSurfaceDrainageReport {
             get {
@@ -18304,7 +18304,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to            Direct to Marine Waters.
+        ///   Looks up a localized string similar to            Direct to Tidal Waters.
         /// </summary>
         public static string PolSourceInfoEnumPathwaySourceSecondCulvertDirectFlow {
             get {
@@ -18340,7 +18340,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to flows directly into saltwater.  .
+        ///   Looks up a localized string similar to flows directly into tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumPathwaySourceSecondCulvertDirectFlowReport {
             get {
@@ -18574,7 +18574,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to            Direct to Marine Waters.
+        ///   Looks up a localized string similar to            Direct to tidal Waters.
         /// </summary>
         public static string PolSourceInfoEnumPathwaySourceSecondPipeDirectflow {
             get {
@@ -18610,7 +18610,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to discharge goes directly into saltwater.  .
+        ///   Looks up a localized string similar to discharge goes directly into tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumPathwaySourceSecondPipeDirectflowReport {
             get {
@@ -18772,7 +18772,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to pipe discharges into the ground becoming sub-surface flow.  The flow path lenght is .
+        ///   Looks up a localized string similar to pipe discharges into the ground becoming sub-surface flow.  The flow path length is .
         /// </summary>
         public static string PolSourceInfoEnumPathwaySourceSecondPipeSubSurfaceDrainageReport {
             get {
@@ -18853,7 +18853,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The pathway describes how the Source travels to the marine waters.  Select if the pathway occurs on the land or over water..
+        ///   Looks up a localized string similar to The pathway describes how the Source travels to tidal waters.  Select if the pathway occurs on the land or over water..
         /// </summary>
         public static string PolSourceInfoEnumPathWayStartDesc {
             get {
@@ -20599,7 +20599,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to to unidentified system.  .
+        ///   Looks up a localized string similar to to unidentified collection system.  .
         /// </summary>
         public static string PolSourceInfoEnumSepticNoInformationReport {
             get {
@@ -20662,7 +20662,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to deposited in the water or on the land.  Eventually this will be washed into the waters.  .
+        ///   Looks up a localized string similar to deposited in the water or on the land.   .
         /// </summary>
         public static string PolSourceInfoEnumSewageAnimalExcrementReport {
             get {
@@ -21274,7 +21274,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to There is no riparian zone along the water-edge so the discharge plus associated sediment and pathogens concentrations are not reduced.   .
+        ///   Looks up a localized string similar to There is no riparian zone along the water-edge so the discharge plus associated sediment and pathogens concentrations are not expected to be reduced.   .
         /// </summary>
         public static string PolSourceInfoEnumShorelineRiparianZoneAbsentReport {
             get {
@@ -21364,7 +21364,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to There is a riparian zone along the water-edge which will reduce discharge and associated sediment and bacterial concentrations.   .
+        ///   Looks up a localized string similar to There is a riparian zone along the water-edge which is expected to reduce discharge and associated sediment and bacterial concentrations.   .
         /// </summary>
         public static string PolSourceInfoEnumShorelineRiparianZonePresentReport {
             get {
@@ -22345,7 +22345,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The issue is water that could include animal feces and is channelled .
+        ///   Looks up a localized string similar to The issue is water runoff that could include animal feces and is channelled .
         /// </summary>
         public static string PolSourceInfoEnumSourcesOfContaminantRunoffReport {
             get {
@@ -22831,7 +22831,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The distance to saltwater is .
+        ///   Looks up a localized string similar to The distance to tidal water is .
         /// </summary>
         public static string PolSourceInfoEnumStructureInRoadNoStructureReport {
             get {

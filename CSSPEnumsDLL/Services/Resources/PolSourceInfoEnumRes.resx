@@ -850,7 +850,7 @@
     <value>Slope Of Land</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeStartDesc" xml:space="preserve">
-    <value>General slope of land from Source to nearest body of water.  This could be a stream or river or marine shoreline.</value>
+    <value>General slope of land from Source to nearest body of water.  This could be a stream or river or tidal water shoreline.</value>
   </data>
   <data name="PolSourceInfoEnumAriculturalSourcePeatMoss" xml:space="preserve">
     <value>Peat Moss Operation</value>
@@ -1873,10 +1873,10 @@
     <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterStart" xml:space="preserve">
-    <value>Distance To Saltwater (m)</value>
+    <value>Distance To Tidal water (m)</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToSaltWaterStartDesc" xml:space="preserve">
-    <value>Approximate distance between a point of reference (point that a Pathway enters a body of water or flows through a structure) to the point that the populant contacts saltwater (m).  Example would be a plume coming down a stream into marine water or from a </value>
+    <value>Approximate distance between a point of reference (point that a Pathway enters a body of water or flows through a structure) to the point that the populant contacts tidal water (m).  Example would be a plume coming down a stream into marine water or from </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters0" xml:space="preserve">
     <value>                            0</value>
@@ -1891,7 +1891,7 @@
     <value>16</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters0Report" xml:space="preserve">
-    <value>less than a meter before reaching the water.  </value>
+    <value>less than a meter before reaching non-tidal water.  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters10" xml:space="preserve">
     <value>                      10</value>
@@ -1912,7 +1912,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters1000Report" xml:space="preserve">
-    <value>approximately 1000 meters to the water's edge.  The land has a  </value>
+    <value>approximately 1000 meters to the non-tidal water's edge.  The land has a  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters100Hide" xml:space="preserve">
     <value />
@@ -1924,7 +1924,7 @@
     <value>8</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters100Report" xml:space="preserve">
-    <value>approximately 100 meters to the water's edge.  The land has a </value>
+    <value>approximately 100 meters to the non-tidal water's edge.  The land has a </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters10Hide" xml:space="preserve">
     <value />
@@ -1936,7 +1936,7 @@
     <value>14</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters10Report" xml:space="preserve">
-    <value>approximately ten meters to the water's edge.  The land has a  </value>
+    <value>approximately ten meters to the non-tidal water's edge.  The land has a  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters10Text" xml:space="preserve">
     <value>  </value>
@@ -1954,7 +1954,7 @@
     <value>7</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters150Report" xml:space="preserve">
-    <value>approximately 150 meters to the water's edge.  The land has a </value>
+    <value>approximately 150 meters to the non-tidal water's edge.  The land has a </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters20" xml:space="preserve">
     <value>                     20</value>
@@ -1972,7 +1972,7 @@
     <value>6</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters200Report" xml:space="preserve">
-    <value>approximately 200 meters to the water's edge.  The land has a</value>
+    <value>approximately 200 meters to the non-tidal water's edge.  The land has a</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters20Hide" xml:space="preserve">
     <value />
@@ -1984,7 +1984,7 @@
     <value>13</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters20Report" xml:space="preserve">
-    <value>approximately 20 meters to the water's edge.  The land has a  </value>
+    <value>approximately 20 meters to the non-tidal water's edge.  The land has a  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters30" xml:space="preserve">
     <value>                    30</value>
@@ -2002,7 +2002,7 @@
     <value>5</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters300Report" xml:space="preserve">
-    <value>approximately 300 meters to the water's edge.  The land has a </value>
+    <value>approximately 300 meters to the non-tidal water's edge.  The land has a </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters30Hide" xml:space="preserve">
     <value />
@@ -2014,7 +2014,7 @@
     <value>12</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters30Report" xml:space="preserve">
-    <value>approximately 30 meters to the water's edge.  The land has a </value>
+    <value>approximately 30 meters to the non-tidal water's edge.  The land has a </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters40" xml:space="preserve">
     <value>                40</value>
@@ -2032,7 +2032,7 @@
     <value>4</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters400Report" xml:space="preserve">
-    <value>approximately 400 meters to the water's edge.  The land has a </value>
+    <value>approximately 400 meters to the non-tidal water's edge.  The land has a </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters40Hide" xml:space="preserve">
     <value />
@@ -2044,7 +2044,7 @@
     <value>11</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters40Report" xml:space="preserve">
-    <value>approximately 40 meters to the water's edge.  The land has a  </value>
+    <value>approximately 40 meters to the non-tidal water's edge.  The land has a  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters5" xml:space="preserve">
     <value>                         5 </value>
@@ -2062,7 +2062,7 @@
     <value>10</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters50Report" xml:space="preserve">
-    <value>approximately 50 meters to the water's edge.  The land has a  </value>
+    <value>approximately 50 meters to the non-tidal water's edge.  The land has a  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters5Hide" xml:space="preserve">
     <value />
@@ -2074,7 +2074,7 @@
     <value>15</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters5Report" xml:space="preserve">
-    <value>approximately five meters to the water's edge.  The land has a </value>
+    <value>approximately five meters to the non-tidal water's edge.  The land has a </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters600" xml:space="preserve">
     <value>         600</value>
@@ -2089,7 +2089,7 @@
     <value>3</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters600Report" xml:space="preserve">
-    <value>approximately 600 meters to the water's edge.  The land has a </value>
+    <value>approximately 600 meters to the non-tidal water's edge.  The land has a </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters75" xml:space="preserve">
     <value>              75</value>
@@ -2104,7 +2104,7 @@
     <value>9</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters75Report" xml:space="preserve">
-    <value>approximately 75 meters to the water's edge.  The land has a  </value>
+    <value>approximately 75 meters to the non-tidal water's edge.  The land has a  </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters75Text" xml:space="preserve">
     <value>  </value>
@@ -2122,7 +2122,7 @@
     <value>2</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters800Report" xml:space="preserve">
-    <value>approximately 800 meters to the water's edge.  The land has a </value>
+    <value>approximately 800 meters to the non-tidal water's edge.  The land has a </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMetersGreaterThan1000" xml:space="preserve">
     <value>  &gt; 1000</value>
@@ -2137,7 +2137,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMetersGreaterThan1000Report" xml:space="preserve">
-    <value>more than 1000 meters to the water's edge.  The land has a </value>
+    <value>more than 1000 meters to the non-tidal water's edge.  The land has a </value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMetersInfoRequired" xml:space="preserve">
     <value>INFO REQUIRED</value>
@@ -2158,10 +2158,10 @@
     <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMetersStart" xml:space="preserve">
-    <value>PathWay Distance to Water (m)</value>
+    <value>PathWay Distance to Non-tidal Water (m)</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMetersStartDesc" xml:space="preserve">
-    <value>The most direct pathway distance (m) to a body of surface water.  This could be stream, wetland, river?</value>
+    <value>The most direct pathway distance (m) to a body of non-tidal water.  This could be stream, wetland, river?</value>
   </data>
   <data name="PolSourceInfoEnumDitchAcrossProperties" xml:space="preserve">
     <value>Across Properties</value>
@@ -3172,7 +3172,7 @@
     <value>2</value>
   </data>
   <data name="PolSourceInfoEnumFlowThroughStructureBermReport" xml:space="preserve">
-    <value>The pathway is held behind a berm before reaching saltwater which is </value>
+    <value>The pathway is held behind a berm before reaching tidal water which is </value>
   </data>
   <data name="PolSourceInfoEnumFlowThroughStructureBermText" xml:space="preserve">
     <value>Berm</value>
@@ -3190,7 +3190,7 @@
     <value>3</value>
   </data>
   <data name="PolSourceInfoEnumFlowThroughStructureBridgeReport" xml:space="preserve">
-    <value>The pathway passes under a bridge before reaching saltwater which is </value>
+    <value>The pathway passes under a bridge before reaching tidal water which is </value>
   </data>
   <data name="PolSourceInfoEnumFlowThroughStructureBridgeText" xml:space="preserve">
     <value>Bridge</value>
@@ -3208,7 +3208,7 @@
     <value>3</value>
   </data>
   <data name="PolSourceInfoEnumFlowThroughStructureCulvertReport" xml:space="preserve">
-    <value>The pathway flows through a culvert before reaching saltwater which is </value>
+    <value>The pathway flows through a culvert before reaching tidal water which is </value>
   </data>
   <data name="PolSourceInfoEnumFlowThroughStructureCulvertText" xml:space="preserve">
     <value>Culvert</value>
@@ -3226,7 +3226,7 @@
     <value>3</value>
   </data>
   <data name="PolSourceInfoEnumFlowThroughStructurePipeReport" xml:space="preserve">
-    <value>The pathway passes through a pipe before reaching saltwater which is </value>
+    <value>The pathway passes through a pipe before reaching tidal water which is </value>
   </data>
   <data name="PolSourceInfoEnumFlowThroughStructurePipeText" xml:space="preserve">
     <value>Pipe</value>
@@ -3250,7 +3250,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumFlowThroughStructureWetlandReport" xml:space="preserve">
-    <value>The pathway passes into a wetland before reaching saltwater which is </value>
+    <value>The pathway passes into a wetland before reaching tidal water which is </value>
   </data>
   <data name="PolSourceInfoEnumFlowThroughStructureWetlandText" xml:space="preserve">
     <value>Wetland</value>
@@ -5722,7 +5722,7 @@
     <value>5</value>
   </data>
   <data name="PolSourceInfoEnumNumberAnimalPresentGreaterThan10000" xml:space="preserve">
-    <value>  '  &gt; 10000</value>
+    <value>       &gt; 10000</value>
   </data>
   <data name="PolSourceInfoEnumNumberAnimalPresentGreaterThan10000Hide" xml:space="preserve">
     <value />
@@ -5740,7 +5740,7 @@
     <value>&gt; 10000</value>
   </data>
   <data name="PolSourceInfoEnumNumberAnimalPresentGreaterThan20000" xml:space="preserve">
-    <value> ' &gt; 20000</value>
+    <value>   &gt; 20000</value>
   </data>
   <data name="PolSourceInfoEnumNumberAnimalPresentGreaterThan20000Hide" xml:space="preserve">
     <value />
@@ -5941,7 +5941,7 @@
     <value>Is the pasture being used or has it been inactive for several years.</value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActive" xml:space="preserve">
-    <value>In-Active Source</value>
+    <value>No Pathway</value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActiveHide" xml:space="preserve">
     <value />
@@ -5953,7 +5953,7 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActiveReport" xml:space="preserve">
-    <value>Pathway:  This Source is inactive and there is no information on the pathway.   </value>
+    <value>Pathway:  This Source is inactive or there is no pathway identified.   </value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActiveText" xml:space="preserve">
     <value>Potential, </value>
@@ -5995,10 +5995,10 @@
     <value>Potential, </value>
   </data>
   <data name="PolSourceInfoEnumPathwayRouteFirstStart" xml:space="preserve">
-    <value>PathWay To Marine Waters</value>
+    <value>PathWay To Tidal Waters</value>
   </data>
   <data name="PolSourceInfoEnumPathwayRouteFirstStartDesc" xml:space="preserve">
-    <value>Which route best describes the PathWay as it flows to the marinewater?</value>
+    <value>Which route best describes the PathWay as it flows to tideal water?</value>
   </data>
   <data name="PolSourceInfoEnumPathwayRouteMarineStart" xml:space="preserve">
     <value>Marine Pathway</value>
@@ -6049,7 +6049,7 @@
     <value>6</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstDirectFlowReport" xml:space="preserve">
-    <value>directly into the marine waters.  </value>
+    <value>directly into the tidal waters.  </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstDirectFlowText" xml:space="preserve">
     <value>Directly to water, </value>
@@ -6121,7 +6121,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstSubSurfaceDrainageReport" xml:space="preserve">
-    <value>sub-surface flow.  The flow path lenght is </value>
+    <value>sub-surface flow.  The flow path length is </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstSubSurfaceDrainageText" xml:space="preserve">
     <value>Drainage, </value>
@@ -6199,7 +6199,7 @@
     <value>Pipe to Water,</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondCulvertDirectFlow" xml:space="preserve">
-    <value>           Direct to Marine Waters</value>
+    <value>           Direct to Tidal Waters</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondCulvertDirectFlowHide" xml:space="preserve">
     <value />
@@ -6211,7 +6211,7 @@
     <value>3</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondCulvertDirectFlowReport" xml:space="preserve">
-    <value>flows directly into saltwater.  </value>
+    <value>flows directly into tidal water.  </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondCulvertDirectFlowText" xml:space="preserve">
     <value>Directly to water, </value>
@@ -6289,7 +6289,7 @@
     <value>Drainage, </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeDirectflow" xml:space="preserve">
-    <value>           Direct to Marine Waters</value>
+    <value>           Direct to tidal Waters</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeDirectflowHide" xml:space="preserve">
     <value />
@@ -6301,7 +6301,7 @@
     <value>3</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeDirectflowReport" xml:space="preserve">
-    <value>discharge goes directly into saltwater.  </value>
+    <value>discharge goes directly into tidal water.  </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeDirectflowText" xml:space="preserve">
     <value>Directly to water, </value>
@@ -6355,7 +6355,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeSubSurfaceDrainageReport" xml:space="preserve">
-    <value>pipe discharges into the ground becoming sub-surface flow.  The flow path lenght is </value>
+    <value>pipe discharges into the ground becoming sub-surface flow.  The flow path length is </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceSecondPipeSubSurfaceDrainageText" xml:space="preserve">
     <value>Drainage, </value>
@@ -6382,7 +6382,7 @@
     <value>PATHWAY DESCRIPTION;  Location?</value>
   </data>
   <data name="PolSourceInfoEnumPathWayStartDesc" xml:space="preserve">
-    <value>The pathway describes how the Source travels to the marine waters.  Select if the pathway occurs on the land or over water.</value>
+    <value>The pathway describes how the Source travels to tidal waters.  Select if the pathway occurs on the land or over water.</value>
   </data>
   <data name="PolSourceInfoEnumPipeCountNumberEqualTo1" xml:space="preserve">
     <value>            1</value>
@@ -6964,7 +6964,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumSepticNoInformationReport" xml:space="preserve">
-    <value>to unidentified system.  </value>
+    <value>to unidentified collection system.  </value>
   </data>
   <data name="PolSourceInfoEnumSepticNoInformationText" xml:space="preserve">
     <value>No Information</value>
@@ -6985,7 +6985,7 @@
     <value>4</value>
   </data>
   <data name="PolSourceInfoEnumSewageAnimalExcrementReport" xml:space="preserve">
-    <value>deposited in the water or on the land.  Eventually this will be washed into the waters.  </value>
+    <value>deposited in the water or on the land.   </value>
   </data>
   <data name="PolSourceInfoEnumSewageAnimalExcrementText" xml:space="preserve">
     <value>                          Runoff</value>
@@ -7189,7 +7189,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentReport" xml:space="preserve">
-    <value>There is no riparian zone along the water-edge so the discharge plus associated sediment and pathogens concentrations are not reduced.   </value>
+    <value>There is no riparian zone along the water-edge so the discharge plus associated sediment and pathogens concentrations are not expected to be reduced.   </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfo" xml:space="preserve">
     <value>No Data</value>
@@ -7219,7 +7219,7 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentReport" xml:space="preserve">
-    <value>There is a riparian zone along the water-edge which will reduce discharge and associated sediment and bacterial concentrations.   </value>
+    <value>There is a riparian zone along the water-edge which is expected to reduce discharge and associated sediment and bacterial concentrations.   </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparionZoneStart" xml:space="preserve">
     <value>Riparian Zone</value>
@@ -7546,7 +7546,7 @@
     <value>1</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantRunoffReport" xml:space="preserve">
-    <value>The issue is water that could include animal feces and is channelled </value>
+    <value>The issue is water runoff that could include animal feces and is channelled </value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantRunoffText" xml:space="preserve">
     <value>Runoff</value>
@@ -7708,7 +7708,7 @@
     <value>0</value>
   </data>
   <data name="PolSourceInfoEnumStructureInRoadNoStructureReport" xml:space="preserve">
-    <value>The distance to saltwater is </value>
+    <value>The distance to tidal water is </value>
   </data>
   <data name="PolSourceInfoEnumStructureInRoadNoStructureText" xml:space="preserve">
     <value>Nostructure</value>
