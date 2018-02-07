@@ -693,6 +693,21 @@
   <data name="PolSourceInfoEnumAreaSlopeHighText" xml:space="preserve">
     <value>Forte</value>
   </data>
+  <data name="PolSourceInfoEnumAreaSlopeHighVegetated" xml:space="preserve">
+    <value>  Modérée</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeHighVegetatedHide" xml:space="preserve">
+    <value>23001,23002,23003</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeHighVegetatedInit" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeHighVegetatedReport" xml:space="preserve">
+    <value>Le site est sur une pente modérée et est classifié comme étant</value>
+  </data>
+  <data name="PolSourceInfoEnumAreaSlopeHighVegetatedText" xml:space="preserve">
+    <value>Modérée</value>
+  </data>
   <data name="PolSourceInfoEnumAreaSlopeLow" xml:space="preserve">
     <value>   Faible</value>
   </data>
@@ -1111,7 +1126,7 @@
     <value>Élevé, confirmation visuelle</value>
   </data>
   <data name="PolSourceInfoEnumDepthDeepDefiniteHide" xml:space="preserve">
-    <value>16603,16604,16605,16606,16607,16608</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumDepthDeepDefiniteInit" xml:space="preserve">
     <value>HCV</value>
@@ -1165,6 +1180,21 @@
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par échantillonnage d'eau.</value>
   </data>
   <data name="PolSourceInfoEnumDepthShallowPotentialText" xml:space="preserve">
+    <value>Élevé, confirmation par échantillon d'eau,</value>
+  </data>
+  <data name="PolSourceInfoEnumDepthUnknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="PolSourceInfoEnumDepthUnknownHide" xml:space="preserve">
+    <value>15801,15802,15803</value>
+  </data>
+  <data name="PolSourceInfoEnumDepthUnknownInit" xml:space="preserve">
+    <value>UN</value>
+  </data>
+  <data name="PolSourceInfoEnumDepthUnknownReport" xml:space="preserve">
+    <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par échantillonnage d'eau.</value>
+  </data>
+  <data name="PolSourceInfoEnumDepthUnknownText" xml:space="preserve">
     <value>Élevé, confirmation par échantillon d'eau,</value>
   </data>
   <data name="PolSourceInfoEnumDiameterInCentimetersBetween101and200cm" xml:space="preserve">
@@ -2005,52 +2035,49 @@
     <value>Distance approximative de la côte à l'aire de croissance (m)</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrAreaInMetInfoReq" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrAreaInMetInfoReqHide" xml:space="preserve">
     <value>15801,15802,15803</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrAreaInMetInfoReqInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrAreaInMetInfoReqPot" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrAreaInMetInfoReqPotHide" xml:space="preserve">
     <value>15801,15802,15803</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrAreaInMetInfoReqPotInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrAreaInMetInfoReqPotReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrAreaInMetInfoReqPotText" xml:space="preserve">
-    <value>1000 et plus</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrAreaInMetInfoReqReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrAreaInMetInfoReqText" xml:space="preserve">
-    <value>1000 et plus</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet10" xml:space="preserve">
-    <value>                        10</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet100" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet1000" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet1000Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet1000Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet1000Pot" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet1000PotHide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -2071,16 +2098,16 @@
     <value>1000</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet100Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet100Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet100Pot" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet100PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet100PotInit" xml:space="preserve">
     <value />
@@ -2097,50 +2124,20 @@
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet100Text" xml:space="preserve">
     <value>100</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet10Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet10Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet10Pot" xml:space="preserve">
-    <value>                        10</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet10PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet10PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet10PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet10PotText" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet10Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet10Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet20" xml:space="preserve">
-    <value>                       20</value>
-  </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet200" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet200Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet200Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet200Pot" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet200PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet200PotInit" xml:space="preserve">
     <value />
@@ -2157,77 +2154,50 @@
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet200Text" xml:space="preserve">
     <value>200</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet20Hide" xml:space="preserve">
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet300" xml:space="preserve">
+    <value>                      300</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet300Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet20Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet300Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet20Pot" xml:space="preserve">
-    <value>                       20</value>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet300Pot" xml:space="preserve">
+    <value>                      300</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet20PotHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet300PotHide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet20PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet300PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet20PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet300PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet20PotText" xml:space="preserve">
-    <value>20</value>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet300PotText" xml:space="preserve">
+    <value>300</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet20Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet300Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet20Text" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet30" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet30Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet30Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet30Pot" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet30PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet30PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet30PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet30PotText" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet30Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet30Text" xml:space="preserve">
-    <value>30</value>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet300Text" xml:space="preserve">
+    <value>300</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet400" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet400Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet400Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet400Pot" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet400PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet400PotInit" xml:space="preserve">
     <value />
@@ -2244,11 +2214,38 @@
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet400Text" xml:space="preserve">
     <value>400</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet5" xml:space="preserve">
-    <value>                                5</value>
-  </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet50" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet500" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet500Hide" xml:space="preserve">
+    <value>15801,15802,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet500Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet500Pot" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet500PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet500PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet500PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet500PotText" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet500Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet500Text" xml:space="preserve">
+    <value>500</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet50Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -2257,10 +2254,10 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet50Pot" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet50PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet50PotInit" xml:space="preserve">
     <value />
@@ -2277,38 +2274,71 @@
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet50Text" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet5Hide" xml:space="preserve">
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet600" xml:space="preserve">
+    <value>            600</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet600Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet5Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet600Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet5Pot" xml:space="preserve">
-    <value>                                5</value>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet600Pot" xml:space="preserve">
+    <value>            600</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet5PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet600PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet5PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet600PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet5PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet600PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet5PotText" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet600PotText" xml:space="preserve">
+    <value>600</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet5Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet600Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet5Text" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet600Text" xml:space="preserve">
+    <value>600</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet700" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet700Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet700Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet700Pot" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet700PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet700PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet700PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet700PotText" xml:space="preserve">
+    <value>700</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet700Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet700Text" xml:space="preserve">
+    <value>700</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet800" xml:space="preserve">
     <value>        800</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet800Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet800Init" xml:space="preserve">
     <value />
@@ -2333,6 +2363,36 @@
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet800Text" xml:space="preserve">
     <value>800</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet900" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet900Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet900Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet900Pot" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet900PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet900PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet900PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet900PotText" xml:space="preserve">
+    <value>900</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet900Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMet900Text" xml:space="preserve">
+    <value>900</value>
   </data>
   <data name="PolSourceInfoEnumEncloTidalSmDeDistToGrowAreaInMetGrThan1000" xml:space="preserve">
     <value> &gt; 1000</value>
@@ -2395,43 +2455,40 @@
     <value>&gt;1000</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrAreaInMetnfoReq" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrAreaInMetnfoReqHide" xml:space="preserve">
     <value>15801,15802,15803</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrAreaInMetnfoReqInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrAreaInMetnfoReqPot" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrAreaInMetnfoReqPotHide" xml:space="preserve">
     <value>15801,15802,15803</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrAreaInMetnfoReqPotInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrAreaInMetnfoReqPotReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrAreaInMetnfoReqPotText" xml:space="preserve">
-    <value>1000 et plus</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrAreaInMetnfoReqReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrAreaInMetnfoReqText" xml:space="preserve">
-    <value>1000 et plus</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet10" xml:space="preserve">
-    <value>                        10</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet100" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet1000" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet1000Hide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -2440,7 +2497,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet1000Pot" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet1000PotHide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -2467,7 +2524,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet100Pot" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet100PotHide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -2487,38 +2544,8 @@
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet100Text" xml:space="preserve">
     <value>100</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet10Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet10Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet10Pot" xml:space="preserve">
-    <value>                        10</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet10PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet10PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet10PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet10PotText" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet10Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet10Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet20" xml:space="preserve">
-    <value>                       20</value>
-  </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet200" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet200Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -2527,7 +2554,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet200Pot" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet200PotHide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -2547,65 +2574,38 @@
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet200Text" xml:space="preserve">
     <value>200</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet20Hide" xml:space="preserve">
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet300" xml:space="preserve">
+    <value>                      300</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet300Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet20Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet300Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet20Pot" xml:space="preserve">
-    <value>                       20</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet300Pot" xml:space="preserve">
+    <value>                      300</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet20PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet300PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet20PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet300PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet20PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet300PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet20PotText" xml:space="preserve">
-    <value>20</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet300PotText" xml:space="preserve">
+    <value>300</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet20Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet300Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet20Text" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet30" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet30Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet30Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet30Pot" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet30PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet30PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet30PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet30PotText" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet30Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet30Text" xml:space="preserve">
-    <value>30</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet300Text" xml:space="preserve">
+    <value>300</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet400" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet400Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -2614,10 +2614,10 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet400Pot" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet400PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+    <value>15802,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet400PotInit" xml:space="preserve">
     <value />
@@ -2634,11 +2634,38 @@
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet400Text" xml:space="preserve">
     <value>400</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet5" xml:space="preserve">
-    <value>                                5</value>
-  </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet50" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet500" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet500Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet500Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet500Pot" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet500PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet500PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet500PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet500PotText" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet500Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet500Text" xml:space="preserve">
+    <value>500</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet50Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -2647,7 +2674,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet50Pot" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet50PotHide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -2667,32 +2694,65 @@
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet50Text" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet5Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet600" xml:space="preserve">
+    <value>            600</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet5Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet600Hide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet600Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet5Pot" xml:space="preserve">
-    <value>                                5</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet600Pot" xml:space="preserve">
+    <value>            600</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet5PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet600PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet5PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet600PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet5PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet600PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet5PotText" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet600PotText" xml:space="preserve">
+    <value>600</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet5Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet600Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet5Text" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet600Text" xml:space="preserve">
+    <value>600</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet700" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet700Hide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet700Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet700Pot" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet700PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet700PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet700PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet700PotText" xml:space="preserve">
+    <value>700</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet700Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet700Text" xml:space="preserve">
+    <value>700</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet800" xml:space="preserve">
     <value>        800</value>
@@ -2724,14 +2784,41 @@
   <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet800Text" xml:space="preserve">
     <value>800</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet10" xml:space="preserve">
-    <value>                        10</value>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet900" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet900Hide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet900Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet900Pot" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet900PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet900PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet900PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet900PotText" xml:space="preserve">
+    <value>900</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet900Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalLgShalDistToGrowAreaInMet900Text" xml:space="preserve">
+    <value>900</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet100" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet1000" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet1000Hide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -2740,7 +2827,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet1000Pot" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet1000PotHide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -2761,16 +2848,16 @@
     <value>1000</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet100Hide" xml:space="preserve">
-    <value>15801,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet100Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet100Pot" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet100PotHide" xml:space="preserve">
-    <value>15801,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet100PotInit" xml:space="preserve">
     <value />
@@ -2787,50 +2874,20 @@
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet100Text" xml:space="preserve">
     <value>100</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet10Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet10Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet10Pot" xml:space="preserve">
-    <value>                        10</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet10PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet10PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet10PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet10PotText" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet10Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet10Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet20" xml:space="preserve">
-    <value>                       20</value>
-  </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet200" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet200Hide" xml:space="preserve">
-    <value>15801,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet200Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet200Pot" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet200PotHide" xml:space="preserve">
-    <value>15801,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet200PotInit" xml:space="preserve">
     <value />
@@ -2847,77 +2904,50 @@
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet200Text" xml:space="preserve">
     <value>200</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet20Hide" xml:space="preserve">
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet300" xml:space="preserve">
+    <value>                      300</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet300Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet20Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet300Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet20Pot" xml:space="preserve">
-    <value>                       20</value>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet300Pot" xml:space="preserve">
+    <value>                      300</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet20PotHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet300PotHide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet20PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet300PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet20PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet300PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet20PotText" xml:space="preserve">
-    <value>20</value>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet300PotText" xml:space="preserve">
+    <value>300</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet20Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet300Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet20Text" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet30" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet30Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet30Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet30Pot" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet30PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet30PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet30PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet30PotText" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet30Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet30Text" xml:space="preserve">
-    <value>30</value>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet300Text" xml:space="preserve">
+    <value>300</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet400" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet400Hide" xml:space="preserve">
-    <value>15801,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet400Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet400Pot" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet400PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet400PotInit" xml:space="preserve">
     <value />
@@ -2934,11 +2964,38 @@
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet400Text" xml:space="preserve">
     <value>400</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet5" xml:space="preserve">
-    <value>                                5</value>
-  </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet50" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet500" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet500Hide" xml:space="preserve">
+    <value>15801,15802,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet500Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet500Pot" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet500PotHide" xml:space="preserve">
+    <value>15801,15802,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet500PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet500PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet500PotText" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet500Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet500Text" xml:space="preserve">
+    <value>500</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet50Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -2947,7 +3004,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet50Pot" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet50PotHide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -2967,38 +3024,71 @@
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet50Text" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet5Hide" xml:space="preserve">
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet600" xml:space="preserve">
+    <value>            600</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet600Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet5Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet600Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet5Pot" xml:space="preserve">
-    <value>                                5</value>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet600Pot" xml:space="preserve">
+    <value>            600</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet5PotHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet600PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet600PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet600PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet600PotText" xml:space="preserve">
+    <value>600</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet600Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet600Text" xml:space="preserve">
+    <value>600</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet700" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet700Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet5PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet700Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet5PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet700Pot" xml:space="preserve">
+    <value>          700</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet5PotText" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet700PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet5Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet700PotInit" xml:space="preserve">
+    <value />
   </data>
-  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet5Text" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet700PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet700PotText" xml:space="preserve">
+    <value>700</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet700Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet700Text" xml:space="preserve">
+    <value>700</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet800" xml:space="preserve">
     <value>        800</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet800Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet800Init" xml:space="preserve">
     <value />
@@ -3023,6 +3113,36 @@
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet800Text" xml:space="preserve">
     <value>800</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet900" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet900Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet900Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet900Pot" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet900PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet900PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet900PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet900PotText" xml:space="preserve">
+    <value>900</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet900Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMet900Text" xml:space="preserve">
+    <value>900</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMetGreTh1000" xml:space="preserve">
     <value> &gt; 1000</value>
@@ -3055,43 +3175,40 @@
     <value>&gt;1000</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMetInfoReq" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMetInfoReqHide" xml:space="preserve">
-    <value>15801,15802,15803</value>
+    <value>15802,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMetInfoReqInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMetInfoReqPot" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMetInfoReqPotHide" xml:space="preserve">
-    <value>15801,15802,15803</value>
+    <value>15802,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMetInfoReqPotInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMetInfoReqPotReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMetInfoReqPotText" xml:space="preserve">
-    <value>1000 et plus</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMetInfoReqReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEnclTidalSmShalSeaDistToGrAreaInMetInfoReqText" xml:space="preserve">
-    <value>1000 et plus</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters10" xml:space="preserve">
-    <value>                        10</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters100" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters1000" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters1000Hide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -3100,7 +3217,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters1000Pot" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters1000PotHide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -3121,16 +3238,16 @@
     <value>1000</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters100Hide" xml:space="preserve">
-    <value>15801,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters100Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters100Pot" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters100PotHide" xml:space="preserve">
-    <value>15801,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters100PotInit" xml:space="preserve">
     <value />
@@ -3147,50 +3264,20 @@
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters100Text" xml:space="preserve">
     <value>100</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters10Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters10Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters10Pot" xml:space="preserve">
-    <value>                        10</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters10PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters10PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters10PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters10PotText" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters10Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters10Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters20" xml:space="preserve">
-    <value>                       20</value>
-  </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters200" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters200Hide" xml:space="preserve">
-    <value>15801,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters200Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters200Pot" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters200PotHide" xml:space="preserve">
-    <value>15801,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters200PotInit" xml:space="preserve">
     <value />
@@ -3207,65 +3294,38 @@
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters200Text" xml:space="preserve">
     <value>200</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters20Hide" xml:space="preserve">
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters300" xml:space="preserve">
+    <value>                      300</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters300Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters20Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters300Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters20Pot" xml:space="preserve">
-    <value>                       20</value>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters300Pot" xml:space="preserve">
+    <value>                      300</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters20PotHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters300PotHide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters20PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters300PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters20PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters300PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters20PotText" xml:space="preserve">
-    <value>20</value>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters300PotText" xml:space="preserve">
+    <value>300</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters20Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters300Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters20Text" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters30" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters30Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters30Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters30Pot" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters30PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters30PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters30PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters30PotText" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters30Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters30Text" xml:space="preserve">
-    <value>30</value>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters300Text" xml:space="preserve">
+    <value>300</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters400" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters400Hide" xml:space="preserve">
     <value>15801,15803,15804</value>
@@ -3274,7 +3334,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters400Pot" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters400PotHide" xml:space="preserve">
     <value>15801,15803,15804</value>
@@ -3294,20 +3354,47 @@
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters400Text" xml:space="preserve">
     <value>400</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters5" xml:space="preserve">
-    <value>                                5</value>
-  </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters50" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters500" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters500Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters500Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters500Pot" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters500PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters500PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters500PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters500PotText" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters500Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters500Text" xml:space="preserve">
+    <value>500</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters50Hide" xml:space="preserve">
-    <value>15801,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters50Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters50Pot" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters50PotHide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -3327,32 +3414,65 @@
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters50Text" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters5Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters600" xml:space="preserve">
+    <value>            600</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters5Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters600Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters600Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters5Pot" xml:space="preserve">
-    <value>                                5</value>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters600Pot" xml:space="preserve">
+    <value>            600</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters5PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters600PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters5PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters600PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters5PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters600PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters5PotText" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters600PotText" xml:space="preserve">
+    <value>600</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters5Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters600Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters5Text" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters600Text" xml:space="preserve">
+    <value>600</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters700" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters700Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters700Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters700Pot" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters700PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters700PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters700PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters700PotText" xml:space="preserve">
+    <value>700</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters700Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters700Text" xml:space="preserve">
+    <value>700</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters800" xml:space="preserve">
     <value>        800</value>
@@ -3383,6 +3503,36 @@
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters800Text" xml:space="preserve">
     <value>800</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters900" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters900Hide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters900Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters900Pot" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters900PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters900PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters900PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters900PotText" xml:space="preserve">
+    <value>900</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters900Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMeters900Text" xml:space="preserve">
+    <value>900</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMetGrThan1000" xml:space="preserve">
     <value> &gt; 1000</value>
@@ -3415,34 +3565,34 @@
     <value>&gt;1000</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMetInfoReq" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMetInfoReqHide" xml:space="preserve">
-    <value>15801,15802,15803</value>
+    <value>15802,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMetInfoReqInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMetInfoReqPot" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMetInfoReqPotHide" xml:space="preserve">
-    <value>15801,15802,15803</value>
+    <value>15802,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMetInfoReqPotInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMetInfoReqPotReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMetInfoReqPotText" xml:space="preserve">
-    <value>1000 et plus</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMetInfoReqReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumEncTidalLarDeDistToGrowAreaInMetInfoReqText" xml:space="preserve">
-    <value>1000 et plus</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumFeedlotActive" xml:space="preserve">
     <value>Actif</value>
@@ -3479,6 +3629,12 @@
   </data>
   <data name="PolSourceInfoEnumFeedlotStartDesc" xml:space="preserve">
     <value>Est-ce que l'enclos est actif ou inactif</value>
+  </data>
+  <data name="PolSourceInfoEnumFetchStart" xml:space="preserve">
+    <value>Le risque de pollution</value>
+  </data>
+  <data name="PolSourceInfoEnumFetchStartDesc" xml:space="preserve">
+    <value>Le niveau de risque est faible?</value>
   </data>
   <data name="PolSourceInfoEnumFieldLocationBoth" xml:space="preserve">
     <value>Autre propriété</value>
@@ -4582,10 +4738,25 @@
     <value>Marina.</value>
   </data>
   <data name="PolSourceInfoEnumHumanLocationMarinaHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507,10510</value>
+    <value>10501,10502,10503,10504,10505,10506,10507,10510</value>
   </data>
   <data name="PolSourceInfoEnumHumanLocationMarinaInit" xml:space="preserve">
     <value>par</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarinaLand" xml:space="preserve">
+    <value>Marina.</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarinaLandHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508,10510</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarinaLandInit" xml:space="preserve">
+    <value>par</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarinaLandReport" xml:space="preserve">
+    <value>Marina.</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationMarinaLandText" xml:space="preserve">
+    <value>Marina.</value>
   </data>
   <data name="PolSourceInfoEnumHumanLocationMarinaReport" xml:space="preserve">
     <value>Marina.</value>
@@ -4657,10 +4828,25 @@
     <value>Shoreline</value>
   </data>
   <data name="PolSourceInfoEnumHumanLocationShorelineHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507,10510</value>
+    <value>10501,10502,10503,10504,10505,10506,10507,10510</value>
   </data>
   <data name="PolSourceInfoEnumHumanLocationShorelineInit" xml:space="preserve">
     <value>sho</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationShorelineLand" xml:space="preserve">
+    <value>Shoreline</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationShorelineLandHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10506,10507,10508,10510</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationShorelineLandInit" xml:space="preserve">
+    <value>sho</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationShorelineLandReport" xml:space="preserve">
+    <value> école.</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationShorelineLandText" xml:space="preserve">
+    <value>École,</value>
   </data>
   <data name="PolSourceInfoEnumHumanLocationShorelineReport" xml:space="preserve">
     <value> école.</value>
@@ -5134,7 +5320,7 @@
     <value>Barges</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleBargesMHide" xml:space="preserve">
-    <value>12701,12702,12703,12704,12705,12708,12709,12710,12711,12712,12714,</value>
+    <value>12701,12702,12703,12704,12705,12708,12709,12710,12711,12712,12714,12721,12722</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleBargesMInit" xml:space="preserve">
     <value>boa</value>
@@ -5149,7 +5335,7 @@
     <value>Granges</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleBarnsHide" xml:space="preserve">
-    <value>12702,12707,12708,12710,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708</value>
+    <value>12702,12707,12708,12710,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708,12706,12719</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleBarnsInit" xml:space="preserve">
     <value>bar</value>
@@ -5164,7 +5350,7 @@
     <value>Boats</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsMHide" xml:space="preserve">
-    <value>12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,</value>
+    <value>12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsMInit" xml:space="preserve">
     <value>boa</value>
@@ -5179,7 +5365,7 @@
     <value>Églises</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleChurchesHide" xml:space="preserve">
-    <value>12705,12707,12708,12711,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708</value>
+    <value>12705,12707,12708,12711,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708,12706</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleChurchesInit" xml:space="preserve">
     <value>chu</value>
@@ -5224,7 +5410,7 @@
     <value>Cottages, </value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleCottagesHide" xml:space="preserve">
-    <value>12702,12707,12708,12710,12712,12713,12714,12715,12716,12717,12718,12708,12720</value>
+    <value>12702,12707,12708,12710,12712,12713,12714,12715,12716,12717,12718,12708,12720,12706,12719</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleCottagesInit" xml:space="preserve">
     <value>cot</value>
@@ -5254,7 +5440,7 @@
     <value>Hotels or Motels,</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleHotelsMotelsHide" xml:space="preserve">
-    <value>12705,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720</value>
+    <value>12705,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720,12721,12722,12706,12719</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleHotelsMotelsInit" xml:space="preserve">
     <value>pub</value>
@@ -5263,7 +5449,7 @@
     <value>Hotels or Motels,</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleHotelsMotelsMHide" xml:space="preserve">
-    <value>12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,</value>
+    <value>12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleHotelsMotelsMInit" xml:space="preserve">
     <value>pub</value>
@@ -5284,7 +5470,7 @@
     <value>Cliniques médicales</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleMedicalFacilitiesHide" xml:space="preserve">
-    <value>12703,12705,12707,12708,12709,12710,12711,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708</value>
+    <value>12703,12705,12707,12708,12709,12710,12711,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708,12706</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleMedicalFacilitiesInit" xml:space="preserve">
     <value>med</value>
@@ -5314,7 +5500,7 @@
     <value>Récréatif</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultiplePublicBuildingsHide" xml:space="preserve">
-    <value>12705,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720</value>
+    <value>12705,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720,12706,12719</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultiplePublicBuildingsInit" xml:space="preserve">
     <value>pub</value>
@@ -5329,7 +5515,7 @@
     <value>Résidentiel</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleResidencesHide" xml:space="preserve">
-    <value>12707,12710,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720</value>
+    <value>12706,12707,12710,12711,12712,12713,12714,12715,12716,12717,12718,12719,12708,12720</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleResidencesInit" xml:space="preserve">
     <value>res</value>
@@ -5338,7 +5524,7 @@
     <value>Résidentiel</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleResidencesMHide" xml:space="preserve">
-    <value>12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,</value>
+    <value>12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleResidencesMInit" xml:space="preserve">
     <value>res</value>
@@ -5359,7 +5545,7 @@
     <value>Écoles</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleSchoolsHide" xml:space="preserve">
-    <value>12705,12707,12708,12710,12711,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708</value>
+    <value>12705,12707,12708,12710,12711,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708,12706</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleSchoolsInit" xml:space="preserve">
     <value>sch</value>
@@ -5425,7 +5611,7 @@
     <value>Barge,</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleBargeMHide" xml:space="preserve">
-    <value>12701,12702,12703,12704,12705,12708,12709,12710,12711,12712,12714,</value>
+    <value>12701,12702,12703,12704,12705,12708,12709,12710,12711,12712,12714,12721,12722</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleBargeMInit" xml:space="preserve">
     <value>boa</value>
@@ -5440,7 +5626,7 @@
     <value>Grange</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleBarnHide" xml:space="preserve">
-    <value>12702,12707,12708,12710,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708</value>
+    <value>12702,12707,12708,12710,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708,12706,12719</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleBarnInit" xml:space="preserve">
     <value>bar</value>
@@ -5455,7 +5641,7 @@
     <value>Boat,</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleBoatMHide" xml:space="preserve">
-    <value>12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,</value>
+    <value>12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleBoatMInit" xml:space="preserve">
     <value>boa</value>
@@ -5470,7 +5656,7 @@
     <value>Église</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleChurchHide" xml:space="preserve">
-    <value>12705,12707,12708,12711,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708</value>
+    <value>12705,12707,12708,12711,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708,12706</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleChurchInit" xml:space="preserve">
     <value>chu</value>
@@ -5515,7 +5701,7 @@
     <value>Cottage,</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleCottageHide" xml:space="preserve">
-    <value>12702,12707,12708,12710,12712,12713,12714,12715,12716,12717,12718,12708,12720</value>
+    <value>12702,12707,12708,12710,12712,12713,12714,12715,12716,12717,12718,12708,12720,12706,12719</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleCottageInit" xml:space="preserve">
     <value>cot</value>
@@ -5545,7 +5731,7 @@
     <value>Hotel or Motel,</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSinglehotelMotelHide" xml:space="preserve">
-    <value>12705,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720</value>
+    <value>12705,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720,12721,12722,12706,12719</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSinglehotelMotelInit" xml:space="preserve">
     <value>pub</value>
@@ -5554,7 +5740,7 @@
     <value>Hotel or Motel,</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSinglehotelMotelMHide" xml:space="preserve">
-    <value>12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,</value>
+    <value>12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSinglehotelMotelMInit" xml:space="preserve">
     <value>pub</value>
@@ -5575,7 +5761,7 @@
     <value>Clinique médicale</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleMedicalFacilityHide" xml:space="preserve">
-    <value>12703,12705,12707,12708,12709,12710,12711,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708</value>
+    <value>12703,12705,12707,12708,12709,12710,12711,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708,12706</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleMedicalFacilityInit" xml:space="preserve">
     <value>med</value>
@@ -5605,7 +5791,7 @@
     <value>Récréatif</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSinglePublicBuildingsHide" xml:space="preserve">
-    <value>12705,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720</value>
+    <value>12705,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720,12706,12719</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSinglePublicBuildingsInit" xml:space="preserve">
     <value>pub</value>
@@ -5620,7 +5806,7 @@
     <value>Résidentiel</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleResidentialHide" xml:space="preserve">
-    <value>12707,12710,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720</value>
+    <value>12706,12707,12710,12711,12712,12713,12714,12715,12716,12717,12718,12719,12708,12720</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleResidentialInit" xml:space="preserve">
     <value>res</value>
@@ -5629,7 +5815,7 @@
     <value>Résidentiel</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleResidentialMHide" xml:space="preserve">
-    <value>12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,</value>
+    <value>12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleResidentialMInit" xml:space="preserve">
     <value>res</value>
@@ -5650,7 +5836,7 @@
     <value>École</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleSchoolHide" xml:space="preserve">
-    <value>12705,12707,12708,12710,12711,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708</value>
+    <value>12705,12707,12708,12710,12711,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708,12706</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleSchoolInit" xml:space="preserve">
     <value>sch</value>
@@ -6927,23 +7113,20 @@
   <data name="PolSourceInfoEnumOilDumpingFacilityStartDesc" xml:space="preserve">
     <value>Y a-t-il des installations pour vider l'huile à l'entée ou sur le quai?</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet10" xml:space="preserve">
-    <value>                        10</value>
-  </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet100" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet1000" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet1000Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet1000Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet1000Pot" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet1000PotHide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -6964,16 +7147,16 @@
     <value>1000</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet100Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet100Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet100Pot" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet100PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet100PotInit" xml:space="preserve">
     <value />
@@ -6990,50 +7173,20 @@
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet100Text" xml:space="preserve">
     <value>100</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet10Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet10Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet10Pot" xml:space="preserve">
-    <value>                        10</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet10PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet10PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet10PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet10PotText" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet10Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet10Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet20" xml:space="preserve">
-    <value>                       20</value>
-  </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet200" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet200Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet200Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet200Pot" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet200PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet200PotInit" xml:space="preserve">
     <value />
@@ -7050,77 +7203,50 @@
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet200Text" xml:space="preserve">
     <value>200</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet20Hide" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet300" xml:space="preserve">
+    <value>                      300</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet300Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet20Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet300Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet20Pot" xml:space="preserve">
-    <value>                       20</value>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet300Pot" xml:space="preserve">
+    <value>                      300</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet20PotHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet300PotHide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet20PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet300PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet20PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet300PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet20PotText" xml:space="preserve">
-    <value>20</value>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet300PotText" xml:space="preserve">
+    <value>300</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet20Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet300Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet20Text" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet30" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet30Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet30Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet30Pot" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet30PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet30PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet30PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet30PotText" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet30Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet30Text" xml:space="preserve">
-    <value>30</value>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet300Text" xml:space="preserve">
+    <value>300</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet400" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet400Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet400Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet400Pot" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet400PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet400PotInit" xml:space="preserve">
     <value />
@@ -7137,11 +7263,38 @@
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet400Text" xml:space="preserve">
     <value>400</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet5" xml:space="preserve">
-    <value>                                5</value>
-  </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet50" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet500" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet500Hide" xml:space="preserve">
+    <value>15801,15802,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet500Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet500Pot" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet500PotHide" xml:space="preserve">
+    <value>15801,15802,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet500PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet500PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet500PotText" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet500Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet500Text" xml:space="preserve">
+    <value>500</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet50Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -7150,10 +7303,10 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet50Pot" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet50PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet50PotInit" xml:space="preserve">
     <value />
@@ -7170,38 +7323,71 @@
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet50Text" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet5Hide" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet600" xml:space="preserve">
+    <value>            600</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet600Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet5Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet600Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet5Pot" xml:space="preserve">
-    <value>                                5</value>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet600Pot" xml:space="preserve">
+    <value>            600</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet5PotHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet600PotHide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet5PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet600PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet5PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet600PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet5PotText" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet600PotText" xml:space="preserve">
+    <value>600</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet5Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet600Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet5Text" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet600Text" xml:space="preserve">
+    <value>600</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet700" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet700Hide" xml:space="preserve">
+    <value>15801,15802,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet700Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet700Pot" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet700PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet700PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet700PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet700PotText" xml:space="preserve">
+    <value>700</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet700Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet700Text" xml:space="preserve">
+    <value>700</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet800" xml:space="preserve">
     <value>        800</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet800Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet800Init" xml:space="preserve">
     <value />
@@ -7227,11 +7413,41 @@
   <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet800Text" xml:space="preserve">
     <value>800</value>
   </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet900" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet900Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet900Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet900Pot" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet900PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet900PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet900PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet900PotText" xml:space="preserve">
+    <value>900</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet900Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLarDeDisToGrowAreaInMet900Text" xml:space="preserve">
+    <value>900</value>
+  </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDistToGrowAreaInMetGrThan1000" xml:space="preserve">
     <value> &gt; 1000</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDistToGrowAreaInMetGrThan1000Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDistToGrowAreaInMetGrThan1000Init" xml:space="preserve">
     <value />
@@ -7258,34 +7474,34 @@
     <value>&gt;1000</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDistToGrowAreaInMetInfoReq" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDistToGrowAreaInMetInfoReqHide" xml:space="preserve">
-    <value>15801,15802,15803</value>
+    <value>15802,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDistToGrowAreaInMetInfoReqInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDistToGrowAreaInMetInfoReqPot" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDistToGrowAreaInMetInfoReqPotHide" xml:space="preserve">
     <value>15801,15802,15803</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDistToGrowAreaInMetInfoReqPotInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDistToGrowAreaInMetInfoReqPotReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDistToGrowAreaInMetInfoReqPotText" xml:space="preserve">
-    <value>1000 et plus</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDistToGrowAreaInMetInfoReqReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLarDeDistToGrowAreaInMetInfoReqText" xml:space="preserve">
-    <value>1000 et plus</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLargeDeepDefinite" xml:space="preserve">
     <value>  Moyen</value>
@@ -7294,7 +7510,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLargeDeepDefiniteInit" xml:space="preserve">
-    <value>M</value>
+    <value>L</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLargeDeepDefiniteReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant moyen.</value>
@@ -7315,7 +7531,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLargeDeepPotentialInit" xml:space="preserve">
-    <value>M</value>
+    <value>L</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLargeDeepPotentialReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant moyen.</value>
@@ -7336,7 +7552,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShallowDefiniteInit" xml:space="preserve">
-    <value>M</value>
+    <value>L</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShallowDefiniteReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant moyen.</value>
@@ -7357,7 +7573,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShallowPotentialInit" xml:space="preserve">
-    <value>M</value>
+    <value>L</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShallowPotentialReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant moyen.</value>
@@ -7372,43 +7588,40 @@
     <value>Moyen,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrAreaInMetInfoReq" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrAreaInMetInfoReqHide" xml:space="preserve">
     <value>15801,15802,15803</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrAreaInMetInfoReqInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrAreaInMetInfoReqPot" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrAreaInMetInfoReqPotHide" xml:space="preserve">
     <value>15801,15802,15803</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrAreaInMetInfoReqPotInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrAreaInMetInfoReqPotReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrAreaInMetInfoReqPotText" xml:space="preserve">
-    <value>1000 et plus</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrAreaInMetInfoReqReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrAreaInMetInfoReqText" xml:space="preserve">
-    <value>1000 et plus</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet10" xml:space="preserve">
-    <value>                        10</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet100" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet1000" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet1000Hide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -7417,7 +7630,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet1000Pot" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet1000PotHide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -7438,16 +7651,16 @@
     <value>1000</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet100Hide" xml:space="preserve">
-    <value>15801,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet100Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet100Pot" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet100PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet100PotInit" xml:space="preserve">
     <value />
@@ -7464,50 +7677,20 @@
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet100Text" xml:space="preserve">
     <value>100</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet10Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet10Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet10Pot" xml:space="preserve">
-    <value>                        10</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet10PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet10PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet10PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet10PotText" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet10Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet10Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet20" xml:space="preserve">
-    <value>                       20</value>
-  </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet200" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet200Hide" xml:space="preserve">
-    <value>15801,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet200Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet200Pot" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet200PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet200PotInit" xml:space="preserve">
     <value />
@@ -7524,74 +7707,47 @@
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet200Text" xml:space="preserve">
     <value>200</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet20Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet300" xml:space="preserve">
+    <value>                      300</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet20Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet300Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet300Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet20Pot" xml:space="preserve">
-    <value>                       20</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet300Pot" xml:space="preserve">
+    <value>                      300</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet20PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet300PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet20PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet300PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet20PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet300PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet20PotText" xml:space="preserve">
-    <value>20</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet300PotText" xml:space="preserve">
+    <value>300</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet20Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet300Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet20Text" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet30" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet30Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet30Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet30Pot" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet30PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet30PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet30PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet30PotText" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet30Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet30Text" xml:space="preserve">
-    <value>30</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet300Text" xml:space="preserve">
+    <value>300</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet400" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet400Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet400Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet400Pot" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet400PotHide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -7611,11 +7767,38 @@
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet400Text" xml:space="preserve">
     <value>400</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet5" xml:space="preserve">
-    <value>                                5</value>
-  </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet50" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet500" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet500Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet500Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet500Pot" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet500PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet500PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet500PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet500PotText" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet500Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet500Text" xml:space="preserve">
+    <value>500</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet50Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -7624,7 +7807,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet50Pot" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet50PotHide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -7644,32 +7827,65 @@
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet50Text" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet5Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet600" xml:space="preserve">
+    <value>            600</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet5Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet600Hide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet600Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet5Pot" xml:space="preserve">
-    <value>                                5</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet600Pot" xml:space="preserve">
+    <value>            600</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet5PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet600PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet5PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet600PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet5PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet600PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet5PotText" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet600PotText" xml:space="preserve">
+    <value>600</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet5Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet600Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet5Text" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet600Text" xml:space="preserve">
+    <value>600</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet700" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet700Hide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet700Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet700Pot" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet700PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet700PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet700PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet700PotText" xml:space="preserve">
+    <value>700</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet700Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet700Text" xml:space="preserve">
+    <value>700</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet800" xml:space="preserve">
     <value>        800</value>
@@ -7700,6 +7916,36 @@
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet800Text" xml:space="preserve">
     <value>800</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet900" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet900Hide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet900Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet900Pot" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet900PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet900PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet900PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet900PotText" xml:space="preserve">
+    <value>900</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet900Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMet900Text" xml:space="preserve">
+    <value>900</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalLgShalSeaDistToGrowAreaInMetGrThan1000" xml:space="preserve">
     <value> &gt; 1000</value>
@@ -7738,7 +7984,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalSmallDeepDefiniteInit" xml:space="preserve">
-    <value>M</value>
+    <value>L</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalSmallDeepDefiniteReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant moyen.</value>
@@ -7759,7 +8005,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalSmallDeepPotentialInit" xml:space="preserve">
-    <value>M</value>
+    <value>L</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalSmallDeepPotentialReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant moyen.</value>
@@ -7780,7 +8026,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalSmallShallowDefiniteInit" xml:space="preserve">
-    <value>M</value>
+    <value>L</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalSmallShallowDefiniteReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant moyen.</value>
@@ -7801,7 +8047,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidalSmallShallowPotentialInit" xml:space="preserve">
-    <value>M</value>
+    <value>L</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidalSmallShallowPotentialReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant moyen.</value>
@@ -7816,52 +8062,49 @@
     <value>Moyen,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrAreaInMetInfoReq" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrAreaInMetInfoReqHide" xml:space="preserve">
     <value>15801,15802,15803</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrAreaInMetInfoReqInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrAreaInMetInfoReqPot" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrAreaInMetInfoReqPotHide" xml:space="preserve">
     <value>15801,15802,15803</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrAreaInMetInfoReqPotInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrAreaInMetInfoReqPotReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrAreaInMetInfoReqPotText" xml:space="preserve">
-    <value>1000 et plus</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrAreaInMetInfoReqReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrAreaInMetInfoReqText" xml:space="preserve">
-    <value>1000 et plus</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet10" xml:space="preserve">
-    <value>                        10</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet100" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet1000" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet1000Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet1000Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet1000Pot" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet1000PotHide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -7882,16 +8125,16 @@
     <value>1000</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet100Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet100Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet100Pot" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet100PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet100PotInit" xml:space="preserve">
     <value />
@@ -7908,50 +8151,20 @@
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet100Text" xml:space="preserve">
     <value>100</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet10Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet10Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet10Pot" xml:space="preserve">
-    <value>                        10</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet10PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet10PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet10PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet10PotText" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet10Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet10Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet20" xml:space="preserve">
-    <value>                       20</value>
-  </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet200" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet200Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet200Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet200Pot" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet200PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet200PotInit" xml:space="preserve">
     <value />
@@ -7968,77 +8181,50 @@
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet200Text" xml:space="preserve">
     <value>200</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet20Hide" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet300" xml:space="preserve">
+    <value>                      300</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet300Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet20Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet300Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet20Pot" xml:space="preserve">
-    <value>                       20</value>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet300Pot" xml:space="preserve">
+    <value>                      300</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet20PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet300PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet20PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet300PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet20PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet300PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet20PotText" xml:space="preserve">
-    <value>20</value>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet300PotText" xml:space="preserve">
+    <value>300</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet20Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet300Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet20Text" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet30" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet30Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet30Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet30Pot" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet30PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet30PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet30PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet30PotText" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet30Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet30Text" xml:space="preserve">
-    <value>30</value>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet300Text" xml:space="preserve">
+    <value>300</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet400" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet400Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet400Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet400Pot" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet400PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet400PotInit" xml:space="preserve">
     <value />
@@ -8055,23 +8241,50 @@
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet400Text" xml:space="preserve">
     <value>400</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet5" xml:space="preserve">
-    <value>                                5</value>
-  </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet50" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet500" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet500Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet500Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet500Pot" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet500PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet500PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet500PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet500PotText" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet500Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet500Text" xml:space="preserve">
+    <value>500</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet50Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet50Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet50Pot" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet50PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet50PotInit" xml:space="preserve">
     <value />
@@ -8088,38 +8301,71 @@
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet50Text" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet5Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet600" xml:space="preserve">
+    <value>            600</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet5Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet600Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet600Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet5Pot" xml:space="preserve">
-    <value>                                5</value>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet600Pot" xml:space="preserve">
+    <value>            600</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet5PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet600PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet5PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet600PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet5PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet600PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet5PotText" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet600PotText" xml:space="preserve">
+    <value>600</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet5Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet600Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet5Text" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet600Text" xml:space="preserve">
+    <value>600</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet700" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet700Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet700Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet700Pot" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet700PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet700PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet700PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet700PotText" xml:space="preserve">
+    <value>700</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet700Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet700Text" xml:space="preserve">
+    <value>700</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet800" xml:space="preserve">
     <value>        800</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet800Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet800Init" xml:space="preserve">
     <value />
@@ -8128,7 +8374,7 @@
     <value>        800</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet800PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet800PotInit" xml:space="preserve">
     <value />
@@ -8144,6 +8390,36 @@
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet800Text" xml:space="preserve">
     <value>800</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet900" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet900Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet900Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet900Pot" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet900PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet900PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet900PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet900PotText" xml:space="preserve">
+    <value>900</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet900Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMet900Text" xml:space="preserve">
+    <value>900</value>
   </data>
   <data name="PolSourceInfoEnumOpenTidSmDeDistToGrowAreaInMetGrThan1000" xml:space="preserve">
     <value> &gt; 1000</value>
@@ -8206,43 +8482,40 @@
     <value>&gt;1000</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrAreaInMetInfoReq" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrAreaInMetInfoReqHide" xml:space="preserve">
-    <value>15801,15802,15803</value>
+    <value>15802,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrAreaInMetInfoReqInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrAreaInMetInfoReqPot" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value>INFO REQUIRED</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrAreaInMetInfoReqPotHide" xml:space="preserve">
-    <value>15801,15802,15803</value>
+    <value>15802,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrAreaInMetInfoReqPotInit" xml:space="preserve">
-    <value>&gt; 1000</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrAreaInMetInfoReqPotReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrAreaInMetInfoReqPotText" xml:space="preserve">
-    <value>1000 et plus</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrAreaInMetInfoReqReport" xml:space="preserve">
-    <value> plus de 1 km de largeur.</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrAreaInMetInfoReqText" xml:space="preserve">
-    <value>1000 et plus</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet10" xml:space="preserve">
-    <value>                        10</value>
+    <value>Information non disponible,</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet100" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet1000" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet1000Hide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -8251,7 +8524,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet1000Pot" xml:space="preserve">
-    <value>     1000</value>
+    <value>    1000</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet1000PotHide" xml:space="preserve">
     <value>15802,15803,15804</value>
@@ -8272,16 +8545,16 @@
     <value>1000</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet100Hide" xml:space="preserve">
-    <value>15801,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet100Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet100Pot" xml:space="preserve">
-    <value>              100</value>
+    <value>                         100</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet100PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet100PotInit" xml:space="preserve">
     <value />
@@ -8298,50 +8571,20 @@
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet100Text" xml:space="preserve">
     <value>100</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet10Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet10Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet10Pot" xml:space="preserve">
-    <value>                        10</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet10PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet10PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet10PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet10PotText" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet10Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 10 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet10Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet20" xml:space="preserve">
-    <value>                       20</value>
-  </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet200" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet200Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet200Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet200Pot" xml:space="preserve">
-    <value>            200</value>
+    <value>                       200</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet200PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet200PotInit" xml:space="preserve">
     <value />
@@ -8358,77 +8601,50 @@
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet200Text" xml:space="preserve">
     <value>200</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet20Hide" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet300" xml:space="preserve">
+    <value>                      300</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet300Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet20Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet300Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet20Pot" xml:space="preserve">
-    <value>                       20</value>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet300Pot" xml:space="preserve">
+    <value>                      300</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet20PotHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet300PotHide" xml:space="preserve">
     <value>15801,15802,15804</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet20PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet300PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet20PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet300PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet20PotText" xml:space="preserve">
-    <value>20</value>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet300PotText" xml:space="preserve">
+    <value>300</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet20Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 20 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet300Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 300 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet20Text" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet30" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet30Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet30Init" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet30Pot" xml:space="preserve">
-    <value>                      30</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet30PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet30PotInit" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet30PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet30PotText" xml:space="preserve">
-    <value>30</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet30Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 30 m de la côte.</value>
-  </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet30Text" xml:space="preserve">
-    <value>30</value>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet300Text" xml:space="preserve">
+    <value>300</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet400" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet400Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15802,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet400Init" xml:space="preserve">
     <value />
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet400Pot" xml:space="preserve">
-    <value>          400</value>
+    <value>                 400</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet400PotHide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet400PotInit" xml:space="preserve">
     <value />
@@ -8445,11 +8661,38 @@
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet400Text" xml:space="preserve">
     <value>400</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet5" xml:space="preserve">
-    <value>                                5</value>
-  </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet50" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet500" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet500Hide" xml:space="preserve">
+    <value>15801,15802,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet500Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet500Pot" xml:space="preserve">
+    <value>              500</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet500PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet500PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet500PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet500PotText" xml:space="preserve">
+    <value>500</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet500Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 500 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet500Text" xml:space="preserve">
+    <value>500</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet50Hide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -8458,7 +8701,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet50Pot" xml:space="preserve">
-    <value>                 50</value>
+    <value>                                50</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet50PotHide" xml:space="preserve">
     <value>15801,15802,15804</value>
@@ -8478,38 +8721,71 @@
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet50Text" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet5Hide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet600" xml:space="preserve">
+    <value>            600</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet5Init" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet600Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet600Init" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet5Pot" xml:space="preserve">
-    <value>                                5</value>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet600Pot" xml:space="preserve">
+    <value>            600</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet5PotHide" xml:space="preserve">
-    <value>15801,15802,15804</value>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet600PotHide" xml:space="preserve">
+    <value>15801,15803,15804</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet5PotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet600PotInit" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet5PotReport" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet600PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet5PotText" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet600PotText" xml:space="preserve">
+    <value>600</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet5Report" xml:space="preserve">
-    <value>à l'aire de croissance des mollusques est approximativement 5 m de la côte.</value>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet600Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 600 m de la côte.</value>
   </data>
-  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet5Text" xml:space="preserve">
-    <value>5</value>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet600Text" xml:space="preserve">
+    <value>600</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet700" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet700Hide" xml:space="preserve">
+    <value>15801,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet700Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet700Pot" xml:space="preserve">
+    <value>          700</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet700PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet700PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet700PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet700PotText" xml:space="preserve">
+    <value>700</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet700Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 700 m de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet700Text" xml:space="preserve">
+    <value>700</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet800" xml:space="preserve">
     <value>        800</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet800Hide" xml:space="preserve">
-    <value>15802,15803,15804</value>
+    <value>15801,15803,15804</value>
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet800Init" xml:space="preserve">
     <value />
@@ -8534,6 +8810,36 @@
   </data>
   <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet800Text" xml:space="preserve">
     <value>800</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet900" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet900Hide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet900Init" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet900Pot" xml:space="preserve">
+    <value>      900</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet900PotHide" xml:space="preserve">
+    <value>15802,15803,15804</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet900PotInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet900PotReport" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet900PotText" xml:space="preserve">
+    <value>900</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet900Report" xml:space="preserve">
+    <value>à l'aire de croissance des mollusques est approximativement 900 de la côte.</value>
+  </data>
+  <data name="PolSourceInfoEnumOpTidalSmShalDistToGrowAreaInMet900Text" xml:space="preserve">
+    <value>900</value>
   </data>
   <data name="PolSourceInfoEnumOuthouseConcreteTank" xml:space="preserve">
     <value>Réservoir en béton</value>
@@ -8611,7 +8917,7 @@
     <value>     Potentielle</value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActiveHide" xml:space="preserve">
-    <value>15901,15902</value>
+    <value>90001,90002</value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActiveInit" xml:space="preserve">
     <value>w</value>
@@ -9417,19 +9723,19 @@
   <data name="PolSourceInfoEnumRiskHighConfirmedVisualText" xml:space="preserve">
     <value>Élevé, confirmation visuelle,</value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighSuggest" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskHighNotConfirmed" xml:space="preserve">
     <value>Élevé</value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighSuggestHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskHighNotConfirmedHide" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumRiskHighSuggestInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskHighNotConfirmedInit" xml:space="preserve">
     <value>H</value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighSuggestReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskHighNotConfirmedReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant élevé, mais celui-ci n'a pas été confirmé.</value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighSuggestText" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskHighNotConfirmedText" xml:space="preserve">
     <value>Élevé,</value>
   </data>
   <data name="PolSourceInfoEnumRiskLow" xml:space="preserve">
@@ -9646,7 +9952,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumShelteredTidalLargeDeepDefiniteInit" xml:space="preserve">
-    <value>L</value>
+    <value>S</value>
   </data>
   <data name="PolSourceInfoEnumShelteredTidalLargeDeepDefiniteReport" xml:space="preserve">
     <value>  Le niveau de risque en relation aux aires de croissance des mollusques est faible.</value>
@@ -9661,7 +9967,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumShelteredTidalLgShallowDefiniteInit" xml:space="preserve">
-    <value>L</value>
+    <value>S</value>
   </data>
   <data name="PolSourceInfoEnumShelteredTidalLgShallowDefiniteReport" xml:space="preserve">
     <value>  Le niveau de risque en relation aux aires de croissance des mollusques est faible.</value>
@@ -9676,7 +9982,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumShelteredTidalLgShallowPotentialInit" xml:space="preserve">
-    <value>L</value>
+    <value>S</value>
   </data>
   <data name="PolSourceInfoEnumShelteredTidalLgShallowPotentialReport" xml:space="preserve">
     <value>  Le niveau de risque en relation aux aires de croissance des mollusques est faible.</value>
@@ -9691,7 +9997,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumShelteredTidalSmallDeepDefiniteInit" xml:space="preserve">
-    <value>L</value>
+    <value>S</value>
   </data>
   <data name="PolSourceInfoEnumShelteredTidalSmallDeepDefiniteReport" xml:space="preserve">
     <value>  Le niveau de risque en relation aux aires de croissance des mollusques est faible.</value>
@@ -9706,7 +10012,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumShelteredTidalSmallDeepPotentialInit" xml:space="preserve">
-    <value>L</value>
+    <value>S</value>
   </data>
   <data name="PolSourceInfoEnumShelteredTidalSmallDeepPotentialReport" xml:space="preserve">
     <value>  Le niveau de risque en relation aux aires de croissance des mollusques est faible.</value>
@@ -9721,7 +10027,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumShelteredTidalSmallShallowDefiniteInit" xml:space="preserve">
-    <value>L</value>
+    <value>S</value>
   </data>
   <data name="PolSourceInfoEnumShelteredTidalSmallShallowDefiniteReport" xml:space="preserve">
     <value>  Le niveau de risque en relation aux aires de croissance des mollusques est faible.</value>
@@ -9736,7 +10042,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumShelteredTidalSmallShallowPotentialInit" xml:space="preserve">
-    <value>L</value>
+    <value>S</value>
   </data>
   <data name="PolSourceInfoEnumShelteredTidalSmallShallowPotentialReport" xml:space="preserve">
     <value>  Le niveau de risque en relation aux aires de croissance des mollusques est faible.</value>
@@ -9751,7 +10057,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumShelteresTidalLargeDeepPotentialInit" xml:space="preserve">
-    <value>L</value>
+    <value>S</value>
   </data>
   <data name="PolSourceInfoEnumShelteresTidalLargeDeepPotentialReport" xml:space="preserve">
     <value>  Le niveau de risque en relation aux aires de croissance des mollusques est faible.</value>
@@ -9759,11 +10065,20 @@
   <data name="PolSourceInfoEnumShelteresTidalLargeDeepPotentialText" xml:space="preserve">
     <value>Faible,</value>
   </data>
-  <data name="PolSourceInfoEnumShelterStart" xml:space="preserve">
-    <value>Le risque de pollution</value>
+  <data name="PolSourceInfoEnumShelterUnknown" xml:space="preserve">
+    <value>Unknown</value>
   </data>
-  <data name="PolSourceInfoEnumShelterStartDesc" xml:space="preserve">
-    <value>Le niveau de risque est faible?</value>
+  <data name="PolSourceInfoEnumShelterUnknownHide" xml:space="preserve">
+    <value>15801,15802,15803</value>
+  </data>
+  <data name="PolSourceInfoEnumShelterUnknownInit" xml:space="preserve">
+    <value>Un</value>
+  </data>
+  <data name="PolSourceInfoEnumShelterUnknownReport" xml:space="preserve">
+    <value>  Le niveau de risque est considéré comme étant moyen.</value>
+  </data>
+  <data name="PolSourceInfoEnumShelterUnknownText" xml:space="preserve">
+    <value>Moyen,</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsent" xml:space="preserve">
     <value>          Zone riveraine absente</value>
@@ -10204,7 +10519,7 @@
     <value>Non polluante</value>
   </data>
   <data name="PolSourceInfoEnumStatusNonPollutionSourceHide" xml:space="preserve">
-    <value />
+    <value>91003,91004,91005</value>
   </data>
   <data name="PolSourceInfoEnumStatusNonPollutionSourceInit" xml:space="preserve">
     <value>N</value>
@@ -10266,21 +10581,6 @@
   <data name="PolSourceInfoEnumStructureInRoadNoStructureVegText" xml:space="preserve">
     <value>Cours d'eau,</value>
   </data>
-  <data name="PolSourceInfoEnumSuggestedRiskFollowupInfoRequired" xml:space="preserve">
-    <value>Suivi requis</value>
-  </data>
-  <data name="PolSourceInfoEnumSuggestedRiskFollowupInfoRequiredHide" xml:space="preserve">
-    <value>93002</value>
-  </data>
-  <data name="PolSourceInfoEnumSuggestedRiskFollowupInfoRequiredInit" xml:space="preserve">
-    <value>folUp</value>
-  </data>
-  <data name="PolSourceInfoEnumSuggestedRiskFollowupInfoRequiredReport" xml:space="preserve">
-    <value>  De l'information supplémentaire est requise pour ce site.</value>
-  </data>
-  <data name="PolSourceInfoEnumSuggestedRiskFollowupInfoRequiredText" xml:space="preserve">
-    <value>Suivi requis,</value>
-  </data>
   <data name="PolSourceInfoEnumSuggestedRiskHigh" xml:space="preserve">
     <value>Élevé</value>
   </data>
@@ -10295,6 +10595,21 @@
   </data>
   <data name="PolSourceInfoEnumSuggestedRiskHighText" xml:space="preserve">
     <value>Élevé,</value>
+  </data>
+  <data name="PolSourceInfoEnumSuggestedRiskInfoRequired" xml:space="preserve">
+    <value>Suivi requis</value>
+  </data>
+  <data name="PolSourceInfoEnumSuggestedRiskInfoRequiredHide" xml:space="preserve">
+    <value>93002</value>
+  </data>
+  <data name="PolSourceInfoEnumSuggestedRiskInfoRequiredInit" xml:space="preserve">
+    <value>folUp</value>
+  </data>
+  <data name="PolSourceInfoEnumSuggestedRiskInfoRequiredReport" xml:space="preserve">
+    <value>  De l'information supplémentaire est requise pour ce site.</value>
+  </data>
+  <data name="PolSourceInfoEnumSuggestedRiskInfoRequiredText" xml:space="preserve">
+    <value>Suivi requis,</value>
   </data>
   <data name="PolSourceInfoEnumSuggestedRiskLow" xml:space="preserve">
     <value>Faible </value>
@@ -10452,6 +10767,9 @@
   <data name="PolSourceInfoEnumTidalLargeShallowPotential" xml:space="preserve">
     <value>and a small tidal range.  </value>
   </data>
+  <data name="PolSourceInfoEnumTidalLargeShallowPotentialDesc" xml:space="preserve">
+    <value>sh</value>
+  </data>
   <data name="PolSourceInfoEnumTidalLargeShallowPotentialHide" xml:space="preserve">
     <value>16701,16702,16703,16704,16705,16706,16707,16708,16709,16710,16711,16712,16715,16716</value>
   </data>
@@ -10522,6 +10840,21 @@
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par échantillonnage d'eau.</value>
   </data>
   <data name="PolSourceInfoEnumTidalSmallShallowPotentialText" xml:space="preserve">
+    <value>Élevé, confirmation par échantillon d'eau,</value>
+  </data>
+  <data name="PolSourceInfoEnumTidalUnknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="PolSourceInfoEnumTidalUnknownHide" xml:space="preserve">
+    <value>15801,15802,15803</value>
+  </data>
+  <data name="PolSourceInfoEnumTidalUnknownInit" xml:space="preserve">
+    <value>UN</value>
+  </data>
+  <data name="PolSourceInfoEnumTidalUnknownReport" xml:space="preserve">
+    <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par échantillonnage d'eau.</value>
+  </data>
+  <data name="PolSourceInfoEnumTidalUnknownText" xml:space="preserve">
     <value>Élevé, confirmation par échantillon d'eau,</value>
   </data>
   <data name="PolSourceInfoEnumTypesOfAnimalLivestock" xml:space="preserve">
