@@ -1078,7 +1078,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Number of structures (barns) where animals are found..
+        ///   Looks up a localized string similar to Number of structures (barns) where animals are found. But in the wild its NA!.
         /// </summary>
         public static string PolSourceInfoEnumAnimalBldgStartDesc {
             get {
@@ -1096,7 +1096,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to                     Agricultural.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationAgriculturalDom {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationAgriculturalDom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationAgriculturalDomHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationAgriculturalDomHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to agr.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationAgriculturalDomInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationAgriculturalDomInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to were observed in an agricultural area.  .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationAgriculturalDomReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationAgriculturalDomReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Agricultural.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationAgriculturalDomText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationAgriculturalDomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationAgriculturalHide {
             get {
@@ -1141,7 +1186,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to       Barge.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationBargeDom {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationBargeDom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationBargeDomHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationBargeDomHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to bar.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationBargeDomInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationBargeDomInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to were observed on a barge.  .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationBargeDomReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationBargeDomReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Barge.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationBargeDomText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationBargeDomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationBargeHide {
             get {
@@ -1186,7 +1276,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to                         Cottage-Trailer.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationCottageLotDom {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationCottageLotDom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationCottageLotDomHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationCottageLotDomHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to cot.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationCottageLotDomInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationCottageLotDomInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to were observed on a cottage or trailer lot.   .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationCottageLotDomReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationCottageLotDomReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cottage-trailer Lot.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationCottageLotDomText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationCottageLotDomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationCottageLotHide {
             get {
@@ -1231,7 +1366,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to                  Farm.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationFarmDom {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationFarmDom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationFarmDomHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationFarmDomHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to far.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationFarmDomInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationFarmDomInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to were observed on a farm.   .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationFarmDomReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationFarmDomReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Farm.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationFarmDomText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationFarmDomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationFarmHide {
             get {
@@ -1276,7 +1456,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationFishPlantHide {
             get {
@@ -1321,7 +1501,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to                        Forested.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationForestedDom {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationForestedDom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationForestedDomHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationForestedDomHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to for.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationForestedDomInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationForestedDomInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to were observed in a wooded landscape.  .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationForestedDomReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationForestedDomReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Forested.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationForestedDomText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationForestedDomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationForestedHide {
             get {
@@ -1366,7 +1591,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to    Island.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationIslandDom {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationIslandDom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationIslandDomHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationIslandDomHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to is.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationIslandDomInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationIslandDomInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to were observed on an Island. .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationIslandDomReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationIslandDomReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Island.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationIslandDomText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationIslandDomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationIslandHide {
             get {
@@ -1411,7 +1681,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to                              Recreational .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationRecreationalAreaDom {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationRecreationalAreaDom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationRecreationalAreaDomHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationRecreationalAreaDomHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to rec.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationRecreationalAreaDomInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationRecreationalAreaDomInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to were observed in a recreational area.  .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationRecreationalAreaDomReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationRecreationalAreaDomReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recreational Area.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationRecreationalAreaDomText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationRecreationalAreaDomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationRecreationalAreaHide {
             get {
@@ -1456,7 +1771,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to                                        Rural.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationRuralDom {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationRuralDom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationRuralDomHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationRuralDomHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to rur.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationRuralDomInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationRuralDomInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to were observed in a rural community.  .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationRuralDomReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationRuralDomReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rural Community.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationRuralDomText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationRuralDomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationRuralHide {
             get {
@@ -1501,7 +1861,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to              Shoreline.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationShorelineDom {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationShorelineDom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationShorelineDomHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationShorelineDomHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to sho.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationShorelineDomInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationShorelineDomInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to were observed along the shoreline.  .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationShorelineDomReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationShorelineDomReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shoreline.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationShorelineDomText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationShorelineDomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationShorelineHide {
             get {
@@ -1564,7 +1969,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to                                     Urban.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationUrbanDom {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationUrbanDom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationUrbanDomHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationUrbanDomHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to urb.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationUrbanDomInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationUrbanDomInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to were observed in an urban area.  .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationUrbanDomReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationUrbanDomReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Urban.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationUrbanDomText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationUrbanDomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationUrbanHide {
             get {
@@ -1609,7 +2059,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to        Stream .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWaterCourseDom {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWaterCourseDom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWaterCourseDomHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWaterCourseDomHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to wc.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWaterCourseDomInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWaterCourseDomInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to were observed in a watercourse or one that has a dam.    .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWaterCourseDomReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWaterCourseDomReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Water Course .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWaterCourseDomText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWaterCourseDomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationWaterCourseHide {
             get {
@@ -1654,7 +2149,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to  Wetland.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWetlandDom {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWetlandDom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWetlandDomHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWetlandDomHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to wet.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWetlandDomInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWetlandDomInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to were observed along a wetland.  .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWetlandDomReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWetlandDomReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wetland.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWetlandDomText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWetlandDomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationWetlandHide {
             get {
@@ -1699,7 +2239,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to           Wharf.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWharfDom {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWharfDom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWharfDomHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWharfDomHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to whf.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWharfDomInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWharfDomInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to were observed on a wharf.  .
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWharfDomReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWharfDomReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wharf.
+        /// </summary>
+        public static string PolSourceInfoEnumAnimalLocationWharfDomText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAnimalLocationWharfDomText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumAnimalLocationWharfHide {
             get {
@@ -1852,7 +2437,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to low slope which would impede flow rates.   .
+        ///   Looks up a localized string similar to low slope which would impede flow rates.     .
         /// </summary>
         public static string PolSourceInfoEnumAreaSlopeLowReport {
             get {
@@ -1888,7 +2473,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to low slope which would impede flow rates.   .
+        ///   Looks up a localized string similar to low slope which would impede flow rates.  .
         /// </summary>
         public static string PolSourceInfoEnumAreaSlopeLowVegetatedReport {
             get {
@@ -2914,7 +3499,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumCampgroundNoDumpStnHide {
             get {
@@ -2959,7 +3544,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumCampgroundWithDumpStnHide {
             get {
@@ -2995,25 +3580,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Follow-up.
-        /// </summary>
-        public static string PolSourceInfoEnumConfirmationOfHighStart {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumConfirmationOfHighStart", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Is more information requried or is observation complete?.
-        /// </summary>
-        public static string PolSourceInfoEnumConfirmationOfHighStartDesc {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumConfirmationOfHighStartDesc", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Deep.
+        ///   Looks up a localized string similar to Deep Water Depth.
         /// </summary>
         public static string PolSourceInfoEnumDepthDeepDefinite {
             get {
@@ -3031,7 +3598,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 16601,16602,16605,16606,16607,16608.
         /// </summary>
         public static string PolSourceInfoEnumDepthDeepDefiniteHide {
             get {
@@ -3067,7 +3634,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Deep.
+        ///   Looks up a localized string similar to Deep Water Depth.
         /// </summary>
         public static string PolSourceInfoEnumDepthDeepPotential {
             get {
@@ -3121,7 +3688,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Shallow.
+        ///   Looks up a localized string similar to Shallow Water Depth.
         /// </summary>
         public static string PolSourceInfoEnumDepthShallowDefinite {
             get {
@@ -3157,7 +3724,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Risk Analyses:  The assessment for this Definite Source is based on a shallow water depth .
+        ///   Looks up a localized string similar to Risk Analyses:  The assessment for this Definite Source is based on a shallow water depth, .
         /// </summary>
         public static string PolSourceInfoEnumDepthShallowDefiniteReport {
             get {
@@ -3175,7 +3742,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Shallow.
+        ///   Looks up a localized string similar to Shallow Water Depth.
         /// </summary>
         public static string PolSourceInfoEnumDepthShallowPotential {
             get {
@@ -3211,7 +3778,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Risk Analyses:  The assessment for this Potential Source is based on a shallow water depth,  .
+        ///   Looks up a localized string similar to Risk Analyses:  The assessment for this Potential Source is based on a shallow water depth, .
         /// </summary>
         public static string PolSourceInfoEnumDepthShallowPotentialReport {
             get {
@@ -3229,7 +3796,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unknown.
+        ///   Looks up a localized string similar to Unknown Water Depth.
         /// </summary>
         public static string PolSourceInfoEnumDepthUnknown {
             get {
@@ -3256,7 +3823,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Risk Analyses:  The assessment for this Potential Source is based on water depth which is unknown.    .
+        ///   Looks up a localized string similar to Risk Analyses:  The assessment for this Potential Source is based on water depth which is unknown.  .
         /// </summary>
         public static string PolSourceInfoEnumDepthUnknownReport {
             get {
@@ -3769,7 +4336,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to less than a meter before reaching non-tidal water.  .
+        ///   Looks up a localized string similar to less than a meter before reaching tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters0Report {
             get {
@@ -3805,7 +4372,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to less than a meter before reaching non-tidal water.  .
+        ///   Looks up a localized string similar to less than a meter before reaching tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters0VegetationReport {
             get {
@@ -3859,7 +4426,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 1000 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 1000 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters1000Report {
             get {
@@ -3895,7 +4462,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 1000 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 1000 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters1000VegetationReport {
             get {
@@ -3922,7 +4489,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 100 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 100 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters100Report {
             get {
@@ -3958,7 +4525,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 100 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 100 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters100VegetationReport {
             get {
@@ -3985,7 +4552,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately ten meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately ten meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters10Report {
             get {
@@ -4030,7 +4597,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately ten meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately ten meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters10VegetationReport {
             get {
@@ -4075,7 +4642,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 150 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 150 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters150Report {
             get {
@@ -4111,7 +4678,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 150 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 150 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters150VegetationReport {
             get {
@@ -4156,7 +4723,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 200 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 200 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters200Report {
             get {
@@ -4192,7 +4759,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 200 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 200 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters200VegetationReport {
             get {
@@ -4219,7 +4786,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 20 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 20 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters20Report {
             get {
@@ -4255,7 +4822,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 20 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 20 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters20VegetationReport {
             get {
@@ -4300,7 +4867,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 300 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 300 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters300Report {
             get {
@@ -4336,7 +4903,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 300 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 300 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters300VegetationReport {
             get {
@@ -4363,7 +4930,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 30 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 30 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters30Report {
             get {
@@ -4399,7 +4966,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 30 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 30 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters30VegetationReport {
             get {
@@ -4444,7 +5011,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 400 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 400 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters400Report {
             get {
@@ -4480,7 +5047,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 400 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 400 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters400VegetationReport {
             get {
@@ -4507,7 +5074,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 40 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 40 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters40Report {
             get {
@@ -4543,7 +5110,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 40 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 40 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters40VegetationReport {
             get {
@@ -4588,7 +5155,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 50 meters to the non-tidal water&apos;s edge.   .
+        ///   Looks up a localized string similar to approximately 50 meters to the tidal water.   .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters50Report {
             get {
@@ -4624,7 +5191,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 50 meters to the non-tidal water&apos;s edge.   .
+        ///   Looks up a localized string similar to approximately 50 meters to the tidal water.   .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters50VegetationReport {
             get {
@@ -4651,7 +5218,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately five meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately five meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters5Report {
             get {
@@ -4687,7 +5254,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately five meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately five meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters5VegetationReport {
             get {
@@ -4723,7 +5290,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 600 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 600 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters600Report {
             get {
@@ -4759,7 +5326,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 600 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 600 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters600VegetationReport {
             get {
@@ -4795,7 +5362,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 75 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 75 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters75Report {
             get {
@@ -4840,7 +5407,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 75 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 75 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters75VegetationReport {
             get {
@@ -4885,7 +5452,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 800 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 800 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters800Report {
             get {
@@ -4921,7 +5488,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to approximately 800 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to approximately 800 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMeters800VegetationReport {
             get {
@@ -4957,7 +5524,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to more than 1000 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to more than 1000 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMetersGreaterThan1000Report {
             get {
@@ -4993,7 +5560,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to more than:  INFORMATION REQUIRED meters to the water&apos;s edge.  .
+        ///   Looks up a localized string similar to more than:  REQUIRED distance to tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMetersInfoRequiredReport {
             get {
@@ -5011,7 +5578,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to PathWay Distance to Non-tidal Water (m).
+        ///   Looks up a localized string similar to PathWay Distance To tidal Water (m).
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMetersStart {
             get {
@@ -5020,7 +5587,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The most direct pathway distance (m) to a body of non-tidal water.  This could be stream, wetland, river?.
+        ///   Looks up a localized string similar to The most likely pathway distance (m) based on land characteristic to reach tidal water..
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMetersStartDesc {
             get {
@@ -5056,7 +5623,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to more than 1000 meters to the non-tidal water&apos;s edge.  .
+        ///   Looks up a localized string similar to more than 1000 meters to the tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMetGrThan1000VegetationReport {
             get {
@@ -5092,7 +5659,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to more than:  INFORMATION REQUIRED meters to the water&apos;s edge.  .
+        ///   Looks up a localized string similar to more than:  REQUIRED distance to tidal water.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToWaterInMetInfoReqVegetationReport {
             get {
@@ -9385,7 +9952,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumFeedlotNotActiveHide {
             get {
@@ -9466,7 +10033,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10503,10504,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumFieldLocationBothHide {
             get {
@@ -9511,7 +10078,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10503,10504,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumFieldLocationOffFarmHide {
             get {
@@ -9556,7 +10123,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10503,10504,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumFieldLocationOnFarmHide {
             get {
@@ -10222,7 +10789,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumFishBuildingTypeMultipleAbandonedHide {
             get {
@@ -10510,7 +11077,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10505,10506,10507,10508,10509,10510,10512.
         /// </summary>
         public static string PolSourceInfoEnumFishBuildingTypeSingleAbandonedHide {
             get {
@@ -10798,7 +11365,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10505,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumFisheriesSourceFinfishHide {
             get {
@@ -10843,7 +11410,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10505,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumFisheriesSourceLobsterHide {
             get {
@@ -10888,7 +11455,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10505,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumFisheriesSourceShellfishHide {
             get {
@@ -10951,7 +11518,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10505,10506,10507,10508,10510.
+        ///   Looks up a localized string similar to 10502,10505,10506,10507,10508,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumFishOperationFishMealHide {
             get {
@@ -11212,7 +11779,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10405,10406,10407.
+        ///   Looks up a localized string similar to 10405,10406,10407,10408.
         /// </summary>
         public static string PolSourceInfoEnumFlowLevelHighVegetateHide {
             get {
@@ -11293,7 +11860,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10405,10406,10407.
+        ///   Looks up a localized string similar to 10405,10406,10407,10408.
         /// </summary>
         public static string PolSourceInfoEnumFlowLevelHiHide {
             get {
@@ -11347,7 +11914,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10405,10406,10407.
+        ///   Looks up a localized string similar to 10405,10406,10407,10408.
         /// </summary>
         public static string PolSourceInfoEnumFlowLevelLoHide {
             get {
@@ -11509,7 +12076,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10405,10406,10407.
+        ///   Looks up a localized string similar to 10405,10406,10407,10408.
         /// </summary>
         public static string PolSourceInfoEnumFlowLevelMedHide {
             get {
@@ -11761,7 +12328,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10405,10406,10407.
+        ///   Looks up a localized string similar to 10405,10406,10407,10408.
         /// </summary>
         public static string PolSourceInfoEnumFlowLevelRainHide {
             get {
@@ -11905,7 +12472,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to                                                       Bridge.
+        ///   Looks up a localized string similar to                     Berm.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureBermWaterCourse {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureBermWaterCourse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10232,10233,10234,10235,10236.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureBermWaterCourseHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureBermWaterCourseHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ber.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureBermWaterCourseInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureBermWaterCourseInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The watercourse encounters a berm before flowing .
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureBermWaterCourseReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureBermWaterCourseReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Berm.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureBermWaterCourseText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureBermWaterCourseText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                                    Bridge.
         /// </summary>
         public static string PolSourceInfoEnumFlowThroughStructureBridge {
             get {
@@ -11995,7 +12607,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to                                                            Culvert.
+        ///   Looks up a localized string similar to                                                    Bridge.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureBridgeWaterCourse {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureBridgeWaterCourse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10232,10233,10234,10235,10236.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureBridgeWaterCourseHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureBridgeWaterCourseHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to br.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureBridgeWaterCourseInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureBridgeWaterCourseInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The watercourse passes under a bridge before flowing .
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureBridgeWaterCourseReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureBridgeWaterCourseReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bridge.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureBridgeWaterCourseText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureBridgeWaterCourseText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                                        Culvert.
         /// </summary>
         public static string PolSourceInfoEnumFlowThroughStructureCulvert {
             get {
@@ -12040,7 +12697,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to                                                            Culvert.
+        ///   Looks up a localized string similar to                                                          Culvert.
         /// </summary>
         public static string PolSourceInfoEnumFlowThroughStructureCulvertVeg {
             get {
@@ -12085,7 +12742,52 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to                                                   Pipe.
+        ///   Looks up a localized string similar to                                                        Culvert.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureCulvertWaterCourse {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureCulvertWaterCourse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10232,10233,10234,10235,10236.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureCulvertWaterCourseHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureCulvertWaterCourseHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to cu.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureCulvertWaterCourseInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureCulvertWaterCourseInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The watercourse passes through a culvert before flowing .
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureCulvertWaterCourseReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureCulvertWaterCourseReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Culvert.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureCulvertWaterCourseText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureCulvertWaterCourseText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                                 Pipe.
         /// </summary>
         public static string PolSourceInfoEnumFlowThroughStructurePipe {
             get {
@@ -12130,7 +12832,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to                                                   Pipe.
+        ///   Looks up a localized string similar to                                                 Pipe.
         /// </summary>
         public static string PolSourceInfoEnumFlowThroughStructurePipeVeg {
             get {
@@ -12175,7 +12877,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pathway Obstacle.
+        ///   Looks up a localized string similar to Does Pathway Encounter Structure.
         /// </summary>
         public static string PolSourceInfoEnumFlowThroughStructureStart {
             get {
@@ -12283,6 +12985,69 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to                                             Wetland.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureWetlandWaterCourse {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureWetlandWaterCourse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10232,10233,10234,10235,10236.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureWetlandWaterCourseHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureWetlandWaterCourseHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to wet.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureWetlandWaterCourseInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureWetlandWaterCourseInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The water course flows into a wetland before flowing .
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureWetlandWaterCourseReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureWetlandWaterCourseReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wetland.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughStructureWetlandWaterCourseText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughStructureWetlandWaterCourseText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Does Water Course Encounter Structure.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughWaterCourseStart {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughWaterCourseStart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Does the pathway encounter one of these features? If the observation is a culvert then does the pathway encounter another culvert or wetland?.
+        /// </summary>
+        public static string PolSourceInfoEnumFlowThroughWaterCourseStartDesc {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFlowThroughWaterCourseStartDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Observation Complete.
         /// </summary>
         public static string PolSourceInfoEnumFollowupCompleted {
@@ -12373,6 +13138,24 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Conclusion.
+        /// </summary>
+        public static string PolSourceInfoEnumFollowUpStart {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFollowUpStart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Is more information requried or is observation complete?.
+        /// </summary>
+        public static string PolSourceInfoEnumFollowUpStartDesc {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumFollowUpStartDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to                                                      Agricultural.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationAgricultural {
@@ -12382,7 +13165,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationAgriculturalHide {
             get {
@@ -12420,99 +13203,99 @@ namespace CSSPEnumsDLL.Services.Resources {
         /// <summary>
         ///   Looks up a localized string similar to             Anchorage .
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationAnchorageMooringSite {
+        public static string PolSourceInfoEnumHumanLocationAnchorageMooringSiteMarine {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAnchorageMooringSite", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAnchorageMooringSiteMarine", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Where items are moored or anchored.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationAnchorageMooringSiteDesc {
+        public static string PolSourceInfoEnumHumanLocationAnchorageMooringSiteMarineDesc {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAnchorageMooringSiteDesc", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAnchorageMooringSiteMarineDesc", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10509,10510,10511,10512.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationAnchorageMooringSiteHide {
+        public static string PolSourceInfoEnumHumanLocationAnchorageMooringSiteMarineHide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAnchorageMooringSiteHide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAnchorageMooringSiteMarineHide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to moo.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationAnchorageMooringSiteInit {
+        public static string PolSourceInfoEnumHumanLocationAnchorageMooringSiteMarineInit {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAnchorageMooringSiteInit", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAnchorageMooringSiteMarineInit", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to an anchorage or mooring site.   .
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationAnchorageMooringSiteReport {
+        public static string PolSourceInfoEnumHumanLocationAnchorageMooringSiteMarineReport {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAnchorageMooringSiteReport", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAnchorageMooringSiteMarineReport", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Anchorage mooring.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationAnchorageMooringSiteText {
+        public static string PolSourceInfoEnumHumanLocationAnchorageMooringSiteMarineText {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAnchorageMooringSiteText", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAnchorageMooringSiteMarineText", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to                Aquaculture.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationAquacultureSite {
+        public static string PolSourceInfoEnumHumanLocationAquacultureSiteMarine {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAquacultureSite", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAquacultureSiteMarine", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10509,10510,10511,10512.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationAquacultureSiteHide {
+        public static string PolSourceInfoEnumHumanLocationAquacultureSiteMarineHide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAquacultureSiteHide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAquacultureSiteMarineHide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to aqu.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationAquacultureSiteInit {
+        public static string PolSourceInfoEnumHumanLocationAquacultureSiteMarineInit {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAquacultureSiteInit", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAquacultureSiteMarineInit", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to is .
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationAquacultureSiteReport {
+        public static string PolSourceInfoEnumHumanLocationAquacultureSiteMarineReport {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAquacultureSiteReport", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAquacultureSiteMarineReport", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Aquaculture.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationAquacultureSiteText {
+        public static string PolSourceInfoEnumHumanLocationAquacultureSiteMarineText {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAquacultureSiteText", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationAquacultureSiteMarineText", resourceCulture);
             }
         }
         
@@ -12526,7 +13309,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationBargeHide {
             get {
@@ -12564,54 +13347,54 @@ namespace CSSPEnumsDLL.Services.Resources {
         /// <summary>
         ///   Looks up a localized string similar to          Disposal at Sea.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationDisposalAtSea {
+        public static string PolSourceInfoEnumHumanLocationDisposalAtSeaMarine {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationDisposalAtSea", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationDisposalAtSeaMarine", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Designated sites for sediment disposal.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationDisposalAtSeaDesc {
+        public static string PolSourceInfoEnumHumanLocationDisposalAtSeaMarineDesc {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationDisposalAtSeaDesc", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationDisposalAtSeaMarineDesc", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10509,10510,10511,10512.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationDisposalAtSeaHide {
+        public static string PolSourceInfoEnumHumanLocationDisposalAtSeaMarineHide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationDisposalAtSeaHide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationDisposalAtSeaMarineHide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to dis.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationDisposalAtSeaInit {
+        public static string PolSourceInfoEnumHumanLocationDisposalAtSeaMarineInit {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationDisposalAtSeaInit", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationDisposalAtSeaMarineInit", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to a site identified for sediment disposal.  .
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationDisposalAtSeaReport {
+        public static string PolSourceInfoEnumHumanLocationDisposalAtSeaMarineReport {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationDisposalAtSeaReport", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationDisposalAtSeaMarineReport", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Disposal at sea.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationDisposalAtSeaText {
+        public static string PolSourceInfoEnumHumanLocationDisposalAtSeaMarineText {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationDisposalAtSeaText", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationDisposalAtSeaMarineText", resourceCulture);
             }
         }
         
@@ -12625,7 +13408,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationFarmHide {
             get {
@@ -12670,7 +13453,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationFishPlantHide {
             get {
@@ -12708,45 +13491,45 @@ namespace CSSPEnumsDLL.Services.Resources {
         /// <summary>
         ///   Looks up a localized string similar to    Float Home Community.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationFloatHomeCommunity {
+        public static string PolSourceInfoEnumHumanLocationFloatHomeCommunityMarine {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationFloatHomeCommunity", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationFloatHomeCommunityMarine", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10509,10510,10511,10512.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationFloatHomeCommunityHide {
+        public static string PolSourceInfoEnumHumanLocationFloatHomeCommunityMarineHide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationFloatHomeCommunityHide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationFloatHomeCommunityMarineHide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to fhc.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationFloatHomeCommunityInit {
+        public static string PolSourceInfoEnumHumanLocationFloatHomeCommunityMarineInit {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationFloatHomeCommunityInit", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationFloatHomeCommunityMarineInit", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to a float home community.  .
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationFloatHomeCommunityReport {
+        public static string PolSourceInfoEnumHumanLocationFloatHomeCommunityMarineReport {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationFloatHomeCommunityReport", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationFloatHomeCommunityMarineReport", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to a float home community.  .
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationFloatHomeCommunityText {
+        public static string PolSourceInfoEnumHumanLocationFloatHomeCommunityMarineText {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationFloatHomeCommunityText", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationFloatHomeCommunityMarineText", resourceCulture);
             }
         }
         
@@ -12760,7 +13543,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationForestedHide {
             get {
@@ -12805,7 +13588,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationIslandHide {
             get {
@@ -12843,33 +13626,6 @@ namespace CSSPEnumsDLL.Services.Resources {
         /// <summary>
         ///   Looks up a localized string similar to      Marina.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationMarina {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarina", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10510.
-        /// </summary>
-        public static string PolSourceInfoEnumHumanLocationMarinaHide {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarinaHide", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to mar.
-        /// </summary>
-        public static string PolSourceInfoEnumHumanLocationMarinaInit {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarinaInit", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to      Marina.
-        /// </summary>
         public static string PolSourceInfoEnumHumanLocationMarinaLand {
             get {
                 return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarinaLand", resourceCulture);
@@ -12877,7 +13633,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationMarinaLandHide {
             get {
@@ -12913,74 +13669,101 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to      Marina.
+        /// </summary>
+        public static string PolSourceInfoEnumHumanLocationMarinaMarine {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarinaMarine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumHumanLocationMarinaMarineHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarinaMarineHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to mar.
+        /// </summary>
+        public static string PolSourceInfoEnumHumanLocationMarinaMarineInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarinaMarineInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to a marina.  .
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationMarinaReport {
+        public static string PolSourceInfoEnumHumanLocationMarinaMarineReport {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarinaReport", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarinaMarineReport", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Marina..
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationMarinaText {
+        public static string PolSourceInfoEnumHumanLocationMarinaMarineText {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarinaText", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarinaMarineText", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to        Marine Park.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationMarinePark {
+        public static string PolSourceInfoEnumHumanLocationMarineParkMarine {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarinePark", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarineParkMarine", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to National Marine Parks.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationMarineParkDesc {
+        public static string PolSourceInfoEnumHumanLocationMarineParkMarineDesc {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarineParkDesc", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarineParkMarineDesc", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10509,10510,10511,10512.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationMarineParkHide {
+        public static string PolSourceInfoEnumHumanLocationMarineParkMarineHide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarineParkHide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarineParkMarineHide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to par.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationMarineParkInit {
+        public static string PolSourceInfoEnumHumanLocationMarineParkMarineInit {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarineParkInit", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarineParkMarineInit", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to a marine park.  .
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationMarineParkReport {
+        public static string PolSourceInfoEnumHumanLocationMarineParkMarineReport {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarineParkReport", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarineParkMarineReport", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Marine park.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationMarineParkText {
+        public static string PolSourceInfoEnumHumanLocationMarineParkMarineText {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarineParkText", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationMarineParkMarineText", resourceCulture);
             }
         }
         
@@ -12994,7 +13777,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationRecreationalAreaHide {
             get {
@@ -13039,7 +13822,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationRuralHide {
             get {
@@ -13084,7 +13867,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationSeasonalCottageLotHide {
             get {
@@ -13122,33 +13905,6 @@ namespace CSSPEnumsDLL.Services.Resources {
         /// <summary>
         ///   Looks up a localized string similar to                                         Shoreline.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationShoreline {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationShoreline", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10510.
-        /// </summary>
-        public static string PolSourceInfoEnumHumanLocationShorelineHide {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationShorelineHide", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to sho.
-        /// </summary>
-        public static string PolSourceInfoEnumHumanLocationShorelineInit {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationShorelineInit", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to                                         Shoreline.
-        /// </summary>
         public static string PolSourceInfoEnumHumanLocationShorelineLand {
             get {
                 return ResourceManager.GetString("PolSourceInfoEnumHumanLocationShorelineLand", resourceCulture);
@@ -13156,7 +13912,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationShorelineLandHide {
             get {
@@ -13192,20 +13948,47 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to                                         Shoreline.
+        /// </summary>
+        public static string PolSourceInfoEnumHumanLocationShorelineMarine {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationShorelineMarine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumHumanLocationShorelineMarineHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationShorelineMarineHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to sho.
+        /// </summary>
+        public static string PolSourceInfoEnumHumanLocationShorelineMarineInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationShorelineMarineInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to along the shoreline.  .
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationShorelineReport {
+        public static string PolSourceInfoEnumHumanLocationShorelineMarineReport {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationShorelineReport", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationShorelineMarineReport", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Shoreline.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationShorelineText {
+        public static string PolSourceInfoEnumHumanLocationShorelineMarineText {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationShorelineText", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationShorelineMarineText", resourceCulture);
             }
         }
         
@@ -13237,7 +14020,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationUrbanHide {
             get {
@@ -13273,7 +14056,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to                       Stream .
+        ///   Looks up a localized string similar to                       Water Course.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationWaterCourse {
             get {
@@ -13282,7 +14065,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationWaterCourseHide {
             get {
@@ -13327,7 +14110,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationWetlandHide {
             get {
@@ -13365,45 +14148,90 @@ namespace CSSPEnumsDLL.Services.Resources {
         /// <summary>
         ///   Looks up a localized string similar to                                      Wharf.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationWharf {
+        public static string PolSourceInfoEnumHumanLocationWharfLand {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharf", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfLand", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10506,10507,10508,10510,10511,10512.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationWharfHide {
+        public static string PolSourceInfoEnumHumanLocationWharfLandHide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfHide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfLandHide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to whf.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationWharfInit {
+        public static string PolSourceInfoEnumHumanLocationWharfLandInit {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfInit", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfLandInit", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to on a wharf.  .
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationWharfReport {
+        public static string PolSourceInfoEnumHumanLocationWharfLandReport {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfReport", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfLandReport", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Wharf.
         /// </summary>
-        public static string PolSourceInfoEnumHumanLocationWharfText {
+        public static string PolSourceInfoEnumHumanLocationWharfLandText {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfText", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfLandText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                      Wharf.
+        /// </summary>
+        public static string PolSourceInfoEnumHumanLocationWharfMarine {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfMarine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumHumanLocationWharfMarineHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfMarineHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to whf.
+        /// </summary>
+        public static string PolSourceInfoEnumHumanLocationWharfMarineInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfMarineInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to on a wharf.  .
+        /// </summary>
+        public static string PolSourceInfoEnumHumanLocationWharfMarineReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfMarineReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wharf.
+        /// </summary>
+        public static string PolSourceInfoEnumHumanLocationWharfMarineText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumHumanLocationWharfMarineText", resourceCulture);
             }
         }
         
@@ -14578,7 +15406,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Number of Structures .
+        ///   Looks up a localized string similar to Number of Sources in this Issue.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionCountNumberStart {
             get {
@@ -14605,7 +15433,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12708,12709,12710,12711,12712,12714,12721,12722.
+        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12708,12709,12710,12711,12712,12714,12721,12722,12723.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultipleBargesMHide {
             get {
@@ -14695,7 +15523,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722.
+        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722,12723.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultipleBoatsMHide {
             get {
@@ -14785,7 +15613,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12711,12712,12713,12714,12715,12716,12717,12718,12708,12720.
+        ///   Looks up a localized string similar to 12706,12707,12711,12712,12713,12714,12715,12716,12717,12718,12719,12708,12720.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultipleCommericalsHide {
             get {
@@ -14812,7 +15640,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,.
+        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722,12723.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultipleCommericalsMHide {
             get {
@@ -14902,7 +15730,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,.
+        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722,12723.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultipleCottagesMHide {
             get {
@@ -14965,7 +15793,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12705,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720,12721,12722,12706,12719.
+        ///   Looks up a localized string similar to 12705,12707,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720,12721,12722,12706,12719.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultipleHotelsMotelsHide {
             get {
@@ -15145,7 +15973,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12705,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720,12706,12719.
+        ///   Looks up a localized string similar to 12705,12707,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720,12706,12719.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultiplePublicBuildingsHide {
             get {
@@ -15217,7 +16045,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722.
+        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722,12723.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultipleResidencesMHide {
             get {
@@ -15343,7 +16171,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12702,12708,12712,12713,12714,12715,12716,12717,12718,12720,12708.
+        ///   Looks up a localized string similar to 12702,12706,12707,12708,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultipleTrailersHide {
             get {
@@ -15388,7 +16216,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12711,12712,12713,12714,12715,12716,12717,12718,12708,12720.
+        ///   Looks up a localized string similar to 12706,12707,12711,12712,12713,12714,12715,12716,12717,12718,12719,12708,12720.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultipleWarehousesHide {
             get {
@@ -15415,7 +16243,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,.
+        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722,12723.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultipleWarehousesMHide {
             get {
@@ -15478,7 +16306,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12708,12709,12710,12711,12712,12714,12721,12722.
+        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12708,12709,12710,12711,12712,12714,12721,12722,12723.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSingleBargeMHide {
             get {
@@ -15568,7 +16396,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722.
+        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722,12723.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSingleBoatMHide {
             get {
@@ -15658,7 +16486,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12711,12712,12713,12714,12715,12716,12717,12718,12708,12720.
+        ///   Looks up a localized string similar to 12706,12707,12711,12712,12713,12714,12715,12716,12717,12718,12719,12708,12720.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSingleCommericalHide {
             get {
@@ -15685,7 +16513,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,.
+        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722,12723.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSingleCommericalMHide {
             get {
@@ -15775,7 +16603,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,.
+        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722,12723.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSingleCottageMHide {
             get {
@@ -15838,7 +16666,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12705,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720,12721,12722,12706,12719.
+        ///   Looks up a localized string similar to 12705,12707,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720,12721,12722,12706,12719.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSinglehotelMotelHide {
             get {
@@ -15865,7 +16693,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722.
+        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722,12723.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSinglehotelMotelMHide {
             get {
@@ -16027,7 +16855,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12705,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720,12706,12719.
+        ///   Looks up a localized string similar to 12705,12707,12711,12712,12713,12714,12715,12716,12717,12718,12708,12720,12706,12719.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSinglePublicBuildingsHide {
             get {
@@ -16099,7 +16927,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722.
+        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722,12723.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSingleResidentialMHide {
             get {
@@ -16225,7 +17053,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12702,12708,12712,12713,12714,12715,12716,12717,12718,12720,12708.
+        ///   Looks up a localized string similar to 12702,12706,12707,12708,12712,12713,12714,12715,12716,12717,12718,12719,12720,12708.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSingleTrailerHide {
             get {
@@ -16270,7 +17098,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12711,12712,12713,12714,12715,12716,12717,12718,12708,12720.
+        ///   Looks up a localized string similar to 12706,12707,12711,12712,12713,12714,12715,12716,12717,12718,12719,12708,12720.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSingleWarehouseHide {
             get {
@@ -16297,7 +17125,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,.
+        ///   Looks up a localized string similar to 12701,12702,12703,12704,12705,12709,12710,12711,12712,12714,12721,12722,12723.
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSingleWarehouseMHide {
             get {
@@ -16486,7 +17314,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Impact On Growing Area.
+        ///   Looks up a localized string similar to Effect On Tidal Waters.
         /// </summary>
         public static string PolSourceInfoEnumImpactRatingStart {
             get {
@@ -16513,7 +17341,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialAreaSizeMetersBetween101And250Hide {
             get {
@@ -16558,7 +17386,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialAreaSizeMetersBetween251And500Hide {
             get {
@@ -16603,7 +17431,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialAreaSizeMetersBetween501And1000Hide {
             get {
@@ -16657,7 +17485,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialAreaSizeMetersEquals100Hide {
             get {
@@ -16693,7 +17521,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialAreaSizeMetersEquals10Hide {
             get {
@@ -16738,7 +17566,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialAreaSizeMetersEquals20Hide {
             get {
@@ -16783,7 +17611,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialAreaSizeMetersEquals40Hide {
             get {
@@ -16828,7 +17656,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialAreaSizeMetersEquals60Hide {
             get {
@@ -16873,7 +17701,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialAreaSizeMetersEquals80Hide {
             get {
@@ -16918,7 +17746,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialAreaSizeMetersGreaterThan1000Hide {
             get {
@@ -16963,7 +17791,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialAreaSizeMetersInFoRequiredHide {
             get {
@@ -17080,7 +17908,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialEffluentAirportHide {
             get {
@@ -17134,7 +17962,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialEffluentAnchorageMooringSiteHide {
             get {
@@ -17233,7 +18061,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialEffluentDisposalAtSeaHide {
             get {
@@ -17332,7 +18160,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialEffluentForestryHide {
             get {
@@ -17386,7 +18214,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialEffluentIndustrialTreatmentHide {
             get {
@@ -17530,7 +18358,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialEffluentMarineParkHide {
             get {
@@ -17620,7 +18448,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialEffluentRuralHide {
             get {
@@ -17665,7 +18493,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialEffluentShorelineHide {
             get {
@@ -18021,6 +18849,51 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string PolSourceInfoEnumLandfillTypeWoodwasteText {
             get {
                 return ResourceManager.GetString("PolSourceInfoEnumLandfillTypeWoodwasteText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Liquidify Storage - Spray.
+        /// </summary>
+        public static string PolSourceInfoEnumManureManagementBoth {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumManureManagementBoth", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumManureManagementBothHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumManureManagementBothHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to bot.
+        /// </summary>
+        public static string PolSourceInfoEnumManureManagementBothInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumManureManagementBothInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to liquidifying a portion and storing it in a pile for spreading on the fields of .
+        /// </summary>
+        public static string PolSourceInfoEnumManureManagementBothReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumManureManagementBothReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Liquidified-Pile.
+        /// </summary>
+        public static string PolSourceInfoEnumManureManagementBothText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumManureManagementBothText", resourceCulture);
             }
         }
         
@@ -18592,7 +19465,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11902,11903,11904,11905,11906,11907,11908,11909,11910,11911.
+        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911.
         /// </summary>
         public static string PolSourceInfoEnumMarineSourcesOfContaminantExcrementHide {
             get {
@@ -18646,7 +19519,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11902,11903,11904,11905,11906,11907,11908,11909,11910,11911.
+        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911.
         /// </summary>
         public static string PolSourceInfoEnumMarineSourcesOfContaminantRunoffHide {
             get {
@@ -19969,7 +20842,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumOilDumpingFacilityNotApplicableHide {
             get {
@@ -21103,7 +21976,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to a long fetch and, distance to the shellfish growing area which is .
+        ///   Looks up a localized string similar to a long fetch and, the distance to the shellfish growing area which is .
         /// </summary>
         public static string PolSourceInfoEnumOpenTidalLargeDeepDefiniteReport {
             get {
@@ -21175,7 +22048,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to a long fetch and, distance to the shellfish growing area which is .
+        ///   Looks up a localized string similar to a long fetch and, the distance to the shellfish growing area which is .
         /// </summary>
         public static string PolSourceInfoEnumOpenTidalLargeDeepPotentialReport {
             get {
@@ -21247,7 +22120,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to a long fetch and, distance to the shellfish growing area which is .
+        ///   Looks up a localized string similar to a long fetch and, the distance to the shellfish growing area which is .
         /// </summary>
         public static string PolSourceInfoEnumOpenTidalLgShallowDefiniteReport {
             get {
@@ -21319,7 +22192,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to a long fetch and, distance to the shellfish growing area which is .
+        ///   Looks up a localized string similar to a long fetch and, the distance to the shellfish growing area which is .
         /// </summary>
         public static string PolSourceInfoEnumOpenTidalLgShallowPotentialReport {
             get {
@@ -22345,7 +23218,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to a long fetch and, distance to the shellfish growing area which is .
+        ///   Looks up a localized string similar to a long fetch and, the distance to the shellfish growing area which is .
         /// </summary>
         public static string PolSourceInfoEnumOpenTidalSmallDeepDefiniteReport {
             get {
@@ -22417,7 +23290,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to a long fetch and, distance to the shellfish growing area which is .
+        ///   Looks up a localized string similar to a long fetch and, the distance to the shellfish growing area which is .
         /// </summary>
         public static string PolSourceInfoEnumOpenTidalSmallDeepPotentialReport {
             get {
@@ -22489,7 +23362,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to a long fetch and, distance to the shellfish growing area which is .
+        ///   Looks up a localized string similar to a long fetch and, the distance to the shellfish growing area which is .
         /// </summary>
         public static string PolSourceInfoEnumOpenTidalSmallShallowDefiniteReport {
             get {
@@ -22561,7 +23434,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to a long fetch and, distance to the shellfish growing area which is .
+        ///   Looks up a localized string similar to a long fetch and, the distance to the shellfish growing area which is .
         /// </summary>
         public static string PolSourceInfoEnumOpenTidalSmallShallowPotentialReport {
             get {
@@ -24721,11 +25594,20 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to No Pathway.
+        ///   Looks up a localized string similar to In-active/No Data.
         /// </summary>
         public static string PolSourceInfoEnumPathWayInActive {
             get {
                 return ResourceManager.GetString("PolSourceInfoEnumPathWayInActive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pathway is in-active or unknown.
+        /// </summary>
+        public static string PolSourceInfoEnumPathWayInActiveDesc {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumPathWayInActiveDesc", resourceCulture);
             }
         }
         
@@ -24766,7 +25648,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Land.
+        ///   Looks up a localized string similar to                                                   Land.
         /// </summary>
         public static string PolSourceInfoEnumPathwayLand {
             get {
@@ -24811,7 +25693,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Marine.
+        ///   Looks up a localized string similar to                            Marine.
         /// </summary>
         public static string PolSourceInfoEnumPathWayMarine {
             get {
@@ -24856,7 +25738,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to PathWay To Tidal Waters.
+        ///   Looks up a localized string similar to PathWay That Source Destination Follows.
         /// </summary>
         public static string PolSourceInfoEnumPathwayRouteFirstStart {
             get {
@@ -24865,7 +25747,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Which route best describes the PathWay as it flows to tideal water?.
+        ///   Looks up a localized string similar to What is the pathway that the outlet of the Source Desination follows to tidal waters?.
         /// </summary>
         public static string PolSourceInfoEnumPathwayRouteFirstStartDesc {
             get {
@@ -24892,7 +25774,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Additional Culvert Route.
+        ///   Looks up a localized string similar to Where Does Discharge of Culvet Flow.
         /// </summary>
         public static string PolSourceInfoEnumPathwayRouteSecondCulvertStart {
             get {
@@ -24910,7 +25792,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Additonal Pipe Discharge Route.
+        ///   Looks up a localized string similar to Where Does Discharge Of Pipe Flow.
         /// </summary>
         public static string PolSourceInfoEnumPathwayRouteSecondPipeStart {
             get {
@@ -24973,7 +25855,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to            Direct .
+        ///   Looks up a localized string similar to            Direct To Tidal Waters.
         /// </summary>
         public static string PolSourceInfoEnumPathwaySourceFirstDirectFlow {
             get {
@@ -25162,7 +26044,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10405,10406,10407.
+        ///   Looks up a localized string similar to 10405,10406,10407,10408.
         /// </summary>
         public static string PolSourceInfoEnumPathwaySourceFirstSubSurfaceDrainageHide {
             get {
@@ -25180,7 +26062,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to sub-surface water flow.  The flow path length is .
+        ///   Looks up a localized string similar to sub-surface water flow.  The flow path has a .
         /// </summary>
         public static string PolSourceInfoEnumPathwaySourceFirstSubSurfaceDrainageReport {
             get {
@@ -25522,7 +26404,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10405,10406,10407.
+        ///   Looks up a localized string similar to 10405,10406,10407,10408.
         /// </summary>
         public static string PolSourceInfoEnumPathwaySourceSecondCulvertSubSurfaceDrainageHide {
             get {
@@ -25747,7 +26629,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10405,10406,10407.
+        ///   Looks up a localized string similar to 10405,10406,10407,10408.
         /// </summary>
         public static string PolSourceInfoEnumPathwaySourceSecondPipeSubSurfaceDrainageHide {
             get {
@@ -25828,7 +26710,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to START:    PATHWAY DESCRIPTION.
+        ///   Looks up a localized string similar to START:    Pathway Description.
         /// </summary>
         public static string PolSourceInfoEnumPathWayStart {
             get {
@@ -26890,7 +27772,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumRecreationDayUseAreaHide {
             get {
@@ -26935,7 +27817,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumRecreationGolfCourseHide {
             get {
@@ -26998,7 +27880,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumRecreationSwimmingAreaHide {
             get {
@@ -27079,7 +27961,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to START RISK ANALYSES:    Water Depth  .
+        ///   Looks up a localized string similar to START RISK ANALYSES:      .
         /// </summary>
         public static string PolSourceInfoEnumRiskAnalysesWaterDepthStart {
             get {
@@ -27277,7 +28159,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to RISK:   .
+        ///   Looks up a localized string similar to User Selected Risk: .
         /// </summary>
         public static string PolSourceInfoEnumRiskStart {
             get {
@@ -27304,7 +28186,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 25002.
         /// </summary>
         public static string PolSourceInfoEnumSepticNoInformationHide {
             get {
@@ -27358,7 +28240,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 25002.
         /// </summary>
         public static string PolSourceInfoEnumSewageAnimalExcrementHide {
             get {
@@ -27376,7 +28258,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to present in the water or on the land.   .
+        ///   Looks up a localized string similar to present in water runoff or on the land.   .
         /// </summary>
         public static string PolSourceInfoEnumSewageAnimalExcrementReport {
             get {
@@ -27412,7 +28294,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 25002.
         /// </summary>
         public static string PolSourceInfoEnumSewageAnimalWasteStorageHide {
             get {
@@ -27574,7 +28456,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 25002.
         /// </summary>
         public static string PolSourceInfoEnumSewageOpenTankHide {
             get {
@@ -27610,7 +28492,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to                                             Septic -Retention Tank.
+        ///   Looks up a localized string similar to                                             Retention Septic Tank.
         /// </summary>
         public static string PolSourceInfoEnumSewageRetentionTank {
             get {
@@ -27657,54 +28539,108 @@ namespace CSSPEnumsDLL.Services.Resources {
         /// <summary>
         ///   Looks up a localized string similar to                                                       Runoff.
         /// </summary>
-        public static string PolSourceInfoEnumSewageRunoff {
+        public static string PolSourceInfoEnumSewageRunoffLand {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoff", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffLand", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Into surrounding environment.
         /// </summary>
-        public static string PolSourceInfoEnumSewageRunoffDesc {
+        public static string PolSourceInfoEnumSewageRunoffLandDesc {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffDesc", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffLandDesc", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 25002.
         /// </summary>
-        public static string PolSourceInfoEnumSewageRunoffHide {
+        public static string PolSourceInfoEnumSewageRunoffLandHide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffHide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffLandHide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to dir.
         /// </summary>
-        public static string PolSourceInfoEnumSewageRunoffInit {
+        public static string PolSourceInfoEnumSewageRunoffLandInit {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffInit", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffLandInit", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to into the surrounding environment or waters.   .
         /// </summary>
-        public static string PolSourceInfoEnumSewageRunoffReport {
+        public static string PolSourceInfoEnumSewageRunoffLandReport {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffReport", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffLandReport", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to                           Runoff.
         /// </summary>
-        public static string PolSourceInfoEnumSewageRunoffText {
+        public static string PolSourceInfoEnumSewageRunoffLandText {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffText", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffLandText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                                       Runoff Marine.
+        /// </summary>
+        public static string PolSourceInfoEnumSewageRunoffMarine {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffMarine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Into surrounding marine environment.
+        /// </summary>
+        public static string PolSourceInfoEnumSewageRunoffMarineDesc {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffMarineDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 25001,25003.
+        /// </summary>
+        public static string PolSourceInfoEnumSewageRunoffMarineHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffMarineHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to dir.
+        /// </summary>
+        public static string PolSourceInfoEnumSewageRunoffMarineInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffMarineInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to into the surrounding marine environment or waters.   .
+        /// </summary>
+        public static string PolSourceInfoEnumSewageRunoffMarineReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffMarineReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                           Runoff.
+        /// </summary>
+        public static string PolSourceInfoEnumSewageRunoffMarineText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSewageRunoffMarineText", resourceCulture);
             }
         }
         
@@ -27718,7 +28654,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 25002.
         /// </summary>
         public static string PolSourceInfoEnumSewageSepticSystemLeachateFieldHide {
             get {
@@ -27754,7 +28690,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Source Management.
+        ///   Looks up a localized string similar to Source Destination .
         /// </summary>
         public static string PolSourceInfoEnumSewageStart {
             get {
@@ -27781,7 +28717,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 25002.
         /// </summary>
         public static string PolSourceInfoEnumSewageSystemConstructedWetlandHide {
             get {
@@ -27835,7 +28771,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 25002.
         /// </summary>
         public static string PolSourceInfoEnumSewageThruConduitHide {
             get {
@@ -27849,6 +28785,60 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string PolSourceInfoEnumSewageThruConduitInit {
             get {
                 return ResourceManager.GetString("PolSourceInfoEnumSewageThruConduitInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                              Marine Culvert-Pipe.
+        /// </summary>
+        public static string PolSourceInfoEnumSewageThruConduitMarine {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSewageThruConduitMarine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to flows through these structures.
+        /// </summary>
+        public static string PolSourceInfoEnumSewageThruConduitMarineDesc {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSewageThruConduitMarineDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 25001.
+        /// </summary>
+        public static string PolSourceInfoEnumSewageThruConduitMarineHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSewageThruConduitMarineHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to con.
+        /// </summary>
+        public static string PolSourceInfoEnumSewageThruConduitMarineInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSewageThruConduitMarineInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to through a culvert or pipe.   .
+        /// </summary>
+        public static string PolSourceInfoEnumSewageThruConduitMarineReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSewageThruConduitMarineReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                   Culvert-Pipe.
+        /// </summary>
+        public static string PolSourceInfoEnumSewageThruConduitMarineText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSewageThruConduitMarineText", resourceCulture);
             }
         }
         
@@ -28330,7 +29320,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to and the fetch of the water cannot be determined.   .
+        ///   Looks up a localized string similar to and the fetch of the water which cannot be determined.     .
         /// </summary>
         public static string PolSourceInfoEnumShelterUnknownReport {
             get {
@@ -28591,7 +29581,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumShorelineSourceSeaWallHide {
             get {
@@ -28753,7 +29743,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumSlipwayPavedHide {
             get {
@@ -28798,7 +29788,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumSlipwayRocksHide {
             get {
@@ -28942,47 +29932,47 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Effluent-Water.
+        ///   Looks up a localized string similar to Effluent-Marine.
         /// </summary>
-        public static string PolSourceInfoEnumSourceEffluentWater {
+        public static string PolSourceInfoEnumSourceEffluentMarine {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSourceEffluentWater", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSourceEffluentMarine", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to non sewage issues in marine enviornment.
         /// </summary>
-        public static string PolSourceInfoEnumSourceEffluentWaterDesc {
+        public static string PolSourceInfoEnumSourceEffluentMarineDesc {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSourceEffluentWaterDesc", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSourceEffluentMarineDesc", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to 11201,11202,11203,11204,11205,11206,11207,11208,11209,11210,11215,11216,11217.
         /// </summary>
-        public static string PolSourceInfoEnumSourceEffluentWaterHide {
+        public static string PolSourceInfoEnumSourceEffluentMarineHide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSourceEffluentWaterHide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSourceEffluentMarineHide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to IEW.
         /// </summary>
-        public static string PolSourceInfoEnumSourceEffluentWaterInit {
+        public static string PolSourceInfoEnumSourceEffluentMarineInit {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSourceEffluentWaterInit", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSourceEffluentMarineInit", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Source - Water based effluent :  This observation .
         /// </summary>
-        public static string PolSourceInfoEnumSourceEffluentWaterReport {
+        public static string PolSourceInfoEnumSourceEffluentMarineReport {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSourceEffluentWaterReport", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSourceEffluentMarineReport", resourceCulture);
             }
         }
         
@@ -29068,7 +30058,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Source - Humanon Marine:  At this observation .
+        ///   Looks up a localized string similar to Source - Human Marine:  At this observation .
         /// </summary>
         public static string PolSourceInfoEnumSourceHumanMarineReport {
             get {
@@ -29079,54 +30069,54 @@ namespace CSSPEnumsDLL.Services.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Excrement.
         /// </summary>
-        public static string PolSourceInfoEnumSourcesOfContaminantAnimalExcrement {
+        public static string PolSourceInfoEnumSourcesOfContaminantDomesticExcrement {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantAnimalExcrement", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantDomesticExcrement", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to animal waste.
         /// </summary>
-        public static string PolSourceInfoEnumSourcesOfContaminantAnimalExcrementDesc {
+        public static string PolSourceInfoEnumSourcesOfContaminantDomesticExcrementDesc {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantAnimalExcrementDesc", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantDomesticExcrementDesc", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909.
+        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11912,11913.
         /// </summary>
-        public static string PolSourceInfoEnumSourcesOfContaminantAnimalExcrementHide {
+        public static string PolSourceInfoEnumSourcesOfContaminantDomesticExcrementHide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantAnimalExcrementHide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantDomesticExcrementHide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to ad.
         /// </summary>
-        public static string PolSourceInfoEnumSourcesOfContaminantAnimalExcrementInit {
+        public static string PolSourceInfoEnumSourcesOfContaminantDomesticExcrementInit {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantAnimalExcrementInit", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantDomesticExcrementInit", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to The pollution source is animal feces which could be  .
         /// </summary>
-        public static string PolSourceInfoEnumSourcesOfContaminantAnimalExcrementReport {
+        public static string PolSourceInfoEnumSourcesOfContaminantDomesticExcrementReport {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantAnimalExcrementReport", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantDomesticExcrementReport", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Animal Droppings.
         /// </summary>
-        public static string PolSourceInfoEnumSourcesOfContaminantAnimalExcrementText {
+        public static string PolSourceInfoEnumSourcesOfContaminantDomesticExcrementText {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantAnimalExcrementText", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantDomesticExcrementText", resourceCulture);
             }
         }
         
@@ -29149,7 +30139,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11903,11906,11907,11908,11909,11910,11911.
+        ///   Looks up a localized string similar to 11903,11906,11907,11908,11909,11910,11911,11912,11913.
         /// </summary>
         public static string PolSourceInfoEnumSourcesOfContaminantEffluentHide {
             get {
@@ -29163,6 +30153,60 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string PolSourceInfoEnumSourcesOfContaminantEffluentInit {
             get {
                 return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantEffluentInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to            Marine Effluent .
+        /// </summary>
+        public static string PolSourceInfoEnumSourcesOfContaminantEffluentMarine {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantEffluentMarine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to non-sewage effluent .
+        /// </summary>
+        public static string PolSourceInfoEnumSourcesOfContaminantEffluentMarineDesc {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantEffluentMarineDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 11901,11902,11903,11905,11906,11907,11908,11910,11911,11912.
+        /// </summary>
+        public static string PolSourceInfoEnumSourcesOfContaminantEffluentMarineHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantEffluentMarineHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to nse.
+        /// </summary>
+        public static string PolSourceInfoEnumSourcesOfContaminantEffluentMarineInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantEffluentMarineInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The pollution source is effluent that does not contain septic water and, flows .
+        /// </summary>
+        public static string PolSourceInfoEnumSourcesOfContaminantEffluentMarineReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantEffluentMarineReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Non-Septic.
+        /// </summary>
+        public static string PolSourceInfoEnumSourcesOfContaminantEffluentMarineText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantEffluentMarineText", resourceCulture);
             }
         }
         
@@ -29203,7 +30247,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11906,11910,11911.
+        ///   Looks up a localized string similar to 11901,11902,11906,11910,11911,11912,11913.
         /// </summary>
         public static string PolSourceInfoEnumSourcesOfContaminantLandMarineHide {
             get {
@@ -29257,7 +30301,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11902,11903,11905,11906,11907,11908,11909,11910,11911.
+        ///   Looks up a localized string similar to 11901,11902,11903,11905,11906,11907,11908,11909,11910,11911,11913.
         /// </summary>
         public static string PolSourceInfoEnumSourcesOfContaminantMarineWashroomsHide {
             get {
@@ -29311,7 +30355,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11903,11904,11906,11907,11908,11910,11911.
+        ///   Looks up a localized string similar to 11903,11904,11906,11907,11908,11910,11911,11912,11913.
         /// </summary>
         public static string PolSourceInfoEnumSourcesOfContaminantProcessingWaterHide {
             get {
@@ -29383,7 +30427,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11902,11903,11904,11905,11906,11907,11908,11909,11910,11911.
+        ///   Looks up a localized string similar to 11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913.
         /// </summary>
         public static string PolSourceInfoEnumSourcesOfContaminantRunoffFromFieldHide {
             get {
@@ -29419,7 +30463,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11903,11904,11905,11907,11908,11910,11911.
+        ///   Looks up a localized string similar to 11903,11904,11905,11907,11908,11910,11911,11912,11913.
         /// </summary>
         public static string PolSourceInfoEnumSourcesOfContaminantRunoffHide {
             get {
@@ -29473,7 +30517,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11902,11910,11911.
+        ///   Looks up a localized string similar to 11902,11910,11911,11912,11913.
         /// </summary>
         public static string PolSourceInfoEnumSourcesOfContaminantSewageHide {
             get {
@@ -29527,7 +30571,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11902,11903,11904,11905,11906,11907,11908,11909,11910,11911.
+        ///   Looks up a localized string similar to 11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913.
         /// </summary>
         public static string PolSourceInfoEnumSourcesOfContaminantSpillsHide {
             get {
@@ -29599,7 +30643,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11903,11904,11905,11906,11907,11908,11910,11911.
+        ///   Looks up a localized string similar to 11903,11904,11905,11906,11907,11908,11910,11911,11912,11913.
         /// </summary>
         public static string PolSourceInfoEnumSourcesOfContaminantTankWaterHide {
             get {
@@ -29635,7 +30679,61 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to START:    EFFLUENT SOURCE.
+        ///   Looks up a localized string similar to Excrement.
+        /// </summary>
+        public static string PolSourceInfoEnumSourcesOfContaminantWilldExcrement {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantWilldExcrement", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to animal waste.
+        /// </summary>
+        public static string PolSourceInfoEnumSourcesOfContaminantWilldExcrementDesc {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantWilldExcrementDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11912,11913.
+        /// </summary>
+        public static string PolSourceInfoEnumSourcesOfContaminantWilldExcrementHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantWilldExcrementHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ad.
+        /// </summary>
+        public static string PolSourceInfoEnumSourcesOfContaminantWilldExcrementInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantWilldExcrementInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The pollution source is animal feces which could be  .
+        /// </summary>
+        public static string PolSourceInfoEnumSourcesOfContaminantWilldExcrementReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantWilldExcrementReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Animal Droppings.
+        /// </summary>
+        public static string PolSourceInfoEnumSourcesOfContaminantWilldExcrementText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumSourcesOfContaminantWilldExcrementText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to START:    Effluent Source.
         /// </summary>
         public static string PolSourceInfoEnumSourceStart {
             get {
@@ -29725,7 +30823,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91003,91004,91005.
+        ///   Looks up a localized string similar to 93001.
         /// </summary>
         public static string PolSourceInfoEnumStatusNonPollutionSourceHide {
             get {
@@ -29833,7 +30931,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Free Flowing.
+        ///   Looks up a localized string similar to                                                                     Free Flowing.
         /// </summary>
         public static string PolSourceInfoEnumStructureInRoadNoStructure {
             get {
@@ -29878,7 +30976,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Free Flowing.
+        ///   Looks up a localized string similar to                                                                       Free Flowing.
         /// </summary>
         public static string PolSourceInfoEnumStructureInRoadNoStructureVeg {
             get {
@@ -29919,6 +31017,51 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string PolSourceInfoEnumStructureInRoadNoStructureVegText {
             get {
                 return ResourceManager.GetString("PolSourceInfoEnumStructureInRoadNoStructureVegText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                                                     Free Flowing.
+        /// </summary>
+        public static string PolSourceInfoEnumStructureInRoadNoStructureWaterCourse {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumStructureInRoadNoStructureWaterCourse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10232,10233,10234,10235,10236.
+        /// </summary>
+        public static string PolSourceInfoEnumStructureInRoadNoStructureWaterCourseHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumStructureInRoadNoStructureWaterCourseHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ns.
+        /// </summary>
+        public static string PolSourceInfoEnumStructureInRoadNoStructureWaterCourseInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumStructureInRoadNoStructureWaterCourseInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The water course flows freely .
+        /// </summary>
+        public static string PolSourceInfoEnumStructureInRoadNoStructureWaterCourseReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumStructureInRoadNoStructureWaterCourseReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nostructure.
+        /// </summary>
+        public static string PolSourceInfoEnumStructureInRoadNoStructureWaterCourseText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumStructureInRoadNoStructureWaterCourseText", resourceCulture);
             }
         }
         
@@ -30103,7 +31246,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Calculated Risk.
+        ///   Looks up a localized string similar to Calculated Risk To Growing Areas.
         /// </summary>
         public static string PolSourceInfoEnumSuggestedRiskStart {
             get {
@@ -30121,7 +31264,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to  2000 .
+        ///   Looks up a localized string similar to                                                2000 .
         /// </summary>
         public static string PolSourceInfoEnumTankSize2000 {
             get {
@@ -30130,7 +31273,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumTankSize2000Hide {
             get {
@@ -30166,7 +31309,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to  400.
+        ///   Looks up a localized string similar to                                                             400.
         /// </summary>
         public static string PolSourceInfoEnumTankSize400 {
             get {
@@ -30175,7 +31318,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 4000.
+        ///   Looks up a localized string similar to                                 4000.
         /// </summary>
         public static string PolSourceInfoEnumTankSize4000 {
             get {
@@ -30184,7 +31327,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumTankSize4000Hide {
             get {
@@ -30220,7 +31363,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumTankSize400Hide {
             get {
@@ -30265,7 +31408,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumTankSize8000Hide {
             get {
@@ -30409,7 +31552,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 16701,16702,16703,16704,16705,16706,16709,16710,16711,16712,16713,16714,16715,16716.
+        ///   Looks up a localized string similar to 16701,16702,16703,16704,16705,16706,16707,16708,16711,16712,16713,16714,16715,16716.
         /// </summary>
         public static string PolSourceInfoEnumTidalLargeDeepPotentialHide {
             get {
@@ -30463,7 +31606,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 16701,16702,16703,16704,16705,16706,16707,16708,16709,16710,16711,16712,16713,16714,16715,16715.
+        ///   Looks up a localized string similar to 16701,16702,16703,16704,16707,16708,16709,16710,16711,16712,16713,16714,16715,16716.
         /// </summary>
         public static string PolSourceInfoEnumTidalLargeShallowDefiniteHide {
             get {
@@ -30679,7 +31822,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 16701,16702,16703,16704,16707,16708,16709,16710,16711,16712,16713,16714,16715,16716.
+        ///   Looks up a localized string similar to 16701,16702,16703,16704,16705,16706,16709,16710,16711,16712,16713,16714,16715,16716.
         /// </summary>
         public static string PolSourceInfoEnumTidalSmallShallowDefiniteHide {
             get {
@@ -30976,7 +32119,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12802,12807,12808,12809,12812,12813,12814.
+        ///   Looks up a localized string similar to 12807,12808,12809,12812,12813,12814,12815,12816,12817,12818,12819,12820,12821,12822,12823,12824,12825,12826,12827.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfLivestockChickensHide {
             get {
@@ -31021,7 +32164,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12802,12807,12808,12814.
+        ///   Looks up a localized string similar to 12802,12807,12808,12814,12815,12816,12817,12818,12819,12820,12821,12822,12823,12824,12825,12826,12827.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfLivestockCowsHide {
             get {
@@ -31066,7 +32209,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 12802,12808,12809,12812,12813,12814,12815,12816,12817,12818,12819,12820,12821,12822,12823,12824,12825,12826,12827.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfLivestockDucksHide {
             get {
@@ -31111,7 +32254,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12802,12803,12807,12808,12810,12811,12812,12813,12814.
+        ///   Looks up a localized string similar to 12802,12803,12807,12808,12810,12811,12812,12813,12814,12815,12816,12817,12818,12819,12820,12821,12822,12823,12824,12825,12826,12827.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfLivestockFurFarmsHide {
             get {
@@ -31156,7 +32299,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12802,12807,12808,12814.
+        ///   Looks up a localized string similar to 12802,12807,12808,12814,12815,12816,12817,12818,12819,12820,12821,12822,12823,12824,12825,12826,12827.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfLivestockHorsesHide {
             get {
@@ -31201,7 +32344,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12802,12807,12808,12814.
+        ///   Looks up a localized string similar to 12802,12807,12808,12814,12815,12816,12817,12818,12819,12820,12821,12822,12823,12824,12825,12826,12827.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfLivestockMixtureLargeHide {
             get {
@@ -31246,7 +32389,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12802,12807,12808,12809,12812,12813,12814.
+        ///   Looks up a localized string similar to 12802,12807,12808,12809,12812,12813,12814,12815,12816,12817,12818,12819,12820,12821,12822,12823,12824,12825,12826,12827.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfLivestockMixtureSmallHide {
             get {
@@ -31291,7 +32434,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12802,12807,12808,12814.
+        ///   Looks up a localized string similar to 12802,12807,12808,12814,12815,12816,12817,12818,12819,12820,12821,12822,12823,12824,12825,12826,12827.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfLivestockPigsHide {
             get {
@@ -31336,7 +32479,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12802,12807,12808,12814.
+        ///   Looks up a localized string similar to 12802,12807,12808,12814,12815,12816,12817,12818,12819,12820,12821,12822,12823,12824,12825,12826,12827.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfLivestockSheepHide {
             get {
@@ -31399,7 +32542,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12802,12807,12808,12809,12812,12813,12814.
+        ///   Looks up a localized string similar to 12802,12807,12808,12809,12812,12813,12814,12815,12816,12817,12818,12819,12820,12821,12822,12823,12824,12825,12826,12827.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfLivestockTurkeysHide {
             get {
@@ -31444,7 +32587,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12802,12805,12807,12808,12814.
+        ///   Looks up a localized string similar to 12801,12802,12803,12804,12805,12806,12807,12808,12809,12810,12811,12812,12813,12814,12821,12822.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfWildlifeBeaverHide {
             get {
@@ -31489,7 +32632,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 12801,12802,12803,12804,12805,12806,12807,12808,12809,12810,12811,12812,12813.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfWildlifeCoyoteHide {
             get {
@@ -31534,7 +32677,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 12801,12802,12803,12804,12805,12806,12807,12808,12809,12810,12811,12812,12813.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfWildlifeCrowsHide {
             get {
@@ -31579,7 +32722,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 12801,12802,12803,12804,12805,12806,12807,12808,12809,12810,12811,12812,12813.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfWildlifeEagleHide {
             get {
@@ -31624,7 +32767,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 12801,12802,12803,12804,12805,12806,12807,12808,12809,12810,12811,12812,12813.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfWildlifeGeneralHide {
             get {
@@ -31669,7 +32812,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 12801,12802,12803,12804,12805,12806,12807,12808,12809,12810,12811,12812,12813.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfWildlifeGullsHide {
             get {
@@ -31714,7 +32857,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12802,12805,12807,12808,12814.
+        ///   Looks up a localized string similar to 12801,12802,12803,12804,12805,12806,12807,12808,12809,12810,12811,12812,12813,12814,12821,12822.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfWildlifeMuskratHide {
             get {
@@ -31777,7 +32920,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12807,12808,12814.
+        ///   Looks up a localized string similar to 12801,12802,12803,12804,12805,12806,12807,12808,12809,12810,12811,12812,12813,12821,12822,.
         /// </summary>
         public static string PolSourceInfoEnumTypesOfWildlifeUngulateHide {
             get {
@@ -31840,7 +32983,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumUrbanStormWaterHide {
             get {
@@ -31885,7 +33028,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumUrbanWastewaterDumpStationHide {
             get {
@@ -32587,7 +33730,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumWastewaterDumpingStationAbsentHide {
             get {
@@ -32641,7 +33784,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumWastewaterDumpingStationNotObservedHide {
             get {
@@ -32686,7 +33829,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510.
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumWastewaterDumpingStationPresentHide {
             get {
@@ -32740,97 +33883,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to    11 - 25.
-        /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberBetween11and25 {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberBetween11and25", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberBetween11and25Hide {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberBetween11and25Hide", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberBetween11and25Init {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberBetween11and25Init", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to between 11 to 25.
-        /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberBetween11and25Report {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberBetween11and25Report", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 11 to 25.
-        /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberBetween11and25Text {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberBetween11and25Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to   26 - 40.
-        /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberBetween26and40 {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberBetween26and40", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberBetween26and40Hide {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberBetween26and40Hide", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberBetween26and40Init {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberBetween26and40Init", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to between 26 to 40 .
-        /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberBetween26and40Report {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberBetween26and40Report", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 26 to 40.
-        /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberBetween26and40Text {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberBetween26and40Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to             1.
+        ///   Looks up a localized string similar to                                  1.
         /// </summary>
         public static string PolSourceInfoEnumWatAquaCountNumberEqualTo1 {
             get {
@@ -32839,11 +33892,56 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to     10.
+        ///   Looks up a localized string similar to                           10.
         /// </summary>
         public static string PolSourceInfoEnumWatAquaCountNumberEqualTo10 {
             get {
                 return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to      100.
+        /// </summary>
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo100 {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo100", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo100Hide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo100Hide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo100Init {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo100Init", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to are 100.
+        /// </summary>
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo100Report {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo100Report", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to      100.
+        /// </summary>
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo100Text {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo100Text", resourceCulture);
             }
         }
         
@@ -32866,7 +33964,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to are ten .
+        ///   Looks up a localized string similar to are 10.
         /// </summary>
         public static string PolSourceInfoEnumWatAquaCountNumberEqualTo10Report {
             get {
@@ -32875,7 +33973,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10.
+        ///   Looks up a localized string similar to                           10.
         /// </summary>
         public static string PolSourceInfoEnumWatAquaCountNumberEqualTo10Text {
             get {
@@ -32911,7 +34009,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 1 .
+        ///   Looks up a localized string similar to                                  1.
         /// </summary>
         public static string PolSourceInfoEnumWatAquaCountNumberEqualTo1Text {
             get {
@@ -32920,412 +34018,412 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to           2.
+        ///   Looks up a localized string similar to                        20.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo2 {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo20 {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo2", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo20", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo2Hide {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo20Hide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo2Hide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo20Hide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo2Init {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo20Init {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo2Init", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo20Init", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to are two .
+        ///   Looks up a localized string similar to are 20 .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo2Report {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo20Report {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo2Report", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo20Report", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 2.
+        ///   Looks up a localized string similar to                        20.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo2Text {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo20Text {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo2Text", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo20Text", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to          3.
+        ///   Looks up a localized string similar to                     30.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo3 {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo30 {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo3", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo30", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo3Hide {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo30Hide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo3Hide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo30Hide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo3Init {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo30Init {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo3Init", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo30Init", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to are three .
+        ///   Looks up a localized string similar to are 30.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo3Report {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo30Report {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo3Report", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo30Report", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 3.
+        ///   Looks up a localized string similar to                     30.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo3Text {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo30Text {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo3Text", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo30Text", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to          4.
+        ///   Looks up a localized string similar to                  40.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo4 {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo40 {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo4", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo40", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo4Hide {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo40Hide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo4Hide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo40Hide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo4Init {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo40Init {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo4Init", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo40Init", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to are four .
+        ///   Looks up a localized string similar to are 40.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo4Report {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo40Report {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo4Report", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo40Report", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 4.
+        ///   Looks up a localized string similar to                  40.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo4Text {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo40Text {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo4Text", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo40Text", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to         5.
+        ///   Looks up a localized string similar to               50.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo5 {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo50 {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo5", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo50", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo5Hide {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo50Hide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo5Hide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo50Hide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo5Init {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo50Init {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo5Init", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo50Init", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to are five  .
+        ///   Looks up a localized string similar to are 50.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo5Report {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo50Report {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo5Report", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo50Report", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to               50.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo5Text {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo50Text {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo5Text", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo50Text", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to        6.
+        ///   Looks up a localized string similar to             60.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo6 {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo60 {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo6", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo60", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo6Hide {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo60Hide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo6Hide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo60Hide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo6Init {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo60Init {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo6Init", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo60Init", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to are six  .
+        ///   Looks up a localized string similar to are 60.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo6Report {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo60Report {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo6Report", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo60Report", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 6.
+        ///   Looks up a localized string similar to             60.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo6Text {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo60Text {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo6Text", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo60Text", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to       7.
+        ///   Looks up a localized string similar to           70.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo7 {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo70 {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo7", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo70", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo7Hide {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo70Hide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo7Hide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo70Hide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo7Init {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo70Init {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo7Init", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo70Init", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to are seven  .
+        ///   Looks up a localized string similar to are 70.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo7Report {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo70Report {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo7Report", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo70Report", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 7.
+        ///   Looks up a localized string similar to           70.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo7Text {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo70Text {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo7Text", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo70Text", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to       8.
+        ///   Looks up a localized string similar to          80.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo8 {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo80 {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo8", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo80", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo8Hide {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo80Hide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo8Hide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo80Hide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo8Init {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo80Init {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo8Init", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo80Init", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to are eight  .
+        ///   Looks up a localized string similar to are 80.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo8Report {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo80Report {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo8Report", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo80Report", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 8.
+        ///   Looks up a localized string similar to          80.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo8Text {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo80Text {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo8Text", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo80Text", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to      9.
+        ///   Looks up a localized string similar to        90.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo9 {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo90 {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo9", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo90", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo9Hide {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo90Hide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo9Hide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo90Hide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo9Init {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo90Init {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo9Init", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo90Init", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to are nine  .
+        ///   Looks up a localized string similar to are 90.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo9Report {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo90Report {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo9Report", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo90Report", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 9.
+        ///   Looks up a localized string similar to        90.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo9Text {
+        public static string PolSourceInfoEnumWatAquaCountNumberEqualTo90Text {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo9Text", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberEqualTo90Text", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to  &gt; 40.
+        ///   Looks up a localized string similar to  &gt; 100.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberGreaterThan40 {
+        public static string PolSourceInfoEnumWatAquaCountNumberGreaterThan100 {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberGreaterThan40", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberGreaterThan100", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberGreaterThan40Hide {
+        public static string PolSourceInfoEnumWatAquaCountNumberGreaterThan100Hide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberGreaterThan40Hide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberGreaterThan100Hide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberGreaterThan40Init {
+        public static string PolSourceInfoEnumWatAquaCountNumberGreaterThan100Init {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberGreaterThan40Init", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberGreaterThan100Init", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to are more than 40  .
+        ///   Looks up a localized string similar to are more than 100.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberGreaterThan40Report {
+        public static string PolSourceInfoEnumWatAquaCountNumberGreaterThan100Report {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberGreaterThan40Report", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberGreaterThan100Report", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to greater than 40.
+        ///   Looks up a localized string similar to  &gt; 100.
         /// </summary>
-        public static string PolSourceInfoEnumWatAquaCountNumberGreaterThan40Text {
+        public static string PolSourceInfoEnumWatAquaCountNumberGreaterThan100Text {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberGreaterThan40Text", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumWatAquaCountNumberGreaterThan100Text", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Number.
+        ///   Looks up a localized string similar to Number of Lines or Units.
         /// </summary>
         public static string PolSourceInfoEnumWatAquaCountNumberStart {
             get {
@@ -33406,7 +34504,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 90001,90002.
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureSiteFallowHide {
             get {
@@ -33424,7 +34522,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to an inactive aquaculture site and there .
+        ///   Looks up a localized string similar to an inactive aquaculture.  .
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureSiteFallowReport {
             get {
@@ -33973,7 +35071,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 15902,15903.
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string PolSourceInfoEnumWaterCourseAreaSlopeHighHide {
             get {
@@ -34027,7 +35125,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to low slope which would impede flow rates.   .
+        ///   Looks up a localized string similar to low slope which would impede flow rates.     .
         /// </summary>
         public static string PolSourceInfoEnumWaterCourseAreaSlopeLowReport {
             get {
@@ -34045,7 +35143,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 15902,15903.
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string PolSourceInfoEnumWaterCourseAreaSlopeMediumHide {
             get {
@@ -34081,7 +35179,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 15902,15903.
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string PolSourceInfoEnumWaterCourseAreaSlopeNAHide {
             get {
@@ -34558,7 +35656,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10508,10509,10510.
+        ///   Looks up a localized string similar to 10502,10503,10504,10505,10506,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumWharfAbandonedHide {
             get {
