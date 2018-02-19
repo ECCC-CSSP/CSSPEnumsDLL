@@ -1371,64 +1371,64 @@
   <data name="PolSourceInfoEnumCampgroundWithDumpStnText" xml:space="preserve">
     <value>Station d’élimination des eaux usées,</value>
   </data>
-  <data name="PolSourceInfoEnumDepthDeepHiDef" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthDeepDef" xml:space="preserve">
     <value>Élevé, confirmation visuelle</value>
   </data>
-  <data name="PolSourceInfoEnumDepthDeepHiDefHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthDeepDefHide" xml:space="preserve">
     <value>16602,16604,16605,16606,16607,16608</value>
   </data>
-  <data name="PolSourceInfoEnumDepthDeepHiDefInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthDeepDefInit" xml:space="preserve">
     <value>HCV</value>
   </data>
-  <data name="PolSourceInfoEnumDepthDeepHiDefReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthDeepDefReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par observation visuelle ou par odorat.</value>
   </data>
-  <data name="PolSourceInfoEnumDepthDeepHiDefText" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthDeepDefText" xml:space="preserve">
     <value>Élevé, confirmation visuelle,</value>
   </data>
-  <data name="PolSourceInfoEnumDepthDeepHiPot" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthDeepPot" xml:space="preserve">
     <value>Élevé, confirmation visuelle</value>
   </data>
-  <data name="PolSourceInfoEnumDepthDeepHiPotHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthDeepPotHide" xml:space="preserve">
     <value>16601,16603,16605,16606,16607,16608</value>
   </data>
-  <data name="PolSourceInfoEnumDepthDeepHiPotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthDeepPotInit" xml:space="preserve">
     <value>HCV</value>
   </data>
-  <data name="PolSourceInfoEnumDepthDeepHiPotReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthDeepPotReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par observation visuelle ou par odorat.</value>
   </data>
-  <data name="PolSourceInfoEnumDepthDeepHiPotText" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthDeepPotText" xml:space="preserve">
     <value>Élevé, confirmation visuelle,</value>
   </data>
-  <data name="PolSourceInfoEnumDepthShallowHiDef" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthShallowDef" xml:space="preserve">
     <value>Élevé, confirmation par échantillon d'eau</value>
   </data>
-  <data name="PolSourceInfoEnumDepthShallowHiDefHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthShallowDefHide" xml:space="preserve">
     <value>16601,16602,16603,16604,16606,16608</value>
   </data>
-  <data name="PolSourceInfoEnumDepthShallowHiDefInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthShallowDefInit" xml:space="preserve">
     <value>HCWS</value>
   </data>
-  <data name="PolSourceInfoEnumDepthShallowHiDefReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthShallowDefReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par échantillonnage d'eau.</value>
   </data>
-  <data name="PolSourceInfoEnumDepthShallowHiDefText" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthShallowDefText" xml:space="preserve">
     <value>Élevé, confirmation par échantillon d'eau,</value>
   </data>
-  <data name="PolSourceInfoEnumDepthShallowHiPot" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthShallowPot" xml:space="preserve">
     <value>Élevé, confirmation par échantillon d'eau</value>
   </data>
-  <data name="PolSourceInfoEnumDepthShallowHiPotHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthShallowPotHide" xml:space="preserve">
     <value>16601,16602,16603,16604,16605,16607</value>
   </data>
-  <data name="PolSourceInfoEnumDepthShallowHiPotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthShallowPotInit" xml:space="preserve">
     <value>HCWS</value>
   </data>
-  <data name="PolSourceInfoEnumDepthShallowHiPotReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthShallowPotReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par échantillonnage d'eau.</value>
   </data>
-  <data name="PolSourceInfoEnumDepthShallowHiPotText" xml:space="preserve">
+  <data name="PolSourceInfoEnumDepthShallowPotText" xml:space="preserve">
     <value>Élevé, confirmation par échantillon d'eau,</value>
   </data>
   <data name="PolSourceInfoEnumDepthUnknown" xml:space="preserve">
@@ -1902,10 +1902,10 @@
   <data name="PolSourceInfoEnumDiameterNoInformationText" xml:space="preserve">
     <value>Information non disponible,</value>
   </data>
-  <data name="PolSourceInfoEnumDiltuionAnalysesWaterDepthStart" xml:space="preserve">
+  <data name="PolSourceInfoEnumDilutionAnalysesWaterDepthStart" xml:space="preserve">
     <value>Le risque de pollution</value>
   </data>
-  <data name="PolSourceInfoEnumDiltuionAnalysesWaterDepthStartDesc" xml:space="preserve">
+  <data name="PolSourceInfoEnumDilutionAnalysesWaterDepthStartDesc" xml:space="preserve">
     <value>Le niveau de risque est faible?</value>
   </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters0" xml:space="preserve">
@@ -6811,7 +6811,7 @@
     <value>Superficie</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialAreaSizeStartDesc" xml:space="preserve">
-    <value>La superficie de la zone (m)</value>
+    <value>La superficie de la zone  | (M)</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentAgricultureFarm" xml:space="preserve">
     <value>Agriculture</value>
@@ -7321,7 +7321,7 @@
     <value>              Ruisellement</value>
   </data>
   <data name="PolSourceInfoEnumMarineSourcesOfContaminantExcrementHide" xml:space="preserve">
-    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911</value>
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11913</value>
   </data>
   <data name="PolSourceInfoEnumMarineSourcesOfContaminantExcrementInit" xml:space="preserve">
     <value>ad</value>
@@ -12621,34 +12621,34 @@
   <data name="PolSourceInfoEnumTidalAmplitudeStartDesc" xml:space="preserve">
     <value>Le niveau de risque est faible?</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeDeepHiDef" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeDeepDef" xml:space="preserve">
     <value>and a large tidal range.  </value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeDeepHiDefHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeDeepDefHide" xml:space="preserve">
     <value>15114,15115,15116,15117,15118,15119,15120,15121,15122,15123,15124,15125,15126</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeDeepHiDefInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeDeepDefInit" xml:space="preserve">
     <value>HCV</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeDeepHiDefReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeDeepDefReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par observation visuelle ou par odorat.</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeDeepHiDefText" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeDeepDefText" xml:space="preserve">
     <value>Élevé, confirmation visuelle,</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeDeepHiPot" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeDeepPot" xml:space="preserve">
     <value>and a large tidal range.  </value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeDeepHiPotHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeDeepPotHide" xml:space="preserve">
     <value>15101,15102,15103,15104,15105,15106,15107,15108,15109,15110,15111,15112,15114</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeDeepHiPotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeDeepPotInit" xml:space="preserve">
     <value>HCWS</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeDeepHiPotReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeDeepPotReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par échantillonnage d'eau.</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeDeepHiPotText" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeDeepPotText" xml:space="preserve">
     <value>Élevé, confirmation par échantillon d'eau,</value>
   </data>
   <data name="PolSourceInfoEnumTidalLargeDeepStart" xml:space="preserve">
@@ -12657,34 +12657,34 @@
   <data name="PolSourceInfoEnumTidalLargeDeepStartDesc" xml:space="preserve">
     <value>Distance approximative de la côte à l'aire de croissance (m)</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeshallowHiDef" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeshallowDef" xml:space="preserve">
     <value>and a large tidal range.  </value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeshallowHiDefHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeshallowDefHide" xml:space="preserve">
     <value>15614,15615,15616,15617,15618,15619,15620,15621,15622,15623,15624,15625,15625,15626</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeshallowHiDefInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeshallowDefInit" xml:space="preserve">
     <value>HCV</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeshallowHiDefReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeshallowDefReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par observation visuelle ou par odorat.</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeshallowHiDefText" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeshallowDefText" xml:space="preserve">
     <value>Élevé, confirmation visuelle,</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeShallowHiPot" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeShallowPot" xml:space="preserve">
     <value>and a large tidal range.  </value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeShallowHiPotHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeShallowPotHide" xml:space="preserve">
     <value>15601,15602,15603,15604,15605,15606,15607,15608,15609,15610,15611,15612,15613</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeShallowHiPotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeShallowPotInit" xml:space="preserve">
     <value>HCWS</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeShallowHiPotReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeShallowPotReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par échantillonnage d'eau.</value>
   </data>
-  <data name="PolSourceInfoEnumTidalLargeShallowHiPotText" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalLargeShallowPotText" xml:space="preserve">
     <value>Élevé, confirmation par échantillon d'eau,</value>
   </data>
   <data name="PolSourceInfoEnumTidalLgShallowStart" xml:space="preserve">
@@ -12693,34 +12693,34 @@
   <data name="PolSourceInfoEnumTidalLgShallowStartDesc" xml:space="preserve">
     <value>Distance approximative de la côte à l'aire de croissance (m)</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallDeepHiDef" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallDeepDef" xml:space="preserve">
     <value>and a large tidal range.  </value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallDeepHiDefHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallDeepDefHide" xml:space="preserve">
     <value>15314,15315,15316,15317,15318,15319,15320,15321,15322,15323,15324,15325,15326</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallDeepHiDefInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallDeepDefInit" xml:space="preserve">
     <value>HCWS</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallDeepHiDefReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallDeepDefReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par échantillonnage d'eau.</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallDeepHiDefText" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallDeepDefText" xml:space="preserve">
     <value>Élevé, confirmation par échantillon d'eau,</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallDeepHiPot" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallDeepPot" xml:space="preserve">
     <value>and a small tidal range.  </value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallDeepHiPotHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallDeepPotHide" xml:space="preserve">
     <value>15301,15302,15303,15304,15305,15306,15307,15308,15309,15310,15311,15312,15313</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallDeepHiPotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallDeepPotInit" xml:space="preserve">
     <value>HCV</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallDeepHiPotReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallDeepPotReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par observation visuelle ou par odorat.</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallDeepHiPotText" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallDeepPotText" xml:space="preserve">
     <value>Élevé, confirmation visuelle,</value>
   </data>
   <data name="PolSourceInfoEnumTidalSmallDeepStart" xml:space="preserve">
@@ -12729,34 +12729,34 @@
   <data name="PolSourceInfoEnumTidalSmallDeepStartDesc" xml:space="preserve">
     <value>Distance approximative de la côte à l'aire de croissance (m)</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallShallowHiDef" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallShallowDef" xml:space="preserve">
     <value>and a small tidal range.  </value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallShallowHiDefHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallShallowDefHide" xml:space="preserve">
     <value>17014,17015,17016,17017,17018,17019,17020,17021,17022,17023,17024,17025,17026</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallShallowHiDefInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallShallowDefInit" xml:space="preserve">
     <value>HCWS</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallShallowHiDefReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallShallowDefReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par échantillonnage d'eau.</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallShallowHiDefText" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallShallowDefText" xml:space="preserve">
     <value>Élevé, confirmation par échantillon d'eau,</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallShallowHiPot" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallShallowPot" xml:space="preserve">
     <value>and a small tidal range.  </value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallShallowHiPotHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallShallowPotHide" xml:space="preserve">
     <value>17001,17002,17003,17004,17005,17006,17007,17008,17009,17010,17011,17012,17013</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallShallowHiPotInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallShallowPotInit" xml:space="preserve">
     <value>HCWS</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallShallowHiPotReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallShallowPotReport" xml:space="preserve">
     <value>  Le niveau de risque est considéré comme étant élevé, et celui-ci fut confirmé par échantillonnage d'eau.</value>
   </data>
-  <data name="PolSourceInfoEnumTidalSmallShallowHiPotText" xml:space="preserve">
+  <data name="PolSourceInfoEnumTidalSmallShallowPotText" xml:space="preserve">
     <value>Élevé, confirmation par échantillon d'eau,</value>
   </data>
   <data name="PolSourceInfoEnumTidalSmallShallowStart" xml:space="preserve">

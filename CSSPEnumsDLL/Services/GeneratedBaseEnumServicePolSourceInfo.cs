@@ -96,7 +96,7 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.SecondaryHazardousLevelStart:
                     case PolSourceObsInfoEnum.ImpactRatingStart:
                     case PolSourceObsInfoEnum.StatusStart:
-                    case PolSourceObsInfoEnum.DiltuionAnalysesWaterDepthStart:
+                    case PolSourceObsInfoEnum.DilutionAnalysesWaterDepthStart:
                     case PolSourceObsInfoEnum.TidalAmplitudeStart:
                     case PolSourceObsInfoEnum.TidalLargeDeepStart:
                     case PolSourceObsInfoEnum.TidalSmallDeepStart:
@@ -929,19 +929,19 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.StatusPotentialLo:
                     case PolSourceObsInfoEnum.StatusNonPollutionSource:
                     case PolSourceObsInfoEnum.StatusNotDetermined:
-                    case PolSourceObsInfoEnum.DepthDeepHiDef:
-                    case PolSourceObsInfoEnum.DepthShallowHiDef:
-                    case PolSourceObsInfoEnum.DepthDeepHiPot:
-                    case PolSourceObsInfoEnum.DepthShallowHiPot:
+                    case PolSourceObsInfoEnum.DepthDeepDef:
+                    case PolSourceObsInfoEnum.DepthShallowDef:
+                    case PolSourceObsInfoEnum.DepthDeepPot:
+                    case PolSourceObsInfoEnum.DepthShallowPot:
                     case PolSourceObsInfoEnum.DepthUnknown:
-                    case PolSourceObsInfoEnum.TidalLargeDeepHiDef:
-                    case PolSourceObsInfoEnum.TidalLargeDeepHiPot:
-                    case PolSourceObsInfoEnum.TidalSmallDeepHiDef:
-                    case PolSourceObsInfoEnum.TidalSmallDeepHiPot:
-                    case PolSourceObsInfoEnum.TidalLargeshallowHiDef:
-                    case PolSourceObsInfoEnum.TidalLargeShallowHiPot:
-                    case PolSourceObsInfoEnum.TidalSmallShallowHiDef:
-                    case PolSourceObsInfoEnum.TidalSmallShallowHiPot:
+                    case PolSourceObsInfoEnum.TidalLargeDeepDef:
+                    case PolSourceObsInfoEnum.TidalLargeDeepPot:
+                    case PolSourceObsInfoEnum.TidalSmallDeepDef:
+                    case PolSourceObsInfoEnum.TidalSmallDeepPot:
+                    case PolSourceObsInfoEnum.TidalLargeshallowDef:
+                    case PolSourceObsInfoEnum.TidalLargeShallowPot:
+                    case PolSourceObsInfoEnum.TidalSmallShallowDef:
+                    case PolSourceObsInfoEnum.TidalSmallShallowPot:
                     case PolSourceObsInfoEnum.TidalUnknown:
                     case PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet50:
                     case PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet100:
@@ -1146,7 +1146,7 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.SecondaryHazardousLevelStart:
                 case PolSourceObsInfoEnum.ImpactRatingStart:
                 case PolSourceObsInfoEnum.StatusStart:
-                case PolSourceObsInfoEnum.DiltuionAnalysesWaterDepthStart:
+                case PolSourceObsInfoEnum.DilutionAnalysesWaterDepthStart:
                 case PolSourceObsInfoEnum.TidalAmplitudeStart:
                 case PolSourceObsInfoEnum.TidalLargeDeepStart:
                 case PolSourceObsInfoEnum.TidalSmallDeepStart:
@@ -1979,19 +1979,19 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.StatusPotentialLo:
                 case PolSourceObsInfoEnum.StatusNonPollutionSource:
                 case PolSourceObsInfoEnum.StatusNotDetermined:
-                case PolSourceObsInfoEnum.DepthDeepHiDef:
-                case PolSourceObsInfoEnum.DepthShallowHiDef:
-                case PolSourceObsInfoEnum.DepthDeepHiPot:
-                case PolSourceObsInfoEnum.DepthShallowHiPot:
+                case PolSourceObsInfoEnum.DepthDeepDef:
+                case PolSourceObsInfoEnum.DepthShallowDef:
+                case PolSourceObsInfoEnum.DepthDeepPot:
+                case PolSourceObsInfoEnum.DepthShallowPot:
                 case PolSourceObsInfoEnum.DepthUnknown:
-                case PolSourceObsInfoEnum.TidalLargeDeepHiDef:
-                case PolSourceObsInfoEnum.TidalLargeDeepHiPot:
-                case PolSourceObsInfoEnum.TidalSmallDeepHiDef:
-                case PolSourceObsInfoEnum.TidalSmallDeepHiPot:
-                case PolSourceObsInfoEnum.TidalLargeshallowHiDef:
-                case PolSourceObsInfoEnum.TidalLargeShallowHiPot:
-                case PolSourceObsInfoEnum.TidalSmallShallowHiDef:
-                case PolSourceObsInfoEnum.TidalSmallShallowHiPot:
+                case PolSourceObsInfoEnum.TidalLargeDeepDef:
+                case PolSourceObsInfoEnum.TidalLargeDeepPot:
+                case PolSourceObsInfoEnum.TidalSmallDeepDef:
+                case PolSourceObsInfoEnum.TidalSmallDeepPot:
+                case PolSourceObsInfoEnum.TidalLargeshallowDef:
+                case PolSourceObsInfoEnum.TidalLargeShallowPot:
+                case PolSourceObsInfoEnum.TidalSmallShallowDef:
+                case PolSourceObsInfoEnum.TidalSmallShallowPot:
                 case PolSourceObsInfoEnum.TidalUnknown:
                 case PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet50:
                 case PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet100:
@@ -2277,8 +2277,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumImpactRatingStart;
                 case PolSourceObsInfoEnum.StatusStart:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusStart;
-                case PolSourceObsInfoEnum.DiltuionAnalysesWaterDepthStart:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDiltuionAnalysesWaterDepthStart;
+                case PolSourceObsInfoEnum.DilutionAnalysesWaterDepthStart:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDilutionAnalysesWaterDepthStart;
                 case PolSourceObsInfoEnum.TidalAmplitudeStart:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTidalAmplitudeStart;
                 case PolSourceObsInfoEnum.TidalLargeDeepStart:
@@ -3943,32 +3943,32 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusNonPollutionSource;
                 case PolSourceObsInfoEnum.StatusNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusNotDetermined;
-                case PolSourceObsInfoEnum.DepthDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiDef;
-                case PolSourceObsInfoEnum.DepthShallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiDef;
-                case PolSourceObsInfoEnum.DepthDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiPot;
-                case PolSourceObsInfoEnum.DepthShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiPot;
+                case PolSourceObsInfoEnum.DepthDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepDef;
+                case PolSourceObsInfoEnum.DepthShallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowDef;
+                case PolSourceObsInfoEnum.DepthDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepPot;
+                case PolSourceObsInfoEnum.DepthShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowPot;
                 case PolSourceObsInfoEnum.DepthUnknown:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDepthUnknown;
-                case PolSourceObsInfoEnum.TidalLargeDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiDef;
-                case PolSourceObsInfoEnum.TidalLargeDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiPot;
-                case PolSourceObsInfoEnum.TidalSmallDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiDef;
-                case PolSourceObsInfoEnum.TidalSmallDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiPot;
-                case PolSourceObsInfoEnum.TidalLargeshallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowHiDef;
-                case PolSourceObsInfoEnum.TidalLargeShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowHiPot;
-                case PolSourceObsInfoEnum.TidalSmallShallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiDef;
-                case PolSourceObsInfoEnum.TidalSmallShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiPot;
+                case PolSourceObsInfoEnum.TidalLargeDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepDef;
+                case PolSourceObsInfoEnum.TidalLargeDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepPot;
+                case PolSourceObsInfoEnum.TidalSmallDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepDef;
+                case PolSourceObsInfoEnum.TidalSmallDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepPot;
+                case PolSourceObsInfoEnum.TidalLargeshallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowDef;
+                case PolSourceObsInfoEnum.TidalLargeShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowPot;
+                case PolSourceObsInfoEnum.TidalSmallShallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowDef;
+                case PolSourceObsInfoEnum.TidalSmallShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowPot;
                 case PolSourceObsInfoEnum.TidalUnknown:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTidalUnknown;
                 case PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet50:
@@ -4366,8 +4366,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumImpactRatingStartDesc;
                 case PolSourceObsInfoEnum.StatusStart:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusStartDesc;
-                case PolSourceObsInfoEnum.DiltuionAnalysesWaterDepthStart:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDiltuionAnalysesWaterDepthStartDesc;
+                case PolSourceObsInfoEnum.DilutionAnalysesWaterDepthStart:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDilutionAnalysesWaterDepthStartDesc;
                 case PolSourceObsInfoEnum.TidalAmplitudeStart:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTidalAmplitudeStartDesc;
                 case PolSourceObsInfoEnum.TidalLargeDeepStart:
@@ -4420,6 +4420,30 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentMarineParkDesc;
                 case PolSourceObsInfoEnum.AgriculturesourceFeedlot:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAgriculturesourceFeedlotDesc;
+                case PolSourceObsInfoEnum.AgricultureSourceManure:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumAgricultureSourceManureDesc;
+                case PolSourceObsInfoEnum.ManureManagementPileSpread:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumManureManagementPileSpreadDesc;
+                case PolSourceObsInfoEnum.ManureManagementLiqSpread:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumManureManagementLiqSpreadDesc;
+                case PolSourceObsInfoEnum.ManureManagementBoth:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumManureManagementBothDesc;
+                case PolSourceObsInfoEnum.PastureActive:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPastureActiveDesc;
+                case PolSourceObsInfoEnum.PastureFallow:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPastureFallowDesc;
+                case PolSourceObsInfoEnum.FeedlotActive:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumFeedlotActiveDesc;
+                case PolSourceObsInfoEnum.FeedlotNotActive:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumFeedlotNotActiveDesc;
+                case PolSourceObsInfoEnum.FishOperationPackaging:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumFishOperationPackagingDesc;
+                case PolSourceObsInfoEnum.FishOperationRearing:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumFishOperationRearingDesc;
+                case PolSourceObsInfoEnum.FishBuildingTypeSinglePound:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumFishBuildingTypeSinglePoundDesc;
+                case PolSourceObsInfoEnum.FishBuildingTypeMultiplePounds:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumFishBuildingTypeMultiplePoundsDesc;
                 case PolSourceObsInfoEnum.ShorelineSourceSlipway:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumShorelineSourceSlipwayDesc;
                 case PolSourceObsInfoEnum.WharfTransportationFerrySingle:
@@ -4430,6 +4454,10 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWharfTransportationFerryDesc;
                 case PolSourceObsInfoEnum.WharfTransportationPleasureCraft:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWharfTransportationPleasureCraftDesc;
+                case PolSourceObsInfoEnum.TypesOfLivestockFurFarms:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfLivestockFurFarmsDesc;
+                case PolSourceObsInfoEnum.TypesOfWildlifeUngulate:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeUngulateDesc;
                 case PolSourceObsInfoEnum.NumberAnimalPresentUnknown:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumNumberAnimalPresentUnknownDesc;
                 case PolSourceObsInfoEnum.WastewaterDumpingStationAbsent:
@@ -4578,30 +4606,30 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusNonPollutionSourceDesc;
                 case PolSourceObsInfoEnum.StatusNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusNotDeterminedDesc;
-                case PolSourceObsInfoEnum.DepthDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiDefDesc;
-                case PolSourceObsInfoEnum.DepthShallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiDefDesc;
-                case PolSourceObsInfoEnum.DepthDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiPotDesc;
-                case PolSourceObsInfoEnum.DepthShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiPotDesc;
-                case PolSourceObsInfoEnum.TidalLargeDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiDefDesc;
-                case PolSourceObsInfoEnum.TidalLargeDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiPotDesc;
-                case PolSourceObsInfoEnum.TidalSmallDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiDefDesc;
-                case PolSourceObsInfoEnum.TidalSmallDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiPotDesc;
-                case PolSourceObsInfoEnum.TidalLargeshallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowHiDefDesc;
-                case PolSourceObsInfoEnum.TidalLargeShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowHiPotDesc;
-                case PolSourceObsInfoEnum.TidalSmallShallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiDefDesc;
-                case PolSourceObsInfoEnum.TidalSmallShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiPotDesc;
+                case PolSourceObsInfoEnum.DepthDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepDefDesc;
+                case PolSourceObsInfoEnum.DepthShallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowDefDesc;
+                case PolSourceObsInfoEnum.DepthDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepPotDesc;
+                case PolSourceObsInfoEnum.DepthShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowPotDesc;
+                case PolSourceObsInfoEnum.TidalLargeDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepDefDesc;
+                case PolSourceObsInfoEnum.TidalLargeDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepPotDesc;
+                case PolSourceObsInfoEnum.TidalSmallDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepDefDesc;
+                case PolSourceObsInfoEnum.TidalSmallDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepPotDesc;
+                case PolSourceObsInfoEnum.TidalLargeshallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowDefDesc;
+                case PolSourceObsInfoEnum.TidalLargeShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowPotDesc;
+                case PolSourceObsInfoEnum.TidalSmallShallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowDefDesc;
+                case PolSourceObsInfoEnum.TidalSmallShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowPotDesc;
                 default:
                     return BaseEnumServiceRes.Error;
             }
@@ -6263,32 +6291,32 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusNonPollutionSourceReport;
                 case PolSourceObsInfoEnum.StatusNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusNotDeterminedReport;
-                case PolSourceObsInfoEnum.DepthDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiDefReport;
-                case PolSourceObsInfoEnum.DepthShallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiDefReport;
-                case PolSourceObsInfoEnum.DepthDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiPotReport;
-                case PolSourceObsInfoEnum.DepthShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiPotReport;
+                case PolSourceObsInfoEnum.DepthDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepDefReport;
+                case PolSourceObsInfoEnum.DepthShallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowDefReport;
+                case PolSourceObsInfoEnum.DepthDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepPotReport;
+                case PolSourceObsInfoEnum.DepthShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowPotReport;
                 case PolSourceObsInfoEnum.DepthUnknown:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDepthUnknownReport;
-                case PolSourceObsInfoEnum.TidalLargeDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiDefReport;
-                case PolSourceObsInfoEnum.TidalLargeDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiPotReport;
-                case PolSourceObsInfoEnum.TidalSmallDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiDefReport;
-                case PolSourceObsInfoEnum.TidalSmallDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiPotReport;
-                case PolSourceObsInfoEnum.TidalLargeshallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowHiDefReport;
-                case PolSourceObsInfoEnum.TidalLargeShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowHiPotReport;
-                case PolSourceObsInfoEnum.TidalSmallShallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiDefReport;
-                case PolSourceObsInfoEnum.TidalSmallShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiPotReport;
+                case PolSourceObsInfoEnum.TidalLargeDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepDefReport;
+                case PolSourceObsInfoEnum.TidalLargeDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepPotReport;
+                case PolSourceObsInfoEnum.TidalSmallDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepDefReport;
+                case PolSourceObsInfoEnum.TidalSmallDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepPotReport;
+                case PolSourceObsInfoEnum.TidalLargeshallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowDefReport;
+                case PolSourceObsInfoEnum.TidalLargeShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowPotReport;
+                case PolSourceObsInfoEnum.TidalSmallShallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowDefReport;
+                case PolSourceObsInfoEnum.TidalSmallShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowPotReport;
                 case PolSourceObsInfoEnum.TidalUnknown:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTidalUnknownReport;
                 case PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet50:
@@ -7920,32 +7948,32 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusNonPollutionSourceText;
                 case PolSourceObsInfoEnum.StatusNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusNotDeterminedText;
-                case PolSourceObsInfoEnum.DepthDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiDefText;
-                case PolSourceObsInfoEnum.DepthShallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiDefText;
-                case PolSourceObsInfoEnum.DepthDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiPotText;
-                case PolSourceObsInfoEnum.DepthShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiPotText;
+                case PolSourceObsInfoEnum.DepthDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepDefText;
+                case PolSourceObsInfoEnum.DepthShallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowDefText;
+                case PolSourceObsInfoEnum.DepthDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepPotText;
+                case PolSourceObsInfoEnum.DepthShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowPotText;
                 case PolSourceObsInfoEnum.DepthUnknown:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDepthUnknownText;
-                case PolSourceObsInfoEnum.TidalLargeDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiDefText;
-                case PolSourceObsInfoEnum.TidalLargeDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiPotText;
-                case PolSourceObsInfoEnum.TidalSmallDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiDefText;
-                case PolSourceObsInfoEnum.TidalSmallDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiPotText;
-                case PolSourceObsInfoEnum.TidalLargeshallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowHiDefText;
-                case PolSourceObsInfoEnum.TidalLargeShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowHiPotText;
-                case PolSourceObsInfoEnum.TidalSmallShallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiDefText;
-                case PolSourceObsInfoEnum.TidalSmallShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiPotText;
+                case PolSourceObsInfoEnum.TidalLargeDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepDefText;
+                case PolSourceObsInfoEnum.TidalLargeDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepPotText;
+                case PolSourceObsInfoEnum.TidalSmallDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepDefText;
+                case PolSourceObsInfoEnum.TidalSmallDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepPotText;
+                case PolSourceObsInfoEnum.TidalLargeshallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowDefText;
+                case PolSourceObsInfoEnum.TidalLargeShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowPotText;
+                case PolSourceObsInfoEnum.TidalSmallShallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowDefText;
+                case PolSourceObsInfoEnum.TidalSmallShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowPotText;
                 case PolSourceObsInfoEnum.TidalUnknown:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTidalUnknownText;
                 case PolSourceObsInfoEnum.OpenTidalLarDeDistToGrowAreaInMetInfoReq:
@@ -8959,32 +8987,32 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusNonPollutionSourceInit;
                 case PolSourceObsInfoEnum.StatusNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusNotDeterminedInit;
-                case PolSourceObsInfoEnum.DepthDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiDefInit;
-                case PolSourceObsInfoEnum.DepthShallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiDefInit;
-                case PolSourceObsInfoEnum.DepthDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiPotInit;
-                case PolSourceObsInfoEnum.DepthShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiPotInit;
+                case PolSourceObsInfoEnum.DepthDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepDefInit;
+                case PolSourceObsInfoEnum.DepthShallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowDefInit;
+                case PolSourceObsInfoEnum.DepthDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepPotInit;
+                case PolSourceObsInfoEnum.DepthShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowPotInit;
                 case PolSourceObsInfoEnum.DepthUnknown:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDepthUnknownInit;
-                case PolSourceObsInfoEnum.TidalLargeDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiDefInit;
-                case PolSourceObsInfoEnum.TidalLargeDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiPotInit;
-                case PolSourceObsInfoEnum.TidalSmallDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiDefInit;
-                case PolSourceObsInfoEnum.TidalSmallDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiPotInit;
-                case PolSourceObsInfoEnum.TidalLargeshallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowHiDefInit;
-                case PolSourceObsInfoEnum.TidalLargeShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowHiPotInit;
-                case PolSourceObsInfoEnum.TidalSmallShallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiDefInit;
-                case PolSourceObsInfoEnum.TidalSmallShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiPotInit;
+                case PolSourceObsInfoEnum.TidalLargeDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepDefInit;
+                case PolSourceObsInfoEnum.TidalLargeDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepPotInit;
+                case PolSourceObsInfoEnum.TidalSmallDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepDefInit;
+                case PolSourceObsInfoEnum.TidalSmallDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepPotInit;
+                case PolSourceObsInfoEnum.TidalLargeshallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowDefInit;
+                case PolSourceObsInfoEnum.TidalLargeShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowPotInit;
+                case PolSourceObsInfoEnum.TidalSmallShallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowDefInit;
+                case PolSourceObsInfoEnum.TidalSmallShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowPotInit;
                 case PolSourceObsInfoEnum.TidalUnknown:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTidalUnknownInit;
                 case PolSourceObsInfoEnum.SuggestedRiskLow:
@@ -10290,32 +10318,32 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusNonPollutionSourceHide;
                 case PolSourceObsInfoEnum.StatusNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusNotDeterminedHide;
-                case PolSourceObsInfoEnum.DepthDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiDefHide;
-                case PolSourceObsInfoEnum.DepthShallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiDefHide;
-                case PolSourceObsInfoEnum.DepthDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiPotHide;
-                case PolSourceObsInfoEnum.DepthShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiPotHide;
+                case PolSourceObsInfoEnum.DepthDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepDefHide;
+                case PolSourceObsInfoEnum.DepthShallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowDefHide;
+                case PolSourceObsInfoEnum.DepthDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepPotHide;
+                case PolSourceObsInfoEnum.DepthShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowPotHide;
                 case PolSourceObsInfoEnum.DepthUnknown:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDepthUnknownHide;
-                case PolSourceObsInfoEnum.TidalLargeDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiDefHide;
-                case PolSourceObsInfoEnum.TidalLargeDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiPotHide;
-                case PolSourceObsInfoEnum.TidalSmallDeepHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiDefHide;
-                case PolSourceObsInfoEnum.TidalSmallDeepHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiPotHide;
-                case PolSourceObsInfoEnum.TidalLargeshallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowHiDefHide;
-                case PolSourceObsInfoEnum.TidalLargeShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowHiPotHide;
-                case PolSourceObsInfoEnum.TidalSmallShallowHiDef:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiDefHide;
-                case PolSourceObsInfoEnum.TidalSmallShallowHiPot:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiPotHide;
+                case PolSourceObsInfoEnum.TidalLargeDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepDefHide;
+                case PolSourceObsInfoEnum.TidalLargeDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepPotHide;
+                case PolSourceObsInfoEnum.TidalSmallDeepDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepDefHide;
+                case PolSourceObsInfoEnum.TidalSmallDeepPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepPotHide;
+                case PolSourceObsInfoEnum.TidalLargeshallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowDefHide;
+                case PolSourceObsInfoEnum.TidalLargeShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowPotHide;
+                case PolSourceObsInfoEnum.TidalSmallShallowDef:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowDefHide;
+                case PolSourceObsInfoEnum.TidalSmallShallowPot:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowPotHide;
                 case PolSourceObsInfoEnum.TidalUnknown:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTidalUnknownHide;
                 case PolSourceObsInfoEnum.OpenTidalLarDeDisToGrowAreaInMet50:

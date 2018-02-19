@@ -499,10 +499,10 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumStatusStartDesc, retStrDesc);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DiltuionAnalysesWaterDepthStart:
+                        case PolSourceObsInfoEnum.DilutionAnalysesWaterDepthStart:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDiltuionAnalysesWaterDepthStart, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDiltuionAnalysesWaterDepthStartDesc, retStrDesc);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDilutionAnalysesWaterDepthStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDilutionAnalysesWaterDepthStartDesc, retStrDesc);
                         }
                         break;
                         case PolSourceObsInfoEnum.TidalAmplitudeStart:
@@ -6178,32 +6178,32 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumStatusNotDeterminedText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DepthDeepHiDef:
+                        case PolSourceObsInfoEnum.DepthDeepDef:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiDef, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiDefReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiDefText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepDef, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepDefReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepDefText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DepthShallowHiDef:
+                        case PolSourceObsInfoEnum.DepthShallowDef:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiDef, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiDefReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiDefText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowDef, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowDefReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowDefText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DepthDeepHiPot:
+                        case PolSourceObsInfoEnum.DepthDeepPot:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiPot, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiPotReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepHiPotText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepPot, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepPotReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthDeepPotText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.DepthShallowHiPot:
+                        case PolSourceObsInfoEnum.DepthShallowPot:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiPot, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiPotReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowHiPotText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowPot, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowPotReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthShallowPotText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.DepthUnknown:
@@ -6213,60 +6213,60 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDepthUnknownText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.TidalLargeDeepHiDef:
+                        case PolSourceObsInfoEnum.TidalLargeDeepDef:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiDef, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiDefReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiDefText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepDef, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepDefReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepDefText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.TidalLargeDeepHiPot:
+                        case PolSourceObsInfoEnum.TidalLargeDeepPot:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiPot, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiPotReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepHiPotText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepPot, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepPotReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeDeepPotText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.TidalSmallDeepHiDef:
+                        case PolSourceObsInfoEnum.TidalSmallDeepDef:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiDef, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiDefReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiDefText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepDef, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepDefReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepDefText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.TidalSmallDeepHiPot:
+                        case PolSourceObsInfoEnum.TidalSmallDeepPot:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiPot, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiPotReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepHiPotText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepPot, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepPotReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallDeepPotText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.TidalLargeshallowHiDef:
+                        case PolSourceObsInfoEnum.TidalLargeshallowDef:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowHiDef, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowHiDefReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowHiDefText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowDef, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowDefReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeshallowDefText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.TidalLargeShallowHiPot:
+                        case PolSourceObsInfoEnum.TidalLargeShallowPot:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowHiPot, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowHiPotReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowHiPotText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowPot, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowPotReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalLargeShallowPotText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.TidalSmallShallowHiDef:
+                        case PolSourceObsInfoEnum.TidalSmallShallowDef:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiDef, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiDefReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiDefText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowDef, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowDefReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowDefText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.TidalSmallShallowHiPot:
+                        case PolSourceObsInfoEnum.TidalSmallShallowPot:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiPot, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiPotReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowHiPotText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowPot, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowPotReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTidalSmallShallowPotText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.TidalUnknown:
