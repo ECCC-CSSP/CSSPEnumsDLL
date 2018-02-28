@@ -578,6 +578,8 @@ namespace CSSPEnumsDLL.Enums
         PathwaySourceFirstSurfaceDrainageLow = 14319,
         PathwaySourceFirstSubSurfaceDrainageLow = 14320,
         PathwaySourceFirstDirectFlowLow = 14321,
+        PathwaySourceFirstInActive = 14322,
+        PathwaySourceFirstNotDetermined = 14323,
 
         PathwayRouteSecondPipeStart = 13000,
         PathwaySourceSecondPipeStream = 13001,

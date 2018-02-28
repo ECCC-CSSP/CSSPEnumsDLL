@@ -11158,7 +11158,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10505,10506,10507,10508,10509,10510,10512.
+        ///   Looks up a localized string similar to 10501,10502,10505,10506,10507,10508,10509,10510,10511,10512.
         /// </summary>
         public static string PolSourceInfoEnumFishBuildingTypeMultipleAbandonedHide {
             get {
@@ -11455,7 +11455,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10505,10506,10507,10508,10509,10510,10512.
+        ///   Looks up a localized string similar to 14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14323.
         /// </summary>
         public static string PolSourceInfoEnumFishBuildingTypeSingleAbandonedHide {
             get {
@@ -27754,7 +27754,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to                    In-active/No Data.
+        ///   Looks up a localized string similar to                    In-Active.
         /// </summary>
         public static string PolSourceInfoEnumPathWayInActive {
             get {
@@ -27763,7 +27763,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pathway is in-active or unknown.
+        ///   Looks up a localized string similar to Pathway is in-active.
         /// </summary>
         public static string PolSourceInfoEnumPathWayInActiveDesc {
             get {
@@ -27772,7 +27772,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 90001,90002,90003,90004,90005,90006,90008.
+        ///   Looks up a localized string similar to 14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14323.
         /// </summary>
         public static string PolSourceInfoEnumPathWayInActiveHide {
             get {
@@ -27790,7 +27790,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pathway:  This source is inactive.   .
+        ///   Looks up a localized string similar to Pathway:  .
         /// </summary>
         public static string PolSourceInfoEnumPathWayInActiveReport {
             get {
@@ -27817,7 +27817,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321.
+        ///   Looks up a localized string similar to 14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323.
         /// </summary>
         public static string PolSourceInfoEnumPathwayLandHighHide {
             get {
@@ -27862,7 +27862,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314.
+        ///   Looks up a localized string similar to 14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14322,14323.
         /// </summary>
         public static string PolSourceInfoEnumPathwayLandLowHide {
             get {
@@ -27907,7 +27907,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 14301,14302,14303,14304,14305,14306,14307,14315,14316,14317,14318,14319,14320,14321.
+        ///   Looks up a localized string similar to 14301,14302,14303,14304,14305,14306,14307,14315,14316,14317,14318,14319,14320,14321,14322,14323.
         /// </summary>
         public static string PolSourceInfoEnumPathwayLandMedHide {
             get {
@@ -28087,7 +28087,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pathway is in-active or unknown.
+        ///   Looks up a localized string similar to Pathway is not known.
         /// </summary>
         public static string PolSourceInfoEnumPathWayNotDeterminedDesc {
             get {
@@ -28096,7 +28096,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 90001,90002,90003,90004,90005,90006,90007.
+        ///   Looks up a localized string similar to 14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322.
         /// </summary>
         public static string PolSourceInfoEnumPathWayNotDeterminedHide {
             get {
@@ -28114,7 +28114,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pathway:  This source is inactive.   .
+        ///   Looks up a localized string similar to Pathway: .
         /// </summary>
         public static string PolSourceInfoEnumPathWayNotDeterminedReport {
             get {
@@ -28605,6 +28605,114 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string PolSourceInfoEnumPathwaySourceFirstDitchText {
             get {
                 return ResourceManager.GetString("PolSourceInfoEnumPathwaySourceFirstDitchText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     In-Active.
+        /// </summary>
+        public static string PolSourceInfoEnumPathwaySourceFirstInActive {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumPathwaySourceFirstInActive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pathway is in-active..
+        /// </summary>
+        public static string PolSourceInfoEnumPathwaySourceFirstInActiveDesc {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumPathwaySourceFirstInActiveDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 91002,91003,91004,91005.
+        /// </summary>
+        public static string PolSourceInfoEnumPathwaySourceFirstInActiveHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumPathwaySourceFirstInActiveHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ia.
+        /// </summary>
+        public static string PolSourceInfoEnumPathwaySourceFirstInActiveInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumPathwaySourceFirstInActiveInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There is no pollution associated with Source.  .
+        /// </summary>
+        public static string PolSourceInfoEnumPathwaySourceFirstInActiveReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumPathwaySourceFirstInActiveReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to     In-Active.
+        /// </summary>
+        public static string PolSourceInfoEnumPathwaySourceFirstInActiveText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumPathwaySourceFirstInActiveText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not Determined.
+        /// </summary>
+        public static string PolSourceInfoEnumPathwaySourceFirstNotDetermined {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumPathwaySourceFirstNotDetermined", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pathway is unknown.
+        /// </summary>
+        public static string PolSourceInfoEnumPathwaySourceFirstNotDeterminedDesc {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumPathwaySourceFirstNotDeterminedDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 90001,90002,90003,90004,90005,90006,90007.
+        /// </summary>
+        public static string PolSourceInfoEnumPathwaySourceFirstNotDeterminedHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumPathwaySourceFirstNotDeterminedHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to nd.
+        /// </summary>
+        public static string PolSourceInfoEnumPathwaySourceFirstNotDeterminedInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumPathwaySourceFirstNotDeterminedInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The pathway is not known at this time.  .
+        /// </summary>
+        public static string PolSourceInfoEnumPathwaySourceFirstNotDeterminedReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumPathwaySourceFirstNotDeterminedReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not Determined.
+        /// </summary>
+        public static string PolSourceInfoEnumPathwaySourceFirstNotDeterminedText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumPathwaySourceFirstNotDeterminedText", resourceCulture);
             }
         }
         
@@ -36304,7 +36412,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 93001.
+        ///   Looks up a localized string similar to 91002,91003,91004,91005.
         /// </summary>
         public static string PolSourceInfoEnumStatusNonPollutionSourceHide {
             get {
@@ -36358,7 +36466,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 93002.
+        ///   Looks up a localized string similar to 91002,91003,91004,91005.
         /// </summary>
         public static string PolSourceInfoEnumStatusNotDeterminedHide {
             get {
@@ -40489,7 +40597,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11903,11905,11906,11907,11908,11909,11911.
+        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911.
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeCagesHide {
             get {
@@ -40678,7 +40786,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11903,11905,11906,11907,11908,11909,11911.
+        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911.
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeSingleCagesHide {
             get {
@@ -40840,7 +40948,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 90001,90002,90003,90004,90005,90006,90008.
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeSingleSubmergedLinesHide {
             get {
@@ -40903,7 +41011,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 90001,90002,90003,90004,90005,90006,90008.
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeSubmergedLinesHide {
             get {

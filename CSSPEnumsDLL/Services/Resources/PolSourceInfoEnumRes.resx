@@ -3817,7 +3817,7 @@
     <value>Abandoned</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleAbandonedHide" xml:space="preserve">
-    <value>10501,10502,10505,10506,10507,10508,10509,10510,10512</value>
+    <value>10501,10502,10505,10506,10507,10508,10509,10510,10511,10512</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleAbandonedInit" xml:space="preserve">
     <value>abd</value>
@@ -3916,7 +3916,7 @@
     <value>Abandoned</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleAbandonedHide" xml:space="preserve">
-    <value>10501,10502,10505,10506,10507,10508,10509,10510,10512</value>
+    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14323</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleAbandonedInit" xml:space="preserve">
     <value>abd</value>
@@ -9349,19 +9349,19 @@
     <value>Is the pasture being used or has it been inactive.</value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActive" xml:space="preserve">
-    <value>                   In-active/No Data</value>
+    <value>                   In-Active</value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActiveDesc" xml:space="preserve">
-    <value>Pathway is in-active or unknown</value>
+    <value>Pathway is in-active</value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActiveHide" xml:space="preserve">
-    <value>90001,90002,90003,90004,90005,90006,90008</value>
+    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14323</value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActiveInit" xml:space="preserve">
     <value>nd</value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActiveReport" xml:space="preserve">
-    <value>Pathway:  This source is inactive.   </value>
+    <value>Pathway:  </value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActiveText" xml:space="preserve">
     <value>Potential, </value>
@@ -9370,7 +9370,7 @@
     <value>                                                  Land |  | (H)</value>
   </data>
   <data name="PolSourceInfoEnumPathwayLandHighHide" xml:space="preserve">
-    <value>14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321</value>
+    <value>14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323</value>
   </data>
   <data name="PolSourceInfoEnumPathwayLandHighInit" xml:space="preserve">
     <value>lh</value>
@@ -9385,7 +9385,7 @@
     <value>                                                  Land |  | (L)</value>
   </data>
   <data name="PolSourceInfoEnumPathwayLandLowHide" xml:space="preserve">
-    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314</value>
+    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14322,14323</value>
   </data>
   <data name="PolSourceInfoEnumPathwayLandLowInit" xml:space="preserve">
     <value>ll</value>
@@ -9400,7 +9400,7 @@
     <value>                                                  Land |  | (M)</value>
   </data>
   <data name="PolSourceInfoEnumPathwayLandMedHide" xml:space="preserve">
-    <value>14301,14302,14303,14304,14305,14306,14307,14315,14316,14317,14318,14319,14320,14321</value>
+    <value>14301,14302,14303,14304,14305,14306,14307,14315,14316,14317,14318,14319,14320,14321,14322,14323</value>
   </data>
   <data name="PolSourceInfoEnumPathwayLandMedInit" xml:space="preserve">
     <value>lm</value>
@@ -9460,16 +9460,16 @@
     <value>       Not  Determined</value>
   </data>
   <data name="PolSourceInfoEnumPathWayNotDeterminedDesc" xml:space="preserve">
-    <value>Pathway is in-active or unknown</value>
+    <value>Pathway is not known</value>
   </data>
   <data name="PolSourceInfoEnumPathWayNotDeterminedHide" xml:space="preserve">
-    <value>90001,90002,90003,90004,90005,90006,90007</value>
+    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322</value>
   </data>
   <data name="PolSourceInfoEnumPathWayNotDeterminedInit" xml:space="preserve">
     <value>nd</value>
   </data>
   <data name="PolSourceInfoEnumPathWayNotDeterminedReport" xml:space="preserve">
-    <value>Pathway:  This source is inactive.   </value>
+    <value>Pathway: </value>
   </data>
   <data name="PolSourceInfoEnumPathWayNotDeterminedText" xml:space="preserve">
     <value>Potential, </value>
@@ -9632,6 +9632,42 @@
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstDitchText" xml:space="preserve">
     <value>Ditch, </value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstInActive" xml:space="preserve">
+    <value>    In-Active</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstInActiveDesc" xml:space="preserve">
+    <value>Pathway is in-active.</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstInActiveHide" xml:space="preserve">
+    <value>91002,91003,91004,91005</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstInActiveInit" xml:space="preserve">
+    <value>ia</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstInActiveReport" xml:space="preserve">
+    <value>There is no pollution associated with Source.  </value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstInActiveText" xml:space="preserve">
+    <value>    In-Active</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstNotDetermined" xml:space="preserve">
+    <value>Not Determined</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstNotDeterminedDesc" xml:space="preserve">
+    <value>Pathway is unknown</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstNotDeterminedHide" xml:space="preserve">
+    <value>90001,90002,90003,90004,90005,90006,90007</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstNotDeterminedInit" xml:space="preserve">
+    <value>nd</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstNotDeterminedReport" xml:space="preserve">
+    <value>The pathway is not known at this time.  </value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstNotDeterminedText" xml:space="preserve">
+    <value>Not Determined</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstPipe" xml:space="preserve">
     <value>                                                                Pipe |  | (H)</value>
@@ -12199,7 +12235,7 @@
     <value>Not an polluting source.</value>
   </data>
   <data name="PolSourceInfoEnumStatusNonPollutionSourceHide" xml:space="preserve">
-    <value>93001</value>
+    <value>91002,91003,91004,91005</value>
   </data>
   <data name="PolSourceInfoEnumStatusNonPollutionSourceInit" xml:space="preserve">
     <value>Np</value>
@@ -12217,7 +12253,7 @@
     <value>Status can not be determined at this time.  </value>
   </data>
   <data name="PolSourceInfoEnumStatusNotDeterminedHide" xml:space="preserve">
-    <value>93002</value>
+    <value>91002,91003,91004,91005</value>
   </data>
   <data name="PolSourceInfoEnumStatusNotDeterminedInit" xml:space="preserve">
     <value>Nd</value>
@@ -13594,7 +13630,7 @@
     <value>               Fish Cages</value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeCagesHide" xml:space="preserve">
-    <value>11903,11905,11906,11907,11908,11909,11911</value>
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911</value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeCagesInit" xml:space="preserve">
     <value>ff</value>
@@ -13657,7 +13693,7 @@
     <value>         Fish Cage</value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeSingleCagesHide" xml:space="preserve">
-    <value>11903,11905,11906,11907,11908,11909,11911</value>
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911</value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeSingleCagesInit" xml:space="preserve">
     <value>ff</value>
@@ -13711,7 +13747,7 @@
     <value>              Submerged Line</value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeSingleSubmergedLinesHide" xml:space="preserve">
-    <value />
+    <value>90001,90002,90003,90004,90005,90006,90008</value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeSingleSubmergedLinesInit" xml:space="preserve">
     <value>ssl</value>
@@ -13732,7 +13768,7 @@
     <value>                    Submerged Lines</value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeSubmergedLinesHide" xml:space="preserve">
-    <value />
+    <value>90001,90002,90003,90004,90005,90006,90008</value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeSubmergedLinesInit" xml:space="preserve">
     <value>ssl</value>

@@ -564,6 +564,8 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.PathwaySourceFirstSurfaceDrainageLow:
                     case PolSourceObsInfoEnum.PathwaySourceFirstSubSurfaceDrainageLow:
                     case PolSourceObsInfoEnum.PathwaySourceFirstDirectFlowLow:
+                    case PolSourceObsInfoEnum.PathwaySourceFirstInActive:
+                    case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
                     case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                     case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
                     case PolSourceObsInfoEnum.PathwaySourceSecondPipeSurfaceDrainage:
@@ -1628,6 +1630,8 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.PathwaySourceFirstSurfaceDrainageLow:
                 case PolSourceObsInfoEnum.PathwaySourceFirstSubSurfaceDrainageLow:
                 case PolSourceObsInfoEnum.PathwaySourceFirstDirectFlowLow:
+                case PolSourceObsInfoEnum.PathwaySourceFirstInActive:
+                case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeSurfaceDrainage:
@@ -3241,6 +3245,10 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstSubSurfaceDrainageLow;
                 case PolSourceObsInfoEnum.PathwaySourceFirstDirectFlowLow:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstDirectFlowLow;
+                case PolSourceObsInfoEnum.PathwaySourceFirstInActive:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstInActive;
+                case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstNotDetermined;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondPipeStream;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
@@ -4604,6 +4612,10 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathWayInActiveDesc;
                 case PolSourceObsInfoEnum.PathWayNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathWayNotDeterminedDesc;
+                case PolSourceObsInfoEnum.PathwaySourceFirstInActive:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstInActiveDesc;
+                case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstNotDeterminedDesc;
                 case PolSourceObsInfoEnum.ShorelineRiparianZonePresent:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumShorelineRiparianZonePresentDesc;
                 case PolSourceObsInfoEnum.ShorelineRiparianZonePresentMed:
@@ -5631,6 +5643,10 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstSubSurfaceDrainageLowReport;
                 case PolSourceObsInfoEnum.PathwaySourceFirstDirectFlowLow:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstDirectFlowLowReport;
+                case PolSourceObsInfoEnum.PathwaySourceFirstInActive:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstInActiveReport;
+                case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstNotDeterminedReport;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondPipeStreamReport;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
@@ -7568,6 +7584,10 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstSubSurfaceDrainageLowText;
                 case PolSourceObsInfoEnum.PathwaySourceFirstDirectFlowLow:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstDirectFlowLowText;
+                case PolSourceObsInfoEnum.PathwaySourceFirstInActive:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstInActiveText;
+                case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstNotDeterminedText;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondPipeStreamText;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
@@ -8781,6 +8801,10 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstSubSurfaceDrainageLowInit;
                 case PolSourceObsInfoEnum.PathwaySourceFirstDirectFlowLow:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstDirectFlowLowInit;
+                case PolSourceObsInfoEnum.PathwaySourceFirstInActive:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstInActiveInit;
+                case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstNotDeterminedInit;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondPipeStreamInit;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
@@ -9612,12 +9636,16 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleCagesHide;
                 case PolSourceObsInfoEnum.WaterAquacultureTypeSingleFloatingBags:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleFloatingBagsHide;
+                case PolSourceObsInfoEnum.WaterAquacultureTypeSingleSubmergedLines:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleSubmergedLinesHide;
                 case PolSourceObsInfoEnum.WaterAquacultureTypeSingleLosterPound:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleLosterPoundHide;
                 case PolSourceObsInfoEnum.WaterAquacultureTypeCages:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeCagesHide;
                 case PolSourceObsInfoEnum.WaterAquacultureTypeFloatingBags:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeFloatingBagsHide;
+                case PolSourceObsInfoEnum.WaterAquacultureTypeSubmergedLines:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSubmergedLinesHide;
                 case PolSourceObsInfoEnum.WaterAquacultureTypeLosterPounds:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeLosterPoundsHide;
                 case PolSourceObsInfoEnum.WaterTypesOfMarineLifeShorelineBirds:
@@ -9730,6 +9758,10 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstSubSurfaceDrainageLowHide;
                 case PolSourceObsInfoEnum.PathwaySourceFirstDirectFlowLow:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstDirectFlowLowHide;
+                case PolSourceObsInfoEnum.PathwaySourceFirstInActive:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstInActiveHide;
+                case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstNotDeterminedHide;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondPipeStreamHide;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
