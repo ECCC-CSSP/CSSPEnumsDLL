@@ -1315,7 +1315,7 @@
     <value>No</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundNoDumpStnHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512</value>
+    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512,10513</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundNoDumpStnInit" xml:space="preserve">
     <value>nds</value>
@@ -1324,10 +1324,10 @@
     <value>There are not waste dumping stations.  </value>
   </data>
   <data name="PolSourceInfoEnumCampgroundNoDumpStnSewage" xml:space="preserve">
-    <value>No</value>
+    <value>No | S</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundNoDumpStnSewageHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507,10508,10510,10511,10512</value>
+    <value>10501,10502,10503,10504,10506,10507,10508,10510,10511,10512,10513</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundNoDumpStnSewageInit" xml:space="preserve">
     <value>nds</value>
@@ -1345,7 +1345,7 @@
     <value>         Yes</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundWithDumpStnHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512</value>
+    <value>10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512,10513</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundWithDumpStnInit" xml:space="preserve">
     <value>ds</value>
@@ -1354,10 +1354,10 @@
     <value>There are waste dumping-stations.  </value>
   </data>
   <data name="PolSourceInfoEnumCampgroundWithDumpStnSewage" xml:space="preserve">
-    <value>         Yes</value>
+    <value>         Yes | S</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundWithDumpStnSewageHide" xml:space="preserve">
-    <value>10501,10502,10503,10504,10506,10507,10508,10510,10511,10512</value>
+    <value>10501,10502,10503,10504,10506,10507,10508,10510,10511,10512,10513</value>
   </data>
   <data name="PolSourceInfoEnumCampgroundWithDumpStnSewageInit" xml:space="preserve">
     <value>ds</value>
@@ -7291,7 +7291,7 @@
     <value>sl</value>
   </data>
   <data name="PolSourceInfoEnumMarineSourcesOfContaminantEffluentReport" xml:space="preserve">
-    <value>This structure is noted for due to its location.   </value>
+    <value>This structure is noted due to its location.   </value>
   </data>
   <data name="PolSourceInfoEnumMarineSourcesOfContaminantEffluentText" xml:space="preserve">
     <value>Runoff</value>
@@ -9568,7 +9568,7 @@
     <value>Pathway is in-active</value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActiveHide" xml:space="preserve">
-    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14323,14324,14325,14326,14327</value>
+    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14323,14324,14325,14326,14327,14328</value>
   </data>
   <data name="PolSourceInfoEnumPathWayInActiveInit" xml:space="preserve">
     <value>nd</value>
@@ -9676,7 +9676,7 @@
     <value>Pathway is not known</value>
   </data>
   <data name="PolSourceInfoEnumPathWayNotDeterminedHide" xml:space="preserve">
-    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14324,14325,14326,14327</value>
+    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14324,14325,14326,14327,14328</value>
   </data>
   <data name="PolSourceInfoEnumPathWayNotDeterminedInit" xml:space="preserve">
     <value>nd</value>
@@ -9894,22 +9894,40 @@
   <data name="PolSourceInfoEnumPathwaySourceFirstLandDisposalMARINEText" xml:space="preserve">
     <value>On-land Disposal,</value>
   </data>
-  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipality" xml:space="preserve">
-    <value>Infrastructure</value>
+  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITE" xml:space="preserve">
+    <value>Off-Site Treatment</value>
   </data>
-  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityDesc" xml:space="preserve">
+  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEDesc" xml:space="preserve">
     <value>Data in Muncipality Tab</value>
   </data>
-  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEHide" xml:space="preserve">
     <value>90001,90002,90003,90004,90005,90006,90007</value>
   </data>
-  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEInit" xml:space="preserve">
     <value>Inf</value>
   </data>
-  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEReport" xml:space="preserve">
     <value>document in the 'Municipality Tab'.  </value>
   </data>
-  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityText" xml:space="preserve">
+  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEText" xml:space="preserve">
+    <value>Follow-up Required</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITE" xml:space="preserve">
+    <value>On-Site Treatment</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITEDesc" xml:space="preserve">
+    <value>Data in Muncipality Tab</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITEHide" xml:space="preserve">
+    <value>90001,90002,90003,90004,90005,90006,90007</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITEInit" xml:space="preserve">
+    <value>Inf</value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITEReport" xml:space="preserve">
+    <value>document in the 'Municipality Tab'.  </value>
+  </data>
+  <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITEText" xml:space="preserve">
     <value>Follow-up Required</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstNotDetermined" xml:space="preserve">
@@ -11338,7 +11356,7 @@
     <value>a campground </value>
   </data>
   <data name="PolSourceInfoEnumRecreationCampgroundSewage" xml:space="preserve">
-    <value>Campground</value>
+    <value>Campground | S</value>
   </data>
   <data name="PolSourceInfoEnumRecreationCampgroundSewageHide" xml:space="preserve">
     <value>11801,11802</value>
@@ -11359,7 +11377,7 @@
     <value>Day use area</value>
   </data>
   <data name="PolSourceInfoEnumRecreationDayUseAreaHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10508,10509,10510,10511,10512</value>
+    <value>10503,10504,10506,10508,10509,10510,10511,10512</value>
   </data>
   <data name="PolSourceInfoEnumRecreationDayUseAreaInit" xml:space="preserve">
     <value>dua</value>
@@ -11368,10 +11386,10 @@
     <value>a day-use area.  </value>
   </data>
   <data name="PolSourceInfoEnumRecreationDayUseAreaSewage" xml:space="preserve">
-    <value>Day use area</value>
+    <value>Day use area | S</value>
   </data>
   <data name="PolSourceInfoEnumRecreationDayUseAreaSewageHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10508,10509,10510,10511,10512</value>
+    <value>10501,10502,10503,10504,10506,10508,10509,10510,10511,10512,10513</value>
   </data>
   <data name="PolSourceInfoEnumRecreationDayUseAreaSewageInit" xml:space="preserve">
     <value>dua</value>
@@ -11389,7 +11407,7 @@
     <value>Golf Course</value>
   </data>
   <data name="PolSourceInfoEnumRecreationGolfCourseHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10508,10509,10510,10511,10512</value>
+    <value>10503,10504,10506,10508,10509,10510,10511,10512</value>
   </data>
   <data name="PolSourceInfoEnumRecreationGolfCourseInit" xml:space="preserve">
     <value>gc</value>
@@ -11398,10 +11416,10 @@
     <value>a golf course.  </value>
   </data>
   <data name="PolSourceInfoEnumRecreationGolfCourseSewage" xml:space="preserve">
-    <value>Golf Course</value>
+    <value>Golf Course | S</value>
   </data>
   <data name="PolSourceInfoEnumRecreationGolfCourseSewageHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10508,10509,10510,10511,10512</value>
+    <value>10501,10502,10503,10504,10506,10508,10509,10510,10511,10512,10513</value>
   </data>
   <data name="PolSourceInfoEnumRecreationGolfCourseSewageInit" xml:space="preserve">
     <value>gc</value>
@@ -11425,7 +11443,7 @@
     <value>Swimming area</value>
   </data>
   <data name="PolSourceInfoEnumRecreationSwimmingAreaHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10508,10509,10510,10511,10512</value>
+    <value>10503,10504,10506,10508,10509,10510,10511,10512</value>
   </data>
   <data name="PolSourceInfoEnumRecreationSwimmingAreaInit" xml:space="preserve">
     <value>sa</value>
@@ -11434,10 +11452,10 @@
     <value>a public swimming area.  </value>
   </data>
   <data name="PolSourceInfoEnumRecreationSwimmingAreaSewage" xml:space="preserve">
-    <value>Swimming area</value>
+    <value>Swimming area | S</value>
   </data>
   <data name="PolSourceInfoEnumRecreationSwimmingAreaSewageHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10508,10509,10510,10511,10512</value>
+    <value>10501,10502,10503,10504,10506,10508,10509,10510,10511,10512,10513</value>
   </data>
   <data name="PolSourceInfoEnumRecreationSwimmingAreaSewageInit" xml:space="preserve">
     <value>sa</value>
@@ -11452,7 +11470,7 @@
     <value>Swimming area, </value>
   </data>
   <data name="PolSourceInfoEnumRishHighConfirmedWater" xml:space="preserve">
-    <value>High  (Water Sample)</value>
+    <value>                      Risk High (lab data)</value>
   </data>
   <data name="PolSourceInfoEnumRishHighConfirmedWaterDesc" xml:space="preserve">
     <value>Confirmed with water samples</value>
@@ -11470,7 +11488,7 @@
     <value>High, Water Sample</value>
   </data>
   <data name="PolSourceInfoEnumRiskHighConfirmedVisual" xml:space="preserve">
-    <value>       High ( Visual or Odor)</value>
+    <value>                             Risk High (field data)</value>
   </data>
   <data name="PolSourceInfoEnumRiskHighConfirmedVisualDesc" xml:space="preserve">
     <value>Confirmed with observation </value>
@@ -11488,7 +11506,7 @@
     <value>High, Visual Observation</value>
   </data>
   <data name="PolSourceInfoEnumRiskHighNotConfirmed" xml:space="preserve">
-    <value>            High (Not Confirmed)</value>
+    <value>                                        Risk High (not confirmed)</value>
   </data>
   <data name="PolSourceInfoEnumRiskHighNotConfirmedDesc" xml:space="preserve">
     <value>Not Confirmed with physical evidence</value>
@@ -11506,7 +11524,7 @@
     <value>High, </value>
   </data>
   <data name="PolSourceInfoEnumRiskLow" xml:space="preserve">
-    <value>                                     Low </value>
+    <value>                                                          Risk Low </value>
   </data>
   <data name="PolSourceInfoEnumRiskLowHide" xml:space="preserve">
     <value />
@@ -11521,7 +11539,7 @@
     <value>Low, </value>
   </data>
   <data name="PolSourceInfoEnumRiskModerate" xml:space="preserve">
-    <value>               Moderate </value>
+    <value>                                                    Risk Moderate </value>
   </data>
   <data name="PolSourceInfoEnumRiskModerateHide" xml:space="preserve">
     <value />
@@ -11536,7 +11554,7 @@
     <value>Moderate, </value>
   </data>
   <data name="PolSourceInfoEnumRiskNotDetermined" xml:space="preserve">
-    <value>            Not Determined</value>
+    <value>           Risk (Not Determined)</value>
   </data>
   <data name="PolSourceInfoEnumRiskNotDeterminedDesc" xml:space="preserve">
     <value>Not Determined</value>
@@ -12242,6 +12260,24 @@
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantEffluentInit" xml:space="preserve">
     <value>eff</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantEffluentLocation" xml:space="preserve">
+    <value>Structure Location</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantEffluentLocationDesc" xml:space="preserve">
+    <value>Just to identify this locaiotn</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantEffluentLocationHide" xml:space="preserve">
+    <value>25001,25002,25003,25004,25005,25006,25008</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantEffluentLocationInit" xml:space="preserve">
+    <value>sl</value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantEffluentLocationReport" xml:space="preserve">
+    <value>This structure is noted due to its location.   </value>
+  </data>
+  <data name="PolSourceInfoEnumSourcesOfContaminantEffluentLocationText" xml:space="preserve">
+    <value>Runoff</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantEffluentMarine" xml:space="preserve">
     <value>           Effluent | Marine</value>
@@ -13354,7 +13390,7 @@
     <value>Storm Water</value>
   </data>
   <data name="PolSourceInfoEnumUrbanStormWaterHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10507,10508,10509,10510,10511,10512</value>
+    <value>10502,10503,10504,10505,10507,10508,10509,10510,10511,10512,10513</value>
   </data>
   <data name="PolSourceInfoEnumUrbanStormWaterInit" xml:space="preserve">
     <value>sw</value>
@@ -13369,7 +13405,7 @@
     <value>Wastewater Dump Station</value>
   </data>
   <data name="PolSourceInfoEnumUrbanWastewaterDumpStationHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10507,10508,10509,10510,10511,10512</value>
+    <value>10502,10503,10504,10505,10507,10508,10509,10510,10511,10512,10513</value>
   </data>
   <data name="PolSourceInfoEnumUrbanWastewaterDumpStationInit" xml:space="preserve">
     <value>ds</value>
@@ -14347,7 +14383,7 @@
     <value>Abandoned</value>
   </data>
   <data name="PolSourceInfoEnumWharfAbandonedHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10506,10508,10509,10510,10511,10512</value>
+    <value>10501,10502,10503,10504,10505,10506,10508,10509,10510,10511,10512</value>
   </data>
   <data name="PolSourceInfoEnumWharfAbandonedInit" xml:space="preserve">
     <value>abd</value>

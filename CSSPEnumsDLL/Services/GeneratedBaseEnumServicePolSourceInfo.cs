@@ -512,6 +512,7 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.SourcesOfContaminantSpills:
                     case PolSourceObsInfoEnum.SourcesOfContaminantWilldExcrement:
                     case PolSourceObsInfoEnum.SourcesOfContaminantEffluentMarine:
+                    case PolSourceObsInfoEnum.SourcesOfContaminantEffluentLocation:
                     case PolSourceObsInfoEnum.SewageRunoffLand:
                     case PolSourceObsInfoEnum.SewageThruConduit:
                     case PolSourceObsInfoEnum.SewageSepticSystemLeachateField:
@@ -579,10 +580,11 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.PathwaySourceFirstDirectFlowLow:
                     case PolSourceObsInfoEnum.PathwaySourceFirstInActive:
                     case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
-                    case PolSourceObsInfoEnum.PathwaySourceFirstMunicipality:
+                    case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityONSITE:
                     case PolSourceObsInfoEnum.PathwaySourceFirstDirectMARINE:
                     case PolSourceObsInfoEnum.PathwaySourceFirstPipeMARINE:
                     case PolSourceObsInfoEnum.PathwaySourceFirstLandDisposalMARINE:
+                    case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityOFFSITE:
                     case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                     case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
                     case PolSourceObsInfoEnum.PathwaySourceSecondPipeSurfaceDrainage:
@@ -1592,6 +1594,7 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.SourcesOfContaminantSpills:
                 case PolSourceObsInfoEnum.SourcesOfContaminantWilldExcrement:
                 case PolSourceObsInfoEnum.SourcesOfContaminantEffluentMarine:
+                case PolSourceObsInfoEnum.SourcesOfContaminantEffluentLocation:
                 case PolSourceObsInfoEnum.SewageRunoffLand:
                 case PolSourceObsInfoEnum.SewageThruConduit:
                 case PolSourceObsInfoEnum.SewageSepticSystemLeachateField:
@@ -1659,10 +1662,11 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.PathwaySourceFirstDirectFlowLow:
                 case PolSourceObsInfoEnum.PathwaySourceFirstInActive:
                 case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
-                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipality:
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityONSITE:
                 case PolSourceObsInfoEnum.PathwaySourceFirstDirectMARINE:
                 case PolSourceObsInfoEnum.PathwaySourceFirstPipeMARINE:
                 case PolSourceObsInfoEnum.PathwaySourceFirstLandDisposalMARINE:
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityOFFSITE:
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeSurfaceDrainage:
@@ -3169,6 +3173,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantWilldExcrement;
                 case PolSourceObsInfoEnum.SourcesOfContaminantEffluentMarine:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantEffluentMarine;
+                case PolSourceObsInfoEnum.SourcesOfContaminantEffluentLocation:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantEffluentLocation;
                 case PolSourceObsInfoEnum.SewageRunoffLand:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSewageRunoffLand;
                 case PolSourceObsInfoEnum.SewageThruConduit:
@@ -3303,14 +3309,16 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstInActive;
                 case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstNotDetermined;
-                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipality:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipality;
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityONSITE:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITE;
                 case PolSourceObsInfoEnum.PathwaySourceFirstDirectMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstDirectMARINE;
                 case PolSourceObsInfoEnum.PathwaySourceFirstPipeMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstPipeMARINE;
                 case PolSourceObsInfoEnum.PathwaySourceFirstLandDisposalMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstLandDisposalMARINE;
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityOFFSITE:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITE;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondPipeStream;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
@@ -4620,6 +4628,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantWilldExcrementDesc;
                 case PolSourceObsInfoEnum.SourcesOfContaminantEffluentMarine:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantEffluentMarineDesc;
+                case PolSourceObsInfoEnum.SourcesOfContaminantEffluentLocation:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantEffluentLocationDesc;
                 case PolSourceObsInfoEnum.SewageRunoffLand:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSewageRunoffLandDesc;
                 case PolSourceObsInfoEnum.SewageThruConduit:
@@ -4698,8 +4708,10 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstInActiveDesc;
                 case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstNotDeterminedDesc;
-                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipality:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityDesc;
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityONSITE:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITEDesc;
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityOFFSITE:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEDesc;
                 case PolSourceObsInfoEnum.ShorelineRiparianZonePresent:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumShorelineRiparianZonePresentDesc;
                 case PolSourceObsInfoEnum.ShorelineRiparianZonePresentMed:
@@ -5627,6 +5639,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantWilldExcrementReport;
                 case PolSourceObsInfoEnum.SourcesOfContaminantEffluentMarine:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantEffluentMarineReport;
+                case PolSourceObsInfoEnum.SourcesOfContaminantEffluentLocation:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantEffluentLocationReport;
                 case PolSourceObsInfoEnum.SewageRunoffLand:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSewageRunoffLandReport;
                 case PolSourceObsInfoEnum.SewageThruConduit:
@@ -5761,14 +5775,16 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstInActiveReport;
                 case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstNotDeterminedReport;
-                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipality:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityReport;
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityONSITE:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITEReport;
                 case PolSourceObsInfoEnum.PathwaySourceFirstDirectMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstDirectMARINEReport;
                 case PolSourceObsInfoEnum.PathwaySourceFirstPipeMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstPipeMARINEReport;
                 case PolSourceObsInfoEnum.PathwaySourceFirstLandDisposalMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstLandDisposalMARINEReport;
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityOFFSITE:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEReport;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondPipeStreamReport;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
@@ -7598,6 +7614,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantWilldExcrementText;
                 case PolSourceObsInfoEnum.SourcesOfContaminantEffluentMarine:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantEffluentMarineText;
+                case PolSourceObsInfoEnum.SourcesOfContaminantEffluentLocation:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantEffluentLocationText;
                 case PolSourceObsInfoEnum.SewageRunoffLand:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSewageRunoffLandText;
                 case PolSourceObsInfoEnum.SewageThruConduit:
@@ -7732,14 +7750,16 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstInActiveText;
                 case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstNotDeterminedText;
-                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipality:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityText;
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityONSITE:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITEText;
                 case PolSourceObsInfoEnum.PathwaySourceFirstDirectMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstDirectMARINEText;
                 case PolSourceObsInfoEnum.PathwaySourceFirstPipeMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstPipeMARINEText;
                 case PolSourceObsInfoEnum.PathwaySourceFirstLandDisposalMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstLandDisposalMARINEText;
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityOFFSITE:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEText;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondPipeStreamText;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
@@ -8845,6 +8865,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantWilldExcrementInit;
                 case PolSourceObsInfoEnum.SourcesOfContaminantEffluentMarine:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantEffluentMarineInit;
+                case PolSourceObsInfoEnum.SourcesOfContaminantEffluentLocation:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantEffluentLocationInit;
                 case PolSourceObsInfoEnum.SewageRunoffLand:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSewageRunoffLandInit;
                 case PolSourceObsInfoEnum.SewageThruConduit:
@@ -8979,14 +9001,16 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstInActiveInit;
                 case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstNotDeterminedInit;
-                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipality:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityInit;
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityONSITE:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITEInit;
                 case PolSourceObsInfoEnum.PathwaySourceFirstDirectMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstDirectMARINEInit;
                 case PolSourceObsInfoEnum.PathwaySourceFirstPipeMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstPipeMARINEInit;
                 case PolSourceObsInfoEnum.PathwaySourceFirstLandDisposalMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstLandDisposalMARINEInit;
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityOFFSITE:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEInit;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondPipeStreamInit;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
@@ -9868,6 +9892,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantWilldExcrementHide;
                 case PolSourceObsInfoEnum.SourcesOfContaminantEffluentMarine:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantEffluentMarineHide;
+                case PolSourceObsInfoEnum.SourcesOfContaminantEffluentLocation:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantEffluentLocationHide;
                 case PolSourceObsInfoEnum.SewageRunoffLand:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSewageRunoffLandHide;
                 case PolSourceObsInfoEnum.SewageThruConduit:
@@ -10002,14 +10028,16 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstInActiveHide;
                 case PolSourceObsInfoEnum.PathwaySourceFirstNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstNotDeterminedHide;
-                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipality:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityHide;
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityONSITE:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITEHide;
                 case PolSourceObsInfoEnum.PathwaySourceFirstDirectMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstDirectMARINEHide;
                 case PolSourceObsInfoEnum.PathwaySourceFirstPipeMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstPipeMARINEHide;
                 case PolSourceObsInfoEnum.PathwaySourceFirstLandDisposalMARINE:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstLandDisposalMARINEHide;
+                case PolSourceObsInfoEnum.PathwaySourceFirstMunicipalityOFFSITE:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEHide;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceSecondPipeStreamHide;
                 case PolSourceObsInfoEnum.PathwaySourceSecondPipeDitch:
