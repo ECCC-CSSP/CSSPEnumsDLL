@@ -199,6 +199,7 @@ namespace CSSPEnumsDLL.Enums
         FishBuildingTypeSingleTank = 19504,
         FishBuildingTypeSinglePound = 19505,
         FishBuildingTypeSingleAbandoned = 19506,
+        FishBuildingTypeSingleWarehouse = 19507,
 
         FishBuildingTypeMultipleStart = 12900,
         FishBuildingTypeMultipleProcessingPlants = 12901,
@@ -207,6 +208,7 @@ namespace CSSPEnumsDLL.Enums
         FishBuildingTypeMultipleTanks = 12904,
         FishBuildingTypeMultiplePounds = 12905,
         FishBuildingTypeMultipleAbandoned = 12906,
+        FishBuildingTypeMultipleWarehouse = 12907,
 
         FISCountNumberStart = 17400,
         FISCountNumberEqualTo1 = 17401,
@@ -226,7 +228,7 @@ namespace CSSPEnumsDLL.Enums
         ShorelineSourceStart = 11400,
         ShorelineSourceWharf = 11401,
         ShorelineSourceSeaWall = 11402,
-        ShorelineSourceSlipway = 11403,
+        ShorelineSourceBoatRamp = 11403,
 
         SlipwayStart = 18000,
         SlipwayPaved = 18001,
@@ -235,7 +237,7 @@ namespace CSSPEnumsDLL.Enums
         WharfStart = 11500,
         WharfCommercialTransportation = 11501,
         WharfFishing = 11502,
-        WharfPrivate = 11503,
+        WharfRecreational = 11503,
         WharfAbandoned = 11504,
 
         VesselCountStart = 17700,
@@ -253,6 +255,7 @@ namespace CSSPEnumsDLL.Enums
         VesselCountBetween26and50 = 17712,
         VesselCountBetween51and100 = 17713,
         VesselCountGreaterThan100 = 17714,
+        VesselCountNotApplicable = 17715,
 
         WharfTransportationSingleStart = 20700,
         WharfTransportationCommericalSingle = 20701,
@@ -265,6 +268,7 @@ namespace CSSPEnumsDLL.Enums
         WharfTransportationFerry = 11602,
         WharfTransportationPleasureCraft = 11603,
         WharfTransportationBarges = 11604,
+        WharfTransportationRecreation = 11605,
 
         MarWhfCountNumberStart = 17500,
         MarWhfCountNumberEqualTo1 = 17501,
@@ -464,11 +468,12 @@ namespace CSSPEnumsDLL.Enums
         WatAquaCountNumberGreaterThan100 = 18412,
 
         WaterAquacultureTypeSingleStart = 15400,
-        WaterAquacultureTypeSingleCages = 15401,
-        WaterAquacultureTypeSingleFloatingBags = 15402,
-        WaterAquacultureTypeSingleSubmergedLines = 15403,
+        WaterAquacultureTypeSingleCage = 15401,
+        WaterAquacultureTypeSingleFloatingBag = 15402,
+        WaterAquacultureTypeSingleSubmergedLine = 15403,
         WaterAquacultureTypeSingleLosterPound = 15404,
-        WaterAquacultureTypeSingleBarges = 15405,
+        WaterAquacultureTypeSingleBarge = 15405,
+        WaterAquacultureTypeSingleBoat = 15406,
 
         WaterAquacultureTypeStart = 18800,
         WaterAquacultureTypeCages = 18801,
@@ -476,6 +481,7 @@ namespace CSSPEnumsDLL.Enums
         WaterAquacultureTypeSubmergedLines = 18803,
         WaterAquacultureTypeLosterPounds = 18804,
         WaterAquacultureTypeBarges = 18805,
+        WaterAquacultureTypeBoats = 18806,
 
         MarineLocationStart = 12300,
         MarineLocationShoreline = 12301,

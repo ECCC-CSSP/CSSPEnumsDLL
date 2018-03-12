@@ -1648,6 +1648,13 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFishBuildingTypeSingleAbandonedText, retStrText);
                         }
                         break;
+                        case PolSourceObsInfoEnum.FishBuildingTypeSingleWarehouse:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFishBuildingTypeSingleWarehouse, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFishBuildingTypeSingleWarehouseReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFishBuildingTypeSingleWarehouseText, retStrText);
+                        }
+                        break;
                         case PolSourceObsInfoEnum.FishBuildingTypeMultipleProcessingPlants:
                         {
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFishBuildingTypeMultipleProcessingPlants, retStr);
@@ -1688,6 +1695,13 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFishBuildingTypeMultipleAbandoned, retStr);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFishBuildingTypeMultipleAbandonedReport, retStrReport);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFishBuildingTypeMultipleAbandonedText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.FishBuildingTypeMultipleWarehouse:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFishBuildingTypeMultipleWarehouse, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFishBuildingTypeMultipleWarehouseReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFishBuildingTypeMultipleWarehouseText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.FISCountNumberEqualTo1:
@@ -1795,11 +1809,11 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumShorelineSourceSeaWallText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.ShorelineSourceSlipway:
+                        case PolSourceObsInfoEnum.ShorelineSourceBoatRamp:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumShorelineSourceSlipway, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumShorelineSourceSlipwayReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumShorelineSourceSlipwayText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumShorelineSourceBoatRamp, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumShorelineSourceBoatRampReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumShorelineSourceBoatRampText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.SlipwayPaved:
@@ -1830,11 +1844,11 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfFishingText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.WharfPrivate:
+                        case PolSourceObsInfoEnum.WharfRecreational:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfPrivate, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfPrivateReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfPrivateText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfRecreational, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfRecreationalReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfRecreationalText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.WharfAbandoned:
@@ -1942,6 +1956,13 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumVesselCountGreaterThan100Text, retStrText);
                         }
                         break;
+                        case PolSourceObsInfoEnum.VesselCountNotApplicable:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumVesselCountNotApplicable, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumVesselCountNotApplicableReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumVesselCountNotApplicableText, retStrText);
+                        }
+                        break;
                         case PolSourceObsInfoEnum.WharfTransportationCommericalSingle:
                         {
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfTransportationCommericalSingle, retStr);
@@ -1996,6 +2017,13 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfTransportationBarges, retStr);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfTransportationBargesReport, retStrReport);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfTransportationBargesText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.WharfTransportationRecreation:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfTransportationRecreation, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfTransportationRecreationReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWharfTransportationRecreationText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.MarWhfCountNumberEqualTo1:
@@ -3097,25 +3125,25 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWatAquaCountNumberGreaterThan100Text, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.WaterAquacultureTypeSingleCages:
+                        case PolSourceObsInfoEnum.WaterAquacultureTypeSingleCage:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleCages, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleCagesReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleCagesText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleCage, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleCageReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleCageText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.WaterAquacultureTypeSingleFloatingBags:
+                        case PolSourceObsInfoEnum.WaterAquacultureTypeSingleFloatingBag:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleFloatingBags, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleFloatingBagsReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleFloatingBagsText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleFloatingBag, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleFloatingBagReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleFloatingBagText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.WaterAquacultureTypeSingleSubmergedLines:
+                        case PolSourceObsInfoEnum.WaterAquacultureTypeSingleSubmergedLine:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleSubmergedLines, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleSubmergedLinesReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleSubmergedLinesText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleSubmergedLine, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleSubmergedLineReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleSubmergedLineText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.WaterAquacultureTypeSingleLosterPound:
@@ -3125,11 +3153,18 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleLosterPoundText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.WaterAquacultureTypeSingleBarges:
+                        case PolSourceObsInfoEnum.WaterAquacultureTypeSingleBarge:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleBarges, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleBargesReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleBargesText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleBarge, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleBargeReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleBargeText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.WaterAquacultureTypeSingleBoat:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleBoat, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleBoatReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleBoatText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.WaterAquacultureTypeCages:
@@ -3165,6 +3200,13 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeBarges, retStr);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeBargesReport, retStrReport);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeBargesText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.WaterAquacultureTypeBoats:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeBoats, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeBoatsReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeBoatsText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.MarineLocationShoreline:
