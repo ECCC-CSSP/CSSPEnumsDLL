@@ -3356,6 +3356,13 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentText, retStrText);
                         }
                         break;
+                        case PolSourceObsInfoEnum.MarineSourcesOfContaminantEffluentMultiple:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentMultiple, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentMultipleReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentMultipleText, retStrText);
+                        }
+                        break;
                         case PolSourceObsInfoEnum.SourcesOfContaminantRunoff:
                         {
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoff, retStr);
@@ -3543,6 +3550,13 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageRetentionTankMarine, retStr);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageRetentionTankMarineReport, retStrReport);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageRetentionTankMarineText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.SewageMixedMarine:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageMixedMarine, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageMixedMarineReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSewageMixedMarineText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.ObservationHazardousLevelHigh:
@@ -3949,6 +3963,13 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITE, retStr);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEReport, retStrReport);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.PathwaySourceFirstMixesMARINE:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMixesMARINE, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMixesMARINEReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPathwaySourceFirstMixesMARINEText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.PathwaySourceSecondPipeStream:

@@ -509,6 +509,7 @@ namespace CSSPEnumsDLL.Enums
         MarineSourcesOfContaminantRunoff = 12401,
         MarineSourcesOfContaminantExcrement = 12402,
         MarineSourcesOfContaminantEffluent = 12403,
+        MarineSourcesOfContaminantEffluentMultiple = 12404,
 
         SourcesOfContaminantStart = 10500,
         SourcesOfContaminantRunoff = 10501,
@@ -540,6 +541,7 @@ namespace CSSPEnumsDLL.Enums
         SewageRunoffMarine = 11912,
         SewageThruConduitMarine = 11913,
         SewageRetentionTankMarine = 11914,
+        SewageMixedMarine = 11915,
 
         ObservationHazardousLevelStart = 13100,
         ObservationHazardousLevelHigh = 13101,
@@ -606,6 +608,7 @@ namespace CSSPEnumsDLL.Enums
         PathwaySourceFirstPipeMARINE = 14326,
         PathwaySourceFirstLandDisposalMARINE = 14327,
         PathwaySourceFirstMunicipalityOFFSITE = 14328,
+        PathwaySourceFirstMixesMARINE = 14329,
 
         PathwayRouteSecondPipeStart = 13000,
         PathwaySourceSecondPipeStream = 13001,
