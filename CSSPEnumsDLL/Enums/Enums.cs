@@ -221,6 +221,7 @@ namespace CSSPEnumsDLL.Enums
         Template = 11,
         Map = 12,
         Analysis = 13,
+        OpenData = 14,
     }
     public enum FileStatusEnum
     {
@@ -308,7 +309,7 @@ namespace CSSPEnumsDLL.Enums
         MaxxamAnalyticsSydney = 26,
         PEIAnalyticalLaboratory = 27,
         NLMobileLaboratory = 28,
-        PetroformaInc = 29
+        AvalonLaboratoriesInc = 29
     }
     public enum LabSheetStatusEnum
     {
@@ -956,6 +957,7 @@ namespace CSSPEnumsDLL.Enums
         MikeSourceNotIncluded = 74,
         RainExceedance = 75,
         EmailDistributionList = 76,
+        OpenData = 77,
     }
     public enum WebTideDataSetEnum
     {

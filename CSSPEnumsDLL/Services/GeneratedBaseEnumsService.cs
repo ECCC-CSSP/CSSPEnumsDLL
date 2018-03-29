@@ -739,8 +739,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.LaboratoryEnumPEIAnalyticalLaboratory;
                 case LaboratoryEnum.NLMobileLaboratory:
                     return BaseEnumServiceRes.LaboratoryEnumNLMobileLaboratory;
-                case LaboratoryEnum.PetroformaInc:
-                    return BaseEnumServiceRes.LaboratoryEnumPetroformaInc;
+                case LaboratoryEnum.AvalonLaboratoriesInc:
+                    return BaseEnumServiceRes.LaboratoryEnumAvalonLaboratoriesInc;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -2243,6 +2243,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.TVTypeEnumRainExceedance;
                 case TVTypeEnum.EmailDistributionList:
                     return BaseEnumServiceRes.TVTypeEnumEmailDistributionList;
+                case TVTypeEnum.OpenData:
+                    return BaseEnumServiceRes.TVTypeEnumOpenData;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3832,7 +3834,7 @@ namespace CSSPEnumsDLL.Services
                 case LaboratoryEnum.MaxxamAnalyticsSydney:
                 case LaboratoryEnum.PEIAnalyticalLaboratory:
                 case LaboratoryEnum.NLMobileLaboratory:
-                case LaboratoryEnum.PetroformaInc:
+                case LaboratoryEnum.AvalonLaboratoriesInc:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.Laboratory);
@@ -4857,6 +4859,7 @@ namespace CSSPEnumsDLL.Services
                 case TVTypeEnum.MikeSourceNotIncluded:
                 case TVTypeEnum.RainExceedance:
                 case TVTypeEnum.EmailDistributionList:
+                case TVTypeEnum.OpenData:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.TVType);

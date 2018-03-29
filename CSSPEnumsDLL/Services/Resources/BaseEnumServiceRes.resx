@@ -2289,8 +2289,8 @@
   <data name="LaboratoryEnumPEIAnalyticalLaboratory" xml:space="preserve">
     <value>PEI Analytical Laboratory</value>
   </data>
-  <data name="LaboratoryEnumPetroformaInc" xml:space="preserve">
-    <value>Petroforma Inc.</value>
+  <data name="LaboratoryEnumAvalonLaboratoriesInc" xml:space="preserve">
+    <value>Avalon Laboratories Inc.</value>
   </data>
   <data name="ReportTreeNodeTypeEnumReportSubsectorSpecialTableType" xml:space="preserve">
     <value>ReportSubsectorSpecialTableType</value>
@@ -2573,5 +2573,8 @@
   </data>
   <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES" xml:space="preserve">
     <value>SUBSECTOR_MUNICIPALITIES</value>
+  </data>
+  <data name="TVTypeEnumOpenData" xml:space="preserve">
+    <value>Open Data</value>
   </data>
 </root>

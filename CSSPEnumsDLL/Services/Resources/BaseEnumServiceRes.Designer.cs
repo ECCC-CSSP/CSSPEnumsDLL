@@ -2267,6 +2267,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Avalon Laboratories Inc..
+        /// </summary>
+        public static string LaboratoryEnumAvalonLaboratoriesInc {
+            get {
+                return ResourceManager.GetString("LaboratoryEnumAvalonLaboratoriesInc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to BIO Environment Canada.
         /// </summary>
         public static string LaboratoryEnumBIOEnvironmentCanada {
@@ -2353,15 +2362,6 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string LaboratoryEnumPEIAnalyticalLaboratory {
             get {
                 return ResourceManager.GetString("LaboratoryEnumPEIAnalyticalLaboratory", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Petroforma Inc..
-        /// </summary>
-        public static string LaboratoryEnumPetroformaInc {
-            get {
-                return ResourceManager.GetString("LaboratoryEnumPetroformaInc", resourceCulture);
             }
         }
         
@@ -7033,6 +7033,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string TVTypeEnumNoDepuration {
             get {
                 return ResourceManager.GetString("TVTypeEnumNoDepuration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Data.
+        /// </summary>
+        public static string TVTypeEnumOpenData {
+            get {
+                return ResourceManager.GetString("TVTypeEnumOpenData", resourceCulture);
             }
         }
         

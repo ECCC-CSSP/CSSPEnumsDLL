@@ -1795,8 +1795,8 @@
     <value>Laboratoire analytique de l'Île-du-Prince-Édouard
 </value>
   </data>
-  <data name="LaboratoryEnumPetroformaInc" xml:space="preserve">
-    <value>Petroforma Inc.</value>
+  <data name="LaboratoryEnumAvalonLaboratoriesInc" xml:space="preserve">
+    <value>Avalon Laboratories Inc.</value>
   </data>
   <data name="ReportTreeNodeTypeEnumReportSubsectorSpecialTableType" xml:space="preserve">
     <value>Type de tableau special pour sous-secteur</value>
@@ -2079,5 +2079,8 @@
   </data>
   <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES" xml:space="preserve">
     <value>SUBSECTOR_MUNICIPALITIES</value>
+  </data>
+  <data name="TVTypeEnumOpenData" xml:space="preserve">
+    <value>Open Data (fr)</value>
   </data>
 </root>

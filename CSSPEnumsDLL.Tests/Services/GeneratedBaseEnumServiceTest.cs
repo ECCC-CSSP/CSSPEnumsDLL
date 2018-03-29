@@ -1264,8 +1264,8 @@ namespace CSSPEnumsDLL.Tests.Services
                         case LaboratoryEnum.NLMobileLaboratory:
                             Assert.AreEqual(BaseEnumServiceRes.LaboratoryEnumNLMobileLaboratory, retStr);
                             break;
-                        case LaboratoryEnum.PetroformaInc:
-                            Assert.AreEqual(BaseEnumServiceRes.LaboratoryEnumPetroformaInc, retStr);
+                        case LaboratoryEnum.AvalonLaboratoriesInc:
+                            Assert.AreEqual(BaseEnumServiceRes.LaboratoryEnumAvalonLaboratoriesInc, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -3793,6 +3793,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case TVTypeEnum.EmailDistributionList:
                             Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumEmailDistributionList, retStr);
                             break;
+                        case TVTypeEnum.OpenData:
+                            Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumOpenData, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -4706,7 +4709,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case LaboratoryEnum.MaxxamAnalyticsSydney:
                         case LaboratoryEnum.PEIAnalyticalLaboratory:
                         case LaboratoryEnum.NLMobileLaboratory:
-                        case LaboratoryEnum.PetroformaInc:
+                        case LaboratoryEnum.AvalonLaboratoriesInc:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
@@ -6277,6 +6280,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case TVTypeEnum.MikeSourceNotIncluded:
                         case TVTypeEnum.RainExceedance:
                         case TVTypeEnum.EmailDistributionList:
+                        case TVTypeEnum.OpenData:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
