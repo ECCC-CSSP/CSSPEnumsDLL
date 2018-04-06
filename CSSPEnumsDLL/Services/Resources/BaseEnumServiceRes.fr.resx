@@ -2083,4 +2083,19 @@
   <data name="TVTypeEnumOpenData" xml:space="preserve">
     <value>Open Data (fr)</value>
   </data>
+  <data name="AppTaskCommandEnumOpenDataCSVOfMWQMSamples" xml:space="preserve">
+    <value>Open Data CSV Of MWQM Samples (fr)</value>
+  </data>
+  <data name="AppTaskCommandEnumOpenDataCSVOfMWQMSites" xml:space="preserve">
+    <value>Open Data CSV Of MWQMSites (fr)</value>
+  </data>
+  <data name="AppTaskCommandEnumOpenDataKMZOfMWQMSites" xml:space="preserve">
+    <value>Open Data KMZ Of MWQMSites (fr)</value>
+  </data>
+  <data name="AppTaskCommandEnumOpenDataXlsxOfMWQMSamples" xml:space="preserve">
+    <value>Open Data Xlsx Of MWQM Samples (fr)</value>
+  </data>
+  <data name="FilePurposeEnumOpenData" xml:space="preserve">
+    <value>Open Data (fr)</value>
+  </data>
 </root>

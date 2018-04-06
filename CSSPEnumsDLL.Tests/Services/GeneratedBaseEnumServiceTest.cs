@@ -346,6 +346,18 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.CreateXlsxPDF:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumCreateXlsxPDF, retStr);
                             break;
+                        case AppTaskCommandEnum.OpenDataCSVOfMWQMSites:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVOfMWQMSites, retStr);
+                            break;
+                        case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataKMZOfMWQMSites, retStr);
+                            break;
+                        case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVOfMWQMSamples, retStr);
+                            break;
+                        case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataXlsxOfMWQMSamples, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -932,6 +944,9 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         case FilePurposeEnum.Analysis:
                             Assert.AreEqual(BaseEnumServiceRes.FilePurposeEnumAnalysis, retStr);
+                            break;
+                        case FilePurposeEnum.OpenData:
+                            Assert.AreEqual(BaseEnumServiceRes.FilePurposeEnumOpenData, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -4091,6 +4106,10 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.CreateDocumentFromParameters:
                         case AppTaskCommandEnum.CreateDocxPDF:
                         case AppTaskCommandEnum.CreateXlsxPDF:
+                        case AppTaskCommandEnum.OpenDataCSVOfMWQMSites:
+                        case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
+                        case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
+                        case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
@@ -4512,6 +4531,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case FilePurposeEnum.Template:
                         case FilePurposeEnum.Map:
                         case FilePurposeEnum.Analysis:
+                        case FilePurposeEnum.OpenData:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

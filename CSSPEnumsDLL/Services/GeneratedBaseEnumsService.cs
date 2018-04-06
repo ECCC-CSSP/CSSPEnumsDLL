@@ -205,6 +205,14 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumCreateDocxPDF;
                 case AppTaskCommandEnum.CreateXlsxPDF:
                     return BaseEnumServiceRes.AppTaskCommandEnumCreateXlsxPDF;
+                case AppTaskCommandEnum.OpenDataCSVOfMWQMSites:
+                    return BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVOfMWQMSites;
+                case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
+                    return BaseEnumServiceRes.AppTaskCommandEnumOpenDataKMZOfMWQMSites;
+                case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
+                    return BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVOfMWQMSamples;
+                case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
+                    return BaseEnumServiceRes.AppTaskCommandEnumOpenDataXlsxOfMWQMSamples;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -540,6 +548,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.FilePurposeEnumMap;
                 case FilePurposeEnum.Analysis:
                     return BaseEnumServiceRes.FilePurposeEnumAnalysis;
+                case FilePurposeEnum.OpenData:
+                    return BaseEnumServiceRes.FilePurposeEnumOpenData;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3450,6 +3460,10 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.CreateDocumentFromParameters:
                 case AppTaskCommandEnum.CreateDocxPDF:
                 case AppTaskCommandEnum.CreateXlsxPDF:
+                case AppTaskCommandEnum.OpenDataCSVOfMWQMSites:
+                case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
+                case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
+                case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);
@@ -3702,6 +3716,7 @@ namespace CSSPEnumsDLL.Services
                 case FilePurposeEnum.Template:
                 case FilePurposeEnum.Map:
                 case FilePurposeEnum.Analysis:
+                case FilePurposeEnum.OpenData:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.FilePurpose);

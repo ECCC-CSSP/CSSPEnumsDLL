@@ -592,6 +592,42 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open Data CSV Of MWQM Samples.
+        /// </summary>
+        public static string AppTaskCommandEnumOpenDataCSVOfMWQMSamples {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumOpenDataCSVOfMWQMSamples", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Data CSV Of MWQMSites.
+        /// </summary>
+        public static string AppTaskCommandEnumOpenDataCSVOfMWQMSites {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumOpenDataCSVOfMWQMSites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Data KMZ Of MWQMSites.
+        /// </summary>
+        public static string AppTaskCommandEnumOpenDataKMZOfMWQMSites {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumOpenDataKMZOfMWQMSites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Data Xlsx Of MWQM Samples.
+        /// </summary>
+        public static string AppTaskCommandEnumOpenDataXlsxOfMWQMSamples {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumOpenDataXlsxOfMWQMSamples", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Setup Web Tide.
         /// </summary>
         public static string AppTaskCommandEnumSetupWebTide {
@@ -1831,6 +1867,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string FilePurposeEnumMikeResultKMZ {
             get {
                 return ResourceManager.GetString("FilePurposeEnumMikeResultKMZ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Data.
+        /// </summary>
+        public static string FilePurposeEnumOpenData {
+            get {
+                return ResourceManager.GetString("FilePurposeEnumOpenData", resourceCulture);
             }
         }
         

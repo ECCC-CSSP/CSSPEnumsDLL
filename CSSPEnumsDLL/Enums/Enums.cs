@@ -86,6 +86,10 @@ namespace CSSPEnumsDLL.Enums
         CreateDocumentFromParameters = 19,
         CreateDocxPDF = 20,
         CreateXlsxPDF = 21,
+        OpenDataCSVOfMWQMSites = 22,
+        OpenDataKMZOfMWQMSites = 23,
+        OpenDataCSVOfMWQMSamples = 24,
+        OpenDataXlsxOfMWQMSamples = 25,
     }
     public enum AppTaskStatusEnum
     {
