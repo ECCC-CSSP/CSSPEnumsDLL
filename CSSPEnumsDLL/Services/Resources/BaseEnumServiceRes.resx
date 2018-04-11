@@ -2592,4 +2592,7 @@
   <data name="FilePurposeEnumOpenData" xml:space="preserve">
     <value>Open Data</value>
   </data>
+  <data name="LaboratoryEnumMaxxam" xml:space="preserve">
+    <value>Maxxam</value>
+  </data>
 </root>

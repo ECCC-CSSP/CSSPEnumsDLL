@@ -313,7 +313,8 @@ namespace CSSPEnumsDLL.Enums
         MaxxamAnalyticsSydney = 26,
         PEIAnalyticalLaboratory = 27,
         NLMobileLaboratory = 28,
-        AvalonLaboratoriesInc = 29
+        AvalonLaboratoriesInc = 29,
+        Maxxam = 30,
     }
     public enum LabSheetStatusEnum
     {

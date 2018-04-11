@@ -2366,6 +2366,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Maxxam.
+        /// </summary>
+        public static string LaboratoryEnumMaxxam {
+            get {
+                return ResourceManager.GetString("LaboratoryEnumMaxxam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Maxxam Analytics Bedford.
         /// </summary>
         public static string LaboratoryEnumMaxxamAnalyticsBedford {
