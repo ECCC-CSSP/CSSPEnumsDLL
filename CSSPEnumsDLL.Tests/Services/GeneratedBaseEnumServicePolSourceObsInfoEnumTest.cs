@@ -2882,11 +2882,11 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgEqualsNotApplicableText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.AnimalBldgSingleWarehouse:
+                        case PolSourceObsInfoEnum.AnimalBldgSingleCages:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgSingleWarehouse, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgSingleWarehouseReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgSingleWarehouseText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgSingleCages, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgSingleCagesReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgSingleCagesText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.AnimalBldgSingleBarn:
@@ -2903,18 +2903,18 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgSingleBuildingsText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.AnimalBldgMultipleWarehouse:
+                        case PolSourceObsInfoEnum.AnimalBldgMultipleCages:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgMultipleWarehouse, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgMultipleWarehouseReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgMultipleWarehouseText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgMultipleCages, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgMultipleCagesReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgMultipleCagesText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.AnimalBldgMultipleBarn:
+                        case PolSourceObsInfoEnum.AnimalBldgMultipleBarns:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgMultipleBarn, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgMultipleBarnReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgMultipleBarnText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgMultipleBarns, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgMultipleBarnsReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAnimalBldgMultipleBarnsText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.AnimalBldgMultipleOtherBuildings:

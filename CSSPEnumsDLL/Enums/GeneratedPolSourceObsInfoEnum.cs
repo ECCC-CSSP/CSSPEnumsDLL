@@ -395,13 +395,13 @@ namespace CSSPEnumsDLL.Enums
         AnimalBldgEqualsNotApplicable = 16011,
 
         AnimalBldgSingleTypeStart = 16100,
-        AnimalBldgSingleWarehouse = 16101,
+        AnimalBldgSingleCages = 16101,
         AnimalBldgSingleBarn = 16102,
         AnimalBldgSingleBuildings = 16103,
 
         AnimalBldgMultipleTypeStart = 16200,
-        AnimalBldgMultipleWarehouse = 16201,
-        AnimalBldgMultipleBarn = 16202,
+        AnimalBldgMultipleCages = 16201,
+        AnimalBldgMultipleBarns = 16202,
         AnimalBldgMultipleOtherBuildings = 16203,
 
         AnimalNumberPresentStart = 13900,
