@@ -520,11 +520,38 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Fill run precip by climate site priority for year.
+        /// </summary>
+        public static string AppTaskCommandEnumFillRunPrecipByClimateSitePriorityForYear {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumFillRunPrecipByClimateSitePriorityForYear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Find missing precip for province.
+        /// </summary>
+        public static string AppTaskCommandEnumFindMissingPrecipForProvince {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumFindMissingPrecipForProvince", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Generate Web Tide.
         /// </summary>
         public static string AppTaskCommandEnumGenerateWebTide {
             get {
                 return ResourceManager.GetString("AppTaskCommandEnumGenerateWebTide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Get all precipitation for year.
+        /// </summary>
+        public static string AppTaskCommandEnumGetAllPrecipitationForYear {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumGetAllPrecipitationForYear", resourceCulture);
             }
         }
         
@@ -7168,6 +7195,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string TVTypeEnumProvince {
             get {
                 return ResourceManager.GetString("TVTypeEnumProvince", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Province Tools.
+        /// </summary>
+        public static string TVTypeEnumProvinceTools {
+            get {
+                return ResourceManager.GetString("TVTypeEnumProvinceTools", resourceCulture);
             }
         }
         

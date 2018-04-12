@@ -90,6 +90,9 @@ namespace CSSPEnumsDLL.Enums
         OpenDataKMZOfMWQMSites = 23,
         OpenDataCSVOfMWQMSamples = 24,
         OpenDataXlsxOfMWQMSamples = 25,
+        GetAllPrecipitationForYear = 26,
+        FillRunPrecipByClimateSitePriorityForYear = 27,
+        FindMissingPrecipForProvince = 28,
     }
     public enum AppTaskStatusEnum
     {
@@ -963,6 +966,7 @@ namespace CSSPEnumsDLL.Enums
         RainExceedance = 75,
         EmailDistributionList = 76,
         OpenData = 77,
+        ProvinceTools = 78,
     }
     public enum WebTideDataSetEnum
     {

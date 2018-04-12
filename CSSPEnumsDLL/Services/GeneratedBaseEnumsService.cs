@@ -213,6 +213,12 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVOfMWQMSamples;
                 case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
                     return BaseEnumServiceRes.AppTaskCommandEnumOpenDataXlsxOfMWQMSamples;
+                case AppTaskCommandEnum.GetAllPrecipitationForYear:
+                    return BaseEnumServiceRes.AppTaskCommandEnumGetAllPrecipitationForYear;
+                case AppTaskCommandEnum.FillRunPrecipByClimateSitePriorityForYear:
+                    return BaseEnumServiceRes.AppTaskCommandEnumFillRunPrecipByClimateSitePriorityForYear;
+                case AppTaskCommandEnum.FindMissingPrecipForProvince:
+                    return BaseEnumServiceRes.AppTaskCommandEnumFindMissingPrecipForProvince;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -2257,6 +2263,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.TVTypeEnumEmailDistributionList;
                 case TVTypeEnum.OpenData:
                     return BaseEnumServiceRes.TVTypeEnumOpenData;
+                case TVTypeEnum.ProvinceTools:
+                    return BaseEnumServiceRes.TVTypeEnumProvinceTools;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3466,6 +3474,9 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
                 case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
                 case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
+                case AppTaskCommandEnum.GetAllPrecipitationForYear:
+                case AppTaskCommandEnum.FillRunPrecipByClimateSitePriorityForYear:
+                case AppTaskCommandEnum.FindMissingPrecipForProvince:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);
@@ -4878,6 +4889,7 @@ namespace CSSPEnumsDLL.Services
                 case TVTypeEnum.RainExceedance:
                 case TVTypeEnum.EmailDistributionList:
                 case TVTypeEnum.OpenData:
+                case TVTypeEnum.ProvinceTools:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.TVType);

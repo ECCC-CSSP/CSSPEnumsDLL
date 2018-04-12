@@ -37,6 +37,7 @@ namespace CSSPEnumsDLL.Enums
         HumanPollutionSingleCottageM = 12617,
         HumanPollutionSingleWarehouseM = 12618,
         HumanPollutionSingleCommericalM = 12619,
+        HumanPollutionSingleFishPlant = 12620,
 
         HumanPollutionMultipleStart = 21000,
         HumanPollutionMultipleResidences = 21001,
@@ -58,6 +59,7 @@ namespace CSSPEnumsDLL.Enums
         HumanPollutionMultipleCottagesM = 21017,
         HumanPollutionMultipleWarehousesM = 21018,
         HumanPollutionMultipleCommericalsM = 21019,
+        HumanPollutionSingleFishPlants = 21020,
 
         HumanPollutionCountNumberStart = 16900,
         HumanPollutionCountNumberEqualTo1 = 16901,

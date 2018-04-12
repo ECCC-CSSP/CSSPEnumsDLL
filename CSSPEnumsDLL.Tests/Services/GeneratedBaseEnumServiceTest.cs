@@ -358,6 +358,15 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataXlsxOfMWQMSamples, retStr);
                             break;
+                        case AppTaskCommandEnum.GetAllPrecipitationForYear:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumGetAllPrecipitationForYear, retStr);
+                            break;
+                        case AppTaskCommandEnum.FillRunPrecipByClimateSitePriorityForYear:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumFillRunPrecipByClimateSitePriorityForYear, retStr);
+                            break;
+                        case AppTaskCommandEnum.FindMissingPrecipForProvince:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumFindMissingPrecipForProvince, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -3814,6 +3823,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case TVTypeEnum.OpenData:
                             Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumOpenData, retStr);
                             break;
+                        case TVTypeEnum.ProvinceTools:
+                            Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumProvinceTools, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -4113,6 +4125,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
                         case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
                         case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
+                        case AppTaskCommandEnum.GetAllPrecipitationForYear:
+                        case AppTaskCommandEnum.FillRunPrecipByClimateSitePriorityForYear:
+                        case AppTaskCommandEnum.FindMissingPrecipForProvince:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
@@ -6305,6 +6320,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case TVTypeEnum.RainExceedance:
                         case TVTypeEnum.EmailDistributionList:
                         case TVTypeEnum.OpenData:
+                        case TVTypeEnum.ProvinceTools:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

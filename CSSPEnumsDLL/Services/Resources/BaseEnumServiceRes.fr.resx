@@ -2101,4 +2101,16 @@
   <data name="LaboratoryEnumMaxxam" xml:space="preserve">
     <value>Maxxam</value>
   </data>
+  <data name="AppTaskCommandEnumFillRunPrecipByClimateSitePriorityForYear" xml:space="preserve">
+    <value>Fill run precip by climate site priority for year (fr)</value>
+  </data>
+  <data name="AppTaskCommandEnumFindMissingPrecipForProvince" xml:space="preserve">
+    <value>Find missing precip for province (fr)</value>
+  </data>
+  <data name="AppTaskCommandEnumGetAllPrecipitationForYear" xml:space="preserve">
+    <value>Get all precipitation for year (fr)</value>
+  </data>
+  <data name="TVTypeEnumProvinceTools" xml:space="preserve">
+    <value>Outils pour province</value>
+  </data>
 </root>
