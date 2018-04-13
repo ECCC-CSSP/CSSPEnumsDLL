@@ -313,7 +313,7 @@ namespace CSSPEnumsDLL.Enums
         CampgroundWithDumpStnSewage = 11804,
 
         UrbanStart = 12100,
-        UrbanStormWater = 12101,
+        UrbanAccumulatedFlow = 12101,
         UrbanWastewaterDumpStation = 12102,
 
         TankSizeStart = 12500,
@@ -850,6 +850,7 @@ namespace CSSPEnumsDLL.Enums
         PipeCountNumberEqualTo8Low = 21628,
         PipeCountNumberEqualTo9Low = 21629,
         PipeCountNumberEqualTo10Low = 21630,
+        PipeCountNumbeNoInformation = 21631,
 
         DiameterInCentimetersStart = 14500,
         DiameterInCentimetersEqual15 = 14501,
@@ -1045,7 +1046,7 @@ namespace CSSPEnumsDLL.Enums
         SuggestedRiskInfoRequired = 15804,
 
         RiskStart = 91000,
-        RiskLow = 91001,
+        RiskLowApproved = 91001,
         RiskModerate = 91002,
         RiskHighNotConfirmed = 91003,
         RiskHighConfirmedVisual = 91004,

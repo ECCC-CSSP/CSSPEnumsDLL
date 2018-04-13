@@ -2420,11 +2420,11 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumCampgroundWithDumpStnSewageText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.UrbanStormWater:
+                        case PolSourceObsInfoEnum.UrbanAccumulatedFlow:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumUrbanStormWater, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumUrbanStormWaterReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumUrbanStormWaterText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumUrbanAccumulatedFlow, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumUrbanAccumulatedFlowReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumUrbanAccumulatedFlowText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.UrbanWastewaterDumpStation:
@@ -5624,6 +5624,13 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPipeCountNumberEqualTo10LowText, retStrText);
                         }
                         break;
+                        case PolSourceObsInfoEnum.PipeCountNumbeNoInformation:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPipeCountNumbeNoInformation, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPipeCountNumbeNoInformationReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumPipeCountNumbeNoInformationText, retStrText);
+                        }
+                        break;
                         case PolSourceObsInfoEnum.DiameterInCentimetersEqual15:
                         {
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumDiameterInCentimetersEqual15, retStr);
@@ -6770,11 +6777,11 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumSuggestedRiskInfoRequiredText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.RiskLow:
+                        case PolSourceObsInfoEnum.RiskLowApproved:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskLow, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskLowReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskLowText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskLowApproved, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskLowApprovedReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskLowApprovedText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.RiskModerate:

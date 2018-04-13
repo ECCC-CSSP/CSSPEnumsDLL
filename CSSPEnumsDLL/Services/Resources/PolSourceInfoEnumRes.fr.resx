@@ -5850,6 +5850,9 @@
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleHatcheries" xml:space="preserve">
     <value>                Couveuses</value>
   </data>
+  <data name="PolSourceInfoEnumFishBuildingTypeMultipleHatcheriesDesc" xml:space="preserve">
+    <value>Bâtiment où des poissons ou des crustacés sont éclos d'œufs, élevés et nourris.</value>
+  </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleHatcheriesHide" xml:space="preserve">
     <value>21701,21702,21703,21705</value>
   </data>
@@ -5864,6 +5867,9 @@
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultiplePonds" xml:space="preserve">
     <value>            Étangs</value>
+  </data>
+  <data name="PolSourceInfoEnumFishBuildingTypeMultiplePondsDesc" xml:space="preserve">
+    <value>Eau libre où les poissons sont élevés</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultiplePondsHide" xml:space="preserve">
     <value>21701,21703,21705</value>
@@ -5881,7 +5887,7 @@
     <value> Livres sterling</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultiplePoundsDesc" xml:space="preserve">
-    <value>Les livres de homard sont des zones près du rivage qui ont des filets suspendus sur des poteaux</value>
+    <value>Les livres de homard sont des zones près du rivage qui ont des filets suspendus sur des poteaux pour former une zone clôturée.</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultiplePoundsHide" xml:space="preserve">
     <value>21701,21703,21704,21705</value>
@@ -5898,6 +5904,9 @@
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleProcessingPlants" xml:space="preserve">
     <value>Usines de traitement</value>
   </data>
+  <data name="PolSourceInfoEnumFishBuildingTypeMultipleProcessingPlantsDesc" xml:space="preserve">
+    <value>Une usine qui traite les poissons et les crustacés pour les distribuer au public.</value>
+  </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleProcessingPlantsHide" xml:space="preserve">
     <value>21702,21704</value>
   </data>
@@ -5905,7 +5914,7 @@
     <value>ha</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleProcessingPlantsReport" xml:space="preserve">
-    <value>incubateur.</value>
+    <value>bâtiments pour</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleProcessingPlantsText" xml:space="preserve">
     <value>Usines de traitement</value>
@@ -5917,19 +5926,22 @@
     <value>Quelle est la fonction principale de ces structures ou bâtiments?</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleTanks" xml:space="preserve">
-    <value>       réservoirs</value>
+    <value>Installation de conservation</value>
+  </data>
+  <data name="PolSourceInfoEnumFishBuildingTypeMultipleTanksDesc" xml:space="preserve">
+    <value>bâtiments conçus pour garder vivants des poissons ou des coquillages en utilisant des réservoirs ouverts et la circulation de l'eau</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleTanksHide" xml:space="preserve">
     <value>21701,21703,21705</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleTanksInit" xml:space="preserve">
-    <value>tk</value>
+    <value>shf</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleTanksReport" xml:space="preserve">
-    <value>réservoirs ouverts.</value>
+    <value>installations pour</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleTanksText" xml:space="preserve">
-    <value>       réservoirs</value>
+    <value>Installation de conservation</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeMultipleWarehouse" xml:space="preserve">
     <value>                       Entrepôts</value>
@@ -5964,6 +5976,9 @@
   <data name="PolSourceInfoEnumFishBuildingTypeSingleHatchery" xml:space="preserve">
     <value>                Couvoir</value>
   </data>
+  <data name="PolSourceInfoEnumFishBuildingTypeSingleHatcheryDesc" xml:space="preserve">
+    <value>Bâtiment où des poissons ou des crustacés sont éclos d'œufs, élevés et nourris.</value>
+  </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleHatcheryHide" xml:space="preserve">
     <value>21701,21702,21703,21705</value>
   </data>
@@ -5978,6 +5993,9 @@
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSinglePond" xml:space="preserve">
     <value>            Étang</value>
+  </data>
+  <data name="PolSourceInfoEnumFishBuildingTypeSinglePondDesc" xml:space="preserve">
+    <value>Eau libre où les poissons sont élevés</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSinglePondHide" xml:space="preserve">
     <value>21701,21703,21705</value>
@@ -5995,7 +6013,7 @@
     <value>Livre</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSinglePoundDesc" xml:space="preserve">
-    <value>Les livres de homard sont des zones près du rivage qui ont des filets suspendus sur des poteaux</value>
+    <value>Les livres de homard sont des zones près du rivage qui ont des filets suspendus sur des poteaux pour former une zone clôturée.</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSinglePoundHide" xml:space="preserve">
     <value>21701,21703,21704,21705</value>
@@ -6012,6 +6030,9 @@
   <data name="PolSourceInfoEnumFishBuildingTypeSingleProcessingPlant" xml:space="preserve">
     <value>Usine de transformation</value>
   </data>
+  <data name="PolSourceInfoEnumFishBuildingTypeSingleProcessingPlantDesc" xml:space="preserve">
+    <value>Une usine qui traite les poissons et les crustacés pour les distribuer au public.</value>
+  </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleProcessingPlantHide" xml:space="preserve">
     <value>21702,21704</value>
   </data>
@@ -6019,19 +6040,22 @@
     <value>pp</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleProcessingPlantReport" xml:space="preserve">
-    <value>plante pour</value>
+    <value>bâtiment pour</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleProcessingPlantText" xml:space="preserve">
     <value>Usine de transformation</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleStart" xml:space="preserve">
-    <value>Bâtiment pour la pêche</value>
+    <value>Structure ou activité</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleStartDesc" xml:space="preserve">
     <value>Type d'édifice ou de structure</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleTank" xml:space="preserve">
-    <value>          Réservoir</value>
+    <value>Réservoir de rétention</value>
+  </data>
+  <data name="PolSourceInfoEnumFishBuildingTypeSingleTankDesc" xml:space="preserve">
+    <value>Cuves ouvertes pour la conservation du poisson ou des coquillages à l'intérieur d'un bâtiment ou à l'extérieur</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleTankHide" xml:space="preserve">
     <value>21701,21703,21705</value>
@@ -6047,6 +6071,9 @@
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleWarehouse" xml:space="preserve">
     <value>                      Entrepôt</value>
+  </data>
+  <data name="PolSourceInfoEnumFishBuildingTypeSingleWarehouseDesc" xml:space="preserve">
+    <value>L'entrepôt est pour le stockage du produit ou de l'équpiment</value>
   </data>
   <data name="PolSourceInfoEnumFishBuildingTypeSingleWarehouseHide" xml:space="preserve">
     <value>10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512</value>
@@ -6114,6 +6141,9 @@
   <data name="PolSourceInfoEnumFishOperationFishMeal" xml:space="preserve">
     <value>Farine de poisson</value>
   </data>
+  <data name="PolSourceInfoEnumFishOperationFishMealDesc" xml:space="preserve">
+    <value>La farine de poisson est produite pour fournir de la nourriture au marché de l'aquaculture.</value>
+  </data>
   <data name="PolSourceInfoEnumFishOperationFishMealHide" xml:space="preserve">
     <value>10502,10505,10506,10507,10508,10510,10511,10512</value>
   </data>
@@ -6127,7 +6157,10 @@
     <value>Farine de poisson,</value>
   </data>
   <data name="PolSourceInfoEnumFishOperationHoldingTanks" xml:space="preserve">
-    <value>Tenir vivant</value>
+    <value>Fournir de l'eau seulement</value>
+  </data>
+  <data name="PolSourceInfoEnumFishOperationHoldingTanksDesc" xml:space="preserve">
+    <value>Les réservoirs contenant de l'eau de mer sont pompés afin de conserver les poissons ou les mollusques en vie jusqu'à ce qu'ils soient nécessaires au marché</value>
   </data>
   <data name="PolSourceInfoEnumFishOperationHoldingTanksHide" xml:space="preserve">
     <value />
@@ -6139,13 +6172,13 @@
     <value>tenir d'un état vivant par</value>
   </data>
   <data name="PolSourceInfoEnumFishOperationHoldingTanksText" xml:space="preserve">
-    <value>Tenir vivant,</value>
+    <value>Fournir de l'eau seulement,</value>
   </data>
   <data name="PolSourceInfoEnumFishOperationPackaging" xml:space="preserve">
     <value>Empaqueter vivant</value>
   </data>
   <data name="PolSourceInfoEnumFishOperationPackagingDesc" xml:space="preserve">
-    <value>Les homards sont souvent emballés vivants.</value>
+    <value>Les homards sont emballés vivants pour la distribution</value>
   </data>
   <data name="PolSourceInfoEnumFishOperationPackagingHide" xml:space="preserve">
     <value />
@@ -6162,6 +6195,9 @@
   <data name="PolSourceInfoEnumFishOperationProcessing" xml:space="preserve">
     <value>Produit transformé et empaqueté</value>
   </data>
+  <data name="PolSourceInfoEnumFishOperationProcessingDesc" xml:space="preserve">
+    <value>C'est du poisson transformé. Une fois traité, le produit est emballé.</value>
+  </data>
   <data name="PolSourceInfoEnumFishOperationProcessingHide" xml:space="preserve">
     <value />
   </data>
@@ -6175,7 +6211,7 @@
     <value>Produit transformé et empaqueté,</value>
   </data>
   <data name="PolSourceInfoEnumFishOperationRearing" xml:space="preserve">
-    <value>Élevage</value>
+    <value>Cultiver et nourrir</value>
   </data>
   <data name="PolSourceInfoEnumFishOperationRearingDesc" xml:space="preserve">
     <value>Les réservoirs où les poissons sont éclos ou ont grandi.</value>
@@ -6190,7 +6226,7 @@
     <value>faire l'élevage par l'entremise de</value>
   </data>
   <data name="PolSourceInfoEnumFishOperationRearingText" xml:space="preserve">
-    <value>Élevage,</value>
+    <value>Cultiver et nourrir</value>
   </data>
   <data name="PolSourceInfoEnumFishOperationStart" xml:space="preserve">
     <value>La transformation</value>
@@ -9466,7 +9502,7 @@
     <value>urb</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentUrbanRunoffReport" xml:space="preserve">
-    <value>est un urbain</value>
+    <value>est dans une zone urbaine et la question est</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentUrbanRunoffText" xml:space="preserve">
     <value>Eaux pluviales</value>
@@ -14683,7 +14719,7 @@
     <value>PathWay suit la destination source</value>
   </data>
   <data name="PolSourceInfoEnumPathwayRouteFirstStartDesc" xml:space="preserve">
-    <value>Quelle est la voie que la Source emprunte pour atteindre les eaux de marée</value>
+    <value>Le sentier commence par l'identification de la source de l'effluent. Si vous êtes debout sur un ponceau d'où provient l'effluent? Vous pouvez identifier la structure que les décharges traversent plus tard dans le filetage Pathway.</value>
   </data>
   <data name="PolSourceInfoEnumPathwayRouteSecondCulvertStart" xml:space="preserve">
     <value>Où se décharge le débit du ponceau</value>
@@ -15983,6 +16019,21 @@
   </data>
   <data name="PolSourceInfoEnumPEITidalAmplitudeStartDesc" xml:space="preserve">
     <value>PEI marée Amplitude</value>
+  </data>
+  <data name="PolSourceInfoEnumPipeCountNumbeNoInformation" xml:space="preserve">
+    <value>Pas de données | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumPipeCountNumbeNoInformationHide" xml:space="preserve">
+    <value>13001,13002,13003,13004,13005,13006,13007,13008,13009,13010</value>
+  </data>
+  <data name="PolSourceInfoEnumPipeCountNumbeNoInformationInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumPipeCountNumbeNoInformationReport" xml:space="preserve">
+    <value>L'information sur cette structure n'est pas disponible. Il est prévu que</value>
+  </data>
+  <data name="PolSourceInfoEnumPipeCountNumbeNoInformationText" xml:space="preserve">
+    <value>L'information n'est pas disponible,</value>
   </data>
   <data name="PolSourceInfoEnumPipeCountNumberEqualTo1" xml:space="preserve">
     <value>                                                          1 | (H)</value>
@@ -18715,7 +18766,7 @@
     <value>hws</value>
   </data>
   <data name="PolSourceInfoEnumRishHighConfirmedWaterReport" xml:space="preserve">
-    <value>Le niveau de risque sélectionné par l'utilisateur est «élevé» et a été confirmé par des analyses d'échantillons d'eau</value>
+    <value>Le niveau de risque sélectionné par l'utilisateur est «faible» puisque cette observation se trouve dans une zone interdite.</value>
   </data>
   <data name="PolSourceInfoEnumRishHighConfirmedWaterText" xml:space="preserve">
     <value>Haut, échantillon d'eau</value>
@@ -18733,7 +18784,7 @@
     <value>hvf</value>
   </data>
   <data name="PolSourceInfoEnumRiskHighConfirmedVisualReport" xml:space="preserve">
-    <value>Le niveau de risque sélectionné par l'utilisateur est «élevé» et a été confirmé par inspection visuelle ou par odeur.</value>
+    <value>Le niveau de risque sélectionné par l'utilisateur est «faible» car cette observation se trouve dans une zone restreinte.</value>
   </data>
   <data name="PolSourceInfoEnumRiskHighConfirmedVisualText" xml:space="preserve">
     <value>Haute, Observation visuelle</value>
@@ -18756,19 +18807,22 @@
   <data name="PolSourceInfoEnumRiskHighNotConfirmedText" xml:space="preserve">
     <value>Haute,</value>
   </data>
-  <data name="PolSourceInfoEnumRiskLow" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskLowApproved" xml:space="preserve">
     <value>                                                          Risque faible</value>
   </data>
-  <data name="PolSourceInfoEnumRiskLowHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskLowApprovedDesc" xml:space="preserve">
+    <value>Zone à faible risque mais dans la zone approuvée</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskLowApprovedHide" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumRiskLowInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskLowApprovedInit" xml:space="preserve">
     <value>L</value>
   </data>
-  <data name="PolSourceInfoEnumRiskLowReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskLowApprovedReport" xml:space="preserve">
     <value>Le niveau de risque sélectionné par l'utilisateur est "faible".</value>
   </data>
-  <data name="PolSourceInfoEnumRiskLowText" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskLowApprovedText" xml:space="preserve">
     <value>Faible,</value>
   </data>
   <data name="PolSourceInfoEnumRiskModerate" xml:space="preserve">
@@ -24394,7 +24448,7 @@
     <value>                         Aucune information</value>
   </data>
   <data name="PolSourceInfoEnumSepticNoInformationDesc" xml:space="preserve">
-    <value>Zone humide conçue pour le traitement des eaux usées</value>
+    <value>L'information sur la destination de l'effluent n'est pas connue.</value>
   </data>
   <data name="PolSourceInfoEnumSepticNoInformationHide" xml:space="preserve">
     <value>13104,13105,13106</value>
@@ -24412,7 +24466,7 @@
     <value>                      Écoulement des excréments</value>
   </data>
   <data name="PolSourceInfoEnumSewageAnimalExcrementDesc" xml:space="preserve">
-    <value>directement dans l'eau ou sur les rochers, terre</value>
+    <value>Désigne les animaux qui défèquent directement dans l'eau ou sur les rochers ou la terre environnante.</value>
   </data>
   <data name="PolSourceInfoEnumSewageAnimalExcrementHide" xml:space="preserve">
     <value>13104,13105,13106</value>
@@ -24430,7 +24484,7 @@
     <value>                               Gestion du fumier</value>
   </data>
   <data name="PolSourceInfoEnumSewageAnimalWasteStorageDesc" xml:space="preserve">
-    <value>Pieux à fumier ou réservoirs de rétention</value>
+    <value>Se réfère spécifiquement à la façon dont le fumier animal est géré. Il comprend des tas de fumier ou le mélange du fumier avec de l'eau et le stockage dans un réservoir de rétention.</value>
   </data>
   <data name="PolSourceInfoEnumSewageAnimalWasteStorageHide" xml:space="preserve">
     <value>13104,13105,13106</value>
@@ -24448,7 +24502,7 @@
     <value>                                                     Mélange dans l'eau | Marin</value>
   </data>
   <data name="PolSourceInfoEnumSewageMixedMarineDesc" xml:space="preserve">
-    <value>Les effluents se mélangent dans l'environnement marin environnant</value>
+    <value>Fait référence aux effluents qui se mélangent rapidement dans les eaux marines. Un exemple serait la nourriture de poisson des sites aquacoles. Les concentrations sont rapidement diluées</value>
   </data>
   <data name="PolSourceInfoEnumSewageMixedMarineHide" xml:space="preserve">
     <value>13101,13102,13103,13104</value>
@@ -24466,7 +24520,7 @@
     <value>                           Traitement hors site</value>
   </data>
   <data name="PolSourceInfoEnumSewageOffSiteSystemDesc" xml:space="preserve">
-    <value>système municipal</value>
+    <value>Désigne un lagon ou un système municipal qui se trouve sur une autre propriété.</value>
   </data>
   <data name="PolSourceInfoEnumSewageOffSiteSystemHide" xml:space="preserve">
     <value>14328,14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14324,14325,14326,14327</value>
@@ -24502,7 +24556,7 @@
     <value>                                       Ouvrir le réservoir ou la fosse</value>
   </data>
   <data name="PolSourceInfoEnumSewageOpenTankDesc" xml:space="preserve">
-    <value>comme un puisard, réservoir de stockage ou fosse</value>
+    <value>Désigne un réservoir ouvert qui contient des efflens ou des déchets. Les exemples incluent un cloaque, un réservoir de rétention ouverte ou une fosse</value>
   </data>
   <data name="PolSourceInfoEnumSewageOpenTankHide" xml:space="preserve">
     <value>13104,13105,13106</value>
@@ -24520,7 +24574,7 @@
     <value>                                            Réservoir septique de rétention</value>
   </data>
   <data name="PolSourceInfoEnumSewageRetentionTankDesc" xml:space="preserve">
-    <value>un réservoir de retenue comme dans un bateau ou une maison de flotteur</value>
+    <value>Fait référence à un réservoir fermé qui contient des effluents. Ces réservoirs sont généralement pompés périodiquement.</value>
   </data>
   <data name="PolSourceInfoEnumSewageRetentionTankHide" xml:space="preserve">
     <value>13104,13105,13106</value>
@@ -24532,7 +24586,7 @@
     <value>                                            Fosse septique de rétention | Marin</value>
   </data>
   <data name="PolSourceInfoEnumSewageRetentionTankMarineDesc" xml:space="preserve">
-    <value>un réservoir de retenue comme dans un bateau ou une maison de flotteur</value>
+    <value>Fait référence aux réservoirs de stockage fermés qui sont utilisés sur les bateaux ou les équipements marins. Ceux-ci sont périodiquement pompés ou déversés dans l'environnement marin.</value>
   </data>
   <data name="PolSourceInfoEnumSewageRetentionTankMarineHide" xml:space="preserve">
     <value>13101,13102,13103</value>
@@ -24553,10 +24607,10 @@
     <value>Fosse septique de rétention,</value>
   </data>
   <data name="PolSourceInfoEnumSewageRunoffLand" xml:space="preserve">
-    <value>Ruissellement</value>
+    <value>Débit accumulé</value>
   </data>
   <data name="PolSourceInfoEnumSewageRunoffLandDesc" xml:space="preserve">
-    <value>Dans l'environnement environnant</value>
+    <value>Cela se réfère à une accumulation d'eau qui s'écoule sur le sol ou se recueille dans un cours d'eau</value>
   </data>
   <data name="PolSourceInfoEnumSewageRunoffLandHide" xml:space="preserve">
     <value>13104,13105,13106</value>
@@ -24568,7 +24622,7 @@
     <value>dans l'environnement ou les eaux environnantes.</value>
   </data>
   <data name="PolSourceInfoEnumSewageRunoffLandText" xml:space="preserve">
-    <value>Ruissellement,</value>
+    <value>Débit accumulé,</value>
   </data>
   <data name="PolSourceInfoEnumSewageRunoffMarine" xml:space="preserve">
     <value>                                                      Ruissellement | Marin</value>
@@ -24592,7 +24646,7 @@
     <value>                                                 Lixiviat septique</value>
   </data>
   <data name="PolSourceInfoEnumSewageSepticSystemLeachateFieldDesc" xml:space="preserve">
-    <value>un système dans le sol</value>
+    <value>Fait référence à un champ de lixiviat enfoui sous le sol et recevant l'effluent d'une fosse septique.</value>
   </data>
   <data name="PolSourceInfoEnumSewageSepticSystemLeachateFieldHide" xml:space="preserve">
     <value>13104,13105,13106</value>
@@ -24615,6 +24669,9 @@
   <data name="PolSourceInfoEnumSewageSystemConstructedWetland" xml:space="preserve">
     <value>                                  Zone humide construite</value>
   </data>
+  <data name="PolSourceInfoEnumSewageSystemConstructedWetlandDesc" xml:space="preserve">
+    <value>Désigne une zone humide qui a été conçue pour retenir l'eau et gérer le débit ou traiter les déchets. Généralement a un faisceau ou une porte sur le flux sortant.</value>
+  </data>
   <data name="PolSourceInfoEnumSewageSystemConstructedWetlandHide" xml:space="preserve">
     <value>13104,13105,13106</value>
   </data>
@@ -24631,7 +24688,7 @@
     <value>                                                   Pipe-ponceau</value>
   </data>
   <data name="PolSourceInfoEnumSewageThruConduitDesc" xml:space="preserve">
-    <value>circule à travers ces structures</value>
+    <value>Cela fait référence à l'eau qui s'écoule d'un ponceau ou d'un tuyau. Vous ne connaissez peut-être pas la source. Si ne se réfère pas à un tuyau que l'eau traverse.</value>
   </data>
   <data name="PolSourceInfoEnumSewageThruConduitHide" xml:space="preserve">
     <value>13104,13105,13106</value>
@@ -24994,7 +25051,7 @@
     <value>Excrément</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantDomesticExcrementDesc" xml:space="preserve">
-    <value>déchets d'animaux</value>
+    <value>Terme pour décrire les déchets d'animaux domestiques ou d'animaux.</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantDomesticExcrementHide" xml:space="preserve">
     <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11912,11913,11914,11915</value>
@@ -25012,7 +25069,7 @@
     <value>           Effluent</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantEffluentDesc" xml:space="preserve">
-    <value>effluent non-épuration</value>
+    <value>Ce champ saisit les eaux de ruissellement ou les effluents qui ne contiennent pas d'eaux usées humaines. Cela pourrait inclure des effluents provenant d'équipements ou de bateaux, etc.</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantEffluentHide" xml:space="preserve">
     <value>11903,11906,11907,11908,11909,11910,11911,11912,11913,11914,11915</value>
@@ -25024,7 +25081,7 @@
     <value>Emplacement de la structure</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantEffluentLocationDesc" xml:space="preserve">
-    <value>Juste pour identifier ce lieu</value>
+    <value>Permet à l'utilisateur de s'identifier pour identifier un problème «sans risque» d'importance.</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantEffluentLocationHide" xml:space="preserve">
     <value>25008,25001,25002,25003,25004,25005,25006</value>
@@ -25042,7 +25099,7 @@
     <value>           Effluent | Marin</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantEffluentMarineDesc" xml:space="preserve">
-    <value>effluent non-épuration</value>
+    <value>Ce champ saisit les eaux de ruissellement ou les effluents des structures dans le milieu marin qui ne contiennent pas d'eaux usées humaines. Cela pourrait inclure des effluents provenant d'équipements ou de bateaux, etc.</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantEffluentMarineHide" xml:space="preserve">
     <value>11910,11911,11915,11901,11902,11903,11904,11905,11906,11907,11908</value>
@@ -25066,7 +25123,7 @@
     <value>                            Terre - Marine Septic</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantLandMarineDesc" xml:space="preserve">
-    <value>Salle de bain septique sur terre et fosse septique d'une station de pompage pour bateaux.</value>
+    <value>Se réfère à des situations telles qu'un quai ou une marina où l'observation pourrait avoir des salles de lavage à terre et un système de vidange pour les réservoirs de rétention sur les bateaux. Par conséquent, les déchets marins seraient gérés par un sys</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantLandMarineHide" xml:space="preserve">
     <value>11901,11902,11906,11910,11911,11912,11913,11914,11915</value>
@@ -25084,7 +25141,7 @@
     <value>                            Septique | Marin</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantMarineWashroomsDesc" xml:space="preserve">
-    <value>Bateau ou maison flottante</value>
+    <value>Désigne les déchets humains qui sont manipulés dans des situations marines. Généralement, les déchets sont manipulés à l'aide d'un réservoir de rétention (à bord des toilettes) ou directement dans l'eau.</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantMarineWashroomsHide" xml:space="preserve">
     <value>11913,11915,11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911</value>
@@ -25102,7 +25159,7 @@
     <value>Traitement de l'eau</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantProcessingWaterDesc" xml:space="preserve">
-    <value>Eau de traitement des plantes de poisson</value>
+    <value>Eau de traitement des plantes de poisson. En général, ce sera le problème majeur associé aux plantes de poisson.</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantProcessingWaterHide" xml:space="preserve">
     <value>11903,11904,11906,11907,11908,11909,11910,11911,11912,11913,11914,11915</value>
@@ -25120,7 +25177,7 @@
     <value>                                Ruissellement canalisé</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantRunoffDesc" xml:space="preserve">
-    <value>Un canal naturel Un fossé, un cours d'eau, un tuyau ou un ponceau</value>
+    <value>Fait référence à l'écoulement accumulé dans un canal naturel (fossé, cours d'eau) ou au débit d'un tuyau ou d'un ponceau</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantRunoffFromField" xml:space="preserve">
     <value>             Ruissellement de surface</value>
@@ -25156,7 +25213,7 @@
     <value>                                      Septique</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantSewageDesc" xml:space="preserve">
-    <value>des toilettes et des toilettes</value>
+    <value>Déchets septiques ou humains. Ce serait choisi pour décrire le problème majeur avec «Human-Land» ou des dépendances, etc</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantSewageHide" xml:space="preserve">
     <value>11902,11910,11911,11912,11913,11914,11915</value>
@@ -25174,7 +25231,7 @@
     <value> Des déversements</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantSpillsDesc" xml:space="preserve">
-    <value>Déversements de stockage de réservoir en vrac</value>
+    <value>Fait référence aux déversements non-sewae provenant des réservoirs de stockage</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantSpillsHide" xml:space="preserve">
     <value>11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914,11915</value>
@@ -25198,7 +25255,7 @@
     <value>Eau de réservoir</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantTankWaterDesc" xml:space="preserve">
-    <value>L'eau dans laquelle vivent les poissons; réservoir ou livre</value>
+    <value>L'eau déchargée d'une plante ou d'une écloserie qui permet aux poissons de vivre en utilisant de l'eau. Cette eau est généralement simplement circulée à travers les réservoirs et renvoyée dans les eaux marines.</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantTankWaterHide" xml:space="preserve">
     <value>11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914,11915</value>
@@ -25216,7 +25273,7 @@
     <value>Excrément</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantWilldExcrementDesc" xml:space="preserve">
-    <value>déchets d'animaux</value>
+    <value>Fait référence aux déchets d'animaux ou d'oiseaux du Maine</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantWilldExcrementHide" xml:space="preserve">
     <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11912,11913,11914,11915</value>
@@ -26709,26 +26766,26 @@
   <data name="PolSourceInfoEnumTypesOfWildlifeUngulateText" xml:space="preserve">
     <value>Orignal-Chevreuil,</value>
   </data>
+  <data name="PolSourceInfoEnumUrbanAccumulatedFlow" xml:space="preserve">
+    <value>Débit accumulé</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanAccumulatedFlowHide" xml:space="preserve">
+    <value>10502,10503,10504,10505,10507,10508,10509,10510,10511,10512,10513</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanAccumulatedFlowInit" xml:space="preserve">
+    <value>sw</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanAccumulatedFlowReport" xml:space="preserve">
+    <value>écoulement accumulé du ruissellement de surface.</value>
+  </data>
+  <data name="PolSourceInfoEnumUrbanAccumulatedFlowText" xml:space="preserve">
+    <value>Débit accumulé</value>
+  </data>
   <data name="PolSourceInfoEnumUrbanStart" xml:space="preserve">
     <value>Urbain</value>
   </data>
   <data name="PolSourceInfoEnumUrbanStartDesc" xml:space="preserve">
     <value>Composants du réseau d'égouts d'une municipalité</value>
-  </data>
-  <data name="PolSourceInfoEnumUrbanStormWater" xml:space="preserve">
-    <value>Eaux pluviales</value>
-  </data>
-  <data name="PolSourceInfoEnumUrbanStormWaterHide" xml:space="preserve">
-    <value>10502,10503,10504,10505,10507,10508,10509,10510,10511,10512,10513</value>
-  </data>
-  <data name="PolSourceInfoEnumUrbanStormWaterInit" xml:space="preserve">
-    <value>sw</value>
-  </data>
-  <data name="PolSourceInfoEnumUrbanStormWaterReport" xml:space="preserve">
-    <value>  Les eaux pluviales se déchargent vers</value>
-  </data>
-  <data name="PolSourceInfoEnumUrbanStormWaterText" xml:space="preserve">
-    <value>Eaux pluviales,</value>
   </data>
   <data name="PolSourceInfoEnumUrbanWastewaterDumpStation" xml:space="preserve">
     <value>Station d’élimination des eaux usées</value>
@@ -26740,7 +26797,7 @@
     <value>ds</value>
   </data>
   <data name="PolSourceInfoEnumUrbanWastewaterDumpStationReport" xml:space="preserve">
-    <value>  La station d’élimination des eaux usées est reliée à</value>
+    <value>une station de vidange des eaux usées pour les véhicules récréatifs.</value>
   </data>
   <data name="PolSourceInfoEnumUrbanWastewaterDumpStationText" xml:space="preserve">
     <value>Station d’élimination des eaux usées,</value>
