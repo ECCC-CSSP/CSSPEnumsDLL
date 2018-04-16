@@ -3123,6 +3123,222 @@
   <data name="PolSourceInfoEnumDiameterNoInformationText" xml:space="preserve">
     <value>Information is not available,  </value>
   </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters0W" xml:space="preserve">
+    <value>                                                              0 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters0WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters0WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters0WReport" xml:space="preserve">
+    <value>less than a meter to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters1000W" xml:space="preserve">
+    <value>      1000 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters1000WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters1000WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters1000WReport" xml:space="preserve">
+    <value>approximately 1000 meters to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters100W" xml:space="preserve">
+    <value>                         100 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters100WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters100WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters100WReport" xml:space="preserve">
+    <value>approximately 100 meters to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters10W" xml:space="preserve">
+    <value>                                                    10 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters10WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters10WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters10WReport" xml:space="preserve">
+    <value>approximately ten meters to the closest shoreline.  </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters10WText" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters150W" xml:space="preserve">
+    <value>                      150 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters150WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters150WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters150WReport" xml:space="preserve">
+    <value>approximately 150 meters to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters200W" xml:space="preserve">
+    <value>                    200 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters200WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters200WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters200WReport" xml:space="preserve">
+    <value>approximately 200 meters to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters20W" xml:space="preserve">
+    <value>                                                 20 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters20WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters20WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters20WReport" xml:space="preserve">
+    <value>approximately 20 meters to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters300W" xml:space="preserve">
+    <value>                 300 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters300WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters300WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters300WReport" xml:space="preserve">
+    <value>approximately 300 meters to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters30W" xml:space="preserve">
+    <value>                                            30 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters30WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters30WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters30WReport" xml:space="preserve">
+    <value>approximately 30 meters to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters400W" xml:space="preserve">
+    <value>              400 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters400WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters400WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters400WReport" xml:space="preserve">
+    <value>approximately 400 meters to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters40W" xml:space="preserve">
+    <value>                                      40 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters40WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters40WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters40WReport" xml:space="preserve">
+    <value>approximately 40 meters to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters50W" xml:space="preserve">
+    <value>                                 50 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters50WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters50WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters50WReport" xml:space="preserve">
+    <value>approximately 50 meters to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters5W" xml:space="preserve">
+    <value>                                                         5  | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters5WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters5WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters5WReport" xml:space="preserve">
+    <value>approximately five meters to the closest shoreline.  </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters600W" xml:space="preserve">
+    <value>            600 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters600WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters600WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters600WReport" xml:space="preserve">
+    <value>approximately 600 meters to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters75W" xml:space="preserve">
+    <value>                             75 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters75WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters75WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters75WReport" xml:space="preserve">
+    <value>approximately 75 meters to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters75WText" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters800W" xml:space="preserve">
+    <value>          800 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters800WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters800WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMeters800WReport" xml:space="preserve">
+    <value>approximately 800 meters to the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000W" xml:space="preserve">
+    <value>  &gt; 1000 | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WHide" xml:space="preserve">
+    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WInit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WReport" xml:space="preserve">
+    <value>more than 1000 meters to the the closest shoreline. </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreStart" xml:space="preserve">
+    <value>Distance To Shoreline (m) </value>
+  </data>
+  <data name="PolSourceInfoEnumDistanceToShoreStartDesc" xml:space="preserve">
+    <value>The closest distance to the shoreline (m)</value>
+  </data>
   <data name="PolSourceInfoEnumDistanceToWaterInMeters0" xml:space="preserve">
     <value>                                                                     0 | (H)</value>
   </data>
@@ -9256,10 +9472,10 @@
     <value>is along the shoreline.  </value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentShorelineStructures" xml:space="preserve">
-    <value>                 Shoreline Structures</value>
+    <value>     Structures on Shoreline</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentShorelineStructuresDesc" xml:space="preserve">
-    <value>wwharfs, seawalls, slipways</value>
+    <value>wharfs, seawalls, slipways</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentShorelineStructuresHide" xml:space="preserve">
     <value />
@@ -15082,7 +15298,7 @@
     <value>Pathway is in-active or there is no pathway.</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstInActiveHide" xml:space="preserve">
-    <value>91002,91003,91004,91005</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstInActiveInit" xml:space="preserve">
     <value>ia</value>
@@ -18067,7 +18283,7 @@
     <value>Campground, </value>
   </data>
   <data name="PolSourceInfoEnumRecreationDayUseArea" xml:space="preserve">
-    <value>Day use area</value>
+    <value>Day use Building - Area</value>
   </data>
   <data name="PolSourceInfoEnumRecreationDayUseAreaHide" xml:space="preserve">
     <value>10503,10504,10505,10507,10508,10509,10510,10511,10512</value>
@@ -18076,10 +18292,10 @@
     <value>dua</value>
   </data>
   <data name="PolSourceInfoEnumRecreationDayUseAreaReport" xml:space="preserve">
-    <value>a day-use area.  </value>
+    <value>a day-use building or area.  </value>
   </data>
   <data name="PolSourceInfoEnumRecreationDayUseAreaSewage" xml:space="preserve">
-    <value>Day use area | S</value>
+    <value>Day use Building - Area | S</value>
   </data>
   <data name="PolSourceInfoEnumRecreationDayUseAreaSewageHide" xml:space="preserve">
     <value>10501,10502,10503,10504,10506,10507,10508,10509,10510,10511,10512,10513</value>
@@ -19033,7 +19249,7 @@
     <value>Provinces</value>
   </data>
   <data name="PolSourceInfoEnumRishHighConfirmedWater" xml:space="preserve">
-    <value>                  High (lab data)</value>
+    <value>                Risk  High (lab data)</value>
   </data>
   <data name="PolSourceInfoEnumRishHighConfirmedWaterDesc" xml:space="preserve">
     <value>Confirmed with water samples</value>
@@ -19051,7 +19267,7 @@
     <value>High, Water Sample</value>
   </data>
   <data name="PolSourceInfoEnumRiskHighConfirmedVisual" xml:space="preserve">
-    <value>                         High (field data)</value>
+    <value>                      Risk  High (field data)</value>
   </data>
   <data name="PolSourceInfoEnumRiskHighConfirmedVisualDesc" xml:space="preserve">
     <value>Confirmed with observation </value>
@@ -19069,7 +19285,7 @@
     <value>High, Visual Observation</value>
   </data>
   <data name="PolSourceInfoEnumRiskHighNotConfirmed" xml:space="preserve">
-    <value>                              High (not confirmed)</value>
+    <value>                          Risk  High (not confirmed)</value>
   </data>
   <data name="PolSourceInfoEnumRiskHighNotConfirmedDesc" xml:space="preserve">
     <value>Not Confirmed with physical evidence</value>
@@ -19086,26 +19302,26 @@
   <data name="PolSourceInfoEnumRiskHighNotConfirmedText" xml:space="preserve">
     <value>High, </value>
   </data>
-  <data name="PolSourceInfoEnumRiskLowApproved" xml:space="preserve">
-    <value>                                                          Low </value>
+  <data name="PolSourceInfoEnumRiskLow" xml:space="preserve">
+    <value>                                               Risk  Low </value>
   </data>
-  <data name="PolSourceInfoEnumRiskLowApprovedDesc" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskLowDesc" xml:space="preserve">
     <value>Low</value>
   </data>
-  <data name="PolSourceInfoEnumRiskLowApprovedHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskLowHide" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumRiskLowApprovedInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskLowInit" xml:space="preserve">
     <value>L</value>
   </data>
-  <data name="PolSourceInfoEnumRiskLowApprovedReport" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskLowReport" xml:space="preserve">
     <value>The user selected Risk Level is 'Low'.  </value>
   </data>
-  <data name="PolSourceInfoEnumRiskLowApprovedText" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskLowText" xml:space="preserve">
     <value>Low, </value>
   </data>
   <data name="PolSourceInfoEnumRiskModerate" xml:space="preserve">
-    <value>                                     Moderate </value>
+    <value>                             Risk  Moderate </value>
   </data>
   <data name="PolSourceInfoEnumRiskModerateHide" xml:space="preserve">
     <value />
@@ -19120,7 +19336,7 @@
     <value>Moderate, </value>
   </data>
   <data name="PolSourceInfoEnumRiskNotDetermined" xml:space="preserve">
-    <value>   Not Determined</value>
+    <value> Risk  Not Determined</value>
   </data>
   <data name="PolSourceInfoEnumRiskNotDeterminedDesc" xml:space="preserve">
     <value>Not Determined</value>
@@ -24904,7 +25120,7 @@
     <value>rom</value>
   </data>
   <data name="PolSourceInfoEnumSewageMixedMarineReport" xml:space="preserve">
-    <value>mixes into the surrounding marine waters.  </value>
+    <value>Fish food and offal is the main concern since it mixes into the surrounding marine waters.  </value>
   </data>
   <data name="PolSourceInfoEnumSewageMixedMarineText" xml:space="preserve">
     <value>Mixes into Water | Marine,</value>
@@ -28018,13 +28234,13 @@
     <value>Open Water floating cage for fin-fish</value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeCagesHide" xml:space="preserve">
-    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeCagesInit" xml:space="preserve">
     <value>ff</value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeCagesReport" xml:space="preserve">
-    <value>fin-fish cages.  Fish food and offal </value>
+    <value>fin-fish cages which are </value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeCagesText" xml:space="preserve">
     <value>Fin-Fish Cages,</value>
@@ -28102,13 +28318,13 @@
     <value>Open Water floating cage for fin-fish</value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeSingleCageHide" xml:space="preserve">
-    <value>11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914</value>
+    <value />
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeSingleCageInit" xml:space="preserve">
     <value>ff</value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeSingleCageReport" xml:space="preserve">
-    <value>fin-fish cage.  Fish food and offal </value>
+    <value>fin-fish cage which is </value>
   </data>
   <data name="PolSourceInfoEnumWaterAquacultureTypeSingleCageText" xml:space="preserve">
     <value>Fin-Fish Cage,</value>

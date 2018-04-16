@@ -1046,7 +1046,7 @@ namespace CSSPEnumsDLL.Enums
         SuggestedRiskInfoRequired = 15804,
 
         RiskStart = 91000,
-        RiskLowApproved = 91001,
+        RiskLow = 91001,
         RiskModerate = 91002,
         RiskHighNotConfirmed = 91003,
         RiskHighConfirmedVisual = 91004,
@@ -2007,5 +2007,24 @@ namespace CSSPEnumsDLL.Enums
         ImpactZonePotential = 22002,
         ImpactZoneNo = 22003,
         ImpactZoneNotSure = 22004,
+
+        DistanceToShoreStart = 20000,
+        DistanceToShoreInMeters0W = 20001,
+        DistanceToShoreInMeters5W = 20002,
+        DistanceToShoreInMeters10W = 20003,
+        DistanceToShoreInMeters20W = 20004,
+        DistanceToShoreInMeters30W = 20005,
+        DistanceToShoreInMeters40W = 20006,
+        DistanceToShoreInMeters50W = 20007,
+        DistanceToShoreInMeters75W = 20008,
+        DistanceToShoreInMeters100W = 20009,
+        DistanceToShoreInMeters150W = 20010,
+        DistanceToShoreInMeters200W = 20011,
+        DistanceToShoreInMeters300W = 20012,
+        DistanceToShoreInMeters400W = 20013,
+        DistanceToShoreInMeters600W = 20014,
+        DistanceToShoreInMeters800W = 20015,
+        DistanceToShoreInMeters1000W = 20016,
+        DistanceToShoreInMetersGreaterThan1000W = 20017,
     }
 }
