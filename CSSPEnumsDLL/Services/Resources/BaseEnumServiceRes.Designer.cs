@@ -520,6 +520,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Export To Arc GIS.
+        /// </summary>
+        public static string AppTaskCommandEnumExportToArcGIS {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumExportToArcGIS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Fill run precip by climate site priority for year.
         /// </summary>
         public static string AppTaskCommandEnumFillRunPrecipByClimateSitePriorityForYear {

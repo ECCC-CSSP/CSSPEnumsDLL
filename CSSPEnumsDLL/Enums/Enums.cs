@@ -93,6 +93,7 @@ namespace CSSPEnumsDLL.Enums
         GetAllPrecipitationForYear = 26,
         FillRunPrecipByClimateSitePriorityForYear = 27,
         FindMissingPrecipForProvince = 28,
+        ExportToArcGIS = 29,
     }
     public enum AppTaskStatusEnum
     {

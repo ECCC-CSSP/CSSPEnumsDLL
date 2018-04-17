@@ -219,6 +219,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumFillRunPrecipByClimateSitePriorityForYear;
                 case AppTaskCommandEnum.FindMissingPrecipForProvince:
                     return BaseEnumServiceRes.AppTaskCommandEnumFindMissingPrecipForProvince;
+                case AppTaskCommandEnum.ExportToArcGIS:
+                    return BaseEnumServiceRes.AppTaskCommandEnumExportToArcGIS;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3477,6 +3479,7 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.GetAllPrecipitationForYear:
                 case AppTaskCommandEnum.FillRunPrecipByClimateSitePriorityForYear:
                 case AppTaskCommandEnum.FindMissingPrecipForProvince:
+                case AppTaskCommandEnum.ExportToArcGIS:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);

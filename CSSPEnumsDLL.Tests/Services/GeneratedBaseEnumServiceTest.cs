@@ -367,6 +367,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.FindMissingPrecipForProvince:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumFindMissingPrecipForProvince, retStr);
                             break;
+                        case AppTaskCommandEnum.ExportToArcGIS:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumExportToArcGIS, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -4128,6 +4131,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.GetAllPrecipitationForYear:
                         case AppTaskCommandEnum.FillRunPrecipByClimateSitePriorityForYear:
                         case AppTaskCommandEnum.FindMissingPrecipForProvince:
+                        case AppTaskCommandEnum.ExportToArcGIS:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

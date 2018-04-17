@@ -2607,4 +2607,7 @@
   <data name="TVTypeEnumProvinceTools" xml:space="preserve">
     <value>Province Tools</value>
   </data>
+  <data name="AppTaskCommandEnumExportToArcGIS" xml:space="preserve">
+    <value>Export To Arc GIS</value>
+  </data>
 </root>

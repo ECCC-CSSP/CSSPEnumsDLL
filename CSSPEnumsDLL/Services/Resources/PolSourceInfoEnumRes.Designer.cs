@@ -9088,7 +9088,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters0WHide {
             get {
@@ -9124,7 +9124,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to       1000 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters1000WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters1000WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters1000WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters1000WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters1000WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters1000WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 1000 meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters1000WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters1000WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to       1000 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters1000WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters1000WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters1000WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters1000WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters1000WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters1000WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 1000 meters to the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters1000WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters1000WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters1000WHide {
             get {
@@ -9160,7 +9232,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to                          100 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters100WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters100WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters100WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters100WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters100WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters100WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 100 meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters100WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters100WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                          100 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters100WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters100WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters100WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters100WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters100WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters100WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 100 meters to the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters100WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters100WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters100WHide {
             get {
@@ -9196,7 +9340,97 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to                                                     10 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters10WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters10WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters10WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters10WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters10WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters10WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately ten meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters10WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters10WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to   .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters10WAnchorText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters10WAnchorText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                                     10 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters10WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters10WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters10WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters10WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters10WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters10WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately ten meters to the closest shoreline.  .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters10WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters10WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to   .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters10WDisposalText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters10WDisposalText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters10WHide {
             get {
@@ -9241,7 +9475,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to                       150 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters150WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters150WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters150WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters150WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters150WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters150WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 150 meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters150WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters150WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                       150 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters150WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters150WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters150WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters150WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters150WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters150WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 150 meters to the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters150WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters150WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters150WHide {
             get {
@@ -9277,7 +9583,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to                     200 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters200WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters200WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters200WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters200WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters200WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters200WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 200 meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters200WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters200WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                     200 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters200WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters200WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters200WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters200WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters200WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters200WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 200 meters to the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters200WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters200WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters200WHide {
             get {
@@ -9313,7 +9691,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to                                                  20 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters20WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters20WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters20WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters20WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters20WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters20WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 20 meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters20WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters20WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                                  20 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters20WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters20WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters20WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters20WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters20WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters20WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 20 meters to the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters20WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters20WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters20WHide {
             get {
@@ -9349,7 +9799,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to                  300 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters300WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters300WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters300WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters300WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters300WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters300WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 300 meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters300WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters300WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                  300 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters300WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters300WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters300WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters300WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters300WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters300WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 300 meters to the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters300WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters300WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters300WHide {
             get {
@@ -9385,7 +9907,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to                                             30 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters30WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters30WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters30WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters30WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters30WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters30WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 30 meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters30WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters30WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                             30 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters30WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters30WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters30WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters30WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters30WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters30WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 30 meters to the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters30WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters30WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters30WHide {
             get {
@@ -9421,7 +10015,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to               400 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters400WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters400WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters400WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters400WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters400WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters400WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 400 meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters400WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters400WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to               400 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters400WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters400WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters400WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters400WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters400WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters400WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 400 meters to the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters400WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters400WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters400WHide {
             get {
@@ -9457,7 +10123,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to                                       40 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters40WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters40WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters40WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters40WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters40WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters40WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 40 meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters40WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters40WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                       40 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters40WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters40WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters40WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters40WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters40WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters40WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 40 meters to the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters40WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters40WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters40WHide {
             get {
@@ -9493,7 +10231,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to                                  50 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters50WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters50WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters50WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters50WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters50WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters50WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 50 meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters50WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters50WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                  50 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters50WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters50WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters50WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters50WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters50WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters50WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 50 meters to the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters50WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters50WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters50WHide {
             get {
@@ -9529,7 +10339,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to                                                          5  | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters5WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters5WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters5WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters5WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters5WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters5WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately five meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters5WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters5WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                                          5  | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters5WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters5WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters5WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters5WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters5WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters5WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately five meters to the closest shoreline.  .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters5WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters5WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters5WHide {
             get {
@@ -9565,7 +10447,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to             600 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters600WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters600WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters600WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters600WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters600WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters600WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 600 meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters600WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters600WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to             600 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters600WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters600WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters600WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters600WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters600WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters600WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 600 meters to the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters600WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters600WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters600WHide {
             get {
@@ -9601,7 +10555,97 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to                              75 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters75WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters75WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters75WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters75WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters75WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters75WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 75 meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters75WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters75WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to   .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters75WAnchorText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters75WAnchorText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                              75 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters75WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters75WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters75WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters75WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters75WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters75WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 75 meters to the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters75WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters75WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to   .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters75WDisposalText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters75WDisposalText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters75WHide {
             get {
@@ -9646,7 +10690,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to           800 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters800WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters800WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters800WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters800WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters800WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters800WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 800 meters to the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters800WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters800WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to           800 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters800WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters800WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters800WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters800WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters800WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters800WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to approximately 800 meters to the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMeters800WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMeters800WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMeters800WHide {
             get {
@@ -9682,7 +10798,79 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 11901,11902,11903,11904,11905,11906,11907,11908,11909,11910,11911,11912,11913,11914.
+        ///   Looks up a localized string similar to   &gt; 1000 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WAnchor {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WAnchor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WAnchorHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WAnchorHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WAnchorInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WAnchorInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to more than 1000 meters to the the closest shoreline.  At this site .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WAnchorReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WAnchorReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to   &gt; 1000 | (H).
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WDisposal {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WDisposal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WDisposalHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WDisposalHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WDisposalInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WDisposalInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to more than 1000 meters to the the closest shoreline. .
+        /// </summary>
+        public static string PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WDisposalReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WDisposalReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12401,12402,12403.
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WHide {
             get {
@@ -9700,7 +10888,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to more than 1000 meters to the the closest shoreline. .
+        ///   Looks up a localized string similar to more than 1000 meters to the the closest shoreline.  .
         /// </summary>
         public static string PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WReport {
             get {
@@ -27619,7 +28807,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 20001,20002,20003,20004,20005,20006,20007,20008,20009,20010,20011,20012,20013,20014,20015,20016,20017,20034,20035,20036,20037,20038,20039,20040,20041,20042,20043,20044,20045,20046,20047,20048,20049.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialEffluentAnchorageMooringSiteHide {
             get {
@@ -27637,7 +28825,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to is an anchorage or mooring site for .
+        ///   Looks up a localized string similar to is an anchorage or mooring site that is .
         /// </summary>
         public static string PolSourceInfoEnumIndustrialEffluentAnchorageMooringSiteReport {
             get {
@@ -27718,7 +28906,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511.
+        ///   Looks up a localized string similar to 20001,20002,20003,20004,20005,20006,20007,20008,20009,20010,20011,20012,20013,20014,20015,20016,20017,20018,20019,20020,20021,20022,20023,20024,20025,20026,20027,20028,20029,20030,20031,20032,20033.
         /// </summary>
         public static string PolSourceInfoEnumIndustrialEffluentDisposalAtSeaHide {
             get {
@@ -27736,7 +28924,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to is a site for sediment disposal.  .
+        ///   Looks up a localized string similar to is a site for sediment disposal.  This site is .
         /// </summary>
         public static string PolSourceInfoEnumIndustrialEffluentDisposalAtSeaReport {
             get {
@@ -28636,7 +29824,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to     Aquaculure .
+        ///   Looks up a localized string similar to     Aquaculture .
         /// </summary>
         public static string PolSourceInfoEnumMarineLocationAquacultureSite {
             get {
@@ -29073,6 +30261,60 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string PolSourceInfoEnumMarineLocationWharfText {
             get {
                 return ResourceManager.GetString("PolSourceInfoEnumMarineLocationWharfText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                                                      Mixes into Water | Marine.
+        /// </summary>
+        public static string PolSourceInfoEnumMarineSourcesOfContaminanMixedMarine {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumMarineSourcesOfContaminanMixedMarine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Refers to effluent that mixes quickly into the marine waters.  An example would be fish food from aquaculture sites.  The concentrations are quickly diluted.
+        /// </summary>
+        public static string PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineDesc {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 13101,13102,13103,13104.
+        /// </summary>
+        public static string PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to rom.
+        /// </summary>
+        public static string PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Concentrated food or offal or chemicals are the main concern since they would mix into the surrounding marine waters.  .
+        /// </summary>
+        public static string PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mixes into Water | Marine,.
+        /// </summary>
+        public static string PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineText", resourceCulture);
             }
         }
         
@@ -42982,7 +44224,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to there is likely several .
+        ///   Looks up a localized string similar to there are several .
         /// </summary>
         public static string PolSourceInfoEnumNumberAnimalPresentUnknownReport {
             get {
@@ -84409,7 +85651,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 20018,20019,20020,20021,20022,20023,20024,20025,20026,20027,20028,20029,20030,20031,20032,20033,20034,20035,20036,20037,20038,20039,20040,20041,20042,20043,20044,20045,20046,20047,20048,20049.
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeCagesHide {
             get {
@@ -84463,7 +85705,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12401,12402,12403.
+        ///   Looks up a localized string similar to 20018,20019,20020,20021,20022,20023,20024,20025,20026,20027,20028,20029,20030,20031,20032,20033,20034,20035,20036,20037,20038,20039,20040,20041,20042,20043,20044,20045,20046,20047,20048,20049.
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeFloatingBagsHide {
             get {
@@ -84481,7 +85723,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to lines of floating cages for shellfish.  .
+        ///   Looks up a localized string similar to lines of floating cages for shellfish that are .
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeFloatingBagsReport {
             get {
@@ -84661,7 +85903,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 20018,20019,20020,20021,20022,20023,20024,20025,20026,20027,20028,20029,20030,20031,20032,20033,20034,20035,20036,20037,20038,20039,20040,20041,20042,20043,20044,20045,20046,20047,20048,20049.
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeSingleCageHide {
             get {
@@ -84715,7 +85957,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12401,12402,12404.
+        ///   Looks up a localized string similar to 20018,20019,20020,20021,20022,20023,20024,20025,20026,20027,20028,20029,20030,20031,20032,20033,20034,20035,20036,20037,20038,20039,20040,20041,20042,20043,20044,20045,20046,20047,20048,20049.
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeSingleFloatingBagHide {
             get {
@@ -84733,7 +85975,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to line of floating cages for shellfish.  .
+        ///   Looks up a localized string similar to line of floating cages for shellfish that is .
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeSingleFloatingBagReport {
             get {
@@ -84832,7 +86074,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12401,12402,12404.
+        ///   Looks up a localized string similar to 20018,20019,20020,20021,20022,20023,20024,20025,20026,20027,20028,20029,20030,20031,20032,20033,20034,20035,20036,20037,20038,20039,20040,20041,20042,20043,20044,20045,20046,20047,20048,20049.
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeSingleSubmergedLineHide {
             get {
@@ -84850,7 +86092,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to submerged line of shellfish collectors.  .
+        ///   Looks up a localized string similar to submerged line of shellfish collectors that is .
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeSingleSubmergedLineReport {
             get {
@@ -84895,7 +86137,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 12401,12402,12403.
+        ///   Looks up a localized string similar to 20018,20019,20020,20021,20022,20023,20024,20025,20026,20027,20028,20029,20030,20031,20032,20033,20034,20035,20036,20037,20038,20039,20040,20041,20042,20043,20044,20045,20046,20047,20048,20049.
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeSubmergedLinesHide {
             get {
@@ -84913,7 +86155,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to submerged lines of shellfish collectors.  .
+        ///   Looks up a localized string similar to submerged lines of shellfish collectors that are .
         /// </summary>
         public static string PolSourceInfoEnumWaterAquacultureTypeSubmergedLinesReport {
             get {

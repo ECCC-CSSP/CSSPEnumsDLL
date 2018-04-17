@@ -536,6 +536,7 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.MarineSourcesOfContaminantExcrement:
                     case PolSourceObsInfoEnum.MarineSourcesOfContaminantEffluent:
                     case PolSourceObsInfoEnum.MarineSourcesOfContaminantEffluentMultiple:
+                    case PolSourceObsInfoEnum.MarineSourcesOfContaminanMixedMarine:
                     case PolSourceObsInfoEnum.SourcesOfContaminantRunoff:
                     case PolSourceObsInfoEnum.SourcesOfContaminantRunoffFromField:
                     case PolSourceObsInfoEnum.SourcesOfContaminantProcessingWater:
@@ -1926,6 +1927,38 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.DistanceToShoreInMeters800W:
                     case PolSourceObsInfoEnum.DistanceToShoreInMeters1000W:
                     case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000W:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters5WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters10WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters20WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters30WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters40WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters50WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters75WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters100WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters150WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters200WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters300WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters400WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters600WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters800WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters1000WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000WAnchor:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters5WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters10WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters20WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters30WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters40WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters50WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters75WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters100WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters150WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters200WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters300WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters400WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters600WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters800WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMeters1000WDisposal:
+                    case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000WDisposal:
                         return "";
                     default:
                         return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.PolSourceInfo);
@@ -2454,6 +2487,7 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.MarineSourcesOfContaminantExcrement:
                 case PolSourceObsInfoEnum.MarineSourcesOfContaminantEffluent:
                 case PolSourceObsInfoEnum.MarineSourcesOfContaminantEffluentMultiple:
+                case PolSourceObsInfoEnum.MarineSourcesOfContaminanMixedMarine:
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoff:
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoffFromField:
                 case PolSourceObsInfoEnum.SourcesOfContaminantProcessingWater:
@@ -3844,6 +3878,38 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.DistanceToShoreInMeters800W:
                 case PolSourceObsInfoEnum.DistanceToShoreInMeters1000W:
                 case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000W:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters5WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters10WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters20WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters30WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters40WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters50WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters75WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters100WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters150WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters200WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters300WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters400WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters600WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters800WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters1000WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000WAnchor:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters5WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters10WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters20WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters30WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters40WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters50WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters75WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters100WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters150WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters200WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters300WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters400WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters600WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters800WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters1000WDisposal:
+                case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000WDisposal:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.PolSourceInfo);
@@ -4893,6 +4959,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluent;
                 case PolSourceObsInfoEnum.MarineSourcesOfContaminantEffluentMultiple:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentMultiple;
+                case PolSourceObsInfoEnum.MarineSourcesOfContaminanMixedMarine:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminanMixedMarine;
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoff:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoff;
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoffFromField:
@@ -7673,6 +7741,70 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters1000W;
                 case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000W:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000W;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters5WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters5WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters10WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters10WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters20WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters20WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters30WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters30WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters40WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters40WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters50WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters50WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters75WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters75WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters100WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters100WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters150WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters150WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters200WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters200WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters300WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters300WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters400WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters400WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters600WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters600WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters800WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters800WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters1000WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters1000WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WAnchor;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters5WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters5WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters10WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters10WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters20WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters20WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters30WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters30WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters40WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters40WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters50WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters50WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters75WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters75WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters100WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters100WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters150WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters150WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters200WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters200WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters300WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters300WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters400WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters400WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters600WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters600WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters800WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters800WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters1000WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters1000WDisposal;
+                case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WDisposal;
                 default:
                     return BaseEnumServiceRes.Error;
             }
@@ -8046,6 +8178,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentDesc;
                 case PolSourceObsInfoEnum.MarineSourcesOfContaminantEffluentMultiple:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentMultipleDesc;
+                case PolSourceObsInfoEnum.MarineSourcesOfContaminanMixedMarine:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineDesc;
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoff:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoffDesc;
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoffFromField:
@@ -10477,6 +10611,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentReport;
                 case PolSourceObsInfoEnum.MarineSourcesOfContaminantEffluentMultiple:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentMultipleReport;
+                case PolSourceObsInfoEnum.MarineSourcesOfContaminanMixedMarine:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineReport;
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoff:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoffReport;
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoffFromField:
@@ -13257,6 +13393,70 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters1000WReport;
                 case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000W:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters5WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters5WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters10WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters10WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters20WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters20WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters30WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters30WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters40WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters40WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters50WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters50WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters75WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters75WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters100WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters100WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters150WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters150WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters200WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters200WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters300WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters300WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters400WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters400WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters600WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters600WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters800WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters800WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters1000WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters1000WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WAnchorReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters5WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters5WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters10WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters10WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters20WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters20WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters30WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters30WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters40WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters40WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters50WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters50WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters75WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters75WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters100WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters100WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters150WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters150WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters200WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters200WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters300WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters300WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters400WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters400WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters600WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters600WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters800WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters800WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters1000WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters1000WDisposalReport;
+                case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WDisposalReport;
                 default:
                     return "";
             }
@@ -14070,6 +14270,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentText;
                 case PolSourceObsInfoEnum.MarineSourcesOfContaminantEffluentMultiple:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentMultipleText;
+                case PolSourceObsInfoEnum.MarineSourcesOfContaminanMixedMarine:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineText;
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoff:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoffText;
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoffFromField:
@@ -16416,6 +16618,14 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters10WText;
                 case PolSourceObsInfoEnum.DistanceToShoreInMeters75W:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters75WText;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters10WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters10WAnchorText;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters75WAnchor:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters75WAnchorText;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters10WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters10WDisposalText;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters75WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters75WDisposalText;
                 default:
                     return "";
             }
@@ -16949,6 +17159,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentInit;
                 case PolSourceObsInfoEnum.MarineSourcesOfContaminantEffluentMultiple:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentMultipleInit;
+                case PolSourceObsInfoEnum.MarineSourcesOfContaminanMixedMarine:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineInit;
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoff:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoffInit;
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoffFromField:
@@ -17858,6 +18070,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentAirportHide;
                 case PolSourceObsInfoEnum.IndustrialEffluentRecreation:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentRecreationHide;
+                case PolSourceObsInfoEnum.IndustrialEffluentAnchorageMooringSite:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentAnchorageMooringSiteHide;
                 case PolSourceObsInfoEnum.IndustrialEffluentDisposalAtSea:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentDisposalAtSeaHide;
                 case PolSourceObsInfoEnum.IndustrialEffluentRural:
@@ -18102,6 +18316,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWastewaterDumpingStationNotObservedHide;
                 case PolSourceObsInfoEnum.WaterAquacultureSiteFallow:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureSiteFallowHide;
+                case PolSourceObsInfoEnum.WaterAquacultureTypeSingleCage:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleCageHide;
                 case PolSourceObsInfoEnum.WaterAquacultureTypeSingleFloatingBag:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleFloatingBagHide;
                 case PolSourceObsInfoEnum.WaterAquacultureTypeSingleSubmergedLine:
@@ -18112,6 +18328,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleBargeHide;
                 case PolSourceObsInfoEnum.WaterAquacultureTypeSingleBoat:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeSingleBoatHide;
+                case PolSourceObsInfoEnum.WaterAquacultureTypeCages:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeCagesHide;
                 case PolSourceObsInfoEnum.WaterAquacultureTypeFloatingBags:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumWaterAquacultureTypeFloatingBagsHide;
                 case PolSourceObsInfoEnum.WaterAquacultureTypeSubmergedLines:
@@ -18160,6 +18378,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentHide;
                 case PolSourceObsInfoEnum.MarineSourcesOfContaminantEffluentMultiple:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminantEffluentMultipleHide;
+                case PolSourceObsInfoEnum.MarineSourcesOfContaminanMixedMarine:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineHide;
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoff:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourcesOfContaminantRunoffHide;
                 case PolSourceObsInfoEnum.SourcesOfContaminantRunoffFromField:
@@ -20772,6 +20992,38 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters1000WHide;
                 case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000W:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters5WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters5WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters10WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters10WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters20WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters20WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters30WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters30WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters40WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters40WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters50WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters50WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters75WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters75WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters100WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters100WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters150WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters150WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters200WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters200WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters300WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters300WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters400WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters400WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters600WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters600WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters800WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters800WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMeters1000WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMeters1000WDisposalHide;
+                case PolSourceObsInfoEnum.DistanceToShoreInMetersGreaterThan1000WDisposal:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumDistanceToShoreInMetersGreaterThan1000WDisposalHide;
                 default:
                     return "";
             }
