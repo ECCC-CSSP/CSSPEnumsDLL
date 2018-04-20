@@ -352,6 +352,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataKMZOfMWQMSites, retStr);
                             break;
+                        case AppTaskCommandEnum.OpenDataXlsxOfMWQMSites:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataXlsxOfMWQMSites, retStr);
+                            break;
                         case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVOfMWQMSamples, retStr);
                             break;
@@ -4126,6 +4129,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.CreateXlsxPDF:
                         case AppTaskCommandEnum.OpenDataCSVOfMWQMSites:
                         case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
+                        case AppTaskCommandEnum.OpenDataXlsxOfMWQMSites:
                         case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
                         case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
                         case AppTaskCommandEnum.GetAllPrecipitationForYear:

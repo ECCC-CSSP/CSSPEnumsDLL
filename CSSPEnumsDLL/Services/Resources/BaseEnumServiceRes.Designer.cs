@@ -664,6 +664,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open Data Xlsx Of MWQM Sites.
+        /// </summary>
+        public static string AppTaskCommandEnumOpenDataXlsxOfMWQMSites {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumOpenDataXlsxOfMWQMSites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Setup Web Tide.
         /// </summary>
         public static string AppTaskCommandEnumSetupWebTide {

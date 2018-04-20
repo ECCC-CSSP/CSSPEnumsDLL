@@ -2116,4 +2116,7 @@
   <data name="AppTaskCommandEnumExportToArcGIS" xml:space="preserve">
     <value>Export To Arc GIS (fr)</value>
   </data>
+  <data name="AppTaskCommandEnumOpenDataXlsxOfMWQMSites" xml:space="preserve">
+    <value>Open Data Xlsx Of MWQM Sites (fr)</value>
+  </data>
 </root>

@@ -209,6 +209,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVOfMWQMSites;
                 case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
                     return BaseEnumServiceRes.AppTaskCommandEnumOpenDataKMZOfMWQMSites;
+                case AppTaskCommandEnum.OpenDataXlsxOfMWQMSites:
+                    return BaseEnumServiceRes.AppTaskCommandEnumOpenDataXlsxOfMWQMSites;
                 case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
                     return BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVOfMWQMSamples;
                 case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
@@ -3474,6 +3476,7 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.CreateXlsxPDF:
                 case AppTaskCommandEnum.OpenDataCSVOfMWQMSites:
                 case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
+                case AppTaskCommandEnum.OpenDataXlsxOfMWQMSites:
                 case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
                 case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
                 case AppTaskCommandEnum.GetAllPrecipitationForYear:
