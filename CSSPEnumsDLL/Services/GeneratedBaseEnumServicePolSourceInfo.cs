@@ -97,6 +97,7 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.ConductDilutionAnalysesStart:
                     case PolSourceObsInfoEnum.SuggestedRiskStart:
                     case PolSourceObsInfoEnum.RiskStart:
+                    case PolSourceObsInfoEnum.RiskConfirmationStart:
                     case PolSourceObsInfoEnum.FollowUpStart:
                     case PolSourceObsInfoEnum.TypeOfSourceStart:
                     case PolSourceObsInfoEnum.WaterwayWidthInMetersStart:
@@ -407,6 +408,7 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.TypesOfWildlifeGeneral:
                     case PolSourceObsInfoEnum.TypesOfWildlifeBeaver:
                     case PolSourceObsInfoEnum.TypesOfWildlifeMuskrat:
+                    case PolSourceObsInfoEnum.TypesOfWildLifeDucksGeese:
                     case PolSourceObsInfoEnum.AnimalLocationRuralDom:
                     case PolSourceObsInfoEnum.AnimalLocationUrbanDom:
                     case PolSourceObsInfoEnum.AnimalLocationForestedDom:
@@ -1017,10 +1019,11 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.SuggestedRiskInfoRequired:
                     case PolSourceObsInfoEnum.RiskLow:
                     case PolSourceObsInfoEnum.RiskModerate:
-                    case PolSourceObsInfoEnum.RiskHighNotConfirmed:
-                    case PolSourceObsInfoEnum.RiskHighConfirmedVisual:
-                    case PolSourceObsInfoEnum.RishHighConfirmedWater:
+                    case PolSourceObsInfoEnum.RiskHigh:
                     case PolSourceObsInfoEnum.RiskNotDetermined:
+                    case PolSourceObsInfoEnum.RiskConfirmationNotConfirmed:
+                    case PolSourceObsInfoEnum.RiskConfirmationConfirmedVisual:
+                    case PolSourceObsInfoEnum.RiskConfirmationConfirmedWater:
                     case PolSourceObsInfoEnum.FollowupRequired:
                     case PolSourceObsInfoEnum.FollowupCompleted:
                     case PolSourceObsInfoEnum.TypeOfSourceCircular:
@@ -2048,6 +2051,7 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.ConductDilutionAnalysesStart:
                 case PolSourceObsInfoEnum.SuggestedRiskStart:
                 case PolSourceObsInfoEnum.RiskStart:
+                case PolSourceObsInfoEnum.RiskConfirmationStart:
                 case PolSourceObsInfoEnum.FollowUpStart:
                 case PolSourceObsInfoEnum.TypeOfSourceStart:
                 case PolSourceObsInfoEnum.WaterwayWidthInMetersStart:
@@ -2358,6 +2362,7 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.TypesOfWildlifeGeneral:
                 case PolSourceObsInfoEnum.TypesOfWildlifeBeaver:
                 case PolSourceObsInfoEnum.TypesOfWildlifeMuskrat:
+                case PolSourceObsInfoEnum.TypesOfWildLifeDucksGeese:
                 case PolSourceObsInfoEnum.AnimalLocationRuralDom:
                 case PolSourceObsInfoEnum.AnimalLocationUrbanDom:
                 case PolSourceObsInfoEnum.AnimalLocationForestedDom:
@@ -2968,10 +2973,11 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.SuggestedRiskInfoRequired:
                 case PolSourceObsInfoEnum.RiskLow:
                 case PolSourceObsInfoEnum.RiskModerate:
-                case PolSourceObsInfoEnum.RiskHighNotConfirmed:
-                case PolSourceObsInfoEnum.RiskHighConfirmedVisual:
-                case PolSourceObsInfoEnum.RishHighConfirmedWater:
+                case PolSourceObsInfoEnum.RiskHigh:
                 case PolSourceObsInfoEnum.RiskNotDetermined:
+                case PolSourceObsInfoEnum.RiskConfirmationNotConfirmed:
+                case PolSourceObsInfoEnum.RiskConfirmationConfirmedVisual:
+                case PolSourceObsInfoEnum.RiskConfirmationConfirmedWater:
                 case PolSourceObsInfoEnum.FollowupRequired:
                 case PolSourceObsInfoEnum.FollowupCompleted:
                 case PolSourceObsInfoEnum.TypeOfSourceCircular:
@@ -4081,6 +4087,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSuggestedRiskStart;
                 case PolSourceObsInfoEnum.RiskStart:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskStart;
+                case PolSourceObsInfoEnum.RiskConfirmationStart:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationStart;
                 case PolSourceObsInfoEnum.FollowUpStart:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumFollowUpStart;
                 case PolSourceObsInfoEnum.TypeOfSourceStart:
@@ -4701,6 +4709,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeBeaver;
                 case PolSourceObsInfoEnum.TypesOfWildlifeMuskrat:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeMuskrat;
+                case PolSourceObsInfoEnum.TypesOfWildLifeDucksGeese:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildLifeDucksGeese;
                 case PolSourceObsInfoEnum.AnimalLocationRuralDom:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalLocationRuralDom;
                 case PolSourceObsInfoEnum.AnimalLocationUrbanDom:
@@ -5921,14 +5931,16 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskLow;
                 case PolSourceObsInfoEnum.RiskModerate:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskModerate;
-                case PolSourceObsInfoEnum.RiskHighNotConfirmed:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighNotConfirmed;
-                case PolSourceObsInfoEnum.RiskHighConfirmedVisual:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighConfirmedVisual;
-                case PolSourceObsInfoEnum.RishHighConfirmedWater:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRishHighConfirmedWater;
+                case PolSourceObsInfoEnum.RiskHigh:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHigh;
                 case PolSourceObsInfoEnum.RiskNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskNotDetermined;
+                case PolSourceObsInfoEnum.RiskConfirmationNotConfirmed:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationNotConfirmed;
+                case PolSourceObsInfoEnum.RiskConfirmationConfirmedVisual:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedVisual;
+                case PolSourceObsInfoEnum.RiskConfirmationConfirmedWater:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedWater;
                 case PolSourceObsInfoEnum.FollowupRequired:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumFollowupRequired;
                 case PolSourceObsInfoEnum.FollowupCompleted:
@@ -7972,6 +7984,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSuggestedRiskStartDesc;
                 case PolSourceObsInfoEnum.RiskStart:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskStartDesc;
+                case PolSourceObsInfoEnum.RiskConfirmationStart:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationStartDesc;
                 case PolSourceObsInfoEnum.FollowUpStart:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumFollowUpStartDesc;
                 case PolSourceObsInfoEnum.TypeOfSourceStart:
@@ -8380,14 +8394,14 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumStatusNotDeterminedDesc;
                 case PolSourceObsInfoEnum.RiskLow:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskLowDesc;
-                case PolSourceObsInfoEnum.RiskHighNotConfirmed:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighNotConfirmedDesc;
-                case PolSourceObsInfoEnum.RiskHighConfirmedVisual:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighConfirmedVisualDesc;
-                case PolSourceObsInfoEnum.RishHighConfirmedWater:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRishHighConfirmedWaterDesc;
                 case PolSourceObsInfoEnum.RiskNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskNotDeterminedDesc;
+                case PolSourceObsInfoEnum.RiskConfirmationNotConfirmed:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationNotConfirmedDesc;
+                case PolSourceObsInfoEnum.RiskConfirmationConfirmedVisual:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedVisualDesc;
+                case PolSourceObsInfoEnum.RiskConfirmationConfirmedWater:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedWaterDesc;
                 case PolSourceObsInfoEnum.TypeOfSourceCircular:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTypeOfSourceCircularDesc;
                 case PolSourceObsInfoEnum.TypeOfSourceWaterWays:
@@ -10353,6 +10367,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeBeaverReport;
                 case PolSourceObsInfoEnum.TypesOfWildlifeMuskrat:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeMuskratReport;
+                case PolSourceObsInfoEnum.TypesOfWildLifeDucksGeese:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildLifeDucksGeeseReport;
                 case PolSourceObsInfoEnum.AnimalLocationRuralDom:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalLocationRuralDomReport;
                 case PolSourceObsInfoEnum.AnimalLocationUrbanDom:
@@ -11573,14 +11589,16 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskLowReport;
                 case PolSourceObsInfoEnum.RiskModerate:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskModerateReport;
-                case PolSourceObsInfoEnum.RiskHighNotConfirmed:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighNotConfirmedReport;
-                case PolSourceObsInfoEnum.RiskHighConfirmedVisual:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighConfirmedVisualReport;
-                case PolSourceObsInfoEnum.RishHighConfirmedWater:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRishHighConfirmedWaterReport;
+                case PolSourceObsInfoEnum.RiskHigh:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighReport;
                 case PolSourceObsInfoEnum.RiskNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskNotDeterminedReport;
+                case PolSourceObsInfoEnum.RiskConfirmationNotConfirmed:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationNotConfirmedReport;
+                case PolSourceObsInfoEnum.RiskConfirmationConfirmedVisual:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedVisualReport;
+                case PolSourceObsInfoEnum.RiskConfirmationConfirmedWater:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedWaterReport;
                 case PolSourceObsInfoEnum.FollowupRequired:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumFollowupRequiredReport;
                 case PolSourceObsInfoEnum.FollowupCompleted:
@@ -14012,6 +14030,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeBeaverText;
                 case PolSourceObsInfoEnum.TypesOfWildlifeMuskrat:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeMuskratText;
+                case PolSourceObsInfoEnum.TypesOfWildLifeDucksGeese:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildLifeDucksGeeseText;
                 case PolSourceObsInfoEnum.AnimalLocationRuralDom:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalLocationRuralDomText;
                 case PolSourceObsInfoEnum.AnimalLocationUrbanDom:
@@ -15052,14 +15072,16 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskLowText;
                 case PolSourceObsInfoEnum.RiskModerate:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskModerateText;
-                case PolSourceObsInfoEnum.RiskHighNotConfirmed:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighNotConfirmedText;
-                case PolSourceObsInfoEnum.RiskHighConfirmedVisual:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighConfirmedVisualText;
-                case PolSourceObsInfoEnum.RishHighConfirmedWater:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRishHighConfirmedWaterText;
+                case PolSourceObsInfoEnum.RiskHigh:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighText;
                 case PolSourceObsInfoEnum.RiskNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskNotDeterminedText;
+                case PolSourceObsInfoEnum.RiskConfirmationNotConfirmed:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationNotConfirmedText;
+                case PolSourceObsInfoEnum.RiskConfirmationConfirmedVisual:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedVisualText;
+                case PolSourceObsInfoEnum.RiskConfirmationConfirmedWater:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedWaterText;
                 case PolSourceObsInfoEnum.FollowupRequired:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumFollowupRequiredText;
                 case PolSourceObsInfoEnum.FollowupCompleted:
@@ -17007,6 +17029,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeBeaverInit;
                 case PolSourceObsInfoEnum.TypesOfWildlifeMuskrat:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeMuskratInit;
+                case PolSourceObsInfoEnum.TypesOfWildLifeDucksGeese:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildLifeDucksGeeseInit;
                 case PolSourceObsInfoEnum.AnimalLocationRuralDom:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalLocationRuralDomInit;
                 case PolSourceObsInfoEnum.AnimalLocationUrbanDom:
@@ -17705,14 +17729,16 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskLowInit;
                 case PolSourceObsInfoEnum.RiskModerate:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskModerateInit;
-                case PolSourceObsInfoEnum.RiskHighNotConfirmed:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighNotConfirmedInit;
-                case PolSourceObsInfoEnum.RiskHighConfirmedVisual:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighConfirmedVisualInit;
-                case PolSourceObsInfoEnum.RishHighConfirmedWater:
-                    return PolSourceInfoEnumRes.PolSourceInfoEnumRishHighConfirmedWaterInit;
+                case PolSourceObsInfoEnum.RiskHigh:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighInit;
                 case PolSourceObsInfoEnum.RiskNotDetermined:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumRiskNotDeterminedInit;
+                case PolSourceObsInfoEnum.RiskConfirmationNotConfirmed:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationNotConfirmedInit;
+                case PolSourceObsInfoEnum.RiskConfirmationConfirmedVisual:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedVisualInit;
+                case PolSourceObsInfoEnum.RiskConfirmationConfirmedWater:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedWaterInit;
                 case PolSourceObsInfoEnum.FollowupRequired:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumFollowupRequiredInit;
                 case PolSourceObsInfoEnum.FollowupCompleted:
@@ -18218,6 +18244,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeBeaverHide;
                 case PolSourceObsInfoEnum.TypesOfWildlifeMuskrat:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeMuskratHide;
+                case PolSourceObsInfoEnum.TypesOfWildLifeDucksGeese:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildLifeDucksGeeseHide;
                 case PolSourceObsInfoEnum.AnimalLocationRuralDom:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAnimalLocationRuralDomHide;
                 case PolSourceObsInfoEnum.AnimalLocationUrbanDom:

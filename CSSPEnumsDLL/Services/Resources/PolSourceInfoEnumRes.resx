@@ -1453,7 +1453,7 @@
     <value>Group 1 is a volume  14 and 100 m10</value>
   </data>
   <data name="PolSourceInfoEnumBCTidalAmplitudeApprox1mGP1Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumBCTidalAmplitudeApprox1mGP1Init" xml:space="preserve">
     <value />
@@ -8035,7 +8035,7 @@
     <value>rec</value>
   </data>
   <data name="PolSourceInfoEnumHumanLocationRecreationalAreaReport" xml:space="preserve">
-    <value>in a  </value>
+    <value>in </value>
   </data>
   <data name="PolSourceInfoEnumHumanLocationRecreationalAreaText" xml:space="preserve">
     <value>Recreational Area</value>
@@ -8887,7 +8887,7 @@
     <value>pub</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultiplePublicBuildingsReport" xml:space="preserve">
-    <value>recreational buildings located</value>
+    <value>recreational buildings located </value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultiplePublicBuildingsText" xml:space="preserve">
     <value>Recreational, </value>
@@ -17956,7 +17956,7 @@
     <value>Group 1 is a volume  14 and 100 m11</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP1Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP1Init" xml:space="preserve">
     <value />
@@ -17971,7 +17971,7 @@
     <value>Group 2 is a volume  101 and 250 m5</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP2Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP2Init" xml:space="preserve">
     <value />
@@ -17986,7 +17986,7 @@
     <value>Group 3 is a volume  251 and 600 m11</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP3Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP3Init" xml:space="preserve">
     <value />
@@ -18001,7 +18001,7 @@
     <value>Group 4 is a volume  601 and 1000 m4</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP4Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP4Init" xml:space="preserve">
     <value />
@@ -18016,7 +18016,7 @@
     <value>Group 5 is a volume  1001 and 2000 m12</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP5Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP5Init" xml:space="preserve">
     <value />
@@ -18031,7 +18031,7 @@
     <value>Group 6 is a volume  2001 and 5500 m4</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP6Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP6Init" xml:space="preserve">
     <value />
@@ -18046,7 +18046,7 @@
     <value>Group 7 is a volume 5501 and 11000 m12</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP7Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP7Init" xml:space="preserve">
     <value />
@@ -18061,7 +18061,7 @@
     <value>Group 8 is a volume 11001 and 20000 m4</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP8Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP8Init" xml:space="preserve">
     <value />
@@ -18076,7 +18076,7 @@
     <value>Group 1 is a volume  14 and 100 m12</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP1Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP1Init" xml:space="preserve">
     <value />
@@ -18091,7 +18091,7 @@
     <value>Group 2 is a volume  101 and 250 m6</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP2Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP2Init" xml:space="preserve">
     <value />
@@ -18106,7 +18106,7 @@
     <value>Group 3 is a volume  251 and 600 m12</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP3Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP3Init" xml:space="preserve">
     <value />
@@ -18121,7 +18121,7 @@
     <value>Group 4 is a volume  601 and 1000 m5</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP4Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP4Init" xml:space="preserve">
     <value />
@@ -18136,7 +18136,7 @@
     <value>Group 5 is a volume  1001 and 2000 m13</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP5Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP5Init" xml:space="preserve">
     <value />
@@ -18151,7 +18151,7 @@
     <value>Group 6 is a volume  2001 and 5500 m5</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP6Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP6Init" xml:space="preserve">
     <value />
@@ -18166,7 +18166,7 @@
     <value>Group 7 is a volume 5501 and 11000 m13</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP7Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP7Init" xml:space="preserve">
     <value />
@@ -18181,7 +18181,7 @@
     <value>Group 8 is a volume 11001 and 20000 m5</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP8Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP8Init" xml:space="preserve">
     <value />
@@ -18196,7 +18196,7 @@
     <value>Group 1 is a volume  14 and 100 m10</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP1Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP1Init" xml:space="preserve">
     <value />
@@ -18211,7 +18211,7 @@
     <value>Group 2 is a volume  101 and 250 m4</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP2Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP2Init" xml:space="preserve">
     <value />
@@ -18226,7 +18226,7 @@
     <value>Group 3 is a volume  251 and 600 m10</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP3Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP3Init" xml:space="preserve">
     <value />
@@ -18241,7 +18241,7 @@
     <value>Group 4 is a volume  601 and 1000 m3</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP4Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP4Init" xml:space="preserve">
     <value />
@@ -18256,7 +18256,7 @@
     <value>Group 5 is a volume  1001 and 2000 m11</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP5Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP5Init" xml:space="preserve">
     <value />
@@ -18271,7 +18271,7 @@
     <value>Group 6 is a volume  2001 and 5500 m3</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP6Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP6Init" xml:space="preserve">
     <value />
@@ -18286,7 +18286,7 @@
     <value>Group 7 is a volume 5501 and 11000 m11</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP7Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP7Init" xml:space="preserve">
     <value />
@@ -18301,7 +18301,7 @@
     <value>Group 8 is a volume 11001 and 20000 m3</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP8Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP8Init" xml:space="preserve">
     <value />
@@ -18316,7 +18316,7 @@
     <value>Group 1 is a volume  14 and 100 m13</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP1Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP1Init" xml:space="preserve">
     <value />
@@ -18331,7 +18331,7 @@
     <value>Group 2 is a volume  101 and 250 m7</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP2Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP2Init" xml:space="preserve">
     <value />
@@ -18346,7 +18346,7 @@
     <value>Group 3 is a volume  251 and 600 m13</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP3Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP3Init" xml:space="preserve">
     <value />
@@ -18361,7 +18361,7 @@
     <value>Group 4 is a volume  601 and 1000 m6</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP4Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP4Init" xml:space="preserve">
     <value />
@@ -18376,7 +18376,7 @@
     <value>Group 5 is a volume  1001 and 2000 m14</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP5Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP5Init" xml:space="preserve">
     <value />
@@ -18391,7 +18391,7 @@
     <value>Group 6 is a volume  2001 and 5500 m6</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP6Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP6Init" xml:space="preserve">
     <value />
@@ -18406,7 +18406,7 @@
     <value>Group 7 is a volume 5501 and 11000 m14</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP7Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP7Init" xml:space="preserve">
     <value />
@@ -18421,7 +18421,7 @@
     <value>Group 8 is a volume 11001 and 20000 m6</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP8Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP8Init" xml:space="preserve">
     <value />
@@ -18436,7 +18436,7 @@
     <value>Group 1 is a volume  14 and 100 m14</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP1Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP1Init" xml:space="preserve">
     <value />
@@ -18451,7 +18451,7 @@
     <value>Group 2 is a volume  101 and 250 m8</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP2Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP2Init" xml:space="preserve">
     <value />
@@ -18466,7 +18466,7 @@
     <value>Group 3 is a volume  251 and 600 m14</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP3Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP3Init" xml:space="preserve">
     <value />
@@ -18481,7 +18481,7 @@
     <value>Group 4 is a volume  601 and 1000 m7</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP4Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP4Init" xml:space="preserve">
     <value />
@@ -18496,7 +18496,7 @@
     <value>Group 5 is a volume  1001 and 2000 m15</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP5Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP5Init" xml:space="preserve">
     <value />
@@ -18511,7 +18511,7 @@
     <value>Group 6 is a volume  2001 and 5500 m7</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP6Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP6Init" xml:space="preserve">
     <value />
@@ -18526,7 +18526,7 @@
     <value>Group 7 is a volume 5501 and 11000 m15</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP7Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP7Init" xml:space="preserve">
     <value />
@@ -18541,7 +18541,7 @@
     <value>Group 8 is a volume 11001 and 20000 m7</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP8Hide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP8Init" xml:space="preserve">
     <value />
@@ -19662,58 +19662,79 @@
   <data name="PolSourceInfoEnumRegionStartDesc" xml:space="preserve">
     <value>Provinces</value>
   </data>
-  <data name="PolSourceInfoEnumRishHighConfirmedWater" xml:space="preserve">
-    <value>                Risk  High (lab data)</value>
+  <data name="PolSourceInfoEnumRiskConfirmationConfirmedVisual" xml:space="preserve">
+    <value>              Confirmed by Field Observation</value>
   </data>
-  <data name="PolSourceInfoEnumRishHighConfirmedWaterDesc" xml:space="preserve">
-    <value>Confirmed with water samples</value>
+  <data name="PolSourceInfoEnumRiskConfirmationConfirmedVisualDesc" xml:space="preserve">
+    <value>Confirmed with field observation </value>
   </data>
-  <data name="PolSourceInfoEnumRishHighConfirmedWaterHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskConfirmationConfirmedVisualHide" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumRishHighConfirmedWaterInit" xml:space="preserve">
-    <value>hws</value>
-  </data>
-  <data name="PolSourceInfoEnumRishHighConfirmedWaterReport" xml:space="preserve">
-    <value>The user selected Risk Level is 'High' and, was confirmed by analyses of water samples.  </value>
-  </data>
-  <data name="PolSourceInfoEnumRishHighConfirmedWaterText" xml:space="preserve">
-    <value>High, Water Sample</value>
-  </data>
-  <data name="PolSourceInfoEnumRiskHighConfirmedVisual" xml:space="preserve">
-    <value>                      Risk  High (field data)</value>
-  </data>
-  <data name="PolSourceInfoEnumRiskHighConfirmedVisualDesc" xml:space="preserve">
-    <value>Confirmed with observation </value>
-  </data>
-  <data name="PolSourceInfoEnumRiskHighConfirmedVisualHide" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PolSourceInfoEnumRiskHighConfirmedVisualInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskConfirmationConfirmedVisualInit" xml:space="preserve">
     <value>hvf</value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighConfirmedVisualReport" xml:space="preserve">
-    <value>The user selected Risk Level is 'High' and, was confirmed by visual inspection or by odor.  </value>
+  <data name="PolSourceInfoEnumRiskConfirmationConfirmedVisualReport" xml:space="preserve">
+    <value>and the risk is confirmed by visual inspection or by odor.  </value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighConfirmedVisualText" xml:space="preserve">
-    <value>High, Visual Observation</value>
+  <data name="PolSourceInfoEnumRiskConfirmationConfirmedVisualText" xml:space="preserve">
+    <value>Confirmed with field Observations,</value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighNotConfirmed" xml:space="preserve">
-    <value>                          Risk  High (not confirmed)</value>
+  <data name="PolSourceInfoEnumRiskConfirmationConfirmedWater" xml:space="preserve">
+    <value>              Confirmed by Laboratory Samples</value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighNotConfirmedDesc" xml:space="preserve">
-    <value>Not Confirmed with physical evidence</value>
+  <data name="PolSourceInfoEnumRiskConfirmationConfirmedWaterDesc" xml:space="preserve">
+    <value>Confirmed with water samples analyses</value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighNotConfirmedHide" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskConfirmationConfirmedWaterHide" xml:space="preserve">
     <value />
   </data>
-  <data name="PolSourceInfoEnumRiskHighNotConfirmedInit" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskConfirmationConfirmedWaterInit" xml:space="preserve">
+    <value>hws</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskConfirmationConfirmedWaterReport" xml:space="preserve">
+    <value>and the risk is confirmed by the analyses of water samples.  </value>
+  </data>
+  <data name="PolSourceInfoEnumRiskConfirmationConfirmedWaterText" xml:space="preserve">
+    <value>Confirmed with water analyses,</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskConfirmationNotConfirmed" xml:space="preserve">
+    <value>                          Not Confirmed</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskConfirmationNotConfirmedDesc" xml:space="preserve">
+    <value>Not Confirmed with physical evidence</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskConfirmationNotConfirmedHide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumRiskConfirmationNotConfirmedInit" xml:space="preserve">
     <value>hnc</value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighNotConfirmedReport" xml:space="preserve">
-    <value>The user selected Risk Level is 'High'.  </value>
+  <data name="PolSourceInfoEnumRiskConfirmationNotConfirmedReport" xml:space="preserve">
+    <value>but the risk is not confirmed.    </value>
   </data>
-  <data name="PolSourceInfoEnumRiskHighNotConfirmedText" xml:space="preserve">
+  <data name="PolSourceInfoEnumRiskConfirmationNotConfirmedText" xml:space="preserve">
+    <value>Not Confirmed,</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskConfirmationStart" xml:space="preserve">
+    <value>Justification </value>
+  </data>
+  <data name="PolSourceInfoEnumRiskConfirmationStartDesc" xml:space="preserve">
+    <value>Do you have a reason for giving the Risk this level?</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskHigh" xml:space="preserve">
+    <value>                          Risk  High </value>
+  </data>
+  <data name="PolSourceInfoEnumRiskHighHide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PolSourceInfoEnumRiskHighInit" xml:space="preserve">
+    <value>hnc</value>
+  </data>
+  <data name="PolSourceInfoEnumRiskHighReport" xml:space="preserve">
+    <value>The user selected Risk Level is 'High' </value>
+  </data>
+  <data name="PolSourceInfoEnumRiskHighText" xml:space="preserve">
     <value>High, </value>
   </data>
   <data name="PolSourceInfoEnumRiskLow" xml:space="preserve">
@@ -19729,7 +19750,7 @@
     <value>L</value>
   </data>
   <data name="PolSourceInfoEnumRiskLowReport" xml:space="preserve">
-    <value>The user selected Risk Level is 'Low'.  </value>
+    <value>The user selected Risk Level is 'Low' </value>
   </data>
   <data name="PolSourceInfoEnumRiskLowText" xml:space="preserve">
     <value>Low, </value>
@@ -19744,7 +19765,7 @@
     <value>M</value>
   </data>
   <data name="PolSourceInfoEnumRiskModerateReport" xml:space="preserve">
-    <value>The user selected Risk Level is 'Moderate'.  </value>
+    <value>The user selected Risk Level is 'Moderate' </value>
   </data>
   <data name="PolSourceInfoEnumRiskModerateText" xml:space="preserve">
     <value>Moderate, </value>
@@ -26362,7 +26383,7 @@
     <value>Not an polluting source.</value>
   </data>
   <data name="PolSourceInfoEnumStatusNonPollutionSourceHide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumStatusNonPollutionSourceInit" xml:space="preserve">
     <value>Np</value>
@@ -26380,7 +26401,7 @@
     <value>Status can not be determined at this time.  </value>
   </data>
   <data name="PolSourceInfoEnumStatusNotDeterminedHide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumStatusNotDeterminedInit" xml:space="preserve">
     <value>Nd</value>
@@ -26761,7 +26782,7 @@
     <value>                                          High </value>
   </data>
   <data name="PolSourceInfoEnumSuggestedRiskHighHide" xml:space="preserve">
-    <value>91006</value>
+    <value>91004</value>
   </data>
   <data name="PolSourceInfoEnumSuggestedRiskHighInit" xml:space="preserve">
     <value>H</value>
@@ -26776,7 +26797,7 @@
     <value>                       Information Required</value>
   </data>
   <data name="PolSourceInfoEnumSuggestedRiskInfoRequiredHide" xml:space="preserve">
-    <value>91001,91002,91003,91004,91005</value>
+    <value>91001,91002,91003</value>
   </data>
   <data name="PolSourceInfoEnumSuggestedRiskInfoRequiredInit" xml:space="preserve">
     <value>Inf</value>
@@ -26791,7 +26812,7 @@
     <value>                                                      Low </value>
   </data>
   <data name="PolSourceInfoEnumSuggestedRiskLowHide" xml:space="preserve">
-    <value>91006</value>
+    <value>91004</value>
   </data>
   <data name="PolSourceInfoEnumSuggestedRiskLowInit" xml:space="preserve">
     <value>L</value>
@@ -26806,7 +26827,7 @@
     <value>                                               Moderate </value>
   </data>
   <data name="PolSourceInfoEnumSuggestedRiskModerateHide" xml:space="preserve">
-    <value>91006</value>
+    <value>91004</value>
   </data>
   <data name="PolSourceInfoEnumSuggestedRiskModerateInit" xml:space="preserve">
     <value>M</value>
@@ -27695,6 +27716,21 @@
   </data>
   <data name="PolSourceInfoEnumTypesOfWildlifeCrowsText" xml:space="preserve">
     <value>Crows,</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesOfWildLifeDucksGeese" xml:space="preserve">
+    <value>                     Ducks and Geese</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesOfWildLifeDucksGeeseHide" xml:space="preserve">
+    <value>12801,12802,12803,12804,12805,12806,12807,12808,12809,12810,12811,12812,12813</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesOfWildLifeDucksGeeseInit" xml:space="preserve">
+    <value>wd</value>
+  </data>
+  <data name="PolSourceInfoEnumTypesOfWildLifeDucksGeeseReport" xml:space="preserve">
+    <value>ducks and geese </value>
+  </data>
+  <data name="PolSourceInfoEnumTypesOfWildLifeDucksGeeseText" xml:space="preserve">
+    <value>Waterfowl-ducks</value>
   </data>
   <data name="PolSourceInfoEnumTypesOfWildlifeEagle" xml:space="preserve">
     <value>                                      Eagles</value>

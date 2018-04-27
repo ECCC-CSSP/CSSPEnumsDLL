@@ -4066,7 +4066,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumBCTidalAmplitudeApprox1mGP1Hide {
             get {
@@ -23812,7 +23812,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to in a  .
+        ///   Looks up a localized string similar to in .
         /// </summary>
         public static string PolSourceInfoEnumHumanLocationRecreationalAreaReport {
             get {
@@ -26368,7 +26368,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to recreational buildings located.
+        ///   Looks up a localized string similar to recreational buildings located .
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultiplePublicBuildingsReport {
             get {
@@ -53575,7 +53575,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP1Hide {
             get {
@@ -53620,7 +53620,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP2Hide {
             get {
@@ -53665,7 +53665,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP3Hide {
             get {
@@ -53710,7 +53710,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP4Hide {
             get {
@@ -53755,7 +53755,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP5Hide {
             get {
@@ -53800,7 +53800,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP6Hide {
             get {
@@ -53845,7 +53845,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP7Hide {
             get {
@@ -53890,7 +53890,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox1mGP8Hide {
             get {
@@ -53935,7 +53935,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP1Hide {
             get {
@@ -53980,7 +53980,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP2Hide {
             get {
@@ -54025,7 +54025,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP3Hide {
             get {
@@ -54070,7 +54070,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP4Hide {
             get {
@@ -54115,7 +54115,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP5Hide {
             get {
@@ -54160,7 +54160,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP6Hide {
             get {
@@ -54205,7 +54205,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP7Hide {
             get {
@@ -54250,7 +54250,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox2mGP8Hide {
             get {
@@ -54295,7 +54295,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP1Hide {
             get {
@@ -54340,7 +54340,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP2Hide {
             get {
@@ -54385,7 +54385,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP3Hide {
             get {
@@ -54430,7 +54430,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP4Hide {
             get {
@@ -54475,7 +54475,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP5Hide {
             get {
@@ -54520,7 +54520,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP6Hide {
             get {
@@ -54565,7 +54565,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP7Hide {
             get {
@@ -54610,7 +54610,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox50cmGP8Hide {
             get {
@@ -54655,7 +54655,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP1Hide {
             get {
@@ -54700,7 +54700,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP2Hide {
             get {
@@ -54745,7 +54745,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP3Hide {
             get {
@@ -54790,7 +54790,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP4Hide {
             get {
@@ -54835,7 +54835,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP5Hide {
             get {
@@ -54880,7 +54880,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP6Hide {
             get {
@@ -54925,7 +54925,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP7Hide {
             get {
@@ -54970,7 +54970,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox5mGP8Hide {
             get {
@@ -55015,7 +55015,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP1Hide {
             get {
@@ -55060,7 +55060,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP2Hide {
             get {
@@ -55105,7 +55105,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP3Hide {
             get {
@@ -55150,7 +55150,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP4Hide {
             get {
@@ -55195,7 +55195,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP5Hide {
             get {
@@ -55240,7 +55240,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP6Hide {
             get {
@@ -55285,7 +55285,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP7Hide {
             get {
@@ -55330,7 +55330,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumQuebecTidalAmplitudeApprox8mGP8Hide {
             get {
@@ -58696,164 +58696,227 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to                 Risk  High (lab data).
+        ///   Looks up a localized string similar to               Confirmed by Field Observation.
         /// </summary>
-        public static string PolSourceInfoEnumRishHighConfirmedWater {
+        public static string PolSourceInfoEnumRiskConfirmationConfirmedVisual {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumRishHighConfirmedWater", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationConfirmedVisual", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Confirmed with water samples.
+        ///   Looks up a localized string similar to Confirmed with field observation .
         /// </summary>
-        public static string PolSourceInfoEnumRishHighConfirmedWaterDesc {
+        public static string PolSourceInfoEnumRiskConfirmationConfirmedVisualDesc {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumRishHighConfirmedWaterDesc", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string PolSourceInfoEnumRishHighConfirmedWaterHide {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumRishHighConfirmedWaterHide", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to hws.
-        /// </summary>
-        public static string PolSourceInfoEnumRishHighConfirmedWaterInit {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumRishHighConfirmedWaterInit", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The user selected Risk Level is &apos;High&apos; and, was confirmed by analyses of water samples.  .
-        /// </summary>
-        public static string PolSourceInfoEnumRishHighConfirmedWaterReport {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumRishHighConfirmedWaterReport", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to High, Water Sample.
-        /// </summary>
-        public static string PolSourceInfoEnumRishHighConfirmedWaterText {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumRishHighConfirmedWaterText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to                       Risk  High (field data).
-        /// </summary>
-        public static string PolSourceInfoEnumRiskHighConfirmedVisual {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumRiskHighConfirmedVisual", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Confirmed with observation .
-        /// </summary>
-        public static string PolSourceInfoEnumRiskHighConfirmedVisualDesc {
-            get {
-                return ResourceManager.GetString("PolSourceInfoEnumRiskHighConfirmedVisualDesc", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationConfirmedVisualDesc", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumRiskHighConfirmedVisualHide {
+        public static string PolSourceInfoEnumRiskConfirmationConfirmedVisualHide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumRiskHighConfirmedVisualHide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationConfirmedVisualHide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to hvf.
         /// </summary>
-        public static string PolSourceInfoEnumRiskHighConfirmedVisualInit {
+        public static string PolSourceInfoEnumRiskConfirmationConfirmedVisualInit {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumRiskHighConfirmedVisualInit", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationConfirmedVisualInit", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The user selected Risk Level is &apos;High&apos; and, was confirmed by visual inspection or by odor.  .
+        ///   Looks up a localized string similar to and the risk is confirmed by visual inspection or by odor.  .
         /// </summary>
-        public static string PolSourceInfoEnumRiskHighConfirmedVisualReport {
+        public static string PolSourceInfoEnumRiskConfirmationConfirmedVisualReport {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumRiskHighConfirmedVisualReport", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationConfirmedVisualReport", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to High, Visual Observation.
+        ///   Looks up a localized string similar to Confirmed with field Observations,.
         /// </summary>
-        public static string PolSourceInfoEnumRiskHighConfirmedVisualText {
+        public static string PolSourceInfoEnumRiskConfirmationConfirmedVisualText {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumRiskHighConfirmedVisualText", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationConfirmedVisualText", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to                           Risk  High (not confirmed).
+        ///   Looks up a localized string similar to               Confirmed by Laboratory Samples.
         /// </summary>
-        public static string PolSourceInfoEnumRiskHighNotConfirmed {
+        public static string PolSourceInfoEnumRiskConfirmationConfirmedWater {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumRiskHighNotConfirmed", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationConfirmedWater", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Not Confirmed with physical evidence.
+        ///   Looks up a localized string similar to Confirmed with water samples analyses.
         /// </summary>
-        public static string PolSourceInfoEnumRiskHighNotConfirmedDesc {
+        public static string PolSourceInfoEnumRiskConfirmationConfirmedWaterDesc {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumRiskHighNotConfirmedDesc", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationConfirmedWaterDesc", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PolSourceInfoEnumRiskHighNotConfirmedHide {
+        public static string PolSourceInfoEnumRiskConfirmationConfirmedWaterHide {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumRiskHighNotConfirmedHide", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationConfirmedWaterHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to hws.
+        /// </summary>
+        public static string PolSourceInfoEnumRiskConfirmationConfirmedWaterInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationConfirmedWaterInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to and the risk is confirmed by the analyses of water samples.  .
+        /// </summary>
+        public static string PolSourceInfoEnumRiskConfirmationConfirmedWaterReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationConfirmedWaterReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Confirmed with water analyses,.
+        /// </summary>
+        public static string PolSourceInfoEnumRiskConfirmationConfirmedWaterText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationConfirmedWaterText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                           Not Confirmed.
+        /// </summary>
+        public static string PolSourceInfoEnumRiskConfirmationNotConfirmed {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationNotConfirmed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not Confirmed with physical evidence.
+        /// </summary>
+        public static string PolSourceInfoEnumRiskConfirmationNotConfirmedDesc {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationNotConfirmedDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumRiskConfirmationNotConfirmedHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationNotConfirmedHide", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to hnc.
         /// </summary>
-        public static string PolSourceInfoEnumRiskHighNotConfirmedInit {
+        public static string PolSourceInfoEnumRiskConfirmationNotConfirmedInit {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumRiskHighNotConfirmedInit", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationNotConfirmedInit", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The user selected Risk Level is &apos;High&apos;.  .
+        ///   Looks up a localized string similar to but the risk is not confirmed.    .
         /// </summary>
-        public static string PolSourceInfoEnumRiskHighNotConfirmedReport {
+        public static string PolSourceInfoEnumRiskConfirmationNotConfirmedReport {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumRiskHighNotConfirmedReport", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationNotConfirmedReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not Confirmed,.
+        /// </summary>
+        public static string PolSourceInfoEnumRiskConfirmationNotConfirmedText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationNotConfirmedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Justification .
+        /// </summary>
+        public static string PolSourceInfoEnumRiskConfirmationStart {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationStart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do you have a reason for giving the Risk this level?.
+        /// </summary>
+        public static string PolSourceInfoEnumRiskConfirmationStartDesc {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumRiskConfirmationStartDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                           Risk  High .
+        /// </summary>
+        public static string PolSourceInfoEnumRiskHigh {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumRiskHigh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PolSourceInfoEnumRiskHighHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumRiskHighHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to hnc.
+        /// </summary>
+        public static string PolSourceInfoEnumRiskHighInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumRiskHighInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The user selected Risk Level is &apos;High&apos; .
+        /// </summary>
+        public static string PolSourceInfoEnumRiskHighReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumRiskHighReport", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to High, .
         /// </summary>
-        public static string PolSourceInfoEnumRiskHighNotConfirmedText {
+        public static string PolSourceInfoEnumRiskHighText {
             get {
-                return ResourceManager.GetString("PolSourceInfoEnumRiskHighNotConfirmedText", resourceCulture);
+                return ResourceManager.GetString("PolSourceInfoEnumRiskHighText", resourceCulture);
             }
         }
         
@@ -58894,7 +58957,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The user selected Risk Level is &apos;Low&apos;.  .
+        ///   Looks up a localized string similar to The user selected Risk Level is &apos;Low&apos; .
         /// </summary>
         public static string PolSourceInfoEnumRiskLowReport {
             get {
@@ -58939,7 +59002,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The user selected Risk Level is &apos;Moderate&apos;.  .
+        ///   Looks up a localized string similar to The user selected Risk Level is &apos;Moderate&apos; .
         /// </summary>
         public static string PolSourceInfoEnumRiskModerateReport {
             get {
@@ -78793,7 +78856,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumStatusNonPollutionSourceHide {
             get {
@@ -78847,7 +78910,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumStatusNotDeterminedHide {
             get {
@@ -79990,7 +80053,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91006.
+        ///   Looks up a localized string similar to 91004.
         /// </summary>
         public static string PolSourceInfoEnumSuggestedRiskHighHide {
             get {
@@ -80035,7 +80098,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91001,91002,91003,91004,91005.
+        ///   Looks up a localized string similar to 91001,91002,91003.
         /// </summary>
         public static string PolSourceInfoEnumSuggestedRiskInfoRequiredHide {
             get {
@@ -80080,7 +80143,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91006.
+        ///   Looks up a localized string similar to 91004.
         /// </summary>
         public static string PolSourceInfoEnumSuggestedRiskLowHide {
             get {
@@ -80125,7 +80188,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 91006.
+        ///   Looks up a localized string similar to 91004.
         /// </summary>
         public static string PolSourceInfoEnumSuggestedRiskModerateHide {
             get {
@@ -82794,6 +82857,51 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string PolSourceInfoEnumTypesOfWildlifeCrowsText {
             get {
                 return ResourceManager.GetString("PolSourceInfoEnumTypesOfWildlifeCrowsText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to                      Ducks and Geese.
+        /// </summary>
+        public static string PolSourceInfoEnumTypesOfWildLifeDucksGeese {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumTypesOfWildLifeDucksGeese", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12801,12802,12803,12804,12805,12806,12807,12808,12809,12810,12811,12812,12813.
+        /// </summary>
+        public static string PolSourceInfoEnumTypesOfWildLifeDucksGeeseHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumTypesOfWildLifeDucksGeeseHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to wd.
+        /// </summary>
+        public static string PolSourceInfoEnumTypesOfWildLifeDucksGeeseInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumTypesOfWildLifeDucksGeeseInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ducks and geese .
+        /// </summary>
+        public static string PolSourceInfoEnumTypesOfWildLifeDucksGeeseReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumTypesOfWildLifeDucksGeeseReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Waterfowl-ducks.
+        /// </summary>
+        public static string PolSourceInfoEnumTypesOfWildLifeDucksGeeseText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumTypesOfWildLifeDucksGeeseText", resourceCulture);
             }
         }
         

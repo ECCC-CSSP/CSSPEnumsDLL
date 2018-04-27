@@ -505,6 +505,12 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskStartDesc, retStrDesc);
                         }
                         break;
+                        case PolSourceObsInfoEnum.RiskConfirmationStart:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationStart, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationStartDesc, retStrDesc);
+                        }
+                        break;
                         case PolSourceObsInfoEnum.FollowUpStart:
                         {
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumFollowUpStart, retStr);
@@ -2634,6 +2640,13 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeMuskrat, retStr);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeMuskratReport, retStrReport);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildlifeMuskratText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.TypesOfWildLifeDucksGeese:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildLifeDucksGeese, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildLifeDucksGeeseReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumTypesOfWildLifeDucksGeeseText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.AnimalLocationRuralDom:
@@ -6804,25 +6817,11 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskModerateText, retStrText);
                         }
                         break;
-                        case PolSourceObsInfoEnum.RiskHighNotConfirmed:
+                        case PolSourceObsInfoEnum.RiskHigh:
                         {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighNotConfirmed, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighNotConfirmedReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighNotConfirmedText, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.RiskHighConfirmedVisual:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighConfirmedVisual, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighConfirmedVisualReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighConfirmedVisualText, retStrText);
-                        }
-                        break;
-                        case PolSourceObsInfoEnum.RishHighConfirmedWater:
-                        {
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRishHighConfirmedWater, retStr);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRishHighConfirmedWaterReport, retStrReport);
-                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRishHighConfirmedWaterText, retStrText);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskHigh, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskHighText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.RiskNotDetermined:
@@ -6830,6 +6829,27 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskNotDetermined, retStr);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskNotDeterminedReport, retStrReport);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskNotDeterminedText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.RiskConfirmationNotConfirmed:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationNotConfirmed, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationNotConfirmedReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationNotConfirmedText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.RiskConfirmationConfirmedVisual:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedVisual, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedVisualReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedVisualText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.RiskConfirmationConfirmedWater:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedWater, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedWaterReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumRiskConfirmationConfirmedWaterText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.FollowupRequired:

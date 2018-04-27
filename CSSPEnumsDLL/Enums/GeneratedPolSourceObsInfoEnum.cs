@@ -353,6 +353,7 @@ namespace CSSPEnumsDLL.Enums
         TypesOfWildlifeGeneral = 13806,
         TypesOfWildlifeBeaver = 13807,
         TypesOfWildlifeMuskrat = 13808,
+        TypesOfWildLifeDucksGeese = 13809,
 
         AnimalLocationStart = 12800,
         AnimalLocationRuralDom = 12801,
@@ -1049,10 +1050,13 @@ namespace CSSPEnumsDLL.Enums
         RiskStart = 91000,
         RiskLow = 91001,
         RiskModerate = 91002,
-        RiskHighNotConfirmed = 91003,
-        RiskHighConfirmedVisual = 91004,
-        RishHighConfirmedWater = 91005,
-        RiskNotDetermined = 91006,
+        RiskHigh = 91003,
+        RiskNotDetermined = 91004,
+
+        RiskConfirmationStart = 21500,
+        RiskConfirmationNotConfirmed = 21501,
+        RiskConfirmationConfirmedVisual = 21502,
+        RiskConfirmationConfirmedWater = 21503,
 
         FollowUpStart = 93000,
         FollowupRequired = 93001,
