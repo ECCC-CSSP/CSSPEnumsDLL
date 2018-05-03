@@ -138,6 +138,7 @@ namespace CSSPEnumsDLL.Enums
         OuthouseStart = 14700,
         OuthouseConcreteTank = 14701,
         OuthouseOnGround = 14702,
+        OuthouseOnPortable = 14703,
 
         IndustrialEffluentStart = 11200,
         IndustrialEffluentForestry = 11201,
@@ -163,6 +164,7 @@ namespace CSSPEnumsDLL.Enums
         AgriculturesourceFeedlot = 10603,
         AriculturalSourcePeatMoss = 10604,
         AgricultureSourceManure = 10605,
+        AgriculturalSourceBarn = 10606,
 
         ManureManagementStart = 13400,
         ManureManagementPileSpread = 13401,

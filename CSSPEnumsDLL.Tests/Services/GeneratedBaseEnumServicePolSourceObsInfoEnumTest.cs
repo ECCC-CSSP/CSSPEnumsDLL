@@ -1515,6 +1515,13 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnGroundText, retStrText);
                         }
                         break;
+                        case PolSourceObsInfoEnum.OuthouseOnPortable:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnPortable, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnPortableReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnPortableText, retStrText);
+                        }
+                        break;
                         case PolSourceObsInfoEnum.IndustrialEffluentForestry:
                         {
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentForestry, retStr);
@@ -1660,6 +1667,13 @@ namespace CSSPEnumsDLL.Tests.Services
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAgricultureSourceManure, retStr);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAgricultureSourceManureReport, retStrReport);
                             Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAgricultureSourceManureText, retStrText);
+                        }
+                        break;
+                        case PolSourceObsInfoEnum.AgriculturalSourceBarn:
+                        {
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAgriculturalSourceBarn, retStr);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAgriculturalSourceBarnReport, retStrReport);
+                            Assert.AreEqual(PolSourceInfoEnumRes.PolSourceInfoEnumAgriculturalSourceBarnText, retStrText);
                         }
                         break;
                         case PolSourceObsInfoEnum.ManureManagementPileSpread:

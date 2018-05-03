@@ -247,6 +247,7 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.IndustrialAreaSizeMetersInFoRequired:
                     case PolSourceObsInfoEnum.OuthouseConcreteTank:
                     case PolSourceObsInfoEnum.OuthouseOnGround:
+                    case PolSourceObsInfoEnum.OuthouseOnPortable:
                     case PolSourceObsInfoEnum.IndustrialEffluentForestry:
                     case PolSourceObsInfoEnum.IndustrialEffluentAgricultureFarm:
                     case PolSourceObsInfoEnum.IndustrialEffluentFisheryLand:
@@ -268,6 +269,7 @@ namespace CSSPEnumsDLL.Services
                     case PolSourceObsInfoEnum.AgriculturesourceFeedlot:
                     case PolSourceObsInfoEnum.AriculturalSourcePeatMoss:
                     case PolSourceObsInfoEnum.AgricultureSourceManure:
+                    case PolSourceObsInfoEnum.AgriculturalSourceBarn:
                     case PolSourceObsInfoEnum.ManureManagementPileSpread:
                     case PolSourceObsInfoEnum.ManureManagementLiqSpread:
                     case PolSourceObsInfoEnum.ManureManagementBoth:
@@ -2201,6 +2203,7 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.IndustrialAreaSizeMetersInFoRequired:
                 case PolSourceObsInfoEnum.OuthouseConcreteTank:
                 case PolSourceObsInfoEnum.OuthouseOnGround:
+                case PolSourceObsInfoEnum.OuthouseOnPortable:
                 case PolSourceObsInfoEnum.IndustrialEffluentForestry:
                 case PolSourceObsInfoEnum.IndustrialEffluentAgricultureFarm:
                 case PolSourceObsInfoEnum.IndustrialEffluentFisheryLand:
@@ -2222,6 +2225,7 @@ namespace CSSPEnumsDLL.Services
                 case PolSourceObsInfoEnum.AgriculturesourceFeedlot:
                 case PolSourceObsInfoEnum.AriculturalSourcePeatMoss:
                 case PolSourceObsInfoEnum.AgricultureSourceManure:
+                case PolSourceObsInfoEnum.AgriculturalSourceBarn:
                 case PolSourceObsInfoEnum.ManureManagementPileSpread:
                 case PolSourceObsInfoEnum.ManureManagementLiqSpread:
                 case PolSourceObsInfoEnum.ManureManagementBoth:
@@ -4387,6 +4391,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseConcreteTank;
                 case PolSourceObsInfoEnum.OuthouseOnGround:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnGround;
+                case PolSourceObsInfoEnum.OuthouseOnPortable:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnPortable;
                 case PolSourceObsInfoEnum.IndustrialEffluentForestry:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentForestry;
                 case PolSourceObsInfoEnum.IndustrialEffluentAgricultureFarm:
@@ -4429,6 +4435,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAriculturalSourcePeatMoss;
                 case PolSourceObsInfoEnum.AgricultureSourceManure:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAgricultureSourceManure;
+                case PolSourceObsInfoEnum.AgriculturalSourceBarn:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumAgriculturalSourceBarn;
                 case PolSourceObsInfoEnum.ManureManagementPileSpread:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumManureManagementPileSpread;
                 case PolSourceObsInfoEnum.ManureManagementLiqSpread:
@@ -10045,6 +10053,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseConcreteTankReport;
                 case PolSourceObsInfoEnum.OuthouseOnGround:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnGroundReport;
+                case PolSourceObsInfoEnum.OuthouseOnPortable:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnPortableReport;
                 case PolSourceObsInfoEnum.IndustrialEffluentForestry:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentForestryReport;
                 case PolSourceObsInfoEnum.IndustrialEffluentAgricultureFarm:
@@ -10087,6 +10097,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAriculturalSourcePeatMossReport;
                 case PolSourceObsInfoEnum.AgricultureSourceManure:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAgricultureSourceManureReport;
+                case PolSourceObsInfoEnum.AgriculturalSourceBarn:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumAgriculturalSourceBarnReport;
                 case PolSourceObsInfoEnum.ManureManagementPileSpread:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumManureManagementPileSpreadReport;
                 case PolSourceObsInfoEnum.ManureManagementLiqSpread:
@@ -13708,6 +13720,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseConcreteTankText;
                 case PolSourceObsInfoEnum.OuthouseOnGround:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnGroundText;
+                case PolSourceObsInfoEnum.OuthouseOnPortable:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnPortableText;
                 case PolSourceObsInfoEnum.IndustrialEffluentForestry:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentForestryText;
                 case PolSourceObsInfoEnum.IndustrialEffluentAgricultureFarm:
@@ -13750,6 +13764,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAriculturalSourcePeatMossText;
                 case PolSourceObsInfoEnum.AgricultureSourceManure:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAgricultureSourceManureText;
+                case PolSourceObsInfoEnum.AgriculturalSourceBarn:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumAgriculturalSourceBarnText;
                 case PolSourceObsInfoEnum.ManureManagementPileSpread:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumManureManagementPileSpreadText;
                 case PolSourceObsInfoEnum.ManureManagementLiqSpread:
@@ -16801,6 +16817,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseConcreteTankInit;
                 case PolSourceObsInfoEnum.OuthouseOnGround:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnGroundInit;
+                case PolSourceObsInfoEnum.OuthouseOnPortable:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnPortableInit;
                 case PolSourceObsInfoEnum.IndustrialEffluentForestry:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentForestryInit;
                 case PolSourceObsInfoEnum.IndustrialEffluentAgricultureFarm:
@@ -16843,6 +16861,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAriculturalSourcePeatMossInit;
                 case PolSourceObsInfoEnum.AgricultureSourceManure:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumAgricultureSourceManureInit;
+                case PolSourceObsInfoEnum.AgriculturalSourceBarn:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumAgriculturalSourceBarnInit;
                 case PolSourceObsInfoEnum.ManureManagementPileSpread:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumManureManagementPileSpreadInit;
                 case PolSourceObsInfoEnum.ManureManagementLiqSpread:
@@ -18088,6 +18108,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseConcreteTankHide;
                 case PolSourceObsInfoEnum.OuthouseOnGround:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnGroundHide;
+                case PolSourceObsInfoEnum.OuthouseOnPortable:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumOuthouseOnPortableHide;
                 case PolSourceObsInfoEnum.IndustrialEffluentForestry:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentForestryHide;
                 case PolSourceObsInfoEnum.IndustrialEffluentIndustrialTreatment:
@@ -18104,6 +18126,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentRuralHide;
                 case PolSourceObsInfoEnum.IndustrialEffluentShoreline:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentShorelineHide;
+                case PolSourceObsInfoEnum.AgriculturalSourceBarn:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumAgriculturalSourceBarnHide;
                 case PolSourceObsInfoEnum.FieldLocationOnFarm:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumFieldLocationOnFarmHide;
                 case PolSourceObsInfoEnum.FieldLocationOffFarm:

@@ -61,6 +61,51 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to                           Barn.
+        /// </summary>
+        public static string PolSourceInfoEnumAgriculturalSourceBarn {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAgriculturalSourceBarn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512.
+        /// </summary>
+        public static string PolSourceInfoEnumAgriculturalSourceBarnHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAgriculturalSourceBarnHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to bar.
+        /// </summary>
+        public static string PolSourceInfoEnumAgriculturalSourceBarnInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAgriculturalSourceBarnInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The issue is a barn complex.  .
+        /// </summary>
+        public static string PolSourceInfoEnumAgriculturalSourceBarnReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAgriculturalSourceBarnReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Barns, .
+        /// </summary>
+        public static string PolSourceInfoEnumAgriculturalSourceBarnText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumAgriculturalSourceBarnText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to                                    Crop Field.
         /// </summary>
         public static string PolSourceInfoEnumAgriculturalSourceCrop {
@@ -727,7 +772,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to                                                                       Free Roaming.
+        ///   Looks up a localized string similar to                                                                 Free Roaming.
         /// </summary>
         public static string PolSourceInfoEnumAnimalBldgEqualsNotApplicable {
             get {
@@ -26323,7 +26368,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to outhouses or privies built upon .
+        ///   Looks up a localized string similar to outhouses or privies .
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultipleOuthousesReport {
             get {
@@ -27295,7 +27340,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to outhouse built upon .
+        ///   Looks up a localized string similar to outhouse .
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSingleOuthouseReport {
             get {
@@ -29077,7 +29122,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to is a waste treatment facility.   .
+        ///   Looks up a localized string similar to is effluent from an industrial waste treatment facility.  .
         /// </summary>
         public static string PolSourceInfoEnumIndustrialEffluentIndustrialTreatmentReport {
             get {
@@ -45691,7 +45736,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to a cement foundation.  This structure is located  .
+        ///   Looks up a localized string similar to built upon a cement foundation.  This structure is located  .
         /// </summary>
         public static string PolSourceInfoEnumOuthouseConcreteTankReport {
             get {
@@ -45709,7 +45754,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to On-ground.
+        ///   Looks up a localized string similar to In-ground.
         /// </summary>
         public static string PolSourceInfoEnumOuthouseOnGround {
             get {
@@ -45736,7 +45781,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to the ground.  This structure is located .
+        ///   Looks up a localized string similar to built upon a pit in the ground.  This structure is located .
         /// </summary>
         public static string PolSourceInfoEnumOuthouseOnGroundReport {
             get {
@@ -45750,6 +45795,51 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string PolSourceInfoEnumOuthouseOnGroundText {
             get {
                 return ResourceManager.GetString("PolSourceInfoEnumOuthouseOnGroundText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Portable Unit.
+        /// </summary>
+        public static string PolSourceInfoEnumOuthouseOnPortable {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumOuthouseOnPortable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 12706,12707,12712,12713,12716,12717,12718,12719,12720.
+        /// </summary>
+        public static string PolSourceInfoEnumOuthouseOnPortableHide {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumOuthouseOnPortableHide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to prt.
+        /// </summary>
+        public static string PolSourceInfoEnumOuthouseOnPortableInit {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumOuthouseOnPortableInit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to which is temporary.  This structure is located .
+        /// </summary>
+        public static string PolSourceInfoEnumOuthouseOnPortableReport {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumOuthouseOnPortableReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Portable Unit,.
+        /// </summary>
+        public static string PolSourceInfoEnumOuthouseOnPortableText {
+            get {
+                return ResourceManager.GetString("PolSourceInfoEnumOuthouseOnPortableText", resourceCulture);
             }
         }
         
@@ -76408,7 +76498,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 14328,14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14324,14325,14326,14327.
+        ///   Looks up a localized string similar to 14329,14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14324,14325,14326,14327.
         /// </summary>
         public static string PolSourceInfoEnumSewageOffSiteSystemHide {
             get {
@@ -78136,7 +78226,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The pollution source is non-septic effluent from equipment in the area which flows .
+        ///   Looks up a localized string similar to The pollution source is non-septic effluent from equipment or treatment facility which flows .
         /// </summary>
         public static string PolSourceInfoEnumSourcesOfContaminantEffluentReport {
             get {

@@ -117,6 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="PolSourceInfoEnumAgriculturalSourceBarn" xml:space="preserve">
+    <value>Granges</value>
+  </data>
+  <data name="PolSourceInfoEnumAgriculturalSourceBarnHide" xml:space="preserve">
+    <value>10501,10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512</value>
+  </data>
+  <data name="PolSourceInfoEnumAgriculturalSourceBarnInit" xml:space="preserve">
+    <value>bar</value>
+  </data>
+  <data name="PolSourceInfoEnumAgriculturalSourceBarnReport" xml:space="preserve">
+    <value>Le problème est un complexe de granges.</value>
+  </data>
+  <data name="PolSourceInfoEnumAgriculturalSourceBarnText" xml:space="preserve">
+    <value>Granges,</value>
+  </data>
   <data name="PolSourceInfoEnumAgriculturalSourceCrop" xml:space="preserve">
     <value>Champ de culture</value>
   </data>
@@ -9082,7 +9097,7 @@
     <value>boa</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsMReport" xml:space="preserve">
-    <value>bateaux à</value>
+    <value>les toilettes ou les latrines</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleBoatsMText" xml:space="preserve">
     <value>outhouse</value>
@@ -9538,7 +9553,7 @@
     <value>out</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleOuthouseReport" xml:space="preserve">
-    <value>outhouse construit sur</value>
+    <value>outhouse </value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleOuthouseText" xml:space="preserve">
     <value>outhouse</value>
@@ -10117,7 +10132,7 @@
     <value>iwt</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentIndustrialTreatmentReport" xml:space="preserve">
-    <value>est une installation de traitement des déchets.</value>
+    <value>est l'effluent d'une installation de traitement des déchets industriels</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentIndustrialTreatmentText" xml:space="preserve">
     <value>Traitement des eaux usées</value>
@@ -15280,13 +15295,13 @@
     <value>cht</value>
   </data>
   <data name="PolSourceInfoEnumOuthouseConcreteTankReport" xml:space="preserve">
-    <value> un réservoir en béton.  Les terres avoisinantes sont</value>
+    <value>construit sur une base de ciment. Cette structure est située</value>
   </data>
   <data name="PolSourceInfoEnumOuthouseConcreteTankText" xml:space="preserve">
-    <value>Réservoir en béton,</value>
+    <value>Réservoir en béton</value>
   </data>
   <data name="PolSourceInfoEnumOuthouseOnGround" xml:space="preserve">
-    <value>Sur le sol</value>
+    <value>En terre</value>
   </data>
   <data name="PolSourceInfoEnumOuthouseOnGroundHide" xml:space="preserve">
     <value>12706,12707,12712,12713,12716,12717,12718,12719,12720</value>
@@ -15295,10 +15310,25 @@
     <value>grd</value>
   </data>
   <data name="PolSourceInfoEnumOuthouseOnGroundReport" xml:space="preserve">
-    <value> le sol.  Les terres avoisinantes sont</value>
+    <value>construit sur une fosse dans le sol. Cette structure est située</value>
   </data>
   <data name="PolSourceInfoEnumOuthouseOnGroundText" xml:space="preserve">
-    <value>Sur le sol,</value>
+    <value>En terre</value>
+  </data>
+  <data name="PolSourceInfoEnumOuthouseOnPortable" xml:space="preserve">
+    <value>Unité portative</value>
+  </data>
+  <data name="PolSourceInfoEnumOuthouseOnPortableHide" xml:space="preserve">
+    <value>12706,12707,12712,12713,12716,12717,12718,12719,12720</value>
+  </data>
+  <data name="PolSourceInfoEnumOuthouseOnPortableInit" xml:space="preserve">
+    <value>grd</value>
+  </data>
+  <data name="PolSourceInfoEnumOuthouseOnPortableReport" xml:space="preserve">
+    <value>ce qui est temporaire. Cette structure est située</value>
+  </data>
+  <data name="PolSourceInfoEnumOuthouseOnPortableText" xml:space="preserve">
+    <value>Unité portative</value>
   </data>
   <data name="PolSourceInfoEnumOuthouseStart" xml:space="preserve">
     <value>Fosse des latrines</value>
@@ -25303,7 +25333,7 @@
     <value>Désigne un lagon ou un système municipal qui se trouve sur une autre propriété.</value>
   </data>
   <data name="PolSourceInfoEnumSewageOffSiteSystemHide" xml:space="preserve">
-    <value>14328,14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14324,14325,14326,14327</value>
+    <value>14329,14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14324,14325,14326,14327</value>
   </data>
   <data name="PolSourceInfoEnumSewageOffSiteSystemInit" xml:space="preserve">
     <value>ofs</value>
@@ -25894,7 +25924,7 @@
     <value>           Effluent | Marin</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantEffluentReport" xml:space="preserve">
-    <value>La source de pollution est un effluent non septique provenant d'équipements dans la zone</value>
+    <value>La source de pollution est un effluent non septique provenant d'un équipement ou d'une installation de traitement qui s'écoule</value>
   </data>
   <data name="PolSourceInfoEnumSourcesOfContaminantEffluentText" xml:space="preserve">
     <value>           Effluent</value>
