@@ -88,13 +88,12 @@ namespace CSSPEnumsDLL.Enums
         CreateXlsxPDF = 21,
         OpenDataCSVOfMWQMSites = 22,
         OpenDataKMZOfMWQMSites = 23,
-        OpenDataXlsxOfMWQMSites = 24,
+        OpenDataXlsxOfMWQMSitesAndSamples = 24,
         OpenDataCSVOfMWQMSamples = 25,
-        OpenDataXlsxOfMWQMSamples = 26,
-        GetAllPrecipitationForYear = 27,
-        FillRunPrecipByClimateSitePriorityForYear = 28,
-        FindMissingPrecipForProvince = 29,
-        ExportToArcGIS = 30,
+        GetAllPrecipitationForYear = 26,
+        FillRunPrecipByClimateSitePriorityForYear = 27,
+        FindMissingPrecipForProvince = 28,
+        ExportToArcGIS = 29,
     }
     public enum AppTaskStatusEnum
     {

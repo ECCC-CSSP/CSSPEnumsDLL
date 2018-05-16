@@ -352,14 +352,11 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataKMZOfMWQMSites, retStr);
                             break;
-                        case AppTaskCommandEnum.OpenDataXlsxOfMWQMSites:
-                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataXlsxOfMWQMSites, retStr);
+                        case AppTaskCommandEnum.OpenDataXlsxOfMWQMSitesAndSamples:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataXlsxOfMWQMSitesAndSamples, retStr);
                             break;
                         case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVOfMWQMSamples, retStr);
-                            break;
-                        case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
-                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataXlsxOfMWQMSamples, retStr);
                             break;
                         case AppTaskCommandEnum.GetAllPrecipitationForYear:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumGetAllPrecipitationForYear, retStr);
@@ -4129,9 +4126,8 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.CreateXlsxPDF:
                         case AppTaskCommandEnum.OpenDataCSVOfMWQMSites:
                         case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
-                        case AppTaskCommandEnum.OpenDataXlsxOfMWQMSites:
+                        case AppTaskCommandEnum.OpenDataXlsxOfMWQMSitesAndSamples:
                         case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
-                        case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
                         case AppTaskCommandEnum.GetAllPrecipitationForYear:
                         case AppTaskCommandEnum.FillRunPrecipByClimateSitePriorityForYear:
                         case AppTaskCommandEnum.FindMissingPrecipForProvince:

@@ -8074,6 +8074,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumSourceEffluentMarineDesc;
                 case PolSourceObsInfoEnum.HumanPollutionSingleMedicalFacility:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumHumanPollutionSingleMedicalFacilityDesc;
+                case PolSourceObsInfoEnum.HumanLocationRecreationalArea:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumHumanLocationRecreationalAreaDesc;
                 case PolSourceObsInfoEnum.HumanLocationAnchorageMooringSiteMarine:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumHumanLocationAnchorageMooringSiteMarineDesc;
                 case PolSourceObsInfoEnum.HumanLocationDisposalAtSeaMarine:
@@ -8090,6 +8092,8 @@ namespace CSSPEnumsDLL.Services
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentIndustrialTreatmentDesc;
                 case PolSourceObsInfoEnum.IndustrialEffluentStorageTank:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentStorageTankDesc;
+                case PolSourceObsInfoEnum.IndustrialEffluentRecreation:
+                    return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentRecreationDesc;
                 case PolSourceObsInfoEnum.IndustrialEffluentAnchorageMooringSite:
                     return PolSourceInfoEnumRes.PolSourceInfoEnumIndustrialEffluentAnchorageMooringSiteDesc;
                 case PolSourceObsInfoEnum.IndustrialEffluentDisposalAtSea:

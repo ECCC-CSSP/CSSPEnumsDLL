@@ -2613,4 +2613,7 @@
   <data name="AppTaskCommandEnumOpenDataXlsxOfMWQMSites" xml:space="preserve">
     <value>Open Data Xlsx Of MWQM Sites</value>
   </data>
+  <data name="AppTaskCommandEnumOpenDataXlsxOfMWQMSitesAndSamples" xml:space="preserve">
+    <value>Open Data Xlsx Of MWQM Sites And Samples</value>
+  </data>
 </root>

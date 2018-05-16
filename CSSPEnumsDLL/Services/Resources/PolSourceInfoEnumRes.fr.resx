@@ -8386,7 +8386,10 @@
     <value>Parc marin</value>
   </data>
   <data name="PolSourceInfoEnumHumanLocationRecreationalArea" xml:space="preserve">
-    <value>Zone récréative</value>
+    <value>Zones de loisirs publics</value>
+  </data>
+  <data name="PolSourceInfoEnumHumanLocationRecreationalAreaDesc" xml:space="preserve">
+    <value>Zone récréative utilisée par le public</value>
   </data>
   <data name="PolSourceInfoEnumHumanLocationRecreationalAreaHide" xml:space="preserve">
     <value>11701,11702,11703,11704</value>
@@ -8398,7 +8401,7 @@
     <value>dans un</value>
   </data>
   <data name="PolSourceInfoEnumHumanLocationRecreationalAreaText" xml:space="preserve">
-    <value>Zone récréative</value>
+    <value>Zone récréative utilisée par le public</value>
   </data>
   <data name="PolSourceInfoEnumHumanLocationRural" xml:space="preserve">
     <value>Communauté rurale</value>
@@ -10168,7 +10171,10 @@
     <value>Marina</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentRecreation" xml:space="preserve">
-    <value>Récréatif</value>
+    <value>Zones de loisirs publics</value>
+  </data>
+  <data name="PolSourceInfoEnumIndustrialEffluentRecreationDesc" xml:space="preserve">
+    <value>Zone récréative utilisée par le public</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentRecreationHide" xml:space="preserve">
     <value>11705,11706,11707,11708</value>
@@ -15748,7 +15754,7 @@
     <value>offs</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEReport" xml:space="preserve">
-    <value>Les informations sur ce système doivent être documentées dans l'onglet "Municipalité" des Webtools.</value>
+    <value>documenté dans l'onglet "Municipalité" des Webtools.  </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityOFFSITEText" xml:space="preserve">
     <value>Traitement hors site,</value>
@@ -15766,7 +15772,7 @@
     <value>Inf</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITEReport" xml:space="preserve">
-    <value>Les informations sur ce système doivent être documentées dans l'onglet "Municipalité" des Webtools.</value>
+    <value>documenté dans l'onglet "Municipalité" des Webtools.  </value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstMunicipalityONSITEText" xml:space="preserve">
     <value>Traiter sur place,</value>
@@ -15778,13 +15784,13 @@
     <value>La voie n'est pas applicable</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstNotDeterminedHide" xml:space="preserve">
-    <value>90001,90002,90003,90004,90005,90006,90007</value>
+    <value>10401,10402,10403,10404,10409,10410,10411,10412</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstNotDeterminedInit" xml:space="preserve">
     <value>nd</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstNotDeterminedReport" xml:space="preserve">
-    <value>pas évalué pour le moment.</value>
+    <value>n'a pas été évalué pour le moment. La Source est située sur un</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstNotDeterminedText" xml:space="preserve">
     <value>Pas évalué,</value>

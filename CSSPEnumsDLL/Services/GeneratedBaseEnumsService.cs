@@ -209,12 +209,10 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVOfMWQMSites;
                 case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
                     return BaseEnumServiceRes.AppTaskCommandEnumOpenDataKMZOfMWQMSites;
-                case AppTaskCommandEnum.OpenDataXlsxOfMWQMSites:
-                    return BaseEnumServiceRes.AppTaskCommandEnumOpenDataXlsxOfMWQMSites;
+                case AppTaskCommandEnum.OpenDataXlsxOfMWQMSitesAndSamples:
+                    return BaseEnumServiceRes.AppTaskCommandEnumOpenDataXlsxOfMWQMSitesAndSamples;
                 case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
                     return BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVOfMWQMSamples;
-                case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
-                    return BaseEnumServiceRes.AppTaskCommandEnumOpenDataXlsxOfMWQMSamples;
                 case AppTaskCommandEnum.GetAllPrecipitationForYear:
                     return BaseEnumServiceRes.AppTaskCommandEnumGetAllPrecipitationForYear;
                 case AppTaskCommandEnum.FillRunPrecipByClimateSitePriorityForYear:
@@ -3476,9 +3474,8 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.CreateXlsxPDF:
                 case AppTaskCommandEnum.OpenDataCSVOfMWQMSites:
                 case AppTaskCommandEnum.OpenDataKMZOfMWQMSites:
-                case AppTaskCommandEnum.OpenDataXlsxOfMWQMSites:
+                case AppTaskCommandEnum.OpenDataXlsxOfMWQMSitesAndSamples:
                 case AppTaskCommandEnum.OpenDataCSVOfMWQMSamples:
-                case AppTaskCommandEnum.OpenDataXlsxOfMWQMSamples:
                 case AppTaskCommandEnum.GetAllPrecipitationForYear:
                 case AppTaskCommandEnum.FillRunPrecipByClimateSitePriorityForYear:
                 case AppTaskCommandEnum.FindMissingPrecipForProvince:
