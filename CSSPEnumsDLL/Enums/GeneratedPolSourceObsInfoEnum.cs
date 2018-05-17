@@ -38,6 +38,7 @@ namespace CSSPEnumsDLL.Enums
         HumanPollutionSingleWarehouseM = 12618,
         HumanPollutionSingleCommericalM = 12619,
         HumanPollutionSingleFishPlant = 12620,
+        HumanPollutionSingleBeachPatio = 12621,
 
         HumanPollutionMultipleStart = 21000,
         HumanPollutionMultipleResidences = 21001,
@@ -59,7 +60,8 @@ namespace CSSPEnumsDLL.Enums
         HumanPollutionMultipleCottagesM = 21017,
         HumanPollutionMultipleWarehousesM = 21018,
         HumanPollutionMultipleCommericalsM = 21019,
-        HumanPollutionSingleFishPlants = 21020,
+        HumanPollutionMultipleFishPlants = 21020,
+        HumanPollutionMultipleBeachPatios = 21021,
 
         HumanPollutionCountNumberStart = 16900,
         HumanPollutionCountNumberEqualTo1 = 16901,
@@ -345,6 +347,7 @@ namespace CSSPEnumsDLL.Enums
         TypesOfLivestockDucks = 13708,
         TypesOfLivestockMixtureSmall = 13709,
         TypesOfLivestockFurFarms = 13710,
+        TypesOfLivestockDogs = 13711,
 
         TypesOfWildlifeStart = 13800,
         TypesOfWildlifeCrows = 13801,
