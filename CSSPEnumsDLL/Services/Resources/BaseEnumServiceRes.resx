@@ -334,7 +334,7 @@
     <value>Combined 40% Separated 60%</value>
   </data>
   <data name="CollectionSystemTypeEnumCombined50Separated50" xml:space="preserve">
-    <value />
+    <value>Combined 50% Separated 50%</value>
   </data>
   <data name="CollectionSystemTypeEnumCombined60Separated40" xml:space="preserve">
     <value>Combined 60% Separated 40%</value>
@@ -2615,5 +2615,8 @@
   </data>
   <data name="AppTaskCommandEnumOpenDataXlsxOfMWQMSitesAndSamples" xml:space="preserve">
     <value>Open Data Xlsx Of MWQM Sites And Samples</value>
+  </data>
+  <data name="AerationTypeEnumNotApplicable" xml:space="preserve">
+    <value>Not Applicable</value>
   </data>
 </root>

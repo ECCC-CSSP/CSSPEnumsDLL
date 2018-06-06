@@ -19,6 +19,7 @@ namespace CSSPEnumsDLL.Enums
         Error = 0,
         Diffuser = 1,
         Surface = 2,
+        NotApplicable = 3,
     }
     public enum AlarmSystemTypeEnum
     {

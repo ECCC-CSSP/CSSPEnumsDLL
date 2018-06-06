@@ -46,6 +46,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AerationTypeEnumDiffuser;
                 case AerationTypeEnum.Surface:
                     return BaseEnumServiceRes.AerationTypeEnumSurface;
+                case AerationTypeEnum.NotApplicable:
+                    return BaseEnumServiceRes.AerationTypeEnumNotApplicable;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3360,6 +3362,7 @@ namespace CSSPEnumsDLL.Services
                 case AerationTypeEnum.Error:
                 case AerationTypeEnum.Diffuser:
                 case AerationTypeEnum.Surface:
+                case AerationTypeEnum.NotApplicable:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AerationType);

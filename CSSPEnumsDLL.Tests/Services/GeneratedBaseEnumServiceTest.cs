@@ -75,6 +75,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AerationTypeEnum.Surface:
                             Assert.AreEqual(BaseEnumServiceRes.AerationTypeEnumSurface, retStr);
                             break;
+                        case AerationTypeEnum.NotApplicable:
+                            Assert.AreEqual(BaseEnumServiceRes.AerationTypeEnumNotApplicable, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -3947,6 +3950,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AerationTypeEnum.Error:
                         case AerationTypeEnum.Diffuser:
                         case AerationTypeEnum.Surface:
+                        case AerationTypeEnum.NotApplicable:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

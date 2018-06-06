@@ -124,6 +124,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Not Applicable.
+        /// </summary>
+        public static string AerationTypeEnumNotApplicable {
+            get {
+                return ResourceManager.GetString("AerationTypeEnumNotApplicable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Surface.
         /// </summary>
         public static string AerationTypeEnumSurface {
@@ -998,7 +1007,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Combined 50% Separated 50%.
         /// </summary>
         public static string CollectionSystemTypeEnumCombined50Separated50 {
             get {
