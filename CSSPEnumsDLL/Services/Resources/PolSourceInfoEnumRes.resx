@@ -898,7 +898,7 @@
     <value>       High | (H)</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeHighHide" xml:space="preserve">
-    <value>23004,23005,23006,23007,23008,23009</value>
+    <value>23011,23012,23004,23005,23006,23007,23008,23009</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeHighInit" xml:space="preserve">
     <value>ml</value>
@@ -907,7 +907,7 @@
     <value>  High | (L)</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeHighLowHide" xml:space="preserve">
-    <value>23001,23002,23003,23004,23005,23006</value>
+    <value>23010,23011,23001,23002,23003,23004,23005,23006</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeHighLowInit" xml:space="preserve">
     <value>Hl</value>
@@ -922,7 +922,7 @@
     <value>  High | (M)</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeHighMedHide" xml:space="preserve">
-    <value>23001,23002,23003,23007,23008,23009</value>
+    <value>23012,23001,23002,23003,23007,23008,23009,23010</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeHighMedInit" xml:space="preserve">
     <value>Hm</value>
@@ -943,7 +943,7 @@
     <value>            Low | (H)</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeLowHide" xml:space="preserve">
-    <value>23004,23005,23006,23007,23008,23009</value>
+    <value>23011,23012,23004,23005,23006,23007,23008,23009</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeLowInit" xml:space="preserve">
     <value>lh</value>
@@ -952,7 +952,7 @@
     <value>             Low | (L)</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeLowLowHide" xml:space="preserve">
-    <value>23001,23002,23003,23004,23005,23006</value>
+    <value>23010,23011,23001,23002,23003,23004,23005,23006</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeLowLowInit" xml:space="preserve">
     <value>ll</value>
@@ -967,7 +967,7 @@
     <value>             Low | (M)</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeLowMedHide" xml:space="preserve">
-    <value>23001,23002,23003,23007,23008,23009</value>
+    <value>23012,23001,23002,23003,23007,23008,23009,23010</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeLowMedInit" xml:space="preserve">
     <value>lm</value>
@@ -988,7 +988,7 @@
     <value>          Medium | (H)</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeMediumHide" xml:space="preserve">
-    <value>23004,23005,23006,23007,23008,23009</value>
+    <value>23011,23012,23004,23005,23006,23007,23008,23009</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeMediumInit" xml:space="preserve">
     <value>mh</value>
@@ -997,7 +997,7 @@
     <value>    Medium | (L)</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeMediumLowHide" xml:space="preserve">
-    <value>23001,23002,23003,23004,23005,23006</value>
+    <value>23010,23011,23001,23002,23003,23004,23005,23006</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeMediumLowInit" xml:space="preserve">
     <value>ml</value>
@@ -1012,7 +1012,7 @@
     <value>    Medium | (M)</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeMediumMedHide" xml:space="preserve">
-    <value>23001,23002,23003,23007,23008,23009</value>
+    <value>23012,23001,23002,23003,23007,23008,23009,23010</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeMediumMedInit" xml:space="preserve">
     <value>mm</value>
@@ -1033,7 +1033,7 @@
     <value> No Data | (H)</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeNAHide" xml:space="preserve">
-    <value>23004,23005,23006,23007,23008,23009</value>
+    <value>23011,23012,23004,23005,23006,23007,23008,23009</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeNAInit" xml:space="preserve">
     <value>NDh</value>
@@ -1042,7 +1042,7 @@
     <value>No Data | (L)</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeNALowHide" xml:space="preserve">
-    <value>23001,23002,23003,23004,23005,23006</value>
+    <value>23010,23011,23001,23002,23003,23004,23005,23006</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeNALowInit" xml:space="preserve">
     <value>NDl</value>
@@ -1057,7 +1057,7 @@
     <value>No Data | (M)</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeNAMedHide" xml:space="preserve">
-    <value>23001,23002,23003,23007,23008,23009</value>
+    <value>23012,23001,23002,23003,23007,23008,23009,23010</value>
   </data>
   <data name="PolSourceInfoEnumAreaSlopeNAMedInit" xml:space="preserve">
     <value>NDm</value>
@@ -2212,7 +2212,7 @@
     <value>Calculated Volume (m3) of Water Needed to Dilute a Fecal Loadings to 14 MPN</value>
   </data>
   <data name="PolSourceInfoEnumCubicMeterToDiluteToMPN14Starta" xml:space="preserve">
-    <value>2 </value>
+    <value>2 | low volumne</value>
   </data>
   <data name="PolSourceInfoEnumCubicMeterToDiluteToMPN14StartaDesc" xml:space="preserve">
     <value>Low volume of water need to dilute -no grouping #</value>
@@ -2230,7 +2230,7 @@
     <value>2</value>
   </data>
   <data name="PolSourceInfoEnumCubicMeterToDiluteToMPN14Startb" xml:space="preserve">
-    <value>4</value>
+    <value>4 | Low volumne</value>
   </data>
   <data name="PolSourceInfoEnumCubicMeterToDiluteToMPN14StartbDesc" xml:space="preserve">
     <value>Low volume of water need to dilute -no grouping #</value>
@@ -2248,7 +2248,7 @@
     <value>4</value>
   </data>
   <data name="PolSourceInfoEnumCubicMeterToDiluteToMPN14Startc" xml:space="preserve">
-    <value>6</value>
+    <value>6 | low volume</value>
   </data>
   <data name="PolSourceInfoEnumCubicMeterToDiluteToMPN14StartcDesc" xml:space="preserve">
     <value>Low volume of water need to dilute -no grouping #</value>
@@ -2266,7 +2266,7 @@
     <value>6</value>
   </data>
   <data name="PolSourceInfoEnumCubicMeterToDiluteToMPN14Startd" xml:space="preserve">
-    <value>7</value>
+    <value>7 | Low volume</value>
   </data>
   <data name="PolSourceInfoEnumCubicMeterToDiluteToMPN14StartdDesc" xml:space="preserve">
     <value>Low volume of water need to dilute -no grouping #</value>
@@ -7053,6 +7053,195 @@
   <data name="PolSourceInfoEnumFlowLevelStartDesc" xml:space="preserve">
     <value>What is the approximate discharge rate?  </value>
   </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDam" xml:space="preserve">
+    <value>                                            Beaver Dam | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamHide" xml:space="preserve">
+    <value>10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10232,10233,10234,10235,10236,10237,10238,10239,10240,10241,10242,10243,10244,10245,10246,10247,10248,10249,10250,10251,10252,10253,10254</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamInit" xml:space="preserve">
+    <value>bdHwc</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamLow" xml:space="preserve">
+    <value>                                      Beaver Dam | (L)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamLowHide" xml:space="preserve">
+    <value>10201,10202,10203,10204,10205,10206,10207,10208,10209,10210,10211,10212,10213,10214,10215,10216,10217,10218,10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10232,10233,10234,10235,10236</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamLowInit" xml:space="preserve">
+    <value>bdLwc</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamLowReport" xml:space="preserve">
+    <value>The pathway passes into a beaver dam before flowing </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamLowText" xml:space="preserve">
+    <value>Beaver Dam,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamMed" xml:space="preserve">
+    <value>                             Beaver Dam | (M)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamMedHide" xml:space="preserve">
+    <value>10201,10202,10203,10204,10205,10206,10207,10208,10209,10210,10211,10212,10213,10214,10215,10216,10217,10218,10237,10238,10239,10240,10241,10242,10243,10244,10245,10246,10247,10248,10249,10250,10251,10252,10253,10254</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamMedInit" xml:space="preserve">
+    <value>bdMwc</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamMedReport" xml:space="preserve">
+    <value>The pathway passes into a beaver dam before flowing </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamMedText" xml:space="preserve">
+    <value>Beaver Dam,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamReport" xml:space="preserve">
+    <value>The pathway passes into a beaver dam before flowing </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughBeaverDamText" xml:space="preserve">
+    <value>Beaver Dam,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructure" xml:space="preserve">
+    <value>                                                              Free Flowing | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureDesc" xml:space="preserve">
+    <value>Free flowing across ground to water</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureHide" xml:space="preserve">
+    <value>10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10232,10233,10234,10235,10236,10237,10238,10239,10240,10241,10242,10243,10244,10245,10246,10247,10248,10249,10250,10251,10252,10253,10254</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureInit" xml:space="preserve">
+    <value>ffH</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureLow" xml:space="preserve">
+    <value>                                                          Free Flowing | (L)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureLowDesc" xml:space="preserve">
+    <value>Free flowing across ground to water</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureLowHide" xml:space="preserve">
+    <value>10201,10202,10203,10204,10205,10206,10207,10208,10209,10210,10211,10212,10213,10214,10215,10216,10217,10218,10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10232,10233,10234,10235,10236</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureLowInit" xml:space="preserve">
+    <value>ffL</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureLowReport" xml:space="preserve">
+    <value>The pathway flows </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureLowText" xml:space="preserve">
+    <value>No Structure,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureMed" xml:space="preserve">
+    <value>                                                           Free Flowing | (M)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureMedDesc" xml:space="preserve">
+    <value>Free flowing across ground to water</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureMedHide" xml:space="preserve">
+    <value>10201,10202,10203,10204,10205,10206,10207,10208,10209,10210,10211,10212,10213,10214,10215,10216,10217,10218,10237,10238,10239,10240,10241,10242,10243,10244,10245,10246,10247,10248,10249,10250,10251,10252,10253,10254</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureMedInit" xml:space="preserve">
+    <value>ffM</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureMedReport" xml:space="preserve">
+    <value>The pathway flows </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureMedText" xml:space="preserve">
+    <value>No Structure,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureReport" xml:space="preserve">
+    <value>The pathway flows </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughNoStructureText" xml:space="preserve">
+    <value>No Structure,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarsh" xml:space="preserve">
+    <value>                                            Saltwater Marshs | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshHide" xml:space="preserve">
+    <value>10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10232,10233,10234,10235,10236,10237,10238,10239,10240,10241,10242,10243,10244,10245,10246,10247,10248,10249,10250,10251,10252,10253,10254</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshInit" xml:space="preserve">
+    <value>smHwc</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshLow" xml:space="preserve">
+    <value>                                            Saltwater Marsh | (L)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshLowHide" xml:space="preserve">
+    <value>10201,10202,10203,10204,10205,10206,10207,10208,10209,10210,10211,10212,10213,10214,10215,10216,10217,10218,10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10232,10233,10234,10235,10236</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshLowInit" xml:space="preserve">
+    <value>smLwc</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshLowReport" xml:space="preserve">
+    <value>The pathway passes into a saltwater marsh before flowing </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshLowText" xml:space="preserve">
+    <value>Saltwater Marsh,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshMed" xml:space="preserve">
+    <value>                                            Saltwater Marsh | (M)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshMedHide" xml:space="preserve">
+    <value>10201,10202,10203,10204,10205,10206,10207,10208,10209,10210,10211,10212,10213,10214,10215,10216,10217,10218,10237,10238,10239,10240,10241,10242,10243,10244,10245,10246,10247,10248,10249,10250,10251,10252,10253,10254</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshMedInit" xml:space="preserve">
+    <value>smMwc</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshMedReport" xml:space="preserve">
+    <value>The pathway passes into a saltwater marsh before flowing </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshMedText" xml:space="preserve">
+    <value>Saltwater Marsh,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshReport" xml:space="preserve">
+    <value>The pathway passes into a saltwater marsh before flowing </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughSaltwaterMarshText" xml:space="preserve">
+    <value>Saltwater Marsh,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWatercourse" xml:space="preserve">
+    <value>                                            Beaver Dam | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWatercourseHide" xml:space="preserve">
+    <value>24019,24020,24021,24022,24023,24024,24025,24026,24027,24028,24029,24030,24031,24032,24033,24034,24035,24036,24037,24038,24039,24040,24041,24042,24043,24044,24045,24046,24047,24048,24049,24050,24051,24052,24053,24054</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWatercourseInit" xml:space="preserve">
+    <value>bdHwc</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWaterCourseLow" xml:space="preserve">
+    <value>                                      Beaver Dam | (L)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWaterCourseLowHide" xml:space="preserve">
+    <value>24001,24002,24003,24004,24005,24006,24007,24008,24009,24010,24011,24012,24013,24014,24015,24016,24017,24018,24019,24020,24021,24022,24023,24024,24025,24026,24027,24028,24029,24030,24031,24032,24033,24034,24035,24036</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWaterCourseLowInit" xml:space="preserve">
+    <value>bdLwc</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWaterCourseLowReport" xml:space="preserve">
+    <value>The water course flows into a beaver dam before flowing </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWaterCourseLowText" xml:space="preserve">
+    <value>Beaver Dam,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWaterCourseMed" xml:space="preserve">
+    <value>                             Beaver Dam | (M)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWaterCourseMedHide" xml:space="preserve">
+    <value>24001,24002,24003,24004,24005,24006,24007,24008,24009,24010,24011,24012,24013,24014,24015,24016,24017,24018,24037,24038,24039,24040,24041,24042,24043,24044,24045,24046,24047,24048,24049,24050,24051,24052,24053,24054</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWaterCourseMedInit" xml:space="preserve">
+    <value>bdMwc</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWaterCourseMedReport" xml:space="preserve">
+    <value>The water course flows into a beaver dam which decreases its hazard rating before flowing </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWaterCourseMedText" xml:space="preserve">
+    <value>Beaver Dam,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWatercourseReport" xml:space="preserve">
+    <value>The water course flows into a beaver dam which decreases its hazard rating before flowing </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureBeaverDamWatercourseText" xml:space="preserve">
+    <value>Beaver Dam,</value>
+  </data>
   <data name="PolSourceInfoEnumFlowThroughStructureBerm" xml:space="preserve">
     <value>                    Berm | (H)</value>
   </data>
@@ -7367,6 +7556,51 @@
   </data>
   <data name="PolSourceInfoEnumFlowThroughStructurePipeText" xml:space="preserve">
     <value>Pipe,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWatercourse" xml:space="preserve">
+    <value>                                            Saltwater Marshs | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWatercourseHide" xml:space="preserve">
+    <value>24019,24020,24021,24022,24023,24024,24025,24026,24027,24028,24029,24030,24031,24032,24033,24034,24035,24036,24037,24038,24039,24040,24041,24042,24043,24044,24045,24046,24047,24048,24049,24050,24051,24052,24053,24054</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWatercourseInit" xml:space="preserve">
+    <value>smHwc</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWaterCourseLow" xml:space="preserve">
+    <value>                                            Saltwater Marsh | (L)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWaterCourseLowHide" xml:space="preserve">
+    <value>24001,24002,24003,24004,24005,24006,24007,24008,24009,24010,24011,24012,24013,24014,24015,24016,24017,24018,24019,24020,24021,24022,24023,24024,24025,24026,24027,24028,24029,24030,24031,24032,24033,24034,24035,24036</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWaterCourseLowInit" xml:space="preserve">
+    <value>smLwc</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWaterCourseLowReport" xml:space="preserve">
+    <value>The water course flows into a saltwater marsh before flowing </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWaterCourseLowText" xml:space="preserve">
+    <value>Saltwater Marsh,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWaterCourseMed" xml:space="preserve">
+    <value>                                            Saltwater Marsh | (M)</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWaterCourseMedHide" xml:space="preserve">
+    <value>24001,24002,24003,24004,24005,24006,24007,24008,24009,24010,24011,24012,24013,24014,24015,24016,24017,24018,24037,24038,24039,24040,24041,24042,24043,24044,24045,24046,24047,24048,24049,24050,24051,24052,24053,24054</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWaterCourseMedInit" xml:space="preserve">
+    <value>smMwc</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWaterCourseMedReport" xml:space="preserve">
+    <value>The water course flows into a saltwater marsh which decreases its hazard rating before flowing </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWaterCourseMedText" xml:space="preserve">
+    <value>Saltwater Marsh,</value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWatercourseReport" xml:space="preserve">
+    <value>The water course flows into a saltwater marsh which decreases its hazard rating before flowing </value>
+  </data>
+  <data name="PolSourceInfoEnumFlowThroughStructureSaltMarshWatercourseText" xml:space="preserve">
+    <value>Saltwater Marsh,</value>
   </data>
   <data name="PolSourceInfoEnumFlowThroughStructureStart" xml:space="preserve">
     <value>Does Pathway Encounter Structure</value>
@@ -9811,7 +10045,7 @@
     <value>Fisheries</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentForestry" xml:space="preserve">
-    <value>                                                    Forestry</value>
+    <value>                                                    Forested Landscape</value>
   </data>
   <data name="PolSourceInfoEnumIndustrialEffluentForestryHide" xml:space="preserve">
     <value>10502,10503,10504,10505,10506,10507,10508,10509,10510,10511,10512</value>
@@ -10133,6 +10367,24 @@
   </data>
   <data name="PolSourceInfoEnumMarineLocationIslandText" xml:space="preserve">
     <value>Island,</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineLocationMudflat" xml:space="preserve">
+    <value>Mudflat</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineLocationMudflatDesc" xml:space="preserve">
+    <value>area exposed during low tide</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineLocationMudflatHide" xml:space="preserve">
+    <value>12404</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineLocationMudflatInit" xml:space="preserve">
+    <value>mf</value>
+  </data>
+  <data name="PolSourceInfoEnumMarineLocationMudflatReport" xml:space="preserve">
+    <value>on a mudflat.  </value>
+  </data>
+  <data name="PolSourceInfoEnumMarineLocationMudflatText" xml:space="preserve">
+    <value>Mudflat,</value>
   </data>
   <data name="PolSourceInfoEnumMarineLocationOffShoreline" xml:space="preserve">
     <value>Off -Shore</value>
@@ -14890,7 +15142,7 @@
     <value />
   </data>
   <data name="PolSourceInfoEnumNumberAnimalPresentUnknownReport" xml:space="preserve">
-    <value>there are several </value>
+    <value>an unknown number of</value>
   </data>
   <data name="PolSourceInfoEnumNumberAnimalPresentUnknownText" xml:space="preserve">
     <value>Unknown</value>
@@ -25830,56 +26082,110 @@
   <data name="PolSourceInfoEnumSewageThruConduitText" xml:space="preserve">
     <value>Culvert-Pipe,</value>
   </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresent" xml:space="preserve">
+    <value>                           Short grass Present | (H)</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentDesc" xml:space="preserve">
+    <value>Grassed area or lawn</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentHide" xml:space="preserve">
+    <value>16421,16422,16424,16401,16402,16403,16404,16405,16406,16413,16414,16415,16416,16417,16418,16419</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentInit" xml:space="preserve">
+    <value>grsh</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentLow" xml:space="preserve">
+    <value>                                      Short grass Present | (L)</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentLowDesc" xml:space="preserve">
+    <value>Grassed area or lawn</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentLowHide" xml:space="preserve">
+    <value>16419,16420,16422,16423,16401,16402,16403,16404,16405,16406,16407,16408,16409,16410,16411,16412</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentLowInit" xml:space="preserve">
+    <value>grsl</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentLowReport" xml:space="preserve">
+    <value>There is a zone of short grass or a lawn along the water-edge which is expected to reduce discharge and associated sediment and bacterial concentrations.   </value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentLowText" xml:space="preserve">
+    <value>                                      Short grass Present | (L)</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentMed" xml:space="preserve">
+    <value>                                 Short grass Present | (M)</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentMedDesc" xml:space="preserve">
+    <value>Grassed area or lawn</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentMedHide" xml:space="preserve">
+    <value>16419,16420,16422,16423,16401,16402,16403,16404,16405,16406,16407,16408,16409,16410,16411,16412</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentMedInit" xml:space="preserve">
+    <value>grsm</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentMedReport" xml:space="preserve">
+    <value>There is a zone of short grass or a lawn along the water-edge which is expected to reduce discharge and associated sediment and bacterial concentrations.   </value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentMedText" xml:space="preserve">
+    <value>                                 Short grass Present | (M)</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentReport" xml:space="preserve">
+    <value>There is a zone of short grass or a lawn along the water-edge which is expected to reduce discharge and associated sediment and bacterial concentrations.   </value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianGrassedZonePresentText" xml:space="preserve">
+    <value>                           Short grass Present | (H)</value>
+  </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsent" xml:space="preserve">
-    <value>                           Absent | (H)</value>
+    <value>                     Vegetated Zone Absent | (H)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentHide" xml:space="preserve">
-    <value>16407,16408,16409,16410,16411,16412,16413,16414,16415,16416,16417,16418</value>
+    <value>16420,16421,16423,16424,16407,16408,16409,16410,16411,16412,16413,16414,16415,16416,16417,16418</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentInit" xml:space="preserve">
     <value>absh</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentLow" xml:space="preserve">
-    <value>                           Absent | (L)</value>
+    <value>                           Vegetated Zone Absent | (L)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentLowHide" xml:space="preserve">
-    <value>16407,16408,16409,16410,16411,16412,16413,16414,16415,16416,16417,16418</value>
+    <value>16419,16420,16422,16423,16401,16402,16403,16404,16405,16406,16407,16408,16409,16410,16411,16412</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentLowInit" xml:space="preserve">
     <value>absl</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentLowReport" xml:space="preserve">
-    <value>There is no riparian zone along the water-edge so the discharge plus associated sediment and pathogens concentrations are not expected to be reduced.   </value>
+    <value>There is no vegetated zone along the water-edge so the discharge plus associated sediment and pathogens concentrations are not expected to be reduced.   </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentLowText" xml:space="preserve">
-    <value>Absent,</value>
+    <value>                           Vegetated Zone Absent | (L)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentMed" xml:space="preserve">
-    <value>                           Absent | (M)</value>
+    <value>                         Vegetated Zone Absent | (M)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentMedHide" xml:space="preserve">
-    <value>16401,16402,16403,16404,16405,16406,16413,16414,16415,16416,16417,16418</value>
+    <value>16421,16422,16424,16401,16402,16403,16404,16405,16406,16413,16414,16415,16416,16417,16418,16419</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentMedInit" xml:space="preserve">
     <value>absm</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentMedReport" xml:space="preserve">
-    <value>There is no riparian zone along the water-edge so the discharge plus associated sediment and pathogens concentrations are not expected to be reduced.   </value>
+    <value>There is no vegetated zone along the water-edge so the discharge plus associated sediment and pathogens concentrations are not expected to be reduced.   </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentMedText" xml:space="preserve">
-    <value>Absent,</value>
+    <value>                         Vegetated Zone Absent | (M)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentReport" xml:space="preserve">
-    <value>There is no riparian zone along the water-edge so the discharge plus associated sediment and pathogens concentrations are not expected to be reduced.   </value>
+    <value>There is no vegetated zone along the water-edge so the discharge plus associated sediment and pathogens concentrations are not expected to be reduced.   </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneAbsentText" xml:space="preserve">
-    <value>Absent,</value>
+    <value>                     Vegetated Zone Absent | (H)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfo" xml:space="preserve">
     <value>No Data | (H)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoHide" xml:space="preserve">
-    <value>16407,16408,16409,16410,16411,16412,16413,16414,16415,16416,16417,16418</value>
+    <value>16420,16421,16423,16424,16407,16408,16409,16410,16411,16412,16413,16414,16415,16416,16417,16418</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoInit" xml:space="preserve">
     <value>ndh</value>
@@ -25888,55 +26194,58 @@
     <value>No Data | (L)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoLowHide" xml:space="preserve">
-    <value>16401,16402,16403,16404,16405,16406,16407,16408,16409,16410,16411,16412</value>
+    <value>16419,16420,16422,16423,16401,16402,16403,16404,16405,16406,16407,16408,16409,16410,16411,16412</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoLowInit" xml:space="preserve">
     <value>ndl</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoLowReport" xml:space="preserve">
-    <value>The presence of a riparian zone is not known.  </value>
+    <value>The presence of a vegetated zone is not known.  </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoLowText" xml:space="preserve">
-    <value>No Data, </value>
+    <value>No Data | (L)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoMed" xml:space="preserve">
     <value>No Data | (M)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoMedHide" xml:space="preserve">
-    <value>16401,16402,16403,16404,16405,16406,16413,16414,16415,16416,16417,16418</value>
+    <value>16421,16422,16424,16401,16402,16403,16404,16405,16406,16413,16414,16415,16416,16417,16418,16419</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoMedInit" xml:space="preserve">
     <value>ndm</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoMedReport" xml:space="preserve">
-    <value>The presence of a riparian zone is not known.  </value>
+    <value>The presence of a vegetated zone is not known.  </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoMedText" xml:space="preserve">
-    <value>No Data, </value>
+    <value>No Data | (M)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoReport" xml:space="preserve">
-    <value>The presence of a riparian zone is not known.  </value>
+    <value>The presence of a vegetated zone is not known.  </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZoneNoInfoText" xml:space="preserve">
-    <value>No Data, </value>
+    <value>No Data | (H)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresent" xml:space="preserve">
-    <value>                                  Present | (H)</value>
+    <value>                                   Riparian Present | (H)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentDesc" xml:space="preserve">
-    <value>riparian zone drops high to med rank</value>
+    <value>Trees shrubs or high grass</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentHide" xml:space="preserve">
-    <value>16401,16402,16403,16404,16405,16406,16413,16414,16415,16416,16417,16418</value>
+    <value>16421,16422,16424,16401,16402,16403,16404,16405,16406,16413,16414,16415,16416,16417,16418,16419</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentInit" xml:space="preserve">
     <value>riah</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentLow" xml:space="preserve">
-    <value>                                         Present | (L)</value>
+    <value>                                      Riparian Present | (L)</value>
+  </data>
+  <data name="PolSourceInfoEnumShorelineRiparianZonePresentLowDesc" xml:space="preserve">
+    <value>Trees shrubs or high grass</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentLowHide" xml:space="preserve">
-    <value>16401,16402,16403,16404,16405,16406,16407,16408,16409,16410,16411,16412</value>
+    <value>16419,16420,16422,16423,16401,16402,16403,16404,16405,16406,16407,16408,16409,16410,16411,16412</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentLowInit" xml:space="preserve">
     <value>rial</value>
@@ -25945,16 +26254,16 @@
     <value>There is a riparian zone along the water-edge which is expected to reduce discharge and associated sediment and bacterial concentrations.   </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentLowText" xml:space="preserve">
-    <value>Present,</value>
+    <value>                                      Riparian Present | (L)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentMed" xml:space="preserve">
-    <value>                                           Present | (M)</value>
+    <value>                                    Riparian Present | (M)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentMedDesc" xml:space="preserve">
-    <value>riparian zone drops med to low rank</value>
+    <value>Trees shrubs or high grass</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentMedHide" xml:space="preserve">
-    <value>16401,16402,16403,16404,16405,16406,16407,16408,16409,16410,16411,16412</value>
+    <value>16419,16420,16422,16423,16401,16402,16403,16404,16405,16406,16407,16408,16409,16410,16411,16412</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentMedInit" xml:space="preserve">
     <value>riam</value>
@@ -25963,19 +26272,19 @@
     <value>There is a riparian zone along the water-edge which is expected to reduce discharge and associated sediment and bacterial concentrations.   </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentMedText" xml:space="preserve">
-    <value>Present,</value>
+    <value>                                    Riparian Present | (M)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentReport" xml:space="preserve">
     <value>There is a riparian zone along the water-edge which is expected to reduce discharge and associated sediment and bacterial concentrations.   </value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparianZonePresentText" xml:space="preserve">
-    <value>Present,</value>
+    <value>                                   Riparian Present | (H)</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparionZoneStart" xml:space="preserve">
-    <value>Riparian Zone</value>
+    <value>Riparian or Grass Zone</value>
   </data>
   <data name="PolSourceInfoEnumShorelineRiparionZoneStartDesc" xml:space="preserve">
-    <value>Riparian Zone is a strip of trees or vegetation along the land-water edge? Is this present? Visual or via google map?</value>
+    <value>Riparian is composed of trees, shrubs or tall grass along the land-water edge? Grass zone is a lawn or short grass</value>
   </data>
   <data name="PolSourceInfoEnumShorelineSourceBoatRamp" xml:space="preserve">
     <value>              Boat Ramp</value>
@@ -25990,7 +26299,7 @@
     <value>sli</value>
   </data>
   <data name="PolSourceInfoEnumShorelineSourceBoatRampReport" xml:space="preserve">
-    <value>it is a boat ramp made  </value>
+    <value>There is a boat ramp made  </value>
   </data>
   <data name="PolSourceInfoEnumShorelineSourceBoatRampText" xml:space="preserve">
     <value>Boat Ramp,</value>
@@ -26005,7 +26314,7 @@
     <value>sew</value>
   </data>
   <data name="PolSourceInfoEnumShorelineSourceSeaWallReport" xml:space="preserve">
-    <value>It is a seawall or retaining wall.  </value>
+    <value>There is a seawall or retaining wall.  </value>
   </data>
   <data name="PolSourceInfoEnumShorelineSourceSeaWallText" xml:space="preserve">
     <value>Seawall, </value>
@@ -26744,60 +27053,6 @@
   </data>
   <data name="PolSourceInfoEnumStructureDiameterStartDesc" xml:space="preserve">
     <value>Diameter or Cross Section of the Pipe or Culvert</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructure" xml:space="preserve">
-    <value>                                                              Free Flowing | (H)</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureDesc" xml:space="preserve">
-    <value>Free flowing across ground to water</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureHide" xml:space="preserve">
-    <value>10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10232,10233,10234,10235,10236,10237,10238,10239,10240,10241,10242,10243,10244,10245,10246,10247,10248,10249,10250,10251,10252,10253,10254</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureInit" xml:space="preserve">
-    <value>ffH</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureLow" xml:space="preserve">
-    <value>                                                          Free Flowing | (L)</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureLowDesc" xml:space="preserve">
-    <value>Free flowing across ground to water</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureLowHide" xml:space="preserve">
-    <value>10201,10202,10203,10204,10205,10206,10207,10208,10209,10210,10211,10212,10213,10214,10215,10216,10217,10218,10219,10220,10221,10222,10223,10224,10225,10226,10227,10228,10229,10230,10231,10232,10233,10234,10235,10236</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureLowInit" xml:space="preserve">
-    <value>ffL</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureLowReport" xml:space="preserve">
-    <value>The pathway flows </value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureLowText" xml:space="preserve">
-    <value>No Structure,</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureMed" xml:space="preserve">
-    <value>                                                           Free Flowing | (M)</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureMedDesc" xml:space="preserve">
-    <value>Free flowing across ground to water</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureMedHide" xml:space="preserve">
-    <value>10201,10202,10203,10204,10205,10206,10207,10208,10209,10210,10211,10212,10213,10214,10215,10216,10217,10218,10237,10238,10239,10240,10241,10242,10243,10244,10245,10246,10247,10248,10249,10250,10251,10252,10253,10254</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureMedInit" xml:space="preserve">
-    <value>ffM</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureMedReport" xml:space="preserve">
-    <value>The pathway flows </value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureMedText" xml:space="preserve">
-    <value>No Structure,</value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureReport" xml:space="preserve">
-    <value>The pathway flows </value>
-  </data>
-  <data name="PolSourceInfoEnumStructureInRoadNoStructureText" xml:space="preserve">
-    <value>No Structure,</value>
   </data>
   <data name="PolSourceInfoEnumStructureInRoadNoStructureWaterCourse" xml:space="preserve">
     <value>                                                            Free Flowing | (H)</value>
@@ -28942,7 +29197,7 @@
     <value>    High | (H)</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeHighHide" xml:space="preserve">
-    <value>11106,11107,11108,11109,11110,11111,11112,11113,11114,11115</value>
+    <value>11117,11118,11120,11121,11106,11107,11108,11109,11110,11111,11112,11113,11114,11115</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeHighInit" xml:space="preserve">
     <value>ml</value>
@@ -28951,7 +29206,7 @@
     <value>    High | (L)</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeHighLowHide" xml:space="preserve">
-    <value>11101,11102,11103,11104,11105,11106,11107,11108,11109,11110</value>
+    <value>11116,11117,11119,11120,11101,11102,11103,11104,11105,11106,11107,11108,11109,11110</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeHighLowInit" xml:space="preserve">
     <value>Hl</value>
@@ -28966,7 +29221,7 @@
     <value>    High | (M)</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeHighMedHide" xml:space="preserve">
-    <value>11101,11102,11103,11104,11105,11111,11112,11113,11114,11115</value>
+    <value>11118,11119,11121,11101,11102,11103,11104,11105,11111,11112,11113,11114,11115,11116</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeHighMedInit" xml:space="preserve">
     <value>Hm</value>
@@ -28987,7 +29242,7 @@
     <value>            Low | (H)</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeLowHide" xml:space="preserve">
-    <value>11106,11107,11108,11109,11110,11111,11112,11113,11114,11115</value>
+    <value>11117,11118,11120,11121,11106,11107,11108,11109,11110,11111,11112,11113,11114,11115</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeLowInit" xml:space="preserve">
     <value>lh</value>
@@ -28996,7 +29251,7 @@
     <value>            Low | (L)</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeLowLowHide" xml:space="preserve">
-    <value>11101,11102,11103,11104,11105,11106,11107,11108,11109,11110</value>
+    <value>11116,11117,11119,11120,11101,11102,11103,11104,11105,11106,11107,11108,11109,11110</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeLowLowInit" xml:space="preserve">
     <value>ll</value>
@@ -29011,7 +29266,7 @@
     <value>            Low | (M)</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeLowMedHide" xml:space="preserve">
-    <value>11101,11102,11103,11104,11105,11111,11112,11113,11114,11115</value>
+    <value>11118,11119,11121,11101,11102,11103,11104,11105,11111,11112,11113,11114,11115,11116</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeLowMedInit" xml:space="preserve">
     <value>lm</value>
@@ -29032,7 +29287,7 @@
     <value>         Medium | (H)</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeMediumHide" xml:space="preserve">
-    <value>11106,11107,11108,11109,11110,11111,11112,11113,11114,11115</value>
+    <value>11117,11118,11120,11121,11106,11107,11108,11109,11110,11111,11112,11113,11114,11115</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeMediumInit" xml:space="preserve">
     <value>mh</value>
@@ -29041,7 +29296,7 @@
     <value>         Medium | (L)</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeMediumLowHide" xml:space="preserve">
-    <value>11101,11102,11103,11104,11105,11106,11107,11108,11109,11110</value>
+    <value>11116,11117,11119,11120,11101,11102,11103,11104,11105,11106,11107,11108,11109,11110</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeMediumLowInit" xml:space="preserve">
     <value>ml</value>
@@ -29056,7 +29311,7 @@
     <value>         Medium | (M)</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeMediumMedHide" xml:space="preserve">
-    <value>11101,11102,11103,11104,11105,11111,11112,11113,11114,11115</value>
+    <value>11118,11119,11121,11101,11102,11103,11104,11105,11111,11112,11113,11114,11115,11116</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeMediumMedInit" xml:space="preserve">
     <value>mm</value>
@@ -29077,7 +29332,7 @@
     <value>No Data | (H)</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeNAHide" xml:space="preserve">
-    <value>11106,11107,11108,11109,11110,11111,11112,11113,11114,11115</value>
+    <value>11117,11118,11120,11121,11106,11107,11108,11109,11110,11111,11112,11113,11114,11115</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeNAInit" xml:space="preserve">
     <value>NDh</value>
@@ -29086,7 +29341,7 @@
     <value>No Data | (L)</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeNALowHide" xml:space="preserve">
-    <value>11101,11102,11103,11104,11105,11106,11107,11108,11109,11110</value>
+    <value>11116,11117,11119,11120,11101,11102,11103,11104,11105,11106,11107,11108,11109,11110</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeNALowInit" xml:space="preserve">
     <value>NDl</value>
@@ -29101,7 +29356,7 @@
     <value>No Data | (M)</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeNAMedHide" xml:space="preserve">
-    <value>11101,11102,11103,11104,11105,11111,11112,11113,11114,11115</value>
+    <value>11118,11119,11121,11101,11102,11103,11104,11105,11111,11112,11113,11114,11115,11116</value>
   </data>
   <data name="PolSourceInfoEnumWaterCourseAreaSlopeNAMedInit" xml:space="preserve">
     <value>NDm</value>
