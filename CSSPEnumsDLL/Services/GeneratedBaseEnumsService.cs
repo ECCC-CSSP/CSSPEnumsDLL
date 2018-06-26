@@ -310,6 +310,29 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.Empty;
             }
         }
+        public string GetEnumText_ClassificationTypeEnum(ClassificationTypeEnum? classificationTypeE)
+        {
+            if (classificationTypeE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (classificationTypeE)
+            {
+                case ClassificationTypeEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case ClassificationTypeEnum.Approved:
+                    return BaseEnumServiceRes.ClassificationTypeEnumApproved;
+                case ClassificationTypeEnum.Restricted:
+                    return BaseEnumServiceRes.ClassificationTypeEnumRestricted;
+                case ClassificationTypeEnum.Prohibited:
+                    return BaseEnumServiceRes.ClassificationTypeEnumProhibited;
+                case ClassificationTypeEnum.ConditionallyApproved:
+                    return BaseEnumServiceRes.ClassificationTypeEnumConditionallyApproved;
+                case ClassificationTypeEnum.ConditionallyRestricted:
+                    return BaseEnumServiceRes.ClassificationTypeEnumConditionallyRestricted;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
         public string GetEnumText_CollectionSystemTypeEnum(CollectionSystemTypeEnum? collectionSystemTypeE)
         {
             if (collectionSystemTypeE == null)
@@ -2269,6 +2292,18 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.TVTypeEnumOpenData;
                 case TVTypeEnum.ProvinceTools:
                     return BaseEnumServiceRes.TVTypeEnumProvinceTools;
+                case TVTypeEnum.Classification:
+                    return BaseEnumServiceRes.TVTypeEnumClassification;
+                case TVTypeEnum.Approved:
+                    return BaseEnumServiceRes.TVTypeEnumApproved;
+                case TVTypeEnum.Restricted:
+                    return BaseEnumServiceRes.TVTypeEnumRestricted;
+                case TVTypeEnum.Prohibited:
+                    return BaseEnumServiceRes.TVTypeEnumProhibited;
+                case TVTypeEnum.ConditionallyApproved:
+                    return BaseEnumServiceRes.TVTypeEnumConditionallyApproved;
+                case TVTypeEnum.ConditionallyRestricted:
+                    return BaseEnumServiceRes.TVTypeEnumConditionallyRestricted;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -2461,6 +2496,21 @@ namespace CSSPEnumsDLL.Services
                                               select c).ToList();
 
             return BoxModelResultTypeEnumTextOrderedList;
+        }
+        public List<ClassificationTypeEnumTextOrdered> GetClassificationTypeEnumTextOrderedList()
+        {
+            List<ClassificationTypeEnumTextOrdered> ClassificationTypeEnumTextOrderedList = new List<ClassificationTypeEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(ClassificationTypeEnum)).Count(); i < count; i++)
+            {
+                ClassificationTypeEnumTextOrderedList.Add(new ClassificationTypeEnumTextOrdered() { ClassificationType = (ClassificationTypeEnum)i, ClassificationTypeText = GetEnumText_ClassificationTypeEnum((ClassificationTypeEnum)i) });
+            }
+
+            ClassificationTypeEnumTextOrderedList = (from c in ClassificationTypeEnumTextOrderedList
+                                              orderby c.ClassificationTypeText
+                                              select c).ToList();
+
+            return ClassificationTypeEnumTextOrderedList;
         }
         public List<CollectionSystemTypeEnumTextOrdered> GetCollectionSystemTypeEnumTextOrderedList()
         {
@@ -3547,6 +3597,24 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.BoxModelResultType);
+            }
+        }
+        public string ClassificationTypeOK(ClassificationTypeEnum? classificationType)
+        {
+            if (classificationType == null)
+                return "";
+
+            switch ((ClassificationTypeEnum)classificationType)
+            {
+                case ClassificationTypeEnum.Error:
+                case ClassificationTypeEnum.Approved:
+                case ClassificationTypeEnum.Restricted:
+                case ClassificationTypeEnum.Prohibited:
+                case ClassificationTypeEnum.ConditionallyApproved:
+                case ClassificationTypeEnum.ConditionallyRestricted:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ClassificationType);
             }
         }
         public string CollectionSystemTypeOK(CollectionSystemTypeEnum? collectionSystemType)
@@ -4896,6 +4964,12 @@ namespace CSSPEnumsDLL.Services
                 case TVTypeEnum.EmailDistributionList:
                 case TVTypeEnum.OpenData:
                 case TVTypeEnum.ProvinceTools:
+                case TVTypeEnum.Classification:
+                case TVTypeEnum.Approved:
+                case TVTypeEnum.Restricted:
+                case TVTypeEnum.Prohibited:
+                case TVTypeEnum.ConditionallyApproved:
+                case TVTypeEnum.ConditionallyRestricted:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.TVType);

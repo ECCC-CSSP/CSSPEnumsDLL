@@ -525,6 +525,47 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
+        public void BaseEnumService_GetEnumText_ClassificationTypeEnum_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+        
+                string retStr = baseEnumService.GetEnumText_ClassificationTypeEnum(null);
+                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+        
+                for (int i = 0, count = Enum.GetNames(typeof(ClassificationTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.GetEnumText_ClassificationTypeEnum((ClassificationTypeEnum)i);
+        
+                    switch ((ClassificationTypeEnum)i)
+                    {
+                        case ClassificationTypeEnum.Error:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                        case ClassificationTypeEnum.Approved:
+                            Assert.AreEqual(BaseEnumServiceRes.ClassificationTypeEnumApproved, retStr);
+                            break;
+                        case ClassificationTypeEnum.Restricted:
+                            Assert.AreEqual(BaseEnumServiceRes.ClassificationTypeEnumRestricted, retStr);
+                            break;
+                        case ClassificationTypeEnum.Prohibited:
+                            Assert.AreEqual(BaseEnumServiceRes.ClassificationTypeEnumProhibited, retStr);
+                            break;
+                        case ClassificationTypeEnum.ConditionallyApproved:
+                            Assert.AreEqual(BaseEnumServiceRes.ClassificationTypeEnumConditionallyApproved, retStr);
+                            break;
+                        case ClassificationTypeEnum.ConditionallyRestricted:
+                            Assert.AreEqual(BaseEnumServiceRes.ClassificationTypeEnumConditionallyRestricted, retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
         public void BaseEnumService_GetEnumText_CollectionSystemTypeEnum_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -3832,6 +3873,24 @@ namespace CSSPEnumsDLL.Tests.Services
                         case TVTypeEnum.ProvinceTools:
                             Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumProvinceTools, retStr);
                             break;
+                        case TVTypeEnum.Classification:
+                            Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumClassification, retStr);
+                            break;
+                        case TVTypeEnum.Approved:
+                            Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumApproved, retStr);
+                            break;
+                        case TVTypeEnum.Restricted:
+                            Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumRestricted, retStr);
+                            break;
+                        case TVTypeEnum.Prohibited:
+                            Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumProhibited, retStr);
+                            break;
+                        case TVTypeEnum.ConditionallyApproved:
+                            Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumConditionallyApproved, retStr);
+                            break;
+                        case TVTypeEnum.ConditionallyRestricted:
+                            Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumConditionallyRestricted, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -4240,6 +4299,37 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         default:
                             Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.BoxModelResultType), retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_ClassificationTypeOK_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+
+                string retStr = baseEnumService.ClassificationTypeOK(null);
+                Assert.AreEqual("", retStr);
+
+                for (int i = 0, count = Enum.GetNames(typeof(ClassificationTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.ClassificationTypeOK((ClassificationTypeEnum)i);
+
+                    switch ((ClassificationTypeEnum)i)
+                    {
+                        case ClassificationTypeEnum.Error:
+                        case ClassificationTypeEnum.Approved:
+                        case ClassificationTypeEnum.Restricted:
+                        case ClassificationTypeEnum.Prohibited:
+                        case ClassificationTypeEnum.ConditionallyApproved:
+                        case ClassificationTypeEnum.ConditionallyRestricted:
+                            Assert.AreEqual("", retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ClassificationType), retStr);
                             break;
                     }
                 }
@@ -6329,6 +6419,12 @@ namespace CSSPEnumsDLL.Tests.Services
                         case TVTypeEnum.EmailDistributionList:
                         case TVTypeEnum.OpenData:
                         case TVTypeEnum.ProvinceTools:
+                        case TVTypeEnum.Classification:
+                        case TVTypeEnum.Approved:
+                        case TVTypeEnum.Restricted:
+                        case TVTypeEnum.Prohibited:
+                        case TVTypeEnum.ConditionallyApproved:
+                        case TVTypeEnum.ConditionallyRestricted:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

@@ -106,6 +106,15 @@ namespace CSSPEnumsDLL.Enums
         public BoxModelResultTypeEnum BoxModelResultType { get; set; }
         public string BoxModelResultTypeText { get; set; }
     }
+    public class ClassificationTypeEnumTextOrdered
+    {
+        public ClassificationTypeEnumTextOrdered()
+        {
+        }
+
+        public ClassificationTypeEnum ClassificationType { get; set; }
+        public string ClassificationTypeText { get; set; }
+    }
     public class CollectionSystemTypeEnumTextOrdered
     {
         public CollectionSystemTypeEnumTextOrdered()

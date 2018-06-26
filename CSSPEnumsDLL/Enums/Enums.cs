@@ -130,6 +130,15 @@ namespace CSSPEnumsDLL.Enums
         DecayUntreated = 4,
         DecayPreDisinfection = 5,
     }
+    public enum ClassificationTypeEnum
+    {
+        Error = 0,
+        Approved = 1,
+        Restricted = 2,
+        Prohibited = 3,
+        ConditionallyApproved = 4,
+        ConditionallyRestricted = 5,
+    }
     public enum CollectionSystemTypeEnum
     {
         Error = 0,
@@ -969,6 +978,12 @@ namespace CSSPEnumsDLL.Enums
         EmailDistributionList = 76,
         OpenData = 77,
         ProvinceTools = 78,
+        Classification = 79,
+        Approved = 80,
+        Restricted = 81,
+        Prohibited = 82,
+        ConditionallyApproved = 83,
+        ConditionallyRestricted = 84,
     }
     public enum WebTideDataSetEnum
     {

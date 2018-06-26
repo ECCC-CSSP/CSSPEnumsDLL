@@ -2619,4 +2619,40 @@
   <data name="AerationTypeEnumNotApplicable" xml:space="preserve">
     <value>Not Applicable</value>
   </data>
+  <data name="TVTypeEnumApproved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="TVTypeEnumClassification" xml:space="preserve">
+    <value>Classification</value>
+  </data>
+  <data name="TVTypeEnumConditionallyApproved" xml:space="preserve">
+    <value>Conditionally Approved</value>
+  </data>
+  <data name="TVTypeEnumConditionallyRestricted" xml:space="preserve">
+    <value>Conditionally Restricted</value>
+  </data>
+  <data name="TVTypeEnumProhibited" xml:space="preserve">
+    <value>Prohibited</value>
+  </data>
+  <data name="TVTypeEnumRestricted" xml:space="preserve">
+    <value>Restricted</value>
+  </data>
+  <data name="ClassificationType" xml:space="preserve">
+    <value>Classification Type</value>
+  </data>
+  <data name="ClassificationTypeEnumApproved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="ClassificationTypeEnumConditionallyApproved" xml:space="preserve">
+    <value>Conditionally Approved</value>
+  </data>
+  <data name="ClassificationTypeEnumConditionallyRestricted" xml:space="preserve">
+    <value>Conditionally Restricted</value>
+  </data>
+  <data name="ClassificationTypeEnumProhibited" xml:space="preserve">
+    <value>Prohibited</value>
+  </data>
+  <data name="ClassificationTypeEnumRestricted" xml:space="preserve">
+    <value>Restricted</value>
+  </data>
 </root>
