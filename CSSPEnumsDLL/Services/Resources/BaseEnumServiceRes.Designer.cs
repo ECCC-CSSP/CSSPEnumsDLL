@@ -556,6 +556,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Generate Classification For CSSPWebTools Visualization.
+        /// </summary>
+        public static string AppTaskCommandEnumGenerateClassificationForCSSPWebToolsVisualization {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumGenerateClassificationForCSSPWebToolsVisualization", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Generate Web Tide.
         /// </summary>
         public static string AppTaskCommandEnumGenerateWebTide {

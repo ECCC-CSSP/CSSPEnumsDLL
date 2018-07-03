@@ -2655,4 +2655,7 @@
   <data name="ClassificationTypeEnumRestricted" xml:space="preserve">
     <value>Restricted</value>
   </data>
+  <data name="AppTaskCommandEnumGenerateClassificationForCSSPWebToolsVisualization" xml:space="preserve">
+    <value>Generate Classification For CSSPWebTools Visualization</value>
+  </data>
 </root>

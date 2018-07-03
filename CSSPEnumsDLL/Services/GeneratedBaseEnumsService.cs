@@ -223,6 +223,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumFindMissingPrecipForProvince;
                 case AppTaskCommandEnum.ExportToArcGIS:
                     return BaseEnumServiceRes.AppTaskCommandEnumExportToArcGIS;
+                case AppTaskCommandEnum.GenerateClassificationForCSSPWebToolsVisualization:
+                    return BaseEnumServiceRes.AppTaskCommandEnumGenerateClassificationForCSSPWebToolsVisualization;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3533,6 +3535,7 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.FillRunPrecipByClimateSitePriorityForYear:
                 case AppTaskCommandEnum.FindMissingPrecipForProvince:
                 case AppTaskCommandEnum.ExportToArcGIS:
+                case AppTaskCommandEnum.GenerateClassificationForCSSPWebToolsVisualization:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);

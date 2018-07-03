@@ -95,6 +95,7 @@ namespace CSSPEnumsDLL.Enums
         FillRunPrecipByClimateSitePriorityForYear = 27,
         FindMissingPrecipForProvince = 28,
         ExportToArcGIS = 29,
+        GenerateClassificationForCSSPWebToolsVisualization = 30,
     }
     public enum AppTaskStatusEnum
     {
