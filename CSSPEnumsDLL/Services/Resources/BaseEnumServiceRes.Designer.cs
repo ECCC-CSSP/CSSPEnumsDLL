@@ -565,6 +565,16 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Generate Links Between MWQM Sites And Pollution Source Sites For CSSPWebTools Visualization.
+        /// </summary>
+        public static string AppTaskCommandEnumGenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumGenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVi" +
+                        "sualization", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Generate Web Tide.
         /// </summary>
         public static string AppTaskCommandEnumGenerateWebTide {
@@ -642,6 +652,24 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string AppTaskCommandEnumMikeScenarioWaitingToRun {
             get {
                 return ResourceManager.GetString("AppTaskCommandEnumMikeScenarioWaitingToRun", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Data CSV National of MWQM Samples.
+        /// </summary>
+        public static string AppTaskCommandEnumOpenDataCSVNationalOfMWQMSamples {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumOpenDataCSVNationalOfMWQMSamples", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Data CSV National of MWQM Sites.
+        /// </summary>
+        public static string AppTaskCommandEnumOpenDataCSVNationalOfMWQMSites {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumOpenDataCSVNationalOfMWQMSites", resourceCulture);
             }
         }
         
@@ -7258,6 +7286,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string TVTypeEnumOpenData {
             get {
                 return ResourceManager.GetString("TVTypeEnumOpenData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Data National.
+        /// </summary>
+        public static string TVTypeEnumOpenDataNational {
+            get {
+                return ResourceManager.GetString("TVTypeEnumOpenDataNational", resourceCulture);
             }
         }
         

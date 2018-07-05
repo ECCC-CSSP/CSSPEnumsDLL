@@ -2164,4 +2164,16 @@
   <data name="AppTaskCommandEnumGenerateClassificationForCSSPWebToolsVisualization" xml:space="preserve">
     <value>Generate Classification For CSSPWebTools Visualization (fr)</value>
   </data>
+  <data name="AppTaskCommandEnumGenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization" xml:space="preserve">
+    <value>Generate Links Between MWQM Sites And Pollution Source Sites For CSSPWebTools Visualization (fr)</value>
+  </data>
+  <data name="TVTypeEnumOpenDataNational" xml:space="preserve">
+    <value>Open Data National (fr)</value>
+  </data>
+  <data name="AppTaskCommandEnumOpenDataCSVNationalOfMWQMSamples" xml:space="preserve">
+    <value>Open Data CSV National of MWQM Samples (fr)</value>
+  </data>
+  <data name="AppTaskCommandEnumOpenDataCSVNationalOfMWQMSites" xml:space="preserve">
+    <value>Open Data CSV National of MWQM Sites (fr)</value>
+  </data>
 </root>

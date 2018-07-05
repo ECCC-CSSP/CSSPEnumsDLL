@@ -376,6 +376,15 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.GenerateClassificationForCSSPWebToolsVisualization:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumGenerateClassificationForCSSPWebToolsVisualization, retStr);
                             break;
+                        case AppTaskCommandEnum.GenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumGenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization, retStr);
+                            break;
+                        case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSites:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVNationalOfMWQMSites, retStr);
+                            break;
+                        case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSamples:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVNationalOfMWQMSamples, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -3894,6 +3903,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case TVTypeEnum.ConditionallyRestricted:
                             Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumConditionallyRestricted, retStr);
                             break;
+                        case TVTypeEnum.OpenDataNational:
+                            Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumOpenDataNational, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -4199,6 +4211,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.FindMissingPrecipForProvince:
                         case AppTaskCommandEnum.ExportToArcGIS:
                         case AppTaskCommandEnum.GenerateClassificationForCSSPWebToolsVisualization:
+                        case AppTaskCommandEnum.GenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization:
+                        case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSites:
+                        case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSamples:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
@@ -6429,6 +6444,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case TVTypeEnum.Prohibited:
                         case TVTypeEnum.ConditionallyApproved:
                         case TVTypeEnum.ConditionallyRestricted:
+                        case TVTypeEnum.OpenDataNational:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

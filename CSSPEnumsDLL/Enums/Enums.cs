@@ -96,6 +96,9 @@ namespace CSSPEnumsDLL.Enums
         FindMissingPrecipForProvince = 28,
         ExportToArcGIS = 29,
         GenerateClassificationForCSSPWebToolsVisualization = 30,
+        GenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization = 31,
+        OpenDataCSVNationalOfMWQMSites = 32,
+        OpenDataCSVNationalOfMWQMSamples = 33,
     }
     public enum AppTaskStatusEnum
     {
@@ -985,6 +988,7 @@ namespace CSSPEnumsDLL.Enums
         Prohibited = 82,
         ConditionallyApproved = 83,
         ConditionallyRestricted = 84,
+        OpenDataNational = 85,
     }
     public enum WebTideDataSetEnum
     {

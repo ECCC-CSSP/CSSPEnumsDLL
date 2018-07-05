@@ -225,6 +225,12 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumExportToArcGIS;
                 case AppTaskCommandEnum.GenerateClassificationForCSSPWebToolsVisualization:
                     return BaseEnumServiceRes.AppTaskCommandEnumGenerateClassificationForCSSPWebToolsVisualization;
+                case AppTaskCommandEnum.GenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization:
+                    return BaseEnumServiceRes.AppTaskCommandEnumGenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization;
+                case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSites:
+                    return BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVNationalOfMWQMSites;
+                case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSamples:
+                    return BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVNationalOfMWQMSamples;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -2306,6 +2312,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.TVTypeEnumConditionallyApproved;
                 case TVTypeEnum.ConditionallyRestricted:
                     return BaseEnumServiceRes.TVTypeEnumConditionallyRestricted;
+                case TVTypeEnum.OpenDataNational:
+                    return BaseEnumServiceRes.TVTypeEnumOpenDataNational;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3536,6 +3544,9 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.FindMissingPrecipForProvince:
                 case AppTaskCommandEnum.ExportToArcGIS:
                 case AppTaskCommandEnum.GenerateClassificationForCSSPWebToolsVisualization:
+                case AppTaskCommandEnum.GenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization:
+                case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSites:
+                case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSamples:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);
@@ -4973,6 +4984,7 @@ namespace CSSPEnumsDLL.Services
                 case TVTypeEnum.Prohibited:
                 case TVTypeEnum.ConditionallyApproved:
                 case TVTypeEnum.ConditionallyRestricted:
+                case TVTypeEnum.OpenDataNational:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.TVType);
