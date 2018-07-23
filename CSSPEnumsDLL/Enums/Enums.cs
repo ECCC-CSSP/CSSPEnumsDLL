@@ -807,6 +807,7 @@ namespace CSSPEnumsDLL.Enums
         Drive = 7,
         Blvd = 8,
         Route = 9,
+        Lane = 10,
     }
     public enum TelTypeEnum
     {

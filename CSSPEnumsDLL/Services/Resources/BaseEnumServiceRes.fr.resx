@@ -2176,4 +2176,7 @@
   <data name="AppTaskCommandEnumOpenDataCSVNationalOfMWQMSites" xml:space="preserve">
     <value>Open Data CSV National of MWQM Sites (fr)</value>
   </data>
+  <data name="StreetTypeEnumLane" xml:space="preserve">
+    <value>Voie</value>
+  </data>
 </root>

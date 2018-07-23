@@ -6102,6 +6102,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Lane.
+        /// </summary>
+        public static string StreetTypeEnumLane {
+            get {
+                return ResourceManager.GetString("StreetTypeEnumLane", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Road.
         /// </summary>
         public static string StreetTypeEnumRoad {

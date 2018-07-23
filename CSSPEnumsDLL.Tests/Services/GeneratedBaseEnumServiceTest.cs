@@ -3248,6 +3248,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case StreetTypeEnum.Route:
                             Assert.AreEqual(BaseEnumServiceRes.StreetTypeEnumRoute, retStr);
                             break;
+                        case StreetTypeEnum.Lane:
+                            Assert.AreEqual(BaseEnumServiceRes.StreetTypeEnumLane, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -6087,6 +6090,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case StreetTypeEnum.Drive:
                         case StreetTypeEnum.Blvd:
                         case StreetTypeEnum.Route:
+                        case StreetTypeEnum.Lane:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

@@ -1910,6 +1910,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.StreetTypeEnumBlvd;
                 case StreetTypeEnum.Route:
                     return BaseEnumServiceRes.StreetTypeEnumRoute;
+                case StreetTypeEnum.Lane:
+                    return BaseEnumServiceRes.StreetTypeEnumLane;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -4731,6 +4733,7 @@ namespace CSSPEnumsDLL.Services
                 case StreetTypeEnum.Drive:
                 case StreetTypeEnum.Blvd:
                 case StreetTypeEnum.Route:
+                case StreetTypeEnum.Lane:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.StreetType);
