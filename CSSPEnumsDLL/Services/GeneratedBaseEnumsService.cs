@@ -231,6 +231,12 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVNationalOfMWQMSites;
                 case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSamples:
                     return BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVNationalOfMWQMSamples;
+                case AppTaskCommandEnum.ProvinceToolsCreateClassificationInputsKML:
+                    return BaseEnumServiceRes.AppTaskCommandEnumProvinceToolsCreateClassificationInputsKML;
+                case AppTaskCommandEnum.ProvinceToolsCreateGroupingInputsKML:
+                    return BaseEnumServiceRes.AppTaskCommandEnumProvinceToolsCreateGroupingInputsKML;
+                case AppTaskCommandEnum.ProvinceToolsCreateMWQMSitesAndPolSourceSitesKML:
+                    return BaseEnumServiceRes.AppTaskCommandEnumProvinceToolsCreateMWQMSitesAndPolSourceSitesKML;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3549,6 +3555,9 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.GenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization:
                 case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSites:
                 case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSamples:
+                case AppTaskCommandEnum.ProvinceToolsCreateClassificationInputsKML:
+                case AppTaskCommandEnum.ProvinceToolsCreateGroupingInputsKML:
+                case AppTaskCommandEnum.ProvinceToolsCreateMWQMSitesAndPolSourceSitesKML:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);

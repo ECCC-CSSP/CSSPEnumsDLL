@@ -728,6 +728,33 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Province Tools Create Classification Inputs KML.
+        /// </summary>
+        public static string AppTaskCommandEnumProvinceToolsCreateClassificationInputsKML {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumProvinceToolsCreateClassificationInputsKML", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Province Tools Create Grouping Inputs KML.
+        /// </summary>
+        public static string AppTaskCommandEnumProvinceToolsCreateGroupingInputsKML {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumProvinceToolsCreateGroupingInputsKML", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Province Tools Create MWQMSites and PolSourceSites KML.
+        /// </summary>
+        public static string AppTaskCommandEnumProvinceToolsCreateMWQMSitesAndPolSourceSitesKML {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumProvinceToolsCreateMWQMSitesAndPolSourceSitesKML", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Setup Web Tide.
         /// </summary>
         public static string AppTaskCommandEnumSetupWebTide {

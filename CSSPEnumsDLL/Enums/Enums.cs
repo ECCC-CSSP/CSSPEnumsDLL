@@ -99,6 +99,9 @@ namespace CSSPEnumsDLL.Enums
         GenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization = 31,
         OpenDataCSVNationalOfMWQMSites = 32,
         OpenDataCSVNationalOfMWQMSamples = 33,
+        ProvinceToolsCreateClassificationInputsKML = 34,
+        ProvinceToolsCreateGroupingInputsKML = 35,
+        ProvinceToolsCreateMWQMSitesAndPolSourceSitesKML = 36,       
     }
     public enum AppTaskStatusEnum
     {

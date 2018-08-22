@@ -2179,4 +2179,13 @@
   <data name="StreetTypeEnumLane" xml:space="preserve">
     <value>Voie</value>
   </data>
+  <data name="AppTaskCommandEnumProvinceToolsCreateClassificationInputsKML" xml:space="preserve">
+    <value>Province Tools Create Classification Inputs KML (fr)</value>
+  </data>
+  <data name="AppTaskCommandEnumProvinceToolsCreateGroupingInputsKML" xml:space="preserve">
+    <value>Province Tools Create Grouping Inputs KML (fr)</value>
+  </data>
+  <data name="AppTaskCommandEnumProvinceToolsCreateMWQMSitesAndPolSourceSitesKML" xml:space="preserve">
+    <value>Province Tools Create MWQMSites and PolSourceSites KML (fr)</value>
+  </data>
 </root>

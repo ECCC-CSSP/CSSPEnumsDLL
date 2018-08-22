@@ -385,6 +385,15 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSamples:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumOpenDataCSVNationalOfMWQMSamples, retStr);
                             break;
+                        case AppTaskCommandEnum.ProvinceToolsCreateClassificationInputsKML:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumProvinceToolsCreateClassificationInputsKML, retStr);
+                            break;
+                        case AppTaskCommandEnum.ProvinceToolsCreateGroupingInputsKML:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumProvinceToolsCreateGroupingInputsKML, retStr);
+                            break;
+                        case AppTaskCommandEnum.ProvinceToolsCreateMWQMSitesAndPolSourceSitesKML:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumProvinceToolsCreateMWQMSitesAndPolSourceSitesKML, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -4217,6 +4226,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.GenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization:
                         case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSites:
                         case AppTaskCommandEnum.OpenDataCSVNationalOfMWQMSamples:
+                        case AppTaskCommandEnum.ProvinceToolsCreateClassificationInputsKML:
+                        case AppTaskCommandEnum.ProvinceToolsCreateGroupingInputsKML:
+                        case AppTaskCommandEnum.ProvinceToolsCreateMWQMSitesAndPolSourceSitesKML:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
