@@ -2682,4 +2682,7 @@
   <data name="AppTaskCommandEnumProvinceToolsCreateMWQMSitesAndPolSourceSitesKML" xml:space="preserve">
     <value>Province Tools Create MWQMSites and PolSourceSites KML</value>
   </data>
+  <data name="TVTypeEnumPolSourceSiteMikeScenario" xml:space="preserve">
+    <value>Pollution Source Site Mike Scenario</value>
+  </data>
 </root>

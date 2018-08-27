@@ -3918,6 +3918,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case TVTypeEnum.OpenDataNational:
                             Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumOpenDataNational, retStr);
                             break;
+                        case TVTypeEnum.PolSourceSiteMikeScenario:
+                            Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumPolSourceSiteMikeScenario, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -6461,6 +6464,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case TVTypeEnum.ConditionallyApproved:
                         case TVTypeEnum.ConditionallyRestricted:
                         case TVTypeEnum.OpenDataNational:
+                        case TVTypeEnum.PolSourceSiteMikeScenario:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

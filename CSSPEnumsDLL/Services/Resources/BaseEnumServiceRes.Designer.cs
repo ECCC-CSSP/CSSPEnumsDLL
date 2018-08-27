@@ -7380,6 +7380,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pollution Source Site Mike Scenario.
+        /// </summary>
+        public static string TVTypeEnumPolSourceSiteMikeScenario {
+            get {
+                return ResourceManager.GetString("TVTypeEnumPolSourceSiteMikeScenario", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Pollution Source Site Observation Info.
         /// </summary>
         public static string TVTypeEnumPolSourceSiteObsInfo {

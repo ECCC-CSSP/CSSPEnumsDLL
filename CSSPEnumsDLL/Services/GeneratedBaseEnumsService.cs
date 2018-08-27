@@ -2322,6 +2322,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.TVTypeEnumConditionallyRestricted;
                 case TVTypeEnum.OpenDataNational:
                     return BaseEnumServiceRes.TVTypeEnumOpenDataNational;
+                case TVTypeEnum.PolSourceSiteMikeScenario:
+                    return BaseEnumServiceRes.TVTypeEnumPolSourceSiteMikeScenario;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -4997,6 +4999,7 @@ namespace CSSPEnumsDLL.Services
                 case TVTypeEnum.ConditionallyApproved:
                 case TVTypeEnum.ConditionallyRestricted:
                 case TVTypeEnum.OpenDataNational:
+                case TVTypeEnum.PolSourceSiteMikeScenario:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.TVType);
