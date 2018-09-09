@@ -174,18 +174,18 @@ namespace CSSPEnumsDLL.Enums
         Supervisor = 8,
         Technician = 9,
     }
-    public enum CSSPWQInputTypeEnum
-    {
-        Error = 0,
-        Subsector = 1,
-        Municipality = 2,
-    }
     public enum CSSPWQInputSheetTypeEnum
     {
         Error = 0,
         A1 = 1,
         LTB = 2,
         EC = 3,
+    }
+    public enum CSSPWQInputTypeEnum
+    {
+        Error = 0,
+        Subsector = 1,
+        Municipality = 2,
     }
     public enum DailyOrHourlyDataEnum
     {
