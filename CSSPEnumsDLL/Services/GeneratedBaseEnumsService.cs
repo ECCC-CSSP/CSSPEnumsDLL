@@ -237,6 +237,20 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumProvinceToolsCreateGroupingInputsKML;
                 case AppTaskCommandEnum.ProvinceToolsCreateMWQMSitesAndPolSourceSitesKML:
                     return BaseEnumServiceRes.AppTaskCommandEnumProvinceToolsCreateMWQMSitesAndPolSourceSitesKML;
+                case AppTaskCommandEnum.UpdateHydrometricSiteInformation:
+                    return BaseEnumServiceRes.AppTaskCommandEnumUpdateHydrometricSiteInformation;
+                case AppTaskCommandEnum.UpdateHydrometricSiteDailyAndHourlyFromStartDateToEndDate:
+                    return BaseEnumServiceRes.AppTaskCommandEnumUpdateHydrometricSiteDailyAndHourlyFromStartDateToEndDate;
+                case AppTaskCommandEnum.UpdateHydrometricSiteDailyAndHourlyForSubsectorFromStartDateToEndDate:
+                    return BaseEnumServiceRes.AppTaskCommandEnumUpdateHydrometricSiteDailyAndHourlyForSubsectorFromStartDateToEndDate;
+                case AppTaskCommandEnum.GetHydrometricSitesDataForRunsOfYear:
+                    return BaseEnumServiceRes.AppTaskCommandEnumGetHydrometricSitesDataForRunsOfYear;
+                case AppTaskCommandEnum.GetAllDischargesForYear:
+                    return BaseEnumServiceRes.AppTaskCommandEnumGetAllDischargesForYear;
+                case AppTaskCommandEnum.FillRunDischargesByHydrometricSitePriorityForYear:
+                    return BaseEnumServiceRes.AppTaskCommandEnumFillRunDischargesByHydrometricSitePriorityForYear;
+                case AppTaskCommandEnum.FindMissingDischargesForProvince:
+                    return BaseEnumServiceRes.AppTaskCommandEnumFindMissingDischargesForProvince;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -413,23 +427,6 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.Empty;
             }
         }
-        public string GetEnumText_CSSPWQInputTypeEnum(CSSPWQInputTypeEnum? cSSPWQInputTypeE)
-        {
-            if (cSSPWQInputTypeE == null)
-                return BaseEnumServiceRes.Empty;
-
-            switch (cSSPWQInputTypeE)
-            {
-                case CSSPWQInputTypeEnum.Error:
-                    return BaseEnumServiceRes.Empty;
-                case CSSPWQInputTypeEnum.Subsector:
-                    return BaseEnumServiceRes.CSSPWQInputTypeEnumSubsector;
-                case CSSPWQInputTypeEnum.Municipality:
-                    return BaseEnumServiceRes.CSSPWQInputTypeEnumMunicipality;
-                default:
-                    return BaseEnumServiceRes.Empty;
-            }
-        }
         public string GetEnumText_CSSPWQInputSheetTypeEnum(CSSPWQInputSheetTypeEnum? cSSPWQInputSheetTypeE)
         {
             if (cSSPWQInputSheetTypeE == null)
@@ -445,6 +442,23 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.CSSPWQInputSheetTypeEnumLTB;
                 case CSSPWQInputSheetTypeEnum.EC:
                     return BaseEnumServiceRes.CSSPWQInputSheetTypeEnumEC;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
+        public string GetEnumText_CSSPWQInputTypeEnum(CSSPWQInputTypeEnum? cSSPWQInputTypeE)
+        {
+            if (cSSPWQInputTypeE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (cSSPWQInputTypeE)
+            {
+                case CSSPWQInputTypeEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case CSSPWQInputTypeEnum.Subsector:
+                    return BaseEnumServiceRes.CSSPWQInputTypeEnumSubsector;
+                case CSSPWQInputTypeEnum.Municipality:
+                    return BaseEnumServiceRes.CSSPWQInputTypeEnumMunicipality;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -2562,21 +2576,6 @@ namespace CSSPEnumsDLL.Services
 
             return ContactTitleEnumTextOrderedList;
         }
-        public List<CSSPWQInputTypeEnumTextOrdered> GetCSSPWQInputTypeEnumTextOrderedList()
-        {
-            List<CSSPWQInputTypeEnumTextOrdered> CSSPWQInputTypeEnumTextOrderedList = new List<CSSPWQInputTypeEnumTextOrdered>();
-
-            for (int i = 1, count = Enum.GetNames(typeof(CSSPWQInputTypeEnum)).Count(); i < count; i++)
-            {
-                CSSPWQInputTypeEnumTextOrderedList.Add(new CSSPWQInputTypeEnumTextOrdered() { CSSPWQInputType = (CSSPWQInputTypeEnum)i, CSSPWQInputTypeText = GetEnumText_CSSPWQInputTypeEnum((CSSPWQInputTypeEnum)i) });
-            }
-
-            CSSPWQInputTypeEnumTextOrderedList = (from c in CSSPWQInputTypeEnumTextOrderedList
-                                              orderby c.CSSPWQInputTypeText
-                                              select c).ToList();
-
-            return CSSPWQInputTypeEnumTextOrderedList;
-        }
         public List<CSSPWQInputSheetTypeEnumTextOrdered> GetCSSPWQInputSheetTypeEnumTextOrderedList()
         {
             List<CSSPWQInputSheetTypeEnumTextOrdered> CSSPWQInputSheetTypeEnumTextOrderedList = new List<CSSPWQInputSheetTypeEnumTextOrdered>();
@@ -2591,6 +2590,21 @@ namespace CSSPEnumsDLL.Services
                                               select c).ToList();
 
             return CSSPWQInputSheetTypeEnumTextOrderedList;
+        }
+        public List<CSSPWQInputTypeEnumTextOrdered> GetCSSPWQInputTypeEnumTextOrderedList()
+        {
+            List<CSSPWQInputTypeEnumTextOrdered> CSSPWQInputTypeEnumTextOrderedList = new List<CSSPWQInputTypeEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(CSSPWQInputTypeEnum)).Count(); i < count; i++)
+            {
+                CSSPWQInputTypeEnumTextOrderedList.Add(new CSSPWQInputTypeEnumTextOrdered() { CSSPWQInputType = (CSSPWQInputTypeEnum)i, CSSPWQInputTypeText = GetEnumText_CSSPWQInputTypeEnum((CSSPWQInputTypeEnum)i) });
+            }
+
+            CSSPWQInputTypeEnumTextOrderedList = (from c in CSSPWQInputTypeEnumTextOrderedList
+                                              orderby c.CSSPWQInputTypeText
+                                              select c).ToList();
+
+            return CSSPWQInputTypeEnumTextOrderedList;
         }
         public List<DailyOrHourlyDataEnumTextOrdered> GetDailyOrHourlyDataEnumTextOrderedList()
         {
@@ -3560,6 +3574,13 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.ProvinceToolsCreateClassificationInputsKML:
                 case AppTaskCommandEnum.ProvinceToolsCreateGroupingInputsKML:
                 case AppTaskCommandEnum.ProvinceToolsCreateMWQMSitesAndPolSourceSitesKML:
+                case AppTaskCommandEnum.UpdateHydrometricSiteInformation:
+                case AppTaskCommandEnum.UpdateHydrometricSiteDailyAndHourlyFromStartDateToEndDate:
+                case AppTaskCommandEnum.UpdateHydrometricSiteDailyAndHourlyForSubsectorFromStartDateToEndDate:
+                case AppTaskCommandEnum.GetHydrometricSitesDataForRunsOfYear:
+                case AppTaskCommandEnum.GetAllDischargesForYear:
+                case AppTaskCommandEnum.FillRunDischargesByHydrometricSitePriorityForYear:
+                case AppTaskCommandEnum.FindMissingDischargesForProvince:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);
@@ -3690,21 +3711,6 @@ namespace CSSPEnumsDLL.Services
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ContactTitle);
             }
         }
-        public string CSSPWQInputTypeOK(CSSPWQInputTypeEnum? cSSPWQInputType)
-        {
-            if (cSSPWQInputType == null)
-                return "";
-
-            switch ((CSSPWQInputTypeEnum)cSSPWQInputType)
-            {
-                case CSSPWQInputTypeEnum.Error:
-                case CSSPWQInputTypeEnum.Subsector:
-                case CSSPWQInputTypeEnum.Municipality:
-                    return "";
-                default:
-                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.CSSPWQInputType);
-            }
-        }
         public string CSSPWQInputSheetTypeOK(CSSPWQInputSheetTypeEnum? cSSPWQInputSheetType)
         {
             if (cSSPWQInputSheetType == null)
@@ -3719,6 +3725,21 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.CSSPWQInputSheetType);
+            }
+        }
+        public string CSSPWQInputTypeOK(CSSPWQInputTypeEnum? cSSPWQInputType)
+        {
+            if (cSSPWQInputType == null)
+                return "";
+
+            switch ((CSSPWQInputTypeEnum)cSSPWQInputType)
+            {
+                case CSSPWQInputTypeEnum.Error:
+                case CSSPWQInputTypeEnum.Subsector:
+                case CSSPWQInputTypeEnum.Municipality:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.CSSPWQInputType);
             }
         }
         public string DailyOrHourlyDataOK(DailyOrHourlyDataEnum? dailyOrHourlyData)

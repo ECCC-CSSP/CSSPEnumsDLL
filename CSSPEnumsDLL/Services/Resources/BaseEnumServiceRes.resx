@@ -2685,4 +2685,25 @@
   <data name="TVTypeEnumPolSourceSiteMikeScenario" xml:space="preserve">
     <value>Pollution Source Site Mike Scenario</value>
   </data>
+  <data name="AppTaskCommandEnumUpdateHydrometricSiteDailyAndHourlyForSubsectorFromStartDateToEndDate" xml:space="preserve">
+    <value>Update Hydrometric Site Daily And Hourly For Subsector From Start Date To End Date</value>
+  </data>
+  <data name="AppTaskCommandEnumUpdateHydrometricSiteDailyAndHourlyFromStartDateToEndDate" xml:space="preserve">
+    <value>Update Hydrometric Site Daily And Hourly From Start Date To End Date</value>
+  </data>
+  <data name="AppTaskCommandEnumUpdateHydrometricSiteInformation" xml:space="preserve">
+    <value>Update Hydrometric Site Information</value>
+  </data>
+  <data name="AppTaskCommandEnumFillRunDischargesByHydrometricSitePriorityForYear" xml:space="preserve">
+    <value>Fill Run Discharges By Hydrometric Site Priority For Year</value>
+  </data>
+  <data name="AppTaskCommandEnumFindMissingDischargesForProvince" xml:space="preserve">
+    <value>Find Missing Discharges For Province</value>
+  </data>
+  <data name="AppTaskCommandEnumGetAllDischargesForYear" xml:space="preserve">
+    <value>Get All Discharges For Year</value>
+  </data>
+  <data name="AppTaskCommandEnumGetHydrometricSitesDataForRunsOfYear" xml:space="preserve">
+    <value>Get Hydrometric Sites Data For Runs Of Year</value>
+  </data>
 </root>

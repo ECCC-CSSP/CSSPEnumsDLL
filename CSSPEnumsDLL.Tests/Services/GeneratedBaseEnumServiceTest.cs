@@ -394,6 +394,27 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.ProvinceToolsCreateMWQMSitesAndPolSourceSitesKML:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumProvinceToolsCreateMWQMSitesAndPolSourceSitesKML, retStr);
                             break;
+                        case AppTaskCommandEnum.UpdateHydrometricSiteInformation:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumUpdateHydrometricSiteInformation, retStr);
+                            break;
+                        case AppTaskCommandEnum.UpdateHydrometricSiteDailyAndHourlyFromStartDateToEndDate:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumUpdateHydrometricSiteDailyAndHourlyFromStartDateToEndDate, retStr);
+                            break;
+                        case AppTaskCommandEnum.UpdateHydrometricSiteDailyAndHourlyForSubsectorFromStartDateToEndDate:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumUpdateHydrometricSiteDailyAndHourlyForSubsectorFromStartDateToEndDate, retStr);
+                            break;
+                        case AppTaskCommandEnum.GetHydrometricSitesDataForRunsOfYear:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumGetHydrometricSitesDataForRunsOfYear, retStr);
+                            break;
+                        case AppTaskCommandEnum.GetAllDischargesForYear:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumGetAllDischargesForYear, retStr);
+                            break;
+                        case AppTaskCommandEnum.FillRunDischargesByHydrometricSitePriorityForYear:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumFillRunDischargesByHydrometricSitePriorityForYear, retStr);
+                            break;
+                        case AppTaskCommandEnum.FindMissingDischargesForProvince:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumFindMissingDischargesForProvince, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -699,38 +720,6 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
-        public void BaseEnumService_GetEnumText_CSSPWQInputTypeEnum_Test()
-        {
-            foreach (CultureInfo culture in setupData.cultureListGood)
-            {
-                SetupTest(culture);
-        
-                string retStr = baseEnumService.GetEnumText_CSSPWQInputTypeEnum(null);
-                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-        
-                for (int i = 0, count = Enum.GetNames(typeof(CSSPWQInputTypeEnum)).Length; i < count; i++)
-                {
-                    retStr = baseEnumService.GetEnumText_CSSPWQInputTypeEnum((CSSPWQInputTypeEnum)i);
-        
-                    switch ((CSSPWQInputTypeEnum)i)
-                    {
-                        case CSSPWQInputTypeEnum.Error:
-                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-                            break;
-                        case CSSPWQInputTypeEnum.Subsector:
-                            Assert.AreEqual(BaseEnumServiceRes.CSSPWQInputTypeEnumSubsector, retStr);
-                            break;
-                        case CSSPWQInputTypeEnum.Municipality:
-                            Assert.AreEqual(BaseEnumServiceRes.CSSPWQInputTypeEnumMunicipality, retStr);
-                            break;
-                        default:
-                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-                            break;
-                    }
-                }
-            }
-        }
-        [TestMethod]
         public void BaseEnumService_GetEnumText_CSSPWQInputSheetTypeEnum_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -757,6 +746,38 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         case CSSPWQInputSheetTypeEnum.EC:
                             Assert.AreEqual(BaseEnumServiceRes.CSSPWQInputSheetTypeEnumEC, retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_GetEnumText_CSSPWQInputTypeEnum_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+        
+                string retStr = baseEnumService.GetEnumText_CSSPWQInputTypeEnum(null);
+                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+        
+                for (int i = 0, count = Enum.GetNames(typeof(CSSPWQInputTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.GetEnumText_CSSPWQInputTypeEnum((CSSPWQInputTypeEnum)i);
+        
+                    switch ((CSSPWQInputTypeEnum)i)
+                    {
+                        case CSSPWQInputTypeEnum.Error:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                        case CSSPWQInputTypeEnum.Subsector:
+                            Assert.AreEqual(BaseEnumServiceRes.CSSPWQInputTypeEnumSubsector, retStr);
+                            break;
+                        case CSSPWQInputTypeEnum.Municipality:
+                            Assert.AreEqual(BaseEnumServiceRes.CSSPWQInputTypeEnumMunicipality, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -4232,6 +4253,13 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.ProvinceToolsCreateClassificationInputsKML:
                         case AppTaskCommandEnum.ProvinceToolsCreateGroupingInputsKML:
                         case AppTaskCommandEnum.ProvinceToolsCreateMWQMSitesAndPolSourceSitesKML:
+                        case AppTaskCommandEnum.UpdateHydrometricSiteInformation:
+                        case AppTaskCommandEnum.UpdateHydrometricSiteDailyAndHourlyFromStartDateToEndDate:
+                        case AppTaskCommandEnum.UpdateHydrometricSiteDailyAndHourlyForSubsectorFromStartDateToEndDate:
+                        case AppTaskCommandEnum.GetHydrometricSitesDataForRunsOfYear:
+                        case AppTaskCommandEnum.GetAllDischargesForYear:
+                        case AppTaskCommandEnum.FillRunDischargesByHydrometricSitePriorityForYear:
+                        case AppTaskCommandEnum.FindMissingDischargesForProvince:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
@@ -4445,34 +4473,6 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
-        public void BaseEnumService_CSSPWQInputTypeOK_Test()
-        {
-            foreach (CultureInfo culture in setupData.cultureListGood)
-            {
-                SetupTest(culture);
-
-                string retStr = baseEnumService.CSSPWQInputTypeOK(null);
-                Assert.AreEqual("", retStr);
-
-                for (int i = 0, count = Enum.GetNames(typeof(CSSPWQInputTypeEnum)).Length; i < count; i++)
-                {
-                    retStr = baseEnumService.CSSPWQInputTypeOK((CSSPWQInputTypeEnum)i);
-
-                    switch ((CSSPWQInputTypeEnum)i)
-                    {
-                        case CSSPWQInputTypeEnum.Error:
-                        case CSSPWQInputTypeEnum.Subsector:
-                        case CSSPWQInputTypeEnum.Municipality:
-                            Assert.AreEqual("", retStr);
-                            break;
-                        default:
-                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.CSSPWQInputType), retStr);
-                            break;
-                    }
-                }
-            }
-        }
-        [TestMethod]
         public void BaseEnumService_CSSPWQInputSheetTypeOK_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -4496,6 +4496,34 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         default:
                             Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.CSSPWQInputSheetType), retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_CSSPWQInputTypeOK_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+
+                string retStr = baseEnumService.CSSPWQInputTypeOK(null);
+                Assert.AreEqual("", retStr);
+
+                for (int i = 0, count = Enum.GetNames(typeof(CSSPWQInputTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.CSSPWQInputTypeOK((CSSPWQInputTypeEnum)i);
+
+                    switch ((CSSPWQInputTypeEnum)i)
+                    {
+                        case CSSPWQInputTypeEnum.Error:
+                        case CSSPWQInputTypeEnum.Subsector:
+                        case CSSPWQInputTypeEnum.Municipality:
+                            Assert.AreEqual("", retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.CSSPWQInputType), retStr);
                             break;
                     }
                 }

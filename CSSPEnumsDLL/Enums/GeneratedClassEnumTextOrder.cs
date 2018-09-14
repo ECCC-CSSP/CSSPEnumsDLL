@@ -133,15 +133,6 @@ namespace CSSPEnumsDLL.Enums
         public ContactTitleEnum ContactTitle { get; set; }
         public string ContactTitleText { get; set; }
     }
-    public class CSSPWQInputTypeEnumTextOrdered
-    {
-        public CSSPWQInputTypeEnumTextOrdered()
-        {
-        }
-
-        public CSSPWQInputTypeEnum CSSPWQInputType { get; set; }
-        public string CSSPWQInputTypeText { get; set; }
-    }
     public class CSSPWQInputSheetTypeEnumTextOrdered
     {
         public CSSPWQInputSheetTypeEnumTextOrdered()
@@ -150,6 +141,15 @@ namespace CSSPEnumsDLL.Enums
 
         public CSSPWQInputSheetTypeEnum CSSPWQInputSheetType { get; set; }
         public string CSSPWQInputSheetTypeText { get; set; }
+    }
+    public class CSSPWQInputTypeEnumTextOrdered
+    {
+        public CSSPWQInputTypeEnumTextOrdered()
+        {
+        }
+
+        public CSSPWQInputTypeEnum CSSPWQInputType { get; set; }
+        public string CSSPWQInputTypeText { get; set; }
     }
     public class DailyOrHourlyDataEnumTextOrdered
     {
