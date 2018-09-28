@@ -638,6 +638,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Load hydrometric data value.
+        /// </summary>
+        public static string AppTaskCommandEnumLoadHydrometricDataValue {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumLoadHydrometricDataValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to MIKE Scenario Ask To Run.
         /// </summary>
         public static string AppTaskCommandEnumMikeScenarioAskToRun {

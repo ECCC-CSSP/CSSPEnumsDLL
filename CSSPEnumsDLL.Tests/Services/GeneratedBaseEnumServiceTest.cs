@@ -415,6 +415,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.FindMissingDischargesForProvince:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumFindMissingDischargesForProvince, retStr);
                             break;
+                        case AppTaskCommandEnum.LoadHydrometricDataValue:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumLoadHydrometricDataValue, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -4260,6 +4263,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.GetAllDischargesForYear:
                         case AppTaskCommandEnum.FillRunDischargesByHydrometricSitePriorityForYear:
                         case AppTaskCommandEnum.FindMissingDischargesForProvince:
+                        case AppTaskCommandEnum.LoadHydrometricDataValue:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

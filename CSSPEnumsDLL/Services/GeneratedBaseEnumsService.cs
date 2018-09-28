@@ -251,6 +251,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumFillRunDischargesByHydrometricSitePriorityForYear;
                 case AppTaskCommandEnum.FindMissingDischargesForProvince:
                     return BaseEnumServiceRes.AppTaskCommandEnumFindMissingDischargesForProvince;
+                case AppTaskCommandEnum.LoadHydrometricDataValue:
+                    return BaseEnumServiceRes.AppTaskCommandEnumLoadHydrometricDataValue;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3581,6 +3583,7 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.GetAllDischargesForYear:
                 case AppTaskCommandEnum.FillRunDischargesByHydrometricSitePriorityForYear:
                 case AppTaskCommandEnum.FindMissingDischargesForProvince:
+                case AppTaskCommandEnum.LoadHydrometricDataValue:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);

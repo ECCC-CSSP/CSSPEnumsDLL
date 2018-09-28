@@ -2706,4 +2706,7 @@
   <data name="AppTaskCommandEnumGetHydrometricSitesDataForRunsOfYear" xml:space="preserve">
     <value>Get Hydrometric Sites Data For Runs Of Year</value>
   </data>
+  <data name="AppTaskCommandEnumLoadHydrometricDataValue" xml:space="preserve">
+    <value>Load hydrometric data value</value>
+  </data>
 </root>

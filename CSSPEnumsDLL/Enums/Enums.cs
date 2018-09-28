@@ -109,6 +109,7 @@ namespace CSSPEnumsDLL.Enums
         GetAllDischargesForYear = 41,
         FillRunDischargesByHydrometricSitePriorityForYear = 42,
         FindMissingDischargesForProvince = 43,
+        LoadHydrometricDataValue = 44,
     }
     public enum AppTaskStatusEnum
     {
