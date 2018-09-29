@@ -903,7 +903,7 @@ namespace CSSPEnumsDLL.Enums
         PeatSystem = 31,
         Physicochimique = 32,
         RotatingBiologicalContactor = 33,
-    } // to be remove in the future
+    }
     public enum TVAuthEnum
     {
         Error = 0,
