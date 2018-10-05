@@ -110,6 +110,7 @@ namespace CSSPEnumsDLL.Enums
         FillRunDischargesByHydrometricSitePriorityForYear = 42,
         FindMissingDischargesForProvince = 43,
         LoadHydrometricDataValue = 44,
+        GenerateKMLFileClassificationForCSSPWebToolsVisualization = 45,
     }
     public enum AppTaskStatusEnum
     {

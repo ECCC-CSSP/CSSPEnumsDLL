@@ -2164,6 +2164,9 @@
   <data name="AppTaskCommandEnumGenerateClassificationForCSSPWebToolsVisualization" xml:space="preserve">
     <value>Generate Classification For CSSPWebTools Visualization (fr)</value>
   </data>
+  <data name="AppTaskCommandEnumGenerateKMLFileClassificationForCSSPWebToolsVisualization" xml:space="preserve">
+    <value>Generate KML File Classification For CSSPWebTools Visualization (fr)</value>
+  </data>
   <data name="AppTaskCommandEnumGenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization" xml:space="preserve">
     <value>Generate Links Between MWQM Sites And Pollution Source Sites For CSSPWebTools Visualization (fr)</value>
   </data>

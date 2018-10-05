@@ -583,6 +583,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Generate KML File Classification For CSSPWebTools Visualization.
+        /// </summary>
+        public static string AppTaskCommandEnumGenerateKMLFileClassificationForCSSPWebToolsVisualization {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumGenerateKMLFileClassificationForCSSPWebToolsVisualization", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Generate Links Between MWQM Sites And Pollution Source Sites For CSSPWebTools Visualization.
         /// </summary>
         public static string AppTaskCommandEnumGenerateLinksBetweenMWQMSitesAndPolSourceSitesForCSSPWebToolsVisualization {

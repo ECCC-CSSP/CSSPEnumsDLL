@@ -418,6 +418,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.LoadHydrometricDataValue:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumLoadHydrometricDataValue, retStr);
                             break;
+                        case AppTaskCommandEnum.GenerateKMLFileClassificationForCSSPWebToolsVisualization:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumGenerateKMLFileClassificationForCSSPWebToolsVisualization, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -4264,6 +4267,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.FillRunDischargesByHydrometricSitePriorityForYear:
                         case AppTaskCommandEnum.FindMissingDischargesForProvince:
                         case AppTaskCommandEnum.LoadHydrometricDataValue:
+                        case AppTaskCommandEnum.GenerateKMLFileClassificationForCSSPWebToolsVisualization:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
