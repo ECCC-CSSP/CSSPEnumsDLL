@@ -255,6 +255,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumLoadHydrometricDataValue;
                 case AppTaskCommandEnum.GenerateKMLFileClassificationForCSSPWebToolsVisualization:
                     return BaseEnumServiceRes.AppTaskCommandEnumGenerateKMLFileClassificationForCSSPWebToolsVisualization;
+                case AppTaskCommandEnum.ProvinceToolsGenerateStats:
+                    return BaseEnumServiceRes.AppTaskCommandEnumProvinceToolsGenerateStats;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3587,6 +3589,7 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.FindMissingDischargesForProvince:
                 case AppTaskCommandEnum.LoadHydrometricDataValue:
                 case AppTaskCommandEnum.GenerateKMLFileClassificationForCSSPWebToolsVisualization:
+                case AppTaskCommandEnum.ProvinceToolsGenerateStats:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);

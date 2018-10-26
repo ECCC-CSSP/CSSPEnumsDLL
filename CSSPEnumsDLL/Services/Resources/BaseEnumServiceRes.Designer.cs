@@ -809,6 +809,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Province Tools Generate Stats.
+        /// </summary>
+        public static string AppTaskCommandEnumProvinceToolsGenerateStats {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumProvinceToolsGenerateStats", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Setup Web Tide.
         /// </summary>
         public static string AppTaskCommandEnumSetupWebTide {

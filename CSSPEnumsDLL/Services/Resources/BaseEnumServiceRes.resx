@@ -2712,4 +2712,7 @@
   <data name="AppTaskCommandEnumLoadHydrometricDataValue" xml:space="preserve">
     <value>Load hydrometric data value</value>
   </data>
+  <data name="AppTaskCommandEnumProvinceToolsGenerateStats" xml:space="preserve">
+    <value>Province Tools Generate Stats</value>
+  </data>
 </root>

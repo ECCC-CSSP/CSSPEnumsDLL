@@ -111,6 +111,7 @@ namespace CSSPEnumsDLL.Enums
         FindMissingDischargesForProvince = 43,
         LoadHydrometricDataValue = 44,
         GenerateKMLFileClassificationForCSSPWebToolsVisualization = 45,
+        ProvinceToolsGenerateStats = 46,
     }
     public enum AppTaskStatusEnum
     {
