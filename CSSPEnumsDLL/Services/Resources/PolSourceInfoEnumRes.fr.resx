@@ -10912,7 +10912,7 @@
     <value>Fait référence aux effluents qui se mélangent rapidement dans les eaux marines. Un exemple serait la nourriture de poisson des sites aquacoles. Les concentrations sont rapidement diluées</value>
   </data>
   <data name="PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineHide" xml:space="preserve">
-    <value>13101,13102,13103,13104</value>
+    <value>13101,13102,13103</value>
   </data>
   <data name="PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineInit" xml:space="preserve">
     <value>dir</value>
@@ -15295,7 +15295,7 @@
     <value>Apport potentiel d'eaux usées / excréments</value>
   </data>
   <data name="PolSourceInfoEnumObservationHazardousLevelMedMarineHide" xml:space="preserve">
-    <value>14401,14402,14403,14404,14405,14406,14407,14408,14409,14410,14411,14412,14413,14414,14415,14416,14417,14418,14419</value>
+    <value>14420,14401,14402,14403,14404,14405,14406,14407,14408,14413,14414,14415,14416,14417,14418</value>
   </data>
   <data name="PolSourceInfoEnumObservationHazardousLevelMedMarineInit" xml:space="preserve">
     <value>m</value>
@@ -25858,7 +25858,7 @@
     <value>Désigne un lagon ou un système municipal qui se trouve sur une autre propriété.</value>
   </data>
   <data name="PolSourceInfoEnumSewageOffSiteSystemHide" xml:space="preserve">
-    <value>14329,14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14324,14325,14326,14327</value>
+    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14324,14325,14326,14327,14329,14330,14331,14332</value>
   </data>
   <data name="PolSourceInfoEnumSewageOffSiteSystemInit" xml:space="preserve">
     <value>ofs</value>
@@ -25876,7 +25876,7 @@
     <value>comme un lagon ou un traitement mécanique</value>
   </data>
   <data name="PolSourceInfoEnumSewageOnSiteSystemHide" xml:space="preserve">
-    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14325,14326,14327,14328,14329</value>
+    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14325,14326,14327,14328,14329,14330,14331,14332</value>
   </data>
   <data name="PolSourceInfoEnumSewageOnSiteSystemInit" xml:space="preserve">
     <value>ons</value>

@@ -31507,7 +31507,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 13101,13102,13103,13104.
+        ///   Looks up a localized string similar to 13101,13102,13103.
         /// </summary>
         public static string PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineHide {
             get {
@@ -45736,7 +45736,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 14401,14402,14403,14404,14405,14406,14407,14408,14409,14410,14411,14412,14413,14414,14415,14416,14417,14418,14419.
+        ///   Looks up a localized string similar to 14420,14401,14402,14403,14404,14405,14406,14407,14408,14413,14414,14415,14416,14417,14418.
         /// </summary>
         public static string PolSourceInfoEnumObservationHazardousLevelMedMarineHide {
             get {
@@ -47779,7 +47779,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Where Does Discharge of Culvert Flow.
+        ///   Looks up a localized string similar to Where Does Discharge Flow.
         /// </summary>
         public static string PolSourceInfoEnumPathwayRouteSecondCulvertStart {
             get {
@@ -47788,7 +47788,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Does the culvert discharge into one of the below structures?.
+        ///   Looks up a localized string similar to Does the discharge into one of the below structures?.
         /// </summary>
         public static string PolSourceInfoEnumPathwayRouteSecondCulvertStartDesc {
             get {
@@ -47797,7 +47797,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Where Does Discharge Of Pipe Flow.
+        ///   Looks up a localized string similar to Where Does Discharge Flow.
         /// </summary>
         public static string PolSourceInfoEnumPathwayRouteSecondPipeStart {
             get {
@@ -47806,7 +47806,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Does the pipe discharge into one of the below features?.
+        ///   Looks up a localized string similar to Does the discharge into one of the below features?.
         /// </summary>
         public static string PolSourceInfoEnumPathwayRouteSecondPipeStartDesc {
             get {
@@ -78073,7 +78073,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 14329,14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14324,14325,14326,14327.
+        ///   Looks up a localized string similar to 14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14324,14325,14326,14327,14329,14330,14331,14332.
         /// </summary>
         public static string PolSourceInfoEnumSewageOffSiteSystemHide {
             get {
@@ -78127,7 +78127,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14325,14326,14327,14328,14329.
+        ///   Looks up a localized string similar to 14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14325,14326,14327,14328,14329,14330,14331,14332.
         /// </summary>
         public static string PolSourceInfoEnumSewageOnSiteSystemHide {
             get {

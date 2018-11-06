@@ -10600,7 +10600,7 @@
     <value>Refers to effluent that mixes quickly into the marine waters.  An example would be fish food from aquaculture sites.  The concentrations are quickly diluted</value>
   </data>
   <data name="PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineHide" xml:space="preserve">
-    <value>13101,13102,13103,13104</value>
+    <value>13101,13102,13103</value>
   </data>
   <data name="PolSourceInfoEnumMarineSourcesOfContaminanMixedMarineInit" xml:space="preserve">
     <value>rom</value>
@@ -15343,7 +15343,7 @@
     <value>Potential input of sewage/excrement</value>
   </data>
   <data name="PolSourceInfoEnumObservationHazardousLevelMedMarineHide" xml:space="preserve">
-    <value>14401,14402,14403,14404,14405,14406,14407,14408,14409,14410,14411,14412,14413,14414,14415,14416,14417,14418,14419</value>
+    <value>14420,14401,14402,14403,14404,14405,14406,14407,14408,14413,14414,14415,14416,14417,14418</value>
   </data>
   <data name="PolSourceInfoEnumObservationHazardousLevelMedMarineInit" xml:space="preserve">
     <value>m</value>
@@ -16024,16 +16024,16 @@
     <value>The Pathway begins with the identification of the Source of the effluent.  If you are standing on a culvert where does the effluent come from?  You can identify the structure the discharges passes through later in the Pathway thread.</value>
   </data>
   <data name="PolSourceInfoEnumPathwayRouteSecondCulvertStart" xml:space="preserve">
-    <value>Where Does Discharge of Culvert Flow</value>
+    <value>Where Does Discharge Flow</value>
   </data>
   <data name="PolSourceInfoEnumPathwayRouteSecondCulvertStartDesc" xml:space="preserve">
-    <value>Does the culvert discharge into one of the below structures?</value>
+    <value>Does the discharge into one of the below structures?</value>
   </data>
   <data name="PolSourceInfoEnumPathwayRouteSecondPipeStart" xml:space="preserve">
-    <value>Where Does Discharge Of Pipe Flow</value>
+    <value>Where Does Discharge Flow</value>
   </data>
   <data name="PolSourceInfoEnumPathwayRouteSecondPipeStartDesc" xml:space="preserve">
-    <value>Does the pipe discharge into one of the below features?</value>
+    <value>Does the discharge into one of the below features?</value>
   </data>
   <data name="PolSourceInfoEnumPathwaySourceFirstCulvert" xml:space="preserve">
     <value>                                                                      Culvert |  | (H)</value>
@@ -26122,7 +26122,7 @@
     <value>Refers to a lagoon or municipal system that is on another property.  </value>
   </data>
   <data name="PolSourceInfoEnumSewageOffSiteSystemHide" xml:space="preserve">
-    <value>14329,14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14324,14325,14326,14327</value>
+    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14324,14325,14326,14327,14329,14330,14331,14332</value>
   </data>
   <data name="PolSourceInfoEnumSewageOffSiteSystemInit" xml:space="preserve">
     <value>ofs</value>
@@ -26140,7 +26140,7 @@
     <value>like a lagoon or mechanical treatment</value>
   </data>
   <data name="PolSourceInfoEnumSewageOnSiteSystemHide" xml:space="preserve">
-    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14325,14326,14327,14328,14329</value>
+    <value>14301,14302,14303,14304,14305,14306,14307,14308,14309,14310,14311,14312,14313,14314,14315,14316,14317,14318,14319,14320,14321,14322,14323,14325,14326,14327,14328,14329,14330,14331,14332</value>
   </data>
   <data name="PolSourceInfoEnumSewageOnSiteSystemInit" xml:space="preserve">
     <value>ons</value>
