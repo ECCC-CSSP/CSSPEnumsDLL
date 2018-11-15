@@ -112,6 +112,7 @@ namespace CSSPEnumsDLL.Enums
         LoadHydrometricDataValue = 44,
         GenerateKMLFileClassificationForCSSPWebToolsVisualization = 45,
         ProvinceToolsGenerateStats = 46,
+        MikeScenarioResultCreateAndSave = 47,
     }
     public enum AppTaskStatusEnum
     {

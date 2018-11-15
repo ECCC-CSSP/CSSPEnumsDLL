@@ -257,6 +257,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumGenerateKMLFileClassificationForCSSPWebToolsVisualization;
                 case AppTaskCommandEnum.ProvinceToolsGenerateStats:
                     return BaseEnumServiceRes.AppTaskCommandEnumProvinceToolsGenerateStats;
+                case AppTaskCommandEnum.MikeScenarioResultCreateAndSave:
+                    return BaseEnumServiceRes.AppTaskCommandEnumMikeScenarioResultCreateAndSave;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3590,6 +3592,7 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.LoadHydrometricDataValue:
                 case AppTaskCommandEnum.GenerateKMLFileClassificationForCSSPWebToolsVisualization:
                 case AppTaskCommandEnum.ProvinceToolsGenerateStats:
+                case AppTaskCommandEnum.MikeScenarioResultCreateAndSave:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);

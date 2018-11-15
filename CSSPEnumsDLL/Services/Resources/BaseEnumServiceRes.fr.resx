@@ -2221,4 +2221,7 @@
   <data name="AppTaskCommandEnumProvinceToolsGenerateStats" xml:space="preserve">
     <value>Province Tools Generate Stats (fr)</value>
   </data>
+  <data name="AppTaskCommandEnumMikeScenarioResultCreateAndSave" xml:space="preserve">
+    <value>Mike scenario result create and save (fr)</value>
+  </data>
 </root>

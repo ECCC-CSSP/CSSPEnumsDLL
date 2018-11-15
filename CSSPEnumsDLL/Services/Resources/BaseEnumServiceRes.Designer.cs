@@ -683,6 +683,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Mike scenario result create and save.
+        /// </summary>
+        public static string AppTaskCommandEnumMikeScenarioResultCreateAndSave {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumMikeScenarioResultCreateAndSave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to MIKE Scenario Running.
         /// </summary>
         public static string AppTaskCommandEnumMikeScenarioRunning {
