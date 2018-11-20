@@ -424,8 +424,8 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.ProvinceToolsGenerateStats:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumProvinceToolsGenerateStats, retStr);
                             break;
-                        case AppTaskCommandEnum.MikeScenarioResultCreateAndSave:
-                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumMikeScenarioResultCreateAndSave, retStr);
+                        case AppTaskCommandEnum.MikeScenarioPrepareResults:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumMikeScenarioPrepareResults, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -4275,7 +4275,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.LoadHydrometricDataValue:
                         case AppTaskCommandEnum.GenerateKMLFileClassificationForCSSPWebToolsVisualization:
                         case AppTaskCommandEnum.ProvinceToolsGenerateStats:
-                        case AppTaskCommandEnum.MikeScenarioResultCreateAndSave:
+                        case AppTaskCommandEnum.MikeScenarioPrepareResults:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
