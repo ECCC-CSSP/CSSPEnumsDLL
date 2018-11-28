@@ -4276,6 +4276,24 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to SUBSECTOR_CSSP_LOGO.
+        /// </summary>
+        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_CSSP_LOGO {
+            get {
+                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_CSSP_LOGO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SUBSECTOR_ECCC_AND_SWCP_LOGO.
+        /// </summary>
+        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_ECCC_AND_SWCP_LOGO {
+            get {
+                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_ECCC_AND_SWCP_LOGO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to SUBSECTOR_FC_SUMMARY_STAT_ALL.
         /// </summary>
         public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_ALL {

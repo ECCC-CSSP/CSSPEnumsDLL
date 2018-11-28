@@ -1373,6 +1373,10 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_CONTACTS;
                 case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_INFRASTRUCTURE_DETAIL:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_INFRASTRUCTURE_DETAIL;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_ECCC_AND_SWCP_LOGO:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_ECCC_AND_SWCP_LOGO;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CSSP_LOGO:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_CSSP_LOGO;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -4397,6 +4401,8 @@ namespace CSSPEnumsDLL.Services
                 case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_MAP_INFRASTRUCTURE:
                 case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_CONTACTS:
                 case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_INFRASTRUCTURE_DETAIL:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_ECCC_AND_SWCP_LOGO:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CSSP_LOGO:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ReportGenerateObjectsKeyword);

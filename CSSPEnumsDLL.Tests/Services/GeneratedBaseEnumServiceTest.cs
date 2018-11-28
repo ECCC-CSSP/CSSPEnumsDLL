@@ -2345,6 +2345,12 @@ namespace CSSPEnumsDLL.Tests.Services
                         case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_INFRASTRUCTURE_DETAIL:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_INFRASTRUCTURE_DETAIL, retStr);
                             break;
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_ECCC_AND_SWCP_LOGO:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_ECCC_AND_SWCP_LOGO, retStr);
+                            break;
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CSSP_LOGO:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_CSSP_LOGO, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -5574,6 +5580,8 @@ namespace CSSPEnumsDLL.Tests.Services
                         case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_MAP_INFRASTRUCTURE:
                         case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_CONTACTS:
                         case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_INFRASTRUCTURE_DETAIL:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_ECCC_AND_SWCP_LOGO:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CSSP_LOGO:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

@@ -2718,4 +2718,10 @@
   <data name="AppTaskCommandEnumMikeScenarioPrepareResults" xml:space="preserve">
     <value>Mike scenario prepare results</value>
   </data>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_CSSP_LOGO" xml:space="preserve">
+    <value>SUBSECTOR_CSSP_LOGO</value>
+  </data>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_ECCC_AND_SWCP_LOGO" xml:space="preserve">
+    <value>SUBSECTOR_ECCC_AND_SWCP_LOGO</value>
+  </data>
 </root>

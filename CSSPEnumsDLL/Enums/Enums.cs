@@ -576,6 +576,8 @@ namespace CSSPEnumsDLL.Enums
         MUNICIPALITY_MAP_INFRASTRUCTURE = 18,
         MUNICIPALITY_CONTACTS = 19,
         MUNICIPALITY_INFRASTRUCTURE_DETAIL = 20,
+        SUBSECTOR_ECCC_AND_SWCP_LOGO = 21,
+        SUBSECTOR_CSSP_LOGO = 22,
     }
     public enum ReportSortingEnum
     {
