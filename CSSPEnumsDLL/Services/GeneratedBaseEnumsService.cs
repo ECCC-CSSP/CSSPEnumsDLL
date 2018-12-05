@@ -1367,16 +1367,28 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITIES:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES;
-                case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_MAP_INFRASTRUCTURE:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_MAP_INFRASTRUCTURE;
-                case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_CONTACTS:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_CONTACTS;
-                case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_INFRASTRUCTURE_DETAIL:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_INFRASTRUCTURE_DETAIL;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_CONTACTS:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_CONTACTS;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_ECCC_AND_SWCP_LOGO:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_ECCC_AND_SWCP_LOGO;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CSSP_LOGO:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_CSSP_LOGO;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CURRENT_CLASSIFICATION_AND_SAMPLING_LOCATION_MAP:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_CURRENT_CLASSIFICATION_AND_SAMPLING_LOCATION_MAP;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_LOCATIONS_MAP:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_LOCATIONS_MAP;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -4398,11 +4410,17 @@ namespace CSSPEnumsDLL.Services
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITIES:
-                case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_MAP_INFRASTRUCTURE:
-                case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_CONTACTS:
-                case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_INFRASTRUCTURE_DETAIL:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_CONTACTS:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_ECCC_AND_SWCP_LOGO:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CSSP_LOGO:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CURRENT_CLASSIFICATION_AND_SAMPLING_LOCATION_MAP:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_LOCATIONS_MAP:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ReportGenerateObjectsKeyword);

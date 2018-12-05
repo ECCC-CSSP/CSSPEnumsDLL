@@ -2336,20 +2336,38 @@ namespace CSSPEnumsDLL.Tests.Services
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITIES:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES, retStr);
                             break;
-                        case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_MAP_INFRASTRUCTURE:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_MAP_INFRASTRUCTURE, retStr);
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE, retStr);
                             break;
-                        case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_CONTACTS:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_CONTACTS, retStr);
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_CONTACTS:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_CONTACTS, retStr);
                             break;
-                        case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_INFRASTRUCTURE_DETAIL:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumMUNICIPALITY_INFRASTRUCTURE_DETAIL, retStr);
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL, retStr);
                             break;
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_ECCC_AND_SWCP_LOGO:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_ECCC_AND_SWCP_LOGO, retStr);
                             break;
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CSSP_LOGO:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_CSSP_LOGO, retStr);
+                            break;
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT, retStr);
+                            break;
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP, retStr);
+                            break;
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CURRENT_CLASSIFICATION_AND_SAMPLING_LOCATION_MAP:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_CURRENT_CLASSIFICATION_AND_SAMPLING_LOCATION_MAP, retStr);
+                            break;
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP, retStr);
+                            break;
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP, retStr);
+                            break;
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_LOCATIONS_MAP:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_LOCATIONS_MAP, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -5577,11 +5595,17 @@ namespace CSSPEnumsDLL.Tests.Services
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITIES:
-                        case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_MAP_INFRASTRUCTURE:
-                        case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_CONTACTS:
-                        case ReportGenerateObjectsKeywordEnum.MUNICIPALITY_INFRASTRUCTURE_DETAIL:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_CONTACTS:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_ECCC_AND_SWCP_LOGO:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CSSP_LOGO:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CURRENT_CLASSIFICATION_AND_SAMPLING_LOCATION_MAP:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_LOCATIONS_MAP:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

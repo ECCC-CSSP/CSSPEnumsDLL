@@ -85714,7 +85714,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Activities include a floating board-walk or a platform used for relaxation and  .
+        ///   Looks up a localized string similar to are no boat and activities include a floating board-walk or a platform used for relaxation and  .
         /// </summary>
         public static string PolSourceInfoEnumVesselCountNotApplicableReport {
             get {
@@ -89971,7 +89971,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to used for recreational purposes.  .
+        ///   Looks up a localized string similar to used for recreational purposes.  At this site there .
         /// </summary>
         public static string PolSourceInfoEnumWharfRecreationalReport {
             get {
