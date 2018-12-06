@@ -1341,34 +1341,28 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_WET;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_DRY:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_DRY;
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_MWQM_SITES:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_MWQM_SITES;
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES;
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES;
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_DATA_AVAILABILITY:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_DATA_AVAILABILITY;
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_INFORMATION:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_INFORMATION;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_FC_TABLE:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_FC_TABLE;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_SALINITY_TABLE:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_SALINITY_TABLE;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_TEMPERATURE_TABLE:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_TEMPERATURE_TABLE;
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR;
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR;
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITIES:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES;
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE;
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_MAP:
+                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_MAP;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_CONTACTS:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_CONTACTS;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL:
@@ -1377,14 +1371,10 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_ECCC_AND_SWCP_LOGO;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CSSP_LOGO:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_CSSP_LOGO;
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CURRENT_CLASSIFICATION_AND_SAMPLING_LOCATION_MAP:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_CURRENT_CLASSIFICATION_AND_SAMPLING_LOCATION_MAP;
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP:
-                    return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP:
                     return BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP;
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_LOCATIONS_MAP:
@@ -4397,28 +4387,23 @@ namespace CSSPEnumsDLL.Services
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_ALL:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_WET:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_DRY:
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_MWQM_SITES:
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES:
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES:
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_DATA_AVAILABILITY:
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_INFORMATION:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_FC_TABLE:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_SALINITY_TABLE:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_TEMPERATURE_TABLE:
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR:
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR:
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITIES:
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE:
+                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_MAP:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_CONTACTS:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_ECCC_AND_SWCP_LOGO:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CSSP_LOGO:
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CURRENT_CLASSIFICATION_AND_SAMPLING_LOCATION_MAP:
-                case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP:
                 case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_LOCATIONS_MAP:
                     return "";

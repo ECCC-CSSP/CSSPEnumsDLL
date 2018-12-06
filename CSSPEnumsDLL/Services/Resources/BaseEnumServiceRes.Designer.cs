@@ -4313,24 +4313,6 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to SUBSECTOR_MAP_ACTIVE_MWQM_SITES.
-        /// </summary>
-        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_MWQM_SITES {
-            get {
-                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_MWQM_SITES", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to SUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES.
-        /// </summary>
-        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES {
-            get {
-                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to SUBSECTOR_MUNICIPALITIES.
         /// </summary>
         public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES {
@@ -4358,21 +4340,11 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to SUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE.
-        /// </summary>
-        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE {
-            get {
-                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to SUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP.
         /// </summary>
-        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP {
+        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_MAP {
             get {
-                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP" +
-                        "", resourceCulture);
+                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_MAP", resourceCulture);
             }
         }
         

@@ -2029,12 +2029,6 @@
   <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_RE_EVALUATION_COVER_PAGE" xml:space="preserve">
     <value>SUBSECTOR_RE_EVALUATION_COVER_PAGE</value>
   </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_MWQM_SITES" xml:space="preserve">
-    <value>SUBSECTOR_MAP_ACTIVE_MWQM_SITES</value>
-  </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES" xml:space="preserve">
-    <value>SUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES</value>
-  </data>
   <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES" xml:space="preserve">
     <value>SUBSECTOR_MWQM_SITES</value>
   </data>
@@ -2233,11 +2227,8 @@
   <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL" xml:space="preserve">
     <value>SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL</value>
   </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE" xml:space="preserve">
-    <value>SUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE</value>
-  </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP" xml:space="preserve">
-    <value>SUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP</value>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_MAP" xml:space="preserve">
+    <value>SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_MAP</value>
   </data>
   <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_LOCATIONS_MAP" xml:space="preserve">
     <value>SUBSECTOR_POLLUTION_SOURCE_LOCATIONS_MAP</value>

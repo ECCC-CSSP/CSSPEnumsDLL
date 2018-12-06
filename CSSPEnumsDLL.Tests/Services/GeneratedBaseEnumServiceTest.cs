@@ -2297,23 +2297,17 @@ namespace CSSPEnumsDLL.Tests.Services
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_DRY:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_FC_SUMMARY_STAT_DRY, retStr);
                             break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_MWQM_SITES:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_MWQM_SITES, retStr);
-                            break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES, retStr);
-                            break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES, retStr);
-                            break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES, retStr);
-                            break;
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_DATA_AVAILABILITY:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_DATA_AVAILABILITY, retStr);
                             break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_INFORMATION:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_INFORMATION, retStr);
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR, retStr);
+                            break;
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR, retStr);
+                            break;
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR, retStr);
                             break;
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_FC_TABLE:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_FC_TABLE, retStr);
@@ -2324,20 +2318,17 @@ namespace CSSPEnumsDLL.Tests.Services
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_TEMPERATURE_TABLE:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_TEMPERATURE_TABLE, retStr);
                             break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR, retStr);
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES, retStr);
                             break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR, retStr);
-                            break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR, retStr);
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT, retStr);
                             break;
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITIES:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES, retStr);
                             break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE, retStr);
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_MAP:
+                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_MAP, retStr);
                             break;
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_CONTACTS:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_CONTACTS, retStr);
@@ -2351,17 +2342,11 @@ namespace CSSPEnumsDLL.Tests.Services
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CSSP_LOGO:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_CSSP_LOGO, retStr);
                             break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT, retStr);
-                            break;
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP, retStr);
                             break;
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CURRENT_CLASSIFICATION_AND_SAMPLING_LOCATION_MAP:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_CURRENT_CLASSIFICATION_AND_SAMPLING_LOCATION_MAP, retStr);
-                            break;
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP:
-                            Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP, retStr);
                             break;
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP:
                             Assert.AreEqual(BaseEnumServiceRes.ReportGenerateObjectsKeywordEnumSUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP, retStr);
@@ -5582,28 +5567,23 @@ namespace CSSPEnumsDLL.Tests.Services
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_ALL:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_WET:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_FC_SUMMARY_STAT_DRY:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_MWQM_SITES:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MAP_ACTIVE_POL_SOURCE_SITES:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_DATA_AVAILABILITY:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_INFORMATION:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_FC_TABLE:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_SALINITY_TABLE:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_TEMPERATURE_TABLE:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_RUNS_BY_YEAR:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SAMPLES_BY_YEAR:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MWQM_SITES_NUMBER_OF_SITES_BY_YEAR:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITIES:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_MAP_INFRASTRUCTURE:
+                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_MAP:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_CONTACTS:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_ECCC_AND_SWCP_LOGO:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CSSP_LOGO:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_SITES_COMPACT:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_CURRENT_CLASSIFICATION_AND_SAMPLING_LOCATION_MAP:
-                        case ReportGenerateObjectsKeywordEnum.SUBSECTOR_MUNICIPALITY_WWTP_COLLECTION_SYSTEM_MAP:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP:
                         case ReportGenerateObjectsKeywordEnum.SUBSECTOR_POLLUTION_SOURCE_LOCATIONS_MAP:
                             Assert.AreEqual("", retStr);
