@@ -169,6 +169,15 @@ namespace CSSPEnumsDLL.Enums
         public DisinfectionTypeEnum DisinfectionType { get; set; }
         public string DisinfectionTypeText { get; set; }
     }
+    public class DrogueTypeEnumTextOrdered
+    {
+        public DrogueTypeEnumTextOrdered()
+        {
+        }
+
+        public DrogueTypeEnum DrogueType { get; set; }
+        public string DrogueTypeText { get; set; }
+    }
     public class EmailTypeEnumTextOrdered
     {
         public EmailTypeEnumTextOrdered()

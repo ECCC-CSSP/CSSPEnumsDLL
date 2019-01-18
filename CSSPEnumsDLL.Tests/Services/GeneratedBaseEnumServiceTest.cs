@@ -69,14 +69,11 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AerationTypeEnum.Error:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
-                        case AerationTypeEnum.Diffuser:
-                            Assert.AreEqual(BaseEnumServiceRes.AerationTypeEnumDiffuser, retStr);
+                        case AerationTypeEnum.MechanicalAirLines:
+                            Assert.AreEqual(BaseEnumServiceRes.AerationTypeEnumMechanicalAirLines, retStr);
                             break;
-                        case AerationTypeEnum.Surface:
-                            Assert.AreEqual(BaseEnumServiceRes.AerationTypeEnumSurface, retStr);
-                            break;
-                        case AerationTypeEnum.NotApplicable:
-                            Assert.AreEqual(BaseEnumServiceRes.AerationTypeEnumNotApplicable, retStr);
+                        case AerationTypeEnum.MechanicalSurfaceMixers:
+                            Assert.AreEqual(BaseEnumServiceRes.AerationTypeEnumMechanicalSurfaceMixers, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -869,6 +866,38 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         case DisinfectionTypeEnum.ChlorinationWithDechlorinationSeasonal:
                             Assert.AreEqual(BaseEnumServiceRes.DisinfectionTypeEnumChlorinationWithDechlorinationSeasonal, retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_GetEnumText_DrogueTypeEnum_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+        
+                string retStr = baseEnumService.GetEnumText_DrogueTypeEnum(null);
+                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+        
+                for (int i = 0, count = Enum.GetNames(typeof(DrogueTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.GetEnumText_DrogueTypeEnum((DrogueTypeEnum)i);
+        
+                    switch ((DrogueTypeEnum)i)
+                    {
+                        case DrogueTypeEnum.Error:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                        case DrogueTypeEnum.SmallDrogue:
+                            Assert.AreEqual(BaseEnumServiceRes.DrogueTypeEnumSmallDrogue, retStr);
+                            break;
+                        case DrogueTypeEnum.LargeDrogue:
+                            Assert.AreEqual(BaseEnumServiceRes.DrogueTypeEnumLargeDrogue, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -4079,9 +4108,8 @@ namespace CSSPEnumsDLL.Tests.Services
                     switch ((AerationTypeEnum)i)
                     {
                         case AerationTypeEnum.Error:
-                        case AerationTypeEnum.Diffuser:
-                        case AerationTypeEnum.Surface:
-                        case AerationTypeEnum.NotApplicable:
+                        case AerationTypeEnum.MechanicalAirLines:
+                        case AerationTypeEnum.MechanicalSurfaceMixers:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
@@ -4610,6 +4638,34 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         default:
                             Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.DisinfectionType), retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_DrogueTypeOK_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+
+                string retStr = baseEnumService.DrogueTypeOK(null);
+                Assert.AreEqual("", retStr);
+
+                for (int i = 0, count = Enum.GetNames(typeof(DrogueTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.DrogueTypeOK((DrogueTypeEnum)i);
+
+                    switch ((DrogueTypeEnum)i)
+                    {
+                        case DrogueTypeEnum.Error:
+                        case DrogueTypeEnum.SmallDrogue:
+                        case DrogueTypeEnum.LargeDrogue:
+                            Assert.AreEqual("", retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.DrogueType), retStr);
                             break;
                     }
                 }

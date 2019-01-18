@@ -17,9 +17,8 @@ namespace CSSPEnumsDLL.Enums
     public enum AerationTypeEnum
     {
         Error = 0,
-        Diffuser = 1,
-        Surface = 2,
-        NotApplicable = 3,
+        MechanicalAirLines = 1,
+        MechanicalSurfaceMixers = 2,
     }
     public enum AlarmSystemTypeEnum
     {
@@ -214,6 +213,12 @@ namespace CSSPEnumsDLL.Enums
         UVSeasonal = 5,
         ChlorinationNoDechlorinationSeasonal = 6,
         ChlorinationWithDechlorinationSeasonal = 7,
+    }
+    public enum DrogueTypeEnum
+    {
+        Error = 0,
+        SmallDrogue = 1,
+        LargeDrogue = 2,
     }
     public enum EmailTypeEnum
     {

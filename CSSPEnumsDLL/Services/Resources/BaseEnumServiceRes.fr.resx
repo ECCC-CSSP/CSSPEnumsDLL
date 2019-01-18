@@ -132,11 +132,11 @@
   <data name="AerationType" xml:space="preserve">
     <value>AerationType</value>
   </data>
-  <data name="AerationTypeEnumDiffuser" xml:space="preserve">
-    <value>Diffuseur</value>
+  <data name="AerationTypeEnumMechanicalAirLines" xml:space="preserve">
+    <value>Ligne d'air méchanique</value>
   </data>
-  <data name="AerationTypeEnumSurface" xml:space="preserve">
-    <value>Surface</value>
+  <data name="AerationTypeEnumMechanicalSurfaceMixers" xml:space="preserve">
+    <value>Mélangeurs de surface mécaniques</value>
   </data>
   <data name="AlarmSystemType" xml:space="preserve">
     <value>AlarmSystemType</value>
@@ -2241,5 +2241,14 @@
   </data>
   <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP" xml:space="preserve">
     <value>SUBSECTOR_RECOMMENDED_CLASSIFICATION_MAP</value>
+  </data>
+  <data name="DrogueType" xml:space="preserve">
+    <value>Drogue Type (fr)</value>
+  </data>
+  <data name="DrogueTypeEnumLargeDrogue" xml:space="preserve">
+    <value>Large drogue (fr)</value>
+  </data>
+  <data name="DrogueTypeEnumSmallDrogue" xml:space="preserve">
+    <value>Small drogue (fr)</value>
   </data>
 </root>

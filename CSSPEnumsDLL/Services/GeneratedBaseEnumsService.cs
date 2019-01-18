@@ -42,12 +42,10 @@ namespace CSSPEnumsDLL.Services
             {
                 case AerationTypeEnum.Error:
                     return BaseEnumServiceRes.Empty;
-                case AerationTypeEnum.Diffuser:
-                    return BaseEnumServiceRes.AerationTypeEnumDiffuser;
-                case AerationTypeEnum.Surface:
-                    return BaseEnumServiceRes.AerationTypeEnumSurface;
-                case AerationTypeEnum.NotApplicable:
-                    return BaseEnumServiceRes.AerationTypeEnumNotApplicable;
+                case AerationTypeEnum.MechanicalAirLines:
+                    return BaseEnumServiceRes.AerationTypeEnumMechanicalAirLines;
+                case AerationTypeEnum.MechanicalSurfaceMixers:
+                    return BaseEnumServiceRes.AerationTypeEnumMechanicalSurfaceMixers;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -511,6 +509,23 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.DisinfectionTypeEnumChlorinationNoDechlorinationSeasonal;
                 case DisinfectionTypeEnum.ChlorinationWithDechlorinationSeasonal:
                     return BaseEnumServiceRes.DisinfectionTypeEnumChlorinationWithDechlorinationSeasonal;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
+        public string GetEnumText_DrogueTypeEnum(DrogueTypeEnum? drogueTypeE)
+        {
+            if (drogueTypeE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (drogueTypeE)
+            {
+                case DrogueTypeEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case DrogueTypeEnum.SmallDrogue:
+                    return BaseEnumServiceRes.DrogueTypeEnumSmallDrogue;
+                case DrogueTypeEnum.LargeDrogue:
+                    return BaseEnumServiceRes.DrogueTypeEnumLargeDrogue;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -2650,6 +2665,21 @@ namespace CSSPEnumsDLL.Services
 
             return DisinfectionTypeEnumTextOrderedList;
         }
+        public List<DrogueTypeEnumTextOrdered> GetDrogueTypeEnumTextOrderedList()
+        {
+            List<DrogueTypeEnumTextOrdered> DrogueTypeEnumTextOrderedList = new List<DrogueTypeEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(DrogueTypeEnum)).Count(); i < count; i++)
+            {
+                DrogueTypeEnumTextOrderedList.Add(new DrogueTypeEnumTextOrdered() { DrogueType = (DrogueTypeEnum)i, DrogueTypeText = GetEnumText_DrogueTypeEnum((DrogueTypeEnum)i) });
+            }
+
+            DrogueTypeEnumTextOrderedList = (from c in DrogueTypeEnumTextOrderedList
+                                              orderby c.DrogueTypeText
+                                              select c).ToList();
+
+            return DrogueTypeEnumTextOrderedList;
+        }
         public List<EmailTypeEnumTextOrdered> GetEmailTypeEnumTextOrderedList()
         {
             List<EmailTypeEnumTextOrdered> EmailTypeEnumTextOrderedList = new List<EmailTypeEnumTextOrdered>();
@@ -3458,9 +3488,8 @@ namespace CSSPEnumsDLL.Services
             switch ((AerationTypeEnum)aerationType)
             {
                 case AerationTypeEnum.Error:
-                case AerationTypeEnum.Diffuser:
-                case AerationTypeEnum.Surface:
-                case AerationTypeEnum.NotApplicable:
+                case AerationTypeEnum.MechanicalAirLines:
+                case AerationTypeEnum.MechanicalSurfaceMixers:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AerationType);
@@ -3793,6 +3822,21 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.DisinfectionType);
+            }
+        }
+        public string DrogueTypeOK(DrogueTypeEnum? drogueType)
+        {
+            if (drogueType == null)
+                return "";
+
+            switch ((DrogueTypeEnum)drogueType)
+            {
+                case DrogueTypeEnum.Error:
+                case DrogueTypeEnum.SmallDrogue:
+                case DrogueTypeEnum.LargeDrogue:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.DrogueType);
             }
         }
         public string EmailTypeOK(EmailTypeEnum? emailType)

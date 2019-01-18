@@ -115,11 +115,20 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Diffuser.
+        ///   Looks up a localized string similar to Mechanical Air Lines.
         /// </summary>
-        public static string AerationTypeEnumDiffuser {
+        public static string AerationTypeEnumMechanicalAirLines {
             get {
-                return ResourceManager.GetString("AerationTypeEnumDiffuser", resourceCulture);
+                return ResourceManager.GetString("AerationTypeEnumMechanicalAirLines", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mechanical Surface Mixers.
+        /// </summary>
+        public static string AerationTypeEnumMechanicalSurfaceMixers {
+            get {
+                return ResourceManager.GetString("AerationTypeEnumMechanicalSurfaceMixers", resourceCulture);
             }
         }
         
@@ -129,15 +138,6 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string AerationTypeEnumNotApplicable {
             get {
                 return ResourceManager.GetString("AerationTypeEnumNotApplicable", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Surface.
-        /// </summary>
-        public static string AerationTypeEnumSurface {
-            get {
-                return ResourceManager.GetString("AerationTypeEnumSurface", resourceCulture);
             }
         }
         
@@ -1536,6 +1536,33 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string DisinfectionTypeEnumUVSeasonal {
             get {
                 return ResourceManager.GetString("DisinfectionTypeEnumUVSeasonal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Drogue Type.
+        /// </summary>
+        public static string DrogueType {
+            get {
+                return ResourceManager.GetString("DrogueType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Large drogue.
+        /// </summary>
+        public static string DrogueTypeEnumLargeDrogue {
+            get {
+                return ResourceManager.GetString("DrogueTypeEnumLargeDrogue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Small drogue.
+        /// </summary>
+        public static string DrogueTypeEnumSmallDrogue {
+            get {
+                return ResourceManager.GetString("DrogueTypeEnumSmallDrogue", resourceCulture);
             }
         }
         
