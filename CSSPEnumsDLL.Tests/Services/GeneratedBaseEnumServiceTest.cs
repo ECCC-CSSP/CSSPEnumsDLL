@@ -3163,41 +3163,6 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
-        public void BaseEnumService_GetEnumText_SiteTypeEnum_Test()
-        {
-            foreach (CultureInfo culture in setupData.cultureListGood)
-            {
-                SetupTest(culture);
-        
-                string retStr = baseEnumService.GetEnumText_SiteTypeEnum(null);
-                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-        
-                for (int i = 0, count = Enum.GetNames(typeof(SiteTypeEnum)).Length; i < count; i++)
-                {
-                    retStr = baseEnumService.GetEnumText_SiteTypeEnum((SiteTypeEnum)i);
-        
-                    switch ((SiteTypeEnum)i)
-                    {
-                        case SiteTypeEnum.Error:
-                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-                            break;
-                        case SiteTypeEnum.Climate:
-                            Assert.AreEqual(BaseEnumServiceRes.SiteTypeEnumClimate, retStr);
-                            break;
-                        case SiteTypeEnum.Hydrometric:
-                            Assert.AreEqual(BaseEnumServiceRes.SiteTypeEnumHydrometric, retStr);
-                            break;
-                        case SiteTypeEnum.Tide:
-                            Assert.AreEqual(BaseEnumServiceRes.SiteTypeEnumTide, retStr);
-                            break;
-                        default:
-                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
-                            break;
-                    }
-                }
-            }
-        }
-        [TestMethod]
         public void BaseEnumService_GetEnumText_SpecialTableTypeEnum_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -3991,6 +3956,9 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         case TVTypeEnum.PolSourceSiteMikeScenario:
                             Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumPolSourceSiteMikeScenario, retStr);
+                            break;
+                        case TVTypeEnum.SubsectorTools:
+                            Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumSubsectorTools, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -6100,35 +6068,6 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
-        public void BaseEnumService_SiteTypeOK_Test()
-        {
-            foreach (CultureInfo culture in setupData.cultureListGood)
-            {
-                SetupTest(culture);
-
-                string retStr = baseEnumService.SiteTypeOK(null);
-                Assert.AreEqual("", retStr);
-
-                for (int i = 0, count = Enum.GetNames(typeof(SiteTypeEnum)).Length; i < count; i++)
-                {
-                    retStr = baseEnumService.SiteTypeOK((SiteTypeEnum)i);
-
-                    switch ((SiteTypeEnum)i)
-                    {
-                        case SiteTypeEnum.Error:
-                        case SiteTypeEnum.Climate:
-                        case SiteTypeEnum.Hydrometric:
-                        case SiteTypeEnum.Tide:
-                            Assert.AreEqual("", retStr);
-                            break;
-                        default:
-                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.SiteType), retStr);
-                            break;
-                    }
-                }
-            }
-        }
-        [TestMethod]
         public void BaseEnumService_SpecialTableTypeOK_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -6577,6 +6516,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case TVTypeEnum.ConditionallyRestricted:
                         case TVTypeEnum.OpenDataNational:
                         case TVTypeEnum.PolSourceSiteMikeScenario:
+                        case TVTypeEnum.SubsectorTools:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

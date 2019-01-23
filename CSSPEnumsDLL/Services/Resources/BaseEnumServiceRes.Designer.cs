@@ -7706,6 +7706,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Subsector Tools.
+        /// </summary>
+        public static string TVTypeEnumSubsectorTools {
+            get {
+                return ResourceManager.GetString("TVTypeEnumSubsectorTools", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Tel.
         /// </summary>
         public static string TVTypeEnumTel {

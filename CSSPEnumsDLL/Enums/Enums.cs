@@ -791,13 +791,6 @@ namespace CSSPEnumsDLL.Enums
         SequencingBatchReator = 4,
         OxidationDitch = 5,
     }
-    public enum SiteTypeEnum
-    {
-        Error = 0,
-        Climate = 1,
-        Hydrometric = 2,
-        Tide = 3,
-    }
     public enum SpecialTableTypeEnum
     {
         Error = 0,
@@ -1013,6 +1006,7 @@ namespace CSSPEnumsDLL.Enums
         ConditionallyRestricted = 84,
         OpenDataNational = 85,
         PolSourceSiteMikeScenario = 86,
+        SubsectorTools = 87,
     }
     public enum WebTideDataSetEnum
     {

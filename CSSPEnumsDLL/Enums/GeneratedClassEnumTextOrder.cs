@@ -529,15 +529,6 @@ namespace CSSPEnumsDLL.Enums
         public SecondaryTreatmentTypeEnum SecondaryTreatmentType { get; set; }
         public string SecondaryTreatmentTypeText { get; set; }
     }
-    public class SiteTypeEnumTextOrdered
-    {
-        public SiteTypeEnumTextOrdered()
-        {
-        }
-
-        public SiteTypeEnum SiteType { get; set; }
-        public string SiteTypeText { get; set; }
-    }
     public class SpecialTableTypeEnumTextOrdered
     {
         public SpecialTableTypeEnumTextOrdered()

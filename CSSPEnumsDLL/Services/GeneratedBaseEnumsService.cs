@@ -1865,25 +1865,6 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.Empty;
             }
         }
-        public string GetEnumText_SiteTypeEnum(SiteTypeEnum? siteTypeE)
-        {
-            if (siteTypeE == null)
-                return BaseEnumServiceRes.Empty;
-
-            switch (siteTypeE)
-            {
-                case SiteTypeEnum.Error:
-                    return BaseEnumServiceRes.Empty;
-                case SiteTypeEnum.Climate:
-                    return BaseEnumServiceRes.SiteTypeEnumClimate;
-                case SiteTypeEnum.Hydrometric:
-                    return BaseEnumServiceRes.SiteTypeEnumHydrometric;
-                case SiteTypeEnum.Tide:
-                    return BaseEnumServiceRes.SiteTypeEnumTide;
-                default:
-                    return BaseEnumServiceRes.Empty;
-            }
-        }
         public string GetEnumText_SpecialTableTypeEnum(SpecialTableTypeEnum? specialTableTypeE)
         {
             if (specialTableTypeE == null)
@@ -2367,6 +2348,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.TVTypeEnumOpenDataNational;
                 case TVTypeEnum.PolSourceSiteMikeScenario:
                     return BaseEnumServiceRes.TVTypeEnumPolSourceSiteMikeScenario;
+                case TVTypeEnum.SubsectorTools:
+                    return BaseEnumServiceRes.TVTypeEnumSubsectorTools;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3264,21 +3247,6 @@ namespace CSSPEnumsDLL.Services
                                               select c).ToList();
 
             return SecondaryTreatmentTypeEnumTextOrderedList;
-        }
-        public List<SiteTypeEnumTextOrdered> GetSiteTypeEnumTextOrderedList()
-        {
-            List<SiteTypeEnumTextOrdered> SiteTypeEnumTextOrderedList = new List<SiteTypeEnumTextOrdered>();
-
-            for (int i = 1, count = Enum.GetNames(typeof(SiteTypeEnum)).Count(); i < count; i++)
-            {
-                SiteTypeEnumTextOrderedList.Add(new SiteTypeEnumTextOrdered() { SiteType = (SiteTypeEnum)i, SiteTypeText = GetEnumText_SiteTypeEnum((SiteTypeEnum)i) });
-            }
-
-            SiteTypeEnumTextOrderedList = (from c in SiteTypeEnumTextOrderedList
-                                              orderby c.SiteTypeText
-                                              select c).ToList();
-
-            return SiteTypeEnumTextOrderedList;
         }
         public List<SpecialTableTypeEnumTextOrdered> GetSpecialTableTypeEnumTextOrderedList()
         {
@@ -4760,22 +4728,6 @@ namespace CSSPEnumsDLL.Services
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.SecondaryTreatmentType);
             }
         }
-        public string SiteTypeOK(SiteTypeEnum? siteType)
-        {
-            if (siteType == null)
-                return "";
-
-            switch ((SiteTypeEnum)siteType)
-            {
-                case SiteTypeEnum.Error:
-                case SiteTypeEnum.Climate:
-                case SiteTypeEnum.Hydrometric:
-                case SiteTypeEnum.Tide:
-                    return "";
-                default:
-                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.SiteType);
-            }
-        }
         public string SpecialTableTypeOK(SpecialTableTypeEnum? specialTableType)
         {
             if (specialTableType == null)
@@ -5086,6 +5038,7 @@ namespace CSSPEnumsDLL.Services
                 case TVTypeEnum.ConditionallyRestricted:
                 case TVTypeEnum.OpenDataNational:
                 case TVTypeEnum.PolSourceSiteMikeScenario:
+                case TVTypeEnum.SubsectorTools:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.TVType);

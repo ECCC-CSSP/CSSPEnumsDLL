@@ -2742,4 +2742,7 @@
   <data name="DrogueTypeEnumSmallDrogue" xml:space="preserve">
     <value>Small drogue</value>
   </data>
+  <data name="TVTypeEnumSubsectorTools" xml:space="preserve">
+    <value>Subsector Tools</value>
+  </data>
 </root>
