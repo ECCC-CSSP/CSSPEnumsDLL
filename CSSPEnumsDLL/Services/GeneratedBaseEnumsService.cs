@@ -1861,6 +1861,26 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.SecondaryTreatmentTypeEnumSequencingBatchReator;
                 case SecondaryTreatmentTypeEnum.OxidationDitch:
                     return BaseEnumServiceRes.SecondaryTreatmentTypeEnumOxidationDitch;
+                case SecondaryTreatmentTypeEnum.ExtendedAeration:
+                    return BaseEnumServiceRes.SecondaryTreatmentTypeEnumExtendedAeration;
+                case SecondaryTreatmentTypeEnum.ContactStabilization:
+                    return BaseEnumServiceRes.SecondaryTreatmentTypeEnumContactStabilization;
+                case SecondaryTreatmentTypeEnum.PhysicalChemicalProcesses:
+                    return BaseEnumServiceRes.SecondaryTreatmentTypeEnumPhysicalChemicalProcesses;
+                case SecondaryTreatmentTypeEnum.MechanicalMixer:
+                    return BaseEnumServiceRes.SecondaryTreatmentTypeEnumMechanicalMixer;
+                case SecondaryTreatmentTypeEnum.MovingBedBioReactor:
+                    return BaseEnumServiceRes.SecondaryTreatmentTypeEnumMovingBedBioReactor;
+                case SecondaryTreatmentTypeEnum.BiologicalAearatedFilters:
+                    return BaseEnumServiceRes.SecondaryTreatmentTypeEnumBiologicalAearatedFilters;
+                case SecondaryTreatmentTypeEnum.AeratedSubmergedBioFilmReactor:
+                    return BaseEnumServiceRes.SecondaryTreatmentTypeEnumAeratedSubmergedBioFilmReactor;
+                case SecondaryTreatmentTypeEnum.IntegratedFixedFilmActivatedSludge:
+                    return BaseEnumServiceRes.SecondaryTreatmentTypeEnumIntegratedFixedFilmActivatedSludge;
+                case SecondaryTreatmentTypeEnum.ActivatedSludge:
+                    return BaseEnumServiceRes.SecondaryTreatmentTypeEnumActivatedSludge;
+                case SecondaryTreatmentTypeEnum.ExtendedActivatedSludge:
+                    return BaseEnumServiceRes.SecondaryTreatmentTypeEnumExtendedActivatedSludge;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -4723,6 +4743,16 @@ namespace CSSPEnumsDLL.Services
                 case SecondaryTreatmentTypeEnum.TricklingFilters:
                 case SecondaryTreatmentTypeEnum.SequencingBatchReator:
                 case SecondaryTreatmentTypeEnum.OxidationDitch:
+                case SecondaryTreatmentTypeEnum.ExtendedAeration:
+                case SecondaryTreatmentTypeEnum.ContactStabilization:
+                case SecondaryTreatmentTypeEnum.PhysicalChemicalProcesses:
+                case SecondaryTreatmentTypeEnum.MechanicalMixer:
+                case SecondaryTreatmentTypeEnum.MovingBedBioReactor:
+                case SecondaryTreatmentTypeEnum.BiologicalAearatedFilters:
+                case SecondaryTreatmentTypeEnum.AeratedSubmergedBioFilmReactor:
+                case SecondaryTreatmentTypeEnum.IntegratedFixedFilmActivatedSludge:
+                case SecondaryTreatmentTypeEnum.ActivatedSludge:
+                case SecondaryTreatmentTypeEnum.ExtendedActivatedSludge:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.SecondaryTreatmentType);

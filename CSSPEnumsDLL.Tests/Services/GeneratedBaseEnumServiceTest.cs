@@ -3155,6 +3155,36 @@ namespace CSSPEnumsDLL.Tests.Services
                         case SecondaryTreatmentTypeEnum.OxidationDitch:
                             Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumOxidationDitch, retStr);
                             break;
+                        case SecondaryTreatmentTypeEnum.ExtendedAeration:
+                            Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumExtendedAeration, retStr);
+                            break;
+                        case SecondaryTreatmentTypeEnum.ContactStabilization:
+                            Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumContactStabilization, retStr);
+                            break;
+                        case SecondaryTreatmentTypeEnum.PhysicalChemicalProcesses:
+                            Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumPhysicalChemicalProcesses, retStr);
+                            break;
+                        case SecondaryTreatmentTypeEnum.MechanicalMixer:
+                            Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumMechanicalMixer, retStr);
+                            break;
+                        case SecondaryTreatmentTypeEnum.MovingBedBioReactor:
+                            Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumMovingBedBioReactor, retStr);
+                            break;
+                        case SecondaryTreatmentTypeEnum.BiologicalAearatedFilters:
+                            Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumBiologicalAearatedFilters, retStr);
+                            break;
+                        case SecondaryTreatmentTypeEnum.AeratedSubmergedBioFilmReactor:
+                            Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumAeratedSubmergedBioFilmReactor, retStr);
+                            break;
+                        case SecondaryTreatmentTypeEnum.IntegratedFixedFilmActivatedSludge:
+                            Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumIntegratedFixedFilmActivatedSludge, retStr);
+                            break;
+                        case SecondaryTreatmentTypeEnum.ActivatedSludge:
+                            Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumActivatedSludge, retStr);
+                            break;
+                        case SecondaryTreatmentTypeEnum.ExtendedActivatedSludge:
+                            Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumExtendedActivatedSludge, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -6058,6 +6088,16 @@ namespace CSSPEnumsDLL.Tests.Services
                         case SecondaryTreatmentTypeEnum.TricklingFilters:
                         case SecondaryTreatmentTypeEnum.SequencingBatchReator:
                         case SecondaryTreatmentTypeEnum.OxidationDitch:
+                        case SecondaryTreatmentTypeEnum.ExtendedAeration:
+                        case SecondaryTreatmentTypeEnum.ContactStabilization:
+                        case SecondaryTreatmentTypeEnum.PhysicalChemicalProcesses:
+                        case SecondaryTreatmentTypeEnum.MechanicalMixer:
+                        case SecondaryTreatmentTypeEnum.MovingBedBioReactor:
+                        case SecondaryTreatmentTypeEnum.BiologicalAearatedFilters:
+                        case SecondaryTreatmentTypeEnum.AeratedSubmergedBioFilmReactor:
+                        case SecondaryTreatmentTypeEnum.IntegratedFixedFilmActivatedSludge:
+                        case SecondaryTreatmentTypeEnum.ActivatedSludge:
+                        case SecondaryTreatmentTypeEnum.ExtendedActivatedSludge:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

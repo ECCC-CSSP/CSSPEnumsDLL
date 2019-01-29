@@ -2745,4 +2745,34 @@
   <data name="TVTypeEnumSubsectorTools" xml:space="preserve">
     <value>Subsector Tools</value>
   </data>
+  <data name="SecondaryTreatmentTypeEnumActivatedSludge" xml:space="preserve">
+    <value>Activated Sludge</value>
+  </data>
+  <data name="SecondaryTreatmentTypeEnumAeratedSubmergedBioFilmReactor" xml:space="preserve">
+    <value>Aerated Submerged Bio Film Reactor</value>
+  </data>
+  <data name="SecondaryTreatmentTypeEnumBiologicalAearatedFilters" xml:space="preserve">
+    <value>Biological Aearated Filters</value>
+  </data>
+  <data name="SecondaryTreatmentTypeEnumContactStabilization" xml:space="preserve">
+    <value>Contact Stabilization</value>
+  </data>
+  <data name="SecondaryTreatmentTypeEnumExtendedActivatedSludge" xml:space="preserve">
+    <value>Extended Activated Sludge</value>
+  </data>
+  <data name="SecondaryTreatmentTypeEnumExtendedAeration" xml:space="preserve">
+    <value>Extended Aeration</value>
+  </data>
+  <data name="SecondaryTreatmentTypeEnumIntegratedFixedFilmActivatedSludge" xml:space="preserve">
+    <value>Integrated Fixed Film Activated Sludge</value>
+  </data>
+  <data name="SecondaryTreatmentTypeEnumMechanicalMixer" xml:space="preserve">
+    <value>Mechanical Mixer</value>
+  </data>
+  <data name="SecondaryTreatmentTypeEnumMovingBedBioReactor" xml:space="preserve">
+    <value>Moving Bed Bio Reactor</value>
+  </data>
+  <data name="SecondaryTreatmentTypeEnumPhysicalChemicalProcesses" xml:space="preserve">
+    <value>Physical-Chemical Processes</value>
+  </data>
 </root>

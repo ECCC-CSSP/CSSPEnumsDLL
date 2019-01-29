@@ -6032,6 +6032,87 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Activated Sludge.
+        /// </summary>
+        public static string SecondaryTreatmentTypeEnumActivatedSludge {
+            get {
+                return ResourceManager.GetString("SecondaryTreatmentTypeEnumActivatedSludge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Aerated Submerged Bio Film Reactor.
+        /// </summary>
+        public static string SecondaryTreatmentTypeEnumAeratedSubmergedBioFilmReactor {
+            get {
+                return ResourceManager.GetString("SecondaryTreatmentTypeEnumAeratedSubmergedBioFilmReactor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Biological Aearated Filters.
+        /// </summary>
+        public static string SecondaryTreatmentTypeEnumBiologicalAearatedFilters {
+            get {
+                return ResourceManager.GetString("SecondaryTreatmentTypeEnumBiologicalAearatedFilters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contact Stabilization.
+        /// </summary>
+        public static string SecondaryTreatmentTypeEnumContactStabilization {
+            get {
+                return ResourceManager.GetString("SecondaryTreatmentTypeEnumContactStabilization", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Extended Activated Sludge.
+        /// </summary>
+        public static string SecondaryTreatmentTypeEnumExtendedActivatedSludge {
+            get {
+                return ResourceManager.GetString("SecondaryTreatmentTypeEnumExtendedActivatedSludge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Extended Aeration.
+        /// </summary>
+        public static string SecondaryTreatmentTypeEnumExtendedAeration {
+            get {
+                return ResourceManager.GetString("SecondaryTreatmentTypeEnumExtendedAeration", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Integrated Fixed Film Activated Sludge.
+        /// </summary>
+        public static string SecondaryTreatmentTypeEnumIntegratedFixedFilmActivatedSludge {
+            get {
+                return ResourceManager.GetString("SecondaryTreatmentTypeEnumIntegratedFixedFilmActivatedSludge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mechanical Mixer.
+        /// </summary>
+        public static string SecondaryTreatmentTypeEnumMechanicalMixer {
+            get {
+                return ResourceManager.GetString("SecondaryTreatmentTypeEnumMechanicalMixer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Moving Bed Bio Reactor.
+        /// </summary>
+        public static string SecondaryTreatmentTypeEnumMovingBedBioReactor {
+            get {
+                return ResourceManager.GetString("SecondaryTreatmentTypeEnumMovingBedBioReactor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Not applicable.
         /// </summary>
         public static string SecondaryTreatmentTypeEnumNotApplicable {
@@ -6046,6 +6127,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string SecondaryTreatmentTypeEnumOxidationDitch {
             get {
                 return ResourceManager.GetString("SecondaryTreatmentTypeEnumOxidationDitch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Physical-Chemical Processes.
+        /// </summary>
+        public static string SecondaryTreatmentTypeEnumPhysicalChemicalProcesses {
+            get {
+                return ResourceManager.GetString("SecondaryTreatmentTypeEnumPhysicalChemicalProcesses", resourceCulture);
             }
         }
         
