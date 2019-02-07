@@ -731,8 +731,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.InfrastructureTypeEnumLiftStation;
                 case InfrastructureTypeEnum.Other:
                     return BaseEnumServiceRes.InfrastructureTypeEnumOther;
-                case InfrastructureTypeEnum.SeeOther:
-                    return BaseEnumServiceRes.InfrastructureTypeEnumSeeOther;
+                case InfrastructureTypeEnum.SeeOtherMunicipality:
+                    return BaseEnumServiceRes.InfrastructureTypeEnumSeeOtherMunicipality;
                 case InfrastructureTypeEnum.LineOverflow:
                     return BaseEnumServiceRes.InfrastructureTypeEnumLineOverflow;
                 default:
@@ -1867,8 +1867,6 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.SecondaryTreatmentTypeEnumContactStabilization;
                 case SecondaryTreatmentTypeEnum.PhysicalChemicalProcesses:
                     return BaseEnumServiceRes.SecondaryTreatmentTypeEnumPhysicalChemicalProcesses;
-                case SecondaryTreatmentTypeEnum.MechanicalMixer:
-                    return BaseEnumServiceRes.SecondaryTreatmentTypeEnumMechanicalMixer;
                 case SecondaryTreatmentTypeEnum.MovingBedBioReactor:
                     return BaseEnumServiceRes.SecondaryTreatmentTypeEnumMovingBedBioReactor;
                 case SecondaryTreatmentTypeEnum.BiologicalAearatedFilters:
@@ -2276,8 +2274,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.TVTypeEnumWebTideNode;
                 case TVTypeEnum.SamplingPlan:
                     return BaseEnumServiceRes.TVTypeEnumSamplingPlan;
-                case TVTypeEnum.SeeOther:
-                    return BaseEnumServiceRes.TVTypeEnumSeeOther;
+                case TVTypeEnum.SeeOtherMunicipality:
+                    return BaseEnumServiceRes.TVTypeEnumSeeOtherMunicipality;
                 case TVTypeEnum.LineOverflow:
                     return BaseEnumServiceRes.TVTypeEnumLineOverflow;
                 case TVTypeEnum.BoxModelInputs:
@@ -3970,7 +3968,7 @@ namespace CSSPEnumsDLL.Services
                 case InfrastructureTypeEnum.WWTP:
                 case InfrastructureTypeEnum.LiftStation:
                 case InfrastructureTypeEnum.Other:
-                case InfrastructureTypeEnum.SeeOther:
+                case InfrastructureTypeEnum.SeeOtherMunicipality:
                 case InfrastructureTypeEnum.LineOverflow:
                     return "";
                 default:
@@ -4746,7 +4744,6 @@ namespace CSSPEnumsDLL.Services
                 case SecondaryTreatmentTypeEnum.ExtendedAeration:
                 case SecondaryTreatmentTypeEnum.ContactStabilization:
                 case SecondaryTreatmentTypeEnum.PhysicalChemicalProcesses:
-                case SecondaryTreatmentTypeEnum.MechanicalMixer:
                 case SecondaryTreatmentTypeEnum.MovingBedBioReactor:
                 case SecondaryTreatmentTypeEnum.BiologicalAearatedFilters:
                 case SecondaryTreatmentTypeEnum.AeratedSubmergedBioFilmReactor:
@@ -5022,7 +5019,7 @@ namespace CSSPEnumsDLL.Services
                 case TVTypeEnum.MeshNode:
                 case TVTypeEnum.WebTideNode:
                 case TVTypeEnum.SamplingPlan:
-                case TVTypeEnum.SeeOther:
+                case TVTypeEnum.SeeOtherMunicipality:
                 case TVTypeEnum.LineOverflow:
                 case TVTypeEnum.BoxModelInputs:
                 case TVTypeEnum.BoxModelResults:

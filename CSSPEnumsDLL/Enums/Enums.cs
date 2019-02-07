@@ -304,7 +304,7 @@ namespace CSSPEnumsDLL.Enums
         WWTP = 1,
         LiftStation = 2,
         Other = 3,
-        SeeOther = 4,
+        SeeOtherMunicipality = 4,
         LineOverflow = 5,
     }
     public enum KMZActionEnum
@@ -793,7 +793,7 @@ namespace CSSPEnumsDLL.Enums
         ExtendedAeration = 6,
         ContactStabilization = 7,
         PhysicalChemicalProcesses = 8,
-        MechanicalMixer = 9,
+        //MechanicalMixer = 9,
         MovingBedBioReactor = 10,
         BiologicalAearatedFilters = 11,
         AeratedSubmergedBioFilmReactor = 12,
@@ -970,7 +970,7 @@ namespace CSSPEnumsDLL.Enums
         MeshNode = 38,
         WebTideNode = 39,
         SamplingPlan = 40,
-        SeeOther = 41,
+        SeeOtherMunicipality = 41,
         LineOverflow = 42,
         BoxModelInputs = 43,
         BoxModelResults = 44,

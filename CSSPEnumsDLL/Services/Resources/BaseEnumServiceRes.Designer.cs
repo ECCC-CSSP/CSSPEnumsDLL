@@ -2512,11 +2512,11 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to See other.
+        ///   Looks up a localized string similar to See other municipality.
         /// </summary>
-        public static string InfrastructureTypeEnumSeeOther {
+        public static string InfrastructureTypeEnumSeeOtherMunicipality {
             get {
-                return ResourceManager.GetString("InfrastructureTypeEnumSeeOther", resourceCulture);
+                return ResourceManager.GetString("InfrastructureTypeEnumSeeOtherMunicipality", resourceCulture);
             }
         }
         
@@ -7769,11 +7769,11 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to See other.
+        ///   Looks up a localized string similar to See other municipality.
         /// </summary>
-        public static string TVTypeEnumSeeOther {
+        public static string TVTypeEnumSeeOtherMunicipality {
             get {
-                return ResourceManager.GetString("TVTypeEnumSeeOther", resourceCulture);
+                return ResourceManager.GetString("TVTypeEnumSeeOtherMunicipality", resourceCulture);
             }
         }
         

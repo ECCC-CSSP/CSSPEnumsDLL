@@ -705,8 +705,8 @@
   <data name="InfrastructureTypeEnumOther" xml:space="preserve">
     <value>Autre</value>
   </data>
-  <data name="InfrastructureTypeEnumSeeOther" xml:space="preserve">
-    <value>Voir autre</value>
+  <data name="InfrastructureTypeEnumSeeOtherMunicipality" xml:space="preserve">
+    <value>Voir autre municipalité</value>
   </data>
   <data name="InfrastructureTypeEnumWWTP" xml:space="preserve">
     <value>UTEU</value>
@@ -1455,8 +1455,8 @@
   <data name="TVTypeEnumSector" xml:space="preserve">
     <value>Secteur</value>
   </data>
-  <data name="TVTypeEnumSeeOther" xml:space="preserve">
-    <value>Voir autre</value>
+  <data name="TVTypeEnumSeeOtherMunicipality" xml:space="preserve">
+    <value>Voir autre municipalité</value>
   </data>
   <data name="TVTypeEnumSpill" xml:space="preserve">
     <value>Déversement</value>

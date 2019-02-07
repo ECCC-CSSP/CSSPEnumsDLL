@@ -1252,8 +1252,8 @@ namespace CSSPEnumsDLL.Tests.Services
                         case InfrastructureTypeEnum.Other:
                             Assert.AreEqual(BaseEnumServiceRes.InfrastructureTypeEnumOther, retStr);
                             break;
-                        case InfrastructureTypeEnum.SeeOther:
-                            Assert.AreEqual(BaseEnumServiceRes.InfrastructureTypeEnumSeeOther, retStr);
+                        case InfrastructureTypeEnum.SeeOtherMunicipality:
+                            Assert.AreEqual(BaseEnumServiceRes.InfrastructureTypeEnumSeeOtherMunicipality, retStr);
                             break;
                         case InfrastructureTypeEnum.LineOverflow:
                             Assert.AreEqual(BaseEnumServiceRes.InfrastructureTypeEnumLineOverflow, retStr);
@@ -3164,9 +3164,6 @@ namespace CSSPEnumsDLL.Tests.Services
                         case SecondaryTreatmentTypeEnum.PhysicalChemicalProcesses:
                             Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumPhysicalChemicalProcesses, retStr);
                             break;
-                        case SecondaryTreatmentTypeEnum.MechanicalMixer:
-                            Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumMechanicalMixer, retStr);
-                            break;
                         case SecondaryTreatmentTypeEnum.MovingBedBioReactor:
                             Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumMovingBedBioReactor, retStr);
                             break;
@@ -3849,8 +3846,8 @@ namespace CSSPEnumsDLL.Tests.Services
                         case TVTypeEnum.SamplingPlan:
                             Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumSamplingPlan, retStr);
                             break;
-                        case TVTypeEnum.SeeOther:
-                            Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumSeeOther, retStr);
+                        case TVTypeEnum.SeeOtherMunicipality:
+                            Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumSeeOtherMunicipality, retStr);
                             break;
                         case TVTypeEnum.LineOverflow:
                             Assert.AreEqual(BaseEnumServiceRes.TVTypeEnumLineOverflow, retStr);
@@ -4899,7 +4896,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case InfrastructureTypeEnum.WWTP:
                         case InfrastructureTypeEnum.LiftStation:
                         case InfrastructureTypeEnum.Other:
-                        case InfrastructureTypeEnum.SeeOther:
+                        case InfrastructureTypeEnum.SeeOtherMunicipality:
                         case InfrastructureTypeEnum.LineOverflow:
                             Assert.AreEqual("", retStr);
                             break;
@@ -6091,7 +6088,6 @@ namespace CSSPEnumsDLL.Tests.Services
                         case SecondaryTreatmentTypeEnum.ExtendedAeration:
                         case SecondaryTreatmentTypeEnum.ContactStabilization:
                         case SecondaryTreatmentTypeEnum.PhysicalChemicalProcesses:
-                        case SecondaryTreatmentTypeEnum.MechanicalMixer:
                         case SecondaryTreatmentTypeEnum.MovingBedBioReactor:
                         case SecondaryTreatmentTypeEnum.BiologicalAearatedFilters:
                         case SecondaryTreatmentTypeEnum.AeratedSubmergedBioFilmReactor:
@@ -6510,7 +6506,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case TVTypeEnum.MeshNode:
                         case TVTypeEnum.WebTideNode:
                         case TVTypeEnum.SamplingPlan:
-                        case TVTypeEnum.SeeOther:
+                        case TVTypeEnum.SeeOtherMunicipality:
                         case TVTypeEnum.LineOverflow:
                         case TVTypeEnum.BoxModelInputs:
                         case TVTypeEnum.BoxModelResults:

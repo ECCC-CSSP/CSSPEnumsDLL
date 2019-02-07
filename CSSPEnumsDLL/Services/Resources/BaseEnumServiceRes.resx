@@ -708,8 +708,8 @@
   <data name="InfrastructureTypeEnumOther" xml:space="preserve">
     <value>Other</value>
   </data>
-  <data name="InfrastructureTypeEnumSeeOther" xml:space="preserve">
-    <value>See other</value>
+  <data name="InfrastructureTypeEnumSeeOtherMunicipality" xml:space="preserve">
+    <value>See other municipality</value>
   </data>
   <data name="InfrastructureTypeEnumWWTP" xml:space="preserve">
     <value>WWTP</value>
@@ -1914,8 +1914,8 @@
   <data name="TVTypeEnumSector" xml:space="preserve">
     <value>Sector</value>
   </data>
-  <data name="TVTypeEnumSeeOther" xml:space="preserve">
-    <value>See other</value>
+  <data name="TVTypeEnumSeeOtherMunicipality" xml:space="preserve">
+    <value>See other municipality</value>
   </data>
   <data name="TVTypeEnumSpill" xml:space="preserve">
     <value>Spill</value>
