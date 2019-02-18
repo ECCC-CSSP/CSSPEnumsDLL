@@ -3394,6 +3394,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Mechanical screening.
+        /// </summary>
+        public static string PreliminaryTreatmentTypeEnumMechanicalScreening {
+            get {
+                return ResourceManager.GetString("PreliminaryTreatmentTypeEnumMechanicalScreening", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Not applicable.
         /// </summary>
         public static string PreliminaryTreatmentTypeEnumNotApplicable {
@@ -3435,6 +3444,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string PrimaryTreatmentTypeEnumNotApplicable {
             get {
                 return ResourceManager.GetString("PrimaryTreatmentTypeEnumNotApplicable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Primary clarification.
+        /// </summary>
+        public static string PrimaryTreatmentTypeEnumPrimaryClarification {
+            get {
+                return ResourceManager.GetString("PrimaryTreatmentTypeEnumPrimaryClarification", resourceCulture);
             }
         }
         

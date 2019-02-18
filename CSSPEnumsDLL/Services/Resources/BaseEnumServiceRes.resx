@@ -2775,4 +2775,10 @@
   <data name="SecondaryTreatmentTypeEnumPhysicalChemicalProcesses" xml:space="preserve">
     <value>Physical-Chemical Processes</value>
   </data>
+  <data name="PreliminaryTreatmentTypeEnumMechanicalScreening" xml:space="preserve">
+    <value>Mechanical screening</value>
+  </data>
+  <data name="PrimaryTreatmentTypeEnumPrimaryClarification" xml:space="preserve">
+    <value>Primary clarification</value>
+  </data>
 </root>

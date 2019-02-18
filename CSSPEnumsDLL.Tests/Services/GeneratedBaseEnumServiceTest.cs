@@ -1865,6 +1865,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case PreliminaryTreatmentTypeEnum.Grinder:
                             Assert.AreEqual(BaseEnumServiceRes.PreliminaryTreatmentTypeEnumGrinder, retStr);
                             break;
+                        case PreliminaryTreatmentTypeEnum.MechanicalScreening:
+                            Assert.AreEqual(BaseEnumServiceRes.PreliminaryTreatmentTypeEnumMechanicalScreening, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -1902,6 +1905,9 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         case PrimaryTreatmentTypeEnum.Filtration:
                             Assert.AreEqual(BaseEnumServiceRes.PrimaryTreatmentTypeEnumFiltration, retStr);
+                            break;
+                        case PrimaryTreatmentTypeEnum.PrimaryClarification:
+                            Assert.AreEqual(BaseEnumServiceRes.PrimaryTreatmentTypeEnumPrimaryClarification, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -5343,6 +5349,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case PreliminaryTreatmentTypeEnum.NotApplicable:
                         case PreliminaryTreatmentTypeEnum.BarScreen:
                         case PreliminaryTreatmentTypeEnum.Grinder:
+                        case PreliminaryTreatmentTypeEnum.MechanicalScreening:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
@@ -5373,6 +5380,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case PrimaryTreatmentTypeEnum.Sedimentation:
                         case PrimaryTreatmentTypeEnum.ChemicalCoagulation:
                         case PrimaryTreatmentTypeEnum.Filtration:
+                        case PrimaryTreatmentTypeEnum.PrimaryClarification:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

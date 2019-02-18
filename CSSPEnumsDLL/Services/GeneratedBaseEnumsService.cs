@@ -1079,6 +1079,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.PreliminaryTreatmentTypeEnumBarScreen;
                 case PreliminaryTreatmentTypeEnum.Grinder:
                     return BaseEnumServiceRes.PreliminaryTreatmentTypeEnumGrinder;
+                case PreliminaryTreatmentTypeEnum.MechanicalScreening:
+                    return BaseEnumServiceRes.PreliminaryTreatmentTypeEnumMechanicalScreening;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -1100,6 +1102,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.PrimaryTreatmentTypeEnumChemicalCoagulation;
                 case PrimaryTreatmentTypeEnum.Filtration:
                     return BaseEnumServiceRes.PrimaryTreatmentTypeEnumFiltration;
+                case PrimaryTreatmentTypeEnum.PrimaryClarification:
+                    return BaseEnumServiceRes.PrimaryTreatmentTypeEnumPrimaryClarification;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -4233,6 +4237,7 @@ namespace CSSPEnumsDLL.Services
                 case PreliminaryTreatmentTypeEnum.NotApplicable:
                 case PreliminaryTreatmentTypeEnum.BarScreen:
                 case PreliminaryTreatmentTypeEnum.Grinder:
+                case PreliminaryTreatmentTypeEnum.MechanicalScreening:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.PreliminaryTreatmentType);
@@ -4250,6 +4255,7 @@ namespace CSSPEnumsDLL.Services
                 case PrimaryTreatmentTypeEnum.Sedimentation:
                 case PrimaryTreatmentTypeEnum.ChemicalCoagulation:
                 case PrimaryTreatmentTypeEnum.Filtration:
+                case PrimaryTreatmentTypeEnum.PrimaryClarification:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.PrimaryTreatmentType);
