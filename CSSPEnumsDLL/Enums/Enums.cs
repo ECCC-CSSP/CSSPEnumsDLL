@@ -717,7 +717,7 @@ namespace CSSPEnumsDLL.Enums
         Infrastructure = 102,
         IntertechDuplicate = 103,
         IntertechRead = 104,
-        RainCMPRoutine = 105,
+        RainCMP = 105,
         RainRun = 106,
         ReopeningEmergencyRain = 107,
         ReopeningSpill = 108,

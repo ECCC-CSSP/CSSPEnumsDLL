@@ -5528,11 +5528,11 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rain CMP routine.
+        ///   Looks up a localized string similar to Rain CMP.
         /// </summary>
-        public static string SampleTypeEnumRainCMPRoutine {
+        public static string SampleTypeEnumRainCMP {
             get {
-                return ResourceManager.GetString("SampleTypeEnumRainCMPRoutine", resourceCulture);
+                return ResourceManager.GetString("SampleTypeEnumRainCMP", resourceCulture);
             }
         }
         

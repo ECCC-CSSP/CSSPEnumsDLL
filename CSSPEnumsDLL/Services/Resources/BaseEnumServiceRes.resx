@@ -2031,8 +2031,8 @@
   <data name="SampleTypeEnumIntertechRead" xml:space="preserve">
     <value>Intertech read</value>
   </data>
-  <data name="SampleTypeEnumRainCMPRoutine" xml:space="preserve">
-    <value>Rain CMP routine</value>
+  <data name="SampleTypeEnumRainCMP" xml:space="preserve">
+    <value>Rain CMP</value>
   </data>
   <data name="SampleTypeEnumRainRun" xml:space="preserve">
     <value>Rain run</value>

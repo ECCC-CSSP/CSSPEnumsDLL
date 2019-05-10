@@ -1572,8 +1572,8 @@
   <data name="SampleTypeEnumIntertechRead" xml:space="preserve">
     <value>Intertech lecture</value>
   </data>
-  <data name="SampleTypeEnumRainCMPRoutine" xml:space="preserve">
-    <value>Routine PGC Pluie</value>
+  <data name="SampleTypeEnumRainCMP" xml:space="preserve">
+    <value>PGC Pluie</value>
   </data>
   <data name="SampleTypeEnumRainRun" xml:space="preserve">
     <value>Tournée pluie</value>

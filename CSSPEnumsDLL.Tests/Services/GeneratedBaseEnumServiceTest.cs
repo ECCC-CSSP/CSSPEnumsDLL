@@ -2880,8 +2880,8 @@ namespace CSSPEnumsDLL.Tests.Services
                         case SampleTypeEnum.IntertechRead:
                             Assert.AreEqual(BaseEnumServiceRes.SampleTypeEnumIntertechRead, retStr);
                             break;
-                        case SampleTypeEnum.RainCMPRoutine:
-                            Assert.AreEqual(BaseEnumServiceRes.SampleTypeEnumRainCMPRoutine, retStr);
+                        case SampleTypeEnum.RainCMP:
+                            Assert.AreEqual(BaseEnumServiceRes.SampleTypeEnumRainCMP, retStr);
                             break;
                         case SampleTypeEnum.RainRun:
                             Assert.AreEqual(BaseEnumServiceRes.SampleTypeEnumRainRun, retStr);
@@ -5930,7 +5930,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case SampleTypeEnum.Infrastructure:
                         case SampleTypeEnum.IntertechDuplicate:
                         case SampleTypeEnum.IntertechRead:
-                        case SampleTypeEnum.RainCMPRoutine:
+                        case SampleTypeEnum.RainCMP:
                         case SampleTypeEnum.RainRun:
                         case SampleTypeEnum.ReopeningEmergencyRain:
                         case SampleTypeEnum.ReopeningSpill:

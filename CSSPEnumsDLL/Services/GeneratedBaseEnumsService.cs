@@ -1695,8 +1695,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.SampleTypeEnumIntertechDuplicate;
                 case SampleTypeEnum.IntertechRead:
                     return BaseEnumServiceRes.SampleTypeEnumIntertechRead;
-                case SampleTypeEnum.RainCMPRoutine:
-                    return BaseEnumServiceRes.SampleTypeEnumRainCMPRoutine;
+                case SampleTypeEnum.RainCMP:
+                    return BaseEnumServiceRes.SampleTypeEnumRainCMP;
                 case SampleTypeEnum.RainRun:
                     return BaseEnumServiceRes.SampleTypeEnumRainRun;
                 case SampleTypeEnum.ReopeningEmergencyRain:
@@ -4636,7 +4636,7 @@ namespace CSSPEnumsDLL.Services
                 case SampleTypeEnum.Infrastructure:
                 case SampleTypeEnum.IntertechDuplicate:
                 case SampleTypeEnum.IntertechRead:
-                case SampleTypeEnum.RainCMPRoutine:
+                case SampleTypeEnum.RainCMP:
                 case SampleTypeEnum.RainRun:
                 case SampleTypeEnum.ReopeningEmergencyRain:
                 case SampleTypeEnum.ReopeningSpill:
