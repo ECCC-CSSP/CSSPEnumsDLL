@@ -6167,11 +6167,11 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Sequencing Batch Reator (SBR).
+        ///   Looks up a localized string similar to Sequencing Batch Reactor (SBR).
         /// </summary>
-        public static string SecondaryTreatmentTypeEnumSequencingBatchReator {
+        public static string SecondaryTreatmentTypeEnumSequencingBatchReactor {
             get {
-                return ResourceManager.GetString("SecondaryTreatmentTypeEnumSequencingBatchReator", resourceCulture);
+                return ResourceManager.GetString("SecondaryTreatmentTypeEnumSequencingBatchReactor", resourceCulture);
             }
         }
         

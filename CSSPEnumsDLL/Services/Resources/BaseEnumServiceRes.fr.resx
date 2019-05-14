@@ -1005,7 +1005,7 @@
   <data name="SecondaryTreatmentTypeEnumRotatingBiologicalContactor" xml:space="preserve">
     <value>Contacteur biologique rotatif (CBR)</value>
   </data>
-  <data name="SecondaryTreatmentTypeEnumSequencingBatchReator" xml:space="preserve">
+  <data name="SecondaryTreatmentTypeEnumSequencingBatchReactor" xml:space="preserve">
     <value>Réacteur par lots de séquençage (RPLS)</value>
   </data>
   <data name="SecondaryTreatmentTypeEnumTricklingFilters" xml:space="preserve">

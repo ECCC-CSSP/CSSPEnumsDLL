@@ -3155,8 +3155,8 @@ namespace CSSPEnumsDLL.Tests.Services
                         case SecondaryTreatmentTypeEnum.TricklingFilters:
                             Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumTricklingFilters, retStr);
                             break;
-                        case SecondaryTreatmentTypeEnum.SequencingBatchReator:
-                            Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumSequencingBatchReator, retStr);
+                        case SecondaryTreatmentTypeEnum.SequencingBatchReactor:
+                            Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumSequencingBatchReactor, retStr);
                             break;
                         case SecondaryTreatmentTypeEnum.OxidationDitch:
                             Assert.AreEqual(BaseEnumServiceRes.SecondaryTreatmentTypeEnumOxidationDitch, retStr);
@@ -6091,7 +6091,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case SecondaryTreatmentTypeEnum.NotApplicable:
                         case SecondaryTreatmentTypeEnum.RotatingBiologicalContactor:
                         case SecondaryTreatmentTypeEnum.TricklingFilters:
-                        case SecondaryTreatmentTypeEnum.SequencingBatchReator:
+                        case SecondaryTreatmentTypeEnum.SequencingBatchReactor:
                         case SecondaryTreatmentTypeEnum.OxidationDitch:
                         case SecondaryTreatmentTypeEnum.ExtendedAeration:
                         case SecondaryTreatmentTypeEnum.ContactStabilization:

@@ -1861,8 +1861,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.SecondaryTreatmentTypeEnumRotatingBiologicalContactor;
                 case SecondaryTreatmentTypeEnum.TricklingFilters:
                     return BaseEnumServiceRes.SecondaryTreatmentTypeEnumTricklingFilters;
-                case SecondaryTreatmentTypeEnum.SequencingBatchReator:
-                    return BaseEnumServiceRes.SecondaryTreatmentTypeEnumSequencingBatchReator;
+                case SecondaryTreatmentTypeEnum.SequencingBatchReactor:
+                    return BaseEnumServiceRes.SecondaryTreatmentTypeEnumSequencingBatchReactor;
                 case SecondaryTreatmentTypeEnum.OxidationDitch:
                     return BaseEnumServiceRes.SecondaryTreatmentTypeEnumOxidationDitch;
                 case SecondaryTreatmentTypeEnum.ExtendedAeration:
@@ -4745,7 +4745,7 @@ namespace CSSPEnumsDLL.Services
                 case SecondaryTreatmentTypeEnum.NotApplicable:
                 case SecondaryTreatmentTypeEnum.RotatingBiologicalContactor:
                 case SecondaryTreatmentTypeEnum.TricklingFilters:
-                case SecondaryTreatmentTypeEnum.SequencingBatchReator:
+                case SecondaryTreatmentTypeEnum.SequencingBatchReactor:
                 case SecondaryTreatmentTypeEnum.OxidationDitch:
                 case SecondaryTreatmentTypeEnum.ExtendedAeration:
                 case SecondaryTreatmentTypeEnum.ContactStabilization:
