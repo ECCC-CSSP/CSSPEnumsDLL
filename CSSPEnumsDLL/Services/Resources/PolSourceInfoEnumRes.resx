@@ -8284,7 +8284,7 @@
     <value>Type of Structures </value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleStartDesc" xml:space="preserve">
-    <value>Select the sturcture that is associated with this issue.  You can list the most relevant structure or add an additional structure under a new issue.</value>
+    <value>Select the structure that is associated with this issue.  You can list the most relevant structure or add an additional structure under a new issue.</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionMultipleTrailers" xml:space="preserve">
     <value>                                           Trailers</value>
@@ -8608,7 +8608,7 @@
     <value>Type of Structure </value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleStartDesc" xml:space="preserve">
-    <value>Select the sturcture that is associated with this issue. You can list the most relevant structure or add an additional structure under a new issue.</value>
+    <value>Select the structure that is associated with this issue. You can list the most relevant structure or add an additional structure under a new issue.</value>
   </data>
   <data name="PolSourceInfoEnumHumanPollutionSingleTrailer" xml:space="preserve">
     <value>                                                    Trailer </value>

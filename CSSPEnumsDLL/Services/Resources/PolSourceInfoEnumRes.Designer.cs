@@ -24559,7 +24559,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Select the sturcture that is associated with this issue.  You can list the most relevant structure or add an additional structure under a new issue..
+        ///   Looks up a localized string similar to Select the structure that is associated with this issue.  You can list the most relevant structure or add an additional structure under a new issue..
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionMultipleStartDesc {
             get {
@@ -25531,7 +25531,7 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Select the sturcture that is associated with this issue. You can list the most relevant structure or add an additional structure under a new issue..
+        ///   Looks up a localized string similar to Select the structure that is associated with this issue. You can list the most relevant structure or add an additional structure under a new issue..
         /// </summary>
         public static string PolSourceInfoEnumHumanPollutionSingleStartDesc {
             get {
