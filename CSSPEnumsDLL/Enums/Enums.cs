@@ -693,10 +693,10 @@ namespace CSSPEnumsDLL.Enums
     public enum SampleMatrixEnum
     {
         Error = 0,
-        W = 1,
-        S = 2,
-        B = 3,
-        MPNQ = 4,
+        W = 1, // water
+        S = 2, // sediment
+        B = 3, // bivalve
+        MPNQ = 4, // probably should be water
         SampleMatrix5 = 5,
         SampleMatrix6 = 6,
         Water = 7,
@@ -724,6 +724,8 @@ namespace CSSPEnumsDLL.Enums
         Routine = 109,
         Sanitary = 110,
         Study = 111,
+        Sediment = 112,
+        Bivalve = 113,
     }
     public enum SamplingPlanTypeEnum
     {
