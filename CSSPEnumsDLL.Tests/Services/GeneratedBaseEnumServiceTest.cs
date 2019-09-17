@@ -2901,6 +2901,12 @@ namespace CSSPEnumsDLL.Tests.Services
                         case SampleTypeEnum.Study:
                             Assert.AreEqual(BaseEnumServiceRes.SampleTypeEnumStudy, retStr);
                             break;
+                        case SampleTypeEnum.Sediment:
+                            Assert.AreEqual(BaseEnumServiceRes.SampleTypeEnumSediment, retStr);
+                            break;
+                        case SampleTypeEnum.Bivalve:
+                            Assert.AreEqual(BaseEnumServiceRes.SampleTypeEnumBivalve, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -5937,6 +5943,8 @@ namespace CSSPEnumsDLL.Tests.Services
                         case SampleTypeEnum.Routine:
                         case SampleTypeEnum.Sanitary:
                         case SampleTypeEnum.Study:
+                        case SampleTypeEnum.Sediment:
+                        case SampleTypeEnum.Bivalve:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

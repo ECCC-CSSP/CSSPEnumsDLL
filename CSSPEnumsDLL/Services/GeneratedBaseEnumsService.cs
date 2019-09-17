@@ -1709,6 +1709,10 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.SampleTypeEnumSanitary;
                 case SampleTypeEnum.Study:
                     return BaseEnumServiceRes.SampleTypeEnumStudy;
+                case SampleTypeEnum.Sediment:
+                    return BaseEnumServiceRes.SampleTypeEnumSediment;
+                case SampleTypeEnum.Bivalve:
+                    return BaseEnumServiceRes.SampleTypeEnumBivalve;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -4643,6 +4647,8 @@ namespace CSSPEnumsDLL.Services
                 case SampleTypeEnum.Routine:
                 case SampleTypeEnum.Sanitary:
                 case SampleTypeEnum.Study:
+                case SampleTypeEnum.Sediment:
+                case SampleTypeEnum.Bivalve:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.SampleType);
