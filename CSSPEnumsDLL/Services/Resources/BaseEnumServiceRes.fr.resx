@@ -2296,4 +2296,7 @@
   <data name="SampleTypeEnumSediment" xml:space="preserve">
     <value>Sédiment</value>
   </data>
+  <data name="AppTaskCommandEnumClimateSiteLoadCoCoRaHSData" xml:space="preserve">
+    <value>Télécharger les données CoCoRaHS des sites de climat</value>
+  </data>
 </root>

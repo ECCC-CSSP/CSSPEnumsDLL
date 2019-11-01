@@ -424,6 +424,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.MikeScenarioPrepareResults:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumMikeScenarioPrepareResults, retStr);
                             break;
+                        case AppTaskCommandEnum.ClimateSiteLoadCoCoRaHSData:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumClimateSiteLoadCoCoRaHSData, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -4320,6 +4323,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.GenerateKMLFileClassificationForCSSPWebToolsVisualization:
                         case AppTaskCommandEnum.ProvinceToolsGenerateStats:
                         case AppTaskCommandEnum.MikeScenarioPrepareResults:
+                        case AppTaskCommandEnum.ClimateSiteLoadCoCoRaHSData:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

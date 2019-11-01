@@ -2787,4 +2787,7 @@
   <data name="SampleTypeEnumSediment" xml:space="preserve">
     <value>Sediment</value>
   </data>
+  <data name="AppTaskCommandEnumClimateSiteLoadCoCoRaHSData" xml:space="preserve">
+    <value>Climate site load CoCoRaHS data</value>
+  </data>
 </root>

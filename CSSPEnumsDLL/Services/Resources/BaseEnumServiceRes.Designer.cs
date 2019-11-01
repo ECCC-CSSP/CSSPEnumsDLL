@@ -448,6 +448,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Climate site load CoCoRaHS data.
+        /// </summary>
+        public static string AppTaskCommandEnumClimateSiteLoadCoCoRaHSData {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumClimateSiteLoadCoCoRaHSData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Create document from parameters.
         /// </summary>
         public static string AppTaskCommandEnumCreateDocumentFromParameters {

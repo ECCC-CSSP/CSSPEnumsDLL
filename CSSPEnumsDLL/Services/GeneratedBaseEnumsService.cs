@@ -257,6 +257,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumProvinceToolsGenerateStats;
                 case AppTaskCommandEnum.MikeScenarioPrepareResults:
                     return BaseEnumServiceRes.AppTaskCommandEnumMikeScenarioPrepareResults;
+                case AppTaskCommandEnum.ClimateSiteLoadCoCoRaHSData:
+                    return BaseEnumServiceRes.AppTaskCommandEnumClimateSiteLoadCoCoRaHSData;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3622,6 +3624,7 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.GenerateKMLFileClassificationForCSSPWebToolsVisualization:
                 case AppTaskCommandEnum.ProvinceToolsGenerateStats:
                 case AppTaskCommandEnum.MikeScenarioPrepareResults:
+                case AppTaskCommandEnum.ClimateSiteLoadCoCoRaHSData:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);
