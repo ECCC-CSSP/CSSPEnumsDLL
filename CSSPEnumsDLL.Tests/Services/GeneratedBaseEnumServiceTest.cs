@@ -4010,6 +4010,38 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
+        public void BaseEnumService_GetEnumText_ValveTypeEnum_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+        
+                string retStr = baseEnumService.GetEnumText_ValveTypeEnum(null);
+                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+        
+                for (int i = 0, count = Enum.GetNames(typeof(ValveTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.GetEnumText_ValveTypeEnum((ValveTypeEnum)i);
+        
+                    switch ((ValveTypeEnum)i)
+                    {
+                        case ValveTypeEnum.Error:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                        case ValveTypeEnum.Manually:
+                            Assert.AreEqual(BaseEnumServiceRes.ValveTypeEnumManually, retStr);
+                            break;
+                        case ValveTypeEnum.Automatically:
+                            Assert.AreEqual(BaseEnumServiceRes.ValveTypeEnumAutomatically, retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
         public void BaseEnumService_GetEnumText_WebTideDataSetEnum_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -6577,6 +6609,34 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         default:
                             Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.TVType), retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_ValveTypeOK_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+
+                string retStr = baseEnumService.ValveTypeOK(null);
+                Assert.AreEqual("", retStr);
+
+                for (int i = 0, count = Enum.GetNames(typeof(ValveTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.ValveTypeOK((ValveTypeEnum)i);
+
+                    switch ((ValveTypeEnum)i)
+                    {
+                        case ValveTypeEnum.Error:
+                        case ValveTypeEnum.Manually:
+                        case ValveTypeEnum.Automatically:
+                            Assert.AreEqual("", retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ValveType), retStr);
                             break;
                     }
                 }

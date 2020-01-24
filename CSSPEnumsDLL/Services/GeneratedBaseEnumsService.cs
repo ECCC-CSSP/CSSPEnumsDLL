@@ -2382,6 +2382,23 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.Empty;
             }
         }
+        public string GetEnumText_ValveTypeEnum(ValveTypeEnum? valveTypeE)
+        {
+            if (valveTypeE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (valveTypeE)
+            {
+                case ValveTypeEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case ValveTypeEnum.Manually:
+                    return BaseEnumServiceRes.ValveTypeEnumManually;
+                case ValveTypeEnum.Automatically:
+                    return BaseEnumServiceRes.ValveTypeEnumAutomatically;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
         public string GetEnumText_WebTideDataSetEnum(WebTideDataSetEnum? webTideDataSetE)
         {
             if (webTideDataSetE == null)
@@ -3440,6 +3457,21 @@ namespace CSSPEnumsDLL.Services
                                               select c).ToList();
 
             return TVTypeEnumTextOrderedList;
+        }
+        public List<ValveTypeEnumTextOrdered> GetValveTypeEnumTextOrderedList()
+        {
+            List<ValveTypeEnumTextOrdered> ValveTypeEnumTextOrderedList = new List<ValveTypeEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(ValveTypeEnum)).Count(); i < count; i++)
+            {
+                ValveTypeEnumTextOrderedList.Add(new ValveTypeEnumTextOrdered() { ValveType = (ValveTypeEnum)i, ValveTypeText = GetEnumText_ValveTypeEnum((ValveTypeEnum)i) });
+            }
+
+            ValveTypeEnumTextOrderedList = (from c in ValveTypeEnumTextOrderedList
+                                              orderby c.ValveTypeText
+                                              select c).ToList();
+
+            return ValveTypeEnumTextOrderedList;
         }
         public List<WebTideDataSetEnumTextOrdered> GetWebTideDataSetEnumTextOrderedList()
         {
@@ -5084,6 +5116,21 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.TVType);
+            }
+        }
+        public string ValveTypeOK(ValveTypeEnum? valveType)
+        {
+            if (valveType == null)
+                return "";
+
+            switch ((ValveTypeEnum)valveType)
+            {
+                case ValveTypeEnum.Error:
+                case ValveTypeEnum.Manually:
+                case ValveTypeEnum.Automatically:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ValveType);
             }
         }
         public string WebTideDataSetOK(WebTideDataSetEnum? webTideDataSet)

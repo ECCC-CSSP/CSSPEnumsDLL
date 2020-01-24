@@ -628,6 +628,15 @@ namespace CSSPEnumsDLL.Enums
         public TVTypeEnum TVType { get; set; }
         public string TVTypeText { get; set; }
     }
+    public class ValveTypeEnumTextOrdered
+    {
+        public ValveTypeEnumTextOrdered()
+        {
+        }
+
+        public ValveTypeEnum ValveType { get; set; }
+        public string ValveTypeText { get; set; }
+    }
     public class WebTideDataSetEnumTextOrdered
     {
         public WebTideDataSetEnumTextOrdered()

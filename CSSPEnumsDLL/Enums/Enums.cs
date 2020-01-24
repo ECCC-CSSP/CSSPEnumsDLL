@@ -1023,6 +1023,12 @@ namespace CSSPEnumsDLL.Enums
         PolSourceSiteMikeScenario = 86,
         SubsectorTools = 87,
     }
+    public enum ValveTypeEnum
+    {
+        Error = 0,
+        Manually = 1,
+        Automatically = 2,
+    }
     public enum WebTideDataSetEnum
     {
         Error = 0,

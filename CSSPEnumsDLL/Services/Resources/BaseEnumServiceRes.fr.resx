@@ -2299,4 +2299,13 @@
   <data name="AppTaskCommandEnumClimateSiteLoadCoCoRaHSData" xml:space="preserve">
     <value>Télécharger les données CoCoRaHS des sites de climat</value>
   </data>
+  <data name="ValveType" xml:space="preserve">
+    <value>Type de valve</value>
+  </data>
+  <data name="ValveTypeEnumAutomatically" xml:space="preserve">
+    <value>Automatiquement</value>
+  </data>
+  <data name="ValveTypeEnumManually" xml:space="preserve">
+    <value>Manuellement</value>
+  </data>
 </root>

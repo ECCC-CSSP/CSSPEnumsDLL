@@ -2790,4 +2790,13 @@
   <data name="AppTaskCommandEnumClimateSiteLoadCoCoRaHSData" xml:space="preserve">
     <value>Climate site load CoCoRaHS data</value>
   </data>
+  <data name="ValveType" xml:space="preserve">
+    <value>Valve Type</value>
+  </data>
+  <data name="ValveTypeEnumAutomatically" xml:space="preserve">
+    <value>Automatically</value>
+  </data>
+  <data name="ValveTypeEnumManually" xml:space="preserve">
+    <value>Manually</value>
+  </data>
 </root>
