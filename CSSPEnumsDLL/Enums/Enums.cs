@@ -298,6 +298,7 @@ namespace CSSPEnumsDLL.Enums
         XYZ = 19,
         KML = 20,
         CSV = 21,
+        WMV = 22,
     }
     public enum InfrastructureTypeEnum
     {

@@ -714,6 +714,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.FileTypeEnumKML;
                 case FileTypeEnum.CSV:
                     return BaseEnumServiceRes.FileTypeEnumCSV;
+                case FileTypeEnum.WMV:
+                    return BaseEnumServiceRes.FileTypeEnumWMV;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3995,6 +3997,7 @@ namespace CSSPEnumsDLL.Services
                 case FileTypeEnum.XYZ:
                 case FileTypeEnum.KML:
                 case FileTypeEnum.CSV:
+                case FileTypeEnum.WMV:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.FileType);

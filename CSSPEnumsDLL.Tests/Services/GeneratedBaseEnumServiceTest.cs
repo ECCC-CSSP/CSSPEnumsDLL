@@ -1220,6 +1220,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case FileTypeEnum.CSV:
                             Assert.AreEqual(BaseEnumServiceRes.FileTypeEnumCSV, retStr);
                             break;
+                        case FileTypeEnum.WMV:
+                            Assert.AreEqual(BaseEnumServiceRes.FileTypeEnumWMV, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -4915,6 +4918,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case FileTypeEnum.XYZ:
                         case FileTypeEnum.KML:
                         case FileTypeEnum.CSV:
+                        case FileTypeEnum.WMV:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
