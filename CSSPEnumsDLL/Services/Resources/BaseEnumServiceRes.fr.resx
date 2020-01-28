@@ -2311,4 +2311,7 @@
   <data name="FileTypeEnumWMV" xml:space="preserve">
     <value>WMV</value>
   </data>
+  <data name="ValveTypeEnumNone" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
 </root>

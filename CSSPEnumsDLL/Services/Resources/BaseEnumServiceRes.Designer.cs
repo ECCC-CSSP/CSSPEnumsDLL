@@ -8012,6 +8012,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to None.
+        /// </summary>
+        public static string ValveTypeEnumNone {
+            get {
+                return ResourceManager.GetString("ValveTypeEnumNone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to WebTideDataSet.
         /// </summary>
         public static string WebTideDataSet {

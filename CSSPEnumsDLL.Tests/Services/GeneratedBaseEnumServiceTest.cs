@@ -4037,6 +4037,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case ValveTypeEnum.Automatically:
                             Assert.AreEqual(BaseEnumServiceRes.ValveTypeEnumAutomatically, retStr);
                             break;
+                        case ValveTypeEnum.None:
+                            Assert.AreEqual(BaseEnumServiceRes.ValveTypeEnumNone, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -6637,6 +6640,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case ValveTypeEnum.Error:
                         case ValveTypeEnum.Manually:
                         case ValveTypeEnum.Automatically:
+                        case ValveTypeEnum.None:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

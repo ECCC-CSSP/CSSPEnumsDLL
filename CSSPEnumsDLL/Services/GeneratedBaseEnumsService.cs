@@ -2397,6 +2397,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.ValveTypeEnumManually;
                 case ValveTypeEnum.Automatically:
                     return BaseEnumServiceRes.ValveTypeEnumAutomatically;
+                case ValveTypeEnum.None:
+                    return BaseEnumServiceRes.ValveTypeEnumNone;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -5131,6 +5133,7 @@ namespace CSSPEnumsDLL.Services
                 case ValveTypeEnum.Error:
                 case ValveTypeEnum.Manually:
                 case ValveTypeEnum.Automatically:
+                case ValveTypeEnum.None:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.ValveType);
