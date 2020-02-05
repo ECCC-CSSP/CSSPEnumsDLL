@@ -346,6 +346,25 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.Empty;
             }
         }
+        public string GetEnumText_CanOverflowTypeEnum(CanOverflowTypeEnum? canOverflowTypeE)
+        {
+            if (canOverflowTypeE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (canOverflowTypeE)
+            {
+                case CanOverflowTypeEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case CanOverflowTypeEnum.Yes:
+                    return BaseEnumServiceRes.CanOverflowTypeEnumYes;
+                case CanOverflowTypeEnum.No:
+                    return BaseEnumServiceRes.CanOverflowTypeEnumNo;
+                case CanOverflowTypeEnum.Unknown:
+                    return BaseEnumServiceRes.CanOverflowTypeEnumUnknown;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
         public string GetEnumText_ClassificationTypeEnum(ClassificationTypeEnum? classificationTypeE)
         {
             if (classificationTypeE == null)
@@ -2592,6 +2611,21 @@ namespace CSSPEnumsDLL.Services
 
             return BoxModelResultTypeEnumTextOrderedList;
         }
+        public List<CanOverflowTypeEnumTextOrdered> GetCanOverflowTypeEnumTextOrderedList()
+        {
+            List<CanOverflowTypeEnumTextOrdered> CanOverflowTypeEnumTextOrderedList = new List<CanOverflowTypeEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(CanOverflowTypeEnum)).Count(); i < count; i++)
+            {
+                CanOverflowTypeEnumTextOrderedList.Add(new CanOverflowTypeEnumTextOrdered() { CanOverflowType = (CanOverflowTypeEnum)i, CanOverflowTypeText = GetEnumText_CanOverflowTypeEnum((CanOverflowTypeEnum)i) });
+            }
+
+            CanOverflowTypeEnumTextOrderedList = (from c in CanOverflowTypeEnumTextOrderedList
+                                              orderby c.CanOverflowTypeText
+                                              select c).ToList();
+
+            return CanOverflowTypeEnumTextOrderedList;
+        }
         public List<ClassificationTypeEnumTextOrdered> GetClassificationTypeEnumTextOrderedList()
         {
             List<ClassificationTypeEnumTextOrdered> ClassificationTypeEnumTextOrderedList = new List<ClassificationTypeEnumTextOrdered>();
@@ -3725,6 +3759,22 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.BoxModelResultType);
+            }
+        }
+        public string CanOverflowTypeOK(CanOverflowTypeEnum? canOverflowType)
+        {
+            if (canOverflowType == null)
+                return "";
+
+            switch ((CanOverflowTypeEnum)canOverflowType)
+            {
+                case CanOverflowTypeEnum.Error:
+                case CanOverflowTypeEnum.Yes:
+                case CanOverflowTypeEnum.No:
+                case CanOverflowTypeEnum.Unknown:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.CanOverflowType);
             }
         }
         public string ClassificationTypeOK(ClassificationTypeEnum? classificationType)

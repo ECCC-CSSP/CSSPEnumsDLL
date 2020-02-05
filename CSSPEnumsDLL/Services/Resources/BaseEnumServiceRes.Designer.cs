@@ -1126,6 +1126,42 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to CanOverFlowType.
+        /// </summary>
+        public static string CanOverflowType {
+            get {
+                return ResourceManager.GetString("CanOverflowType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No.
+        /// </summary>
+        public static string CanOverflowTypeEnumNo {
+            get {
+                return ResourceManager.GetString("CanOverflowTypeEnumNo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unknown.
+        /// </summary>
+        public static string CanOverflowTypeEnumUnknown {
+            get {
+                return ResourceManager.GetString("CanOverflowTypeEnumUnknown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yes.
+        /// </summary>
+        public static string CanOverflowTypeEnumYes {
+            get {
+                return ResourceManager.GetString("CanOverflowTypeEnumYes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Classification Type.
         /// </summary>
         public static string ClassificationType {

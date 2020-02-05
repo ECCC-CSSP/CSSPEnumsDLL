@@ -579,6 +579,41 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
+        public void BaseEnumService_GetEnumText_CanOverflowTypeEnum_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+        
+                string retStr = baseEnumService.GetEnumText_CanOverflowTypeEnum(null);
+                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+        
+                for (int i = 0, count = Enum.GetNames(typeof(CanOverflowTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.GetEnumText_CanOverflowTypeEnum((CanOverflowTypeEnum)i);
+        
+                    switch ((CanOverflowTypeEnum)i)
+                    {
+                        case CanOverflowTypeEnum.Error:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                        case CanOverflowTypeEnum.Yes:
+                            Assert.AreEqual(BaseEnumServiceRes.CanOverflowTypeEnumYes, retStr);
+                            break;
+                        case CanOverflowTypeEnum.No:
+                            Assert.AreEqual(BaseEnumServiceRes.CanOverflowTypeEnumNo, retStr);
+                            break;
+                        case CanOverflowTypeEnum.Unknown:
+                            Assert.AreEqual(BaseEnumServiceRes.CanOverflowTypeEnumUnknown, retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
         public void BaseEnumService_GetEnumText_ClassificationTypeEnum_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -4466,6 +4501,35 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         default:
                             Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.BoxModelResultType), retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_CanOverflowTypeOK_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+
+                string retStr = baseEnumService.CanOverflowTypeOK(null);
+                Assert.AreEqual("", retStr);
+
+                for (int i = 0, count = Enum.GetNames(typeof(CanOverflowTypeEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.CanOverflowTypeOK((CanOverflowTypeEnum)i);
+
+                    switch ((CanOverflowTypeEnum)i)
+                    {
+                        case CanOverflowTypeEnum.Error:
+                        case CanOverflowTypeEnum.Yes:
+                        case CanOverflowTypeEnum.No:
+                        case CanOverflowTypeEnum.Unknown:
+                            Assert.AreEqual("", retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.CanOverflowType), retStr);
                             break;
                     }
                 }

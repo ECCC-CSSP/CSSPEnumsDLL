@@ -2805,4 +2805,16 @@
   <data name="ValveTypeEnumNone" xml:space="preserve">
     <value>None</value>
   </data>
+  <data name="CanOverflowTypeEnumNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="CanOverflowTypeEnumYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="CanOverflowType" xml:space="preserve">
+    <value>CanOverFlowType</value>
+  </data>
+  <data name="CanOverflowTypeEnumUnknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
 </root>

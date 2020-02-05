@@ -148,6 +148,13 @@ namespace CSSPEnumsDLL.Enums
         DecayUntreated = 4,
         DecayPreDisinfection = 5,
     }
+    public enum CanOverflowTypeEnum
+    {
+        Error = 0,
+        Yes = 1,
+        No = 2,
+        Unknown = 3,
+    }
     public enum ClassificationTypeEnum
     {
         Error = 0,
