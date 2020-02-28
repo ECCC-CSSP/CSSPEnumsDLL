@@ -2062,8 +2062,8 @@
   <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MWQM_SITES_TEMPERATURE_TABLE" xml:space="preserve">
     <value>SUBSECTOR_MWQM_SITES_TEMPERATURE_TABLE</value>
   </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES" xml:space="preserve">
-    <value>SUBSECTOR_MUNICIPALITIES</value>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES_COMPACT" xml:space="preserve">
+    <value>SUBSECTOR_MUNICIPALITIES_COMPACT</value>
   </data>
   <data name="TVTypeEnumOpenData" xml:space="preserve">
     <value>Open Data (fr)</value>
@@ -2221,11 +2221,8 @@
   <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP" xml:space="preserve">
     <value>SUBSECTOR_LOCATION_OF_SURVEY_AREA_MAP</value>
   </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_CONTACTS" xml:space="preserve">
-    <value>SUBSECTOR_MUNICIPALITY_CONTACTS</value>
-  </data>
-  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL" xml:space="preserve">
-    <value>SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL</value>
+  <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES_FULL" xml:space="preserve">
+    <value>SUBSECTOR_MUNICIPALITIES_FULL</value>
   </data>
   <data name="ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_MAP" xml:space="preserve">
     <value>SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_MAP</value>

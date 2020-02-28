@@ -4412,29 +4412,20 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to SUBSECTOR_MUNICIPALITIES.
+        ///   Looks up a localized string similar to SUBSECTOR_MUNICIPALITIES_COMPACT.
         /// </summary>
-        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES {
+        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES_COMPACT {
             get {
-                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES", resourceCulture);
+                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES_COMPACT", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to SUBSECTOR_MUNICIPALITY_CONTACTS.
+        ///   Looks up a localized string similar to SUBSECTOR_MUNICIPALITIES_FULL.
         /// </summary>
-        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_CONTACTS {
+        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES_FULL {
             get {
-                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_CONTACTS", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to SUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL.
-        /// </summary>
-        public static string ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL {
-            get {
-                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITY_INFRASTRUCTURE_DETAIL", resourceCulture);
+                return ResourceManager.GetString("ReportGenerateObjectsKeywordEnumSUBSECTOR_MUNICIPALITIES_FULL", resourceCulture);
             }
         }
         
