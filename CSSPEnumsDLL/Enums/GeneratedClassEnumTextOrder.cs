@@ -385,24 +385,6 @@ namespace CSSPEnumsDLL.Enums
         public PrimaryTreatmentTypeEnum PrimaryTreatmentType { get; set; }
         public string PrimaryTreatmentTypeText { get; set; }
     }
-    public class ReportConditionEnumTextOrdered
-    {
-        public ReportConditionEnumTextOrdered()
-        {
-        }
-
-        public ReportConditionEnum ReportCondition { get; set; }
-        public string ReportConditionText { get; set; }
-    }
-    public class ReportFieldTypeEnumTextOrdered
-    {
-        public ReportFieldTypeEnumTextOrdered()
-        {
-        }
-
-        public ReportFieldTypeEnum ReportFieldType { get; set; }
-        public string ReportFieldTypeText { get; set; }
-    }
     public class ReportFileTypeEnumTextOrdered
     {
         public ReportFileTypeEnumTextOrdered()
@@ -412,24 +394,6 @@ namespace CSSPEnumsDLL.Enums
         public ReportFileTypeEnum ReportFileType { get; set; }
         public string ReportFileTypeText { get; set; }
     }
-    public class ReportFormatingDateEnumTextOrdered
-    {
-        public ReportFormatingDateEnumTextOrdered()
-        {
-        }
-
-        public ReportFormatingDateEnum ReportFormatingDate { get; set; }
-        public string ReportFormatingDateText { get; set; }
-    }
-    public class ReportFormatingNumberEnumTextOrdered
-    {
-        public ReportFormatingNumberEnumTextOrdered()
-        {
-        }
-
-        public ReportFormatingNumberEnum ReportFormatingNumber { get; set; }
-        public string ReportFormatingNumberText { get; set; }
-    }
     public class ReportGenerateObjectsKeywordEnumTextOrdered
     {
         public ReportGenerateObjectsKeywordEnumTextOrdered()
@@ -438,33 +402,6 @@ namespace CSSPEnumsDLL.Enums
 
         public ReportGenerateObjectsKeywordEnum ReportGenerateObjectsKeyword { get; set; }
         public string ReportGenerateObjectsKeywordText { get; set; }
-    }
-    public class ReportSortingEnumTextOrdered
-    {
-        public ReportSortingEnumTextOrdered()
-        {
-        }
-
-        public ReportSortingEnum ReportSorting { get; set; }
-        public string ReportSortingText { get; set; }
-    }
-    public class ReportTreeNodeSubTypeEnumTextOrdered
-    {
-        public ReportTreeNodeSubTypeEnumTextOrdered()
-        {
-        }
-
-        public ReportTreeNodeSubTypeEnum ReportTreeNodeSubType { get; set; }
-        public string ReportTreeNodeSubTypeText { get; set; }
-    }
-    public class ReportTreeNodeTypeEnumTextOrdered
-    {
-        public ReportTreeNodeTypeEnumTextOrdered()
-        {
-        }
-
-        public ReportTreeNodeTypeEnum ReportTreeNodeType { get; set; }
-        public string ReportTreeNodeTypeText { get; set; }
     }
     public class SameDayNextDayEnumTextOrdered
     {
