@@ -385,6 +385,14 @@ namespace CSSPEnumsDLL.Enums
         enAndfr = 3,
         es = 4,
     }
+    public enum DBCommandEnum
+    {
+        Error = 0,
+        Original = 1,
+        Modified = 2,
+        Created = 3,
+        Deleted = 4,
+    }
     public enum LogCommandEnum
     {
         Error = 0,

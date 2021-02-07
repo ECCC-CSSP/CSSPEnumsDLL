@@ -295,6 +295,15 @@ namespace CSSPEnumsDLL.Enums
         public LanguageEnum Language { get; set; }
         public string LanguageText { get; set; }
     }
+    public class DBCommandEnumTextOrdered
+    {
+        public DBCommandEnumTextOrdered()
+        {
+        }
+
+        public DBCommandEnum DBCommand { get; set; }
+        public string DBCommandText { get; set; }
+    }
     public class LogCommandEnumTextOrdered
     {
         public LogCommandEnumTextOrdered()

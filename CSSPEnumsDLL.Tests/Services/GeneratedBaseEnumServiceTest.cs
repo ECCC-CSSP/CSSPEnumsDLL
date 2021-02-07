@@ -1584,6 +1584,44 @@ namespace CSSPEnumsDLL.Tests.Services
             }
         }
         [TestMethod]
+        public void BaseEnumService_GetEnumText_DBCommandEnum_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+        
+                string retStr = baseEnumService.GetEnumText_DBCommandEnum(null);
+                Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+        
+                for (int i = 0, count = Enum.GetNames(typeof(DBCommandEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.GetEnumText_DBCommandEnum((DBCommandEnum)i);
+        
+                    switch ((DBCommandEnum)i)
+                    {
+                        case DBCommandEnum.Error:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                        case DBCommandEnum.Original:
+                            Assert.AreEqual(BaseEnumServiceRes.DBCommandEnumOriginal, retStr);
+                            break;
+                        case DBCommandEnum.Modified:
+                            Assert.AreEqual(BaseEnumServiceRes.DBCommandEnumModified, retStr);
+                            break;
+                        case DBCommandEnum.Created:
+                            Assert.AreEqual(BaseEnumServiceRes.DBCommandEnumCreated, retStr);
+                            break;
+                        case DBCommandEnum.Deleted:
+                            Assert.AreEqual(BaseEnumServiceRes.DBCommandEnumDeleted, retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
         public void BaseEnumService_GetEnumText_LogCommandEnum_Test()
         {
             foreach (CultureInfo culture in setupData.cultureListGood)
@@ -4517,6 +4555,36 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         default:
                             Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.Language), retStr);
+                            break;
+                    }
+                }
+            }
+        }
+        [TestMethod]
+        public void BaseEnumService_DBCommandOK_Test()
+        {
+            foreach (CultureInfo culture in setupData.cultureListGood)
+            {
+                SetupTest(culture);
+
+                string retStr = baseEnumService.DBCommandOK(null);
+                Assert.AreEqual("", retStr);
+
+                for (int i = 0, count = Enum.GetNames(typeof(DBCommandEnum)).Length; i < count; i++)
+                {
+                    retStr = baseEnumService.DBCommandOK((DBCommandEnum)i);
+
+                    switch ((DBCommandEnum)i)
+                    {
+                        case DBCommandEnum.Error:
+                        case DBCommandEnum.Original:
+                        case DBCommandEnum.Modified:
+                        case DBCommandEnum.Created:
+                        case DBCommandEnum.Deleted:
+                            Assert.AreEqual("", retStr);
+                            break;
+                        default:
+                            Assert.AreEqual(string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.DBCommand), retStr);
                             break;
                     }
                 }

@@ -925,6 +925,27 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.Empty;
             }
         }
+        public string GetEnumText_DBCommandEnum(DBCommandEnum? dBCommandE)
+        {
+            if (dBCommandE == null)
+                return BaseEnumServiceRes.Empty;
+
+            switch (dBCommandE)
+            {
+                case DBCommandEnum.Error:
+                    return BaseEnumServiceRes.Empty;
+                case DBCommandEnum.Original:
+                    return BaseEnumServiceRes.DBCommandEnumOriginal;
+                case DBCommandEnum.Modified:
+                    return BaseEnumServiceRes.DBCommandEnumModified;
+                case DBCommandEnum.Created:
+                    return BaseEnumServiceRes.DBCommandEnumCreated;
+                case DBCommandEnum.Deleted:
+                    return BaseEnumServiceRes.DBCommandEnumDeleted;
+                default:
+                    return BaseEnumServiceRes.Empty;
+            }
+        }
         public string GetEnumText_LogCommandEnum(LogCommandEnum? logCommandE)
         {
             if (logCommandE == null)
@@ -2501,6 +2522,21 @@ namespace CSSPEnumsDLL.Services
 
             return LanguageEnumTextOrderedList;
         }
+        public List<DBCommandEnumTextOrdered> GetDBCommandEnumTextOrderedList()
+        {
+            List<DBCommandEnumTextOrdered> DBCommandEnumTextOrderedList = new List<DBCommandEnumTextOrdered>();
+
+            for (int i = 1, count = Enum.GetNames(typeof(DBCommandEnum)).Count(); i < count; i++)
+            {
+                DBCommandEnumTextOrderedList.Add(new DBCommandEnumTextOrdered() { DBCommand = (DBCommandEnum)i, DBCommandText = GetEnumText_DBCommandEnum((DBCommandEnum)i) });
+            }
+
+            DBCommandEnumTextOrderedList = (from c in DBCommandEnumTextOrderedList
+                                              orderby c.DBCommandText
+                                              select c).ToList();
+
+            return DBCommandEnumTextOrderedList;
+        }
         public List<LogCommandEnumTextOrdered> GetLogCommandEnumTextOrderedList()
         {
             List<LogCommandEnumTextOrdered> LogCommandEnumTextOrderedList = new List<LogCommandEnumTextOrdered>();
@@ -3655,6 +3691,23 @@ namespace CSSPEnumsDLL.Services
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.Language);
+            }
+        }
+        public string DBCommandOK(DBCommandEnum? dBCommand)
+        {
+            if (dBCommand == null)
+                return "";
+
+            switch ((DBCommandEnum)dBCommand)
+            {
+                case DBCommandEnum.Error:
+                case DBCommandEnum.Original:
+                case DBCommandEnum.Modified:
+                case DBCommandEnum.Created:
+                case DBCommandEnum.Deleted:
+                    return "";
+                default:
+                    return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.DBCommand);
             }
         }
         public string LogCommandOK(LogCommandEnum? logCommand)

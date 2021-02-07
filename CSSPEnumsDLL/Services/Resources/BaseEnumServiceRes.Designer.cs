@@ -1513,6 +1513,51 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to DB Command.
+        /// </summary>
+        public static string DBCommand {
+            get {
+                return ResourceManager.GetString("DBCommand", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Created.
+        /// </summary>
+        public static string DBCommandEnumCreated {
+            get {
+                return ResourceManager.GetString("DBCommandEnumCreated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Deleted.
+        /// </summary>
+        public static string DBCommandEnumDeleted {
+            get {
+                return ResourceManager.GetString("DBCommandEnumDeleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Modified.
+        /// </summary>
+        public static string DBCommandEnumModified {
+            get {
+                return ResourceManager.GetString("DBCommandEnumModified", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Original.
+        /// </summary>
+        public static string DBCommandEnumOriginal {
+            get {
+                return ResourceManager.GetString("DBCommandEnumOriginal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to DisinfectionType.
         /// </summary>
         public static string DisinfectionType {

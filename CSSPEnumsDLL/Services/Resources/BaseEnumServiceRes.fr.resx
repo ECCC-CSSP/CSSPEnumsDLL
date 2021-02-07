@@ -2323,4 +2323,19 @@
   <data name="CanOverflowTypeEnumUnknown" xml:space="preserve">
     <value>Inconnu</value>
   </data>
+  <data name="DBCommandEnumCreated" xml:space="preserve">
+    <value>Created (fr)</value>
+  </data>
+  <data name="DBCommandEnumDeleted" xml:space="preserve">
+    <value>Deleted (fr)</value>
+  </data>
+  <data name="DBCommandEnumModified" xml:space="preserve">
+    <value>Modified (fr)</value>
+  </data>
+  <data name="DBCommandEnumOriginal" xml:space="preserve">
+    <value>Original (fr)</value>
+  </data>
+  <data name="DBCommand" xml:space="preserve">
+    <value>DB Command (fr)</value>
+  </data>
 </root>
