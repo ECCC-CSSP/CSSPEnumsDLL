@@ -2827,6 +2827,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Valores.
+        /// </summary>
+        public static string LaboratoryEnumValores {
+            get {
+                return ResourceManager.GetString("LaboratoryEnumValores", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ZZ_0.
         /// </summary>
         public static string LaboratoryEnumZZ_0 {

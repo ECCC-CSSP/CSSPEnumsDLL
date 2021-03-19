@@ -860,6 +860,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.LaboratoryEnumAvalonLaboratoriesInc;
                 case LaboratoryEnum.Maxxam:
                     return BaseEnumServiceRes.LaboratoryEnumMaxxam;
+                case LaboratoryEnum.Valores:
+                    return BaseEnumServiceRes.LaboratoryEnumValores;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3638,6 +3640,7 @@ namespace CSSPEnumsDLL.Services
                 case LaboratoryEnum.NLMobileLaboratory:
                 case LaboratoryEnum.AvalonLaboratoriesInc:
                 case LaboratoryEnum.Maxxam:
+                case LaboratoryEnum.Valores:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.Laboratory);

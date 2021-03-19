@@ -1465,6 +1465,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case LaboratoryEnum.Maxxam:
                             Assert.AreEqual(BaseEnumServiceRes.LaboratoryEnumMaxxam, retStr);
                             break;
+                        case LaboratoryEnum.Valores:
+                            Assert.AreEqual(BaseEnumServiceRes.LaboratoryEnumValores, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -4462,6 +4465,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case LaboratoryEnum.NLMobileLaboratory:
                         case LaboratoryEnum.AvalonLaboratoriesInc:
                         case LaboratoryEnum.Maxxam:
+                        case LaboratoryEnum.Valores:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

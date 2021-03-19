@@ -2829,4 +2829,7 @@
   <data name="DBCommand" xml:space="preserve">
     <value>DB Command</value>
   </data>
+  <data name="LaboratoryEnumValores" xml:space="preserve">
+    <value>Valores</value>
+  </data>
 </root>
