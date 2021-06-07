@@ -113,6 +113,8 @@ namespace CSSPEnumsDLL.Enums
         ProvinceToolsGenerateStats = 46,
         MikeScenarioPrepareResults = 47,
         ClimateSiteLoadCoCoRaHSData = 48,
+        GenerateClassificationInputs_XX_FromDB_kmlFromDataInCSSPDB = 49,
+
     }
     public enum AppTaskStatusEnum
     {

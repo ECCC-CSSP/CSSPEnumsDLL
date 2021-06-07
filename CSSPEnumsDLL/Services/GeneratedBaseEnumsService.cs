@@ -3203,6 +3203,7 @@ namespace CSSPEnumsDLL.Services
                 case AppTaskCommandEnum.ProvinceToolsGenerateStats:
                 case AppTaskCommandEnum.MikeScenarioPrepareResults:
                 case AppTaskCommandEnum.ClimateSiteLoadCoCoRaHSData:
+                case AppTaskCommandEnum.GenerateClassificationInputs_XX_FromDB_kmlFromDataInCSSPDB:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.AppTaskCommand);

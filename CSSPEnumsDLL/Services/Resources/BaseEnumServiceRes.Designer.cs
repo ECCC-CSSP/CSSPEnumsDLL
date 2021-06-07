@@ -592,6 +592,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Generate ClassificationInputs{0}FromDB.kml.
+        /// </summary>
+        public static string AppTaskCommandEnumGenerateClassificationInputs_XX_FromDB_kmlFromDataInCSSPDB {
+            get {
+                return ResourceManager.GetString("AppTaskCommandEnumGenerateClassificationInputs_XX_FromDB_kmlFromDataInCSSPDB", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Generate KML File Classification For CSSPWebTools Visualization.
         /// </summary>
         public static string AppTaskCommandEnumGenerateKMLFileClassificationForCSSPWebToolsVisualization {

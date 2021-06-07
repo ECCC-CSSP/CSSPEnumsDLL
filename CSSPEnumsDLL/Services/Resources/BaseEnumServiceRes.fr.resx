@@ -2341,4 +2341,7 @@
   <data name="LaboratoryEnumValores" xml:space="preserve">
     <value>Valores</value>
   </data>
+  <data name="AppTaskCommandEnumGenerateClassificationInputs_XX_FromDB_kmlFromDataInCSSPDB" xml:space="preserve">
+    <value>Generate ClassificationInputs{0}FromDB.kml</value>
+  </data>
 </root>
