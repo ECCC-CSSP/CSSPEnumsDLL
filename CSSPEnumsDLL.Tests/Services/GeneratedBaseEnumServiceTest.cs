@@ -427,6 +427,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.ClimateSiteLoadCoCoRaHSData:
                             Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumClimateSiteLoadCoCoRaHSData, retStr);
                             break;
+                        case AppTaskCommandEnum.GenerateClassificationInputs_XX_FromDB_kmlFromDataInCSSPDB:
+                            Assert.AreEqual(BaseEnumServiceRes.AppTaskCommandEnumGenerateClassificationInputs_XX_FromDB_kmlFromDataInCSSPDB, retStr);
+                            break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
                             break;
@@ -1467,6 +1470,15 @@ namespace CSSPEnumsDLL.Tests.Services
                             break;
                         case LaboratoryEnum.Valores:
                             Assert.AreEqual(BaseEnumServiceRes.LaboratoryEnumValores, retStr);
+                            break;
+                        case LaboratoryEnum.BureauVeritasBedford:
+                            Assert.AreEqual(BaseEnumServiceRes.LaboratoryEnumBureauVeritasBedford, retStr);
+                            break;
+                        case LaboratoryEnum.BureauVeritasSydney:
+                            Assert.AreEqual(BaseEnumServiceRes.LaboratoryEnumBureauVeritasSydney, retStr);
+                            break;
+                        case LaboratoryEnum.BureauVeritas:
+                            Assert.AreEqual(BaseEnumServiceRes.LaboratoryEnumBureauVeritas, retStr);
                             break;
                         default:
                             Assert.AreEqual(BaseEnumServiceRes.Empty, retStr);
@@ -3755,6 +3767,7 @@ namespace CSSPEnumsDLL.Tests.Services
                         case AppTaskCommandEnum.ProvinceToolsGenerateStats:
                         case AppTaskCommandEnum.MikeScenarioPrepareResults:
                         case AppTaskCommandEnum.ClimateSiteLoadCoCoRaHSData:
+                        case AppTaskCommandEnum.GenerateClassificationInputs_XX_FromDB_kmlFromDataInCSSPDB:
                             Assert.AreEqual("", retStr);
                             break;
                         default:
@@ -4466,6 +4479,9 @@ namespace CSSPEnumsDLL.Tests.Services
                         case LaboratoryEnum.AvalonLaboratoriesInc:
                         case LaboratoryEnum.Maxxam:
                         case LaboratoryEnum.Valores:
+                        case LaboratoryEnum.BureauVeritasBedford:
+                        case LaboratoryEnum.BureauVeritasSydney:
+                        case LaboratoryEnum.BureauVeritas:
                             Assert.AreEqual("", retStr);
                             break;
                         default:

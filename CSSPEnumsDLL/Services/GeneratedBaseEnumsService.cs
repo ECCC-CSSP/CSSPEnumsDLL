@@ -259,6 +259,8 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.AppTaskCommandEnumMikeScenarioPrepareResults;
                 case AppTaskCommandEnum.ClimateSiteLoadCoCoRaHSData:
                     return BaseEnumServiceRes.AppTaskCommandEnumClimateSiteLoadCoCoRaHSData;
+                case AppTaskCommandEnum.GenerateClassificationInputs_XX_FromDB_kmlFromDataInCSSPDB:
+                    return BaseEnumServiceRes.AppTaskCommandEnumGenerateClassificationInputs_XX_FromDB_kmlFromDataInCSSPDB;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -862,6 +864,12 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.LaboratoryEnumMaxxam;
                 case LaboratoryEnum.Valores:
                     return BaseEnumServiceRes.LaboratoryEnumValores;
+                case LaboratoryEnum.BureauVeritasBedford:
+                    return BaseEnumServiceRes.LaboratoryEnumBureauVeritasBedford;
+                case LaboratoryEnum.BureauVeritasSydney:
+                    return BaseEnumServiceRes.LaboratoryEnumBureauVeritasSydney;
+                case LaboratoryEnum.BureauVeritas:
+                    return BaseEnumServiceRes.LaboratoryEnumBureauVeritas;
                 default:
                     return BaseEnumServiceRes.Empty;
             }
@@ -3642,6 +3650,9 @@ namespace CSSPEnumsDLL.Services
                 case LaboratoryEnum.AvalonLaboratoriesInc:
                 case LaboratoryEnum.Maxxam:
                 case LaboratoryEnum.Valores:
+                case LaboratoryEnum.BureauVeritasBedford:
+                case LaboratoryEnum.BureauVeritasSydney:
+                case LaboratoryEnum.BureauVeritas:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.Laboratory);

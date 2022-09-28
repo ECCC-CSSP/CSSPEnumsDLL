@@ -2835,4 +2835,13 @@
   <data name="AppTaskCommandEnumGenerateClassificationInputs_XX_FromDB_kmlFromDataInCSSPDB" xml:space="preserve">
     <value>Generate ClassificationInputs{0}FromDB.kml</value>
   </data>
+  <data name="LaboratoryEnumBureauVeritasBedford" xml:space="preserve">
+    <value>Bureau Veritas Bedford</value>
+  </data>
+  <data name="LaboratoryEnumBureauVeritasSydney" xml:space="preserve">
+    <value>Bureau Veritas Sydney</value>
+  </data>
+  <data name="LaboratoryEnumBureauVeritas" xml:space="preserve">
+    <value>Bureau Veritas</value>
+  </data>
 </root>

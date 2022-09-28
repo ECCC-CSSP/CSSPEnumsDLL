@@ -364,6 +364,9 @@ namespace CSSPEnumsDLL.Enums
         AvalonLaboratoriesInc = 29,
         Maxxam = 30,
         Valores = 31,
+        BureauVeritasBedford = 32,
+        BureauVeritasSydney = 33,
+        BureauVeritas = 34,
     }
     public enum LabSheetStatusEnum
     {

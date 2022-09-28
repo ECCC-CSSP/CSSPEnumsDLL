@@ -19,7 +19,7 @@ namespace CSSPEnumsDLL.Services.Resources {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class BaseEnumServiceRes {
@@ -2742,6 +2742,33 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string LaboratoryEnumBIOEnvironmentCanada {
             get {
                 return ResourceManager.GetString("LaboratoryEnumBIOEnvironmentCanada", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bureau Veritas.
+        /// </summary>
+        public static string LaboratoryEnumBureauVeritas {
+            get {
+                return ResourceManager.GetString("LaboratoryEnumBureauVeritas", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bureau Veritas Bedford.
+        /// </summary>
+        public static string LaboratoryEnumBureauVeritasBedford {
+            get {
+                return ResourceManager.GetString("LaboratoryEnumBureauVeritasBedford", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bureau Veritas Sydney.
+        /// </summary>
+        public static string LaboratoryEnumBureauVeritasSydney {
+            get {
+                return ResourceManager.GetString("LaboratoryEnumBureauVeritasSydney", resourceCulture);
             }
         }
         
