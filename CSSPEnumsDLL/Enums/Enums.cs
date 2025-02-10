@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CSSPEnumsDLL.Enums
+﻿namespace CSSPEnumsDLL.Enums
 {
     #region Enums
     public enum AddressTypeEnum

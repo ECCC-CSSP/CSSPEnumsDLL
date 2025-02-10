@@ -2,11 +2,7 @@ using CSSPEnumsDLL.Enums;
 using CSSPEnumsDLL.Services.Resources;
 using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace CSSPEnumsDLL.Services
 {
@@ -2092,8 +2088,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             AerationTypeEnumTextOrderedList = (from c in AerationTypeEnumTextOrderedList
-                                              orderby c.AerationTypeText
-                                              select c).ToList();
+                                               orderby c.AerationTypeText
+                                               select c).ToList();
 
             return AerationTypeEnumTextOrderedList;
         }
@@ -2107,8 +2103,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             AlarmSystemTypeEnumTextOrderedList = (from c in AlarmSystemTypeEnumTextOrderedList
-                                              orderby c.AlarmSystemTypeText
-                                              select c).ToList();
+                                                  orderby c.AlarmSystemTypeText
+                                                  select c).ToList();
 
             return AlarmSystemTypeEnumTextOrderedList;
         }
@@ -2122,8 +2118,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             AnalysisCalculationTypeEnumTextOrderedList = (from c in AnalysisCalculationTypeEnumTextOrderedList
-                                              orderby c.AnalysisCalculationTypeText
-                                              select c).ToList();
+                                                          orderby c.AnalysisCalculationTypeText
+                                                          select c).ToList();
 
             return AnalysisCalculationTypeEnumTextOrderedList;
         }
@@ -2137,8 +2133,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             AnalysisReportExportCommandEnumTextOrderedList = (from c in AnalysisReportExportCommandEnumTextOrderedList
-                                              orderby c.AnalysisReportExportCommandText
-                                              select c).ToList();
+                                                              orderby c.AnalysisReportExportCommandText
+                                                              select c).ToList();
 
             return AnalysisReportExportCommandEnumTextOrderedList;
         }
@@ -2152,8 +2148,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             AnalyzeMethodEnumTextOrderedList = (from c in AnalyzeMethodEnumTextOrderedList
-                                              orderby c.AnalyzeMethodText
-                                              select c).ToList();
+                                                orderby c.AnalyzeMethodText
+                                                select c).ToList();
 
             return AnalyzeMethodEnumTextOrderedList;
         }
@@ -2167,8 +2163,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             AppTaskCommandEnumTextOrderedList = (from c in AppTaskCommandEnumTextOrderedList
-                                              orderby c.AppTaskCommandText
-                                              select c).ToList();
+                                                 orderby c.AppTaskCommandText
+                                                 select c).ToList();
 
             return AppTaskCommandEnumTextOrderedList;
         }
@@ -2182,8 +2178,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             AppTaskStatusEnumTextOrderedList = (from c in AppTaskStatusEnumTextOrderedList
-                                              orderby c.AppTaskStatusText
-                                              select c).ToList();
+                                                orderby c.AppTaskStatusText
+                                                select c).ToList();
 
             return AppTaskStatusEnumTextOrderedList;
         }
@@ -2197,8 +2193,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             BeaufortScaleEnumTextOrderedList = (from c in BeaufortScaleEnumTextOrderedList
-                                              orderby c.BeaufortScaleText
-                                              select c).ToList();
+                                                orderby c.BeaufortScaleText
+                                                select c).ToList();
 
             return BeaufortScaleEnumTextOrderedList;
         }
@@ -2212,8 +2208,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             BoxModelResultTypeEnumTextOrderedList = (from c in BoxModelResultTypeEnumTextOrderedList
-                                              orderby c.BoxModelResultTypeText
-                                              select c).ToList();
+                                                     orderby c.BoxModelResultTypeText
+                                                     select c).ToList();
 
             return BoxModelResultTypeEnumTextOrderedList;
         }
@@ -2227,8 +2223,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             CanOverflowTypeEnumTextOrderedList = (from c in CanOverflowTypeEnumTextOrderedList
-                                              orderby c.CanOverflowTypeText
-                                              select c).ToList();
+                                                  orderby c.CanOverflowTypeText
+                                                  select c).ToList();
 
             return CanOverflowTypeEnumTextOrderedList;
         }
@@ -2242,8 +2238,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             ClassificationTypeEnumTextOrderedList = (from c in ClassificationTypeEnumTextOrderedList
-                                              orderby c.ClassificationTypeText
-                                              select c).ToList();
+                                                     orderby c.ClassificationTypeText
+                                                     select c).ToList();
 
             return ClassificationTypeEnumTextOrderedList;
         }
@@ -2257,8 +2253,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             CollectionSystemTypeEnumTextOrderedList = (from c in CollectionSystemTypeEnumTextOrderedList
-                                              orderby c.CollectionSystemTypeText
-                                              select c).ToList();
+                                                       orderby c.CollectionSystemTypeText
+                                                       select c).ToList();
 
             return CollectionSystemTypeEnumTextOrderedList;
         }
@@ -2272,8 +2268,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             ContactTitleEnumTextOrderedList = (from c in ContactTitleEnumTextOrderedList
-                                              orderby c.ContactTitleText
-                                              select c).ToList();
+                                               orderby c.ContactTitleText
+                                               select c).ToList();
 
             return ContactTitleEnumTextOrderedList;
         }
@@ -2287,8 +2283,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             CSSPWQInputSheetTypeEnumTextOrderedList = (from c in CSSPWQInputSheetTypeEnumTextOrderedList
-                                              orderby c.CSSPWQInputSheetTypeText
-                                              select c).ToList();
+                                                       orderby c.CSSPWQInputSheetTypeText
+                                                       select c).ToList();
 
             return CSSPWQInputSheetTypeEnumTextOrderedList;
         }
@@ -2302,8 +2298,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             CSSPWQInputTypeEnumTextOrderedList = (from c in CSSPWQInputTypeEnumTextOrderedList
-                                              orderby c.CSSPWQInputTypeText
-                                              select c).ToList();
+                                                  orderby c.CSSPWQInputTypeText
+                                                  select c).ToList();
 
             return CSSPWQInputTypeEnumTextOrderedList;
         }
@@ -2317,8 +2313,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             DailyOrHourlyDataEnumTextOrderedList = (from c in DailyOrHourlyDataEnumTextOrderedList
-                                              orderby c.DailyOrHourlyDataText
-                                              select c).ToList();
+                                                    orderby c.DailyOrHourlyDataText
+                                                    select c).ToList();
 
             return DailyOrHourlyDataEnumTextOrderedList;
         }
@@ -2332,8 +2328,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             DisinfectionTypeEnumTextOrderedList = (from c in DisinfectionTypeEnumTextOrderedList
-                                              orderby c.DisinfectionTypeText
-                                              select c).ToList();
+                                                   orderby c.DisinfectionTypeText
+                                                   select c).ToList();
 
             return DisinfectionTypeEnumTextOrderedList;
         }
@@ -2347,8 +2343,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             DrogueTypeEnumTextOrderedList = (from c in DrogueTypeEnumTextOrderedList
-                                              orderby c.DrogueTypeText
-                                              select c).ToList();
+                                             orderby c.DrogueTypeText
+                                             select c).ToList();
 
             return DrogueTypeEnumTextOrderedList;
         }
@@ -2362,8 +2358,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             EmailTypeEnumTextOrderedList = (from c in EmailTypeEnumTextOrderedList
-                                              orderby c.EmailTypeText
-                                              select c).ToList();
+                                            orderby c.EmailTypeText
+                                            select c).ToList();
 
             return EmailTypeEnumTextOrderedList;
         }
@@ -2377,8 +2373,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             ExcelExportShowDataTypeEnumTextOrderedList = (from c in ExcelExportShowDataTypeEnumTextOrderedList
-                                              orderby c.ExcelExportShowDataTypeText
-                                              select c).ToList();
+                                                          orderby c.ExcelExportShowDataTypeText
+                                                          select c).ToList();
 
             return ExcelExportShowDataTypeEnumTextOrderedList;
         }
@@ -2392,8 +2388,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             FacilityTypeEnumTextOrderedList = (from c in FacilityTypeEnumTextOrderedList
-                                              orderby c.FacilityTypeText
-                                              select c).ToList();
+                                               orderby c.FacilityTypeText
+                                               select c).ToList();
 
             return FacilityTypeEnumTextOrderedList;
         }
@@ -2422,8 +2418,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             FileStatusEnumTextOrderedList = (from c in FileStatusEnumTextOrderedList
-                                              orderby c.FileStatusText
-                                              select c).ToList();
+                                             orderby c.FileStatusText
+                                             select c).ToList();
 
             return FileStatusEnumTextOrderedList;
         }
@@ -2437,8 +2433,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             FileTypeEnumTextOrderedList = (from c in FileTypeEnumTextOrderedList
-                                              orderby c.FileTypeText
-                                              select c).ToList();
+                                           orderby c.FileTypeText
+                                           select c).ToList();
 
             return FileTypeEnumTextOrderedList;
         }
@@ -2452,8 +2448,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             InfrastructureTypeEnumTextOrderedList = (from c in InfrastructureTypeEnumTextOrderedList
-                                              orderby c.InfrastructureTypeText
-                                              select c).ToList();
+                                                     orderby c.InfrastructureTypeText
+                                                     select c).ToList();
 
             return InfrastructureTypeEnumTextOrderedList;
         }
@@ -2467,8 +2463,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             KMZActionEnumTextOrderedList = (from c in KMZActionEnumTextOrderedList
-                                              orderby c.KMZActionText
-                                              select c).ToList();
+                                            orderby c.KMZActionText
+                                            select c).ToList();
 
             return KMZActionEnumTextOrderedList;
         }
@@ -2482,8 +2478,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             LaboratoryEnumTextOrderedList = (from c in LaboratoryEnumTextOrderedList
-                                              orderby c.LaboratoryText
-                                              select c).ToList();
+                                             orderby c.LaboratoryText
+                                             select c).ToList();
 
             return LaboratoryEnumTextOrderedList;
         }
@@ -2497,8 +2493,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             LabSheetStatusEnumTextOrderedList = (from c in LabSheetStatusEnumTextOrderedList
-                                              orderby c.LabSheetStatusText
-                                              select c).ToList();
+                                                 orderby c.LabSheetStatusText
+                                                 select c).ToList();
 
             return LabSheetStatusEnumTextOrderedList;
         }
@@ -2512,8 +2508,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             LabSheetTypeEnumTextOrderedList = (from c in LabSheetTypeEnumTextOrderedList
-                                              orderby c.LabSheetTypeText
-                                              select c).ToList();
+                                               orderby c.LabSheetTypeText
+                                               select c).ToList();
 
             return LabSheetTypeEnumTextOrderedList;
         }
@@ -2527,8 +2523,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             LanguageEnumTextOrderedList = (from c in LanguageEnumTextOrderedList
-                                              orderby c.LanguageText
-                                              select c).ToList();
+                                           orderby c.LanguageText
+                                           select c).ToList();
 
             return LanguageEnumTextOrderedList;
         }
@@ -2542,8 +2538,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             DBCommandEnumTextOrderedList = (from c in DBCommandEnumTextOrderedList
-                                              orderby c.DBCommandText
-                                              select c).ToList();
+                                            orderby c.DBCommandText
+                                            select c).ToList();
 
             return DBCommandEnumTextOrderedList;
         }
@@ -2557,8 +2553,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             LogCommandEnumTextOrderedList = (from c in LogCommandEnumTextOrderedList
-                                              orderby c.LogCommandText
-                                              select c).ToList();
+                                             orderby c.LogCommandText
+                                             select c).ToList();
 
             return LogCommandEnumTextOrderedList;
         }
@@ -2572,8 +2568,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             MapInfoDrawTypeEnumTextOrderedList = (from c in MapInfoDrawTypeEnumTextOrderedList
-                                              orderby c.MapInfoDrawTypeText
-                                              select c).ToList();
+                                                  orderby c.MapInfoDrawTypeText
+                                                  select c).ToList();
 
             return MapInfoDrawTypeEnumTextOrderedList;
         }
@@ -2587,8 +2583,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             MikeBoundaryConditionLevelOrVelocityEnumTextOrderedList = (from c in MikeBoundaryConditionLevelOrVelocityEnumTextOrderedList
-                                              orderby c.MikeBoundaryConditionLevelOrVelocityText
-                                              select c).ToList();
+                                                                       orderby c.MikeBoundaryConditionLevelOrVelocityText
+                                                                       select c).ToList();
 
             return MikeBoundaryConditionLevelOrVelocityEnumTextOrderedList;
         }
@@ -2602,8 +2598,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             MikeScenarioSpecialResultKMLTypeEnumTextOrderedList = (from c in MikeScenarioSpecialResultKMLTypeEnumTextOrderedList
-                                              orderby c.MikeScenarioSpecialResultKMLTypeText
-                                              select c).ToList();
+                                                                   orderby c.MikeScenarioSpecialResultKMLTypeText
+                                                                   select c).ToList();
 
             return MikeScenarioSpecialResultKMLTypeEnumTextOrderedList;
         }
@@ -2617,8 +2613,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             MWQMSiteLatestClassificationEnumTextOrderedList = (from c in MWQMSiteLatestClassificationEnumTextOrderedList
-                                              orderby c.MWQMSiteLatestClassificationText
-                                              select c).ToList();
+                                                               orderby c.MWQMSiteLatestClassificationText
+                                                               select c).ToList();
 
             return MWQMSiteLatestClassificationEnumTextOrderedList;
         }
@@ -2632,8 +2628,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             PolSourceInactiveReasonEnumTextOrderedList = (from c in PolSourceInactiveReasonEnumTextOrderedList
-                                              orderby c.PolSourceInactiveReasonText
-                                              select c).ToList();
+                                                          orderby c.PolSourceInactiveReasonText
+                                                          select c).ToList();
 
             return PolSourceInactiveReasonEnumTextOrderedList;
         }
@@ -2647,8 +2643,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             PolSourceIssueRiskEnumTextOrderedList = (from c in PolSourceIssueRiskEnumTextOrderedList
-                                              orderby c.PolSourceIssueRiskText
-                                              select c).ToList();
+                                                     orderby c.PolSourceIssueRiskText
+                                                     select c).ToList();
 
             return PolSourceIssueRiskEnumTextOrderedList;
         }
@@ -2662,8 +2658,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             PositionEnumTextOrderedList = (from c in PositionEnumTextOrderedList
-                                              orderby c.PositionText
-                                              select c).ToList();
+                                           orderby c.PositionText
+                                           select c).ToList();
 
             return PositionEnumTextOrderedList;
         }
@@ -2677,8 +2673,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             PreliminaryTreatmentTypeEnumTextOrderedList = (from c in PreliminaryTreatmentTypeEnumTextOrderedList
-                                              orderby c.PreliminaryTreatmentTypeText
-                                              select c).ToList();
+                                                           orderby c.PreliminaryTreatmentTypeText
+                                                           select c).ToList();
 
             return PreliminaryTreatmentTypeEnumTextOrderedList;
         }
@@ -2692,8 +2688,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             PrimaryTreatmentTypeEnumTextOrderedList = (from c in PrimaryTreatmentTypeEnumTextOrderedList
-                                              orderby c.PrimaryTreatmentTypeText
-                                              select c).ToList();
+                                                       orderby c.PrimaryTreatmentTypeText
+                                                       select c).ToList();
 
             return PrimaryTreatmentTypeEnumTextOrderedList;
         }
@@ -2707,8 +2703,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             ReportFileTypeEnumTextOrderedList = (from c in ReportFileTypeEnumTextOrderedList
-                                              orderby c.ReportFileTypeText
-                                              select c).ToList();
+                                                 orderby c.ReportFileTypeText
+                                                 select c).ToList();
 
             return ReportFileTypeEnumTextOrderedList;
         }
@@ -2722,8 +2718,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             ReportGenerateObjectsKeywordEnumTextOrderedList = (from c in ReportGenerateObjectsKeywordEnumTextOrderedList
-                                              orderby c.ReportGenerateObjectsKeywordText
-                                              select c).ToList();
+                                                               orderby c.ReportGenerateObjectsKeywordText
+                                                               select c).ToList();
 
             return ReportGenerateObjectsKeywordEnumTextOrderedList;
         }
@@ -2737,8 +2733,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             SameDayNextDayEnumTextOrderedList = (from c in SameDayNextDayEnumTextOrderedList
-                                              orderby c.SameDayNextDayText
-                                              select c).ToList();
+                                                 orderby c.SameDayNextDayText
+                                                 select c).ToList();
 
             return SameDayNextDayEnumTextOrderedList;
         }
@@ -2752,8 +2748,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             SampleMatrixEnumTextOrderedList = (from c in SampleMatrixEnumTextOrderedList
-                                              orderby c.SampleMatrixText
-                                              select c).ToList();
+                                               orderby c.SampleMatrixText
+                                               select c).ToList();
 
             return SampleMatrixEnumTextOrderedList;
         }
@@ -2767,8 +2763,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             SampleStatusEnumTextOrderedList = (from c in SampleStatusEnumTextOrderedList
-                                              orderby c.SampleStatusText
-                                              select c).ToList();
+                                               orderby c.SampleStatusText
+                                               select c).ToList();
 
             return SampleStatusEnumTextOrderedList;
         }
@@ -2782,8 +2778,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             SampleTypeEnumTextOrderedList = (from c in SampleTypeEnumTextOrderedList
-                                              orderby c.SampleTypeText
-                                              select c).ToList();
+                                             orderby c.SampleTypeText
+                                             select c).ToList();
 
             return SampleTypeEnumTextOrderedList;
         }
@@ -2797,8 +2793,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             SamplingPlanTypeEnumTextOrderedList = (from c in SamplingPlanTypeEnumTextOrderedList
-                                              orderby c.SamplingPlanTypeText
-                                              select c).ToList();
+                                                   orderby c.SamplingPlanTypeText
+                                                   select c).ToList();
 
             return SamplingPlanTypeEnumTextOrderedList;
         }
@@ -2812,8 +2808,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             ScenarioStatusEnumTextOrderedList = (from c in ScenarioStatusEnumTextOrderedList
-                                              orderby c.ScenarioStatusText
-                                              select c).ToList();
+                                                 orderby c.ScenarioStatusText
+                                                 select c).ToList();
 
             return ScenarioStatusEnumTextOrderedList;
         }
@@ -2827,8 +2823,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             SearchTagEnumTextOrderedList = (from c in SearchTagEnumTextOrderedList
-                                              orderby c.SearchTagText
-                                              select c).ToList();
+                                            orderby c.SearchTagText
+                                            select c).ToList();
 
             return SearchTagEnumTextOrderedList;
         }
@@ -2842,8 +2838,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             SecondaryTreatmentTypeEnumTextOrderedList = (from c in SecondaryTreatmentTypeEnumTextOrderedList
-                                              orderby c.SecondaryTreatmentTypeText
-                                              select c).ToList();
+                                                         orderby c.SecondaryTreatmentTypeText
+                                                         select c).ToList();
 
             return SecondaryTreatmentTypeEnumTextOrderedList;
         }
@@ -2857,8 +2853,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             SpecialTableTypeEnumTextOrderedList = (from c in SpecialTableTypeEnumTextOrderedList
-                                              orderby c.SpecialTableTypeText
-                                              select c).ToList();
+                                                   orderby c.SpecialTableTypeText
+                                                   select c).ToList();
 
             return SpecialTableTypeEnumTextOrderedList;
         }
@@ -2872,8 +2868,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             StorageDataTypeEnumTextOrderedList = (from c in StorageDataTypeEnumTextOrderedList
-                                              orderby c.StorageDataTypeText
-                                              select c).ToList();
+                                                  orderby c.StorageDataTypeText
+                                                  select c).ToList();
 
             return StorageDataTypeEnumTextOrderedList;
         }
@@ -2887,8 +2883,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             StreetTypeEnumTextOrderedList = (from c in StreetTypeEnumTextOrderedList
-                                              orderby c.StreetTypeText
-                                              select c).ToList();
+                                             orderby c.StreetTypeText
+                                             select c).ToList();
 
             return StreetTypeEnumTextOrderedList;
         }
@@ -2902,8 +2898,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             TelTypeEnumTextOrderedList = (from c in TelTypeEnumTextOrderedList
-                                              orderby c.TelTypeText
-                                              select c).ToList();
+                                          orderby c.TelTypeText
+                                          select c).ToList();
 
             return TelTypeEnumTextOrderedList;
         }
@@ -2917,8 +2913,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             TertiaryTreatmentTypeEnumTextOrderedList = (from c in TertiaryTreatmentTypeEnumTextOrderedList
-                                              orderby c.TertiaryTreatmentTypeText
-                                              select c).ToList();
+                                                        orderby c.TertiaryTreatmentTypeText
+                                                        select c).ToList();
 
             return TertiaryTreatmentTypeEnumTextOrderedList;
         }
@@ -2932,8 +2928,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             TideDataTypeEnumTextOrderedList = (from c in TideDataTypeEnumTextOrderedList
-                                              orderby c.TideDataTypeText
-                                              select c).ToList();
+                                               orderby c.TideDataTypeText
+                                               select c).ToList();
 
             return TideDataTypeEnumTextOrderedList;
         }
@@ -2947,8 +2943,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             TideTextEnumTextOrderedList = (from c in TideTextEnumTextOrderedList
-                                              orderby c.TideTextText
-                                              select c).ToList();
+                                           orderby c.TideTextText
+                                           select c).ToList();
 
             return TideTextEnumTextOrderedList;
         }
@@ -2962,8 +2958,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             TranslationStatusEnumTextOrderedList = (from c in TranslationStatusEnumTextOrderedList
-                                              orderby c.TranslationStatusText
-                                              select c).ToList();
+                                                    orderby c.TranslationStatusText
+                                                    select c).ToList();
 
             return TranslationStatusEnumTextOrderedList;
         }
@@ -2977,8 +2973,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             TreatmentTypeEnumTextOrderedList = (from c in TreatmentTypeEnumTextOrderedList
-                                              orderby c.TreatmentTypeText
-                                              select c).ToList();
+                                                orderby c.TreatmentTypeText
+                                                select c).ToList();
 
             return TreatmentTypeEnumTextOrderedList;
         }
@@ -2992,8 +2988,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             TVAuthEnumTextOrderedList = (from c in TVAuthEnumTextOrderedList
-                                              orderby c.TVAuthText
-                                              select c).ToList();
+                                         orderby c.TVAuthText
+                                         select c).ToList();
 
             return TVAuthEnumTextOrderedList;
         }
@@ -3007,8 +3003,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             TVTypeEnumTextOrderedList = (from c in TVTypeEnumTextOrderedList
-                                              orderby c.TVTypeText
-                                              select c).ToList();
+                                         orderby c.TVTypeText
+                                         select c).ToList();
 
             return TVTypeEnumTextOrderedList;
         }
@@ -3022,8 +3018,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             ValveTypeEnumTextOrderedList = (from c in ValveTypeEnumTextOrderedList
-                                              orderby c.ValveTypeText
-                                              select c).ToList();
+                                            orderby c.ValveTypeText
+                                            select c).ToList();
 
             return ValveTypeEnumTextOrderedList;
         }
@@ -3037,8 +3033,8 @@ namespace CSSPEnumsDLL.Services
             }
 
             WebTideDataSetEnumTextOrderedList = (from c in WebTideDataSetEnumTextOrderedList
-                                              orderby c.WebTideDataSetText
-                                              select c).ToList();
+                                                 orderby c.WebTideDataSetText
+                                                 select c).ToList();
 
             return WebTideDataSetEnumTextOrderedList;
         }
