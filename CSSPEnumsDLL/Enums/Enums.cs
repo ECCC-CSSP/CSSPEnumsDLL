@@ -940,6 +940,7 @@
         OpenDataNational = 85,
         PolSourceSiteMikeScenario = 86,
         SubsectorTools = 87,
+        PollutionSourceInputTool = 88,
     }
     public enum ValveTypeEnum
     {

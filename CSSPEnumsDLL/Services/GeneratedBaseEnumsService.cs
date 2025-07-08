@@ -4444,6 +4444,7 @@ namespace CSSPEnumsDLL.Services
                 case TVTypeEnum.OpenDataNational:
                 case TVTypeEnum.PolSourceSiteMikeScenario:
                 case TVTypeEnum.SubsectorTools:
+                case TVTypeEnum.PollutionSourceInputTool:
                     return "";
                 default:
                     return string.Format(BaseEnumServiceRes._IsRequired, BaseEnumServiceRes.TVType);
