@@ -1,12 +1,6 @@
 using CSSPEnumsDLL.Enums;
 using CSSPEnumsDLL.Services.Resources;
-using System;
 using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace CSSPEnumsDLL.Services
 {
@@ -3241,7 +3235,7 @@ namespace CSSPEnumsDLL.Services
         public string GetEnumText_PolSourceObsInfoEnum(PolSourceObsInfoEnum? polSourceInfo)
         {
             if (polSourceInfo == null)
-                 return BaseEnumServiceRes.Empty;
+                return BaseEnumServiceRes.Empty;
 
             switch (polSourceInfo)
             {
