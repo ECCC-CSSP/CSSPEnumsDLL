@@ -2728,6 +2728,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to AGAT Laboratories St John&apos;s.
+        /// </summary>
+        public static string LaboratoryEnumAGATLaboratories {
+            get {
+                return ResourceManager.GetString("LaboratoryEnumAGATLaboratories", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Avalon Laboratories Inc..
         /// </summary>
         public static string LaboratoryEnumAvalonLaboratoriesInc {
@@ -2735,7 +2744,7 @@ namespace CSSPEnumsDLL.Services.Resources {
                 return ResourceManager.GetString("LaboratoryEnumAvalonLaboratoriesInc", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to BIO Environment Canada.
         /// </summary>
@@ -2841,6 +2850,15 @@ namespace CSSPEnumsDLL.Services.Resources {
         public static string LaboratoryEnumMonctonEnvironmentCanada {
             get {
                 return ResourceManager.GetString("LaboratoryEnumMonctonEnvironmentCanada", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NAFC EnvironmentCanada.
+        /// </summary>
+        public static string LaboratoryEnumNAFCEnvironmentCanada {
+            get {
+                return ResourceManager.GetString("LaboratoryEnumNAFCEnvironmentCanada", resourceCulture);
             }
         }
         

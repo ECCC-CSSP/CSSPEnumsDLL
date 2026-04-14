@@ -1798,6 +1798,12 @@
   <data name="LaboratoryEnumAvalonLaboratoriesInc" xml:space="preserve">
     <value>Avalon Laboratories Inc.</value>
   </data>
+  <data name="LaboratoryEnumNAFCEnvironmentCanada" xml:space="preserve">
+    <value>NAFC Environnement Canada</value>
+  </data>
+  <data name="LaboratoryEnumAGATLaboratories" xml:space="preserve">
+    <value>Laboratoires AGAT St John's</value>
+  </data>
   <data name="ReportTreeNodeTypeEnumReportSubsectorSpecialTableType" xml:space="preserve">
     <value>Type de tableau special pour sous-secteur</value>
   </data>

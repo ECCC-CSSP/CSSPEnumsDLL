@@ -866,6 +866,10 @@ namespace CSSPEnumsDLL.Services
                     return BaseEnumServiceRes.LaboratoryEnumBureauVeritasSydney;
                 case LaboratoryEnum.BureauVeritas:
                     return BaseEnumServiceRes.LaboratoryEnumBureauVeritas;
+                case LaboratoryEnum.AGATLaboratories:
+                    return BaseEnumServiceRes.LaboratoryEnumAGATLaboratories;
+                case LaboratoryEnum.NAFCEnvironmentCanada:
+                    return BaseEnumServiceRes.LaboratoryEnumNAFCEnvironmentCanada;
                 default:
                     return BaseEnumServiceRes.Empty;
             }

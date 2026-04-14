@@ -361,6 +361,9 @@
         BureauVeritasBedford = 32,
         BureauVeritasSydney = 33,
         BureauVeritas = 34,
+        NAFCEnvironmentCanada = 35,
+        AGATLaboratories = 36,
+
     }
     public enum LabSheetStatusEnum
     {

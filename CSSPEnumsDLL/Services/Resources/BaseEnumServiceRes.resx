@@ -2292,6 +2292,12 @@
   <data name="LaboratoryEnumAvalonLaboratoriesInc" xml:space="preserve">
     <value>Avalon Laboratories Inc.</value>
   </data>
+  <data name="LaboratoryEnumNAFCEnvironmentCanada" xml:space="preserve">
+    <value>NAFC EnvironmentCanada</value>
+  </data>
+  <data name="LaboratoryEnumAGATLaboratories" xml:space="preserve">
+    <value>AGAT Laboratories St John's</value>
+  </data>
   <data name="ReportTreeNodeTypeEnumReportSubsectorSpecialTableType" xml:space="preserve">
     <value>ReportSubsectorSpecialTableType</value>
   </data>
